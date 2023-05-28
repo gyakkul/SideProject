@@ -1,0 +1,74 @@
+Upgrading the bundled .NET SDK
+
+
+High level:
+i.   Identify the new .NET SDK version to be installed 
+ii.  Download & submit dotnet files for Linux and Mac
+iii. Download & submit dotnet files for Windows
+iv.  Upgrade, test, and submit any code changes
+v.   Delete the old version from perforce
+
+
+i.   Identify the new .NET SDK version to be installed 
+e.g. by looking here: https://dotnet.microsoft.com/en-us/download/dotnet
+Choose a .NET SDK version - not the .NET version 
+i.e. use 6.0.202, not 6.0.4
+
+
+Let's assume we're upgrading from 6.0.200 to 6.0.202...
+
+
+ii.  Download & submit dotnet files for Linux and Mac
+
+On a Mac or Linux system, from a command prompt:
+
+1. cd into Engine/Binaries/ThirdParty/DotNet
+
+2. Run './download.sh 6.0.202' 
+(This command will download and extract installations for linux, mac-x64, and mac-arm64)
+
+3. Submit Engine/Binaries/ThirdParty/DotNet/6.0.202/... to perforce
+
+
+iii. Download & submit dotnet files for Windows
+
+On a Windows sytem, from a powershell window:
+
+1. cd into Engine\Binaries\ThirdParty\DotNet
+
+2. .\download.ps1 6.0.202
+
+3. Submit Engine/Binaries/ThirdParty/DotNet/6.0.202/windows/... to perforce
+
+
+iv.  Upgrade, test, and submit code changes
+
+1. Replace references to the old SDK version everywhere that is needed e.g. replace 6.0.200 with 6.0.202 in (at least) these files
+
+    Engine\Source\Programs\Shared\EpicGames.Build\Unreal.cs
+    Engine\Build\BatchFiles\GetDotnetPath.bat
+    Engine\Build\BatchFiles\Linux\SetupDotnet.sh
+    Engine\Build\BatchFiles\Mac\SetupDotnet.sh
+    Engine\Build\InstalledEngineFilters.xml
+    Engine\Build\Rsync\RsyncEngine.txt
+
+   Find any others that reference the old version number.
+
+2. Ensure C# projects compile using the new .NET SDK - especially 
+    UnrealBuildTool (use GenerateProjectFiles.bat), 
+    AutomationTool and all its script modules (RunUAT.bat -List)
+    IncludeTool (via Horde preflight static analysis option)
+
+   Building via Visual Studio will not exercise the newly-installed .NET SDK.
+
+3. Test vigorously, including generous preflighting.
+
+4. Submit changed files
+
+5. Set a reminder for a few days from now
+
+
+v.   Delete the old version
+
+When the reminder fires, assuming all is well, delete the old dotnet directory from perforce
+    e.g p4 delete Engine/Binaries/ThirdParty/DotNet/6.0.200/...
