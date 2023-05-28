@@ -1,0 +1,36 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AppleARKit.cpp.obj": [
+			"AppleARKit.init.gen.cpp.obj",
+			"AppleARKitCamera.gen.cpp.obj",
+			"AppleARKitFrame.gen.cpp.obj",
+			"AppleARKitLightEstimate.gen.cpp.obj",
+			"AppleARKitSettings.gen.cpp.obj",
+			"AppleARKitTextures.gen.cpp.obj",
+			"AppleARKitTimecodeProvider.gen.cpp.obj",
+			"AppleARKitTrackable.gen.cpp.obj",
+			"AppleARKitVideoOverlay.gen.cpp.obj",
+			"ARKitGeoTrackingSupport.gen.cpp.obj",
+			"ARKitTrackables.gen.cpp.obj",
+			"ExternalTextureMaterialExpression.gen.cpp.obj",
+			"AppleARKitCamera.cpp.obj",
+			"AppleARKitConversion.cpp.obj",
+			"AppleARKitFrame.cpp.obj",
+			"AppleARKitLightEstimate.cpp.obj",
+			"AppleARKitMeshData.cpp.obj",
+			"AppleARKitModule.cpp.obj",
+			"AppleARKitSessionDelegate.cpp.obj",
+			"AppleARKitSystem.cpp.obj",
+			"AppleARKitTextures.cpp.obj",
+			"AppleARKitTimecodeProvider.cpp.obj",
+			"AppleARKitTrackable.cpp.obj",
+			"AppleARKitVideoOverlay.cpp.obj",
+			"ARKitCoachingOverlay.cpp.obj",
+			"ARKitGeoTrackingSupport.cpp.obj",
+			"ARKitTrackables.cpp.obj",
+			"ExternalTextureGuid.cpp.obj",
+			"ExternalTextureMaterialExpression.cpp.obj"
+		]
+	}
+}

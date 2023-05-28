@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MemoryUsageQueries.cpp.obj": [
+			"MemoryUsageQueries.init.gen.cpp.obj",
+			"MemoryUsageQueriesConfig.gen.cpp.obj",
+			"MemoryUsageInfoProvider.cpp.obj",
+			"MemoryUsageQueries.cpp.obj",
+			"MemoryUsageQueriesModule.cpp.obj"
+		]
+	}
+}

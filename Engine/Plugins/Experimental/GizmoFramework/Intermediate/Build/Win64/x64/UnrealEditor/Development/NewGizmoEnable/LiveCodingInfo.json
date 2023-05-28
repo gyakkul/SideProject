@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NewGizmoEnable.cpp.obj": [
+			"NewGizmoEnable.cpp.obj",
+			"NewGizmoEnableCommands.cpp.obj"
+		]
+	}
+}

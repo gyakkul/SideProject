@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnalyticsBlueprintLibrary.cpp.obj": [
+			"AnalyticsBlueprintLibrary.init.gen.cpp.obj",
+			"AnalyticsBlueprintLibrary.cpp.obj",
+			"AnalyticsBlueprintLibraryModule.cpp.obj"
+		]
+	}
+}

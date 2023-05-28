@@ -1,0 +1,42 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SmartObjectsModule.cpp.obj": [
+			"EnvQueryGenerator_SmartObjects.gen.cpp.obj",
+			"EnvQueryItemType_SmartObject.gen.cpp.obj",
+			"SmartObjectAnnotation.gen.cpp.obj",
+			"SmartObjectSettings.gen.cpp.obj",
+			"SmartObjectsModule.init.gen.cpp.obj",
+			"SmartObjectWorldConditionBase.gen.cpp.obj",
+			"SmartObjectSlotEntryAnnotation.cpp.obj",
+			"SmartObjectSlotLinkAnnotation.cpp.obj",
+			"BlackboardKeyType_SOClaimHandle.cpp.obj",
+			"EnvQueryGenerator_SmartObjects.cpp.obj",
+			"EnvQueryItemType_SmartObject.cpp.obj",
+			"GameplayDebuggerCategory_SmartObject.cpp.obj",
+			"GenericSmartObject.cpp.obj",
+			"SmartObjectBlueprintFunctionLibrary.cpp.obj",
+			"SmartObjectCollection.cpp.obj",
+			"SmartObjectComponent.cpp.obj",
+			"SmartObjectContainerRenderingComponent.cpp.obj",
+			"SmartObjectDebugRenderingComponent.cpp.obj",
+			"SmartObjectDebugSceneProxy.cpp.obj",
+			"SmartObjectDefinition.cpp.obj",
+			"SmartObjectHashGrid.cpp.obj",
+			"SmartObjectOctree.cpp.obj",
+			"SmartObjectPersistentCollection.cpp.obj",
+			"SmartObjectRenderingComponent.cpp.obj",
+			"SmartObjectRuntime.cpp.obj",
+			"SmartObjectsModule.cpp.obj",
+			"SmartObjectSubsystem.cpp.obj",
+			"SmartObjectSubsystemRenderingActor.cpp.obj",
+			"SmartObjectTestingActor.cpp.obj",
+			"SmartObjectTypes.cpp.obj",
+			"SmartObjectVisualizationContext.cpp.obj",
+			"SmartObjectWorldConditionObjectTagQuery.cpp.obj",
+			"SmartObjectWorldConditionSchema.cpp.obj",
+			"SmartObjectWorldConditionSlotTagQuery.cpp.obj",
+			"WorldCondition_SmartObjectActorTagQuery.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidPlatformEditor.cpp.obj": [
+			"AndroidPlatformEditor.init.gen.cpp.obj",
+			"AndroidLicenseDialog.cpp.obj",
+			"AndroidPlatformEditorModule.cpp.obj",
+			"AndroidSDKSettings.cpp.obj",
+			"AndroidSDKSettingsCustomization.cpp.obj",
+			"AndroidTargetSettingsCustomization.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkCamera.cpp.obj": [
+			"LiveLinkCamera.init.gen.cpp.obj",
+			"LiveLinkCameraController.gen.cpp.obj",
+			"LiveLinkCamera.cpp.obj",
+			"LiveLinkCameraController.cpp.obj"
+		]
+	}
+}

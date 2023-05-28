@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueprintEditorLibrary.cpp.obj": [
+			"BlueprintEditorLibrary.gen.cpp.obj",
+			"BlueprintEditorLibrary.init.gen.cpp.obj",
+			"BlueprintEditorLibrary.cpp.obj",
+			"BlueprintEditorLibraryModule.cpp.obj"
+		]
+	}
+}

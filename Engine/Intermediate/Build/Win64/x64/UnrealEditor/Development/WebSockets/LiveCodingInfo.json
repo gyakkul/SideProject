@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebSockets.cpp.obj": [
+			"LwsWebSocket.cpp.obj",
+			"LwsWebSocketsManager.cpp.obj",
+			"WebSocketsModule.cpp.obj",
+			"WinHttpConnectionWebSocket.cpp.obj",
+			"WinHttpWebSocketErrorHelper.cpp.obj",
+			"WinHttpWebSocketTypes.cpp.obj",
+			"WinHttpWebSocket.cpp.obj",
+			"WinHttpWebSocketsManager.cpp.obj"
+		]
+	}
+}

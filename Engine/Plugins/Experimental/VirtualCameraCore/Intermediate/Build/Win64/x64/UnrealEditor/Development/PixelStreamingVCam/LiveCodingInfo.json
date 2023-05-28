@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelStreamingVCam.cpp.obj": [
+			"PixelStreamingMediaCapture.gen.cpp.obj",
+			"PixelStreamingMediaOutput.gen.cpp.obj",
+			"PixelStreamingVCam.init.gen.cpp.obj",
+			"VCamPixelStreamingLiveLink.gen.cpp.obj",
+			"VCamPixelStreamingSession.gen.cpp.obj",
+			"VCamPixelStreamingSubsystem.gen.cpp.obj",
+			"PixelStreamingMediaCapture.cpp.obj",
+			"PixelStreamingMediaOutput.cpp.obj",
+			"PixelStreamingVCamLog.cpp.obj",
+			"PixelStreamingVideoInputVCam.cpp.obj",
+			"VCamPixelStreamingLiveLink.cpp.obj",
+			"VCamPixelStreamingSession.cpp.obj",
+			"VCamPixelStreamingSubsystem.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RivermaxMediaEditor.cpp.obj": [
+			"RivermaxMediaEditor.init.gen.cpp.obj",
+			"RivermaxMediaOutputFactoryNew.gen.cpp.obj",
+			"RivermaxMediaSourceFactoryNew.gen.cpp.obj",
+			"RivermaxMediaDetailsCustomization.cpp.obj",
+			"RivermaxMediaEditorModule.cpp.obj",
+			"RivermaxMediaOutputFactoryNew.cpp.obj",
+			"RivermaxMediaSourceFactoryNew.cpp.obj"
+		]
+	}
+}

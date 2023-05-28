@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.JsonBlueprintUtilities.cpp.obj": [
+			"JsonBlueprintFunctionLibrary.gen.cpp.obj",
+			"JsonBlueprintUtilities.init.gen.cpp.obj",
+			"JsonBlueprintFunctionLibrary.cpp.obj",
+			"JsonBlueprintLog.cpp.obj",
+			"JsonBlueprintModule.cpp.obj"
+		]
+	}
+}

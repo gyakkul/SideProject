@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PaperTiledImporter.cpp.obj": [
+			"PaperTiledImporter.init.gen.cpp.obj",
+			"PaperTiledImporterFactory.cpp.obj",
+			"PaperTiledImporterModule.cpp.obj"
+		]
+	}
+}

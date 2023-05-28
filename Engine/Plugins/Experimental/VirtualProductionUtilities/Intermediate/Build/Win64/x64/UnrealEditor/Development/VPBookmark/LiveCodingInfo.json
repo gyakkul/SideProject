@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VPBookmark.cpp.obj": [
+			"IVPBookmarkProvider.gen.cpp.obj",
+			"VPBookmark.gen.cpp.obj",
+			"VPBookmark.init.gen.cpp.obj",
+			"VPBookmarkBlueprintLibrary.gen.cpp.obj",
+			"VPBookmarkContext.gen.cpp.obj",
+			"VPBookmark.cpp.obj",
+			"VPBookmarkBlueprintLibrary.cpp.obj",
+			"VPBookmarkLifecycleDelegates.cpp.obj",
+			"VPBookmarkModule.cpp.obj"
+		]
+	}
+}

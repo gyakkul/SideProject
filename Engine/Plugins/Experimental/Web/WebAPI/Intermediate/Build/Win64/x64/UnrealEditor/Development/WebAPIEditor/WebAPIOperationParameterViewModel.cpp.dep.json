@@ -1,0 +1,29 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\private\\details\\viewmodels\\webapioperationparameterviewmodel.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\webapieditor\\definitions.webapieditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\private\\details\\viewmodels\\webapioperationparameterviewmodel.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\private\\details\\viewmodels\\webapiviewmodel.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\private\\details\\viewmodels\\webapioperationrequestviewmodel.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\public\\dom\\webapioperation.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\public\\dom\\webapimodel.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\public\\dom\\webapischema.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\public\\webapimessagelog.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\dom\\jsonobject.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\dom\\jsonvalue.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\serialization\\jsontypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\jsonglobals.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\intermediate\\build\\win64\\unrealeditor\\inc\\webapieditor\\uht\\webapischema.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\intermediate\\build\\win64\\unrealeditor\\inc\\webapieditor\\uht\\webapimodel.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\intermediate\\build\\win64\\unrealeditor\\inc\\webapieditor\\uht\\webapioperation.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\source\\webapieditor\\public\\dom\\webapitype.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\web\\webapi\\intermediate\\build\\win64\\unrealeditor\\inc\\webapieditor\\uht\\webapitype.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

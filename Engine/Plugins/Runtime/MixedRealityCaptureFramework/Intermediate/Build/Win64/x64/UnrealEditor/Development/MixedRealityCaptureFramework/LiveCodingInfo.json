@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MixedRealityCaptureFramework.cpp.obj": [
+			"IMrcFocalDriver.gen.cpp.obj",
+			"MixedRealityCaptureActor.gen.cpp.obj",
+			"MixedRealityCaptureComponent.gen.cpp.obj",
+			"MixedRealityCaptureFramework.init.gen.cpp.obj",
+			"MrcCalibrationData.gen.cpp.obj",
+			"MrcFrameworkSettings.gen.cpp.obj",
+			"MrcGarbageMatteCaptureComponent.gen.cpp.obj",
+			"MrcProjectionBillboard.gen.cpp.obj",
+			"MrcUtilLibrary.gen.cpp.obj",
+			"MrcVideoCaptureDevice.gen.cpp.obj",
+			"MixedRealityCaptureActor.cpp.obj",
+			"MixedRealityCaptureComponent.cpp.obj",
+			"MrcCalibrationData.cpp.obj",
+			"MrcFrameworkModule.cpp.obj",
+			"MrcFrameworkSettings.cpp.obj",
+			"MrcGarbageMatteCaptureComponent.cpp.obj",
+			"MrcLatencyViewExtension.cpp.obj",
+			"MrcProjectionBillboard.cpp.obj",
+			"MrcUtilLibrary.cpp.obj",
+			"MrcVideoCaptureDevice.cpp.obj"
+		]
+	}
+}

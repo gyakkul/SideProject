@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PhysicsUtilities.cpp.obj": [
+			"PhysicsAssetUtils.gen.cpp.obj",
+			"PhysicsUtilities.init.gen.cpp.obj",
+			"ConvexDecompTool.cpp.obj",
+			"PhysicsAssetUtils.cpp.obj",
+			"SkinnedBoneTriangleCache.cpp.obj"
+		]
+	}
+}

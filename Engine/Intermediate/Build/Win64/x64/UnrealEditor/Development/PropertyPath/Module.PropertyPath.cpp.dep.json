@@ -1,0 +1,35 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\propertypath\\module.propertypath.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\propertypath\\definitions.propertypath.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\uht\\propertypath.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\private\\propertypathhelpers.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\public\\propertypathhelpers.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\public\\propertytypecompatibility.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\uht\\propertypathhelpers.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\uht\\propertypathhelpers.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\private\\propertypathmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\private\\tests\\propertypathhelperstest.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\private\\tests\\propertypathhelperstest.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\automationtest.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\async\\async.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\async\\future.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\fork.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\genericplatform\\genericplatformstackwalk.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\hal\\platformstackwalk.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\windows\\windowsplatformstackwalk.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\microsoft\\microsoftplatformstackwalk.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\internationalization\\regex.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\uht\\propertypathhelperstest.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\uht\\propertypathhelperstest.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

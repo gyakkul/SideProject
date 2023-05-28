@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosSolverEngine.cpp.obj": [
+			"ChaosSolverEngine.init.gen.cpp.obj",
+			"ChaosDebugDrawComponent.cpp.obj",
+			"ChaosEventListenerComponent.cpp.obj",
+			"ChaosGameplayEventDispatcher.cpp.obj",
+			"ChaosNotifyHandlerInterface.cpp.obj",
+			"ChaosSolver.cpp.obj",
+			"ChaosSolverActor.cpp.obj",
+			"ChaosSolverEnginePlugin.cpp.obj",
+			"ChaosSolverSettings.cpp.obj"
+		]
+	}
+}

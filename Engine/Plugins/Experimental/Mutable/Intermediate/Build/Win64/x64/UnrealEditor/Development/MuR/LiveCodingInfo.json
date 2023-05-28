@@ -1,0 +1,36 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MuR.1_of_3.cpp.obj": [
+			"Miro.cpp.obj",
+			"CodeRunner.cpp.obj"
+		],
+		"Module.MuR.2_of_3.cpp.obj": [
+			"CodeRunnerTasked.cpp.obj",
+			"CodeVisitor.cpp.obj",
+			"Image.cpp.obj",
+			"ImageRLE.cpp.obj",
+			"Instance.cpp.obj",
+			"Layout.cpp.obj",
+			"Memory.cpp.obj",
+			"Mesh.cpp.obj",
+			"MeshBufferSet.cpp.obj",
+			"Model.cpp.obj",
+			"MutableRuntimeModule.cpp.obj",
+			"MutableString.cpp.obj",
+			"MutableTrace.cpp.obj",
+			"Operations.cpp.obj",
+			"OpImagePixelFormat.cpp.obj",
+			"OpImageProject.cpp.obj"
+		],
+		"Module.MuR.3_of_3.cpp.obj": [
+			"OpMeshFormat.cpp.obj",
+			"Parameters.cpp.obj",
+			"PhysicsBody.cpp.obj",
+			"Serialisation.cpp.obj",
+			"Settings.cpp.obj",
+			"Skeleton.cpp.obj",
+			"System.cpp.obj"
+		]
+	}
+}

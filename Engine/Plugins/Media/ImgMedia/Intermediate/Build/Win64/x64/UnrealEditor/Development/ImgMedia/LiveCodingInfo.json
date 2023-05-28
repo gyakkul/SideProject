@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImgMedia.cpp.obj": [
+			"ImgMedia.init.gen.cpp.obj",
+			"ImgMediaMipMapInfo.cpp.obj",
+			"ImgMediaSource.cpp.obj",
+			"ImgMediaGlobalCache.cpp.obj",
+			"ImgMediaModule.cpp.obj",
+			"ImgMediaSceneViewExtension.cpp.obj",
+			"ImgMediaLoader.cpp.obj",
+			"ImgMediaLoaderWork.cpp.obj",
+			"ImgMediaPlayer.cpp.obj",
+			"ExrImgMediaReader.cpp.obj",
+			"ExrImgMediaReaderGpu.cpp.obj",
+			"GenericImgMediaReader.cpp.obj",
+			"ImgMediaScheduler.cpp.obj",
+			"ImgMediaSchedulerThread.cpp.obj",
+			"ImgMediaTests.cpp.obj"
+		]
+	}
+}

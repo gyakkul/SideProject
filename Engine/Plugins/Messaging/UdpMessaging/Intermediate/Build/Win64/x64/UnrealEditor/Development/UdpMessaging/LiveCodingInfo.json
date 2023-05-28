@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UdpMessaging.cpp.obj": [
+			"UdpMessaging.init.gen.cpp.obj",
+			"UdpMessagingSettings.gen.cpp.obj",
+			"UdpMessagingTestTypes.gen.cpp.obj",
+			"SIpAddressComboBox.cpp.obj",
+			"UdpSettingsDetailsCustomization.cpp.obj",
+			"UdpMessageSegmenterTest.cpp.obj",
+			"UdpMessageTransportTest.cpp.obj",
+			"UdpSerializeMessageTaskTest.cpp.obj",
+			"UdpDeserializedMessage.cpp.obj",
+			"UdpMessageBeacon.cpp.obj",
+			"UdpMessageProcessor.cpp.obj",
+			"UdpMessageSegmenter.cpp.obj",
+			"UdpMessageTransport.cpp.obj",
+			"UdpSerializeMessageTask.cpp.obj",
+			"UdpMessageTunnel.cpp.obj",
+			"UdpMessageTunnelConnection.cpp.obj",
+			"UdpMessagingClasses.cpp.obj",
+			"UdpMessagingModule.cpp.obj",
+			"UdpMessagingTracing.cpp.obj"
+		]
+	}
+}

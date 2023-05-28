@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElectraSamples.cpp.obj": [
+			"ElectraSamplesModule.cpp.obj",
+			"ElectraSamplesTextureManager.cpp.obj",
+			"ElectraTextureSampleAndroid.cpp.obj",
+			"ElectraTextureSampleAVF.cpp.obj",
+			"ElectraTextureSampleBase.cpp.obj",
+			"ElectraTextureSamplePC.cpp.obj"
+		]
+	}
+}

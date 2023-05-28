@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StatusBar.cpp.obj": [
+			"StatusBar.init.gen.cpp.obj",
+			"StatusBarSubsystem.gen.cpp.obj",
+			"NotificationTesting.cpp.obj",
+			"SOneTimeIndustryQuery.cpp.obj",
+			"SourceControlMenuHelpers.cpp.obj",
+			"SStatusBar.cpp.obj",
+			"StatusBarModule.cpp.obj",
+			"StatusBarSubsystem.cpp.obj"
+		]
+	}
+}

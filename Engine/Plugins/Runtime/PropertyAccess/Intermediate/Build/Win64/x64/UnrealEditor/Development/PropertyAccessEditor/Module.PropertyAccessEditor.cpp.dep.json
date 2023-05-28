@@ -1,0 +1,33 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\propertyaccess\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\propertyaccesseditor\\module.propertyaccesseditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\propertyaccess\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\propertyaccesseditor\\definitions.propertyaccesseditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\propertyaccess\\source\\propertyaccesseditor\\private\\propertyaccesseditor.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\propertyaccess\\source\\propertyaccesseditor\\private\\propertyaccesseditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\unrealed\\public\\ipropertyaccesseditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\unrealed\\public\\ipropertyaccesscompiler.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\ipropertyaccesscompiler.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\propertyaccess.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\propertyaccess.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\public\\propertypathhelpers.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\propertypath\\public\\propertytypecompatibility.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\uht\\propertypathhelpers.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\unrealed\\public\\kismet2\\blueprinteditorutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\classviewer\\public\\classviewermodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\propertyaccess\\source\\propertyaccesseditor\\private\\propertyaccesseditormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\propertyaccess\\source\\propertyaccesseditor\\private\\spropertybinding.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\propertyaccess\\source\\propertyaccesseditor\\private\\spropertybinding.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\detaillayoutbuilder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\idetailpropertyrow.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slate\\public\\widgets\\input\\snumericentrybox.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slate\\public\\widgets\\input\\sspinbox.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slate\\public\\widgets\\colors\\scolorblock.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

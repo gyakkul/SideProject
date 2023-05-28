@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCollectionSequencer.cpp.obj": [
+			"GeometryCollectionSequencerModule.cpp.obj",
+			"GeometryCollectionTrackEditor.cpp.obj"
+		]
+	}
+}

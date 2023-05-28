@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SmartObjectsTestSuite.cpp.obj": [
+			"SmartObjectsTestSuite.init.gen.cpp.obj",
+			"SmartObjectTestTypes.gen.cpp.obj",
+			"SmartObjectsTest.cpp.obj",
+			"SmartObjectsTestSuiteModule.cpp.obj",
+			"SmartObjectTestTypes.cpp.obj"
+		]
+	}
+}

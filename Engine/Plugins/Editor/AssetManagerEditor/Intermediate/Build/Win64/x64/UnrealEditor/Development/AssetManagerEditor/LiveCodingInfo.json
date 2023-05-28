@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetManagerEditor.cpp.obj": [
+			"AssetManagerEditor.init.gen.cpp.obj",
+			"SSizeMap.gen.cpp.obj",
+			"AssetManagerEditorCommands.cpp.obj",
+			"AssetManagerEditorModule.cpp.obj",
+			"AssetSourceControlContextMenu.cpp.obj",
+			"PrimaryAssetIdCustomization.cpp.obj",
+			"PrimaryAssetTypeCustomization.cpp.obj",
+			"EdGraphNode_Reference.cpp.obj",
+			"EdGraph_ReferenceViewer.cpp.obj",
+			"HistoryManager.cpp.obj",
+			"ReferenceViewerSchema.cpp.obj",
+			"ReferenceViewerSettings.cpp.obj",
+			"ReferenceViewerStyle.cpp.obj",
+			"SReferenceNode.cpp.obj",
+			"SReferenceViewer.cpp.obj",
+			"SReferenceViewerFilterBar.cpp.obj",
+			"SAssetAuditBrowser.cpp.obj",
+			"SSizeMap.cpp.obj"
+		]
+	}
+}

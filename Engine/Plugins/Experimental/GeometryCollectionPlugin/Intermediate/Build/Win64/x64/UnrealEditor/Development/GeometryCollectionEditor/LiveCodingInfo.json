@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCollectionEditor.cpp.obj": [
+			"GeometryCollectionEditor.init.gen.cpp.obj",
+			"ActorFactoryGeometryCollection.cpp.obj",
+			"AssetTypeActions_GeometryCollection.cpp.obj",
+			"AssetTypeActions_GeometryCollectionCache.cpp.obj",
+			"GeomComponentCacheCustomization.cpp.obj",
+			"GeometryCollectionCustomization.cpp.obj",
+			"WarningMessageCustomization.cpp.obj",
+			"GeometryCollectionAssetBroker.cpp.obj",
+			"GeometryCollectionCacheFactory.cpp.obj",
+			"GeometryCollectionCommands.cpp.obj",
+			"GeometryCollectionConversion.cpp.obj",
+			"GeometryCollectionEditorPlugin.cpp.obj",
+			"GeometryCollectionFactory.cpp.obj",
+			"GeometryCollectionProviderEditor.cpp.obj",
+			"GeometryCollectionSelectionCommands.cpp.obj",
+			"GeometryCollectionSelectRigidBodyEdMode.cpp.obj",
+			"GeometryCollectionThumbnailRenderer.cpp.obj",
+			"GeometryCollectionThumbnailScene.cpp.obj"
+		]
+	}
+}

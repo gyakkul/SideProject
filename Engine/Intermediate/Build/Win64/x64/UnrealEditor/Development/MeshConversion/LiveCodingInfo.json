@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshConversion.cpp.obj": [
+			"DynamicMeshToMeshDescription.cpp.obj",
+			"MeshConversionModule.cpp.obj",
+			"MeshDescriptionBuilder.cpp.obj",
+			"MeshDescriptionToDynamicMesh.cpp.obj",
+			"MeshDescriptionUVsToDynamicMesh.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\editorsubsystem\\module.editorsubsystem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\editorsubsystem\\definitions.editorsubsystem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\editorsubsystem\\uht\\editorsubsystem.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\editorsubsystem\\public\\editorsubsystem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\editorsubsystem\\uht\\editorsubsystem.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\editorsubsystem\\uht\\editorsubsystem.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\editorsubsystem\\private\\editorsubsystem.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\editorsubsystem\\private\\editorsubsystemmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\editorsubsystem\\public\\editorsubsystemmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

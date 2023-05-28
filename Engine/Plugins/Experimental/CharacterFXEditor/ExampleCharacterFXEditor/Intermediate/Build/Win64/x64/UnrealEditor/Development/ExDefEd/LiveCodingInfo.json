@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExDefEd.cpp.obj": [
+			"ExampleCharacterFXEditor.gen.cpp.obj",
+			"ExampleCharacterFXEditor.init.gen.cpp.obj",
+			"ExampleCharacterFXEditorMode.gen.cpp.obj",
+			"ExampleCharacterFXEditorSubsystem.gen.cpp.obj",
+			"ExampleCharacterFXEditorUISubsystem.gen.cpp.obj",
+			"ExampleCharacterFXEditor.cpp.obj",
+			"ExampleCharacterFXEditorCommands.cpp.obj",
+			"ExampleCharacterFXEditorMode.cpp.obj",
+			"ExampleCharacterFXEditorModeToolkit.cpp.obj",
+			"ExampleCharacterFXEditorModule.cpp.obj",
+			"ExampleCharacterFXEditorStyle.cpp.obj",
+			"ExampleCharacterFXEditorSubsystem.cpp.obj",
+			"ExampleCharacterFXEditorToolkit.cpp.obj"
+		]
+	}
+}

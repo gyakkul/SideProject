@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VCamInput.cpp.obj": [
+			"VCamAnyKeyWidget.gen.cpp.obj",
+			"VCamInput.init.gen.cpp.obj",
+			"VCamInputSettings.gen.cpp.obj",
+			"VCamInputSubsystem.gen.cpp.obj",
+			"VCamInputTypes.gen.cpp.obj",
+			"VCamAnyKeyWidget.cpp.obj",
+			"VCamInputModule.cpp.obj",
+			"VCamInputProcessor.cpp.obj",
+			"VCamInputSettings.cpp.obj",
+			"VCamInputSubsystem.cpp.obj"
+		]
+	}
+}

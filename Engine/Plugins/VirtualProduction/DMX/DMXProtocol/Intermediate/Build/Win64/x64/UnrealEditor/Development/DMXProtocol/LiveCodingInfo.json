@@ -1,0 +1,33 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXProtocol.cpp.obj": [
+			"DMXAttribute.gen.cpp.obj",
+			"DMXInputPortConfig.gen.cpp.obj",
+			"DMXInputPortReference.gen.cpp.obj",
+			"DMXNameListItem.gen.cpp.obj",
+			"DMXOutputPortConfig.gen.cpp.obj",
+			"DMXOutputPortReference.gen.cpp.obj",
+			"DMXProtocol.init.gen.cpp.obj",
+			"DMXProtocolBlueprintLibrary.gen.cpp.obj",
+			"DMXProtocolSettings.gen.cpp.obj",
+			"DMXProtocolTypes.gen.cpp.obj",
+			"DMXAttribute.cpp.obj",
+			"DMXConversions.cpp.obj",
+			"DMXNameListItem.cpp.obj",
+			"DMXProtocolBlueprintLibrary.cpp.obj",
+			"DMXProtocolModule.cpp.obj",
+			"DMXProtocolSettings.cpp.obj",
+			"DMXProtocolTypes.cpp.obj",
+			"DMXProtocolUtils.cpp.obj",
+			"DMXInputPort.cpp.obj",
+			"DMXInputPortConfig.cpp.obj",
+			"DMXOutputPort.cpp.obj",
+			"DMXOutputPortConfig.cpp.obj",
+			"DMXPort.cpp.obj",
+			"DMXPortManager.cpp.obj",
+			"DMXRawListener.cpp.obj",
+			"DMXProtocolObjectVersion.cpp.obj"
+		]
+	}
+}

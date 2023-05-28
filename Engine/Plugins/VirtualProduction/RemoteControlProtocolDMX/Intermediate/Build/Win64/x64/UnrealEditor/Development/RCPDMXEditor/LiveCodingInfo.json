@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RCPDMXEditor.cpp.obj": [
+			"RemoteControlDMXProtocolEntityExtraSettingCustomization.cpp.obj",
+			"RemoteControlProtocolDMXEditorModule.cpp.obj",
+			"RemoteControlProtocolDMXSettingsDetails.cpp.obj"
+		]
+	}
+}

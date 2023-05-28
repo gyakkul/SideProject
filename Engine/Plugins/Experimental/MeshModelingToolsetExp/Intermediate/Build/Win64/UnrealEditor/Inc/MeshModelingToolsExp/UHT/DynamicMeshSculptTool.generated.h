@@ -1,0 +1,587 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DynamicMeshSculptTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_DynamicMeshSculptTool_generated_h
+#error "DynamicMeshSculptTool.generated.h already included, missing '#pragma once' in DynamicMeshSculptTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_DynamicMeshSculptTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshSculptToolBuilder(); \
+	friend struct Z_Construct_UClass_UDynamicMeshSculptToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshSculptToolBuilder, UMeshSurfacePointMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshSculptToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_INCLASS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshSculptToolBuilder(); \
+	friend struct Z_Construct_UClass_UDynamicMeshSculptToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshSculptToolBuilder, UMeshSurfacePointMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshSculptToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshSculptToolBuilder(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshSculptToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshSculptToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshSculptToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshSculptToolBuilder(UDynamicMeshSculptToolBuilder&&); \
+	NO_API UDynamicMeshSculptToolBuilder(const UDynamicMeshSculptToolBuilder&); \
+public: \
+	NO_API virtual ~UDynamicMeshSculptToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshSculptToolBuilder(UDynamicMeshSculptToolBuilder&&); \
+	NO_API UDynamicMeshSculptToolBuilder(const UDynamicMeshSculptToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshSculptToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshSculptToolBuilder); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDynamicMeshSculptToolBuilder) \
+	NO_API virtual ~UDynamicMeshSculptToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_97_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_100_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UDynamicMeshSculptToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshBrushProperties(); \
+	friend struct Z_Construct_UClass_UDynamicMeshBrushProperties_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshBrushProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshBrushProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_INCLASS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshBrushProperties(); \
+	friend struct Z_Construct_UClass_UDynamicMeshBrushProperties_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshBrushProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshBrushProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshBrushProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshBrushProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshBrushProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshBrushProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshBrushProperties(UDynamicMeshBrushProperties&&); \
+	NO_API UDynamicMeshBrushProperties(const UDynamicMeshBrushProperties&); \
+public: \
+	NO_API virtual ~UDynamicMeshBrushProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshBrushProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshBrushProperties(UDynamicMeshBrushProperties&&); \
+	NO_API UDynamicMeshBrushProperties(const UDynamicMeshBrushProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshBrushProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshBrushProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshBrushProperties) \
+	NO_API virtual ~UDynamicMeshBrushProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_117_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_120_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UDynamicMeshBrushProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshBrushSculptProperties(); \
+	friend struct Z_Construct_UClass_UDynamicMeshBrushSculptProperties_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshBrushSculptProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshBrushSculptProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_INCLASS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshBrushSculptProperties(); \
+	friend struct Z_Construct_UClass_UDynamicMeshBrushSculptProperties_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshBrushSculptProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshBrushSculptProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshBrushSculptProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshBrushSculptProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshBrushSculptProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshBrushSculptProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshBrushSculptProperties(UDynamicMeshBrushSculptProperties&&); \
+	NO_API UDynamicMeshBrushSculptProperties(const UDynamicMeshBrushSculptProperties&); \
+public: \
+	NO_API virtual ~UDynamicMeshBrushSculptProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshBrushSculptProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshBrushSculptProperties(UDynamicMeshBrushSculptProperties&&); \
+	NO_API UDynamicMeshBrushSculptProperties(const UDynamicMeshBrushSculptProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshBrushSculptProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshBrushSculptProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshBrushSculptProperties) \
+	NO_API virtual ~UDynamicMeshBrushSculptProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_142_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_145_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UDynamicMeshBrushSculptProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDiscardAttributes);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDiscardAttributes);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDynamicSculptToolActions(); \
+	friend struct Z_Construct_UClass_UDynamicSculptToolActions_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicSculptToolActions, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicSculptToolActions)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_INCLASS \
+private: \
+	static void StaticRegisterNativesUDynamicSculptToolActions(); \
+	friend struct Z_Construct_UClass_UDynamicSculptToolActions_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicSculptToolActions, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicSculptToolActions)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicSculptToolActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicSculptToolActions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicSculptToolActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicSculptToolActions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicSculptToolActions(UDynamicSculptToolActions&&); \
+	NO_API UDynamicSculptToolActions(const UDynamicSculptToolActions&); \
+public: \
+	NO_API virtual ~UDynamicSculptToolActions();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicSculptToolActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicSculptToolActions(UDynamicSculptToolActions&&); \
+	NO_API UDynamicSculptToolActions(const UDynamicSculptToolActions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicSculptToolActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicSculptToolActions); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicSculptToolActions) \
+	NO_API virtual ~UDynamicSculptToolActions();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_178_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_181_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UDynamicSculptToolActions>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBrushRemeshProperties(); \
+	friend struct Z_Construct_UClass_UBrushRemeshProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBrushRemeshProperties, URemeshProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBrushRemeshProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_INCLASS \
+private: \
+	static void StaticRegisterNativesUBrushRemeshProperties(); \
+	friend struct Z_Construct_UClass_UBrushRemeshProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBrushRemeshProperties, URemeshProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBrushRemeshProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBrushRemeshProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBrushRemeshProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBrushRemeshProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBrushRemeshProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBrushRemeshProperties(UBrushRemeshProperties&&); \
+	NO_API UBrushRemeshProperties(const UBrushRemeshProperties&); \
+public: \
+	NO_API virtual ~UBrushRemeshProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBrushRemeshProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBrushRemeshProperties(UBrushRemeshProperties&&); \
+	NO_API UBrushRemeshProperties(const UBrushRemeshProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBrushRemeshProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBrushRemeshProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBrushRemeshProperties) \
+	NO_API virtual ~UBrushRemeshProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_194_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_197_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBrushRemeshProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUFixedPlaneBrushProperties(); \
+	friend struct Z_Construct_UClass_UFixedPlaneBrushProperties_Statics; \
+public: \
+	DECLARE_CLASS(UFixedPlaneBrushProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UFixedPlaneBrushProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_INCLASS \
+private: \
+	static void StaticRegisterNativesUFixedPlaneBrushProperties(); \
+	friend struct Z_Construct_UClass_UFixedPlaneBrushProperties_Statics; \
+public: \
+	DECLARE_CLASS(UFixedPlaneBrushProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UFixedPlaneBrushProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UFixedPlaneBrushProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFixedPlaneBrushProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFixedPlaneBrushProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFixedPlaneBrushProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFixedPlaneBrushProperties(UFixedPlaneBrushProperties&&); \
+	NO_API UFixedPlaneBrushProperties(const UFixedPlaneBrushProperties&); \
+public: \
+	NO_API virtual ~UFixedPlaneBrushProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UFixedPlaneBrushProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFixedPlaneBrushProperties(UFixedPlaneBrushProperties&&); \
+	NO_API UFixedPlaneBrushProperties(const UFixedPlaneBrushProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFixedPlaneBrushProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFixedPlaneBrushProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFixedPlaneBrushProperties) \
+	NO_API virtual ~UFixedPlaneBrushProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_219_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_222_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UFixedPlaneBrushProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshSculptTool(); \
+	friend struct Z_Construct_UClass_UDynamicMeshSculptTool_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshSculptTool, UMeshSurfacePointTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshSculptTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_INCLASS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshSculptTool(); \
+	friend struct Z_Construct_UClass_UDynamicMeshSculptTool_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshSculptTool, UMeshSurfacePointTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshSculptTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshSculptTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshSculptTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshSculptTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshSculptTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshSculptTool(UDynamicMeshSculptTool&&); \
+	NO_API UDynamicMeshSculptTool(const UDynamicMeshSculptTool&); \
+public: \
+	NO_API virtual ~UDynamicMeshSculptTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshSculptTool(UDynamicMeshSculptTool&&); \
+	NO_API UDynamicMeshSculptTool(const UDynamicMeshSculptTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshSculptTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshSculptTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDynamicMeshSculptTool) \
+	NO_API virtual ~UDynamicMeshSculptTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_256_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h_259_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UDynamicMeshSculptTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_DynamicMeshSculptTool_h
+
+
+#define FOREACH_ENUM_EDYNAMICMESHSCULPTBRUSHTYPE(op) \
+	op(EDynamicMeshSculptBrushType::Move) \
+	op(EDynamicMeshSculptBrushType::PullKelvin) \
+	op(EDynamicMeshSculptBrushType::PullSharpKelvin) \
+	op(EDynamicMeshSculptBrushType::Smooth) \
+	op(EDynamicMeshSculptBrushType::Offset) \
+	op(EDynamicMeshSculptBrushType::SculptView) \
+	op(EDynamicMeshSculptBrushType::SculptMax) \
+	op(EDynamicMeshSculptBrushType::Inflate) \
+	op(EDynamicMeshSculptBrushType::ScaleKelvin) \
+	op(EDynamicMeshSculptBrushType::Pinch) \
+	op(EDynamicMeshSculptBrushType::TwistKelvin) \
+	op(EDynamicMeshSculptBrushType::Flatten) \
+	op(EDynamicMeshSculptBrushType::Plane) \
+	op(EDynamicMeshSculptBrushType::PlaneViewAligned) \
+	op(EDynamicMeshSculptBrushType::FixedPlane) \
+	op(EDynamicMeshSculptBrushType::Resample) \
+	op(EDynamicMeshSculptBrushType::LastValue) 
+
+enum class EDynamicMeshSculptBrushType : uint8;
+template<> struct TIsUEnumClass<EDynamicMeshSculptBrushType> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EDynamicMeshSculptBrushType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

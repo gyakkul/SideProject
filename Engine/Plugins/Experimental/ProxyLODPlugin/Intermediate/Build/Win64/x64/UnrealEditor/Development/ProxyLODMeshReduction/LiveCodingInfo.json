@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ProxyLODMeshReduction.cpp.obj": [
+			"ProxyLODkDOPUtils.cpp.obj",
+			"ProxyLODMaterialTransferUtilities.cpp.obj",
+			"ProxyLODMeshAttrTransfer.cpp.obj",
+			"ProxyLODMeshConvertUtils.cpp.obj",
+			"ProxyLODMeshParameterization.cpp.obj",
+			"ProxyLODMeshSDFConversions.cpp.obj",
+			"ProxyLODMeshTypes.cpp.obj",
+			"ProxyLODMeshUtilities.cpp.obj",
+			"ProxyLODParallelSimplifier.cpp.obj",
+			"ProxyLODParameterization.cpp.obj",
+			"ProxyLODPlugin.cpp.obj",
+			"ProxyLODRasterizer.cpp.obj",
+			"ProxyLODSimplifier.cpp.obj",
+			"ProxyLODVolume.cpp.obj"
+		]
+	}
+}

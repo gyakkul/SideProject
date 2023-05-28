@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Analytics.cpp.obj": [
+			"Analytics.cpp.obj",
+			"AnalyticsPropertyStore.cpp.obj",
+			"AnalyticsPropertyStoreTests.cpp.obj"
+		]
+	}
+}

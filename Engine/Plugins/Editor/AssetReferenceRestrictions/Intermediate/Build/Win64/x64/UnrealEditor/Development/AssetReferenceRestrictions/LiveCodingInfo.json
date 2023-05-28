@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetReferenceRestrictions.cpp.obj": [
+			"AssetReferenceRestrictions.init.gen.cpp.obj",
+			"AssetReferenceRestrictionsModule.cpp.obj",
+			"AssetReferencingDomains.cpp.obj",
+			"AssetReferencingPolicySettings.cpp.obj",
+			"AssetReferencingPolicySubsystem.cpp.obj",
+			"AssetValidator_AssetReferenceRestrictions.cpp.obj",
+			"DomainAssetReferenceFilter.cpp.obj"
+		]
+	}
+}

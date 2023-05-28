@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassEntity.cpp.obj": [
+			"MassCommands.gen.cpp.obj",
+			"MassEntity.init.gen.cpp.obj",
+			"MassArchetypeData.cpp.obj",
+			"MassArchetypeTypes.cpp.obj",
+			"MassCommandBuffer.cpp.obj",
+			"MassDebugger.cpp.obj",
+			"MassEntityManager.cpp.obj",
+			"MassEntityModule.cpp.obj",
+			"MassEntityQuery.cpp.obj",
+			"MassEntitySettings.cpp.obj",
+			"MassEntitySubsystem.cpp.obj",
+			"MassEntityTypes.cpp.obj",
+			"MassEntityUtils.cpp.obj",
+			"MassEntityView.cpp.obj",
+			"MassExecutionContext.cpp.obj",
+			"MassExecutor.cpp.obj",
+			"MassObserverManager.cpp.obj",
+			"MassObserverProcessor.cpp.obj",
+			"MassObserverRegistry.cpp.obj",
+			"MassProcessingPhaseManager.cpp.obj",
+			"MassProcessingTypes.cpp.obj",
+			"MassProcessor.cpp.obj",
+			"MassProcessorDependencySolver.cpp.obj",
+			"MassRequirementAccessDetector.cpp.obj",
+			"MassRequirements.cpp.obj",
+			"MassSettings.cpp.obj",
+			"MassSubsystemAccess.cpp.obj"
+		]
+	}
+}

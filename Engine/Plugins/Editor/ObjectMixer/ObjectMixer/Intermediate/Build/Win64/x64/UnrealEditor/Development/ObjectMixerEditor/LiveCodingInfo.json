@@ -1,0 +1,37 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ObjectMixerEditor.cpp.obj": [
+			"ObjectMixerEditor.init.gen.cpp.obj",
+			"ObjectMixerEditorListMenuContext.gen.cpp.obj",
+			"ObjectMixerEditorObjectFilter.gen.cpp.obj",
+			"ObjectMixerEditorSerializedData.gen.cpp.obj",
+			"ObjectMixerEditorSettings.gen.cpp.obj",
+			"ObjectMixerEditorUWidget.gen.cpp.obj",
+			"ObjectMixerFilterFactory.gen.cpp.obj",
+			"ObjectMixerOutlinerMode.gen.cpp.obj",
+			"SObjectMixerEditorList.gen.cpp.obj",
+			"ObjectMixerEditorObjectFilter.cpp.obj",
+			"ObjectMixerEditorModule.cpp.obj",
+			"ObjectMixerEditorSerializedData.cpp.obj",
+			"ObjectMixerEditorStyle.cpp.obj",
+			"ObjectMixerFilterFactory.cpp.obj",
+			"ObjectMixerOutlinerHierarchy.cpp.obj",
+			"ObjectMixerOutlinerMode.cpp.obj",
+			"ObjectMixerOutlinerColumns.cpp.obj",
+			"ObjectMixerEditorList.cpp.obj",
+			"ObjectMixerEditorListRowData.cpp.obj",
+			"ObjectMixerUtils.cpp.obj",
+			"ObjectMixerEditorListRowActor.cpp.obj",
+			"ObjectMixerEditorListRowComponent.cpp.obj",
+			"ObjectMixerEditorListRowFolder.cpp.obj",
+			"ObjectMixerEditorListRowUObject.cpp.obj",
+			"SObjectMixerEditorList.cpp.obj",
+			"ObjectMixerEditorListMenuContext.cpp.obj",
+			"ObjectMixerEditorUWidget.cpp.obj",
+			"SCollectionSelectionButton.cpp.obj",
+			"SInlinePropertyCellWidget.cpp.obj",
+			"SObjectMixerPlacementAssetMenuEntry.cpp.obj"
+		]
+	}
+}

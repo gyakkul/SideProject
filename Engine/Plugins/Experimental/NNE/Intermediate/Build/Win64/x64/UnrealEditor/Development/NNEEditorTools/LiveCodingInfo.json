@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNEEditorTools.cpp.obj": [
+			"NNEEditorTools.init.gen.cpp.obj",
+			"NNEModelDataFactory.gen.cpp.obj",
+			"NNEEditorTools.cpp.obj",
+			"NNEModelDataFactory.cpp.obj"
+		]
+	}
+}

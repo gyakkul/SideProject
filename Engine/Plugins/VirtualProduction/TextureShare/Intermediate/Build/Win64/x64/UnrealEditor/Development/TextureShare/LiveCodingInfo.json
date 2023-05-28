@@ -1,0 +1,32 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TextureShare.cpp.obj": [
+			"TextureShare.init.gen.cpp.obj",
+			"TextureShareBlueprintContainers.gen.cpp.obj",
+			"TextureShareBlueprintContainersBase.gen.cpp.obj",
+			"TextureShareSettings.gen.cpp.obj",
+			"TextureShareWorldSubsystem.gen.cpp.obj",
+			"TextureShareBlueprintContainers.cpp.obj",
+			"TextureShareSettings.cpp.obj",
+			"TextureShareSceneViewExtension.cpp.obj",
+			"TextureShareWorldSubsystem.cpp.obj",
+			"TextureShareWorldSubsystemObject.cpp.obj",
+			"TextureShareWorldSubsystemObjectProxy.cpp.obj",
+			"TextureShareAPI.cpp.obj",
+			"TextureShareCallbacks.cpp.obj",
+			"TextureShareLog.cpp.obj",
+			"TextureShareModule.cpp.obj",
+			"TextureShareModule_Editor.cpp.obj",
+			"TextureShareObject.cpp.obj",
+			"TextureShareObjectProxy.cpp.obj",
+			"TextureShareResource.cpp.obj",
+			"TextureShareResourceSettings.cpp.obj",
+			"TextureShareResourcesPool.cpp.obj",
+			"TextureShareResourcesProxy.cpp.obj",
+			"TextureShareResource_D3D11.cpp.obj",
+			"TextureShareResource_D3D12.cpp.obj",
+			"TextureShareResource_Vulkan.cpp.obj"
+		]
+	}
+}

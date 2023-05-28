@@ -1,0 +1,438 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MeshSpaceDeformerTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_MeshSpaceDeformerTool_generated_h
+#error "MeshSpaceDeformerTool.generated.h already included, missing '#pragma once' in MeshSpaceDeformerTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_MeshSpaceDeformerTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerToolBuilder(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerToolBuilder(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshSpaceDeformerToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshSpaceDeformerToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerToolBuilder(UMeshSpaceDeformerToolBuilder&&); \
+	NO_API UMeshSpaceDeformerToolBuilder(const UMeshSpaceDeformerToolBuilder&); \
+public: \
+	NO_API virtual ~UMeshSpaceDeformerToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshSpaceDeformerToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerToolBuilder(UMeshSpaceDeformerToolBuilder&&); \
+	NO_API UMeshSpaceDeformerToolBuilder(const UMeshSpaceDeformerToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshSpaceDeformerToolBuilder) \
+	NO_API virtual ~UMeshSpaceDeformerToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_35_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_38_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UMeshSpaceDeformerToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshSpaceDeformerToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshSpaceDeformerToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerToolProperties(UMeshSpaceDeformerToolProperties&&); \
+	NO_API UMeshSpaceDeformerToolProperties(const UMeshSpaceDeformerToolProperties&); \
+public: \
+	NO_API virtual ~UMeshSpaceDeformerToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshSpaceDeformerToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerToolProperties(UMeshSpaceDeformerToolProperties&&); \
+	NO_API UMeshSpaceDeformerToolProperties(const UMeshSpaceDeformerToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshSpaceDeformerToolProperties) \
+	NO_API virtual ~UMeshSpaceDeformerToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_77_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_80_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UMeshSpaceDeformerToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execShiftToCenter);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execShiftToCenter);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerToolActionPropertySet(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerToolActionPropertySet_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerToolActionPropertySet, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerToolActionPropertySet)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerToolActionPropertySet(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerToolActionPropertySet_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerToolActionPropertySet, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerToolActionPropertySet)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshSpaceDeformerToolActionPropertySet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshSpaceDeformerToolActionPropertySet) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerToolActionPropertySet); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerToolActionPropertySet); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerToolActionPropertySet(UMeshSpaceDeformerToolActionPropertySet&&); \
+	NO_API UMeshSpaceDeformerToolActionPropertySet(const UMeshSpaceDeformerToolActionPropertySet&); \
+public: \
+	NO_API virtual ~UMeshSpaceDeformerToolActionPropertySet();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshSpaceDeformerToolActionPropertySet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerToolActionPropertySet(UMeshSpaceDeformerToolActionPropertySet&&); \
+	NO_API UMeshSpaceDeformerToolActionPropertySet(const UMeshSpaceDeformerToolActionPropertySet&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerToolActionPropertySet); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerToolActionPropertySet); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshSpaceDeformerToolActionPropertySet) \
+	NO_API virtual ~UMeshSpaceDeformerToolActionPropertySet();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_166_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_169_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UMeshSpaceDeformerToolActionPropertySet>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSpaceDeformerOperatorFactory(); \
+	friend struct Z_Construct_UClass_USpaceDeformerOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(USpaceDeformerOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USpaceDeformerOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_INCLASS \
+private: \
+	static void StaticRegisterNativesUSpaceDeformerOperatorFactory(); \
+	friend struct Z_Construct_UClass_USpaceDeformerOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(USpaceDeformerOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USpaceDeformerOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USpaceDeformerOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USpaceDeformerOperatorFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USpaceDeformerOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USpaceDeformerOperatorFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USpaceDeformerOperatorFactory(USpaceDeformerOperatorFactory&&); \
+	NO_API USpaceDeformerOperatorFactory(const USpaceDeformerOperatorFactory&); \
+public: \
+	NO_API virtual ~USpaceDeformerOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USpaceDeformerOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USpaceDeformerOperatorFactory(USpaceDeformerOperatorFactory&&); \
+	NO_API USpaceDeformerOperatorFactory(const USpaceDeformerOperatorFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USpaceDeformerOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USpaceDeformerOperatorFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USpaceDeformerOperatorFactory) \
+	NO_API virtual ~USpaceDeformerOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_183_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_186_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USpaceDeformerOperatorFactory>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerTool(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerTool, USingleSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshSpaceDeformerTool(); \
+	friend struct Z_Construct_UClass_UMeshSpaceDeformerTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshSpaceDeformerTool, USingleSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UMeshSpaceDeformerTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshSpaceDeformerTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshSpaceDeformerTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerTool(UMeshSpaceDeformerTool&&); \
+	NO_API UMeshSpaceDeformerTool(const UMeshSpaceDeformerTool&); \
+public: \
+	NO_API virtual ~UMeshSpaceDeformerTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshSpaceDeformerTool(UMeshSpaceDeformerTool&&); \
+	NO_API UMeshSpaceDeformerTool(const UMeshSpaceDeformerTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshSpaceDeformerTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshSpaceDeformerTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMeshSpaceDeformerTool) \
+	NO_API virtual ~UMeshSpaceDeformerTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_200_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h_203_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UMeshSpaceDeformerTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_MeshSpaceDeformerTool_h
+
+
+#define FOREACH_ENUM_ENONLINEAROPERATIONTYPE(op) \
+	op(ENonlinearOperationType::Bend) \
+	op(ENonlinearOperationType::Flare) \
+	op(ENonlinearOperationType::Twist) 
+
+enum class ENonlinearOperationType : int8;
+template<> struct TIsUEnumClass<ENonlinearOperationType> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<ENonlinearOperationType>();
+
+#define FOREACH_ENUM_EFLAREPROFILETYPE(op) \
+	op(EFlareProfileType::SinMode) \
+	op(EFlareProfileType::SinSquaredMode) \
+	op(EFlareProfileType::TriangleMode) 
+
+enum class EFlareProfileType : int8;
+template<> struct TIsUEnumClass<EFlareProfileType> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EFlareProfileType>();
+
+#define FOREACH_ENUM_EMESHSPACEDEFORMERTOOLACTION(op) \
+	op(EMeshSpaceDeformerToolAction::NoAction) \
+	op(EMeshSpaceDeformerToolAction::ShiftToCenter) 
+
+enum class EMeshSpaceDeformerToolAction;
+template<> struct TIsUEnumClass<EMeshSpaceDeformerToolAction> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EMeshSpaceDeformerToolAction>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassCommon.cpp.obj": [
+			"MassCommon.init.gen.cpp.obj",
+			"MassCommonFragments.gen.cpp.obj",
+			"MassCommonTypes.gen.cpp.obj",
+			"MassGameplaySettings.gen.cpp.obj",
+			"MassCommonModule.cpp.obj",
+			"MassCommonTypes.cpp.obj",
+			"MassCommonUtils.cpp.obj"
+		]
+	}
+}

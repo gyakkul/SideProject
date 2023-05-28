@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EncoderNVENC.cpp.obj": [
+			"NVENC_Common.cpp.obj",
+			"NVENC_EncoderH264.cpp.obj",
+			"NVENC_EncoderModule.cpp.obj"
+		]
+	}
+}

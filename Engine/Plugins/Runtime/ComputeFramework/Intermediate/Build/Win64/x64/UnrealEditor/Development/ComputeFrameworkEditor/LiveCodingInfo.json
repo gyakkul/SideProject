@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ComputeFrameworkEditor.cpp.obj": [
+			"ComputeFrameworkEditor.init.gen.cpp.obj",
+			"ComputeKernelFactory.gen.cpp.obj",
+			"ComputeKernelFromTextFactory.gen.cpp.obj",
+			"ComputeFrameworkCompilationTick.cpp.obj",
+			"ComputeFrameworkEditorModule.cpp.obj",
+			"ComputeKernelAssetActions.cpp.obj",
+			"ComputeKernelFactory.cpp.obj",
+			"ComputeKernelFromTextAssetActions.cpp.obj",
+			"ComputeKernelFromTextFactory.cpp.obj"
+		]
+	}
+}

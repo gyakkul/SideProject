@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WorldConditionsTestSuite.cpp.obj": [
+			"WorldConditionsTestSuite.init.gen.cpp.obj",
+			"WorldConditionTestTypes.gen.cpp.obj",
+			"WorldConditionsTest.cpp.obj",
+			"WorldConditionsTestSuiteModule.cpp.obj"
+		]
+	}
+}

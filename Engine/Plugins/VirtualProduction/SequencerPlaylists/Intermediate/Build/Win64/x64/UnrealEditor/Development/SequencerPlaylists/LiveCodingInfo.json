@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SequencerPlaylists.cpp.obj": [
+			"ISequencerPlaylistsModule.gen.cpp.obj",
+			"SequencerPlaylist.gen.cpp.obj",
+			"SequencerPlaylistItem.gen.cpp.obj",
+			"SequencerPlaylistItem_Sequence.gen.cpp.obj",
+			"SequencerPlaylistPlayer.gen.cpp.obj",
+			"SequencerPlaylists.init.gen.cpp.obj",
+			"SequencerPlaylistsSubsystem.gen.cpp.obj",
+			"AssetTypeActions_SequencerPlaylist.cpp.obj",
+			"SequencerPlaylistItem_Sequence.cpp.obj",
+			"SequencerPlaylistPlayer.cpp.obj",
+			"SequencerPlaylistsCommands.cpp.obj",
+			"SequencerPlaylistsModule.cpp.obj",
+			"SequencerPlaylistsStyle.cpp.obj",
+			"SequencerPlaylistsSubsystem.cpp.obj",
+			"SequencerPlaylistsWidgets.cpp.obj"
+		]
+	}
+}

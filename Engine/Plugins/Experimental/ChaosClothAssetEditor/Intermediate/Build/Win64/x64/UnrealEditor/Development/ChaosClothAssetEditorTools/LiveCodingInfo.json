@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosClothAssetEditorTools.cpp.obj": [
+			"ChaosClothAssetEditorTools.init.gen.cpp.obj",
+			"ClothAssetBackedTarget.gen.cpp.obj",
+			"ClothTrainingTool.gen.cpp.obj",
+			"ClothTransferSkinWeightsTool.gen.cpp.obj",
+			"ClothWeightMapPaintBrushOps.gen.cpp.obj",
+			"ChaosClothAssetEditorToolsModule.cpp.obj",
+			"ClothComponentToolTarget.cpp.obj",
+			"ClothTrainingTool.cpp.obj",
+			"ClothTransferSkinWeightsTool.cpp.obj",
+			"ClothWeightMapPaintTool.cpp.obj"
+		]
+	}
+}

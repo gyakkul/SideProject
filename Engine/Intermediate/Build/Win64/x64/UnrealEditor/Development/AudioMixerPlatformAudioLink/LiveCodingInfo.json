@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioMixerPlatformAudioLink.cpp.obj": [
+			"AudioMixerPlatformAudioLink.cpp.obj",
+			"AudioMixerPlatformAudioLinkModule.cpp.obj"
+		]
+	}
+}

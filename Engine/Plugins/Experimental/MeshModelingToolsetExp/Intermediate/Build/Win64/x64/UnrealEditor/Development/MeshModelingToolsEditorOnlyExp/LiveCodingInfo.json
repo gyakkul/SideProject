@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshModelingToolsEditorOnlyExp.cpp.obj": [
+			"ISMEditorTool.gen.cpp.obj",
+			"MeshModelingToolsEditorOnlyExp.init.gen.cpp.obj",
+			"AddPivotActorTool.cpp.obj",
+			"AttributeEditorTool.cpp.obj",
+			"BspConversionTool.cpp.obj",
+			"EditMeshMaterialsTool.cpp.obj",
+			"ISMEditorTool.cpp.obj",
+			"MergeMeshesTool.cpp.obj",
+			"MeshModelingToolsEditorOnlyExp.cpp.obj",
+			"MeshTangentsTool.cpp.obj",
+			"MeshToVolumeTool.cpp.obj",
+			"PolygonOnMeshTool.cpp.obj",
+			"ShapeSprayTool.cpp.obj",
+			"SimplifyMeshTool.cpp.obj",
+			"SubdividePolyTool.cpp.obj",
+			"VoxelCSGMeshesTool.cpp.obj"
+		]
+	}
+}

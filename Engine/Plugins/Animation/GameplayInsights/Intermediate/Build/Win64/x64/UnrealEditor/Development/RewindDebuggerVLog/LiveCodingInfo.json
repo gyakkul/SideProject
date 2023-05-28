@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RewindDebuggerVLog.cpp.obj": [
+			"RewindDebuggerVLog.init.gen.cpp.obj",
+			"RewindDebuggerVLog.cpp.obj",
+			"RewindDebuggerVLogModule.cpp.obj",
+			"VisualLoggerAnalyzer.cpp.obj",
+			"VisualLoggerProvider.cpp.obj",
+			"VLogRenderingActor.cpp.obj",
+			"VLogTraceModule.cpp.obj"
+		]
+	}
+}

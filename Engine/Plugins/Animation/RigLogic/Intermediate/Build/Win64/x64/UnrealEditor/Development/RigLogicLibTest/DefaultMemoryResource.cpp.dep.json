@@ -1,0 +1,16 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\private\\pma\\resources\\defaultmemoryresource.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\riglogiclibtest\\definitions.riglogiclibtest.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\public\\pma\\resources\\defaultmemoryresource.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\public\\pma\\defs.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\public\\pma\\memoryresource.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

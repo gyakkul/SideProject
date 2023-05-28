@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataflowEngine.cpp.obj": [
+			"DataflowEngine.init.gen.cpp.obj",
+			"DataflowEngineTypes.gen.cpp.obj",
+			"DataflowBlueprintLibrary.cpp.obj",
+			"DataflowEdNode.cpp.obj",
+			"DataflowEngineModule.cpp.obj",
+			"DataflowEngineUtil.cpp.obj",
+			"DataflowObject.cpp.obj",
+			"DataflowObjectInterface.cpp.obj",
+			"DataflowRenderingFactory.cpp.obj"
+		]
+	}
+}

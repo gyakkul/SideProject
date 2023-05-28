@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Voronoi.cpp.obj": [
+			"Voronoi.cpp.obj",
+			"VoronoiPlugin.cpp.obj"
+		]
+	}
+}

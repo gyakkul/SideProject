@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryProcessingAdapters.cpp.obj": [
+			"ApproximateActorsImpl.cpp.obj",
+			"GeometryProcessingAdaptersModule.cpp.obj"
+		]
+	}
+}

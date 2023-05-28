@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MQTTCoreEditor.cpp.obj": [
+			"MQTTCoreEditorLog.cpp.obj",
+			"MQTTCoreEditorModule.cpp.obj",
+			"MQTTCoreEditorStats.cpp.obj"
+		]
+	}
+}

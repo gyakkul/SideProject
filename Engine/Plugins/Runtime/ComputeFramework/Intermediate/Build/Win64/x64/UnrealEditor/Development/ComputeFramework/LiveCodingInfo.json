@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ComputeFramework.cpp.obj": [
+			"ComputeDataInterface.gen.cpp.obj",
+			"ComputeDataProvider.gen.cpp.obj",
+			"ComputeFramework.init.gen.cpp.obj",
+			"ComputeKernelSource.gen.cpp.obj",
+			"ComputeSource.gen.cpp.obj",
+			"ComputeFramework.cpp.obj",
+			"ComputeFrameworkModule.cpp.obj",
+			"ComputeGraph.cpp.obj",
+			"ComputeGraphComponent.cpp.obj",
+			"ComputeGraphInstance.cpp.obj",
+			"ComputeGraphWorker.cpp.obj",
+			"ComputeKernel.cpp.obj",
+			"ComputeKernelFromText.cpp.obj",
+			"ComputeKernelPermutationSet.cpp.obj",
+			"ComputeKernelPermutationVector.cpp.obj",
+			"ComputeKernelShader.cpp.obj",
+			"ComputeKernelShaderCompilationManager.cpp.obj",
+			"ComputeKernelShaderMap.cpp.obj",
+			"ComputeKernelShared.cpp.obj",
+			"ComputeMetadataBuilder.cpp.obj",
+			"ComputeSourceFromText.cpp.obj",
+			"ComputeSystem.cpp.obj",
+			"ShaderParameterMetadataAllocation.cpp.obj",
+			"ShaderParamTypeDefinition.cpp.obj"
+		]
+	}
+}

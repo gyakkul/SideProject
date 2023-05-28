@@ -1,0 +1,30 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sourcefilteringcore\\module.sourcefilteringcore.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sourcefilteringcore\\definitions.sourcefilteringcore.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\idatasourcefilterinterface.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\source\\sourcefilteringcore\\public\\idatasourcefilterinterface.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\idatasourcefilterinterface.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\idatasourcefiltersetinterface.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\source\\sourcefilteringcore\\public\\idatasourcefiltersetinterface.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\idatasourcefiltersetinterface.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\sourcefilteringcore.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\tracesourcefilteringsettings.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\source\\sourcefilteringcore\\public\\tracesourcefilteringsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\tracesourcefilteringsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\source\\sourcefilteringcore\\private\\datasourcefiltering.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\source\\sourcefilteringcore\\public\\datasourcefiltering.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\enumrange.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\datasourcefiltering.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\tracesourcefiltering\\intermediate\\build\\win64\\unrealeditor\\inc\\sourcefilteringcore\\uht\\datasourcefiltering.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

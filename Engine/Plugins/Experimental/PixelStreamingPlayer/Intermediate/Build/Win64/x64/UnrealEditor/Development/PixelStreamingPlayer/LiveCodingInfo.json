@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelStreamingPlayer.cpp.obj": [
+			"PixelStreamingPeerComponent.gen.cpp.obj",
+			"PixelStreamingPlayer.init.gen.cpp.obj",
+			"PixelStreamingSignallingComponent.gen.cpp.obj",
+			"PixelStreamingWebRTCWrappers.gen.cpp.obj",
+			"PixelStreamingPeerComponent.cpp.obj",
+			"PixelStreamingPlayerModule.cpp.obj",
+			"PixelStreamingSignallingComponent.cpp.obj"
+		]
+	}
+}

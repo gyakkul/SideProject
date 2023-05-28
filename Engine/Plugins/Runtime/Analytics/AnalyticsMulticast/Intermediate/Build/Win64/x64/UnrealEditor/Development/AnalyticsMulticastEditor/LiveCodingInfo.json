@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnalyticsMulticastEditor.cpp.obj": [
+			"AnalyticsMulticastEditor.init.gen.cpp.obj",
+			"AnalyticsMulticastSettings.gen.cpp.obj",
+			"AnalyticsMulticastEditor.cpp.obj"
+		]
+	}
+}

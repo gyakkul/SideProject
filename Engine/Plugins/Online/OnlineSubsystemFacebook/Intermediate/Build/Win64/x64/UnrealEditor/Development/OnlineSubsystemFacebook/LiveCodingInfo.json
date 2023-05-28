@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineSubsystemFacebook.cpp.obj": [
+			"OnlineAccountFacebookCommon.cpp.obj",
+			"OnlineExternalUIFacebookCommon.cpp.obj",
+			"OnlineFriendsFacebookCommon.cpp.obj",
+			"OnlineIdentityFacebookCommon.cpp.obj",
+			"OnlineSharingFacebookCommon.cpp.obj",
+			"OnlineSubsystemFacebookCommon.cpp.obj",
+			"OnlineSubsystemFacebookModule.cpp.obj",
+			"OnlineUserFacebookCommon.cpp.obj",
+			"OnlineExternalUIInterfaceFacebookRest.cpp.obj",
+			"OnlineFriendsFacebookRest.cpp.obj",
+			"OnlineIdentityFacebookRest.cpp.obj",
+			"OnlineSharingFacebookRest.cpp.obj",
+			"OnlineSubsystemFacebookRest.cpp.obj",
+			"OnlineUserFacebookRest.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithImporter.1_of_4.cpp.obj": [
+			"ActorFactoryDatasmithScene.gen.cpp.obj",
+			"DatasmithBlueprintLibrary.gen.cpp.obj",
+			"DatasmithConsumer.gen.cpp.obj",
+			"DatasmithDataprepFetcher.gen.cpp.obj",
+			"DatasmithDataprepOperation.gen.cpp.obj",
+			"DatasmithFileProducer.gen.cpp.obj",
+			"DatasmithImporter.init.gen.cpp.obj",
+			"DatasmithImporterEditorSettings.gen.cpp.obj",
+			"DatasmithImportFactory.gen.cpp.obj",
+			"DatasmithTextureImporter.gen.cpp.obj",
+			"DatasmithUObjectElements.gen.cpp.obj"
+		],
+		"Module.DatasmithImporter.2_of_4.cpp.obj": [
+			"DatasmithUSceneElement.gen.cpp.obj",
+			"UVGenerationDataprepOperation.gen.cpp.obj",
+			"UVGenerationFlattenMapping.gen.cpp.obj",
+			"ActorFactoryDatasmithScene.cpp.obj",
+			"DatasmithActorImporter.cpp.obj",
+			"DatasmithBlueprintLibrary.cpp.obj",
+			"DatasmithCameraImporter.cpp.obj",
+			"DatasmithConsumer.cpp.obj",
+			"DatasmithDataprepFetcher.cpp.obj",
+			"DatasmithDataprepOperation.cpp.obj",
+			"DatasmithFileProducer.cpp.obj"
+		],
+		"Module.DatasmithImporter.3_of_4.cpp.obj": [
+			"DatasmithImportContext.cpp.obj",
+			"DatasmithImporter.cpp.obj",
+			"DatasmithImporterEditorSettings.cpp.obj",
+			"DatasmithImporterHelper.cpp.obj",
+			"DatasmithImporterModule.cpp.obj",
+			"DatasmithImportFactory.cpp.obj",
+			"DatasmithLandscapeImporter.cpp.obj",
+			"DatasmithLevelSequenceImporter.cpp.obj",
+			"DatasmithLevelVariantSetsImporter.cpp.obj",
+			"DatasmithLightImporter.cpp.obj",
+			"DatasmithMaterialExpressions.cpp.obj"
+		],
+		"Module.DatasmithImporter.4_of_4.cpp.obj": [
+			"DatasmithMaterialImporter.cpp.obj",
+			"DatasmithPostProcessImporter.cpp.obj",
+			"DatasmithStaticMeshImporter.cpp.obj",
+			"DatasmithTextureImporter.cpp.obj",
+			"DatasmithUObjectElements.cpp.obj",
+			"DatasmithUSceneElement.cpp.obj",
+			"DatasmithConsumerDetails.cpp.obj",
+			"DatasmithDisplayHelper.cpp.obj",
+			"DatasmithImportOptionsWindow.cpp.obj",
+			"DatasmithStyle.cpp.obj",
+			"DatasmithImporterImpl.cpp.obj",
+			"DatasmithImporterUtils.cpp.obj",
+			"DatasmithImportFactoryHelper.cpp.obj",
+			"DatasmithTextureResize.cpp.obj",
+			"UVGenerationDataprepOperation.cpp.obj",
+			"UVGenerationFlattenMapping.cpp.obj",
+			"UVGenerationUtils.cpp.obj"
+		]
+	}
+}

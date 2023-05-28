@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OculusMR.cpp.obj": [
+			"OculusMR.init.gen.cpp.obj",
+			"OculusMRFunctionLibrary.gen.cpp.obj",
+			"OculusMR_CastingCameraActor.gen.cpp.obj",
+			"OculusMR_PlaneMeshComponent.gen.cpp.obj",
+			"OculusMR_Settings.gen.cpp.obj",
+			"OculusMR_State.gen.cpp.obj",
+			"OculusMRFunctionLibrary.cpp.obj",
+			"OculusMRModule.cpp.obj",
+			"OculusMR_CastingCameraActor.cpp.obj",
+			"OculusMR_PlaneMeshComponent.cpp.obj",
+			"OculusMR_Settings.cpp.obj",
+			"OculusMR_State.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayAbilitiesEditor.cpp.obj": [
+			"GameplayAbilitiesEditor.init.gen.cpp.obj",
+			"AssetTypeActions_GameplayAbilitiesBlueprint.cpp.obj",
+			"AttributeBasedFloatDetails.cpp.obj",
+			"AttributeDetails.cpp.obj",
+			"GameplayAbilitiesBlueprintFactory.cpp.obj",
+			"GameplayAbilitiesEditor.cpp.obj",
+			"GameplayAbilitiesEditorModule.cpp.obj",
+			"GameplayAbilityGraph.cpp.obj",
+			"GameplayAbilityGraphSchema.cpp.obj",
+			"GameplayCueTagDetails.cpp.obj",
+			"GameplayEffectCreationMenu.cpp.obj",
+			"GameplayEffectDetails.cpp.obj",
+			"GameplayEffectExecutionDefinitionDetails.cpp.obj",
+			"GameplayEffectExecutionScopedModifierInfoDetails.cpp.obj",
+			"GameplayEffectModifierMagnitudeDetails.cpp.obj",
+			"GameplayModEvaluationChannelSettingsDetails.cpp.obj",
+			"GameplayTagBlueprintPropertyMappingDetails.cpp.obj",
+			"InheritableGameplayTagContainerDetails.cpp.obj",
+			"K2Node_GameplayCueEvent.cpp.obj",
+			"K2Node_LatentAbilityCall.cpp.obj",
+			"GameplayCueTrackEditor.cpp.obj",
+			"SGameplayAttributeGraphPin.cpp.obj",
+			"SGameplayAttributeWidget.cpp.obj",
+			"SGameplayCueEditor.cpp.obj"
+		]
+	}
+}

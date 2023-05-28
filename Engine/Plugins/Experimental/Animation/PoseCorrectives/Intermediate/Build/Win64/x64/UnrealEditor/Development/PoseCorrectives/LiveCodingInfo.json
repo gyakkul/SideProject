@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PoseCorrectives.cpp.obj": [
+			"AnimNode_CorrectPose.gen.cpp.obj",
+			"CorrectivesRBFSolver.gen.cpp.obj",
+			"PoseCorrectives.init.gen.cpp.obj",
+			"PoseCorrectivesAsset.gen.cpp.obj",
+			"PoseCorrectivesProcessor.gen.cpp.obj",
+			"AnimNode_CorrectPose.cpp.obj",
+			"CorrectivesRBFInterpolator.cpp.obj",
+			"CorrectivesRBFSolver.cpp.obj",
+			"PoseCorrectives.cpp.obj",
+			"PoseCorrectivesAsset.cpp.obj",
+			"PoseCorrectivesProcessor.cpp.obj"
+		]
+	}
+}

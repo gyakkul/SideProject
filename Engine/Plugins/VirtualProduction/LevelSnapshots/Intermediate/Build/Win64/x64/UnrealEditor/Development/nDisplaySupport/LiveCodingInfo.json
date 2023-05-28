@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.nDisplaySupport.cpp.obj": [
+			"DisplayClusterConfigurationClusterNodeSerializer.cpp.obj",
+			"DisplayClusterConfigurationClusterSerializer.cpp.obj",
+			"DisplayMaterialOverrideFix.cpp.obj",
+			"nDisplaySupportModule.cpp.obj",
+			"DisplayClusterConfigurationDataSerializer.cpp.obj",
+			"DisplayClusterRootActorSerializer.cpp.obj"
+		]
+	}
+}

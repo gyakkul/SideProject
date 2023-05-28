@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelCapture.cpp.obj": [
+			"OuputFrameBuffer.cpp.obj",
+			"PixelCaptureBufferI420.cpp.obj",
+			"PixelCaptureBufferNV12.cpp.obj",
+			"PixelCaptureCapturer.cpp.obj",
+			"PixelCaptureCapturerI420.cpp.obj",
+			"PixelCaptureCapturerI420ToRHI.cpp.obj",
+			"PixelCaptureCapturerLayered.cpp.obj",
+			"PixelCaptureCapturerMultiFormat.cpp.obj",
+			"PixelCaptureCapturerNV12ToRHI.cpp.obj",
+			"PixelCaptureCapturerRHI.cpp.obj",
+			"PixelCaptureCapturerRHINoCopy.cpp.obj",
+			"PixelCaptureCapturerRHIRDG.cpp.obj",
+			"PixelCaptureCapturerRHIToI420Compute.cpp.obj",
+			"PixelCaptureCapturerRHIToI420CPU.cpp.obj",
+			"PixelCaptureInputFrameI420.cpp.obj",
+			"PixelCaptureInputFrameNV12.cpp.obj",
+			"PixelCaptureInputFrameRHI.cpp.obj",
+			"PixelCaptureModule.cpp.obj",
+			"PixelCaptureTests.cpp.obj"
+		]
+	}
+}

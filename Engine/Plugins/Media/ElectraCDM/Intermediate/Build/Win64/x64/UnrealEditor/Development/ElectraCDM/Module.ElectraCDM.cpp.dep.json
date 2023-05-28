@@ -1,0 +1,38 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electracdm\\module.electracdm.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\electracdm\\definitions.electracdm.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\3rdparty\\tiny-aes-c\\aes.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\3rdparty\\tiny-aes-c\\aes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\clearkey\\clearkeycdm.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\clearkey\\clearkeycdm.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\public\\electracdm.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\public\\electracdmerror.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\public\\electracdmsystem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\public\\electracdmclient.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\public\\electraencryptedsampleinfo.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\public\\crypto\\streamcryptoaes128.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\base64.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\dom\\jsonobject.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\dom\\jsonvalue.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\serialization\\jsontypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\jsonglobals.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\serialization\\jsonreader.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\serialization\\jsonserializer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\serialization\\jsonwriter.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\policies\\prettyjsonprintpolicy.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\json\\public\\policies\\jsonprintpolicy.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\crypto\\streamcryptoaes128.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\electracdm.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\electracdmmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\private\\electracdmmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\electracdm\\source\\electracdm\\public\\ielectracdmmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

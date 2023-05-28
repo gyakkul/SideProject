@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueprintStats.cpp.obj": [
+			"BlueprintStats.cpp.obj",
+			"BlueprintStatsModule.cpp.obj"
+		]
+	}
+}

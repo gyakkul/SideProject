@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SessionMessages.cpp.obj": [
+			"SessionMessages.init.gen.cpp.obj",
+			"SessionServiceMessages.gen.cpp.obj",
+			"SessionMessagesModule.cpp.obj"
+		]
+	}
+}

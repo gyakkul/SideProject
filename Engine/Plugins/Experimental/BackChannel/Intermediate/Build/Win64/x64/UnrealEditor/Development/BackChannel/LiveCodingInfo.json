@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BackChannel.cpp.obj": [
+			"BackChannelOSCBundle.cpp.obj",
+			"BackChannelOSCConnection.cpp.obj",
+			"BackChannelOSCMessage.cpp.obj",
+			"BackChannelOSCPacket.cpp.obj",
+			"TestBackChannelOSC.cpp.obj",
+			"BackChannelConnection.cpp.obj",
+			"BackChannelTransport.cpp.obj",
+			"TestBackChannelTransport.cpp.obj",
+			"BackChannelThreadedConnection.cpp.obj",
+			"DispatchMap.cpp.obj"
+		]
+	}
+}

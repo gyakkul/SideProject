@@ -1,0 +1,102 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MuCOE/Nodes/CustomizableObjectNodeObjectGroup.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CUSTOMIZABLEOBJECTEDITOR_CustomizableObjectNodeObjectGroup_generated_h
+#error "CustomizableObjectNodeObjectGroup.generated.h already included, missing '#pragma once' in CustomizableObjectNodeObjectGroup.h"
+#endif
+#define CUSTOMIZABLEOBJECTEDITOR_CustomizableObjectNodeObjectGroup_generated_h
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UCustomizableObjectNodeObjectGroup, NO_API)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectNodeObjectGroup(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectNodeObjectGroup_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectNodeObjectGroup, UCustomizableObjectNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectNodeObjectGroup) \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_INCLASS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectNodeObjectGroup(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectNodeObjectGroup_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectNodeObjectGroup, UCustomizableObjectNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectNodeObjectGroup) \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCustomizableObjectNodeObjectGroup(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCustomizableObjectNodeObjectGroup) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectNodeObjectGroup); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectNodeObjectGroup); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectNodeObjectGroup(UCustomizableObjectNodeObjectGroup&&); \
+	NO_API UCustomizableObjectNodeObjectGroup(const UCustomizableObjectNodeObjectGroup&); \
+public: \
+	NO_API virtual ~UCustomizableObjectNodeObjectGroup();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectNodeObjectGroup(UCustomizableObjectNodeObjectGroup&&); \
+	NO_API UCustomizableObjectNodeObjectGroup(const UCustomizableObjectNodeObjectGroup&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectNodeObjectGroup); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectNodeObjectGroup); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCustomizableObjectNodeObjectGroup) \
+	NO_API virtual ~UCustomizableObjectNodeObjectGroup();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_19_PROLOG
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_INCLASS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h_23_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CUSTOMIZABLEOBJECTEDITOR_API UClass* StaticClass<class UCustomizableObjectNodeObjectGroup>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeObjectGroup_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

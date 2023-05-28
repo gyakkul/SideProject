@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorStyle.1_of_2.cpp.obj": [
+			"EditorFontGlyphs.cpp.obj",
+			"EditorStyleModule.cpp.obj",
+			"EditorStyleSet.cpp.obj",
+			"SlateEditorStyle.cpp.obj"
+		],
+		"Module.EditorStyle.2_of_2.cpp.obj": [
+			"StarshipStyle.cpp.obj"
+		]
+	}
+}

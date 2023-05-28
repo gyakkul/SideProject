@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OculusAudioEditor.cpp.obj": [
+			"OculusAmbisonicSettingsFactory.gen.cpp.obj",
+			"OculusAudioEditor.init.gen.cpp.obj",
+			"OculusAudioSourceSettingsFactory.gen.cpp.obj",
+			"IOculusAudioEditorPlugin.cpp.obj",
+			"OculusAmbisonicSettingsFactory.cpp.obj",
+			"OculusAudioSourceSettingsFactory.cpp.obj"
+		]
+	}
+}

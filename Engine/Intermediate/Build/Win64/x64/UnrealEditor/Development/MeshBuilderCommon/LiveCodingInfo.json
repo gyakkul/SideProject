@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshBuilderCommon.cpp.obj": [
+			"MeshBuilderCommonModule.cpp.obj",
+			"ThirdPartyBuildOptimizationHelper.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetworkPredictionInsights.cpp.obj": [
+			"NetworkPredictionAnalyzer.cpp.obj",
+			"NetworkPredictionInsightsModule.cpp.obj",
+			"NetworkPredictionProvider.cpp.obj",
+			"NetworkPredictionTraceModule.cpp.obj",
+			"NetworkPredictionDrawHelpers.cpp.obj",
+			"NetworkPredictionInsightsActionManager.cpp.obj",
+			"NetworkPredictionInsightsCommands.cpp.obj",
+			"NetworkPredictionInsightsManager.cpp.obj",
+			"NPAxisViewportDouble.cpp.obj",
+			"NPAxisViewportInt32.cpp.obj",
+			"SNPSimFrameContents.cpp.obj",
+			"SNPSimFrameView.cpp.obj",
+			"SNPToolbar.cpp.obj",
+			"SNPWindow.cpp.obj"
+		]
+	}
+}

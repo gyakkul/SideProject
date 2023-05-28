@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StageMonitorCommon.cpp.obj": [
+			"StageMonitorCommon.init.gen.cpp.obj",
+			"StageMonitoringSettings.gen.cpp.obj",
+			"StageMonitorUtils.gen.cpp.obj",
+			"StageMonitorCommonModule.cpp.obj",
+			"StageMonitoringSettings.cpp.obj",
+			"StageMonitorUtils.cpp.obj"
+		]
+	}
+}

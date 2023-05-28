@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioSynesthesiaEditor.cpp.obj": [
+			"AudioSynesthesiaEditor.init.gen.cpp.obj",
+			"AssetTypeActions_AudioSynesthesiaNRT.cpp.obj",
+			"AssetTypeActions_AudioSynesthesiaNRTSettings.cpp.obj",
+			"AssetTypeActions_AudioSynesthesiaSettings.cpp.obj",
+			"AudioSynesthesiaClassFilter.cpp.obj",
+			"AudioSynesthesiaEditorModule.cpp.obj",
+			"AudioSynesthesiaNRTFactory.cpp.obj",
+			"AudioSynesthesiaNRTSettingsFactory.cpp.obj",
+			"AudioSynesthesiaSettingsFactory.cpp.obj"
+		]
+	}
+}

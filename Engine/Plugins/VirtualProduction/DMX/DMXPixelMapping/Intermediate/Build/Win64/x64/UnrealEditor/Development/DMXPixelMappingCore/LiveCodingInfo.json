@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXPixelMappingCore.cpp.obj": [
+			"DMXPixelMappingCore.init.gen.cpp.obj",
+			"DMXPixelMappingTypes.gen.cpp.obj",
+			"DMXPixelMappingCoreModule.cpp.obj",
+			"DMXPixelMappingUtils.cpp.obj"
+		]
+	}
+}

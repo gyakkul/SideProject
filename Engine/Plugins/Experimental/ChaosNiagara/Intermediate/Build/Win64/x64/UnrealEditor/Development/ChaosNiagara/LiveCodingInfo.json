@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosNiagara.cpp.obj": [
+			"ChaosNiagara.init.gen.cpp.obj",
+			"ChaosNiagara.cpp.obj",
+			"NiagaraDataInterfaceChaosDestruction.cpp.obj",
+			"NiagaraDataInterfaceGeometryCollection.cpp.obj",
+			"NiagaraDataInterfacePhysicsField.cpp.obj"
+		]
+	}
+}

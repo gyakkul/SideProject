@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModularGameplay.cpp.obj": [
+			"GameFrameworkComponentDelegates.gen.cpp.obj",
+			"ModularGameplay.init.gen.cpp.obj",
+			"ControllerComponent.cpp.obj",
+			"GameFrameworkComponent.cpp.obj",
+			"GameFrameworkComponentManager.cpp.obj",
+			"GameFrameworkInitStateInterface.cpp.obj",
+			"GameStateComponent.cpp.obj",
+			"PawnComponent.cpp.obj",
+			"PlayerStateComponent.cpp.obj",
+			"ModularGameplayModule.cpp.obj"
+		]
+	}
+}

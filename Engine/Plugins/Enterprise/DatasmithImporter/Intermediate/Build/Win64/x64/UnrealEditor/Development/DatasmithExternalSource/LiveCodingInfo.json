@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithExternalSource.cpp.obj": [
+			"DatasmithDirectLinkExternalSource.cpp.obj",
+			"DatasmithDirectLinkTranslator.cpp.obj",
+			"DatasmithExternalSourceModule.cpp.obj",
+			"DatasmithFileExternalSource.cpp.obj",
+			"DatasmithFileUriResolver.cpp.obj"
+		]
+	}
+}

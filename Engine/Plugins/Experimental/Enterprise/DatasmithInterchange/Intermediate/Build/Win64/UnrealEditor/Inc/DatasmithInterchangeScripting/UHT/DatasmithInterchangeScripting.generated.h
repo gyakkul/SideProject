@@ -1,0 +1,197 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DatasmithInterchangeScripting.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UDatasmithInterchangeImportResult;
+class UObject;
+struct FDatasmithInterchangeImportContext;
+#ifdef DATASMITHINTERCHANGESCRIPTING_DatasmithInterchangeScripting_generated_h
+#error "DatasmithInterchangeScripting.generated.h already included, missing '#pragma once' in DatasmithInterchangeScripting.h"
+#endif
+#define DATASMITHINTERCHANGESCRIPTING_DatasmithInterchangeScripting_generated_h
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_17_DELEGATE \
+DATASMITHINTERCHANGESCRIPTING_API void FDatasmithInterchangeImportEnded_DelegateWrapper(const FMulticastScriptDelegate& DatasmithInterchangeImportEnded);
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_22_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDatasmithInterchangeImportContext_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> DATASMITHINTERCHANGESCRIPTING_API UScriptStruct* StaticStruct<struct FDatasmithInterchangeImportContext>();
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDatasmithInterchangeImportResult(); \
+	friend struct Z_Construct_UClass_UDatasmithInterchangeImportResult_Statics; \
+public: \
+	DECLARE_CLASS(UDatasmithInterchangeImportResult, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DatasmithInterchangeScripting"), NO_API) \
+	DECLARE_SERIALIZER(UDatasmithInterchangeImportResult)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_INCLASS \
+private: \
+	static void StaticRegisterNativesUDatasmithInterchangeImportResult(); \
+	friend struct Z_Construct_UClass_UDatasmithInterchangeImportResult_Statics; \
+public: \
+	DECLARE_CLASS(UDatasmithInterchangeImportResult, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DatasmithInterchangeScripting"), NO_API) \
+	DECLARE_SERIALIZER(UDatasmithInterchangeImportResult)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDatasmithInterchangeImportResult(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDatasmithInterchangeImportResult) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDatasmithInterchangeImportResult); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDatasmithInterchangeImportResult); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDatasmithInterchangeImportResult(UDatasmithInterchangeImportResult&&); \
+	NO_API UDatasmithInterchangeImportResult(const UDatasmithInterchangeImportResult&); \
+public:
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDatasmithInterchangeImportResult(UDatasmithInterchangeImportResult&&); \
+	NO_API UDatasmithInterchangeImportResult(const UDatasmithInterchangeImportResult&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDatasmithInterchangeImportResult); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDatasmithInterchangeImportResult); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDatasmithInterchangeImportResult)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_46_PROLOG
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_INCLASS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_49_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATASMITHINTERCHANGESCRIPTING_API UClass* StaticClass<class UDatasmithInterchangeImportResult>();
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetDatasmithFormats); \
+	DECLARE_FUNCTION(execGetDatasmithOptionsForFile); \
+	DECLARE_FUNCTION(execLoadFile);
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetDatasmithFormats); \
+	DECLARE_FUNCTION(execGetDatasmithOptionsForFile); \
+	DECLARE_FUNCTION(execLoadFile);
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDatasmithInterchangeScripting(); \
+	friend struct Z_Construct_UClass_UDatasmithInterchangeScripting_Statics; \
+public: \
+	DECLARE_CLASS(UDatasmithInterchangeScripting, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DatasmithInterchangeScripting"), DATASMITHINTERCHANGESCRIPTING_API) \
+	DECLARE_SERIALIZER(UDatasmithInterchangeScripting)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_INCLASS \
+private: \
+	static void StaticRegisterNativesUDatasmithInterchangeScripting(); \
+	friend struct Z_Construct_UClass_UDatasmithInterchangeScripting_Statics; \
+public: \
+	DECLARE_CLASS(UDatasmithInterchangeScripting, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DatasmithInterchangeScripting"), DATASMITHINTERCHANGESCRIPTING_API) \
+	DECLARE_SERIALIZER(UDatasmithInterchangeScripting)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	DATASMITHINTERCHANGESCRIPTING_API UDatasmithInterchangeScripting(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDatasmithInterchangeScripting) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(DATASMITHINTERCHANGESCRIPTING_API, UDatasmithInterchangeScripting); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDatasmithInterchangeScripting); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	DATASMITHINTERCHANGESCRIPTING_API UDatasmithInterchangeScripting(UDatasmithInterchangeScripting&&); \
+	DATASMITHINTERCHANGESCRIPTING_API UDatasmithInterchangeScripting(const UDatasmithInterchangeScripting&); \
+public: \
+	DATASMITHINTERCHANGESCRIPTING_API virtual ~UDatasmithInterchangeScripting();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	DATASMITHINTERCHANGESCRIPTING_API UDatasmithInterchangeScripting(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	DATASMITHINTERCHANGESCRIPTING_API UDatasmithInterchangeScripting(UDatasmithInterchangeScripting&&); \
+	DATASMITHINTERCHANGESCRIPTING_API UDatasmithInterchangeScripting(const UDatasmithInterchangeScripting&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(DATASMITHINTERCHANGESCRIPTING_API, UDatasmithInterchangeScripting); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDatasmithInterchangeScripting); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDatasmithInterchangeScripting) \
+	DATASMITHINTERCHANGESCRIPTING_API virtual ~UDatasmithInterchangeScripting();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_79_PROLOG
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_INCLASS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h_82_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATASMITHINTERCHANGESCRIPTING_API UClass* StaticClass<class UDatasmithInterchangeScripting>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Enterprise_DatasmithInterchange_Source_DatasmithInterchangeScripting_Public_DatasmithInterchangeScripting_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

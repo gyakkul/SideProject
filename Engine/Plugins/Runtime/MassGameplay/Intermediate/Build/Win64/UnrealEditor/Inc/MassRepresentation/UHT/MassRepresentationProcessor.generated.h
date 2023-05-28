@@ -1,0 +1,248 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MassRepresentationProcessor.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MASSREPRESENTATION_MassRepresentationProcessor_generated_h
+#error "MassRepresentationProcessor.generated.h already included, missing '#pragma once' in MassRepresentationProcessor.h"
+#endif
+#define MASSREPRESENTATION_MassRepresentationProcessor_generated_h
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassRepresentationProcessor(); \
+	friend struct Z_Construct_UClass_UMassRepresentationProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UMassRepresentationProcessor, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassRepresentation"), NO_API) \
+	DECLARE_SERIALIZER(UMassRepresentationProcessor)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassRepresentationProcessor(); \
+	friend struct Z_Construct_UClass_UMassRepresentationProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UMassRepresentationProcessor, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassRepresentation"), NO_API) \
+	DECLARE_SERIALIZER(UMassRepresentationProcessor)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassRepresentationProcessor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassRepresentationProcessor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassRepresentationProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassRepresentationProcessor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassRepresentationProcessor(UMassRepresentationProcessor&&); \
+	NO_API UMassRepresentationProcessor(const UMassRepresentationProcessor&); \
+public: \
+	NO_API virtual ~UMassRepresentationProcessor();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassRepresentationProcessor(UMassRepresentationProcessor&&); \
+	NO_API UMassRepresentationProcessor(const UMassRepresentationProcessor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassRepresentationProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassRepresentationProcessor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassRepresentationProcessor) \
+	NO_API virtual ~UMassRepresentationProcessor();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_16_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSREPRESENTATION_API UClass* StaticClass<class UMassRepresentationProcessor>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassVisualizationProcessor(); \
+	friend struct Z_Construct_UClass_UMassVisualizationProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UMassVisualizationProcessor, UMassRepresentationProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassRepresentation"), NO_API) \
+	DECLARE_SERIALIZER(UMassVisualizationProcessor)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassVisualizationProcessor(); \
+	friend struct Z_Construct_UClass_UMassVisualizationProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UMassVisualizationProcessor, UMassRepresentationProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassRepresentation"), NO_API) \
+	DECLARE_SERIALIZER(UMassVisualizationProcessor)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassVisualizationProcessor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassVisualizationProcessor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassVisualizationProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassVisualizationProcessor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassVisualizationProcessor(UMassVisualizationProcessor&&); \
+	NO_API UMassVisualizationProcessor(const UMassVisualizationProcessor&); \
+public: \
+	NO_API virtual ~UMassVisualizationProcessor();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassVisualizationProcessor(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassVisualizationProcessor(UMassVisualizationProcessor&&); \
+	NO_API UMassVisualizationProcessor(const UMassVisualizationProcessor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassVisualizationProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassVisualizationProcessor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassVisualizationProcessor) \
+	NO_API virtual ~UMassVisualizationProcessor();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_58_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_61_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSREPRESENTATION_API UClass* StaticClass<class UMassVisualizationProcessor>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassRepresentationFragmentDestructor(); \
+	friend struct Z_Construct_UClass_UMassRepresentationFragmentDestructor_Statics; \
+public: \
+	DECLARE_CLASS(UMassRepresentationFragmentDestructor, UMassObserverProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassRepresentation"), NO_API) \
+	DECLARE_SERIALIZER(UMassRepresentationFragmentDestructor)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassRepresentationFragmentDestructor(); \
+	friend struct Z_Construct_UClass_UMassRepresentationFragmentDestructor_Statics; \
+public: \
+	DECLARE_CLASS(UMassRepresentationFragmentDestructor, UMassObserverProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassRepresentation"), NO_API) \
+	DECLARE_SERIALIZER(UMassRepresentationFragmentDestructor)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassRepresentationFragmentDestructor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassRepresentationFragmentDestructor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassRepresentationFragmentDestructor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassRepresentationFragmentDestructor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassRepresentationFragmentDestructor(UMassRepresentationFragmentDestructor&&); \
+	NO_API UMassRepresentationFragmentDestructor(const UMassRepresentationFragmentDestructor&); \
+public: \
+	NO_API virtual ~UMassRepresentationFragmentDestructor();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassRepresentationFragmentDestructor(UMassRepresentationFragmentDestructor&&); \
+	NO_API UMassRepresentationFragmentDestructor(const UMassRepresentationFragmentDestructor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassRepresentationFragmentDestructor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassRepresentationFragmentDestructor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassRepresentationFragmentDestructor) \
+	NO_API virtual ~UMassRepresentationFragmentDestructor();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_100_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h_103_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSREPRESENTATION_API UClass* StaticClass<class UMassRepresentationFragmentDestructor>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MassGameplay_Source_MassRepresentation_Public_MassRepresentationProcessor_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

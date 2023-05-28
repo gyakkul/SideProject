@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FoliageSupport.cpp.obj": [
+			"FoliageLevelSnapshotsConsoleVariables.cpp.obj",
+			"FoliageSupportModule.cpp.obj",
+			"ApplyDataUtils.cpp.obj",
+			"ApplyData_5dot2.cpp.obj",
+			"ApplyData_Pre5dot1.cpp.obj",
+			"FoliageRestorationInfo.cpp.obj",
+			"FoliageInfoData.cpp.obj",
+			"InstancedFoliageActorData.cpp.obj",
+			"SubobjectFoliageInfoData.cpp.obj",
+			"FoliageSupport.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeForceNOWWrapper.cpp.obj": [
+			"GeForceNOWActionZoneProcessor.cpp.obj",
+			"GeForceNOWWrapper.cpp.obj",
+			"GeForceNOWWrapperModule.cpp.obj"
+		]
+	}
+}

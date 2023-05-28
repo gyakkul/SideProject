@@ -1,0 +1,14 @@
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\EpicGames.Perforce.Native.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\EpicGames.Perforce.Native.so
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\EpicGames.Perforce.Native.dylib
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\Mac.Automation.deps.json
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\Mac.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\ref\Mac.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\Mac.Automation.pdb
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Mac\obj\Development\Mac.Automation.csproj.AssemblyReference.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Mac\obj\Development\Mac.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Mac\obj\Development\Mac.Automation.csproj.CoreCompileInputs.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Mac\obj\Development\Mac.Automation.csproj.CopyComplete
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Mac\obj\Development\Mac.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Mac\obj\Development\refint\Mac.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Mac\obj\Development\Mac.Automation.pdb

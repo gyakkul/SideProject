@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NiagaraSimCachingEditor.cpp.obj": [
+			"MovieSceneNiagaraTrackRecorder.gen.cpp.obj",
+			"NiagaraSimCachingEditor.init.gen.cpp.obj",
+			"NiagaraSimCachingEditorPlugin.cpp.obj",
+			"NiagaraSimCachingEditorStyle.cpp.obj",
+			"MovieSceneNiagaraTrackRecorder.cpp.obj",
+			"NiagaraCacheTrackEditor.cpp.obj"
+		]
+	}
+}

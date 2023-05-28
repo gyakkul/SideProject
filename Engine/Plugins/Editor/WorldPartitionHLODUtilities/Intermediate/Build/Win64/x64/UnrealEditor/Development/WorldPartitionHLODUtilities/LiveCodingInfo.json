@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WorldPartitionHLODUtilities.cpp.obj": [
+			"HLODModifierMeshDestruction.gen.cpp.obj",
+			"WorldPartitionHLODUtilities.init.gen.cpp.obj",
+			"HLODBuilderInstancing.cpp.obj",
+			"HLODBuilderMeshApproximate.cpp.obj",
+			"HLODBuilderMeshMerge.cpp.obj",
+			"HLODBuilderMeshSimplify.cpp.obj",
+			"WorldPartitionHLODUtilities.cpp.obj",
+			"WorldPartitionHLODUtilitiesModule.cpp.obj",
+			"HLODModifierMeshDestruction.cpp.obj"
+		]
+	}
+}

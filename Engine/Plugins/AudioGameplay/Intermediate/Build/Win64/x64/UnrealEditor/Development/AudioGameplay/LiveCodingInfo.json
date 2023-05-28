@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioGameplay.cpp.obj": [
+			"AudioComponentGroupExtension.gen.cpp.obj",
+			"AudioGameplay.init.gen.cpp.obj",
+			"IAudioGameplayCondition.gen.cpp.obj",
+			"IAudioGameplayVolumeInteraction.gen.cpp.obj",
+			"AudioComponentGroup.cpp.obj",
+			"AudioComponentGroupDebug.cpp.obj",
+			"AudioGameplayComponent.cpp.obj",
+			"AudioGameplayModule.cpp.obj",
+			"AudioGameplayRequirements.cpp.obj",
+			"AudioParameterComponent.cpp.obj"
+		]
+	}
+}

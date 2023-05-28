@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosClothAssetEngine.cpp.obj": [
+			"ChaosClothAssetEngine.init.gen.cpp.obj",
+			"ClothAssetBuilder.gen.cpp.obj",
+			"ClothComponent.gen.cpp.obj",
+			"ClothSimulationModel.gen.cpp.obj",
+			"ChaosClothAssetEngineModule.cpp.obj",
+			"ClothAsset.cpp.obj",
+			"ClothAssetBuilder.cpp.obj",
+			"ClothComponent.cpp.obj",
+			"ClothSimulationContext.cpp.obj",
+			"ClothSimulationMesh.cpp.obj",
+			"ClothSimulationModel.cpp.obj",
+			"ClothSimulationProxy.cpp.obj"
+		]
+	}
+}

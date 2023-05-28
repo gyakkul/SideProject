@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SlateScriptingCommands.cpp.obj": [
+			"SlateScriptingCommands.init.gen.cpp.obj",
+			"UICommandsScriptingSubsystem.gen.cpp.obj",
+			"SlateScriptingCommandsModule.cpp.obj",
+			"UICommandsScriptingSubsystem.cpp.obj"
+		]
+	}
+}

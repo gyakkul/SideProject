@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationData.cpp.obj": [
+			"AnimationData.init.gen.cpp.obj",
+			"AnimSequencerController.gen.cpp.obj",
+			"AnimSequencerDataModel.gen.cpp.obj",
+			"AnimationDataModule.cpp.obj",
+			"AnimSequencerController.cpp.obj",
+			"AnimSequencerDataModel.cpp.obj",
+			"AnimSequencerHelpers.cpp.obj"
+		]
+	}
+}

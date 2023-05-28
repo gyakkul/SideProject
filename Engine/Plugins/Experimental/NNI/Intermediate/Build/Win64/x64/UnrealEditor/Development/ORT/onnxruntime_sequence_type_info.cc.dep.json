@@ -1,0 +1,16 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\onnxruntime_sequence_type_info.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\onnxruntime_sequence_type_info.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\onnxruntime_typeinfo.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\session\\ort_apis.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\error_code_helper.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

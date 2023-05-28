@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SwitchboardEditor.cpp.obj": [
+			"SwitchboardEditor.init.gen.cpp.obj",
+			"SwitchboardEditorSettings.gen.cpp.obj",
+			"SwitchboardProjectSettings.gen.cpp.obj",
+			"SwitchboardTypes.gen.cpp.obj",
+			"DisplayClusterRootActorReferenceDetailCustomization.cpp.obj",
+			"SwitchboardEditorModule.cpp.obj",
+			"SwitchboardEditorSettings.cpp.obj",
+			"SwitchboardEditorStyle.cpp.obj",
+			"SwitchboardMenuEntry.cpp.obj",
+			"SwitchboardProjectSettings.cpp.obj",
+			"SwitchboardScriptInterop.cpp.obj",
+			"SwitchboardSettingsCustomization.cpp.obj",
+			"SwitchboardSetupWizard.cpp.obj",
+			"SwitchboardShortcuts.cpp.obj"
+		]
+	}
+}

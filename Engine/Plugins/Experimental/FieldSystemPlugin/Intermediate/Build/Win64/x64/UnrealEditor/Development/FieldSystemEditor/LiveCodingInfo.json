@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FieldSystemEditor.cpp.obj": [
+			"ActorFactoryFieldSystem.gen.cpp.obj",
+			"FieldSystemEditor.init.gen.cpp.obj",
+			"FieldSystemFactory.gen.cpp.obj",
+			"ActorFactoryFieldSystem.cpp.obj",
+			"AssetTypeActions_FieldSystem.cpp.obj",
+			"FieldSystemEditorCommands.cpp.obj",
+			"FieldSystemEditorModule.cpp.obj",
+			"FieldSystemFactory.cpp.obj"
+		]
+	}
+}

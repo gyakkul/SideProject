@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VirtualizationEditor.cpp.obj": [
+			"GeneratePayloadManifestCommandlet.gen.cpp.obj",
+			"PrecachePayloadsCommandlet.gen.cpp.obj",
+			"RehydrateProjectCommandlet.gen.cpp.obj",
+			"VirtualizationEditor.init.gen.cpp.obj",
+			"VirtualizeProjectCommandlet.gen.cpp.obj",
+			"CommandletUtils.cpp.obj",
+			"GeneratePayloadManifestCommandlet.cpp.obj",
+			"PrecachePayloadsCommandlet.cpp.obj",
+			"RehydrateProjectCommandlet.cpp.obj",
+			"RehydrationMenuEntry.cpp.obj",
+			"SVirtualAssetsStatistics.cpp.obj",
+			"VirtualizationEditorModule.cpp.obj",
+			"VirtualizeProjectCommandlet.cpp.obj"
+		]
+	}
+}

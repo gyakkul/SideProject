@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineBase.cpp.obj": [
+			"LANBeacon.cpp.obj",
+			"OnlineBaseModule.cpp.obj"
+		]
+	}
+}

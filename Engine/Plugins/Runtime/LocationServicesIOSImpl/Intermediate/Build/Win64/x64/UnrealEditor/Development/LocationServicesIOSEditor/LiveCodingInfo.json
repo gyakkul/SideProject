@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LocationServicesIOSEditor.cpp.obj": [
+			"LocationServicesIOSEditor.init.gen.cpp.obj",
+			"LocationServicesIOSSettings.gen.cpp.obj",
+			"LocationServicesIOSEditor.cpp.obj"
+		]
+	}
+}

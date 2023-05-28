@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CommonConversationRuntime.cpp.obj": [
+			"CommonConversationRuntime.init.gen.cpp.obj",
+			"CommonConversationRuntimeModule.cpp.obj",
+			"ConversationChoiceNode.cpp.obj",
+			"ConversationContext.cpp.obj",
+			"ConversationDatabase.cpp.obj",
+			"ConversationEntryPointNode.cpp.obj",
+			"ConversationInstance.cpp.obj",
+			"ConversationLibrary.cpp.obj",
+			"ConversationLinkNode.cpp.obj",
+			"ConversationMemory.cpp.obj",
+			"ConversationNode.cpp.obj",
+			"ConversationParticipantComponent.cpp.obj",
+			"ConversationRegistry.cpp.obj",
+			"ConversationRequirementNode.cpp.obj",
+			"ConversationSettings.cpp.obj",
+			"ConversationSideEffectNode.cpp.obj",
+			"ConversationSubNode.cpp.obj",
+			"ConversationTaskNode.cpp.obj",
+			"ConversationTypes.cpp.obj"
+		]
+	}
+}

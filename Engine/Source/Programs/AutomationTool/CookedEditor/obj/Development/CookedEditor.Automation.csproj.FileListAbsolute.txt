@@ -1,0 +1,14 @@
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\EpicGames.Perforce.Native.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\EpicGames.Perforce.Native.so
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\EpicGames.Perforce.Native.dylib
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\CookedEditor.Automation.deps.json
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\CookedEditor.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\ref\CookedEditor.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\CookedEditor.Automation.pdb
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CookedEditor\obj\Development\CookedEditor.Automation.csproj.AssemblyReference.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CookedEditor\obj\Development\CookedEditor.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CookedEditor\obj\Development\CookedEditor.Automation.csproj.CoreCompileInputs.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CookedEditor\obj\Development\CookedEditor.Automation.csproj.CopyComplete
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CookedEditor\obj\Development\CookedEditor.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CookedEditor\obj\Development\refint\CookedEditor.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CookedEditor\obj\Development\CookedEditor.Automation.pdb

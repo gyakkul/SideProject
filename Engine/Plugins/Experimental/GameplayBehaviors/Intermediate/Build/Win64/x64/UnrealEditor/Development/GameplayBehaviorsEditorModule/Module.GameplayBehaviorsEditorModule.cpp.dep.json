@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\gameplaybehaviors\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplaybehaviorseditormodule\\module.gameplaybehaviorseditormodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\gameplaybehaviors\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplaybehaviorseditormodule\\definitions.gameplaybehaviorseditormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\gameplaybehaviors\\source\\gameplaybehaviorseditormodule\\private\\gameplaybehaviorseditormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\gameplaybehaviors\\source\\gameplaybehaviorseditormodule\\public\\gameplaybehaviorseditormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\gameplaybehaviors\\source\\gameplaybehaviorseditormodule\\private\\gameplaybehaviorseditorstyle.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyle.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\brushes\\slateborderbrush.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\brushes\\slateboxbrush.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\brushes\\slatecolorbrush.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\brushes\\slateroundedboxbrush.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\brushes\\slateimagebrush.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\gameplaybehaviors\\source\\gameplaybehaviorseditormodule\\private\\gameplaybehaviorseditorstyle.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyleregistry.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

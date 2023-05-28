@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MotionTrajectory.cpp.obj": [
+			"MotionTrajectory.init.gen.cpp.obj",
+			"MotionTrajectory.cpp.obj",
+			"MotionTrajectoryCharacterMovement.cpp.obj",
+			"MotionTrajectoryLibrary.cpp.obj"
+		]
+	}
+}

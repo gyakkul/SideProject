@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.IKRig.cpp.obj": [
+			"IKRetargetProfile.gen.cpp.obj",
+			"IKRig.init.gen.cpp.obj",
+			"IKRigInterface.gen.cpp.obj",
+			"IKRigComponent.cpp.obj",
+			"AnimNode_IKRig.cpp.obj",
+			"AnimNode_RetargetPoseFromMesh.cpp.obj",
+			"IKRig.cpp.obj",
+			"IKRigDataTypes.cpp.obj",
+			"IKRigDefinition.cpp.obj",
+			"IKRigLogger.cpp.obj",
+			"IKRigProcessor.cpp.obj",
+			"IKRigSkeleton.cpp.obj",
+			"IKRigSolver.cpp.obj",
+			"IKRetargeter.cpp.obj",
+			"IKRetargetProcessor.cpp.obj",
+			"IKRetargetSettings.cpp.obj",
+			"IKRig_BodyMover.cpp.obj",
+			"IKRig_LimbSolver.cpp.obj",
+			"IKRig_PBIKSolver.cpp.obj",
+			"IKRig_PoleSolver.cpp.obj",
+			"IKRig_SetTransform.cpp.obj",
+			"LimbSolver.cpp.obj"
+		]
+	}
+}

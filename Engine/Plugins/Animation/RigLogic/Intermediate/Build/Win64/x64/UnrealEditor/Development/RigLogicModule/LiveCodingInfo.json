@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RigLogicModule.cpp.obj": [
+			"DNACommon.gen.cpp.obj",
+			"DNAIndexMapping.gen.cpp.obj",
+			"RigLogic.gen.cpp.obj",
+			"RigLogicModule.init.gen.cpp.obj",
+			"AnimNode_RigLogic.cpp.obj",
+			"ArchiveMemoryStream.cpp.obj",
+			"DNAAsset.cpp.obj",
+			"DNAAssetCustomVersion.cpp.obj",
+			"DNAIndexMapping.cpp.obj",
+			"DNAReader.cpp.obj",
+			"DNAToSkelMeshMap.cpp.obj",
+			"DNAUtils.cpp.obj",
+			"RigInstance.cpp.obj",
+			"RigLogic.cpp.obj",
+			"RigLogicMemoryStream.cpp.obj",
+			"RigLogicModule.cpp.obj",
+			"RigUnit_RigLogic.cpp.obj",
+			"RigUnit_RigLogic_Test.cpp.obj",
+			"SharedRigRuntimeContext.cpp.obj",
+			"SkelMeshDNAReader.cpp.obj",
+			"SkelMeshDNAUtils.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ScriptableToolsFramework.cpp.obj": [
+			"ScriptableClickDragTool.gen.cpp.obj",
+			"ScriptableInteractiveTool.gen.cpp.obj",
+			"ScriptableSingleClickTool.gen.cpp.obj",
+			"ScriptableToolBuilder.gen.cpp.obj",
+			"ScriptableToolsFramework.init.gen.cpp.obj",
+			"ScriptableClickDragTool.cpp.obj",
+			"ScriptableSingleClickTool.cpp.obj",
+			"ScriptableInteractiveTool.cpp.obj",
+			"ScriptableToolBuilder.cpp.obj",
+			"ScriptableToolsFrameworkModule.cpp.obj"
+		]
+	}
+}

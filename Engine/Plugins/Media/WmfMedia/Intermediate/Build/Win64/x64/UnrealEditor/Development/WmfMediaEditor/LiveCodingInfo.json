@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WmfMediaEditor.cpp.obj": [
+			"WmfMediaEditor.init.gen.cpp.obj",
+			"WmfFileMediaSourceFactory.cpp.obj",
+			"WmfMediaEditorModule.cpp.obj"
+		]
+	}
+}

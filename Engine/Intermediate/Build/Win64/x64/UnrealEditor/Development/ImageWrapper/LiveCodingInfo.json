@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImageWrapper.cpp.obj": [
+			"BmpImageWrapper.cpp.obj",
+			"DdsImageWrapper.cpp.obj",
+			"ExrImageWrapper.cpp.obj",
+			"HdrImageWrapper.cpp.obj",
+			"IcnsImageWrapper.cpp.obj",
+			"IcoImageWrapper.cpp.obj",
+			"JpegImageWrapper.cpp.obj",
+			"PngImageWrapper.cpp.obj",
+			"TgaImageWrapper.cpp.obj",
+			"TiffImageWrapper.cpp.obj",
+			"ImageWrapperBase.cpp.obj",
+			"ImageWrapperHelper.cpp.obj",
+			"ImageWrapperModule.cpp.obj",
+			"TgaImageSupport.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDStageEditorViewModels.cpp.obj": [
+			"USDIntegrationsViewModel.cpp.obj",
+			"USDLayersViewModel.cpp.obj",
+			"USDPrimAttributesViewModel.cpp.obj",
+			"USDPrimViewModel.cpp.obj",
+			"USDReferencesViewModel.cpp.obj",
+			"USDStageEditorViewModelsModule.cpp.obj",
+			"USDStageViewModel.cpp.obj",
+			"USDVariantSetsViewModel.cpp.obj"
+		]
+	}
+}

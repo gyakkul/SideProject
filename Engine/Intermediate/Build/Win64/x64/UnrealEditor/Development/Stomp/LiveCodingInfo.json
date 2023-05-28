@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Stomp.cpp.obj": [
+			"StompClient.cpp.obj",
+			"StompCommand.cpp.obj",
+			"StompFrame.cpp.obj",
+			"StompMessage.cpp.obj",
+			"StompModule.cpp.obj"
+		]
+	}
+}

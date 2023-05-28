@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConsoleVariablesEditorRuntime.cpp.obj": [
+			"ConsoleVariablesAsset.gen.cpp.obj",
+			"ConsoleVariablesEditorRuntime.init.gen.cpp.obj",
+			"ConsoleVariablesAsset.cpp.obj",
+			"ConsoleVariablesEditorRuntimeModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimNextInterfaceGraph.cpp.obj": [
+			"AnimNextInterfaceExecuteContext.gen.cpp.obj",
+			"AnimNextInterfaceGraph.init.gen.cpp.obj",
+			"AnimNode_AnimNextInterfaceGraph.cpp.obj",
+			"AnimNextInterfaceGraph.cpp.obj",
+			"AnimNextInterfaceGraphModule.cpp.obj",
+			"AnimNextInterface_Bool.cpp.obj",
+			"AnimNextInterface_Float.cpp.obj",
+			"AnimNextInterface_Name.cpp.obj",
+			"AnimNextInterface_Wrapper.cpp.obj",
+			"RigUnit_AnimNextInterfaceBeginExecution.cpp.obj",
+			"RigUnit_AnimNextInterfaceEndExecution.cpp.obj",
+			"RigUnit_AnimNextInterfaceParameter.cpp.obj"
+		]
+	}
+}

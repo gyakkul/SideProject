@@ -1,0 +1,171 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MoviePipelineConfigFactory.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MOVIERENDERPIPELINEEDITOR_MoviePipelineConfigFactory_generated_h
+#error "MoviePipelineConfigFactory.generated.h already included, missing '#pragma once' in MoviePipelineConfigFactory.h"
+#endif
+#define MOVIERENDERPIPELINEEDITOR_MoviePipelineConfigFactory_generated_h
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_SPARSE_DATA
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_RPC_WRAPPERS
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_ACCESSORS
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMoviePipelinePrimaryConfigFactory(); \
+	friend struct Z_Construct_UClass_UMoviePipelinePrimaryConfigFactory_Statics; \
+public: \
+	DECLARE_CLASS(UMoviePipelinePrimaryConfigFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MovieRenderPipelineEditor"), NO_API) \
+	DECLARE_SERIALIZER(UMoviePipelinePrimaryConfigFactory)
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_INCLASS \
+private: \
+	static void StaticRegisterNativesUMoviePipelinePrimaryConfigFactory(); \
+	friend struct Z_Construct_UClass_UMoviePipelinePrimaryConfigFactory_Statics; \
+public: \
+	DECLARE_CLASS(UMoviePipelinePrimaryConfigFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MovieRenderPipelineEditor"), NO_API) \
+	DECLARE_SERIALIZER(UMoviePipelinePrimaryConfigFactory)
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMoviePipelinePrimaryConfigFactory(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMoviePipelinePrimaryConfigFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMoviePipelinePrimaryConfigFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMoviePipelinePrimaryConfigFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMoviePipelinePrimaryConfigFactory(UMoviePipelinePrimaryConfigFactory&&); \
+	NO_API UMoviePipelinePrimaryConfigFactory(const UMoviePipelinePrimaryConfigFactory&); \
+public: \
+	NO_API virtual ~UMoviePipelinePrimaryConfigFactory();
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMoviePipelinePrimaryConfigFactory(UMoviePipelinePrimaryConfigFactory&&); \
+	NO_API UMoviePipelinePrimaryConfigFactory(const UMoviePipelinePrimaryConfigFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMoviePipelinePrimaryConfigFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMoviePipelinePrimaryConfigFactory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMoviePipelinePrimaryConfigFactory) \
+	NO_API virtual ~UMoviePipelinePrimaryConfigFactory();
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_9_PROLOG
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_SPARSE_DATA \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_RPC_WRAPPERS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_ACCESSORS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_INCLASS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_SPARSE_DATA \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_ACCESSORS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MOVIERENDERPIPELINEEDITOR_API UClass* StaticClass<class UMoviePipelinePrimaryConfigFactory>();
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_SPARSE_DATA
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_RPC_WRAPPERS
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_ACCESSORS
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMoviePipelineShotConfigFactory(); \
+	friend struct Z_Construct_UClass_UMoviePipelineShotConfigFactory_Statics; \
+public: \
+	DECLARE_CLASS(UMoviePipelineShotConfigFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MovieRenderPipelineEditor"), NO_API) \
+	DECLARE_SERIALIZER(UMoviePipelineShotConfigFactory)
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_INCLASS \
+private: \
+	static void StaticRegisterNativesUMoviePipelineShotConfigFactory(); \
+	friend struct Z_Construct_UClass_UMoviePipelineShotConfigFactory_Statics; \
+public: \
+	DECLARE_CLASS(UMoviePipelineShotConfigFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MovieRenderPipelineEditor"), NO_API) \
+	DECLARE_SERIALIZER(UMoviePipelineShotConfigFactory)
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMoviePipelineShotConfigFactory(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMoviePipelineShotConfigFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMoviePipelineShotConfigFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMoviePipelineShotConfigFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMoviePipelineShotConfigFactory(UMoviePipelineShotConfigFactory&&); \
+	NO_API UMoviePipelineShotConfigFactory(const UMoviePipelineShotConfigFactory&); \
+public: \
+	NO_API virtual ~UMoviePipelineShotConfigFactory();
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMoviePipelineShotConfigFactory(UMoviePipelineShotConfigFactory&&); \
+	NO_API UMoviePipelineShotConfigFactory(const UMoviePipelineShotConfigFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMoviePipelineShotConfigFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMoviePipelineShotConfigFactory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMoviePipelineShotConfigFactory) \
+	NO_API virtual ~UMoviePipelineShotConfigFactory();
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_22_PROLOG
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_SPARSE_DATA \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_RPC_WRAPPERS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_ACCESSORS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_INCLASS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_SPARSE_DATA \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_ACCESSORS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h_25_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MOVIERENDERPIPELINEEDITOR_API UClass* StaticClass<class UMoviePipelineShotConfigFactory>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_MovieScene_MovieRenderPipeline_Source_MovieRenderPipelineEditor_Public_MoviePipelineConfigFactory_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TypedElementsDataStorageUI.cpp.obj": [
+			"TypedElementCounterWidgetConstructor.gen.cpp.obj",
+			"TypedElementCounterWidgetProcessor.gen.cpp.obj",
+			"TypedElementsDataStorageUI.init.gen.cpp.obj",
+			"TypedElementCounterWidgetConstructor.cpp.obj",
+			"TypedElementCounterWidgetProcessor.cpp.obj",
+			"TypedElementsDataStorageUI.cpp.obj"
+		]
+	}
+}

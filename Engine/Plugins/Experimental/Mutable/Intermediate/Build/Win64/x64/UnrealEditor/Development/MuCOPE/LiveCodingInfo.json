@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MuCOPE.cpp.obj": [
+			"CustomizableObjectPopulationClassFactory.gen.cpp.obj",
+			"CustomizableObjectPopulationEditor.init.gen.cpp.obj",
+			"CustomizableObjectPopulationFactory.gen.cpp.obj",
+			"AssetTypeActions_CustomizableObjectPopulation.cpp.obj",
+			"AssetTypeActions_CustomizableObjectPopulationClass.cpp.obj",
+			"CustomizableObjectPopulationClassDetails.cpp.obj",
+			"CustomizableObjectPopulationClassEditor.cpp.obj",
+			"CustomizableObjectPopulationClassEditorActions.cpp.obj",
+			"CustomizableObjectPopulationClassFactory.cpp.obj",
+			"CustomizableObjectPopulationEditor.cpp.obj",
+			"CustomizableObjectPopulationEditorActions.cpp.obj",
+			"CustomizableObjectPopulationEditorModule.cpp.obj",
+			"CustomizableObjectPopulationEditorStyle.cpp.obj",
+			"CustomizableObjectPopulationEditorViewportClient.cpp.obj",
+			"CustomizableObjectPopulationFactory.cpp.obj",
+			"SCustomizableObjectPopulationClassTagManager.cpp.obj",
+			"SCustomizableObjectPopulationClassTagsTool.cpp.obj",
+			"SCustomizableObjectPopulationEditorViewport.cpp.obj",
+			"SCustomizableObjectPopulationEditorViewportToolBar.cpp.obj"
+		]
+	}
+}

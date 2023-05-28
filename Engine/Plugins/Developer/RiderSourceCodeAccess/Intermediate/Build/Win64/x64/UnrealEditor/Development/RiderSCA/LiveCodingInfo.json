@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RiderSCA.cpp.obj": [
+			"RiderPathLocator.cpp.obj",
+			"RiderPathLocatorWin.cpp.obj",
+			"RiderSourceCodeAccessor.cpp.obj",
+			"RiderSourceCodeAccessorModule.cpp.obj"
+		]
+	}
+}

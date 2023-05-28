@@ -1,0 +1,92 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MetasoundStandardNodes.1_of_6.cpp.obj": [
+			"MetasoundAbsoluteValueNodes.cpp.obj",
+			"MetasoundAdditiveSynthNode.cpp.obj",
+			"MetasoundADEnvelopeNode.cpp.obj",
+			"MetasoundADSREnvelopeNode.cpp.obj",
+			"MetasoundAudioFormats.cpp.obj",
+			"MetasoundBandsplitterNode.cpp.obj",
+			"MetasoundBasicFilters.cpp.obj"
+		],
+		"Module.MetasoundStandardNodes.2_of_6.cpp.obj": [
+			"MetasoundBitcrusherNode.cpp.obj",
+			"MetasoundBPMToSecondsNode.cpp.obj",
+			"MetasoundClampNode.cpp.obj",
+			"MetasoundCompressorNode.cpp.obj",
+			"MetasoundConversionNodes.cpp.obj",
+			"MetasoundCrossfadeNode.cpp.obj",
+			"MetasoundDebugLogNode.cpp.obj",
+			"MetasoundDebugTriggerOnNanNode.cpp.obj",
+			"MetasoundDecibelsToLinearGain.cpp.obj",
+			"MetasoundDelayNode.cpp.obj",
+			"MetasoundDiffuserNode.cpp.obj",
+			"MetasoundDopplerPitchShiftNode.cpp.obj",
+			"MetasoundDynamicFilterNode.cpp.obj",
+			"MetasoundEnvelopeFollowerNode.cpp.obj"
+		],
+		"Module.MetasoundStandardNodes.3_of_6.cpp.obj": [
+			"MetasoundEnvelopeFollowerTypes.cpp.obj",
+			"MetasoundFilterQToBandwidthNode.cpp.obj",
+			"MetasoundFlangerNode.cpp.obj",
+			"MetasoundFreqMultiplierToSemitoneNode.cpp.obj",
+			"MetasoundFreqToMIDINode.cpp.obj",
+			"MetasoundGrainDelayNode.cpp.obj",
+			"MetasoundInterpToNode.cpp.obj",
+			"MetasoundITDPannerNode.cpp.obj",
+			"MetasoundLimiterNode.cpp.obj",
+			"MetasoundLinearGainToDecibels.cpp.obj",
+			"MetasoundLinearToLogFrequencyNode.cpp.obj",
+			"MetasoundLowFrequencyNoise.cpp.obj",
+			"MetasoundMapRangeNode.cpp.obj",
+			"MetasoundMathNodes.cpp.obj"
+		],
+		"Module.MetasoundStandardNodes.4_of_6.cpp.obj": [
+			"MetasoundMaxNode.cpp.obj",
+			"MetasoundMidiNoteQuantizerNode.cpp.obj",
+			"MetasoundMidiScaleToArrayNode.cpp.obj",
+			"MetasoundMIDIToFreqNode.cpp.obj",
+			"MetasoundMidSideNodes.cpp.obj",
+			"MetasoundMinNode.cpp.obj",
+			"MetasoundMixerNode.cpp.obj",
+			"MetasoundNoiseGenerator.cpp.obj",
+			"MetasoundOscillatorNodes.cpp.obj",
+			"MetasoundPerlinNoiseNode.cpp.obj"
+		],
+		"Module.MetasoundStandardNodes.5_of_6.cpp.obj": [
+			"MetasoundRandomNode.cpp.obj",
+			"MetasoundRingModNode.cpp.obj",
+			"MetasoundSampleAndHoldNode.cpp.obj",
+			"MetasoundSemitoneToFreqMultiplierNode.cpp.obj",
+			"MetasoundStandardNodesCategories.cpp.obj",
+			"MetasoundStandardNodesModule.cpp.obj",
+			"MetasoundStandardNodesNames.cpp.obj",
+			"MetasoundStereoDelayNode.cpp.obj",
+			"MetasoundStereoPannerNode.cpp.obj",
+			"MetasoundSuperOscillatorNode.cpp.obj",
+			"MetasoundSwitchAndRampNode.cpp.obj",
+			"MetasoundTriggerAccumulatorNode.cpp.obj",
+			"MetasoundTriggerAnyNode.cpp.obj",
+			"MetasoundTriggerCoinNode.cpp.obj",
+			"MetasoundTriggerCompareNode.cpp.obj",
+			"MetasoundTriggerControlNode.cpp.obj",
+			"MetasoundTriggerCounterNode.cpp.obj",
+			"MetasoundTriggerDelayNode.cpp.obj",
+			"MetasoundTriggerOnceNode.cpp.obj"
+		],
+		"Module.MetasoundStandardNodes.6_of_6.cpp.obj": [
+			"MetasoundTriggerOnThresholdNode.cpp.obj",
+			"MetasoundTriggerOnValueChangeNode.cpp.obj",
+			"MetasoundTriggerPipeNode.cpp.obj",
+			"MetasoundTriggerRepeatNode.cpp.obj",
+			"MetasoundTriggerRouteNode.cpp.obj",
+			"MetasoundTriggerSelectNode.cpp.obj",
+			"MetasoundTriggerSequenceNode.cpp.obj",
+			"MetasoundTriggerToggleNode.cpp.obj",
+			"MetasoundValueNode.cpp.obj",
+			"MetasoundWaveShaperNode.cpp.obj",
+			"MetasoundWaveWriterNode.cpp.obj"
+		]
+	}
+}

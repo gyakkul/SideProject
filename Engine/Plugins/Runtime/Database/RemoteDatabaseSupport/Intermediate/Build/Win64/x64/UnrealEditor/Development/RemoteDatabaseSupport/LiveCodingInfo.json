@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteDatabaseSupport.cpp.obj": [
+			"RemoteDatabaseConnection.cpp.obj",
+			"RemoteDatabaseSupport.cpp.obj"
+		]
+	}
+}

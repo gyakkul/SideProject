@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DerivedDataEditor.cpp.obj": [
+			"DerivedDataCacheNotifications.cpp.obj",
+			"DerivedDataEditorModule.cpp.obj",
+			"DerivedDataInformation.cpp.obj",
+			"SDerivedDataDialogs.cpp.obj",
+			"SDerivedDataStatusBar.cpp.obj"
+		]
+	}
+}

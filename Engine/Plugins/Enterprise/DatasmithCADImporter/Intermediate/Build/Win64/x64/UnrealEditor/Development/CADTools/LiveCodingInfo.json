@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CADTools.cpp.obj": [
+			"CADData.cpp.obj",
+			"CADOption.cpp.obj",
+			"CADToolsModule.cpp.obj"
+		]
+	}
+}

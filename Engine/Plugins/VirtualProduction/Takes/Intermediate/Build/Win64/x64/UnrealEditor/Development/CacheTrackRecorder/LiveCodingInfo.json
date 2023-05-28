@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CacheTrackRecorder.cpp.obj": [
+			"CacheTrackRecorder.init.gen.cpp.obj",
+			"CacheTrackRecorderModule.cpp.obj",
+			"CacheTrackRecorder.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderTrace.cpp.obj": [
+			"RenderTrace.init.gen.cpp.obj",
+			"MaterialExpressionPhysicalMaterialOutput.cpp.obj",
+			"RenderTrace.cpp.obj",
+			"RenderTraceModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenXRHandTracking.cpp.obj": [
+			"LiveLinkOpenXRHandTrackingSourceFactory.gen.cpp.obj",
+			"OpenXRHandTracking.init.gen.cpp.obj",
+			"OpenXRHandTrackingLiveLinkRemapAsset.gen.cpp.obj",
+			"LiveLinkOpenXRHandTrackingSourceFactory.cpp.obj",
+			"OpenXRHandTracking.cpp.obj",
+			"OpenXRHandTrackingLiveLink.cpp.obj",
+			"OpenXRHandTrackingLiveLinkRemapAsset.cpp.obj"
+		]
+	}
+}

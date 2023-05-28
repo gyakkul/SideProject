@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CBAssetDataSource.cpp.obj": [
+			"ContentBrowserAssetDataSource.init.gen.cpp.obj",
+			"AssetFileContextMenu.cpp.obj",
+			"AssetFolderContextMenu.cpp.obj",
+			"AssetPropertyTagCache.cpp.obj",
+			"ContentBrowserAssetDataCore.cpp.obj",
+			"ContentBrowserAssetDataPayload.cpp.obj",
+			"ContentBrowserAssetDataSource.cpp.obj",
+			"ContentBrowserAssetDataSourceModule.cpp.obj",
+			"NewAssetContextMenu.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,252 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Selection/SelectionEditInteractiveCommand.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MODELINGCOMPONENTS_SelectionEditInteractiveCommand_generated_h
+#error "SelectionEditInteractiveCommand.generated.h already included, missing '#pragma once' in SelectionEditInteractiveCommand.h"
+#endif
+#define MODELINGCOMPONENTS_SelectionEditInteractiveCommand_generated_h
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGeometrySelectionEditCommandArguments(); \
+	friend struct Z_Construct_UClass_UGeometrySelectionEditCommandArguments_Statics; \
+public: \
+	DECLARE_CLASS(UGeometrySelectionEditCommandArguments, UInteractiveCommandArguments, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UGeometrySelectionEditCommandArguments)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_INCLASS \
+private: \
+	static void StaticRegisterNativesUGeometrySelectionEditCommandArguments(); \
+	friend struct Z_Construct_UClass_UGeometrySelectionEditCommandArguments_Statics; \
+public: \
+	DECLARE_CLASS(UGeometrySelectionEditCommandArguments, UInteractiveCommandArguments, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UGeometrySelectionEditCommandArguments)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGeometrySelectionEditCommandArguments(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGeometrySelectionEditCommandArguments) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGeometrySelectionEditCommandArguments); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGeometrySelectionEditCommandArguments); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGeometrySelectionEditCommandArguments(UGeometrySelectionEditCommandArguments&&); \
+	NO_API UGeometrySelectionEditCommandArguments(const UGeometrySelectionEditCommandArguments&); \
+public: \
+	NO_API virtual ~UGeometrySelectionEditCommandArguments();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGeometrySelectionEditCommandArguments(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGeometrySelectionEditCommandArguments(UGeometrySelectionEditCommandArguments&&); \
+	NO_API UGeometrySelectionEditCommandArguments(const UGeometrySelectionEditCommandArguments&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGeometrySelectionEditCommandArguments); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGeometrySelectionEditCommandArguments); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGeometrySelectionEditCommandArguments) \
+	NO_API virtual ~UGeometrySelectionEditCommandArguments();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_12_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UGeometrySelectionEditCommandArguments>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGeometrySelectionEditCommandResult(); \
+	friend struct Z_Construct_UClass_UGeometrySelectionEditCommandResult_Statics; \
+public: \
+	DECLARE_CLASS(UGeometrySelectionEditCommandResult, UInteractiveCommandResult, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UGeometrySelectionEditCommandResult)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_INCLASS \
+private: \
+	static void StaticRegisterNativesUGeometrySelectionEditCommandResult(); \
+	friend struct Z_Construct_UClass_UGeometrySelectionEditCommandResult_Statics; \
+public: \
+	DECLARE_CLASS(UGeometrySelectionEditCommandResult, UInteractiveCommandResult, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UGeometrySelectionEditCommandResult)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGeometrySelectionEditCommandResult(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGeometrySelectionEditCommandResult) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGeometrySelectionEditCommandResult); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGeometrySelectionEditCommandResult); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGeometrySelectionEditCommandResult(UGeometrySelectionEditCommandResult&&); \
+	NO_API UGeometrySelectionEditCommandResult(const UGeometrySelectionEditCommandResult&); \
+public: \
+	NO_API virtual ~UGeometrySelectionEditCommandResult();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGeometrySelectionEditCommandResult(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGeometrySelectionEditCommandResult(UGeometrySelectionEditCommandResult&&); \
+	NO_API UGeometrySelectionEditCommandResult(const UGeometrySelectionEditCommandResult&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGeometrySelectionEditCommandResult); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGeometrySelectionEditCommandResult); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGeometrySelectionEditCommandResult) \
+	NO_API virtual ~UGeometrySelectionEditCommandResult();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_32_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UGeometrySelectionEditCommandResult>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGeometrySelectionEditCommand(); \
+	friend struct Z_Construct_UClass_UGeometrySelectionEditCommand_Statics; \
+public: \
+	DECLARE_CLASS(UGeometrySelectionEditCommand, UInteractiveCommand, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UGeometrySelectionEditCommand)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_INCLASS \
+private: \
+	static void StaticRegisterNativesUGeometrySelectionEditCommand(); \
+	friend struct Z_Construct_UClass_UGeometrySelectionEditCommand_Statics; \
+public: \
+	DECLARE_CLASS(UGeometrySelectionEditCommand, UInteractiveCommand, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UGeometrySelectionEditCommand)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGeometrySelectionEditCommand(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGeometrySelectionEditCommand) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGeometrySelectionEditCommand); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGeometrySelectionEditCommand); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGeometrySelectionEditCommand(UGeometrySelectionEditCommand&&); \
+	NO_API UGeometrySelectionEditCommand(const UGeometrySelectionEditCommand&); \
+public: \
+	NO_API virtual ~UGeometrySelectionEditCommand();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGeometrySelectionEditCommand(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGeometrySelectionEditCommand(UGeometrySelectionEditCommand&&); \
+	NO_API UGeometrySelectionEditCommand(const UGeometrySelectionEditCommand&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGeometrySelectionEditCommand); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGeometrySelectionEditCommand); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGeometrySelectionEditCommand) \
+	NO_API virtual ~UGeometrySelectionEditCommand();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_47_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h_50_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UGeometrySelectionEditCommand>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_SelectionEditInteractiveCommand_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

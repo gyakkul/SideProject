@@ -1,0 +1,175 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "TakeRecorderMicrophoneAudioSource.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef TAKERECORDERSOURCES_TakeRecorderMicrophoneAudioSource_generated_h
+#error "TakeRecorderMicrophoneAudioSource.generated.h already included, missing '#pragma once' in TakeRecorderMicrophoneAudioSource.h"
+#endif
+#define TAKERECORDERSOURCES_TakeRecorderMicrophoneAudioSource_generated_h
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderMicrophoneAudioSourceSettings(); \
+	friend struct Z_Construct_UClass_UTakeRecorderMicrophoneAudioSourceSettings_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderMicrophoneAudioSourceSettings, UTakeRecorderSource, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderMicrophoneAudioSourceSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("EditorSettings");} \
+
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_INCLASS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderMicrophoneAudioSourceSettings(); \
+	friend struct Z_Construct_UClass_UTakeRecorderMicrophoneAudioSourceSettings_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderMicrophoneAudioSourceSettings, UTakeRecorderSource, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderMicrophoneAudioSourceSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("EditorSettings");} \
+
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTakeRecorderMicrophoneAudioSourceSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderMicrophoneAudioSourceSettings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderMicrophoneAudioSourceSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderMicrophoneAudioSourceSettings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderMicrophoneAudioSourceSettings(UTakeRecorderMicrophoneAudioSourceSettings&&); \
+	NO_API UTakeRecorderMicrophoneAudioSourceSettings(const UTakeRecorderMicrophoneAudioSourceSettings&); \
+public: \
+	NO_API virtual ~UTakeRecorderMicrophoneAudioSourceSettings();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderMicrophoneAudioSourceSettings(UTakeRecorderMicrophoneAudioSourceSettings&&); \
+	NO_API UTakeRecorderMicrophoneAudioSourceSettings(const UTakeRecorderMicrophoneAudioSourceSettings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderMicrophoneAudioSourceSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderMicrophoneAudioSourceSettings); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderMicrophoneAudioSourceSettings) \
+	NO_API virtual ~UTakeRecorderMicrophoneAudioSourceSettings();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_14_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_18_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TAKERECORDERSOURCES_API UClass* StaticClass<class UTakeRecorderMicrophoneAudioSourceSettings>();
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderMicrophoneAudioSource(); \
+	friend struct Z_Construct_UClass_UTakeRecorderMicrophoneAudioSource_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderMicrophoneAudioSource, UTakeRecorderMicrophoneAudioSourceSettings, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderMicrophoneAudioSource)
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_INCLASS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderMicrophoneAudioSource(); \
+	friend struct Z_Construct_UClass_UTakeRecorderMicrophoneAudioSource_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderMicrophoneAudioSource, UTakeRecorderMicrophoneAudioSourceSettings, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderMicrophoneAudioSource)
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTakeRecorderMicrophoneAudioSource(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderMicrophoneAudioSource) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderMicrophoneAudioSource); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderMicrophoneAudioSource); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderMicrophoneAudioSource(UTakeRecorderMicrophoneAudioSource&&); \
+	NO_API UTakeRecorderMicrophoneAudioSource(const UTakeRecorderMicrophoneAudioSource&); \
+public: \
+	NO_API virtual ~UTakeRecorderMicrophoneAudioSource();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderMicrophoneAudioSource(UTakeRecorderMicrophoneAudioSource&&); \
+	NO_API UTakeRecorderMicrophoneAudioSource(const UTakeRecorderMicrophoneAudioSource&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderMicrophoneAudioSource); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderMicrophoneAudioSource); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderMicrophoneAudioSource) \
+	NO_API virtual ~UTakeRecorderMicrophoneAudioSource();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_43_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h_47_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TAKERECORDERSOURCES_API UClass* StaticClass<class UTakeRecorderMicrophoneAudioSource>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderMicrophoneAudioSource_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StylusInput.cpp.obj": [
+			"IStylusInputModule.gen.cpp.obj",
+			"StylusInput.init.gen.cpp.obj",
+			"SStylusInputDebugWidget.cpp.obj",
+			"StylusInputModule.cpp.obj",
+			"WindowsRealTimeStylusPlugin.cpp.obj",
+			"WindowsStylusInputInterface.cpp.obj"
+		]
+	}
+}

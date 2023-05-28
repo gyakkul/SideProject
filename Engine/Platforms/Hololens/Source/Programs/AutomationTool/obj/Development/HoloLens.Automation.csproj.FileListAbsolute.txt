@@ -1,0 +1,17 @@
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\EpicGames.Perforce.Native.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\EpicGames.Perforce.Native.so
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\EpicGames.Perforce.Native.dylib
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\Magick.Native-Q16-HDRI-x64.dll.so
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\Magick.Native-Q16-HDRI-x64.dll.dylib
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\Magick.Native-Q16-HDRI-x64.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\HoloLens.Automation.deps.json
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\HoloLens.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\ref\HoloLens.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\HoloLens.Automation.pdb
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Source\Programs\AutomationTool\obj\Development\HoloLens.Automation.csproj.AssemblyReference.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Source\Programs\AutomationTool\obj\Development\HoloLens.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Source\Programs\AutomationTool\obj\Development\HoloLens.Automation.csproj.CoreCompileInputs.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Source\Programs\AutomationTool\obj\Development\HoloLens.Automation.csproj.CopyComplete
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Source\Programs\AutomationTool\obj\Development\HoloLens.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Source\Programs\AutomationTool\obj\Development\refint\HoloLens.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Source\Programs\AutomationTool\obj\Development\HoloLens.Automation.pdb

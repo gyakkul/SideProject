@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NaniteDisplacedMeshEditor.cpp.obj": [
+			"NaniteDisplacedMeshEditor.init.gen.cpp.obj",
+			"AssetTypeActions_NaniteDisplacedMesh.cpp.obj",
+			"GeneratedNaniteDisplacedMeshEditorSubsystem.cpp.obj",
+			"GenerateNaniteDisplacedMeshCommandlet.cpp.obj",
+			"NaniteDisplacedMeshCustomization.cpp.obj",
+			"NaniteDisplacedMeshEditorModule.cpp.obj",
+			"NaniteDisplacedMeshFactory.cpp.obj"
+		]
+	}
+}

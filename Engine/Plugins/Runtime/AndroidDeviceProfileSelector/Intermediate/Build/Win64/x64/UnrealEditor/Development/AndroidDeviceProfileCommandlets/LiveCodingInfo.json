@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidDeviceProfileCommandlets.cpp.obj": [
+			"AndroidDeviceProfileCommandlets.init.gen.cpp.obj",
+			"AndroidDeviceProfileCommandlets.cpp.obj",
+			"CreateAndroidPreviewDataFromADBCommandlet.cpp.obj"
+		]
+	}
+}

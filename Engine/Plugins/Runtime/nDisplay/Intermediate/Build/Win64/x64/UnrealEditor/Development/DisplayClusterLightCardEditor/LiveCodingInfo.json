@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterLightCardEditor.cpp.obj": [
+			"DisplayClusterLightCardEditor.init.gen.cpp.obj",
+			"DisplayClusterLightCardEditorSettings.gen.cpp.obj",
+			"DisplayClusterLightCardTemplate.gen.cpp.obj",
+			"DisplayClusterLightCardActorDetails.cpp.obj",
+			"DisplayClusterLightCardEditor.cpp.obj",
+			"DisplayClusterLightCardEditorCommands.cpp.obj",
+			"DisplayClusterLightCardEditorLog.cpp.obj",
+			"DisplayClusterLightCardEditorModule.cpp.obj",
+			"DisplayClusterLightCardEditorStyle.cpp.obj",
+			"DisplayClusterLightCardEditorUtils.cpp.obj",
+			"DisplayClusterLightCardTemplateDragDropOp.cpp.obj",
+			"DisplayClusterLightCardTemplateHelpers.cpp.obj",
+			"SDisplayClusterLightCardTemplateList.cpp.obj",
+			"DisplayClusterLightCardOutlinerColumns.cpp.obj",
+			"DisplayClusterLightCardOutlinerMode.cpp.obj",
+			"SDisplayClusterLightCardOutliner.cpp.obj",
+			"DisplayClusterLightCardEditorSettings.cpp.obj",
+			"DisplayClusterLightcardEditorViewport.cpp.obj",
+			"DisplayClusterLightCardEditorViewportClient.cpp.obj",
+			"DisplayClusterLightCardEditorWidget.cpp.obj"
+		]
+	}
+}

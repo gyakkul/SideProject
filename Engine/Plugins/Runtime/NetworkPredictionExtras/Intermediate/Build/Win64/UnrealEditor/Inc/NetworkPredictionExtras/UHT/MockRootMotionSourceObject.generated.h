@@ -1,0 +1,410 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MockRootMotionSourceObject.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef NETWORKPREDICTIONEXTRAS_MockRootMotionSourceObject_generated_h
+#error "MockRootMotionSourceObject.generated.h already included, missing '#pragma once' in MockRootMotionSourceObject.h"
+#endif
+#define NETWORKPREDICTIONEXTRAS_MockRootMotionSourceObject_generated_h
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_INCLASS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSource(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMockRootMotionSource) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource(UMockRootMotionSource&&); \
+	NO_API UMockRootMotionSource(const UMockRootMotionSource&); \
+public:
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource(UMockRootMotionSource&&); \
+	NO_API UMockRootMotionSource(const UMockRootMotionSource&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UMockRootMotionSource)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_50_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_53_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class UMockRootMotionSource>();
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSourceClassMap(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSourceClassMap_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSourceClassMap, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSourceClassMap)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_INCLASS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSourceClassMap(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSourceClassMap_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSourceClassMap, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSourceClassMap)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSourceClassMap(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMockRootMotionSourceClassMap) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSourceClassMap); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSourceClassMap); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSourceClassMap(UMockRootMotionSourceClassMap&&); \
+	NO_API UMockRootMotionSourceClassMap(const UMockRootMotionSourceClassMap&); \
+public: \
+	NO_API virtual ~UMockRootMotionSourceClassMap();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSourceClassMap(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSourceClassMap(UMockRootMotionSourceClassMap&&); \
+	NO_API UMockRootMotionSourceClassMap(const UMockRootMotionSourceClassMap&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSourceClassMap); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSourceClassMap); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMockRootMotionSourceClassMap) \
+	NO_API virtual ~UMockRootMotionSourceClassMap();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_85_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_88_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class UMockRootMotionSourceClassMap>();
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource_Montage(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_Montage_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource_Montage, UMockRootMotionSource, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource_Montage)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_INCLASS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource_Montage(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_Montage_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource_Montage, UMockRootMotionSource, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource_Montage)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSource_Montage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMockRootMotionSource_Montage) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource_Montage); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource_Montage); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource_Montage(UMockRootMotionSource_Montage&&); \
+	NO_API UMockRootMotionSource_Montage(const UMockRootMotionSource_Montage&); \
+public: \
+	NO_API virtual ~UMockRootMotionSource_Montage();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSource_Montage(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource_Montage(UMockRootMotionSource_Montage&&); \
+	NO_API UMockRootMotionSource_Montage(const UMockRootMotionSource_Montage&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource_Montage); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource_Montage); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMockRootMotionSource_Montage) \
+	NO_API virtual ~UMockRootMotionSource_Montage();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_128_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_131_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class UMockRootMotionSource_Montage>();
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource_Curve(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_Curve_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource_Curve, UMockRootMotionSource, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource_Curve)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_INCLASS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource_Curve(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_Curve_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource_Curve, UMockRootMotionSource, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource_Curve)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSource_Curve(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMockRootMotionSource_Curve) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource_Curve); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource_Curve); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource_Curve(UMockRootMotionSource_Curve&&); \
+	NO_API UMockRootMotionSource_Curve(const UMockRootMotionSource_Curve&); \
+public: \
+	NO_API virtual ~UMockRootMotionSource_Curve();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSource_Curve(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource_Curve(UMockRootMotionSource_Curve&&); \
+	NO_API UMockRootMotionSource_Curve(const UMockRootMotionSource_Curve&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource_Curve); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource_Curve); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMockRootMotionSource_Curve) \
+	NO_API virtual ~UMockRootMotionSource_Curve();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_157_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_160_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class UMockRootMotionSource_Curve>();
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetDestination);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetDestination);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource_MoveToLocation(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_MoveToLocation_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource_MoveToLocation, UMockRootMotionSource, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource_MoveToLocation)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_INCLASS \
+private: \
+	static void StaticRegisterNativesUMockRootMotionSource_MoveToLocation(); \
+	friend struct Z_Construct_UClass_UMockRootMotionSource_MoveToLocation_Statics; \
+public: \
+	DECLARE_CLASS(UMockRootMotionSource_MoveToLocation, UMockRootMotionSource, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(UMockRootMotionSource_MoveToLocation)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSource_MoveToLocation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMockRootMotionSource_MoveToLocation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource_MoveToLocation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource_MoveToLocation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource_MoveToLocation(UMockRootMotionSource_MoveToLocation&&); \
+	NO_API UMockRootMotionSource_MoveToLocation(const UMockRootMotionSource_MoveToLocation&); \
+public: \
+	NO_API virtual ~UMockRootMotionSource_MoveToLocation();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMockRootMotionSource_MoveToLocation(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMockRootMotionSource_MoveToLocation(UMockRootMotionSource_MoveToLocation&&); \
+	NO_API UMockRootMotionSource_MoveToLocation(const UMockRootMotionSource_MoveToLocation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMockRootMotionSource_MoveToLocation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMockRootMotionSource_MoveToLocation); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMockRootMotionSource_MoveToLocation) \
+	NO_API virtual ~UMockRootMotionSource_MoveToLocation();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_184_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h_187_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class UMockRootMotionSource_MoveToLocation>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_MockRootMotionSourceObject_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

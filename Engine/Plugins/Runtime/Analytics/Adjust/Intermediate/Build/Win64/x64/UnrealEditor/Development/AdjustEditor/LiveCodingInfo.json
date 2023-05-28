@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AdjustEditor.cpp.obj": [
+			"AdjustEditor.init.gen.cpp.obj",
+			"AdjustSettings.gen.cpp.obj",
+			"AdjustEditor.cpp.obj"
+		]
+	}
+}

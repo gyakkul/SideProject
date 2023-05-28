@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkEditor.cpp.obj": [
+			"LiveLinkEditor.init.gen.cpp.obj",
+			"LiveLinkClientCommands.cpp.obj",
+			"LiveLinkClientPanel.cpp.obj",
+			"LiveLinkClientPanelToolbar.cpp.obj",
+			"LiveLinkComponentDetailCustomization.cpp.obj",
+			"LiveLinkControllerBaseDetailCustomization.cpp.obj",
+			"LiveLinkEditorModule.cpp.obj",
+			"LiveLinkMetaDataDetailCustomization.cpp.obj",
+			"LiveLinkPreviewController.cpp.obj",
+			"LiveLinkSourceSettingsDetailCustomization.cpp.obj",
+			"LiveLinkSubjectKeyDetailCustomization.cpp.obj",
+			"LiveLinkSubjectNameDetailCustomization.cpp.obj",
+			"LiveLinkSubjectRepresentationDetailCustomization.cpp.obj",
+			"LiveLinkTest.cpp.obj",
+			"LiveLinkVirtualSubjectDetailCustomization.cpp.obj",
+			"LiveLinkSequencerFilters.cpp.obj",
+			"SLiveLinkDataView.cpp.obj",
+			"SLiveLinkSubjectNameGraphPin.cpp.obj",
+			"SLiveLinkSubjectRepresentationGraphPin.cpp.obj",
+			"SLiveLinkSubjectRepresentationPicker.cpp.obj",
+			"LiveLinkBlueprintVirtualSubjectFactory.cpp.obj"
+		]
+	}
+}

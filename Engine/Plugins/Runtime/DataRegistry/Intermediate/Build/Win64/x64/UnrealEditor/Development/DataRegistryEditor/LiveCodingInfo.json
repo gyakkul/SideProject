@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataRegistryEditor.cpp.obj": [
+			"DataRegistryEditor.init.gen.cpp.obj",
+			"AssetTypeActions_DataRegistry.cpp.obj",
+			"DataRegistryEditorModule.cpp.obj",
+			"DataRegistryEditorToolkit.cpp.obj",
+			"DataRegistryFactory.cpp.obj",
+			"DataRegistryIdCustomization.cpp.obj",
+			"DataRegistryTypeCustomization.cpp.obj",
+			"SDataRegistryListViewRow.cpp.obj"
+		]
+	}
+}

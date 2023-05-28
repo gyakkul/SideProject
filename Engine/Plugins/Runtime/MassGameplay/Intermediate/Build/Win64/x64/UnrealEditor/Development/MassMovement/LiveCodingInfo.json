@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassMovement.cpp.obj": [
+			"MassMovement.init.gen.cpp.obj",
+			"MassMovementFragments.gen.cpp.obj",
+			"MassMovementProcessors.gen.cpp.obj",
+			"MassMovementSettings.gen.cpp.obj",
+			"MassMovementTrait.gen.cpp.obj",
+			"MassMovementTypes.gen.cpp.obj",
+			"MassSimpleMovementTrait.gen.cpp.obj",
+			"MassVelocityRandomizerTrait.gen.cpp.obj",
+			"MassMovementDelegates.cpp.obj",
+			"MassMovementFragments.cpp.obj",
+			"MassMovementModule.cpp.obj",
+			"MassMovementProcessors.cpp.obj",
+			"MassMovementSettings.cpp.obj",
+			"MassMovementTrait.cpp.obj",
+			"MassMovementTypes.cpp.obj",
+			"MassSimpleMovementTrait.cpp.obj",
+			"MassVelocityRandomizerTrait.cpp.obj"
+		]
+	}
+}

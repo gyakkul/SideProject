@@ -1,0 +1,173 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Hierarchies/TargetModifierPerNodeHierarchyRules.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VCAMEXTENSIONS_TargetModifierPerNodeHierarchyRules_generated_h
+#error "TargetModifierPerNodeHierarchyRules.generated.h already included, missing '#pragma once' in TargetModifierPerNodeHierarchyRules.h"
+#endif
+#define VCAMEXTENSIONS_TargetModifierPerNodeHierarchyRules_generated_h
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_ACCESSORS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSingleModifierPerNodeWithTargetSettings(); \
+	friend struct Z_Construct_UClass_USingleModifierPerNodeWithTargetSettings_Statics; \
+public: \
+	DECLARE_CLASS(USingleModifierPerNodeWithTargetSettings, UBaseModifierGroup, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VCamExtensions"), NO_API) \
+	DECLARE_SERIALIZER(USingleModifierPerNodeWithTargetSettings)
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_INCLASS \
+private: \
+	static void StaticRegisterNativesUSingleModifierPerNodeWithTargetSettings(); \
+	friend struct Z_Construct_UClass_USingleModifierPerNodeWithTargetSettings_Statics; \
+public: \
+	DECLARE_CLASS(USingleModifierPerNodeWithTargetSettings, UBaseModifierGroup, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VCamExtensions"), NO_API) \
+	DECLARE_SERIALIZER(USingleModifierPerNodeWithTargetSettings)
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USingleModifierPerNodeWithTargetSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USingleModifierPerNodeWithTargetSettings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USingleModifierPerNodeWithTargetSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USingleModifierPerNodeWithTargetSettings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USingleModifierPerNodeWithTargetSettings(USingleModifierPerNodeWithTargetSettings&&); \
+	NO_API USingleModifierPerNodeWithTargetSettings(const USingleModifierPerNodeWithTargetSettings&); \
+public: \
+	NO_API virtual ~USingleModifierPerNodeWithTargetSettings();
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USingleModifierPerNodeWithTargetSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USingleModifierPerNodeWithTargetSettings(USingleModifierPerNodeWithTargetSettings&&); \
+	NO_API USingleModifierPerNodeWithTargetSettings(const USingleModifierPerNodeWithTargetSettings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USingleModifierPerNodeWithTargetSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USingleModifierPerNodeWithTargetSettings); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USingleModifierPerNodeWithTargetSettings) \
+	NO_API virtual ~USingleModifierPerNodeWithTargetSettings();
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_11_PROLOG
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_ACCESSORS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_INCLASS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_ACCESSORS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VCAMEXTENSIONS_API UClass* StaticClass<class USingleModifierPerNodeWithTargetSettings>();
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_ACCESSORS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTargetModifierPerNodeHierarchyRules(); \
+	friend struct Z_Construct_UClass_UTargetModifierPerNodeHierarchyRules_Statics; \
+public: \
+	DECLARE_CLASS(UTargetModifierPerNodeHierarchyRules, UModifierHierarchyRules, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VCamExtensions"), NO_API) \
+	DECLARE_SERIALIZER(UTargetModifierPerNodeHierarchyRules)
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_INCLASS \
+private: \
+	static void StaticRegisterNativesUTargetModifierPerNodeHierarchyRules(); \
+	friend struct Z_Construct_UClass_UTargetModifierPerNodeHierarchyRules_Statics; \
+public: \
+	DECLARE_CLASS(UTargetModifierPerNodeHierarchyRules, UModifierHierarchyRules, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VCamExtensions"), NO_API) \
+	DECLARE_SERIALIZER(UTargetModifierPerNodeHierarchyRules)
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTargetModifierPerNodeHierarchyRules(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTargetModifierPerNodeHierarchyRules) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTargetModifierPerNodeHierarchyRules); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTargetModifierPerNodeHierarchyRules); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTargetModifierPerNodeHierarchyRules(UTargetModifierPerNodeHierarchyRules&&); \
+	NO_API UTargetModifierPerNodeHierarchyRules(const UTargetModifierPerNodeHierarchyRules&); \
+public: \
+	NO_API virtual ~UTargetModifierPerNodeHierarchyRules();
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTargetModifierPerNodeHierarchyRules(UTargetModifierPerNodeHierarchyRules&&); \
+	NO_API UTargetModifierPerNodeHierarchyRules(const UTargetModifierPerNodeHierarchyRules&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTargetModifierPerNodeHierarchyRules); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTargetModifierPerNodeHierarchyRules); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTargetModifierPerNodeHierarchyRules) \
+	NO_API virtual ~UTargetModifierPerNodeHierarchyRules();
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_27_PROLOG
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_ACCESSORS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_INCLASS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_ACCESSORS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h_30_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VCAMEXTENSIONS_API UClass* StaticClass<class UTargetModifierPerNodeHierarchyRules>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamExtensions_Public_Hierarchies_TargetModifierPerNodeHierarchyRules_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

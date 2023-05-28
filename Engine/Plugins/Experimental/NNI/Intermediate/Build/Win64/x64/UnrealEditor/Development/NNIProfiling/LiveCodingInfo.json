@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNIProfiling.cpp.obj": [
+			"Module.cpp.obj",
+			"NeuralStatistics.cpp.obj",
+			"NeuralTimer.cpp.obj"
+		]
+	}
+}

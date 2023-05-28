@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationEditor.cpp.obj": [
+			"AnimationEditor.init.gen.cpp.obj",
+			"AnimationToolMenuContext.gen.cpp.obj",
+			"AnimationEditor.cpp.obj",
+			"AnimationEditorCommands.cpp.obj",
+			"AnimationEditorMode.cpp.obj",
+			"AnimationEditorModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassAITestSuite.cpp.obj": [
+			"MassAITest.cpp.obj",
+			"MassAITestSuiteModule.cpp.obj"
+		]
+	}
+}

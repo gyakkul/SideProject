@@ -1,0 +1,14 @@
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\EpicGames.Perforce.Native.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\EpicGames.Perforce.Native.so
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\EpicGames.Perforce.Native.dylib
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\OneSkyLocalization.Automation.deps.json
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\OneSkyLocalization.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\ref\OneSkyLocalization.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\OneSkyLocalization.Automation.pdb
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\OneSkyLocalization\obj\Development\OneSkyLocalization.Automation.csproj.AssemblyReference.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\OneSkyLocalization\obj\Development\OneSkyLocalization.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\OneSkyLocalization\obj\Development\OneSkyLocalization.Automation.csproj.CoreCompileInputs.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\OneSkyLocalization\obj\Development\OneSkyLocalization.Automation.csproj.CopyComplete
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\OneSkyLocalization\obj\Development\OneSkyLocalization.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\OneSkyLocalization\obj\Development\refint\OneSkyLocalization.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\OneSkyLocalization\obj\Development\OneSkyLocalization.Automation.pdb

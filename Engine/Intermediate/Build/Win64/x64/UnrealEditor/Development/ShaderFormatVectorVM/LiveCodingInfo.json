@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ShaderFormatVectorVM.cpp.obj": [
+			"ir_vm_extract_scalar.cpp.obj",
+			"ir_vm_flatten_branches_to_selects_visitor.cpp.obj",
+			"ir_vm_gen_bytecode_visitor.cpp.obj",
+			"ir_vm_helper.cpp.obj",
+			"ir_vm_merge_op_visitor.cpp.obj",
+			"ir_vm_propagate_non_expressions_visitor.cpp.obj",
+			"ir_vm_scalarize_visitor.cpp.obj",
+			"ir_vm_to_single_op_visitor.cpp.obj",
+			"ir_vm_vec_op_to_scalar_visitor.cpp.obj",
+			"ShaderFormatVectorVM.cpp.obj",
+			"VectorVMBackend.cpp.obj",
+			"VectorVMShaderCompiler.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WFC.cpp.obj": [
+			"WaveFunctionCollapse.init.gen.cpp.obj",
+			"WaveFunctionCollapseBPLibrary.gen.cpp.obj",
+			"WaveFunctionCollapseModel.gen.cpp.obj",
+			"WaveFunctionCollapseSubsystem.gen.cpp.obj",
+			"WaveFunctionCollapse.cpp.obj",
+			"WaveFunctionCollapseBPLibrary.cpp.obj",
+			"WaveFunctionCollapseEditorCommands.cpp.obj",
+			"WaveFunctionCollapseModel.cpp.obj",
+			"WaveFunctionCollapseSubsystem.cpp.obj"
+		]
+	}
+}

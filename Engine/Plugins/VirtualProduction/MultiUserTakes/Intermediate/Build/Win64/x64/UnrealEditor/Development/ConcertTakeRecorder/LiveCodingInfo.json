@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConcertTakeRecorder.cpp.obj": [
+			"ConcertTakeRecorder.init.gen.cpp.obj",
+			"ConcertTakeRecorderMessages.gen.cpp.obj",
+			"ConcertTakeRecorderClientSessionCustomization.cpp.obj",
+			"ConcertTakeRecorderManager.cpp.obj",
+			"ConcertTakeRecorderModule.cpp.obj",
+			"ConcertTakeRecorderStyle.cpp.obj"
+		]
+	}
+}

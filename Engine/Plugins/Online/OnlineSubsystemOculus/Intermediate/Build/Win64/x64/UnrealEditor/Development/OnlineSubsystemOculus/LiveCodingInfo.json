@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineSubsystemOculus.cpp.obj": [
+			"OculusCreateSessionCallbackProxy.gen.cpp.obj",
+			"OculusEntitlementCallbackProxy.gen.cpp.obj",
+			"OculusFindSessionsCallbackProxy.gen.cpp.obj",
+			"OculusIdentityCallbackProxy.gen.cpp.obj",
+			"OculusNetConnection.gen.cpp.obj",
+			"OculusNetDriver.gen.cpp.obj",
+			"OculusUpdateSessionCallbackProxy.gen.cpp.obj",
+			"OnlineSubsystemOculus.init.gen.cpp.obj",
+			"OculusCreateSessionCallbackProxy.cpp.obj",
+			"OculusEntitlementCallbackProxy.cpp.obj",
+			"OculusFindSessionsCallbackProxy.cpp.obj",
+			"OculusIdentityCallbackProxy.cpp.obj",
+			"OculusNetConnection.cpp.obj",
+			"OculusNetDriver.cpp.obj",
+			"OculusUpdateSessionCallbackProxy.cpp.obj",
+			"OnlineAchievementsInterfaceOculus.cpp.obj",
+			"OnlineFriendsInterfaceOculus.cpp.obj",
+			"OnlineIdentityOculus.cpp.obj",
+			"OnlineLeaderboardInterfaceOculus.cpp.obj",
+			"OnlineMessageMultiTaskOculus.cpp.obj",
+			"OnlineMessageTaskManagerOculus.cpp.obj",
+			"OnlineSessionInterfaceOculus.cpp.obj",
+			"OnlineSubsystemOculus.cpp.obj",
+			"OnlineSubsystemOculusModule.cpp.obj",
+			"OnlineUserCloudOculus.cpp.obj",
+			"OnlineVoiceOculus.cpp.obj",
+			"OVR_PlatformLoader.cpp.obj"
+		]
+	}
+}

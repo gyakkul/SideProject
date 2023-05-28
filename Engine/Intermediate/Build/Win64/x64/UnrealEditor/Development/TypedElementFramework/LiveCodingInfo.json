@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TypedElementFramework.cpp.obj": [
+			"TypedElementDataStorageCompatibilityInterface.gen.cpp.obj",
+			"TypedElementDataStorageInterface.gen.cpp.obj",
+			"TypedElementDataStorageUiInterface.gen.cpp.obj",
+			"TypedElementFramework.init.gen.cpp.obj",
+			"TypedElementHandle.gen.cpp.obj",
+			"TypedElementLabelColumns.gen.cpp.obj",
+			"TypedElementListLibrary.gen.cpp.obj",
+			"TypedElementListProxy.gen.cpp.obj",
+			"TypedElementMiscColumns.gen.cpp.obj",
+			"TypedElementPackageColumns.gen.cpp.obj",
+			"TypedElementSlateWidgetColumns.gen.cpp.obj",
+			"TypedElementTransformColumns.gen.cpp.obj",
+			"TypedElementValueCacheColumns.gen.cpp.obj",
+			"TypedElementColumnUtils.cpp.obj",
+			"TypedElementCounter.cpp.obj",
+			"TypedElementList.cpp.obj",
+			"TypedElementQueryBuilder.cpp.obj",
+			"TypedElementRegistry.cpp.obj",
+			"TypedElementUtil.cpp.obj",
+			"TypedElementDataStorageUiInterface.cpp.obj",
+			"TypedElementFrameworkModule.cpp.obj",
+			"TypedElementFrameworkTests.cpp.obj"
+		]
+	}
+}

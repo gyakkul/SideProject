@@ -1,0 +1,258 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SkinWeightsBindingTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_SkinWeightsBindingTool_generated_h
+#error "SkinWeightsBindingTool.generated.h already included, missing '#pragma once' in SkinWeightsBindingTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_SkinWeightsBindingTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSkinWeightsBindingToolBuilder(); \
+	friend struct Z_Construct_UClass_USkinWeightsBindingToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(USkinWeightsBindingToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USkinWeightsBindingToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_INCLASS \
+private: \
+	static void StaticRegisterNativesUSkinWeightsBindingToolBuilder(); \
+	friend struct Z_Construct_UClass_USkinWeightsBindingToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(USkinWeightsBindingToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USkinWeightsBindingToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkinWeightsBindingToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkinWeightsBindingToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkinWeightsBindingToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkinWeightsBindingToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkinWeightsBindingToolBuilder(USkinWeightsBindingToolBuilder&&); \
+	NO_API USkinWeightsBindingToolBuilder(const USkinWeightsBindingToolBuilder&); \
+public: \
+	NO_API virtual ~USkinWeightsBindingToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkinWeightsBindingToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkinWeightsBindingToolBuilder(USkinWeightsBindingToolBuilder&&); \
+	NO_API USkinWeightsBindingToolBuilder(const USkinWeightsBindingToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkinWeightsBindingToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkinWeightsBindingToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkinWeightsBindingToolBuilder) \
+	NO_API virtual ~USkinWeightsBindingToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_29_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_32_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USkinWeightsBindingToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSkinWeightsBindingToolProperties(); \
+	friend struct Z_Construct_UClass_USkinWeightsBindingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(USkinWeightsBindingToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USkinWeightsBindingToolProperties) \
+	virtual UObject* _getUObject() const override { return const_cast<USkinWeightsBindingToolProperties*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_INCLASS \
+private: \
+	static void StaticRegisterNativesUSkinWeightsBindingToolProperties(); \
+	friend struct Z_Construct_UClass_USkinWeightsBindingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(USkinWeightsBindingToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USkinWeightsBindingToolProperties) \
+	virtual UObject* _getUObject() const override { return const_cast<USkinWeightsBindingToolProperties*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkinWeightsBindingToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkinWeightsBindingToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkinWeightsBindingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkinWeightsBindingToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkinWeightsBindingToolProperties(USkinWeightsBindingToolProperties&&); \
+	NO_API USkinWeightsBindingToolProperties(const USkinWeightsBindingToolProperties&); \
+public: \
+	NO_API virtual ~USkinWeightsBindingToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkinWeightsBindingToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkinWeightsBindingToolProperties(USkinWeightsBindingToolProperties&&); \
+	NO_API USkinWeightsBindingToolProperties(const USkinWeightsBindingToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkinWeightsBindingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkinWeightsBindingToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkinWeightsBindingToolProperties) \
+	NO_API virtual ~USkinWeightsBindingToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_46_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_51_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USkinWeightsBindingToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSkinWeightsBindingTool(); \
+	friend struct Z_Construct_UClass_USkinWeightsBindingTool_Statics; \
+public: \
+	DECLARE_CLASS(USkinWeightsBindingTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USkinWeightsBindingTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_INCLASS \
+private: \
+	static void StaticRegisterNativesUSkinWeightsBindingTool(); \
+	friend struct Z_Construct_UClass_USkinWeightsBindingTool_Statics; \
+public: \
+	DECLARE_CLASS(USkinWeightsBindingTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USkinWeightsBindingTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkinWeightsBindingTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkinWeightsBindingTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkinWeightsBindingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkinWeightsBindingTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkinWeightsBindingTool(USkinWeightsBindingTool&&); \
+	NO_API USkinWeightsBindingTool(const USkinWeightsBindingTool&); \
+public:
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkinWeightsBindingTool(USkinWeightsBindingTool&&); \
+	NO_API USkinWeightsBindingTool(const USkinWeightsBindingTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkinWeightsBindingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkinWeightsBindingTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USkinWeightsBindingTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_84_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h_89_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USkinWeightsBindingTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SkinWeightsBindingTool_h
+
+
+#define FOREACH_ENUM_ESKINWEIGHTSBINDTYPE(op) \
+	op(ESkinWeightsBindType::DirectDistance) \
+	op(ESkinWeightsBindType::GeodesicVoxel) 
+
+enum class ESkinWeightsBindType : uint8;
+template<> struct TIsUEnumClass<ESkinWeightsBindType> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<ESkinWeightsBindType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

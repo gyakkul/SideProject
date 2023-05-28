@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NiagaraAnimNotifies.cpp.obj": [
+			"NiagaraAnimNotifies.init.gen.cpp.obj",
+			"AnimNotifyState_TimedNiagaraEffect.cpp.obj",
+			"AnimNotify_PlayNiagaraEffect.cpp.obj",
+			"NiagaraAnimNotifiesModule.cpp.obj"
+		]
+	}
+}

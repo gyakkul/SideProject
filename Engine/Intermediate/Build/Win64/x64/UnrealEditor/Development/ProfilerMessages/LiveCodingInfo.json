@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ProfilerMessages.cpp.obj": [
+			"ProfilerMessages.init.gen.cpp.obj",
+			"ProfilerServiceMessages.gen.cpp.obj",
+			"ProfilerMessagesModule.cpp.obj"
+		]
+	}
+}

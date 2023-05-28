@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CoreOnline.cpp.obj": [
+			"CoreOnline.gen.cpp.obj",
+			"CoreOnline.init.gen.cpp.obj",
+			"CoreOnlinePrivate.gen.cpp.obj",
+			"CoreOnline.cpp.obj",
+			"CoreOnlinePrivate.cpp.obj",
+			"CoreOnlineTests.cpp.obj"
+		]
+	}
+}

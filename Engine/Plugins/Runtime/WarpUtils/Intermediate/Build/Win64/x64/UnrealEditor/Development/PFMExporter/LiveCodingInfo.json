@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PFMExporter.cpp.obj": [
+			"IPFMExporterBlueprintAPI.gen.cpp.obj",
+			"PFMExporter.init.gen.cpp.obj",
+			"PFMExporterBlueprintAPIImpl.gen.cpp.obj",
+			"PFMExporterBlueprintLib.gen.cpp.obj",
+			"PFMExporterBlueprintAPIImpl.cpp.obj",
+			"PFMExporterBlueprintLib.cpp.obj",
+			"PFMExporterLog.cpp.obj",
+			"PFMExporterMesh.cpp.obj",
+			"PFMExporterModule.cpp.obj",
+			"PFMExporterShader.cpp.obj"
+		]
+	}
+}

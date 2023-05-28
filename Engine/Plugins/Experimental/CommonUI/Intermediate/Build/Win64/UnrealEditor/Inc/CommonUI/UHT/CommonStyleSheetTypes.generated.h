@@ -1,0 +1,868 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "StyleSheet/CommonStyleSheetTypes.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef COMMONUI_CommonStyleSheetTypes_generated_h
+#error "CommonStyleSheetTypes.generated.h already included, missing '#pragma once' in CommonStyleSheetTypes.h"
+#endif
+#define COMMONUI_CommonStyleSheetTypes_generated_h
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeBase(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeBase_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeBase)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeBase(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeBase_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeBase)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeBase(UCommonStyleSheetTypeBase&&); \
+	NO_API UCommonStyleSheetTypeBase(const UCommonStyleSheetTypeBase&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeBase();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeBase(UCommonStyleSheetTypeBase&&); \
+	NO_API UCommonStyleSheetTypeBase(const UCommonStyleSheetTypeBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeBase); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeBase) \
+	NO_API virtual ~UCommonStyleSheetTypeBase();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_10_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_13_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeBase>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeColor(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeColor_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeColor, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeColor)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeColor(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeColor_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeColor, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeColor)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeColor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeColor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeColor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeColor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeColor(UCommonStyleSheetTypeColor&&); \
+	NO_API UCommonStyleSheetTypeColor(const UCommonStyleSheetTypeColor&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeColor();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeColor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeColor(UCommonStyleSheetTypeColor&&); \
+	NO_API UCommonStyleSheetTypeColor(const UCommonStyleSheetTypeColor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeColor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeColor); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeColor) \
+	NO_API virtual ~UCommonStyleSheetTypeColor();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_20_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeColor>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeOpacity(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeOpacity_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeOpacity, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeOpacity)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeOpacity(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeOpacity_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeOpacity, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeOpacity)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeOpacity(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeOpacity) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeOpacity); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeOpacity); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeOpacity(UCommonStyleSheetTypeOpacity&&); \
+	NO_API UCommonStyleSheetTypeOpacity(const UCommonStyleSheetTypeOpacity&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeOpacity();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeOpacity(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeOpacity(UCommonStyleSheetTypeOpacity&&); \
+	NO_API UCommonStyleSheetTypeOpacity(const UCommonStyleSheetTypeOpacity&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeOpacity); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeOpacity); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeOpacity) \
+	NO_API virtual ~UCommonStyleSheetTypeOpacity();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_30_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_33_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeOpacity>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeLineHeightPercentage(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeLineHeightPercentage_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeLineHeightPercentage, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeLineHeightPercentage)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeLineHeightPercentage(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeLineHeightPercentage_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeLineHeightPercentage, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeLineHeightPercentage)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeLineHeightPercentage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeLineHeightPercentage) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeLineHeightPercentage); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeLineHeightPercentage); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeLineHeightPercentage(UCommonStyleSheetTypeLineHeightPercentage&&); \
+	NO_API UCommonStyleSheetTypeLineHeightPercentage(const UCommonStyleSheetTypeLineHeightPercentage&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeLineHeightPercentage();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeLineHeightPercentage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeLineHeightPercentage(UCommonStyleSheetTypeLineHeightPercentage&&); \
+	NO_API UCommonStyleSheetTypeLineHeightPercentage(const UCommonStyleSheetTypeLineHeightPercentage&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeLineHeightPercentage); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeLineHeightPercentage); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeLineHeightPercentage) \
+	NO_API virtual ~UCommonStyleSheetTypeLineHeightPercentage();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_40_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_43_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeLineHeightPercentage>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeFontTypeface(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeFontTypeface_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeFontTypeface, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeFontTypeface)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeFontTypeface(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeFontTypeface_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeFontTypeface, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeFontTypeface)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeFontTypeface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeFontTypeface) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeFontTypeface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeFontTypeface); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeFontTypeface(UCommonStyleSheetTypeFontTypeface&&); \
+	NO_API UCommonStyleSheetTypeFontTypeface(const UCommonStyleSheetTypeFontTypeface&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeFontTypeface();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeFontTypeface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeFontTypeface(UCommonStyleSheetTypeFontTypeface&&); \
+	NO_API UCommonStyleSheetTypeFontTypeface(const UCommonStyleSheetTypeFontTypeface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeFontTypeface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeFontTypeface); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeFontTypeface) \
+	NO_API virtual ~UCommonStyleSheetTypeFontTypeface();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_50_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_53_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeFontTypeface>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeFontSize(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeFontSize_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeFontSize, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeFontSize)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeFontSize(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeFontSize_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeFontSize, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeFontSize)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeFontSize(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeFontSize) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeFontSize); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeFontSize); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeFontSize(UCommonStyleSheetTypeFontSize&&); \
+	NO_API UCommonStyleSheetTypeFontSize(const UCommonStyleSheetTypeFontSize&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeFontSize();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeFontSize(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeFontSize(UCommonStyleSheetTypeFontSize&&); \
+	NO_API UCommonStyleSheetTypeFontSize(const UCommonStyleSheetTypeFontSize&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeFontSize); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeFontSize); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeFontSize) \
+	NO_API virtual ~UCommonStyleSheetTypeFontSize();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_67_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_70_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeFontSize>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeFontLetterSpacing(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeFontLetterSpacing_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeFontLetterSpacing, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeFontLetterSpacing)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeFontLetterSpacing(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeFontLetterSpacing_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeFontLetterSpacing, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeFontLetterSpacing)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeFontLetterSpacing(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeFontLetterSpacing) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeFontLetterSpacing); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeFontLetterSpacing); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeFontLetterSpacing(UCommonStyleSheetTypeFontLetterSpacing&&); \
+	NO_API UCommonStyleSheetTypeFontLetterSpacing(const UCommonStyleSheetTypeFontLetterSpacing&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeFontLetterSpacing();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeFontLetterSpacing(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeFontLetterSpacing(UCommonStyleSheetTypeFontLetterSpacing&&); \
+	NO_API UCommonStyleSheetTypeFontLetterSpacing(const UCommonStyleSheetTypeFontLetterSpacing&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeFontLetterSpacing); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeFontLetterSpacing); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeFontLetterSpacing) \
+	NO_API virtual ~UCommonStyleSheetTypeFontLetterSpacing();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_77_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_80_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeFontLetterSpacing>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginLeft(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginLeft_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginLeft, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginLeft)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginLeft(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginLeft_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginLeft, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginLeft)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginLeft(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginLeft) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginLeft); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginLeft); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginLeft(UCommonStyleSheetTypeMarginLeft&&); \
+	NO_API UCommonStyleSheetTypeMarginLeft(const UCommonStyleSheetTypeMarginLeft&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeMarginLeft();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginLeft(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginLeft(UCommonStyleSheetTypeMarginLeft&&); \
+	NO_API UCommonStyleSheetTypeMarginLeft(const UCommonStyleSheetTypeMarginLeft&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginLeft); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginLeft); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginLeft) \
+	NO_API virtual ~UCommonStyleSheetTypeMarginLeft();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_87_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_90_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeMarginLeft>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginRight(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginRight_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginRight, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginRight)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginRight(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginRight_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginRight, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginRight)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginRight(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginRight) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginRight); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginRight); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginRight(UCommonStyleSheetTypeMarginRight&&); \
+	NO_API UCommonStyleSheetTypeMarginRight(const UCommonStyleSheetTypeMarginRight&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeMarginRight();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginRight(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginRight(UCommonStyleSheetTypeMarginRight&&); \
+	NO_API UCommonStyleSheetTypeMarginRight(const UCommonStyleSheetTypeMarginRight&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginRight); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginRight); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginRight) \
+	NO_API virtual ~UCommonStyleSheetTypeMarginRight();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_97_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_100_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeMarginRight>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginTop(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginTop_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginTop, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginTop)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginTop(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginTop_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginTop, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginTop)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginTop(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginTop) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginTop); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginTop); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginTop(UCommonStyleSheetTypeMarginTop&&); \
+	NO_API UCommonStyleSheetTypeMarginTop(const UCommonStyleSheetTypeMarginTop&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeMarginTop();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginTop(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginTop(UCommonStyleSheetTypeMarginTop&&); \
+	NO_API UCommonStyleSheetTypeMarginTop(const UCommonStyleSheetTypeMarginTop&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginTop); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginTop); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginTop) \
+	NO_API virtual ~UCommonStyleSheetTypeMarginTop();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_107_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_110_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeMarginTop>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginBottom(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginBottom_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginBottom, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginBottom)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonStyleSheetTypeMarginBottom(); \
+	friend struct Z_Construct_UClass_UCommonStyleSheetTypeMarginBottom_Statics; \
+public: \
+	DECLARE_CLASS(UCommonStyleSheetTypeMarginBottom, UCommonStyleSheetTypeBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonStyleSheetTypeMarginBottom)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginBottom(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginBottom) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginBottom); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginBottom); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginBottom(UCommonStyleSheetTypeMarginBottom&&); \
+	NO_API UCommonStyleSheetTypeMarginBottom(const UCommonStyleSheetTypeMarginBottom&); \
+public: \
+	NO_API virtual ~UCommonStyleSheetTypeMarginBottom();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonStyleSheetTypeMarginBottom(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonStyleSheetTypeMarginBottom(UCommonStyleSheetTypeMarginBottom&&); \
+	NO_API UCommonStyleSheetTypeMarginBottom(const UCommonStyleSheetTypeMarginBottom&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonStyleSheetTypeMarginBottom); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonStyleSheetTypeMarginBottom); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonStyleSheetTypeMarginBottom) \
+	NO_API virtual ~UCommonStyleSheetTypeMarginBottom();
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_117_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h_120_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonStyleSheetTypeMarginBottom>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_StyleSheet_CommonStyleSheetTypes_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

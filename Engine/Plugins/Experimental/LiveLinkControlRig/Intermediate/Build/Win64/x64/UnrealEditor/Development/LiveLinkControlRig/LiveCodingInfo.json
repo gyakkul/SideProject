@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkControlRig.cpp.obj": [
+			"LiveLinkControlRig.init.gen.cpp.obj",
+			"LiveLinkRigUnits.gen.cpp.obj",
+			"LiveLinkControlRig.cpp.obj",
+			"LiveLinkRigUnits.cpp.obj"
+		]
+	}
+}

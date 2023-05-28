@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AutomationTest.cpp.obj": [
+			"AutomationState.gen.cpp.obj",
+			"AutomationTest.init.gen.cpp.obj",
+			"AutomationTestExcludelist.cpp.obj",
+			"AutomationTestModule.cpp.obj"
+		]
+	}
+}

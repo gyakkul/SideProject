@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelViewViewModelEditor.cpp.obj": [
+			"ModelViewViewModelEditor.init.gen.cpp.obj",
+			"MVVMViewModelBlueprintToolMenuContext.gen.cpp.obj",
+			"MVVMConversionPathCustomization.cpp.obj",
+			"MVVMPropertyBindingExtension.cpp.obj",
+			"MVVMPropertyPathCustomization.cpp.obj",
+			"ModelViewViewModelEditorModule.cpp.obj",
+			"MVVMEditorCommands.cpp.obj",
+			"MVVMEditorSubsystem.cpp.obj",
+			"MVVMEditorStyle.cpp.obj",
+			"MVVMBindingSummoner.cpp.obj",
+			"MVVMViewModelSummoner.cpp.obj",
+			"MVVMBindingExecuteTest.cpp.obj",
+			"MVVMBindingHelperTest.cpp.obj",
+			"MVVMBindingSource.cpp.obj",
+			"AssetTypeActions_ViewModelBlueprint.cpp.obj",
+			"MVVMViewModelBlueprintEditor.cpp.obj",
+			"MVVMViewModelBlueprintFactory.cpp.obj",
+			"SMVVMConversionPath.cpp.obj",
+			"SMVVMFieldEntry.cpp.obj",
+			"SMVVMFieldIcon.cpp.obj",
+			"SMVVMFieldSelector.cpp.obj",
+			"SMVVMFunctionParameter.cpp.obj",
+			"SMVVMManageViewModelsWidget.cpp.obj",
+			"SMVVMPropertyPath.cpp.obj",
+			"SMVVMSelectViewModel.cpp.obj",
+			"SMVVMSourceEntry.cpp.obj",
+			"SMVVMSourceSelector.cpp.obj",
+			"SMVVMViewBindingListView.cpp.obj",
+			"SMVVMViewBindingPanel.cpp.obj",
+			"SMVVMViewModelBindingListWidget.cpp.obj",
+			"SMVVMViewModelContextListWidget.cpp.obj",
+			"SMVVMViewModelPanel.cpp.obj"
+		]
+	}
+}

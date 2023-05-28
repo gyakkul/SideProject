@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GPULightmass.cpp.obj": [
+			"GPULightmass.init.gen.cpp.obj",
+			"GPULightmassSettings.gen.cpp.obj",
+			"CompactingObjectPoolTest.cpp.obj",
+			"GPULightmass.cpp.obj",
+			"GPULightmassModule.cpp.obj",
+			"GPULightmassSettings.cpp.obj",
+			"IrradianceCaching.cpp.obj",
+			"LightmapDenoising.cpp.obj",
+			"LightmapEncoding.cpp.obj",
+			"LightmapGBuffer.cpp.obj",
+			"LightmapPreviewVirtualTexture.cpp.obj",
+			"LightmapRayTracing.cpp.obj",
+			"LightmapRenderer.cpp.obj",
+			"LightmapStorage.cpp.obj",
+			"LightmapTilePool.cpp.obj",
+			"GeometryInterface.cpp.obj",
+			"InstancedStaticMesh.cpp.obj",
+			"Landscape.cpp.obj",
+			"Lights.cpp.obj",
+			"Scene.cpp.obj",
+			"StaticMesh.cpp.obj",
+			"VolumetricLightmap.cpp.obj"
+		]
+	}
+}

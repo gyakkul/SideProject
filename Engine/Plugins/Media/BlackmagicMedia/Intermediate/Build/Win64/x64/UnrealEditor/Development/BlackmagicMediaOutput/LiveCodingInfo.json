@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlackmagicMediaOutput.cpp.obj": [
+			"BlackmagicMediaCapture.gen.cpp.obj",
+			"BlackmagicMediaOutput.gen.cpp.obj",
+			"BlackmagicMediaOutput.init.gen.cpp.obj",
+			"BlackmagicMediaCapture.cpp.obj",
+			"BlackmagicMediaOutput.cpp.obj",
+			"BlackmagicMediaOutputModule.cpp.obj"
+		]
+	}
+}

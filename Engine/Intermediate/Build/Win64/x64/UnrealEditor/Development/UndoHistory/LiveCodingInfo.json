@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UndoHistory.cpp.obj": [
+			"UndoHistoryModule.cpp.obj",
+			"ClassLookupReflectionDataProvider.cpp.obj",
+			"SUndoHistoryDetails.cpp.obj"
+		]
+	}
+}

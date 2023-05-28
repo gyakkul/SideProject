@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CameraCalibrationCoreEditor.cpp.obj": [
+			"CalibrationPointComponentDetails.cpp.obj",
+			"CameraCalibrationCoreEditorModule.cpp.obj",
+			"LensComponentDetailCustomization.cpp.obj",
+			"LensDistortionStateDetailCustomization.cpp.obj"
+		]
+	}
+}

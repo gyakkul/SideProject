@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Virtualization.cpp.obj": [
+			"Virtualization.init.gen.cpp.obj",
+			"DumpPackagePayloadInfoCommand.cpp.obj",
+			"PackageRehydrationProcess.cpp.obj",
+			"PackageUtils.cpp.obj",
+			"PackageVirtualizationProcess.cpp.obj",
+			"Virtualization.cpp.obj",
+			"VirtualizationDDCBackend.cpp.obj",
+			"VirtualizationFileBackend.cpp.obj",
+			"VirtualizationFilterSettings.cpp.obj",
+			"VirtualizationManager.cpp.obj",
+			"VirtualizationSourceControlBackend.cpp.obj",
+			"VirtualizationSourceControlUtilities.cpp.obj",
+			"VirtualizationUtilities.cpp.obj"
+		]
+	}
+}

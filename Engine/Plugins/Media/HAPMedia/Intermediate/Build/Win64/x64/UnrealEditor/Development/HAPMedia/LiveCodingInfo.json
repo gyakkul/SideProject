@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HAPMedia.cpp.obj": [
+			"WmfMediaHAPDecoder.cpp.obj",
+			"HAPMediaModule.cpp.obj"
+		]
+	}
+}

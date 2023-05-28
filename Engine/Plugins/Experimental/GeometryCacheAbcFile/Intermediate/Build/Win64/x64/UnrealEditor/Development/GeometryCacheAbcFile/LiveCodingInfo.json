@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCacheAbcFile.cpp.obj": [
+			"ActorFactoryGeometryCacheAbcFile.gen.cpp.obj",
+			"GeometryCacheAbcFile.init.gen.cpp.obj",
+			"GeometryCacheAbcFileActor.gen.cpp.obj",
+			"GeometryCacheAbcFileComponent.gen.cpp.obj",
+			"GeometryCacheTrackAbcFile.gen.cpp.obj",
+			"ActorFactoryGeometryCacheAbcFile.cpp.obj",
+			"GeometryCacheAbcFileActor.cpp.obj",
+			"GeometryCacheAbcFileComponent.cpp.obj",
+			"GeometryCacheAbcFileComponentCustomization.cpp.obj",
+			"GeometryCacheAbcFileModule.cpp.obj",
+			"GeometryCacheAbcFileSceneProxy.cpp.obj",
+			"GeometryCacheAbcStream.cpp.obj",
+			"GeometryCacheTrackAbcFile.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassGameplayEditor.cpp.obj": [
+			"MassActorEditorSubsystem.gen.cpp.obj",
+			"MassGameplayEditor.init.gen.cpp.obj",
+			"MassActorEditorSubsystem.cpp.obj",
+			"MassGameplayEditorModule.cpp.obj"
+		]
+	}
+}

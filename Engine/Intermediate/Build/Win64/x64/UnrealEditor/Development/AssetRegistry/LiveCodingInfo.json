@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetRegistry.cpp.obj": [
+			"AssetRegistry.init.gen.cpp.obj",
+			"AssetRegistryHelpers.gen.cpp.obj",
+			"AssetDataGatherer.cpp.obj",
+			"AssetDependencyGatherer.cpp.obj",
+			"AssetRegistry.cpp.obj",
+			"AssetRegistryArchive.cpp.obj",
+			"AssetRegistryHelpers.cpp.obj",
+			"AssetRegistryModule.cpp.obj",
+			"AssetRegistryState.cpp.obj",
+			"DependsNode.cpp.obj",
+			"DependsNodeTest.cpp.obj",
+			"NameTableArchive.cpp.obj",
+			"PackageDependencyData.cpp.obj",
+			"PackageReader.cpp.obj",
+			"PathTree.cpp.obj",
+			"PropertyCombinationSetTest.cpp.obj"
+		]
+	}
+}

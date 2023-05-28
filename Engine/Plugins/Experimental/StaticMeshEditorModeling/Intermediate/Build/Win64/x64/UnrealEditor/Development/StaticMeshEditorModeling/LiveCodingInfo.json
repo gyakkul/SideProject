@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StaticMeshEditorModeling.cpp.obj": [
+			"StaticMeshEditorModeling.init.gen.cpp.obj",
+			"StaticMeshEditorModelingMode.gen.cpp.obj",
+			"StaticMeshEditorModelingCommands.cpp.obj",
+			"StaticMeshEditorModelingMode.cpp.obj",
+			"StaticMeshEditorModelingModule.cpp.obj",
+			"StaticMeshEditorModelingToolkit.cpp.obj"
+		]
+	}
+}

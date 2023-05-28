@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassGameplayDebug.cpp.obj": [
+			"AssignDebugVisProcessor.gen.cpp.obj",
+			"DebugVisLocationProcessor.gen.cpp.obj",
+			"MassDebuggerSubsystem.gen.cpp.obj",
+			"MassDebugVisualizationComponent.gen.cpp.obj",
+			"MassDebugVisualizationTrait.gen.cpp.obj",
+			"MassDebugVisualizer.gen.cpp.obj",
+			"MassGameplayDebug.init.gen.cpp.obj",
+			"MassGameplayDebugTypes.gen.cpp.obj",
+			"AssignDebugVisProcessor.cpp.obj",
+			"DebugVisLocationProcessor.cpp.obj",
+			"MassDebuggerSubsystem.cpp.obj",
+			"MassDebugVisualizationComponent.cpp.obj",
+			"MassDebugVisualizationTrait.cpp.obj",
+			"MassDebugVisualizer.cpp.obj",
+			"MassGameplayDebugModule.cpp.obj",
+			"MassGameplayDebugTypes.cpp.obj"
+		]
+	}
+}

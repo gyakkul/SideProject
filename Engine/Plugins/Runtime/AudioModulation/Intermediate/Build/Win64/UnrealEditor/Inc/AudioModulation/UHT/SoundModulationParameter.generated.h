@@ -1,0 +1,721 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SoundModulationParameter.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef AUDIOMODULATION_SoundModulationParameter_generated_h
+#error "SoundModulationParameter.generated.h already included, missing '#pragma once' in SoundModulationParameter.h"
+#endif
+#define AUDIOMODULATION_SoundModulationParameter_generated_h
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_17_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSoundModulationParameterSettings_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> AUDIOMODULATION_API UScriptStruct* StaticStruct<struct FSoundModulationParameterSettings>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameter(); \
+	friend struct Z_Construct_UClass_USoundModulationParameter_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameter, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), NO_API) \
+	DECLARE_SERIALIZER(USoundModulationParameter)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameter(); \
+	friend struct Z_Construct_UClass_USoundModulationParameter_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameter, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), NO_API) \
+	DECLARE_SERIALIZER(USoundModulationParameter)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USoundModulationParameter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameter) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USoundModulationParameter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameter); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USoundModulationParameter(USoundModulationParameter&&); \
+	NO_API USoundModulationParameter(const USoundModulationParameter&); \
+public: \
+	NO_API virtual ~USoundModulationParameter();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USoundModulationParameter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USoundModulationParameter(USoundModulationParameter&&); \
+	NO_API USoundModulationParameter(const USoundModulationParameter&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USoundModulationParameter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameter); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameter) \
+	NO_API virtual ~USoundModulationParameter();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_40_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_43_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameter>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterScaled(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterScaled_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterScaled, USoundModulationParameter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterScaled)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterScaled(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterScaled_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterScaled, USoundModulationParameter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterScaled)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterScaled(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterScaled) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterScaled); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterScaled); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterScaled(USoundModulationParameterScaled&&); \
+	AUDIOMODULATION_API USoundModulationParameterScaled(const USoundModulationParameterScaled&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterScaled();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterScaled(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterScaled(USoundModulationParameterScaled&&); \
+	AUDIOMODULATION_API USoundModulationParameterScaled(const USoundModulationParameterScaled&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterScaled); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterScaled); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterScaled) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterScaled();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_121_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_124_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterScaled>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterFrequencyBase(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterFrequencyBase_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterFrequencyBase, USoundModulationParameter, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterFrequencyBase)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterFrequencyBase(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterFrequencyBase_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterFrequencyBase, USoundModulationParameter, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterFrequencyBase)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequencyBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterFrequencyBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterFrequencyBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterFrequencyBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequencyBase(USoundModulationParameterFrequencyBase&&); \
+	AUDIOMODULATION_API USoundModulationParameterFrequencyBase(const USoundModulationParameterFrequencyBase&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterFrequencyBase();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequencyBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequencyBase(USoundModulationParameterFrequencyBase&&); \
+	AUDIOMODULATION_API USoundModulationParameterFrequencyBase(const USoundModulationParameterFrequencyBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterFrequencyBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterFrequencyBase); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterFrequencyBase) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterFrequencyBase();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_143_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_146_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterFrequencyBase>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterFrequency, USoundModulationParameterFrequencyBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterFrequency, USoundModulationParameterFrequencyBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterFrequency) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterFrequency); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequency(USoundModulationParameterFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterFrequency(const USoundModulationParameterFrequency&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterFrequency(USoundModulationParameterFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterFrequency(const USoundModulationParameterFrequency&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterFrequency); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterFrequency) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_155_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_158_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterFrequency>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterFilterFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterFilterFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterFilterFrequency, USoundModulationParameterFrequencyBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterFilterFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterFilterFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterFilterFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterFilterFrequency, USoundModulationParameterFrequencyBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterFilterFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterFilterFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterFilterFrequency) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterFilterFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterFilterFrequency); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterFilterFrequency(USoundModulationParameterFilterFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterFilterFrequency(const USoundModulationParameterFilterFrequency&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterFilterFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterFilterFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterFilterFrequency(USoundModulationParameterFilterFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterFilterFrequency(const USoundModulationParameterFilterFrequency&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterFilterFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterFilterFrequency); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterFilterFrequency) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterFilterFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_181_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_184_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterFilterFrequency>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterLPFFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterLPFFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterLPFFrequency, USoundModulationParameterFilterFrequency, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterLPFFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterLPFFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterLPFFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterLPFFrequency, USoundModulationParameterFilterFrequency, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterLPFFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterLPFFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterLPFFrequency) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterLPFFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterLPFFrequency); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterLPFFrequency(USoundModulationParameterLPFFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterLPFFrequency(const USoundModulationParameterLPFFrequency&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterLPFFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterLPFFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterLPFFrequency(USoundModulationParameterLPFFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterLPFFrequency(const USoundModulationParameterLPFFrequency&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterLPFFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterLPFFrequency); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterLPFFrequency) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterLPFFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_200_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_203_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterLPFFrequency>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterHPFFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterHPFFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterHPFFrequency, USoundModulationParameterFilterFrequency, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterHPFFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterHPFFrequency(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterHPFFrequency_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterHPFFrequency, USoundModulationParameterFilterFrequency, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterHPFFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterHPFFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterHPFFrequency) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterHPFFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterHPFFrequency); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterHPFFrequency(USoundModulationParameterHPFFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterHPFFrequency(const USoundModulationParameterHPFFrequency&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterHPFFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterHPFFrequency(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterHPFFrequency(USoundModulationParameterHPFFrequency&&); \
+	AUDIOMODULATION_API USoundModulationParameterHPFFrequency(const USoundModulationParameterHPFFrequency&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterHPFFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterHPFFrequency); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterHPFFrequency) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterHPFFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_211_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_214_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SoundModulationParameterHPFFrequency."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterHPFFrequency>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterBipolar(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterBipolar_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterBipolar, USoundModulationParameter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterBipolar)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterBipolar(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterBipolar_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterBipolar, USoundModulationParameter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterBipolar)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterBipolar(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterBipolar) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterBipolar); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterBipolar); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterBipolar(USoundModulationParameterBipolar&&); \
+	AUDIOMODULATION_API USoundModulationParameterBipolar(const USoundModulationParameterBipolar&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterBipolar();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterBipolar(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterBipolar(USoundModulationParameterBipolar&&); \
+	AUDIOMODULATION_API USoundModulationParameterBipolar(const USoundModulationParameterBipolar&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterBipolar); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterBipolar); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterBipolar) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterBipolar();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_221_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_224_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SoundModulationParameterBipolar."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterBipolar>();
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterVolume(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterVolume_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterVolume, USoundModulationParameter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterVolume)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundModulationParameterVolume(); \
+	friend struct Z_Construct_UClass_USoundModulationParameterVolume_Statics; \
+public: \
+	DECLARE_CLASS(USoundModulationParameterVolume, USoundModulationParameter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AudioModulation"), AUDIOMODULATION_API) \
+	DECLARE_SERIALIZER(USoundModulationParameterVolume)
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterVolume(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterVolume) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterVolume); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterVolume); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterVolume(USoundModulationParameterVolume&&); \
+	AUDIOMODULATION_API USoundModulationParameterVolume(const USoundModulationParameterVolume&); \
+public: \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterVolume();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	AUDIOMODULATION_API USoundModulationParameterVolume(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AUDIOMODULATION_API USoundModulationParameterVolume(USoundModulationParameterVolume&&); \
+	AUDIOMODULATION_API USoundModulationParameterVolume(const USoundModulationParameterVolume&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(AUDIOMODULATION_API, USoundModulationParameterVolume); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundModulationParameterVolume); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundModulationParameterVolume) \
+	AUDIOMODULATION_API virtual ~USoundModulationParameterVolume();
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_239_PROLOG
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_INCLASS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h_242_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> AUDIOMODULATION_API UClass* StaticClass<class USoundModulationParameterVolume>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_AudioModulation_Source_AudioModulation_Public_SoundModulationParameter_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

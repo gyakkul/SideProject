@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.KismetWidgets.cpp.obj": [
+			"KismetWidgets.init.gen.cpp.obj",
+			"PinTypeSelectorFilter.gen.cpp.obj",
+			"CreateBlueprintFromActorDialog.cpp.obj",
+			"KismetWidgets.cpp.obj",
+			"SKismetLinearExpression.cpp.obj",
+			"SLevelOfDetailBranchNode.cpp.obj",
+			"SPinTypeSelector.cpp.obj",
+			"SScrubControlPanel.cpp.obj",
+			"SScrubWidget.cpp.obj",
+			"SSingleObjectDetailsPanel.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenCVLensCalibration.cpp.obj": [
+			"OpenCVLensCalibration.init.gen.cpp.obj",
+			"OpenCVLensCalibrator.gen.cpp.obj",
+			"OpenCVLensCalibrationModule.cpp.obj",
+			"OpenCVLensCalibrator.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImagePlate.cpp.obj": [
+			"ImagePlate.init.gen.cpp.obj",
+			"ImagePlate.cpp.obj",
+			"ImagePlateComponent.cpp.obj",
+			"ImagePlateComponents.cpp.obj",
+			"ImagePlateFileSequence.cpp.obj",
+			"ImagePlateFrustumComponent.cpp.obj"
+		]
+	}
+}

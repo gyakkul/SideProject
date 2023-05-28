@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AESGCMHandlerComponent.cpp.obj": [
+			"AESGCMHandlerComponent.init.gen.cpp.obj",
+			"AESGCMFaultHandler.cpp.obj",
+			"AESGCMHandlerComponent.cpp.obj"
+		]
+	}
+}

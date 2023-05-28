@@ -1,0 +1,59 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LandscapeEditor.1_of_4.cpp.obj": [
+			"ActorFactoryLandscape.gen.cpp.obj",
+			"LandscapeEditor.init.gen.cpp.obj",
+			"LandscapeEditorObject.gen.cpp.obj",
+			"LandscapeFileFormatInterface.gen.cpp.obj",
+			"LandscapeImportHelper.gen.cpp.obj",
+			"LandscapeLayerInfoObjectFactory.gen.cpp.obj",
+			"LandscapePlaceholder.gen.cpp.obj",
+			"ActorFactoryLandscape.cpp.obj",
+			"LandscapeEditorCommands.cpp.obj",
+			"LandscapeEditorDetailCustomization_AlphaBrush.cpp.obj",
+			"LandscapeEditorDetailCustomization_Base.cpp.obj",
+			"LandscapeEditorDetailCustomization_CopyPaste.cpp.obj",
+			"LandscapeEditorDetailCustomization_ImportExport.cpp.obj",
+			"LandscapeEditorDetailCustomization_ImportLayers.cpp.obj"
+		],
+		"Module.LandscapeEditor.2_of_4.cpp.obj": [
+			"LandscapeEditorDetailCustomization_Layers.cpp.obj",
+			"LandscapeEditorDetailCustomization_LayersBrushStack.cpp.obj",
+			"LandscapeEditorDetailCustomization_MiscTools.cpp.obj",
+			"LandscapeEditorDetailCustomization_NewLandscape.cpp.obj",
+			"LandscapeEditorDetailCustomization_ResizeLandscape.cpp.obj",
+			"LandscapeEditorDetailCustomization_TargetLayers.cpp.obj",
+			"LandscapeEditorDetails.cpp.obj",
+			"LandscapeEditorDetailWidgets.cpp.obj",
+			"LandscapeEditorModule.cpp.obj",
+			"LandscapeEditorObject.cpp.obj",
+			"LandscapeEditorServices.cpp.obj",
+			"LandscapeEdMode.cpp.obj"
+		],
+		"Module.LandscapeEditor.3_of_4.cpp.obj": [
+			"LandscapeEdModeBPCustomTools.cpp.obj",
+			"LandscapeEdModeBrushes.cpp.obj",
+			"LandscapeEdModeComponentTools.cpp.obj",
+			"LandscapeEdModeErosionTools.cpp.obj",
+			"LandscapeEdModeMirrorTool.cpp.obj",
+			"LandscapeEdModePaintTools.cpp.obj",
+			"LandscapeEdModeRampTool.cpp.obj",
+			"LandscapeEdModeSplineTools.cpp.obj",
+			"LandscapeEdModeXYOffset.cpp.obj"
+		],
+		"Module.LandscapeEditor.4_of_4.cpp.obj": [
+			"LandscapeFileFormatPng.cpp.obj",
+			"LandscapeFileFormatRaw.cpp.obj",
+			"LandscapeImportHelper.cpp.obj",
+			"LandscapeLayerInfoObjectFactory.cpp.obj",
+			"LandscapeSplineDetails.cpp.obj",
+			"LandscapeSplineImportExport.cpp.obj",
+			"NewLandscapeUtils.cpp.obj",
+			"SFlattenHeightEyeDropperButton.cpp.obj",
+			"SLandscapeEditor.cpp.obj",
+			"SLandscapeLayerListDialog.cpp.obj",
+			"LandscapeAutomationTests.cpp.obj"
+		]
+	}
+}

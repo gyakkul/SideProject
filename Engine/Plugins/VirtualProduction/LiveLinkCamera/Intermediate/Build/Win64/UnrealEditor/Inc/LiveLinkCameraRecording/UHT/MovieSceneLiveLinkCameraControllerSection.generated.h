@@ -1,0 +1,96 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MovieSceneLiveLinkCameraControllerSection.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef LIVELINKCAMERARECORDING_MovieSceneLiveLinkCameraControllerSection_generated_h
+#error "MovieSceneLiveLinkCameraControllerSection.generated.h already included, missing '#pragma once' in MovieSceneLiveLinkCameraControllerSection.h"
+#endif
+#define LIVELINKCAMERARECORDING_MovieSceneLiveLinkCameraControllerSection_generated_h
+
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMovieSceneLiveLinkCameraControllerSection(); \
+	friend struct Z_Construct_UClass_UMovieSceneLiveLinkCameraControllerSection_Statics; \
+public: \
+	DECLARE_CLASS(UMovieSceneLiveLinkCameraControllerSection, UMovieSceneHookSection, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LiveLinkCameraRecording"), NO_API) \
+	DECLARE_SERIALIZER(UMovieSceneLiveLinkCameraControllerSection)
+
+
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUMovieSceneLiveLinkCameraControllerSection(); \
+	friend struct Z_Construct_UClass_UMovieSceneLiveLinkCameraControllerSection_Statics; \
+public: \
+	DECLARE_CLASS(UMovieSceneLiveLinkCameraControllerSection, UMovieSceneHookSection, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LiveLinkCameraRecording"), NO_API) \
+	DECLARE_SERIALIZER(UMovieSceneLiveLinkCameraControllerSection)
+
+
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMovieSceneLiveLinkCameraControllerSection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMovieSceneLiveLinkCameraControllerSection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMovieSceneLiveLinkCameraControllerSection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMovieSceneLiveLinkCameraControllerSection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMovieSceneLiveLinkCameraControllerSection(UMovieSceneLiveLinkCameraControllerSection&&); \
+	NO_API UMovieSceneLiveLinkCameraControllerSection(const UMovieSceneLiveLinkCameraControllerSection&); \
+public: \
+	NO_API virtual ~UMovieSceneLiveLinkCameraControllerSection();
+
+
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMovieSceneLiveLinkCameraControllerSection(UMovieSceneLiveLinkCameraControllerSection&&); \
+	NO_API UMovieSceneLiveLinkCameraControllerSection(const UMovieSceneLiveLinkCameraControllerSection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMovieSceneLiveLinkCameraControllerSection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMovieSceneLiveLinkCameraControllerSection); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMovieSceneLiveLinkCameraControllerSection) \
+	NO_API virtual ~UMovieSceneLiveLinkCameraControllerSection();
+
+
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_16_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> LIVELINKCAMERARECORDING_API UClass* StaticClass<class UMovieSceneLiveLinkCameraControllerSection>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_VirtualProduction_LiveLinkCamera_Source_LiveLinkCameraRecording_Private_MovieSceneLiveLinkCameraControllerSection_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

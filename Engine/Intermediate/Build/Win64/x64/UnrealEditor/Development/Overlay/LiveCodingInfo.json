@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Overlay.cpp.obj": [
+			"Overlay.init.gen.cpp.obj",
+			"Overlays.gen.cpp.obj",
+			"BasicOverlays.cpp.obj",
+			"LocalizedOverlays.cpp.obj",
+			"OverlaysImporter.cpp.obj",
+			"OverlayModule.cpp.obj"
+		]
+	}
+}

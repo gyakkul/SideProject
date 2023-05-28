@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FractureEngine.cpp.obj": [
+			"FractureEngineClustering.cpp.obj",
+			"FractureEngineEdit.cpp.obj",
+			"FractureEngineEmbed.cpp.obj",
+			"FractureEngineFracturing.cpp.obj",
+			"FractureEnginePlugin.cpp.obj",
+			"FractureEngineSelection.cpp.obj",
+			"FractureEngineUtility.cpp.obj"
+		]
+	}
+}

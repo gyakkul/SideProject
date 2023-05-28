@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshLODToolset.cpp.obj": [
+			"MeshLODToolset.init.gen.cpp.obj",
+			"GenerateMeshLODGraph.cpp.obj",
+			"GenerateStaticMeshLODProcess.cpp.obj",
+			"MeshLODToolsetModule.cpp.obj",
+			"AutoLODToolCustomizations.cpp.obj",
+			"GenerateStaticMeshLODAssetTool.cpp.obj",
+			"LODGenerationSettingsAsset.cpp.obj",
+			"LODGenerationSettingsFactory.cpp.obj",
+			"LODManagerTool.cpp.obj"
+		]
+	}
+}

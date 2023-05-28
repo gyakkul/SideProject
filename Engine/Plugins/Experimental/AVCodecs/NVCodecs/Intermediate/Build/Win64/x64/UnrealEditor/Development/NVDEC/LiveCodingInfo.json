@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NVDEC.cpp.obj": [
+			"NVDEC.cpp.obj",
+			"NVDECModule.cpp.obj",
+			"VideoDecoderConfigNVDEC.cpp.obj",
+			"VideoDecoderNVDEC.cpp.obj"
+		]
+	}
+}

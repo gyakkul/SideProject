@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidCameraFactory.cpp.obj": [
+			"AndroidCameraFactory.init.gen.cpp.obj",
+			"AndroidCameraSettings.gen.cpp.obj",
+			"AndroidCameraFactoryModule.cpp.obj",
+			"AndroidCameraSettings.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StageDataCore.cpp.obj": [
+			"StageDataCore.init.gen.cpp.obj",
+			"StageMessages.gen.cpp.obj",
+			"StageDataCoreModule.cpp.obj",
+			"StageMessages.cpp.obj"
+		]
+	}
+}

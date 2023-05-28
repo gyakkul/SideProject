@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelStreamingInput.cpp.obj": [
+			"EditorPixelStreamingSettings.gen.cpp.obj",
+			"PixelStreamingInput.init.gen.cpp.obj",
+			"ApplicationWrapper.cpp.obj",
+			"EditorPixelStreamingSettings.cpp.obj",
+			"PixelStreamingInputConversion.cpp.obj",
+			"PixelStreamingInputDevice.cpp.obj",
+			"PixelStreamingInputHandler.cpp.obj",
+			"PixelStreamingInputMessage.cpp.obj",
+			"PixelStreamingInputModule.cpp.obj",
+			"PixelStreamingInputProtocol.cpp.obj",
+			"PixelStreamingInputProtocolMap.cpp.obj",
+			"Settings.cpp.obj"
+		]
+	}
+}

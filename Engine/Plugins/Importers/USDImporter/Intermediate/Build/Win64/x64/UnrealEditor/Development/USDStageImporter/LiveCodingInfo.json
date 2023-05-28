@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDStageImporter.cpp.obj": [
+			"USDStageAssetImportFactory.gen.cpp.obj",
+			"USDStageImportContext.gen.cpp.obj",
+			"USDStageImporter.init.gen.cpp.obj",
+			"USDStageImportFactory.gen.cpp.obj",
+			"USDStageImportOptions.gen.cpp.obj",
+			"USDOptionsWindow.cpp.obj",
+			"USDStageAssetImportFactory.cpp.obj",
+			"USDStageImportContext.cpp.obj",
+			"USDStageImporter.cpp.obj",
+			"USDStageImporterModule.cpp.obj",
+			"USDStageImportFactory.cpp.obj",
+			"USDStageImportOptions.cpp.obj",
+			"USDStageImportOptionsCustomization.cpp.obj",
+			"SUSDStagePreviewTree.cpp.obj"
+		]
+	}
+}

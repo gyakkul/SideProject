@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FileUtilities.cpp.obj": [
+			"FileUtilities.cpp.obj",
+			"ZipArchiveReader.cpp.obj",
+			"ZipArchiveWriter.cpp.obj"
+		]
+	}
+}

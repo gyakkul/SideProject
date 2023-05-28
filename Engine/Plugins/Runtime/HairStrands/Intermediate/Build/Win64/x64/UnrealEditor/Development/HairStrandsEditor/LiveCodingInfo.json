@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HairStrandsEditor.cpp.obj": [
+			"HairStrandsEditor.init.gen.cpp.obj",
+			"GroomActions.cpp.obj",
+			"GroomActorFactory.cpp.obj",
+			"GroomAssetDetails.cpp.obj",
+			"GroomBindingActions.cpp.obj",
+			"GroomBindingDetailsCustomization.cpp.obj",
+			"GroomBindingFactory.cpp.obj",
+			"GroomCacheActions.cpp.obj",
+			"GroomCacheImporter.cpp.obj",
+			"GroomCacheImportSettingsCustomization.cpp.obj",
+			"GroomCacheTrackEditor.cpp.obj",
+			"GroomComponentDetailsCustomization.cpp.obj",
+			"GroomCreateBindingOptionsWindow.cpp.obj",
+			"GroomCreateFollicleMaskOptionsWindow.cpp.obj",
+			"GroomCreateStrandsTexturesOptionsWindow.cpp.obj",
+			"GroomCustomAssetEditorToolkit.cpp.obj",
+			"GroomEditorCommands.cpp.obj",
+			"GroomEditorMode.cpp.obj",
+			"GroomEditorViewportToolBar.cpp.obj",
+			"GroomFactory.cpp.obj",
+			"GroomImportOptionsWindow.cpp.obj",
+			"GroomMaterialDetails.cpp.obj",
+			"HairStrandsEditor.cpp.obj",
+			"HairStrandsFactory.cpp.obj",
+			"HairStrandsImporter.cpp.obj",
+			"ReimportGroomCacheFactory.cpp.obj",
+			"ReimportHairStrandsFactory.cpp.obj",
+			"SGroomEditorViewport.cpp.obj"
+		]
+	}
+}

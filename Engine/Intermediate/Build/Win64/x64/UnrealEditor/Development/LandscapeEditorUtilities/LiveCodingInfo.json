@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LandscapeEditorUtilities.cpp.obj": [
+			"LandscapeBlueprintBrush.gen.cpp.obj",
+			"LandscapeEditorUtilities.init.gen.cpp.obj",
+			"LandscapeBlueprintBrush.cpp.obj",
+			"LandscapeEditorUtilitiesModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StandaloneRenderer.cpp.obj": [
+			"SlateOpenGLExtensions.cpp.obj",
+			"SlateOpenGLIndexBuffer.cpp.obj",
+			"SlateOpenGLRenderer.cpp.obj",
+			"SlateOpenGLRenderingPolicy.cpp.obj",
+			"SlateOpenGLShaders.cpp.obj",
+			"SlateOpenGLTextureManager.cpp.obj",
+			"SlateOpenGLTextures.cpp.obj",
+			"SlateOpenGLVertexBuffer.cpp.obj",
+			"StandaloneRenderer.cpp.obj",
+			"SlateD3DFindBestDevice.cpp.obj",
+			"SlateD3DIndexBuffer.cpp.obj",
+			"SlateD3DRenderer.cpp.obj",
+			"SlateD3DRenderingPolicy.cpp.obj",
+			"SlateD3DShaders.cpp.obj",
+			"SlateD3DTextureManager.cpp.obj",
+			"SlateD3DTextures.cpp.obj",
+			"SlateD3DVertexBuffer.cpp.obj",
+			"SlateOpenGLContext.cpp.obj",
+			"SlateOpenGLViewport.cpp.obj"
+		]
+	}
+}

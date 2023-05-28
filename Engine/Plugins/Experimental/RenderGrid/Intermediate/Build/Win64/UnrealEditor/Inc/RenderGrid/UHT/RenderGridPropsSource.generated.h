@@ -1,0 +1,722 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "RenderGrid/RenderGridPropsSource.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef RENDERGRID_RenderGridPropsSource_generated_h
+#error "RenderGridPropsSource.generated.h already included, missing '#pragma once' in RenderGridPropsSource.h"
+#endif
+#define RENDERGRID_RenderGridPropsSource_generated_h
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropBase(); \
+	friend struct Z_Construct_UClass_URenderGridPropBase_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropBase)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropBase(); \
+	friend struct Z_Construct_UClass_URenderGridPropBase_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropBase)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropBase(URenderGridPropBase&&); \
+	NO_API URenderGridPropBase(const URenderGridPropBase&); \
+public: \
+	NO_API virtual ~URenderGridPropBase();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropBase(URenderGridPropBase&&); \
+	NO_API URenderGridPropBase(const URenderGridPropBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropBase); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropBase) \
+	NO_API virtual ~URenderGridPropBase();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_31_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropBase>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsBase(); \
+	friend struct Z_Construct_UClass_URenderGridPropsBase_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsBase)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsBase(); \
+	friend struct Z_Construct_UClass_URenderGridPropsBase_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsBase)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsBase(URenderGridPropsBase&&); \
+	NO_API URenderGridPropsBase(const URenderGridPropsBase&); \
+public: \
+	NO_API virtual ~URenderGridPropsBase();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsBase(URenderGridPropsBase&&); \
+	NO_API URenderGridPropsBase(const URenderGridPropsBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsBase); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsBase) \
+	NO_API virtual ~URenderGridPropsBase();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_40_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_43_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropsBase>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsSourceBase(); \
+	friend struct Z_Construct_UClass_URenderGridPropsSourceBase_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsSourceBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsSourceBase)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsSourceBase(); \
+	friend struct Z_Construct_UClass_URenderGridPropsSourceBase_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsSourceBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsSourceBase)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsSourceBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsSourceBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsSourceBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsSourceBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsSourceBase(URenderGridPropsSourceBase&&); \
+	NO_API URenderGridPropsSourceBase(const URenderGridPropsSourceBase&); \
+public: \
+	NO_API virtual ~URenderGridPropsSourceBase();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsSourceBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsSourceBase(URenderGridPropsSourceBase&&); \
+	NO_API URenderGridPropsSourceBase(const URenderGridPropsSourceBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsSourceBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsSourceBase); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsSourceBase) \
+	NO_API virtual ~URenderGridPropsSourceBase();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_53_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_56_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropsSourceBase>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropLocal(); \
+	friend struct Z_Construct_UClass_URenderGridPropLocal_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropLocal, URenderGridPropBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropLocal)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropLocal(); \
+	friend struct Z_Construct_UClass_URenderGridPropLocal_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropLocal, URenderGridPropBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropLocal)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropLocal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropLocal) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropLocal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropLocal); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropLocal(URenderGridPropLocal&&); \
+	NO_API URenderGridPropLocal(const URenderGridPropLocal&); \
+public: \
+	NO_API virtual ~URenderGridPropLocal();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropLocal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropLocal(URenderGridPropLocal&&); \
+	NO_API URenderGridPropLocal(const URenderGridPropLocal&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropLocal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropLocal); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropLocal) \
+	NO_API virtual ~URenderGridPropLocal();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_87_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_90_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropLocal>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsLocal(); \
+	friend struct Z_Construct_UClass_URenderGridPropsLocal_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsLocal, URenderGridPropsBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsLocal)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsLocal(); \
+	friend struct Z_Construct_UClass_URenderGridPropsLocal_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsLocal, URenderGridPropsBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsLocal)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsLocal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsLocal) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsLocal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsLocal); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsLocal(URenderGridPropsLocal&&); \
+	NO_API URenderGridPropsLocal(const URenderGridPropsLocal&); \
+public: \
+	NO_API virtual ~URenderGridPropsLocal();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsLocal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsLocal(URenderGridPropsLocal&&); \
+	NO_API URenderGridPropsLocal(const URenderGridPropsLocal&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsLocal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsLocal); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsLocal) \
+	NO_API virtual ~URenderGridPropsLocal();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_96_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_99_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropsLocal>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsSourceLocal(); \
+	friend struct Z_Construct_UClass_URenderGridPropsSourceLocal_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsSourceLocal, URenderGridPropsSourceBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsSourceLocal)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsSourceLocal(); \
+	friend struct Z_Construct_UClass_URenderGridPropsSourceLocal_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsSourceLocal, URenderGridPropsSourceBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsSourceLocal)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsSourceLocal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsSourceLocal) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsSourceLocal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsSourceLocal); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsSourceLocal(URenderGridPropsSourceLocal&&); \
+	NO_API URenderGridPropsSourceLocal(const URenderGridPropsSourceLocal&); \
+public: \
+	NO_API virtual ~URenderGridPropsSourceLocal();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsSourceLocal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsSourceLocal(URenderGridPropsSourceLocal&&); \
+	NO_API URenderGridPropsSourceLocal(const URenderGridPropsSourceLocal&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsSourceLocal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsSourceLocal); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsSourceLocal) \
+	NO_API virtual ~URenderGridPropsSourceLocal();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_105_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_108_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropsSourceLocal>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropRemoteControl(); \
+	friend struct Z_Construct_UClass_URenderGridPropRemoteControl_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropRemoteControl, URenderGridPropBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropRemoteControl)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropRemoteControl(); \
+	friend struct Z_Construct_UClass_URenderGridPropRemoteControl_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropRemoteControl, URenderGridPropBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropRemoteControl)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropRemoteControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropRemoteControl) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropRemoteControl); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropRemoteControl); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropRemoteControl(URenderGridPropRemoteControl&&); \
+	NO_API URenderGridPropRemoteControl(const URenderGridPropRemoteControl&); \
+public: \
+	NO_API virtual ~URenderGridPropRemoteControl();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropRemoteControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropRemoteControl(URenderGridPropRemoteControl&&); \
+	NO_API URenderGridPropRemoteControl(const URenderGridPropRemoteControl&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropRemoteControl); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropRemoteControl); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropRemoteControl) \
+	NO_API virtual ~URenderGridPropRemoteControl();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_124_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_127_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropRemoteControl>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsRemoteControl(); \
+	friend struct Z_Construct_UClass_URenderGridPropsRemoteControl_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsRemoteControl, URenderGridPropsBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsRemoteControl)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsRemoteControl(); \
+	friend struct Z_Construct_UClass_URenderGridPropsRemoteControl_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsRemoteControl, URenderGridPropsBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsRemoteControl)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsRemoteControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsRemoteControl) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsRemoteControl); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsRemoteControl); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsRemoteControl(URenderGridPropsRemoteControl&&); \
+	NO_API URenderGridPropsRemoteControl(const URenderGridPropsRemoteControl&); \
+public: \
+	NO_API virtual ~URenderGridPropsRemoteControl();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsRemoteControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsRemoteControl(URenderGridPropsRemoteControl&&); \
+	NO_API URenderGridPropsRemoteControl(const URenderGridPropsRemoteControl&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsRemoteControl); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsRemoteControl); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsRemoteControl) \
+	NO_API virtual ~URenderGridPropsRemoteControl();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_163_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_166_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropsRemoteControl>();
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_ACCESSORS
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsSourceRemoteControl(); \
+	friend struct Z_Construct_UClass_URenderGridPropsSourceRemoteControl_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsSourceRemoteControl, URenderGridPropsSourceBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsSourceRemoteControl)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderGridPropsSourceRemoteControl(); \
+	friend struct Z_Construct_UClass_URenderGridPropsSourceRemoteControl_Statics; \
+public: \
+	DECLARE_CLASS(URenderGridPropsSourceRemoteControl, URenderGridPropsSourceBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/RenderGrid"), NO_API) \
+	DECLARE_SERIALIZER(URenderGridPropsSourceRemoteControl)
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsSourceRemoteControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsSourceRemoteControl) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsSourceRemoteControl); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsSourceRemoteControl); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsSourceRemoteControl(URenderGridPropsSourceRemoteControl&&); \
+	NO_API URenderGridPropsSourceRemoteControl(const URenderGridPropsSourceRemoteControl&); \
+public: \
+	NO_API virtual ~URenderGridPropsSourceRemoteControl();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderGridPropsSourceRemoteControl(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderGridPropsSourceRemoteControl(URenderGridPropsSourceRemoteControl&&); \
+	NO_API URenderGridPropsSourceRemoteControl(const URenderGridPropsSourceRemoteControl&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderGridPropsSourceRemoteControl); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderGridPropsSourceRemoteControl); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderGridPropsSourceRemoteControl) \
+	NO_API virtual ~URenderGridPropsSourceRemoteControl();
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_197_PROLOG
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_INCLASS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_ACCESSORS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h_200_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RENDERGRID_API UClass* StaticClass<class URenderGridPropsSourceRemoteControl>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_RenderGrid_Source_RenderGrid_Public_RenderGrid_RenderGridPropsSource_h
+
+
+#define FOREACH_ENUM_ERENDERGRIDPROPSSOURCETYPE(op) \
+	op(ERenderGridPropsSourceType::Local) \
+	op(ERenderGridPropsSourceType::RemoteControl) 
+
+enum class ERenderGridPropsSourceType : uint8;
+template<> struct TIsUEnumClass<ERenderGridPropsSourceType> { enum { Value = true }; };
+template<> RENDERGRID_API UEnum* StaticEnum<ERenderGridPropsSourceType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

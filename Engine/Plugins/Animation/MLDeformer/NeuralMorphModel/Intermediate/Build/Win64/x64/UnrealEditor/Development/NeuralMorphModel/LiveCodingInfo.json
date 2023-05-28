@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NeuralMorphModel.cpp.obj": [
+			"NeuralMorphInputInfo.gen.cpp.obj",
+			"NeuralMorphModel.init.gen.cpp.obj",
+			"NeuralMorphModelInstance.gen.cpp.obj",
+			"NeuralMorphModelVizSettings.gen.cpp.obj",
+			"NeuralMorphNetwork.gen.cpp.obj",
+			"NeuralMorphTypes.gen.cpp.obj",
+			"NeuralMorphInputInfo.cpp.obj",
+			"NeuralMorphModel.cpp.obj",
+			"NeuralMorphModelInstance.cpp.obj",
+			"NeuralMorphNetwork.cpp.obj"
+		]
+	}
+}

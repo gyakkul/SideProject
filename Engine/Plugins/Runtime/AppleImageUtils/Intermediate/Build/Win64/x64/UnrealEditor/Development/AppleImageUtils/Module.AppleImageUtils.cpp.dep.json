@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\appleimageutils\\module.appleimageutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\appleimageutils\\definitions.appleimageutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\intermediate\\build\\win64\\unrealeditor\\inc\\appleimageutils\\uht\\appleimageutils.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\intermediate\\build\\win64\\unrealeditor\\inc\\appleimageutils\\uht\\appleimageutilstypes.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\source\\appleimageutils\\public\\appleimageutilstypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\intermediate\\build\\win64\\unrealeditor\\inc\\appleimageutils\\uht\\appleimageutilstypes.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\source\\appleimageutils\\private\\appleimageutilsblueprintproxy.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\source\\appleimageutils\\public\\appleimageutilsblueprintproxy.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\intermediate\\build\\win64\\unrealeditor\\inc\\appleimageutils\\uht\\appleimageutilsblueprintproxy.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\source\\appleimageutils\\public\\iappleimageutilsplugin.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\source\\appleimageutils\\public\\appleimageutilsavailability.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\intermediate\\build\\win64\\unrealeditor\\inc\\appleimageutils\\uht\\appleimageutilsblueprintproxy.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\appleimageutils\\source\\appleimageutils\\private\\appleimageutilsplugin.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

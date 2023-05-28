@@ -1,0 +1,250 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MergeMeshesTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEDITORONLYEXP_MergeMeshesTool_generated_h
+#error "MergeMeshesTool.generated.h already included, missing '#pragma once' in MergeMeshesTool.h"
+#endif
+#define MESHMODELINGTOOLSEDITORONLYEXP_MergeMeshesTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMergeMeshesToolBuilder(); \
+	friend struct Z_Construct_UClass_UMergeMeshesToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMergeMeshesToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UMergeMeshesToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_INCLASS \
+private: \
+	static void StaticRegisterNativesUMergeMeshesToolBuilder(); \
+	friend struct Z_Construct_UClass_UMergeMeshesToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMergeMeshesToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UMergeMeshesToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMergeMeshesToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMergeMeshesToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMergeMeshesToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMergeMeshesToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMergeMeshesToolBuilder(UMergeMeshesToolBuilder&&); \
+	NO_API UMergeMeshesToolBuilder(const UMergeMeshesToolBuilder&); \
+public: \
+	NO_API virtual ~UMergeMeshesToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMergeMeshesToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMergeMeshesToolBuilder(UMergeMeshesToolBuilder&&); \
+	NO_API UMergeMeshesToolBuilder(const UMergeMeshesToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMergeMeshesToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMergeMeshesToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMergeMeshesToolBuilder) \
+	NO_API virtual ~UMergeMeshesToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_17_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_20_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UClass* StaticClass<class UMergeMeshesToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMergeMeshesToolProperties(); \
+	friend struct Z_Construct_UClass_UMergeMeshesToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMergeMeshesToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UMergeMeshesToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_INCLASS \
+private: \
+	static void StaticRegisterNativesUMergeMeshesToolProperties(); \
+	friend struct Z_Construct_UClass_UMergeMeshesToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMergeMeshesToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UMergeMeshesToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMergeMeshesToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMergeMeshesToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMergeMeshesToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMergeMeshesToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMergeMeshesToolProperties(UMergeMeshesToolProperties&&); \
+	NO_API UMergeMeshesToolProperties(const UMergeMeshesToolProperties&); \
+public: \
+	NO_API virtual ~UMergeMeshesToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMergeMeshesToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMergeMeshesToolProperties(UMergeMeshesToolProperties&&); \
+	NO_API UMergeMeshesToolProperties(const UMergeMeshesToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMergeMeshesToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMergeMeshesToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMergeMeshesToolProperties) \
+	NO_API virtual ~UMergeMeshesToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_35_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_38_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UClass* StaticClass<class UMergeMeshesToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMergeMeshesTool(); \
+	friend struct Z_Construct_UClass_UMergeMeshesTool_Statics; \
+public: \
+	DECLARE_CLASS(UMergeMeshesTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UMergeMeshesTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_INCLASS \
+private: \
+	static void StaticRegisterNativesUMergeMeshesTool(); \
+	friend struct Z_Construct_UClass_UMergeMeshesTool_Statics; \
+public: \
+	DECLARE_CLASS(UMergeMeshesTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UMergeMeshesTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMergeMeshesTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMergeMeshesTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMergeMeshesTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMergeMeshesTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMergeMeshesTool(UMergeMeshesTool&&); \
+	NO_API UMergeMeshesTool(const UMergeMeshesTool&); \
+public: \
+	NO_API virtual ~UMergeMeshesTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMergeMeshesTool(UMergeMeshesTool&&); \
+	NO_API UMergeMeshesTool(const UMergeMeshesTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMergeMeshesTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMergeMeshesTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMergeMeshesTool) \
+	NO_API virtual ~UMergeMeshesTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_61_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h_64_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UClass* StaticClass<class UMergeMeshesTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_MergeMeshesTool_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

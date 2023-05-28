@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{109333DC-8DDD-3F51-91E9-6151E46EBAEC}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>SlateViewer</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>..\Build\Unused\</OutDir>
+    <IntDir>..\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat SlateViewer Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat SlateViewer Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat SlateViewer Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SlateViewer-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat SlateViewer Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat SlateViewer Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat SlateViewer Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SlateViewer-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat SlateViewer Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat SlateViewer Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat SlateViewer Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SlateViewer.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat SlateViewer Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat SlateViewer Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat SlateViewer Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SlateViewer-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat SlateViewer Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat SlateViewer Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat SlateViewer Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SlateViewer-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);..\..\Source;..\..\Source\Runtime\Launch\Private;..\..\Source\Programs\SlateViewer\Private;..\Build\Win64\SlateViewer\Inc\AppFramework\UHT;..\Build\Win64\SlateViewer\Inc\AppFramework\VNI;..\..\Source\Runtime\AppFramework\Public;..\..\Source\Runtime;..\Build\Win64\SlateViewer\Inc\Core\UHT;..\Build\Win64\SlateViewer\Inc\Core\VNI;..\..\Source\Runtime\TraceLog\Public;..\..\Source\Runtime\Core\Public;..\Build\Win64\SlateViewer\Inc\TraceLog\UHT;..\Build\Win64\SlateViewer\Inc\TraceLog\VNI;..\Build\Win64\SlateViewer\Inc\CoreUObject\UHT;..\Build\Win64\SlateViewer\Inc\CoreUObject\VNI;..\..\Source\Runtime\CoreUObject\Public;..\Build\Win64\SlateViewer\Inc\ApplicationCore\UHT;..\Build\Win64\SlateViewer\Inc\ApplicationCore\VNI;..\..\Source\Runtime\ApplicationCore\Public;..\Build\Win64\SlateViewer\Inc\RHI\UHT;..\Build\Win64\SlateViewer\Inc\RHI\VNI;..\..\Source\Runtime\RHI\Public;..\Build\Win64\SlateViewer\Inc\Slate\UHT;..\Build\Win64\SlateViewer\Inc\Slate\VNI;..\..\Source\Runtime\Slate\Public;..\Build\Win64\SlateViewer\Inc\InputCore\UHT;..\Build\Win64\SlateViewer\Inc\InputCore\VNI;..\..\Source\Runtime\InputCore\Classes;..\..\Source\Runtime\InputCore\Public;..\Build\Win64\SlateViewer\Inc\Json\UHT;..\Build\Win64\SlateViewer\Inc\Json\VNI;..\..\Source\Runtime\Json\Public;..\Build\Win64\SlateViewer\Inc\SlateCore\UHT;..\Build\Win64\SlateViewer\Inc\SlateCore\VNI;..\..\Source\Runtime\SlateCore\Public;..\Build\Win64\SlateViewer\Inc\ImageWrapper\UHT;..\Build\Win64\SlateViewer\Inc\ImageWrapper\VNI;..\..\Source\Runtime\ImageWrapper\Public;..\..\Source\ThirdParty;..\Build\Win64\SlateViewer\Inc\ImageCore\UHT;..\Build\Win64\SlateViewer\Inc\ImageCore\VNI;..\..\Source\Runtime\ImageCore\Public;..\Build\Win64\SlateViewer\Inc\Projects\UHT;..\Build\Win64\SlateViewer\Inc\Projects\VNI;..\..\Source\Runtime\Projects\Public;..\Build\Win64\SlateViewer\Inc\StandaloneRenderer\UHT;..\Build\Win64\SlateViewer\Inc\StandaloneRenderer\VNI;..\..\Source\Developer\StandaloneRenderer\Public;..\..\Source\Developer;..\Build\Win64\SlateViewer\Inc\SourceCodeAccess\UHT;..\Build\Win64\SlateViewer\Inc\SourceCodeAccess\VNI;..\..\Source\Developer\SourceCodeAccess\Public;..\Build\Win64\SlateViewer\Inc\Settings\UHT;..\Build\Win64\SlateViewer\Inc\Settings\VNI;..\..\Source\Developer\Settings\Public;..\Build\Win64\SlateViewer\Inc\WebBrowser\UHT;..\Build\Win64\SlateViewer\Inc\WebBrowser\VNI;..\..\Source\Runtime\WebBrowser\Public;..\Build\Win64\SlateViewer\Inc\VSSCA\UHT;..\Build\Win64\SlateViewer\Inc\VSSCA\VNI;..\..\Plugins\Developer\VisualStudioSourceCodeAccess\Source;..\Build\Win64\SlateViewer\Inc\SlateReflector\UHT;..\Build\Win64\SlateViewer\Inc\SlateReflector\VNI;..\..\Source\Developer\SlateReflector\Public;..\Build\Win64\SlateViewer\Inc\SlateViewer\UHT;..\Build\Win64\SlateViewer\Inc\SlateViewer\VNI;..\..\Source\Runtime\Launch\Public;..\..\Source\Programs\SlateViewer\Public;..\..\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\Programs\SlateViewer\SlateViewer.Target.cs"/>
+    <None Include="..\..\Source\Programs\SlateViewer\SlateViewer.Build.cs"/>
+    <ClCompile Include="..\..\Source\Programs\SlateViewer\Private\SlateViewerApp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\SlateViewer\Definitions.SlateViewer.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Programs\SlateViewer\Private\IOS\IOSSlateViewerMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\SlateViewer\Definitions.SlateViewer.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Programs\SlateViewer\Private\Linux\SlateViewerMainLinux.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\SlateViewer\Definitions.SlateViewer.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Programs\SlateViewer\Private\Mac\SlateViewerMainMac.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\SlateViewer\Definitions.SlateViewer.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Programs\SlateViewer\Private\Windows\SlateViewerMainWindows.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\Slate\SharedPCH.Slate.ShadowErrors.InclOrderUnreal5_0.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\SlateViewer\Development\SlateViewer\Definitions.SlateViewer.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\SlateViewer\Public\SlateViewer.h"/>
+    <ClInclude Include="..\..\Source\Programs\SlateViewer\Public\SlateViewerApp.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

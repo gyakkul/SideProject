@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCacheEd.cpp.obj": [
+			"GeometryCacheEd.init.gen.cpp.obj",
+			"ActorFactoryGeometryCache.cpp.obj",
+			"AssetTypeActions_GeometryCache.cpp.obj",
+			"GeometryCacheAssetBroker.cpp.obj",
+			"GeometryCacheEdModule.cpp.obj",
+			"GeometryCacheThumbnailRenderer.cpp.obj",
+			"GeometryCacheThumbnailScene.cpp.obj"
+		]
+	}
+}

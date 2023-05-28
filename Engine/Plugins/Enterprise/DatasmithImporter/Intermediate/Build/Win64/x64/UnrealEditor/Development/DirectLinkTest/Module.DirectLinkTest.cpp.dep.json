@@ -1,0 +1,43 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\directlinktest\\module.directlinktest.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\directlinktest\\definitions.directlinktest.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\intermediate\\build\\win64\\unrealeditor\\inc\\directlinktest\\uht\\directlinktest.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\intermediate\\build\\win64\\unrealeditor\\inc\\directlinktest\\uht\\directlinktestlibrary.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\directlinktest\\public\\directlinktestlibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkendpoint.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkcommon.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\messaging\\public\\imessagecontext.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\intermediate\\build\\win64\\unrealeditor\\inc\\directlinktest\\uht\\directlinktestlibrary.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\directlinktest\\private\\directlinktestlibrary.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\directlinktest\\private\\directlinktestlog.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\directlinktest\\private\\testsceneprovider.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkconnectionrequesthandler.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkdeltaconsumer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithdefinitions.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithscenefactory.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithanimationelements.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\idatasmithsceneelements.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithtypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkscenegraphnode.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithmaterialelements.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithvariantelements.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithscenexmlwriter.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\datasmithtranslator\\public\\datasmithtranslatablesource.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\datasmithtranslator\\public\\datasmithscenesource.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\directlink\\datasmithscenereceiver.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkparameterstore.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkserialmethods.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\directlink\\public\\directlinkscenesnapshot.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\directlinktest\\private\\directlinktestmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\directlinktest\\public\\directlinktestmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithimporter\\source\\directlinktest\\private\\testsceneprovider.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Gauntlet.cpp.obj": [
+			"Gauntlet.init.gen.cpp.obj",
+			"GauntletModule.cpp.obj",
+			"GauntletTestController.cpp.obj",
+			"GauntletTestControllerBootTest.cpp.obj",
+			"GauntletTestControllerErrorTest.cpp.obj"
+		]
+	}
+}

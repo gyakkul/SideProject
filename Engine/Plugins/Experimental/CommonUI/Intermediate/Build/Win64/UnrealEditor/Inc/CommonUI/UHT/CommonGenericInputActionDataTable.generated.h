@@ -1,0 +1,167 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Input/CommonGenericInputActionDataTable.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef COMMONUI_CommonGenericInputActionDataTable_generated_h
+#error "CommonGenericInputActionDataTable.generated.h already included, missing '#pragma once' in CommonGenericInputActionDataTable.h"
+#endif
+#define COMMONUI_CommonGenericInputActionDataTable_generated_h
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonGenericInputActionDataTable(); \
+	friend struct Z_Construct_UClass_UCommonGenericInputActionDataTable_Statics; \
+public: \
+	DECLARE_CLASS(UCommonGenericInputActionDataTable, UDataTable, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonGenericInputActionDataTable)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonGenericInputActionDataTable(); \
+	friend struct Z_Construct_UClass_UCommonGenericInputActionDataTable_Statics; \
+public: \
+	DECLARE_CLASS(UCommonGenericInputActionDataTable, UDataTable, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonGenericInputActionDataTable)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonGenericInputActionDataTable(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonGenericInputActionDataTable) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonGenericInputActionDataTable); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonGenericInputActionDataTable); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonGenericInputActionDataTable(UCommonGenericInputActionDataTable&&); \
+	NO_API UCommonGenericInputActionDataTable(const UCommonGenericInputActionDataTable&); \
+public:
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonGenericInputActionDataTable(UCommonGenericInputActionDataTable&&); \
+	NO_API UCommonGenericInputActionDataTable(const UCommonGenericInputActionDataTable&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonGenericInputActionDataTable); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonGenericInputActionDataTable); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCommonGenericInputActionDataTable)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_15_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_18_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonGenericInputActionDataTable>();
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_ACCESSORS
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCommonInputActionDataProcessor(); \
+	friend struct Z_Construct_UClass_UCommonInputActionDataProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UCommonInputActionDataProcessor, UObject, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonInputActionDataProcessor)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_INCLASS \
+private: \
+	static void StaticRegisterNativesUCommonInputActionDataProcessor(); \
+	friend struct Z_Construct_UClass_UCommonInputActionDataProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UCommonInputActionDataProcessor, UObject, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/CommonUI"), NO_API) \
+	DECLARE_SERIALIZER(UCommonInputActionDataProcessor)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCommonInputActionDataProcessor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCommonInputActionDataProcessor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonInputActionDataProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonInputActionDataProcessor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonInputActionDataProcessor(UCommonInputActionDataProcessor&&); \
+	NO_API UCommonInputActionDataProcessor(const UCommonInputActionDataProcessor&); \
+public:
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCommonInputActionDataProcessor(UCommonInputActionDataProcessor&&); \
+	NO_API UCommonInputActionDataProcessor(const UCommonInputActionDataProcessor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCommonInputActionDataProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCommonInputActionDataProcessor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCommonInputActionDataProcessor)
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_32_PROLOG
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_INCLASS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_ACCESSORS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> COMMONUI_API UClass* StaticClass<class UCommonInputActionDataProcessor>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_CommonUI_Source_CommonUI_Public_Input_CommonGenericInputActionDataTable_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundFieldRendering.cpp.obj": [
+			"SoundFieldRendering.cpp.obj",
+			"SoundFieldRenderingModule.cpp.obj",
+			"SphericalHarmonicCalculator.cpp.obj"
+		]
+	}
+}

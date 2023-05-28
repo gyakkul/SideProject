@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SampleToolsEditorMode.cpp.obj": [
+			"CreateActorSampleTool.gen.cpp.obj",
+			"DrawCurveOnMeshSampleTool.gen.cpp.obj",
+			"MeasureDistanceSampleTool.gen.cpp.obj",
+			"SampleToolsEditorMode.gen.cpp.obj",
+			"SampleToolsEditorMode.init.gen.cpp.obj",
+			"SampleToolsEditorMode.cpp.obj",
+			"SampleToolsEditorModeCommands.cpp.obj",
+			"SampleToolsEditorModeModule.cpp.obj",
+			"SampleToolsEditorModeToolkit.cpp.obj",
+			"CreateActorSampleTool.cpp.obj",
+			"DrawCurveOnMeshSampleTool.cpp.obj",
+			"MeasureDistanceSampleTool.cpp.obj"
+		]
+	}
+}

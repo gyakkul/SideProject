@@ -1,0 +1,102 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/DMXPixelMappingFixtureGroupItemComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef DMXPIXELMAPPINGRUNTIME_DMXPixelMappingFixtureGroupItemComponent_generated_h
+#error "DMXPixelMappingFixtureGroupItemComponent.generated.h already included, missing '#pragma once' in DMXPixelMappingFixtureGroupItemComponent.h"
+#endif
+#define DMXPIXELMAPPINGRUNTIME_DMXPixelMappingFixtureGroupItemComponent_generated_h
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UDMXPixelMappingFixtureGroupItemComponent, NO_API)
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDMXPixelMappingFixtureGroupItemComponent(); \
+	friend struct Z_Construct_UClass_UDMXPixelMappingFixtureGroupItemComponent_Statics; \
+public: \
+	DECLARE_CLASS(UDMXPixelMappingFixtureGroupItemComponent, UDMXPixelMappingOutputDMXComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DMXPixelMappingRuntime"), NO_API) \
+	DECLARE_SERIALIZER(UDMXPixelMappingFixtureGroupItemComponent) \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_INCLASS \
+private: \
+	static void StaticRegisterNativesUDMXPixelMappingFixtureGroupItemComponent(); \
+	friend struct Z_Construct_UClass_UDMXPixelMappingFixtureGroupItemComponent_Statics; \
+public: \
+	DECLARE_CLASS(UDMXPixelMappingFixtureGroupItemComponent, UDMXPixelMappingOutputDMXComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DMXPixelMappingRuntime"), NO_API) \
+	DECLARE_SERIALIZER(UDMXPixelMappingFixtureGroupItemComponent) \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDMXPixelMappingFixtureGroupItemComponent(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDMXPixelMappingFixtureGroupItemComponent) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDMXPixelMappingFixtureGroupItemComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDMXPixelMappingFixtureGroupItemComponent); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDMXPixelMappingFixtureGroupItemComponent(UDMXPixelMappingFixtureGroupItemComponent&&); \
+	NO_API UDMXPixelMappingFixtureGroupItemComponent(const UDMXPixelMappingFixtureGroupItemComponent&); \
+public: \
+	NO_API virtual ~UDMXPixelMappingFixtureGroupItemComponent();
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDMXPixelMappingFixtureGroupItemComponent(UDMXPixelMappingFixtureGroupItemComponent&&); \
+	NO_API UDMXPixelMappingFixtureGroupItemComponent(const UDMXPixelMappingFixtureGroupItemComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDMXPixelMappingFixtureGroupItemComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDMXPixelMappingFixtureGroupItemComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDMXPixelMappingFixtureGroupItemComponent) \
+	NO_API virtual ~UDMXPixelMappingFixtureGroupItemComponent();
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_28_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h_32_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DMXPIXELMAPPINGRUNTIME_API UClass* StaticClass<class UDMXPixelMappingFixtureGroupItemComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingFixtureGroupItemComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

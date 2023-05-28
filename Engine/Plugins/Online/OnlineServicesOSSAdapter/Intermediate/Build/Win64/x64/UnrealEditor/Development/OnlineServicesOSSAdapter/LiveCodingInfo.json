@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineServicesOSSAdapter.cpp.obj": [
+			"AchievementsOSSAdapter.cpp.obj",
+			"AuthOSSAdapter.cpp.obj",
+			"CommerceOSSAdapter.cpp.obj",
+			"ConnectivityOSSAdapter.cpp.obj",
+			"ErrorsOSSAdapter.cpp.obj",
+			"ExternalUIOSSAdapter.cpp.obj",
+			"LeaderboardsOSSAdapter.cpp.obj",
+			"OnlineServicesOSSAdapter.cpp.obj",
+			"OnlineServicesOSSAdapterModule.cpp.obj",
+			"PresenceOSSAdapter.cpp.obj",
+			"PrivilegesOSSAdapter.cpp.obj",
+			"SessionsOSSAdapter.cpp.obj",
+			"SocialOSSAdapter.cpp.obj",
+			"StatsOSSAdapter.cpp.obj",
+			"TitleFileOSSAdapter.cpp.obj",
+			"UserFileOSSAdapter.cpp.obj",
+			"UserInfoOSSAdapter.cpp.obj"
+		]
+	}
+}

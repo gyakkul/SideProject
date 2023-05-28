@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InputDebugging.cpp.obj": [
+			"InputDebuggingModule.cpp.obj",
+			"InputDeviceDebugTools.cpp.obj",
+			"TouchInputVisualizer.cpp.obj"
+		]
+	}
+}

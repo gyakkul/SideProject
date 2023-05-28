@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PakFileUtilities.cpp.obj": [
+			"PakFileUtilities.cpp.obj",
+			"SignedArchiveWriter.cpp.obj",
+			"KeyChainTest.cpp.obj"
+		]
+	}
+}

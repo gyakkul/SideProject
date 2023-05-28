@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DeveloperSettings.cpp.obj": [
+			"DeveloperSettings.init.gen.cpp.obj",
+			"DeveloperSettingsModule.cpp.obj",
+			"DeveloperSettings.cpp.obj",
+			"DeveloperSettingsBackedByCVars.cpp.obj",
+			"PlatformSettings.cpp.obj",
+			"PlatformSettingsManager.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LightMixer.cpp.obj": [
+			"LightMixer.init.gen.cpp.obj",
+			"LightMixerEditorSettings.gen.cpp.obj",
+			"LightMixerObjectFilter.gen.cpp.obj",
+			"LightMixerModule.cpp.obj",
+			"LightMixerStyle.cpp.obj"
+		]
+	}
+}

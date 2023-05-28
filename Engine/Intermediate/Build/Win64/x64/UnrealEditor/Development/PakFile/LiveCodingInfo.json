@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PakFile.cpp.obj": [
+			"FilePackageStore.cpp.obj",
+			"GenericPlatformIoDispatcher.cpp.obj",
+			"IoDispatcherFileBackend.cpp.obj",
+			"IPlatformFilePak.cpp.obj",
+			"SignedArchiveReader.cpp.obj"
+		]
+	}
+}

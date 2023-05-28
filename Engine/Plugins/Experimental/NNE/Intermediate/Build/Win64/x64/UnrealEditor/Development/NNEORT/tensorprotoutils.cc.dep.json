@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\tensorprotoutils.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nneort\\pch.nneonnxruntime.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\tensorprotoutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\endian_utils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\mem_buffer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\tensor_external_data_info.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\ort_value_pattern_planner.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\mem_pattern_planner.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\session\\ort_apis.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\dependencies\\onnx\\include\\onnx\\defs\\tensor_proto_util.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

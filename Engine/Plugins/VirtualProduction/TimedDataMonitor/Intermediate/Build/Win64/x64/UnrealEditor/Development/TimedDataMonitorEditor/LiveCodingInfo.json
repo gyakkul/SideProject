@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TimedDataMonitorEditor.cpp.obj": [
+			"STimedDataListView.gen.cpp.obj",
+			"TimedDataMonitorEditor.init.gen.cpp.obj",
+			"TimedDataMonitorEditorSettings.gen.cpp.obj",
+			"STimedDataGenlock.cpp.obj",
+			"STimedDataListView.cpp.obj",
+			"STimedDataMonitorBufferVisualizer.cpp.obj",
+			"STimedDataMonitorPanel.cpp.obj",
+			"STimedDataTimecodeProvider.cpp.obj",
+			"STimingDiagramWidget.cpp.obj",
+			"TimedDataMonitorEditorModule.cpp.obj",
+			"TimedDataMonitorEditorStyle.cpp.obj"
+		]
+	}
+}

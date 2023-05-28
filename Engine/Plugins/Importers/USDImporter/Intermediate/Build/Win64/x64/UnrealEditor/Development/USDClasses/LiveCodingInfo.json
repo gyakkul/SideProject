@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDClasses.cpp.obj": [
+			"USDAssetCache.gen.cpp.obj",
+			"USDAssetCache2.gen.cpp.obj",
+			"USDAssetImportData.gen.cpp.obj",
+			"USDClasses.init.gen.cpp.obj",
+			"USDDuplicateType.gen.cpp.obj",
+			"USDProjectSettings.gen.cpp.obj",
+			"USDReferenceOptions.gen.cpp.obj",
+			"USDStageOptions.gen.cpp.obj",
+			"USDUnrealAssetInfo.gen.cpp.obj",
+			"USDAssetCache.cpp.obj",
+			"USDAssetCache2.cpp.obj",
+			"USDClassesModule.cpp.obj",
+			"USDStageOptions.cpp.obj"
+		]
+	}
+}

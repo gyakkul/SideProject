@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImgMediaEditor.cpp.obj": [
+			"ImgMediaEditor.init.gen.cpp.obj",
+			"ImgMediaSourceActions.cpp.obj",
+			"ImgMediaFilePathCustomization.cpp.obj",
+			"ImgMediaSourceCustomization.cpp.obj",
+			"ImgMediaSourceFactory.cpp.obj",
+			"ImgMediaSourceFactoryNew.cpp.obj",
+			"ImgMediaEditorModule.cpp.obj",
+			"ImgMediaProcessEXROptions.cpp.obj",
+			"SImgMediaBandwidth.cpp.obj",
+			"SImgMediaCache.cpp.obj",
+			"SImgMediaProcessEXR.cpp.obj"
+		]
+	}
+}

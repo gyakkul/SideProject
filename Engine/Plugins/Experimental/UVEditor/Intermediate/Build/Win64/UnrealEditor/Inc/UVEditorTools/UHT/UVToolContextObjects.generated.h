@@ -1,0 +1,567 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ContextObjects/UVToolContextObjects.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef UVEDITORTOOLS_UVToolContextObjects_generated_h
+#error "UVToolContextObjects.generated.h already included, missing '#pragma once' in UVToolContextObjects.h"
+#endif
+#define UVEDITORTOOLS_UVToolContextObjects_generated_h
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUUVToolContextObject(); \
+	friend struct Z_Construct_UClass_UUVToolContextObject_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolContextObject, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolContextObject)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_INCLASS \
+private: \
+	static void StaticRegisterNativesUUVToolContextObject(); \
+	friend struct Z_Construct_UClass_UUVToolContextObject_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolContextObject, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolContextObject)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolContextObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolContextObject) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolContextObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolContextObject); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolContextObject(UUVToolContextObject&&); \
+	NO_API UUVToolContextObject(const UUVToolContextObject&); \
+public: \
+	NO_API virtual ~UUVToolContextObject();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolContextObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolContextObject(UUVToolContextObject&&); \
+	NO_API UUVToolContextObject(const UUVToolContextObject&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolContextObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolContextObject); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolContextObject) \
+	NO_API virtual ~UUVToolContextObject();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_26_PROLOG
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_INCLASS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_29_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UVEDITORTOOLS_API UClass* StaticClass<class UUVToolContextObject>();
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUUVToolEmitChangeAPI(); \
+	friend struct Z_Construct_UClass_UUVToolEmitChangeAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolEmitChangeAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolEmitChangeAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_INCLASS \
+private: \
+	static void StaticRegisterNativesUUVToolEmitChangeAPI(); \
+	friend struct Z_Construct_UClass_UUVToolEmitChangeAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolEmitChangeAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolEmitChangeAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolEmitChangeAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolEmitChangeAPI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolEmitChangeAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolEmitChangeAPI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolEmitChangeAPI(UUVToolEmitChangeAPI&&); \
+	NO_API UUVToolEmitChangeAPI(const UUVToolEmitChangeAPI&); \
+public: \
+	NO_API virtual ~UUVToolEmitChangeAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolEmitChangeAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolEmitChangeAPI(UUVToolEmitChangeAPI&&); \
+	NO_API UUVToolEmitChangeAPI(const UUVToolEmitChangeAPI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolEmitChangeAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolEmitChangeAPI); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolEmitChangeAPI) \
+	NO_API virtual ~UUVToolEmitChangeAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_48_PROLOG
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_INCLASS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_51_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UVEDITORTOOLS_API UClass* StaticClass<class UUVToolEmitChangeAPI>();
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUUVToolLivePreviewAPI(); \
+	friend struct Z_Construct_UClass_UUVToolLivePreviewAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolLivePreviewAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolLivePreviewAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_INCLASS \
+private: \
+	static void StaticRegisterNativesUUVToolLivePreviewAPI(); \
+	friend struct Z_Construct_UClass_UUVToolLivePreviewAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolLivePreviewAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolLivePreviewAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolLivePreviewAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolLivePreviewAPI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolLivePreviewAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolLivePreviewAPI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolLivePreviewAPI(UUVToolLivePreviewAPI&&); \
+	NO_API UUVToolLivePreviewAPI(const UUVToolLivePreviewAPI&); \
+public: \
+	NO_API virtual ~UUVToolLivePreviewAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolLivePreviewAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolLivePreviewAPI(UUVToolLivePreviewAPI&&); \
+	NO_API UUVToolLivePreviewAPI(const UUVToolLivePreviewAPI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolLivePreviewAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolLivePreviewAPI); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolLivePreviewAPI) \
+	NO_API virtual ~UUVToolLivePreviewAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_103_PROLOG
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_INCLASS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_106_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UVEDITORTOOLS_API UClass* StaticClass<class UUVToolLivePreviewAPI>();
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_161_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FUDIMBlock_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> UVEDITORTOOLS_API UScriptStruct* StaticStruct<struct FUDIMBlock>();
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUUVTool2DViewportAPI(); \
+	friend struct Z_Construct_UClass_UUVTool2DViewportAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVTool2DViewportAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVTool2DViewportAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_INCLASS \
+private: \
+	static void StaticRegisterNativesUUVTool2DViewportAPI(); \
+	friend struct Z_Construct_UClass_UUVTool2DViewportAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVTool2DViewportAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVTool2DViewportAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVTool2DViewportAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVTool2DViewportAPI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVTool2DViewportAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVTool2DViewportAPI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVTool2DViewportAPI(UUVTool2DViewportAPI&&); \
+	NO_API UUVTool2DViewportAPI(const UUVTool2DViewportAPI&); \
+public: \
+	NO_API virtual ~UUVTool2DViewportAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVTool2DViewportAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVTool2DViewportAPI(UUVTool2DViewportAPI&&); \
+	NO_API UUVTool2DViewportAPI(const UUVTool2DViewportAPI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVTool2DViewportAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVTool2DViewportAPI); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVTool2DViewportAPI) \
+	NO_API virtual ~UUVTool2DViewportAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_174_PROLOG
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_INCLASS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_177_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UVEDITORTOOLS_API UClass* StaticClass<class UUVTool2DViewportAPI>();
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUUVToolAssetAndChannelAPI(); \
+	friend struct Z_Construct_UClass_UUVToolAssetAndChannelAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolAssetAndChannelAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolAssetAndChannelAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_INCLASS \
+private: \
+	static void StaticRegisterNativesUUVToolAssetAndChannelAPI(); \
+	friend struct Z_Construct_UClass_UUVToolAssetAndChannelAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolAssetAndChannelAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolAssetAndChannelAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolAssetAndChannelAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolAssetAndChannelAPI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolAssetAndChannelAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolAssetAndChannelAPI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolAssetAndChannelAPI(UUVToolAssetAndChannelAPI&&); \
+	NO_API UUVToolAssetAndChannelAPI(const UUVToolAssetAndChannelAPI&); \
+public: \
+	NO_API virtual ~UUVToolAssetAndChannelAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolAssetAndChannelAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolAssetAndChannelAPI(UUVToolAssetAndChannelAPI&&); \
+	NO_API UUVToolAssetAndChannelAPI(const UUVToolAssetAndChannelAPI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolAssetAndChannelAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolAssetAndChannelAPI); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolAssetAndChannelAPI) \
+	NO_API virtual ~UUVToolAssetAndChannelAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_248_PROLOG
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_INCLASS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_251_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UVEDITORTOOLS_API UClass* StaticClass<class UUVToolAssetAndChannelAPI>();
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUUVToolAABBTreeStorage(); \
+	friend struct Z_Construct_UClass_UUVToolAABBTreeStorage_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolAABBTreeStorage, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolAABBTreeStorage)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_INCLASS \
+private: \
+	static void StaticRegisterNativesUUVToolAABBTreeStorage(); \
+	friend struct Z_Construct_UClass_UUVToolAABBTreeStorage_Statics; \
+public: \
+	DECLARE_CLASS(UUVToolAABBTreeStorage, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVToolAABBTreeStorage)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolAABBTreeStorage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolAABBTreeStorage) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolAABBTreeStorage); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolAABBTreeStorage); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolAABBTreeStorage(UUVToolAABBTreeStorage&&); \
+	NO_API UUVToolAABBTreeStorage(const UUVToolAABBTreeStorage&); \
+public: \
+	NO_API virtual ~UUVToolAABBTreeStorage();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVToolAABBTreeStorage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVToolAABBTreeStorage(UUVToolAABBTreeStorage&&); \
+	NO_API UUVToolAABBTreeStorage(const UUVToolAABBTreeStorage&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVToolAABBTreeStorage); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVToolAABBTreeStorage); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVToolAABBTreeStorage) \
+	NO_API virtual ~UUVToolAABBTreeStorage();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_291_PROLOG
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_INCLASS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_294_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UVEDITORTOOLS_API UClass* StaticClass<class UUVToolAABBTreeStorage>();
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUUVEditorToolPropertiesAPI(); \
+	friend struct Z_Construct_UClass_UUVEditorToolPropertiesAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVEditorToolPropertiesAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVEditorToolPropertiesAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_INCLASS \
+private: \
+	static void StaticRegisterNativesUUVEditorToolPropertiesAPI(); \
+	friend struct Z_Construct_UClass_UUVEditorToolPropertiesAPI_Statics; \
+public: \
+	DECLARE_CLASS(UUVEditorToolPropertiesAPI, UUVToolContextObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UVEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UUVEditorToolPropertiesAPI)
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVEditorToolPropertiesAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVEditorToolPropertiesAPI) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVEditorToolPropertiesAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVEditorToolPropertiesAPI); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVEditorToolPropertiesAPI(UUVEditorToolPropertiesAPI&&); \
+	NO_API UUVEditorToolPropertiesAPI(const UUVEditorToolPropertiesAPI&); \
+public: \
+	NO_API virtual ~UUVEditorToolPropertiesAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UUVEditorToolPropertiesAPI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UUVEditorToolPropertiesAPI(UUVEditorToolPropertiesAPI&&); \
+	NO_API UUVEditorToolPropertiesAPI(const UUVEditorToolPropertiesAPI&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UUVEditorToolPropertiesAPI); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UUVEditorToolPropertiesAPI); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUVEditorToolPropertiesAPI) \
+	NO_API virtual ~UUVEditorToolPropertiesAPI();
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_328_PROLOG
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_INCLASS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h_331_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> UVEDITORTOOLS_API UClass* StaticClass<class UUVEditorToolPropertiesAPI>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_UVEditor_Source_UVEditorTools_Public_ContextObjects_UVToolContextObjects_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

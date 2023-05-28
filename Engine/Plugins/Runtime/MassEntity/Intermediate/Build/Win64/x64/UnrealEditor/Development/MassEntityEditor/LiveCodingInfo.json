@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassEntityEditor.cpp.obj": [
+			"MassEntityEditor.init.gen.cpp.obj",
+			"MassEntityEditorSubsystem.gen.cpp.obj",
+			"MassEditorStyle.cpp.obj",
+			"MassEntityEditorModule.cpp.obj",
+			"MassEntityEditorSubsystem.cpp.obj"
+		]
+	}
+}

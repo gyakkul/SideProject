@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MfMediaEditor.cpp.obj": [
+			"MfMediaEditor.init.gen.cpp.obj",
+			"MfFileMediaSourceFactory.cpp.obj",
+			"MfMediaEditorModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenGLDrv.cpp.obj": [
+			"OpenGL3.cpp.obj",
+			"OpenGL4.cpp.obj",
+			"OpenGLBinaryProgramUtils.cpp.obj",
+			"OpenGLBuffer.cpp.obj",
+			"OpenGLCommands.cpp.obj",
+			"OpenGLDevice.cpp.obj",
+			"OpenGLDrv.cpp.obj",
+			"OpenGLES.cpp.obj",
+			"OpenGLProgramBinaryFileCache.cpp.obj",
+			"OpenGLQuery.cpp.obj",
+			"OpenGLRenderTarget.cpp.obj",
+			"OpenGLShaders.cpp.obj",
+			"OpenGLState.cpp.obj",
+			"OpenGLTexture.cpp.obj",
+			"OpenGLUAV.cpp.obj",
+			"OpenGLUniformBuffer.cpp.obj",
+			"OpenGLUtil.cpp.obj",
+			"OpenGLVertexDeclaration.cpp.obj",
+			"OpenGLViewport.cpp.obj",
+			"OpenGLWindows.cpp.obj"
+		]
+	}
+}

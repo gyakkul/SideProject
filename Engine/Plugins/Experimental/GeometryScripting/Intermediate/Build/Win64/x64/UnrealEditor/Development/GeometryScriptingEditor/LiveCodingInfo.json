@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryScriptingEditor.cpp.obj": [
+			"EditorDynamicMeshUtilityFunctions.gen.cpp.obj",
+			"GeometryScriptingEditor.init.gen.cpp.obj",
+			"CreateNewAssetUtilityFunctions.cpp.obj",
+			"EditorDynamicMeshUtilityFunctions.cpp.obj",
+			"EditorGeometryGenerationSubsystem.cpp.obj",
+			"GeneratedDynamicMeshActor.cpp.obj",
+			"GeometryScriptingCoreModule.cpp.obj",
+			"OpenSubdivUtilityFunctions.cpp.obj"
+		]
+	}
+}

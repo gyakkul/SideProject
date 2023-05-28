@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SynthesisEditor.cpp.obj": [
+			"SynthesisEditor.init.gen.cpp.obj",
+			"SynthesisEditorSettings.gen.cpp.obj",
+			"AudioImpulseResponseAsset.cpp.obj",
+			"EpicSynth1PresetBank.cpp.obj",
+			"MonoWaveTablePresetBank.cpp.obj",
+			"SynthesisEditorModule.cpp.obj"
+		]
+	}
+}

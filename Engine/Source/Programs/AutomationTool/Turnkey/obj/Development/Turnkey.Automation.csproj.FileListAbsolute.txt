@@ -1,0 +1,16 @@
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\EpicGames.Perforce.Native.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\EpicGames.Perforce.Native.so
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\EpicGames.Perforce.Native.dylib
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\Turnkey.Automation.deps.json
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\Turnkey.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\ref\Turnkey.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\Turnkey.Automation.pdb
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.csproj.AssemblyReference.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.Properties.Resources.resources
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.csproj.GenerateResource.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.csproj.CoreCompileInputs.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.csproj.CopyComplete
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\refint\Turnkey.Automation.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Turnkey\obj\Development\Turnkey.Automation.pdb

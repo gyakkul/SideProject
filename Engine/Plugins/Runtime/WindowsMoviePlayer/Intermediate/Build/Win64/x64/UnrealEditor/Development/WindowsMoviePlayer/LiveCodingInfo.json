@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WindowsMoviePlayer.cpp.obj": [
+			"WindowsMoviePlayer.cpp.obj",
+			"WindowsMovieStreamer.cpp.obj"
+		]
+	}
+}

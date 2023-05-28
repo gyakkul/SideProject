@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ReplicationGraph.cpp.obj": [
+			"ReplicationGraph.init.gen.cpp.obj",
+			"BasicReplicationGraph.cpp.obj",
+			"ReplicationGraph.cpp.obj",
+			"ReplicationGraphDebugging.cpp.obj",
+			"ReplicationGraphModule.cpp.obj",
+			"ReplicationGraphTypes.cpp.obj"
+		]
+	}
+}

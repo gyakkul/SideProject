@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VulkanShaderFormat.cpp.obj": [
+			"VulkanBackend.cpp.obj",
+			"VulkanGlslangBridge.cpp.obj",
+			"VulkanShaderCompiler.cpp.obj",
+			"VulkanShaderFormat.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelProtoFileReader.cpp.obj": [
+			"ModelProtoConverter.cpp.obj",
+			"ModelProtoFileReader.cpp.obj",
+			"Module.cpp.obj"
+		]
+	}
+}

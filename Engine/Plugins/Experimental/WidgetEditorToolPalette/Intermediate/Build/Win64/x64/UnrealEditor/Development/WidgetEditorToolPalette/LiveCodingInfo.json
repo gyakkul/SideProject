@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WidgetEditorToolPalette.cpp.obj": [
+			"CreateWidgetTool.gen.cpp.obj",
+			"CreateWidgetToolSettings.gen.cpp.obj",
+			"RectangleSelectTool.gen.cpp.obj",
+			"WidgetEditorToolPalette.init.gen.cpp.obj",
+			"WidgetEditorToolPaletteMode.gen.cpp.obj",
+			"CreateWidgetTool.cpp.obj",
+			"RectangleSelectTool.cpp.obj",
+			"WidgetEditorToolPaletteCommands.cpp.obj",
+			"WidgetEditorToolPaletteMode.cpp.obj",
+			"WidgetEditorToolPaletteModule.cpp.obj",
+			"WidgetEditorToolPaletteStyle.cpp.obj",
+			"WidgetEditorToolPaletteToolkit.cpp.obj"
+		]
+	}
+}

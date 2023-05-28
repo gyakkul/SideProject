@@ -1,0 +1,138 @@
+Log started at 2023-05-27 오후 7:24:52 (2023-05-27T10:24:52Z)
+Starting AutomationTool...
+Parsing command line: -ScriptsForProject=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/ThirdPerson/ThirdPerson.uproject Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/ThirdPerson/Intermediate/TurnkeyReport_1.log -log=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/ThirdPerson/Intermediate/TurnkeyLog_1.log -project=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/ThirdPerson/ThirdPerson.uproject -Device=Win64@DESKTOP-T1UPMPJ -nocompile -nocompileuat
+Found project file: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\ThirdPerson.uproject
+Found 1 scripts to execute:
+  Turnkey(utf8output, WaitForUATMutex, command=VerifySdk, ReportFilename=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/ThirdPerson/Intermediate/TurnkeyReport_1.log, log=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/ThirdPerson/Intermediate/TurnkeyLog_1.log, project=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/ThirdPerson/ThirdPerson.uproject, Device=Win64@DESKTOP-T1UPMPJ, nocompile)
+Adding event matcher: CompileEventMatcher
+Adding event matcher: LinkEventMatcher
+Adding event matcher: MicrosoftEventMatcher
+Adding event matcher: XoreaxEventMatcher
+Running on Windows as a 64-bit process.
+CWD=C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev
+UnrealEngine ver. 5.0.0
+Initializing script modules...
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Android.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Apple.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\AutomationScripts.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\AutomationUtils.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\BuildGraph.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\CookedEditor.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\CrowdinLocalization.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.Build.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.BuildGraph.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.Core.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.IoHash.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.Jupiter.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.MsBuild.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.Perforce.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.Serialization.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\EpicGames.UHT.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Gauntlet.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\HoloLens.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\IOS.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Linux.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Localization.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\LowLevelTests.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Mac.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\OneSkyLocalization.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\SmartlingLocalization.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\SteamDeck.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Turnkey.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\TVOS.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\UnrealBuildTool.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\Win.Automation.json
+Loaded script module build record C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Intermediate\ScriptModules\XLocLocalization.Automation.json
+Total script module initialization time: 0.77 s.
+Adding event matcher: ContentEventMatcher
+Adding event matcher: CrashEventMatcher
+Adding event matcher: ExceptionEventMatcher
+Adding event matcher: ExitCodeEventMatcher
+Adding event matcher: GenericEventMatcher
+Adding event matcher: GradleEventMatcher
+Adding event matcher: LocalizationEventMatcher
+Adding event matcher: LogChannelEventMatcher
+Adding event matcher: MsTestEventMatcher
+Adding event matcher: ShaderEventMatcher
+Adding event matcher: SourceFileLineEventMatcher
+Adding event matcher: SystemicEventMatcher
+Adding event matcher: CompileEventMatcher
+Adding event matcher: LinkEventMatcher
+Adding event matcher: MicrosoftEventMatcher
+Adding event matcher: XoreaxEventMatcher
+Setting up command environment.
+SafeFileExists C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationTool.dll=True
+GetEnvironmentVariable uebp_LOCAL_ROOT=
+GetEnvironmentVariable uebp_LOCAL_ROOT=
+GetEnvironmentVariable uebp_EngineSavedFolder=
+SetEnvVar uebp_EngineSavedFolder=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/Engine/Programs/AutomationTool/Saved
+GetEnvironmentVariable uebp_EngineSavedFolder=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/Engine/Programs/AutomationTool/Saved
+GetEnvironmentVariable uebp_CSVFile=
+GetEnvironmentVariable uebp_LogFolder=
+SetEnvVar uebp_LogFolder=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/Engine/Programs/AutomationTool/Saved/Logs
+SafeDeleteFile C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Programs\AutomationTool\Saved\Logs\Log.json
+SafeDeleteFile C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Programs\AutomationTool\Saved\Logs\Log.txt
+GetEnvironmentVariable uebp_FinalLogFolder=
+SetEnvVar uebp_FinalLogFolder=C:/Users/rkdtl/Desktop/Programing/SPWorkSpace/SPDev/Engine/Programs/AutomationTool/Saved/Logs
+SafeFileExists C:\WINDOWS\system32\robocopy.exe=True
+SafeFileExists C:\WINDOWS\system32\mount.exe=False
+SafeFileExists C:\WINDOWS\Sysnative\mount.exe=False
+SafeFileExists C:\WINDOWS\system32\cmd.exe=True
+SetEnvVar MallocNanoZone=0
+GetEnvironmentVariable uebp_UATChildInstance=0
+Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.11.33529.622)
+
+No config file at C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Restricted\NotForLicensees\Programs\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\rkdtl\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Saved\UnrealBuildTool\BuildConfiguration.xml
+  C:\Users\rkdtl\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+        Registering build platform: Android - buildable: False
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+        Registering build platform: IOS - buildable: False
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+        Registering build platform: Linux - buildable: False
+        Registering build platform: LinuxArm64 - buildable: False
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+        Registering build platform: Mac - buildable: False
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+        Registering build platform: TVOS - buildable: False
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.17134.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.17134.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.19041.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.HoloLensPlatformFactory
+HoloLens Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.19041.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+        Registering build platform: HoloLens - buildable: True
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Android\Android.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\Apple.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\AutomationScripts.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationUtils\AutomationUtils.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\BuildGraph\BuildGraph.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CookedEditor\CookedEditor.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\CrowdinLocalization.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Gauntlet\Gauntlet.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Platforms\Hololens\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\HoloLens\HoloLens.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\IOS\IOS.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Linux\Linux.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\Localization.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\LowLevelTests\LowLevelTests.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Mac\Mac.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\OneSkyLocalization\OneSkyLocalization.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\SmartlingLocalization\SmartlingLocalization.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\SteamDeck\SteamDeck.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Turnkey\Turnkey.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\TVOS\TVOS.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\Win.Automation.dll
+Loading script DLL: C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\XLocLocalization\XLocLocalization.Automation.dll
+Executing commands...
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 0m 1s
+AutomationTool exiting with ExitCode=0 (Success)

@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RivermaxMedia.cpp.obj": [
+			"RivermaxCustomTimeStep.gen.cpp.obj",
+			"RivermaxMedia.init.gen.cpp.obj",
+			"RivermaxMediaCapture.gen.cpp.obj",
+			"RivermaxMediaOutput.gen.cpp.obj",
+			"RivermaxMediaSource.gen.cpp.obj",
+			"RivermaxCustomTimeStep.cpp.obj",
+			"RivermaxMediaCapture.cpp.obj",
+			"RivermaxMediaLog.cpp.obj",
+			"RivermaxMediaModule.cpp.obj",
+			"RivermaxMediaOutput.cpp.obj",
+			"RivermaxMediaPlayer.cpp.obj",
+			"RivermaxMediaSource.cpp.obj",
+			"RivermaxMediaTextureSample.cpp.obj",
+			"RivermaxMediaTextureSampleConverter.cpp.obj",
+			"RivermaxMediaUtils.cpp.obj"
+		]
+	}
+}

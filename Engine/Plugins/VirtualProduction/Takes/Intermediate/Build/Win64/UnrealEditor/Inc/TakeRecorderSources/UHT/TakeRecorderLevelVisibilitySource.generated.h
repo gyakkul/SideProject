@@ -1,0 +1,175 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "TakeRecorderLevelVisibilitySource.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef TAKERECORDERSOURCES_TakeRecorderLevelVisibilitySource_generated_h
+#error "TakeRecorderLevelVisibilitySource.generated.h already included, missing '#pragma once' in TakeRecorderLevelVisibilitySource.h"
+#endif
+#define TAKERECORDERSOURCES_TakeRecorderLevelVisibilitySource_generated_h
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderLevelVisibilitySourceSettings(); \
+	friend struct Z_Construct_UClass_UTakeRecorderLevelVisibilitySourceSettings_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderLevelVisibilitySourceSettings, UTakeRecorderSource, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderLevelVisibilitySourceSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("EditorSettings");} \
+
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_INCLASS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderLevelVisibilitySourceSettings(); \
+	friend struct Z_Construct_UClass_UTakeRecorderLevelVisibilitySourceSettings_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderLevelVisibilitySourceSettings, UTakeRecorderSource, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderLevelVisibilitySourceSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("EditorSettings");} \
+
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTakeRecorderLevelVisibilitySourceSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderLevelVisibilitySourceSettings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderLevelVisibilitySourceSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderLevelVisibilitySourceSettings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderLevelVisibilitySourceSettings(UTakeRecorderLevelVisibilitySourceSettings&&); \
+	NO_API UTakeRecorderLevelVisibilitySourceSettings(const UTakeRecorderLevelVisibilitySourceSettings&); \
+public: \
+	NO_API virtual ~UTakeRecorderLevelVisibilitySourceSettings();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderLevelVisibilitySourceSettings(UTakeRecorderLevelVisibilitySourceSettings&&); \
+	NO_API UTakeRecorderLevelVisibilitySourceSettings(const UTakeRecorderLevelVisibilitySourceSettings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderLevelVisibilitySourceSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderLevelVisibilitySourceSettings); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderLevelVisibilitySourceSettings) \
+	NO_API virtual ~UTakeRecorderLevelVisibilitySourceSettings();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_11_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_15_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TAKERECORDERSOURCES_API UClass* StaticClass<class UTakeRecorderLevelVisibilitySourceSettings>();
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderLevelVisibilitySource(); \
+	friend struct Z_Construct_UClass_UTakeRecorderLevelVisibilitySource_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderLevelVisibilitySource, UTakeRecorderLevelVisibilitySourceSettings, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderLevelVisibilitySource)
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_INCLASS \
+private: \
+	static void StaticRegisterNativesUTakeRecorderLevelVisibilitySource(); \
+	friend struct Z_Construct_UClass_UTakeRecorderLevelVisibilitySource_Statics; \
+public: \
+	DECLARE_CLASS(UTakeRecorderLevelVisibilitySource, UTakeRecorderLevelVisibilitySourceSettings, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TakeRecorderSources"), NO_API) \
+	DECLARE_SERIALIZER(UTakeRecorderLevelVisibilitySource)
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTakeRecorderLevelVisibilitySource(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderLevelVisibilitySource) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderLevelVisibilitySource); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderLevelVisibilitySource); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderLevelVisibilitySource(UTakeRecorderLevelVisibilitySource&&); \
+	NO_API UTakeRecorderLevelVisibilitySource(const UTakeRecorderLevelVisibilitySource&); \
+public: \
+	NO_API virtual ~UTakeRecorderLevelVisibilitySource();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTakeRecorderLevelVisibilitySource(UTakeRecorderLevelVisibilitySource&&); \
+	NO_API UTakeRecorderLevelVisibilitySource(const UTakeRecorderLevelVisibilitySource&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTakeRecorderLevelVisibilitySource); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTakeRecorderLevelVisibilitySource); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTakeRecorderLevelVisibilitySource) \
+	NO_API virtual ~UTakeRecorderLevelVisibilitySource();
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_32_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h_36_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TAKERECORDERSOURCES_API UClass* StaticClass<class UTakeRecorderLevelVisibilitySource>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_VirtualProduction_Takes_Source_TakeRecorderSources_Private_TakeRecorderLevelVisibilitySource_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

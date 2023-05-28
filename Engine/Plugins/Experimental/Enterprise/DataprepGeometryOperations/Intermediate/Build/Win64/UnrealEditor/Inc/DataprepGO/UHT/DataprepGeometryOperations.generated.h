@@ -1,0 +1,413 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DataprepGeometryOperations.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef DATAPREPGEOMETRYOPERATIONS_DataprepGeometryOperations_generated_h
+#error "DataprepGeometryOperations.generated.h already included, missing '#pragma once' in DataprepGeometryOperations.h"
+#endif
+#define DATAPREPGEOMETRYOPERATIONS_DataprepGeometryOperations_generated_h
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepRemeshOperation(); \
+	friend struct Z_Construct_UClass_UDataprepRemeshOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepRemeshOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepRemeshOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepRemeshOperation(); \
+	friend struct Z_Construct_UClass_UDataprepRemeshOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepRemeshOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepRemeshOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepRemeshOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepRemeshOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepRemeshOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepRemeshOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepRemeshOperation(UDataprepRemeshOperation&&); \
+	NO_API UDataprepRemeshOperation(const UDataprepRemeshOperation&); \
+public: \
+	NO_API virtual ~UDataprepRemeshOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepRemeshOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepRemeshOperation(UDataprepRemeshOperation&&); \
+	NO_API UDataprepRemeshOperation(const UDataprepRemeshOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepRemeshOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepRemeshOperation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepRemeshOperation) \
+	NO_API virtual ~UDataprepRemeshOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_26_PROLOG
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_INCLASS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_29_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPGEOMETRYOPERATIONS_API UClass* StaticClass<class UDataprepRemeshOperation>();
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepBakeTransformOperation(); \
+	friend struct Z_Construct_UClass_UDataprepBakeTransformOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepBakeTransformOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepBakeTransformOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepBakeTransformOperation(); \
+	friend struct Z_Construct_UClass_UDataprepBakeTransformOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepBakeTransformOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepBakeTransformOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepBakeTransformOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepBakeTransformOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepBakeTransformOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepBakeTransformOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepBakeTransformOperation(UDataprepBakeTransformOperation&&); \
+	NO_API UDataprepBakeTransformOperation(const UDataprepBakeTransformOperation&); \
+public: \
+	NO_API virtual ~UDataprepBakeTransformOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepBakeTransformOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepBakeTransformOperation(UDataprepBakeTransformOperation&&); \
+	NO_API UDataprepBakeTransformOperation(const UDataprepBakeTransformOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepBakeTransformOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepBakeTransformOperation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepBakeTransformOperation) \
+	NO_API virtual ~UDataprepBakeTransformOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_77_PROLOG
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_INCLASS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_80_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPGEOMETRYOPERATIONS_API UClass* StaticClass<class UDataprepBakeTransformOperation>();
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepWeldEdgesOperation(); \
+	friend struct Z_Construct_UClass_UDataprepWeldEdgesOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepWeldEdgesOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepWeldEdgesOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepWeldEdgesOperation(); \
+	friend struct Z_Construct_UClass_UDataprepWeldEdgesOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepWeldEdgesOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepWeldEdgesOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepWeldEdgesOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepWeldEdgesOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepWeldEdgesOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepWeldEdgesOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepWeldEdgesOperation(UDataprepWeldEdgesOperation&&); \
+	NO_API UDataprepWeldEdgesOperation(const UDataprepWeldEdgesOperation&); \
+public: \
+	NO_API virtual ~UDataprepWeldEdgesOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepWeldEdgesOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepWeldEdgesOperation(UDataprepWeldEdgesOperation&&); \
+	NO_API UDataprepWeldEdgesOperation(const UDataprepWeldEdgesOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepWeldEdgesOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepWeldEdgesOperation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepWeldEdgesOperation) \
+	NO_API virtual ~UDataprepWeldEdgesOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_108_PROLOG
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_INCLASS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_111_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPGEOMETRYOPERATIONS_API UClass* StaticClass<class UDataprepWeldEdgesOperation>();
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepSimplifyMeshOperation(); \
+	friend struct Z_Construct_UClass_UDataprepSimplifyMeshOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepSimplifyMeshOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepSimplifyMeshOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepSimplifyMeshOperation(); \
+	friend struct Z_Construct_UClass_UDataprepSimplifyMeshOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepSimplifyMeshOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepSimplifyMeshOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepSimplifyMeshOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepSimplifyMeshOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepSimplifyMeshOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepSimplifyMeshOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepSimplifyMeshOperation(UDataprepSimplifyMeshOperation&&); \
+	NO_API UDataprepSimplifyMeshOperation(const UDataprepSimplifyMeshOperation&); \
+public: \
+	NO_API virtual ~UDataprepSimplifyMeshOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepSimplifyMeshOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepSimplifyMeshOperation(UDataprepSimplifyMeshOperation&&); \
+	NO_API UDataprepSimplifyMeshOperation(const UDataprepSimplifyMeshOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepSimplifyMeshOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepSimplifyMeshOperation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepSimplifyMeshOperation) \
+	NO_API virtual ~UDataprepSimplifyMeshOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_135_PROLOG
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_INCLASS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_138_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPGEOMETRYOPERATIONS_API UClass* StaticClass<class UDataprepSimplifyMeshOperation>();
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepPlaneCutOperation(); \
+	friend struct Z_Construct_UClass_UDataprepPlaneCutOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepPlaneCutOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepPlaneCutOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepPlaneCutOperation(); \
+	friend struct Z_Construct_UClass_UDataprepPlaneCutOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepPlaneCutOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepGeometryOperations"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepPlaneCutOperation)
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepPlaneCutOperation(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepPlaneCutOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepPlaneCutOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepPlaneCutOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepPlaneCutOperation(UDataprepPlaneCutOperation&&); \
+	NO_API UDataprepPlaneCutOperation(const UDataprepPlaneCutOperation&); \
+public: \
+	NO_API virtual ~UDataprepPlaneCutOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepPlaneCutOperation(UDataprepPlaneCutOperation&&); \
+	NO_API UDataprepPlaneCutOperation(const UDataprepPlaneCutOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepPlaneCutOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepPlaneCutOperation); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDataprepPlaneCutOperation) \
+	NO_API virtual ~UDataprepPlaneCutOperation();
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_182_PROLOG
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_INCLASS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h_185_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPGEOMETRYOPERATIONS_API UClass* StaticClass<class UDataprepPlaneCutOperation>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Enterprise_DataprepGeometryOperations_Source_Private_DataprepGeometryOperations_h
+
+
+#define FOREACH_ENUM_EPLANECUTKEEPSIDE(op) \
+	op(EPlaneCutKeepSide::Positive) \
+	op(EPlaneCutKeepSide::Negative) \
+	op(EPlaneCutKeepSide::Both) 
+
+enum class EPlaneCutKeepSide : uint8;
+template<> struct TIsUEnumClass<EPlaneCutKeepSide> { enum { Value = true }; };
+template<> DATAPREPGEOMETRYOPERATIONS_API UEnum* StaticEnum<EPlaneCutKeepSide>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

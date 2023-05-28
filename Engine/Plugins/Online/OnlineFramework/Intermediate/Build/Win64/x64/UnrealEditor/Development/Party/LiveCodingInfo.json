@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Party.cpp.obj": [
+			"Party.init.gen.cpp.obj",
+			"Chatroom.cpp.obj",
+			"ChatSlashCommands.cpp.obj",
+			"CommonSlashCommands.cpp.obj",
+			"SocialChatChannel.cpp.obj",
+			"SocialChatMessage.cpp.obj",
+			"SocialChatRoom.cpp.obj",
+			"SocialGroupChannel.cpp.obj",
+			"SocialPartyChatRoom.cpp.obj",
+			"SocialPrivateMessageChannel.cpp.obj",
+			"SocialReadOnlyChatChannel.cpp.obj",
+			"CoreInteractions.cpp.obj",
+			"PartyInteractions.cpp.obj",
+			"SocialInteractionHandle.cpp.obj",
+			"PartyModule.cpp.obj",
+			"PartyDataReplicator.cpp.obj",
+			"PartyMember.cpp.obj",
+			"PartyPlatformSessionMonitor.cpp.obj",
+			"PartyTypes.cpp.obj",
+			"SocialParty.cpp.obj",
+			"SocialDebugTools.cpp.obj",
+			"SocialManager.cpp.obj",
+			"SocialSettings.cpp.obj",
+			"SocialToolkit.cpp.obj",
+			"SocialTypes.cpp.obj",
+			"SocialUser.cpp.obj",
+			"SocialUserList.cpp.obj",
+			"SocialChatManager.cpp.obj"
+		]
+	}
+}

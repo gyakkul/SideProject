@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithMVRTranslator.cpp.obj": [
+			"DatasmithMVRImportOptions.gen.cpp.obj",
+			"DatasmithMVRTranslator.init.gen.cpp.obj",
+			"DatasmithMVRNativeTranslator.cpp.obj",
+			"DatasmithMVRTranslatorModule.cpp.obj"
+		]
+	}
+}

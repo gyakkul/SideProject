@@ -1,0 +1,182 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MuCOE/SCustomizableObjectEditorPerformanceReport.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UCustomizableObjectInstance;
+#ifdef CUSTOMIZABLEOBJECTEDITOR_SCustomizableObjectEditorPerformanceReport_generated_h
+#error "SCustomizableObjectEditorPerformanceReport.generated.h already included, missing '#pragma once' in SCustomizableObjectEditorPerformanceReport.h"
+#endif
+#define CUSTOMIZABLEOBJECTEDITOR_SCustomizableObjectEditorPerformanceReport_generated_h
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUWorstCasePerformanceReportInstance(); \
+	friend struct Z_Construct_UClass_UWorstCasePerformanceReportInstance_Statics; \
+public: \
+	DECLARE_CLASS(UWorstCasePerformanceReportInstance, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UWorstCasePerformanceReportInstance)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_INCLASS \
+private: \
+	static void StaticRegisterNativesUWorstCasePerformanceReportInstance(); \
+	friend struct Z_Construct_UClass_UWorstCasePerformanceReportInstance_Statics; \
+public: \
+	DECLARE_CLASS(UWorstCasePerformanceReportInstance, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UWorstCasePerformanceReportInstance)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UWorstCasePerformanceReportInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWorstCasePerformanceReportInstance) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UWorstCasePerformanceReportInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWorstCasePerformanceReportInstance); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UWorstCasePerformanceReportInstance(UWorstCasePerformanceReportInstance&&); \
+	NO_API UWorstCasePerformanceReportInstance(const UWorstCasePerformanceReportInstance&); \
+public: \
+	NO_API virtual ~UWorstCasePerformanceReportInstance();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UWorstCasePerformanceReportInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UWorstCasePerformanceReportInstance(UWorstCasePerformanceReportInstance&&); \
+	NO_API UWorstCasePerformanceReportInstance(const UWorstCasePerformanceReportInstance&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UWorstCasePerformanceReportInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWorstCasePerformanceReportInstance); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWorstCasePerformanceReportInstance) \
+	NO_API virtual ~UWorstCasePerformanceReportInstance();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_27_PROLOG
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_INCLASS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_31_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CUSTOMIZABLEOBJECTEDITOR_API UClass* StaticClass<class UWorstCasePerformanceReportInstance>();
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDelegatedCallback);
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDelegatedCallback);
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPerformanceReportHelper(); \
+	friend struct Z_Construct_UClass_UPerformanceReportHelper_Statics; \
+public: \
+	DECLARE_CLASS(UPerformanceReportHelper, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPerformanceReportHelper)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_INCLASS \
+private: \
+	static void StaticRegisterNativesUPerformanceReportHelper(); \
+	friend struct Z_Construct_UClass_UPerformanceReportHelper_Statics; \
+public: \
+	DECLARE_CLASS(UPerformanceReportHelper, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPerformanceReportHelper)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPerformanceReportHelper(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPerformanceReportHelper) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPerformanceReportHelper); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPerformanceReportHelper); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPerformanceReportHelper(UPerformanceReportHelper&&); \
+	NO_API UPerformanceReportHelper(const UPerformanceReportHelper&); \
+public: \
+	NO_API virtual ~UPerformanceReportHelper();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPerformanceReportHelper(UPerformanceReportHelper&&); \
+	NO_API UPerformanceReportHelper(const UPerformanceReportHelper&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPerformanceReportHelper); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPerformanceReportHelper); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPerformanceReportHelper) \
+	NO_API virtual ~UPerformanceReportHelper();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_83_PROLOG
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_INCLASS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h_87_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CUSTOMIZABLEOBJECTEDITOR_API UClass* StaticClass<class UPerformanceReportHelper>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Private_MuCOE_SCustomizableObjectEditorPerformanceReport_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

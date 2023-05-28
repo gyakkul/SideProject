@@ -1,0 +1,50 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PythonScriptPlugin.1_of_3.cpp.obj": [
+			"PyTestInterface.gen.cpp.obj",
+			"PythonScriptPlugin.init.gen.cpp.obj",
+			"PythonScriptTypes.gen.cpp.obj",
+			"K2Node_ExecutePythonScript.cpp.obj",
+			"PyConstant.cpp.obj",
+			"PyConversion.cpp.obj",
+			"PyCore.cpp.obj",
+			"PyEditor.cpp.obj",
+			"PyEngine.cpp.obj",
+			"PyFileWriter.cpp.obj",
+			"PyGenUtil.cpp.obj",
+			"PyMethodWithClosure.cpp.obj",
+			"PyOnlineDocsWriter.cpp.obj",
+			"PyReferenceCollector.cpp.obj",
+			"PySlate.cpp.obj",
+			"PyTest.cpp.obj",
+			"PythonOnlineDocsCommandlet.cpp.obj",
+			"PythonScriptCommandlet.cpp.obj",
+			"PythonScriptLibrary.cpp.obj",
+			"PythonScriptPlugin.cpp.obj"
+		],
+		"Module.PythonScriptPlugin.2_of_3.cpp.obj": [
+			"PythonScriptPluginSettings.cpp.obj",
+			"PythonScriptPluginStyle.cpp.obj",
+			"PythonScriptRemoteExecution.cpp.obj",
+			"PyUtil.cpp.obj",
+			"PyWrapperArray.cpp.obj",
+			"PyWrapperBase.cpp.obj",
+			"PyWrapperDelegate.cpp.obj",
+			"PyWrapperEnum.cpp.obj",
+			"PyWrapperFieldPath.cpp.obj",
+			"PyWrapperFixedArray.cpp.obj",
+			"PyWrapperMap.cpp.obj",
+			"PyWrapperMath.cpp.obj",
+			"PyWrapperName.cpp.obj",
+			"PyWrapperObject.cpp.obj",
+			"PyWrapperOwnerContext.cpp.obj",
+			"PyWrapperSet.cpp.obj"
+		],
+		"Module.PythonScriptPlugin.3_of_3.cpp.obj": [
+			"PyWrapperStruct.cpp.obj",
+			"PyWrapperText.cpp.obj",
+			"PyWrapperTypeRegistry.cpp.obj"
+		]
+	}
+}

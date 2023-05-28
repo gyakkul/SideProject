@@ -1,0 +1,339 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "FractureToolProperties.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef FRACTUREEDITOR_FractureToolProperties_generated_h
+#error "FractureToolProperties.generated.h already included, missing '#pragma once' in FractureToolProperties.h"
+#endif
+#define FRACTUREEDITOR_FractureToolProperties_generated_h
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_ACCESSORS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUFractureInitialDynamicStateSettings(); \
+	friend struct Z_Construct_UClass_UFractureInitialDynamicStateSettings_Statics; \
+public: \
+	DECLARE_CLASS(UFractureInitialDynamicStateSettings, UFractureToolSettings, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureInitialDynamicStateSettings)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesUFractureInitialDynamicStateSettings(); \
+	friend struct Z_Construct_UClass_UFractureInitialDynamicStateSettings_Statics; \
+public: \
+	DECLARE_CLASS(UFractureInitialDynamicStateSettings, UFractureToolSettings, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureInitialDynamicStateSettings)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UFractureInitialDynamicStateSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureInitialDynamicStateSettings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureInitialDynamicStateSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureInitialDynamicStateSettings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureInitialDynamicStateSettings(UFractureInitialDynamicStateSettings&&); \
+	NO_API UFractureInitialDynamicStateSettings(const UFractureInitialDynamicStateSettings&); \
+public: \
+	NO_API virtual ~UFractureInitialDynamicStateSettings();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureInitialDynamicStateSettings(UFractureInitialDynamicStateSettings&&); \
+	NO_API UFractureInitialDynamicStateSettings(const UFractureInitialDynamicStateSettings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureInitialDynamicStateSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureInitialDynamicStateSettings); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureInitialDynamicStateSettings) \
+	NO_API virtual ~UFractureInitialDynamicStateSettings();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_19_PROLOG
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_INCLASS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_24_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> FRACTUREEDITOR_API UClass* StaticClass<class UFractureInitialDynamicStateSettings>();
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_ACCESSORS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUFractureToolSetInitialDynamicState(); \
+	friend struct Z_Construct_UClass_UFractureToolSetInitialDynamicState_Statics; \
+public: \
+	DECLARE_CLASS(UFractureToolSetInitialDynamicState, UFractureModalTool, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureToolSetInitialDynamicState)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_INCLASS \
+private: \
+	static void StaticRegisterNativesUFractureToolSetInitialDynamicState(); \
+	friend struct Z_Construct_UClass_UFractureToolSetInitialDynamicState_Statics; \
+public: \
+	DECLARE_CLASS(UFractureToolSetInitialDynamicState, UFractureModalTool, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureToolSetInitialDynamicState)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UFractureToolSetInitialDynamicState(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureToolSetInitialDynamicState) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureToolSetInitialDynamicState); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureToolSetInitialDynamicState); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureToolSetInitialDynamicState(UFractureToolSetInitialDynamicState&&); \
+	NO_API UFractureToolSetInitialDynamicState(const UFractureToolSetInitialDynamicState&); \
+public: \
+	NO_API virtual ~UFractureToolSetInitialDynamicState();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureToolSetInitialDynamicState(UFractureToolSetInitialDynamicState&&); \
+	NO_API UFractureToolSetInitialDynamicState(const UFractureToolSetInitialDynamicState&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureToolSetInitialDynamicState); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureToolSetInitialDynamicState); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureToolSetInitialDynamicState) \
+	NO_API virtual ~UFractureToolSetInitialDynamicState();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_38_PROLOG
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_INCLASS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_42_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> FRACTUREEDITOR_API UClass* StaticClass<class UFractureToolSetInitialDynamicState>();
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDeleteRemoveOnBreakData);
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDeleteRemoveOnBreakData);
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_ACCESSORS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUFractureRemoveOnBreakSettings(); \
+	friend struct Z_Construct_UClass_UFractureRemoveOnBreakSettings_Statics; \
+public: \
+	DECLARE_CLASS(UFractureRemoveOnBreakSettings, UFractureToolSettings, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureRemoveOnBreakSettings)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_INCLASS \
+private: \
+	static void StaticRegisterNativesUFractureRemoveOnBreakSettings(); \
+	friend struct Z_Construct_UClass_UFractureRemoveOnBreakSettings_Statics; \
+public: \
+	DECLARE_CLASS(UFractureRemoveOnBreakSettings, UFractureToolSettings, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureRemoveOnBreakSettings)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UFractureRemoveOnBreakSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureRemoveOnBreakSettings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureRemoveOnBreakSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureRemoveOnBreakSettings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureRemoveOnBreakSettings(UFractureRemoveOnBreakSettings&&); \
+	NO_API UFractureRemoveOnBreakSettings(const UFractureRemoveOnBreakSettings&); \
+public: \
+	NO_API virtual ~UFractureRemoveOnBreakSettings();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureRemoveOnBreakSettings(UFractureRemoveOnBreakSettings&&); \
+	NO_API UFractureRemoveOnBreakSettings(const UFractureRemoveOnBreakSettings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureRemoveOnBreakSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureRemoveOnBreakSettings); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureRemoveOnBreakSettings) \
+	NO_API virtual ~UFractureRemoveOnBreakSettings();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_65_PROLOG
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_INCLASS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_70_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> FRACTUREEDITOR_API UClass* StaticClass<class UFractureRemoveOnBreakSettings>();
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_ACCESSORS
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUFractureToolSetRemoveOnBreak(); \
+	friend struct Z_Construct_UClass_UFractureToolSetRemoveOnBreak_Statics; \
+public: \
+	DECLARE_CLASS(UFractureToolSetRemoveOnBreak, UFractureModalTool, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureToolSetRemoveOnBreak)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_INCLASS \
+private: \
+	static void StaticRegisterNativesUFractureToolSetRemoveOnBreak(); \
+	friend struct Z_Construct_UClass_UFractureToolSetRemoveOnBreak_Statics; \
+public: \
+	DECLARE_CLASS(UFractureToolSetRemoveOnBreak, UFractureModalTool, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/FractureEditor"), NO_API) \
+	DECLARE_SERIALIZER(UFractureToolSetRemoveOnBreak)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UFractureToolSetRemoveOnBreak(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureToolSetRemoveOnBreak) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureToolSetRemoveOnBreak); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureToolSetRemoveOnBreak); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureToolSetRemoveOnBreak(UFractureToolSetRemoveOnBreak&&); \
+	NO_API UFractureToolSetRemoveOnBreak(const UFractureToolSetRemoveOnBreak&); \
+public: \
+	NO_API virtual ~UFractureToolSetRemoveOnBreak();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UFractureToolSetRemoveOnBreak(UFractureToolSetRemoveOnBreak&&); \
+	NO_API UFractureToolSetRemoveOnBreak(const UFractureToolSetRemoveOnBreak&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFractureToolSetRemoveOnBreak); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFractureToolSetRemoveOnBreak); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFractureToolSetRemoveOnBreak) \
+	NO_API virtual ~UFractureToolSetRemoveOnBreak();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_101_PROLOG
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_INCLASS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h_105_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> FRACTUREEDITOR_API UClass* StaticClass<class UFractureToolSetRemoveOnBreak>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_ChaosEditor_Source_FractureEditor_Private_FractureToolProperties_h
+
+
+#define FOREACH_ENUM_EDYNAMICSTATEOVERRIDEENUM(op) \
+	op(EDynamicStateOverrideEnum::NoOverride) \
+	op(EDynamicStateOverrideEnum::Sleeping) \
+	op(EDynamicStateOverrideEnum::Kinematic) \
+	op(EDynamicStateOverrideEnum::Static) 
+
+enum class EDynamicStateOverrideEnum : uint8;
+template<> struct TIsUEnumClass<EDynamicStateOverrideEnum> { enum { Value = true }; };
+template<> FRACTUREEDITOR_API UEnum* StaticEnum<EDynamicStateOverrideEnum>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

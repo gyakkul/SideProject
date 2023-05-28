@@ -1,0 +1,37 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\screenreader\\module.screenreader.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\screenreader\\definitions.screenreader.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\intermediate\\build\\win64\\unrealeditor\\inc\\screenreader\\uht\\screenreader.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\intermediate\\build\\win64\\unrealeditor\\inc\\screenreader\\uht\\screenreaderannouncement.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\public\\announcement\\screenreaderannouncement.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\intermediate\\build\\win64\\unrealeditor\\inc\\screenreader\\uht\\screenreaderannouncement.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\intermediate\\build\\win64\\unrealeditor\\inc\\screenreader\\uht\\screenreaderreply.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\public\\genericplatform\\screenreaderreply.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\intermediate\\build\\win64\\unrealeditor\\inc\\screenreader\\uht\\screenreaderreply.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\announcement\\screenreaderannouncement.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\screenreaderlog.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\announcement\\screenreaderannouncementchannel.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\public\\announcement\\screenreaderannouncementchannel.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\announcement\\screenreaderwidgetannouncementbuilder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\texttospeech\\source\\texttospeech\\public\\genericplatform\\texttospeechbase.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\announcement\\screenreaderwidgetannouncementbuilder.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\genericplatform\\screenreaderapplicationmessagehandlerbase.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\public\\genericplatform\\screenreaderapplicationmessagehandlerbase.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\genericplatform\\screenreaderbase.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\public\\genericplatform\\screenreaderbase.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\public\\genericplatform\\screenreaderuser.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\genericplatform\\screenreaderuser.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\texttospeech\\source\\texttospeech\\public\\genericplatform\\itexttospeechfactory.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\public\\navigation\\screenreadernavigationpolicy.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\texttospeech\\source\\texttospeech\\public\\texttospeechmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\screenreader\\source\\screenreader\\private\\screenreadermodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

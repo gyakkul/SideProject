@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AppleVisionBlueprintSupport.cpp.obj": [
+			"AppleVisionBlueprintSupport.gen.cpp.obj",
+			"AppleVisionBlueprintSupport.init.gen.cpp.obj",
+			"AppleVisionBlueprintSupport.cpp.obj"
+		]
+	}
+}

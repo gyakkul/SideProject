@@ -1,0 +1,118 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MuCOE/Nodes/CustomizableObjectNodeSkeletalMesh.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CUSTOMIZABLEOBJECTEDITOR_CustomizableObjectNodeSkeletalMesh_generated_h
+#error "CustomizableObjectNodeSkeletalMesh.generated.h already included, missing '#pragma once' in CustomizableObjectNodeSkeletalMesh.h"
+#endif
+#define CUSTOMIZABLEOBJECTEDITOR_CustomizableObjectNodeSkeletalMesh_generated_h
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_87_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCustomizableObjectNodeSkeletalMeshMaterial_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> CUSTOMIZABLEOBJECTEDITOR_API UScriptStruct* StaticStruct<struct FCustomizableObjectNodeSkeletalMeshMaterial>();
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_115_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCustomizableObjectNodeSkeletalMeshLOD_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> CUSTOMIZABLEOBJECTEDITOR_API UScriptStruct* StaticStruct<struct FCustomizableObjectNodeSkeletalMeshLOD>();
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UCustomizableObjectNodeSkeletalMesh, NO_API)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectNodeSkeletalMesh(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectNodeSkeletalMesh_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectNodeSkeletalMesh, UCustomizableObjectNodeMesh, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectNodeSkeletalMesh) \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_INCLASS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectNodeSkeletalMesh(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectNodeSkeletalMesh_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectNodeSkeletalMesh, UCustomizableObjectNodeMesh, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectNodeSkeletalMesh) \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCustomizableObjectNodeSkeletalMesh(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCustomizableObjectNodeSkeletalMesh) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectNodeSkeletalMesh); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectNodeSkeletalMesh); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectNodeSkeletalMesh(UCustomizableObjectNodeSkeletalMesh&&); \
+	NO_API UCustomizableObjectNodeSkeletalMesh(const UCustomizableObjectNodeSkeletalMesh&); \
+public: \
+	NO_API virtual ~UCustomizableObjectNodeSkeletalMesh();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCustomizableObjectNodeSkeletalMesh(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectNodeSkeletalMesh(UCustomizableObjectNodeSkeletalMesh&&); \
+	NO_API UCustomizableObjectNodeSkeletalMesh(const UCustomizableObjectNodeSkeletalMesh&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectNodeSkeletalMesh); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectNodeSkeletalMesh); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCustomizableObjectNodeSkeletalMesh) \
+	NO_API virtual ~UCustomizableObjectNodeSkeletalMesh();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_122_PROLOG
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_INCLASS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h_126_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CUSTOMIZABLEOBJECTEDITOR_API UClass* StaticClass<class UCustomizableObjectNodeSkeletalMesh>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Classes_MuCOE_Nodes_CustomizableObjectNodeSkeletalMesh_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

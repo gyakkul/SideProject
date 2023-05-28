@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AutomationDriver.cpp.obj": [
+			"AutomatedApplication.cpp.obj",
+			"AutomationDriver.cpp.obj",
+			"AutomationDriverLogging.cpp.obj",
+			"AutomationDriverModule.cpp.obj",
+			"DriverElement.cpp.obj",
+			"DriverSequence.cpp.obj",
+			"LocateBy.cpp.obj",
+			"SlateWidgetLocatorByDelegate.cpp.obj",
+			"SlateWidgetLocatorByPath.cpp.obj",
+			"SlateWidgetLocatorByUniqueTag.cpp.obj",
+			"PassThroughMessageHandler.cpp.obj",
+			"SlateWidgetElement.cpp.obj",
+			"StepExecutor.cpp.obj",
+			"WaitUntil.cpp.obj"
+		]
+	}
+}

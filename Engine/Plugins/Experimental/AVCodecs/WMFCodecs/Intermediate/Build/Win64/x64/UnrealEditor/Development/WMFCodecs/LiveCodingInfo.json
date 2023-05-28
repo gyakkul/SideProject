@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WMFCodecs.cpp.obj": [
+			"AudioEncoderWMF.cpp.obj",
+			"AudioEncoderConfigWMF.cpp.obj",
+			"WMFCodecsModule.cpp.obj"
+		]
+	}
+}

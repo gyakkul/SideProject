@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CommonMenuExtensions.cpp.obj": [
+			"BufferVisualizationMenuCommands.cpp.obj",
+			"CommonMenuExtensionsModule.cpp.obj",
+			"GroomVisualizationMenuCommands.cpp.obj",
+			"LumenVisualizationMenuCommands.cpp.obj",
+			"NaniteVisualizationMenuCommands.cpp.obj",
+			"ShowFlagFilter.cpp.obj",
+			"ShowFlagMenuCommands.cpp.obj",
+			"StrataVisualizationMenuCommands.cpp.obj",
+			"VirtualShadowMapVisualizationMenuCommands.cpp.obj"
+		]
+	}
+}

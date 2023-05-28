@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationWarpingRuntime.cpp.obj": [
+			"AnimationWarpingRuntime.init.gen.cpp.obj",
+			"AnimationWarpingRuntimeModule.cpp.obj",
+			"AnimNode_FootPlacement.cpp.obj",
+			"AnimNode_OffsetRootBone.cpp.obj",
+			"AnimNode_OrientationWarping.cpp.obj",
+			"AnimNode_SlopeWarping.cpp.obj",
+			"AnimNode_StrideWarping.cpp.obj"
+		]
+	}
+}

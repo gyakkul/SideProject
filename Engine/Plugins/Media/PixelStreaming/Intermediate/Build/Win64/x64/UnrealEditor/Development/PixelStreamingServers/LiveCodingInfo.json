@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelStreamingServers.cpp.obj": [
+			"CirrusWrapper.cpp.obj",
+			"MonitoredServerBase.cpp.obj",
+			"PixelStreamingServers.cpp.obj",
+			"PixelStreamingServersLog.cpp.obj",
+			"PixelStreamingServersModule.cpp.obj",
+			"ServerBase.cpp.obj",
+			"ServerUtils.cpp.obj",
+			"SignallingServer.cpp.obj",
+			"SignallingServerLegacy.cpp.obj",
+			"ServerTests.cpp.obj",
+			"WebSocketServerWrapper.cpp.obj"
+		]
+	}
+}

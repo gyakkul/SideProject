@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ParametricSurface.cpp.obj": [
+			"ParametricSurface.init.gen.cpp.obj",
+			"ParametricSurfaceData.gen.cpp.obj",
+			"TechSoftParametricSurface.gen.cpp.obj",
+			"ParametricSurfaceData.cpp.obj",
+			"ParametricSurfaceModule.cpp.obj",
+			"ParametricSurfaceTranslator.cpp.obj",
+			"CADModelToTechSoftConverterBase.cpp.obj",
+			"TechSoftParametricSurface.cpp.obj"
+		]
+	}
+}

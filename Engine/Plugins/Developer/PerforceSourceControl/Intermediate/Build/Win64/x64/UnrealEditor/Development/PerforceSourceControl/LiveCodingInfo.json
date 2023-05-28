@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PerforceSourceControl.cpp.obj": [
+			"PerforceConnection.cpp.obj",
+			"PerforceSourceControlChangelist.cpp.obj",
+			"PerforceSourceControlChangelistState.cpp.obj",
+			"PerforceSourceControlCommand.cpp.obj",
+			"PerforceSourceControlLabel.cpp.obj",
+			"PerforceSourceControlModule.cpp.obj",
+			"PerforceSourceControlOperations.cpp.obj",
+			"PerforceSourceControlProvider.cpp.obj",
+			"PerforceSourceControlRevision.cpp.obj",
+			"PerforceSourceControlSettings.cpp.obj",
+			"PerforceSourceControlState.cpp.obj",
+			"SPerforceSourceControlSettings.cpp.obj"
+		]
+	}
+}

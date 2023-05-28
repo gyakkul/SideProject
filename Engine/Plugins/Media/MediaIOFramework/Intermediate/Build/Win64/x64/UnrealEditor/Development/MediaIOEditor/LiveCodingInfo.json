@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaIOEditor.cpp.obj": [
+			"MediaIOEditor.init.gen.cpp.obj",
+			"AssetTypeActions_MediaOutput.cpp.obj",
+			"MediaIOConfigurationCustomization.cpp.obj",
+			"MediaIOCustomizationBase.cpp.obj",
+			"MediaIODeviceCustomization.cpp.obj",
+			"MediaIOInputConfigurationCustomization.cpp.obj",
+			"MediaIOOutputConfigurationCustomization.cpp.obj",
+			"MediaIOVideoTimecodeConfigurationCustomization.cpp.obj",
+			"FileMediaOutputFactory.cpp.obj",
+			"MediaIOEditorModule.cpp.obj",
+			"MediaIOPermutationsSelectorBuilder.cpp.obj"
+		]
+	}
+}

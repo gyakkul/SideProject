@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RuntimeTests.cpp.obj": [
+			"AutomationExpectedMessage.spec.cpp.obj",
+			"AutomationSpec.spec.cpp.obj",
+			"RuntimeTests.cpp.obj",
+			"ScriptFuzzingTests.cpp.obj",
+			"ShaderComparisonTests.cpp.obj",
+			"RichTextMarkupProcessingTest.cpp.obj"
+		]
+	}
+}

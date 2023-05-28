@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayBhvSO.cpp.obj": [
+			"GameplayBehaviorSmartObjectBehaviorDefinition.gen.cpp.obj",
+			"GameplayBehaviorSmartObjectsModule.init.gen.cpp.obj",
+			"AITask_UseGameplayBehaviorSmartObject.cpp.obj",
+			"BTTask_FindAndUseGameplayBehaviorSmartObject.cpp.obj",
+			"GameplayBehaviorSmartObjectsBlueprintFunctionLibrary.cpp.obj",
+			"GameplayBehaviorSmartObjectsModule.cpp.obj"
+		]
+	}
+}

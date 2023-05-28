@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkMasterLockit.cpp.obj": [
+			"LiveLinkMasterLockit.init.gen.cpp.obj",
+			"LiveLinkMasterLockitConnectionSettings.gen.cpp.obj",
+			"LiveLinkMasterLockitFactory.gen.cpp.obj",
+			"LiveLinkMasterLockitSourceSettings.gen.cpp.obj",
+			"LiveLinkMasterLockit.cpp.obj",
+			"LiveLinkMasterLockitFactory.cpp.obj",
+			"LiveLinkMasterLockitSource.cpp.obj",
+			"MasterLockitMessageThread.cpp.obj"
+		]
+	}
+}

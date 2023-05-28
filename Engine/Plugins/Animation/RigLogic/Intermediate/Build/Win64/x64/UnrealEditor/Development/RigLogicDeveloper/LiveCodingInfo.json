@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RigLogicDeveloper.cpp.obj": [
+			"RigLogicDeveloper.init.gen.cpp.obj",
+			"AnimGraphNode_RigLogic.cpp.obj",
+			"RigLogicDeveloper.cpp.obj"
+		]
+	}
+}

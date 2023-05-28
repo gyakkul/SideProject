@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AppleARKitFaceSupport.cpp.obj": [
+			"AppleARKitFaceMeshComponent.gen.cpp.obj",
+			"AppleARKitFaceSupport.init.gen.cpp.obj",
+			"AppleARKitFaceMeshComponent.cpp.obj",
+			"AppleARKitFaceSupportImpl.cpp.obj",
+			"AppleARKitFaceSupportModule.cpp.obj",
+			"AppleARKitLiveLinkSource.cpp.obj"
+		]
+	}
+}

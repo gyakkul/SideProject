@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenCVHelper.cpp.obj": [
+			"OpenCVBlueprintFunctionLibrary.gen.cpp.obj",
+			"OpenCVHelper.gen.cpp.obj",
+			"OpenCVHelper.init.gen.cpp.obj",
+			"OpenCVBlueprintFunctionLibrary.cpp.obj",
+			"OpenCVHelper.cpp.obj",
+			"OpenCVHelperModule.cpp.obj"
+		]
+	}
+}

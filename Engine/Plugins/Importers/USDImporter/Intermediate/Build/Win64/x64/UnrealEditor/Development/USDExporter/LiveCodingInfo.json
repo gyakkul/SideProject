@@ -1,0 +1,42 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDExporter.cpp.obj": [
+			"AnimSequenceExporterUSD.gen.cpp.obj",
+			"AnimSequenceExporterUSDOptions.gen.cpp.obj",
+			"LevelExporterUSD.gen.cpp.obj",
+			"LevelExporterUSDOptions.gen.cpp.obj",
+			"LevelSequenceExporterUSD.gen.cpp.obj",
+			"LevelSequenceExporterUSDOptions.gen.cpp.obj",
+			"MaterialExporterUSD.gen.cpp.obj",
+			"MaterialExporterUSDOptions.gen.cpp.obj",
+			"SkeletalMeshExporterUSD.gen.cpp.obj",
+			"SkeletalMeshExporterUSDOptions.gen.cpp.obj",
+			"StaticMeshExporterUSD.gen.cpp.obj",
+			"StaticMeshExporterUSDOptions.gen.cpp.obj",
+			"USDAssetOptions.gen.cpp.obj",
+			"USDConversionBlueprintContext.gen.cpp.obj",
+			"USDConversionBlueprintLibrary.gen.cpp.obj",
+			"USDExporter.init.gen.cpp.obj",
+			"USDExporterBlueprintLibrary.gen.cpp.obj",
+			"AnimSequenceExporterUSD.cpp.obj",
+			"AnimSequenceExporterUSDOptions.cpp.obj",
+			"LevelExporterUSD.cpp.obj",
+			"LevelExporterUSDOptions.cpp.obj",
+			"LevelExporterUSDOptionsCustomization.cpp.obj",
+			"LevelSequenceExporterUSD.cpp.obj",
+			"LevelSequenceExporterUSDOptions.cpp.obj",
+			"MaterialExporterUSD.cpp.obj",
+			"MaterialExporterUSDOptions.cpp.obj",
+			"SkeletalMeshExporterUSD.cpp.obj",
+			"SkeletalMeshExporterUSDOptions.cpp.obj",
+			"StaticMeshExporterUSD.cpp.obj",
+			"StaticMeshExporterUSDOptions.cpp.obj",
+			"USDAssetOptions.cpp.obj",
+			"USDConversionBlueprintContext.cpp.obj",
+			"USDConversionBlueprintLibrary.cpp.obj",
+			"USDExporterBlueprintLibrary.cpp.obj",
+			"USDExporterModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassRepresentation.cpp.obj": [
+			"MassRepresentation.init.gen.cpp.obj",
+			"MassRepresentationActorManagement.gen.cpp.obj",
+			"MassRepresentationFragments.gen.cpp.obj",
+			"MassRepresentationProcessor.gen.cpp.obj",
+			"MassRepresentationSubsystem.gen.cpp.obj",
+			"MassRepresentationTypes.gen.cpp.obj",
+			"MassUpdateISMProcessor.gen.cpp.obj",
+			"MassVisualizationComponent.gen.cpp.obj",
+			"MassVisualizationLODProcessor.gen.cpp.obj",
+			"MassVisualizationTrait.gen.cpp.obj",
+			"MassVisualizer.gen.cpp.obj",
+			"MassRepresentationActorManagement.cpp.obj",
+			"MassRepresentationFragments.cpp.obj",
+			"MassRepresentationModule.cpp.obj",
+			"MassRepresentationProcessor.cpp.obj",
+			"MassRepresentationSubsystem.cpp.obj",
+			"MassRepresentationTypes.cpp.obj",
+			"MassUpdateISMProcessor.cpp.obj",
+			"MassVisualizationComponent.cpp.obj",
+			"MassVisualizationLODProcessor.cpp.obj",
+			"MassVisualizationTrait.cpp.obj",
+			"MassVisualizer.cpp.obj"
+		]
+	}
+}

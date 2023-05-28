@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassZoneGraphNavigation.cpp.obj": [
+			"MassZoneGraphNavigation.init.gen.cpp.obj",
+			"MassZoneGraphNavigationFragments.gen.cpp.obj",
+			"MassZoneGraphNavigationProcessors.gen.cpp.obj",
+			"MassZoneGraphNavigationTrait.gen.cpp.obj",
+			"MassZoneGraphNavigationTypes.gen.cpp.obj",
+			"MassZoneGraphNavigationFragments.cpp.obj",
+			"MassZoneGraphNavigationModule.cpp.obj",
+			"MassZoneGraphNavigationProcessors.cpp.obj",
+			"MassZoneGraphNavigationTrait.cpp.obj",
+			"MassZoneGraphNavigationUtils.cpp.obj"
+		]
+	}
+}

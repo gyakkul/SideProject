@@ -1,0 +1,333 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ToolTargets/SkeletalMeshToolTarget.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MODELINGCOMPONENTSEDITORONLY_SkeletalMeshToolTarget_generated_h
+#error "SkeletalMeshToolTarget.generated.h already included, missing '#pragma once' in SkeletalMeshToolTarget.h"
+#endif
+#define MODELINGCOMPONENTSEDITORONLY_SkeletalMeshToolTarget_generated_h
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshReadOnlyToolTarget(); \
+	friend struct Z_Construct_UClass_USkeletalMeshReadOnlyToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshReadOnlyToolTarget, UToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshReadOnlyToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<USkeletalMeshReadOnlyToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshReadOnlyToolTarget(); \
+	friend struct Z_Construct_UClass_USkeletalMeshReadOnlyToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshReadOnlyToolTarget, UToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshReadOnlyToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<USkeletalMeshReadOnlyToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshReadOnlyToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshReadOnlyToolTarget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshReadOnlyToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshReadOnlyToolTarget); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshReadOnlyToolTarget(USkeletalMeshReadOnlyToolTarget&&); \
+	NO_API USkeletalMeshReadOnlyToolTarget(const USkeletalMeshReadOnlyToolTarget&); \
+public: \
+	NO_API virtual ~USkeletalMeshReadOnlyToolTarget();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshReadOnlyToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshReadOnlyToolTarget(USkeletalMeshReadOnlyToolTarget&&); \
+	NO_API USkeletalMeshReadOnlyToolTarget(const USkeletalMeshReadOnlyToolTarget&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshReadOnlyToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshReadOnlyToolTarget); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshReadOnlyToolTarget) \
+	NO_API virtual ~USkeletalMeshReadOnlyToolTarget();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_26_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTSEDITORONLY_API UClass* StaticClass<class USkeletalMeshReadOnlyToolTarget>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshToolTarget(); \
+	friend struct Z_Construct_UClass_USkeletalMeshToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshToolTarget, USkeletalMeshReadOnlyToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<USkeletalMeshToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_INCLASS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshToolTarget(); \
+	friend struct Z_Construct_UClass_USkeletalMeshToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshToolTarget, USkeletalMeshReadOnlyToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<USkeletalMeshToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshToolTarget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshToolTarget); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshToolTarget(USkeletalMeshToolTarget&&); \
+	NO_API USkeletalMeshToolTarget(const USkeletalMeshToolTarget&); \
+public: \
+	NO_API virtual ~USkeletalMeshToolTarget();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshToolTarget(USkeletalMeshToolTarget&&); \
+	NO_API USkeletalMeshToolTarget(const USkeletalMeshToolTarget&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshToolTarget); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshToolTarget) \
+	NO_API virtual ~USkeletalMeshToolTarget();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_81_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_87_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTSEDITORONLY_API UClass* StaticClass<class USkeletalMeshToolTarget>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshReadOnlyToolTargetFactory(); \
+	friend struct Z_Construct_UClass_USkeletalMeshReadOnlyToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshReadOnlyToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshReadOnlyToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_INCLASS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshReadOnlyToolTargetFactory(); \
+	friend struct Z_Construct_UClass_USkeletalMeshReadOnlyToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshReadOnlyToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshReadOnlyToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshReadOnlyToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshReadOnlyToolTargetFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshReadOnlyToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshReadOnlyToolTargetFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshReadOnlyToolTargetFactory(USkeletalMeshReadOnlyToolTargetFactory&&); \
+	NO_API USkeletalMeshReadOnlyToolTargetFactory(const USkeletalMeshReadOnlyToolTargetFactory&); \
+public: \
+	NO_API virtual ~USkeletalMeshReadOnlyToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshReadOnlyToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshReadOnlyToolTargetFactory(USkeletalMeshReadOnlyToolTargetFactory&&); \
+	NO_API USkeletalMeshReadOnlyToolTargetFactory(const USkeletalMeshReadOnlyToolTargetFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshReadOnlyToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshReadOnlyToolTargetFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshReadOnlyToolTargetFactory) \
+	NO_API virtual ~USkeletalMeshReadOnlyToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_110_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_113_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTSEDITORONLY_API UClass* StaticClass<class USkeletalMeshReadOnlyToolTargetFactory>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshToolTargetFactory(); \
+	friend struct Z_Construct_UClass_USkeletalMeshToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_INCLASS \
+private: \
+	static void StaticRegisterNativesUSkeletalMeshToolTargetFactory(); \
+	friend struct Z_Construct_UClass_USkeletalMeshToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(USkeletalMeshToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(USkeletalMeshToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshToolTargetFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshToolTargetFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshToolTargetFactory(USkeletalMeshToolTargetFactory&&); \
+	NO_API USkeletalMeshToolTargetFactory(const USkeletalMeshToolTargetFactory&); \
+public: \
+	NO_API virtual ~USkeletalMeshToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USkeletalMeshToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USkeletalMeshToolTargetFactory(USkeletalMeshToolTargetFactory&&); \
+	NO_API USkeletalMeshToolTargetFactory(const USkeletalMeshToolTargetFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USkeletalMeshToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USkeletalMeshToolTargetFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USkeletalMeshToolTargetFactory) \
+	NO_API virtual ~USkeletalMeshToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_124_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h_127_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTSEDITORONLY_API UClass* StaticClass<class USkeletalMeshToolTargetFactory>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_SkeletalMeshToolTarget_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

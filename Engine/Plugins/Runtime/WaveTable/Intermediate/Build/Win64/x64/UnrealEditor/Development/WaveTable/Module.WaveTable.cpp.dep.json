@@ -1,0 +1,37 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wavetable\\module.wavetable.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\wavetable\\definitions.wavetable.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\unrealeditor\\inc\\wavetable\\uht\\wavetable.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablebank.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablebank.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetable.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetabletransform.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablesettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\unrealeditor\\inc\\wavetable\\uht\\wavetablesettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\unrealeditor\\inc\\wavetable\\uht\\wavetabletransform.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\unrealeditor\\inc\\wavetable\\uht\\wavetablebank.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\objectsavecontext.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\unrealeditor\\inc\\wavetable\\uht\\wavetablebank.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetableimporter.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetableimporter.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablesampler.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\floatarraymath.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablelogging.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablelogging.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablemodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\public\\wavetablemodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablesampler.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetablesettings.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\unrealeditor\\inc\\wavetable\\uht\\wavetablesettings.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\source\\wavetable\\private\\wavetabletransform.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\wavetable\\intermediate\\build\\win64\\unrealeditor\\inc\\wavetable\\uht\\wavetabletransform.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

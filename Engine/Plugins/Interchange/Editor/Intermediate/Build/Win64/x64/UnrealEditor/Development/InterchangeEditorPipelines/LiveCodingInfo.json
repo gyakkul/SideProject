@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeEditorPipelines.cpp.obj": [
+			"InterchangeEditorPipelines.init.gen.cpp.obj",
+			"InterchangePipelineFactories.gen.cpp.obj",
+			"InterchangeEditorPipelineDetails.cpp.obj",
+			"InterchangeEditorPipelinesModule.cpp.obj",
+			"InterchangeGraphInspectorPipeline.cpp.obj",
+			"InterchangeMaterialXPipelineSettingsCustomization.cpp.obj",
+			"InterchangePipelineConfigurationGeneric.cpp.obj",
+			"InterchangePipelineFactories.cpp.obj",
+			"SInterchangeGraphInspectorWindow.cpp.obj",
+			"SInterchangePipelineConfigurationDialog.cpp.obj"
+		]
+	}
+}

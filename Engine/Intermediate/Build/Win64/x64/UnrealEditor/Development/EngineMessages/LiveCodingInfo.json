@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EngineMessages.cpp.obj": [
+			"EngineMessages.init.gen.cpp.obj",
+			"EngineServiceMessages.gen.cpp.obj",
+			"EngineMessagesModule.cpp.obj"
+		]
+	}
+}

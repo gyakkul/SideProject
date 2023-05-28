@@ -1,0 +1,195 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Translators/MassSceneComponentLocationTranslator.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MASSACTORS_MassSceneComponentLocationTranslator_generated_h
+#error "MassSceneComponentLocationTranslator.generated.h already included, missing '#pragma once' in MassSceneComponentLocationTranslator.h"
+#endif
+#define MASSACTORS_MassSceneComponentLocationTranslator_generated_h
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_13_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassSceneComponentWrapperFragment_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FObjectWrapperFragment Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassSceneComponentWrapperFragment>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_20_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassSceneComponentLocationCopyToMassTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassSceneComponentLocationCopyToMassTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassSceneComponentLocationToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassSceneComponentLocationToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassSceneComponentLocationToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassSceneComponentLocationToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassSceneComponentLocationToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassSceneComponentLocationToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassSceneComponentLocationToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassSceneComponentLocationToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassSceneComponentLocationToMassTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassSceneComponentLocationToMassTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassSceneComponentLocationToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassSceneComponentLocationToMassTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassSceneComponentLocationToMassTranslator(UMassSceneComponentLocationToMassTranslator&&); \
+	NO_API UMassSceneComponentLocationToMassTranslator(const UMassSceneComponentLocationToMassTranslator&); \
+public: \
+	NO_API virtual ~UMassSceneComponentLocationToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassSceneComponentLocationToMassTranslator(UMassSceneComponentLocationToMassTranslator&&); \
+	NO_API UMassSceneComponentLocationToMassTranslator(const UMassSceneComponentLocationToMassTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassSceneComponentLocationToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassSceneComponentLocationToMassTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassSceneComponentLocationToMassTranslator) \
+	NO_API virtual ~UMassSceneComponentLocationToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_23_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_26_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassSceneComponentLocationToMassTranslator>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_42_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassSceneComponentLocationCopyToActorTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassSceneComponentLocationCopyToActorTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassSceneComponentLocationToActorTranslator(); \
+	friend struct Z_Construct_UClass_UMassSceneComponentLocationToActorTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassSceneComponentLocationToActorTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassSceneComponentLocationToActorTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassSceneComponentLocationToActorTranslator(); \
+	friend struct Z_Construct_UClass_UMassSceneComponentLocationToActorTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassSceneComponentLocationToActorTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassSceneComponentLocationToActorTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassSceneComponentLocationToActorTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassSceneComponentLocationToActorTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassSceneComponentLocationToActorTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassSceneComponentLocationToActorTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassSceneComponentLocationToActorTranslator(UMassSceneComponentLocationToActorTranslator&&); \
+	NO_API UMassSceneComponentLocationToActorTranslator(const UMassSceneComponentLocationToActorTranslator&); \
+public: \
+	NO_API virtual ~UMassSceneComponentLocationToActorTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassSceneComponentLocationToActorTranslator(UMassSceneComponentLocationToActorTranslator&&); \
+	NO_API UMassSceneComponentLocationToActorTranslator(const UMassSceneComponentLocationToActorTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassSceneComponentLocationToActorTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassSceneComponentLocationToActorTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassSceneComponentLocationToActorTranslator) \
+	NO_API virtual ~UMassSceneComponentLocationToActorTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_45_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h_48_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassSceneComponentLocationToActorTranslator>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassSceneComponentLocationTranslator_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

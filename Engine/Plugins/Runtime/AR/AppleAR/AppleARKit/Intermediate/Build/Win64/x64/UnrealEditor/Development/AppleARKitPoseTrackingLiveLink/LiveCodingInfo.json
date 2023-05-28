@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AppleARKitPoseTrackingLiveLink.cpp.obj": [
+			"AppleARKitPoseTrackingLiveLink.init.gen.cpp.obj",
+			"AppleARKitPoseTrackingLiveLinkRemapAsset.gen.cpp.obj",
+			"AppleARKitPoseTrackingLiveLinkImpl.cpp.obj",
+			"AppleARKitPoseTrackingLiveLinkModule.cpp.obj",
+			"AppleARKitPoseTrackingLiveLinkRemapAsset.cpp.obj",
+			"AppleARKitPoseTrackingLiveLinkSource.cpp.obj"
+		]
+	}
+}

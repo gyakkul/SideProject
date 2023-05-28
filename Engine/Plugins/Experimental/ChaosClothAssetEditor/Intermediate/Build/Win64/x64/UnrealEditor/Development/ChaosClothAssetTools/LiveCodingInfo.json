@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosClothAssetTools.cpp.obj": [
+			"ChaosClothAssetTools.init.gen.cpp.obj",
+			"ChaosClothAssetToolsModule.cpp.obj",
+			"ClothAssetBuilderEditor.cpp.obj",
+			"ClothAssetEditorStyle.cpp.obj",
+			"ClothAssetFactory.cpp.obj",
+			"ClothComponentEditorStyle.cpp.obj",
+			"ClothingAssetToClothAssetExporter.cpp.obj",
+			"ClothPatternToDynamicMesh.cpp.obj"
+		]
+	}
+}

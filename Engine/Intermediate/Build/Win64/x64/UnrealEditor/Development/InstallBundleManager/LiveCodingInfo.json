@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InstallBundleManager.cpp.obj": [
+			"BundlePrereqCombinedStatusHelper.cpp.obj",
+			"InstallBundleCache.cpp.obj",
+			"InstallBundleManagerInterface.cpp.obj",
+			"InstallBundleManagerModule.cpp.obj",
+			"InstallBundleTypes.cpp.obj",
+			"InstallBundleUtils.cpp.obj"
+		]
+	}
+}

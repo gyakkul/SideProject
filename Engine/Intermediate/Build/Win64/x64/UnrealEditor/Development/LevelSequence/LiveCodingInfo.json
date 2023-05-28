@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LevelSequence.cpp.obj": [
+			"DefaultLevelSequenceInstanceData.gen.cpp.obj",
+			"ILevelSequenceMetaData.gen.cpp.obj",
+			"LevelSequence.init.gen.cpp.obj",
+			"LevelSequenceCameraSettings.gen.cpp.obj",
+			"LevelSequenceLegacyObjectReference.gen.cpp.obj",
+			"AnimSequenceLevelSequenceLink.cpp.obj",
+			"LevelSequence.cpp.obj",
+			"LevelSequenceActor.cpp.obj",
+			"LevelSequenceActorSpawner.cpp.obj",
+			"LevelSequenceAnimSequenceLink.cpp.obj",
+			"LevelSequenceBindingReference.cpp.obj",
+			"LevelSequenceBurnIn.cpp.obj",
+			"LevelSequenceDirector.cpp.obj",
+			"LevelSequenceModule.cpp.obj",
+			"LevelSequenceObject.cpp.obj",
+			"LevelSequencePlayer.cpp.obj",
+			"LevelSequenceProjectSettings.cpp.obj",
+			"LevelSequenceSpawnRegister.cpp.obj",
+			"SequenceMediaController.cpp.obj"
+		]
+	}
+}

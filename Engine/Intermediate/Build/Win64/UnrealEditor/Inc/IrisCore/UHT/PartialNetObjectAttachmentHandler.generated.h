@@ -1,0 +1,171 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Iris/ReplicationSystem/NetBlob/PartialNetObjectAttachmentHandler.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef IRISCORE_PartialNetObjectAttachmentHandler_generated_h
+#error "PartialNetObjectAttachmentHandler.generated.h already included, missing '#pragma once' in PartialNetObjectAttachmentHandler.h"
+#endif
+#define IRISCORE_PartialNetObjectAttachmentHandler_generated_h
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_SPARSE_DATA
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_RPC_WRAPPERS
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_ACCESSORS
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPartialNetObjectAttachmentHandlerConfig(); \
+	friend struct Z_Construct_UClass_UPartialNetObjectAttachmentHandlerConfig_Statics; \
+public: \
+	DECLARE_CLASS(UPartialNetObjectAttachmentHandlerConfig, USequentialPartialNetBlobHandlerConfig, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/IrisCore"), NO_API) \
+	DECLARE_SERIALIZER(UPartialNetObjectAttachmentHandlerConfig)
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_INCLASS \
+private: \
+	static void StaticRegisterNativesUPartialNetObjectAttachmentHandlerConfig(); \
+	friend struct Z_Construct_UClass_UPartialNetObjectAttachmentHandlerConfig_Statics; \
+public: \
+	DECLARE_CLASS(UPartialNetObjectAttachmentHandlerConfig, USequentialPartialNetBlobHandlerConfig, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/IrisCore"), NO_API) \
+	DECLARE_SERIALIZER(UPartialNetObjectAttachmentHandlerConfig)
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPartialNetObjectAttachmentHandlerConfig(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPartialNetObjectAttachmentHandlerConfig) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPartialNetObjectAttachmentHandlerConfig); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPartialNetObjectAttachmentHandlerConfig); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPartialNetObjectAttachmentHandlerConfig(UPartialNetObjectAttachmentHandlerConfig&&); \
+	NO_API UPartialNetObjectAttachmentHandlerConfig(const UPartialNetObjectAttachmentHandlerConfig&); \
+public: \
+	NO_API virtual ~UPartialNetObjectAttachmentHandlerConfig();
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPartialNetObjectAttachmentHandlerConfig(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPartialNetObjectAttachmentHandlerConfig(UPartialNetObjectAttachmentHandlerConfig&&); \
+	NO_API UPartialNetObjectAttachmentHandlerConfig(const UPartialNetObjectAttachmentHandlerConfig&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPartialNetObjectAttachmentHandlerConfig); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPartialNetObjectAttachmentHandlerConfig); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPartialNetObjectAttachmentHandlerConfig) \
+	NO_API virtual ~UPartialNetObjectAttachmentHandlerConfig();
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_8_PROLOG
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_SPARSE_DATA \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_RPC_WRAPPERS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_ACCESSORS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_INCLASS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_SPARSE_DATA \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_ACCESSORS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_11_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> IRISCORE_API UClass* StaticClass<class UPartialNetObjectAttachmentHandlerConfig>();
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_SPARSE_DATA
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_RPC_WRAPPERS
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_ACCESSORS
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPartialNetObjectAttachmentHandler(); \
+	friend struct Z_Construct_UClass_UPartialNetObjectAttachmentHandler_Statics; \
+public: \
+	DECLARE_CLASS(UPartialNetObjectAttachmentHandler, USequentialPartialNetBlobHandler, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/IrisCore"), IRISCORE_API) \
+	DECLARE_SERIALIZER(UPartialNetObjectAttachmentHandler)
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesUPartialNetObjectAttachmentHandler(); \
+	friend struct Z_Construct_UClass_UPartialNetObjectAttachmentHandler_Statics; \
+public: \
+	DECLARE_CLASS(UPartialNetObjectAttachmentHandler, USequentialPartialNetBlobHandler, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/IrisCore"), IRISCORE_API) \
+	DECLARE_SERIALIZER(UPartialNetObjectAttachmentHandler)
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	IRISCORE_API UPartialNetObjectAttachmentHandler(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPartialNetObjectAttachmentHandler) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(IRISCORE_API, UPartialNetObjectAttachmentHandler); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPartialNetObjectAttachmentHandler); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	IRISCORE_API UPartialNetObjectAttachmentHandler(UPartialNetObjectAttachmentHandler&&); \
+	IRISCORE_API UPartialNetObjectAttachmentHandler(const UPartialNetObjectAttachmentHandler&); \
+public:
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	IRISCORE_API UPartialNetObjectAttachmentHandler(UPartialNetObjectAttachmentHandler&&); \
+	IRISCORE_API UPartialNetObjectAttachmentHandler(const UPartialNetObjectAttachmentHandler&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(IRISCORE_API, UPartialNetObjectAttachmentHandler); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPartialNetObjectAttachmentHandler); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPartialNetObjectAttachmentHandler)
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_31_PROLOG
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_SPARSE_DATA \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_RPC_WRAPPERS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_ACCESSORS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_INCLASS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_SPARSE_DATA \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_ACCESSORS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> IRISCORE_API UClass* StaticClass<class UPartialNetObjectAttachmentHandler>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Source_Runtime_Experimental_Iris_Core_Private_Iris_ReplicationSystem_NetBlob_PartialNetObjectAttachmentHandler_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

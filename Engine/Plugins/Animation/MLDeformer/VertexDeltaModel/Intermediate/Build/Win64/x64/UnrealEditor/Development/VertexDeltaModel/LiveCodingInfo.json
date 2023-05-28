@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VertexDeltaModel.cpp.obj": [
+			"VertexDeltaModel.gen.cpp.obj",
+			"VertexDeltaModel.init.gen.cpp.obj",
+			"VertexDeltaModelInstance.gen.cpp.obj",
+			"VertexDeltaModelVizSettings.gen.cpp.obj",
+			"VertexDeltaModelTest.cpp.obj",
+			"VertexDeltaGraphDataInterface.cpp.obj",
+			"VertexDeltaGraphDebugDataInterface.cpp.obj",
+			"VertexDeltaModel.cpp.obj",
+			"VertexDeltaModelInstance.cpp.obj"
+		]
+	}
+}

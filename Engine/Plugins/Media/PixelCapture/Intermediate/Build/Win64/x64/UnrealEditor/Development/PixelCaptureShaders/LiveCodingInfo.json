@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelCaptureShaders.cpp.obj": [
+			"PixelCaptureShadersModule.cpp.obj",
+			"RGBToYUVShader.cpp.obj"
+		]
+	}
+}

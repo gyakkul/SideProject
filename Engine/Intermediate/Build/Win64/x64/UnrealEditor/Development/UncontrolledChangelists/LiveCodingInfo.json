@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UncontrolledChangelists.cpp.obj": [
+			"UncontrolledChangelist.cpp.obj",
+			"UncontrolledChangelistsModule.cpp.obj",
+			"UncontrolledChangelistState.cpp.obj"
+		]
+	}
+}

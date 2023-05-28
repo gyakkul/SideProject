@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WindowsTargetPlatform.cpp.obj": [
+			"WindowsTargetPlatform.init.gen.cpp.obj",
+			"WindowsTargetSettings.gen.cpp.obj",
+			"WindowsTargetPlatformClasses.cpp.obj",
+			"WindowsTargetPlatformModule.cpp.obj"
+		]
+	}
+}

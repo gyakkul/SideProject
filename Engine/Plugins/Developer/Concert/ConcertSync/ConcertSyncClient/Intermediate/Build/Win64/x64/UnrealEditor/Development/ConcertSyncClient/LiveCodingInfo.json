@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConcertSyncClient.cpp.obj": [
+			"ConcertAssetContainer.gen.cpp.obj",
+			"ConcertClientWorkspaceData.gen.cpp.obj",
+			"ConcertSyncClient.init.gen.cpp.obj",
+			"ConcertActivityStream.cpp.obj",
+			"ConcertClientDataStore.cpp.obj",
+			"ConcertClientDesktopPresenceActor.cpp.obj",
+			"ConcertClientLiveTransactionAuthors.cpp.obj",
+			"ConcertClientLocalDataStore.cpp.obj",
+			"ConcertClientLockManager.cpp.obj",
+			"ConcertClientMovement.cpp.obj",
+			"ConcertClientPackageBridge.cpp.obj",
+			"ConcertClientPackageManager.cpp.obj",
+			"ConcertClientPresenceActor.cpp.obj",
+			"ConcertClientPresenceManager.cpp.obj",
+			"ConcertClientPresenceMode.cpp.obj",
+			"ConcertClientSequencerManager.cpp.obj",
+			"ConcertClientTransactionBridge.cpp.obj",
+			"ConcertClientTransactionManager.cpp.obj",
+			"ConcertClientVRPresenceActor.cpp.obj",
+			"ConcertClientWorkspace.cpp.obj",
+			"ConcertSandboxPlatformFile.cpp.obj",
+			"ConcertSourceControlProxy.cpp.obj",
+			"ConcertSyncClient.cpp.obj",
+			"ConcertSyncClientLiveSession.cpp.obj",
+			"ConcertSyncClientModule.cpp.obj",
+			"ConcertSyncClientUtil.cpp.obj",
+			"ConcertClientLiveTransactionAuthorsTests.cpp.obj"
+		]
+	}
+}

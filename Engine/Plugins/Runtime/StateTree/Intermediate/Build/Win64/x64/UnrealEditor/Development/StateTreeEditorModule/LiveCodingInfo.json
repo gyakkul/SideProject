@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StateTreeEditorModule.cpp.obj": [
+			"StateTreeEditorModule.init.gen.cpp.obj",
+			"StateTreeEditorNode.gen.cpp.obj",
+			"StateTreeEditorSettings.gen.cpp.obj",
+			"StateTreeToolMenuContext.gen.cpp.obj",
+			"AssetTypeActions_StateTree.cpp.obj",
+			"StateTreeCompileAllCommandlet.cpp.obj",
+			"StateTreeAnyEnumDetails.cpp.obj",
+			"StateTreeBindingExtension.cpp.obj",
+			"StateTreeEditorDataDetails.cpp.obj",
+			"StateTreeEditorNodeDetails.cpp.obj",
+			"StateTreeReferenceDetails.cpp.obj",
+			"StateTreeStateDetails.cpp.obj",
+			"StateTreeStateLinkDetails.cpp.obj",
+			"StateTreeStateParametersDetails.cpp.obj",
+			"StateTreeTransitionDetails.cpp.obj",
+			"SStateTreeView.cpp.obj",
+			"SStateTreeViewRow.cpp.obj",
+			"StateTreeCompiler.cpp.obj",
+			"StateTreeCompilerLog.cpp.obj",
+			"StateTreeEditor.cpp.obj",
+			"StateTreeEditorCommands.cpp.obj",
+			"StateTreeEditorData.cpp.obj",
+			"StateTreeEditorModule.cpp.obj",
+			"StateTreeEditorPropertyBindings.cpp.obj",
+			"StateTreeEditorSettings.cpp.obj",
+			"StateTreeEditorStyle.cpp.obj",
+			"StateTreeFactory.cpp.obj",
+			"StateTreeNodeClassCache.cpp.obj",
+			"StateTreeObjectHash.cpp.obj",
+			"StateTreePropertyBindingCompiler.cpp.obj",
+			"StateTreeState.cpp.obj",
+			"StateTreeViewModel.cpp.obj"
+		]
+	}
+}

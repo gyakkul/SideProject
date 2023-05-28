@@ -1,0 +1,79 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Landscape.1_of_6.cpp.obj": [
+			"ControlPointMeshComponent.gen.cpp.obj",
+			"ILandscapeSplineInterface.gen.cpp.obj",
+			"Landscape.gen.cpp.obj",
+			"Landscape.init.gen.cpp.obj",
+			"LandscapeComponent.gen.cpp.obj",
+			"LandscapeGizmoActiveActor.gen.cpp.obj",
+			"LandscapeGizmoRenderComponent.gen.cpp.obj",
+			"LandscapeGrassType.gen.cpp.obj",
+			"LandscapeHeightfieldCollisionComponent.gen.cpp.obj"
+		],
+		"Module.Landscape.2_of_6.cpp.obj": [
+			"LandscapeLayerInfoObject.gen.cpp.obj",
+			"LandscapeMaterialInstanceConstant.gen.cpp.obj",
+			"LandscapeMeshCollisionComponent.gen.cpp.obj",
+			"LandscapeMeshProxyActor.gen.cpp.obj",
+			"LandscapeMeshProxyComponent.gen.cpp.obj",
+			"LandscapeSettings.gen.cpp.obj",
+			"LandscapeSplineControlPoint.gen.cpp.obj",
+			"LandscapeSplinesComponent.gen.cpp.obj",
+			"LandscapeSplineSegment.gen.cpp.obj",
+			"LandscapeStreamingProxy.gen.cpp.obj",
+			"LandscapeWeightmapUsage.gen.cpp.obj",
+			"MaterialExpressionLandscapeGrassOutput.gen.cpp.obj",
+			"MaterialExpressionLandscapeLayerBlend.gen.cpp.obj",
+			"MaterialExpressionLandscapeLayerCoords.gen.cpp.obj"
+		],
+		"Module.Landscape.3_of_6.cpp.obj": [
+			"ControlPointMeshActor.cpp.obj",
+			"Landscape.cpp.obj",
+			"LandscapeBlueprintBrushBase.cpp.obj",
+			"LandscapeBlueprintSupport.cpp.obj",
+			"LandscapeCollision.cpp.obj",
+			"LandscapeComponent.cpp.obj",
+			"LandscapeConfigHelper.cpp.obj",
+			"LandscapeDataAccess.cpp.obj",
+			"LandscapeEdit.cpp.obj"
+		],
+		"Module.Landscape.4_of_6.cpp.obj": [
+			"LandscapeEditInterface.cpp.obj",
+			"LandscapeEditLayers.cpp.obj"
+		],
+		"Module.Landscape.5_of_6.cpp.obj": [
+			"LandscapeEditReadback.cpp.obj",
+			"LandscapeEditResources.cpp.obj",
+			"LandscapeGizmoActor.cpp.obj",
+			"LandscapeGrass.cpp.obj",
+			"LandscapeHLODBuilder.cpp.obj",
+			"LandscapeInfo.cpp.obj",
+			"LandscapeInfoMap.cpp.obj",
+			"LandscapeLight.cpp.obj",
+			"LandscapeModule.cpp.obj",
+			"LandscapeNaniteComponent.cpp.obj",
+			"LandscapeNotification.cpp.obj",
+			"LandscapePhysicalMaterial.cpp.obj",
+			"LandscapeProxy.cpp.obj",
+			"LandscapeRender.cpp.obj"
+		],
+		"Module.Landscape.6_of_6.cpp.obj": [
+			"LandscapeSplineActor.cpp.obj",
+			"LandscapeSplineMeshesActor.cpp.obj",
+			"LandscapeSplineProxies.cpp.obj",
+			"LandscapeSplineRaster.cpp.obj",
+			"LandscapeSplines.cpp.obj",
+			"LandscapeSubsystem.cpp.obj",
+			"LandscapeUtils.cpp.obj",
+			"MaterialExpressionLandscapeLayerBlend.cpp.obj",
+			"MaterialExpressionLandscapeLayerCoords.cpp.obj",
+			"MaterialExpressionLandscapeLayerSample.cpp.obj",
+			"MaterialExpressionLandscapeLayerSwitch.cpp.obj",
+			"MaterialExpressionLandscapeLayerWeight.cpp.obj",
+			"MaterialExpressionLandscapePhysicalMaterialOutput.cpp.obj",
+			"MaterialExpressionLandscapeVisibilityMask.cpp.obj"
+		]
+	}
+}

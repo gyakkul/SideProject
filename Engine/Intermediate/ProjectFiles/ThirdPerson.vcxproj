@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|arm64">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|arm64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|x64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|arm64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|arm64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|x64">
+      <Configuration>Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|arm64">
+      <Configuration>Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|arm64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|x64">
+      <Configuration>Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|arm64">
+      <Configuration>Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|arm64">
+      <Configuration>Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A7128173-40EF-3FCC-96A5-9D686F53B530}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>ThirdPerson</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>..\Build\Unused\</OutDir>
+    <IntDir>..\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>..\Build\Unused\</OutDir>
+    <IntDir>..\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson Win64 Debug -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson Win64 Debug -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson Win64 Debug -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\Win64\ThirdPerson-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat -Target="ThirdPersonEditor Win64 Debug -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat -Target="ThirdPersonEditor Win64 Debug -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat -Target="ThirdPersonEditor Win64 Debug -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealEditor-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson HoloLens Debug -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson HoloLens Debug -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson HoloLens Debug -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\HoloLens\ThirdPerson-HoloLens-Debugx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson Win64 DebugGame -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson Win64 DebugGame -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson Win64 DebugGame -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\Win64\ThirdPerson-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat -Target="ThirdPersonEditor Win64 DebugGame -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat -Target="ThirdPersonEditor Win64 DebugGame -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat -Target="ThirdPersonEditor Win64 DebugGame -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson HoloLens DebugGame -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson HoloLens DebugGame -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson HoloLens DebugGame -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\HoloLens\ThirdPerson-HoloLens-DebugGamex64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson Win64 Development -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson Win64 Development -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson Win64 Development -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\Win64\ThirdPerson.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat -Target="ThirdPersonEditor Win64 Development -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat -Target="ThirdPersonEditor Win64 Development -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat -Target="ThirdPersonEditor Win64 Development -Project=\"$(SolutionDir)ThirdPerson\ThirdPerson.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UnrealEditor.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson HoloLens Development -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson HoloLens Development -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson HoloLens Development -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\HoloLens\ThirdPersonx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson Win64 Test -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson Win64 Test -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson Win64 Test -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\Win64\ThirdPerson-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson HoloLens Test -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson HoloLens Test -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson HoloLens Test -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\HoloLens\ThirdPerson-HoloLens-Testx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson Win64 Shipping -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson Win64 Shipping -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson Win64 Shipping -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\Win64\ThirdPerson-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ThirdPerson HoloLens Shipping -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ThirdPerson HoloLens Shipping -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ThirdPerson HoloLens Shipping -Project="$(SolutionDir)ThirdPerson\ThirdPerson.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\..\ThirdPerson\Binaries\HoloLens\ThirdPerson-HoloLens-Shippingx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);..\..\Source;..\..\..\ThirdPerson\Intermediate\Build\Win64\UnrealEditor\Inc\ThirdPerson\UHT;..\..\..\ThirdPerson\Intermediate\Build\Win64\UnrealEditor\Inc\ThirdPerson\VNI;..\..\..\ThirdPerson\Source;..\Build\Win64\UnrealEditor\Inc\Core\UHT;..\Build\Win64\UnrealEditor\Inc\Core\VNI;..\..\Source\Runtime\TraceLog\Public;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime;..\Build\Win64\UnrealEditor\Inc\TraceLog\UHT;..\Build\Win64\UnrealEditor\Inc\TraceLog\VNI;..\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT;..\Build\Win64\UnrealEditor\Inc\CoreUObject\VNI;..\..\Source\Runtime\CoreUObject\Public;..\Build\Win64\UnrealEditor\Inc\Engine\UHT;..\Build\Win64\UnrealEditor\Inc\Engine\VNI;..\..\Shaders\Shared;..\..\Source\Runtime\Engine\Classes;..\..\Source\Runtime\Engine\Public;..\Build\Win64\UnrealEditor\Inc\CoreOnline\UHT;..\Build\Win64\UnrealEditor\Inc\CoreOnline\VNI;..\..\Source\Runtime\CoreOnline\Public;..\Build\Win64\UnrealEditor\Inc\NetCore\UHT;..\Build\Win64\UnrealEditor\Inc\NetCore\VNI;..\..\Source\Runtime\Net\Core\Classes;..\..\Source\Runtime\Net\Core\Public;..\..\Source\Runtime\Net;..\Build\Win64\UnrealEditor\Inc\NetCommon\UHT;..\Build\Win64\UnrealEditor\Inc\NetCommon\VNI;..\..\Source\Runtime\Net\Common\Public;..\Build\Win64\UnrealEditor\Inc\ApplicationCore\UHT;..\Build\Win64\UnrealEditor\Inc\ApplicationCore\VNI;..\..\Source\Runtime\ApplicationCore\Public;..\Build\Win64\UnrealEditor\Inc\RHI\UHT;..\Build\Win64\UnrealEditor\Inc\RHI\VNI;..\..\Source\Runtime\RHI\Public;..\Build\Win64\UnrealEditor\Inc\ImageCore\UHT;..\Build\Win64\UnrealEditor\Inc\ImageCore\VNI;..\..\Source\Runtime\ImageCore\Public;..\Build\Win64\UnrealEditor\Inc\Json\UHT;..\Build\Win64\UnrealEditor\Inc\Json\VNI;..\..\Source\Runtime\Json\Public;..\Build\Win64\UnrealEditor\Inc\JsonUtilities\UHT;..\Build\Win64\UnrealEditor\Inc\JsonUtilities\VNI;..\..\Source\Runtime\JsonUtilities\Public;..\Build\Win64\UnrealEditor\Inc\SlateCore\UHT;..\Build\Win64\UnrealEditor\Inc\SlateCore\VNI;..\..\Source\Runtime\SlateCore\Public;..\Build\Win64\UnrealEditor\Inc\InputCore\UHT;..\Build\Win64\UnrealEditor\Inc\InputCore\VNI;..\..\Source\Runtime\InputCore\Classes;..\..\Source\Runtime\InputCore\Public;..\Build\Win64\UnrealEditor\Inc\Slate\UHT;..\Build\Win64\UnrealEditor\Inc\Slate\VNI;..\..\Source\Runtime\Slate\Public;..\Build\Win64\UnrealEditor\Inc\ImageWrapper\UHT;..\Build\Win64\UnrealEditor\Inc\ImageWrapper\VNI;..\..\Source\Runtime\ImageWrapper\Public;..\..\Source\ThirdParty;..\Build\Win64\UnrealEditor\Inc\Messaging\UHT;..\Build\Win64\UnrealEditor\Inc\Messaging\VNI;..\..\Source\Runtime\Messaging\Public;..\Build\Win64\UnrealEditor\Inc\MessagingCommon\UHT;..\Build\Win64\UnrealEditor\Inc\MessagingCommon\VNI;..\..\Source\Runtime\MessagingCommon\Public;..\Build\Win64\UnrealEditor\Inc\RenderCore\UHT;..\Build\Win64\UnrealEditor\Inc\RenderCore\VNI;..\..\Source\Runtime\RenderCore\Public;..\Build\Win64\UnrealEditor\Inc\AnalyticsET\UHT;..\Build\Win64\UnrealEditor\Inc\AnalyticsET\VNI;..\..\Source\Runtime\Analytics\AnalyticsET\Public;..\..\Source\Runtime\Analytics;..\Build\Win64\UnrealEditor\Inc\Analytics\UHT;..\Build\Win64\UnrealEditor\Inc\Analytics\VNI;..\..\Source\Runtime\Analytics\Analytics\Public;..\Build\Win64\UnrealEditor\Inc\Sockets\UHT;..\Build\Win64\UnrealEditor\Inc\Sockets\VNI;..\..\Source\Runtime\Sockets\Public;..\Build\Win64\UnrealEditor\Inc\AssetRegistry\UHT;..\Build\Win64\UnrealEditor\Inc\AssetRegistry\VNI;..\..\Source\Runtime\AssetRegistry\Public;..\Build\Win64\UnrealEditor\Inc\EngineMessages\UHT;..\Build\Win64\UnrealEditor\Inc\EngineMessages\VNI;..\..\Source\Runtime\EngineMessages\Public;..\Build\Win64\UnrealEditor\Inc\EngineSettings\UHT;..\Build\Win64\UnrealEditor\Inc\EngineSettings\VNI;..\..\Source\Runtime\EngineSettings\Classes;..\..\Source\Runtime\EngineSettings\Public;..\Build\Win64\UnrealEditor\Inc\SynthBenchmark\UHT;..\Build\Win64\UnrealEditor\Inc\SynthBenchmark\VNI;..\..\Source\Runtime\SynthBenchmark\Public;..\Build\Win64\UnrealEditor\Inc\Renderer\UHT;..\Build\Win64\UnrealEditor\Inc\Renderer\VNI;..\..\Source\Runtime\Renderer\Public;..\Build\Win64\UnrealEditor\Inc\GameplayTags\UHT;..\Build\Win64\UnrealEditor\Inc\GameplayTags\VNI;..\..\Source\Runtime\GameplayTags\Classes;..\..\Source\Runtime\GameplayTags\Public;..\Build\Win64\UnrealEditor\Inc\DeveloperSettings\UHT;..\Build\Win64\UnrealEditor\Inc\DeveloperSettings\VNI;..\..\Source\Runtime\DeveloperSettings\Public;..\Build\Win64\UnrealEditor\Inc\PacketHandler\UHT;..\Build\Win64\UnrealEditor\Inc\PacketHandler\VNI;..\..\Source\Runtime\PacketHandlers\PacketHandler\Classes;..\..\Source\Runtime\PacketHandlers\PacketHandler\Public;..\..\Source\Runtime\PacketHandlers;..\Build\Win64\UnrealEditor\Inc\ReliableHComp\UHT;..\Build\Win64\UnrealEditor\Inc\ReliableHComp\VNI;..\..\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;..\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration\UHT;..\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration\VNI;..\..\Source\Runtime\AudioPlatformConfiguration\Public;..\Build\Win64\UnrealEditor\Inc\MeshDescription\UHT;..\Build\Win64\UnrealEditor\Inc\MeshDescription\VNI;..\..\Source\Runtime\MeshDescription\Public;..\Build\Win64\UnrealEditor\Inc\StaticMeshDescription\UHT;..\Build\Win64\UnrealEditor\Inc\StaticMeshDescription\VNI;..\..\Source\Runtime\StaticMeshDescription\Public;..\Build\Win64\UnrealEditor\Inc\SkeletalMeshDescription\UHT;..\Build\Win64\UnrealEditor\Inc\SkeletalMeshDescription\VNI;..\..\Source\Runtime\SkeletalMeshDescription\Public;..\Build\Win64\UnrealEditor\Inc\AnimationCore\UHT;..\Build\Win64\UnrealEditor\Inc\AnimationCore\VNI;..\..\Source\Runtime\AnimationCore\Public;..\Build\Win64\UnrealEditor\Inc\PakFile\UHT;..\Build\Win64\UnrealEditor\Inc\PakFile\VNI;..\..\Source\Runtime\PakFile\Public;..\Build\Win64\UnrealEditor\Inc\RSA\UHT;..\Build\Win64\UnrealEditor\Inc\RSA\VNI;..\..\Source\Runtime\RSA\Public;..\Build\Win64\UnrealEditor\Inc\NetworkReplayStreaming\UHT;..\Build\Win64\UnrealEditor\Inc\NetworkReplayStreaming\VNI;..\..\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;..\..\Source\Runtime\NetworkReplayStreaming;..\Build\Win64\UnrealEditor\Inc\PhysicsCore\UHT;..\Build\Win64\UnrealEditor\Inc\PhysicsCore\VNI;..\..\Source\Runtime\PhysicsCore\Public;..\Build\Win64\UnrealEditor\Inc\ChaosCore\UHT;..\Build\Win64\UnrealEditor\Inc\ChaosCore\VNI;..\..\Source\Runtime\Experimental\ChaosCore\Public;..\..\Source\Runtime\Experimental;..\..\Source\ThirdParty\Intel;..\Build\Win64\UnrealEditor\Inc\Chaos\UHT;..\Build\Win64\UnrealEditor\Inc\Chaos\VNI;..\..\Source\Runtime\Experimental\Chaos\Public;..\Build\Win64\UnrealEditor\Inc\Voronoi\UHT;..\Build\Win64\UnrealEditor\Inc\Voronoi\VNI;..\..\Source\Runtime\Experimental\Voronoi\Public;..\Build\Win64\UnrealEditor\Inc\GeometryCore\UHT;..\Build\Win64\UnrealEditor\Inc\GeometryCore\VNI;..\..\Source\Runtime\GeometryCore\Public;..\Build\Win64\UnrealEditor\Inc\SignalProcessing\UHT;..\Build\Win64\UnrealEditor\Inc\SignalProcessing\VNI;..\..\Source\Runtime\SignalProcessing\Public;..\Build\Win64\UnrealEditor\Inc\AudioExtensions\UHT;..\Build\Win64\UnrealEditor\Inc\AudioExtensions\VNI;..\..\Source\Runtime\AudioExtensions\Public;..\Build\Win64\UnrealEditor\Inc\AudioMixerCore\UHT;..\Build\Win64\UnrealEditor\Inc\AudioMixerCore\VNI;..\..\Source\Runtime\AudioMixerCore\Public;..\Build\Win64\UnrealEditor\Inc\AudioLinkCore\UHT;..\Build\Win64\UnrealEditor\Inc\AudioLinkCore\VNI;..\..\Source\Runtime\AudioLink\AudioLinkCore\Public;..\..\Source\Runtime\AudioLink;..\Build\Win64\UnrealEditor\Inc\CookOnTheFly\UHT;..\Build\Win64\UnrealEditor\Inc\CookOnTheFly\VNI;..\Build\Win64\UnrealEditor\Inc\Networking\UHT;..\Build\Win64\UnrealEditor\Inc\Networking\VNI;..\..\Source\Runtime\Networking\Public;..\Build\Win64\UnrealEditor\Inc\TextureBuildUtilities\UHT;..\Build\Win64\UnrealEditor\Inc\TextureBuildUtilities\VNI;..\..\Source\Developer\TextureBuildUtilities\Public;..\..\Source\Developer;..\Build\Win64\UnrealEditor\Inc\UnrealEd\UHT;..\Build\Win64\UnrealEditor\Inc\UnrealEd\VNI;..\..\Source\Programs\UnrealLightmass\Public;..\..\Source\Editor\UnrealEd\Classes;..\..\Source\Editor\UnrealEd\Public;..\..\Source\Editor;..\Build\Win64\UnrealEditor\Inc\AssetDefinition\UHT;..\Build\Win64\UnrealEditor\Inc\AssetDefinition\VNI;..\..\Source\Editor\AssetDefinition\Public;..\Build\Win64\UnrealEditor\Inc\EditorSubsystem\UHT;..\Build\Win64\UnrealEditor\Inc\EditorSubsystem\VNI;..\..\Source\Editor\EditorSubsystem\Public;..\Build\Win64\UnrealEditor\Inc\DirectoryWatcher\UHT;..\Build\Win64\UnrealEditor\Inc\DirectoryWatcher\VNI;..\..\Source\Developer\DirectoryWatcher\Public;..\Build\Win64\UnrealEditor\Inc\Documentation\UHT;..\Build\Win64\UnrealEditor\Inc\Documentation\VNI;..\..\Source\Editor\Documentation\Public;..\Build\Win64\UnrealEditor\Inc\MainFrame\UHT;..\Build\Win64\UnrealEditor\Inc\MainFrame\VNI;..\..\Source\Editor\MainFrame\Public;..\Build\Win64\UnrealEditor\Inc\Projects\UHT;..\Build\Win64\UnrealEditor\Inc\Projects\VNI;..\..\Source\Runtime\Projects\Public;..\Build\Win64\UnrealEditor\Inc\SandboxFile\UHT;..\Build\Win64\UnrealEditor\Inc\SandboxFile\VNI;..\..\Source\Runtime\SandboxFile\Public;..\Build\Win64\UnrealEditor\Inc\EditorFramework\UHT;..\Build\Win64\UnrealEditor\Inc\EditorFramework\VNI;..\..\Source\Editor\EditorFramework\Public;..\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework\UHT;..\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework\VNI;..\..\Source\Runtime\InteractiveToolsFramework\Public;..\Build\Win64\UnrealEditor\Inc\TypedElementFramework\UHT;..\Build\Win64\UnrealEditor\Inc\TypedElementFramework\VNI;..\..\Source\Runtime\TypedElementFramework\Public;..\Build\Win64\UnrealEditor\Inc\TypedElementRuntime\UHT;..\Build\Win64\UnrealEditor\Inc\TypedElementRuntime\VNI;..\..\Source\Runtime\TypedElementRuntime\Public;..\Build\Win64\UnrealEditor\Inc\SourceControl\UHT;..\Build\Win64\UnrealEditor\Inc\SourceControl\VNI;..\..\Source\Developer\SourceControl\Public;..\Build\Win64\UnrealEditor\Inc\UncontrolledChangelists\UHT;..\Build\Win64\UnrealEditor\Inc\UncontrolledChangelists\VNI;..\..\Source\Developer\UncontrolledChangelists\Public;..\Build\Win64\UnrealEditor\Inc\UnrealEdMessages\UHT;..\Build\Win64\UnrealEditor\Inc\UnrealEdMessages\VNI;..\..\Source\Editor\UnrealEdMessages\Classes;..\..\Source\Editor\UnrealEdMessages\Public;..\Build\Win64\UnrealEditor\Inc\GameplayDebugger\UHT;..\Build\Win64\UnrealEditor\Inc\GameplayDebugger\VNI;..\..\Source\Runtime\GameplayDebugger\Public;..\Build\Win64\UnrealEditor\Inc\BlueprintGraph\UHT;..\Build\Win64\UnrealEditor\Inc\BlueprintGraph\VNI;..\..\Source\Editor\BlueprintGraph\Classes;..\..\Source\Editor\BlueprintGraph\Public;..\Build\Win64\UnrealEditor\Inc\HTTP\UHT;..\Build\Win64\UnrealEditor\Inc\HTTP\VNI;..\..\Source\Runtime\Online\HTTP\Public;..\..\Source\Runtime\Online;..\Build\Win64\UnrealEditor\Inc\FunctionalTesting\UHT;..\Build\Win64\UnrealEditor\Inc\FunctionalTesting\VNI;..\..\Source\Developer\FunctionalTesting\Classes;..\..\Source\Developer\FunctionalTesting\Public;..\Build\Win64\UnrealEditor\Inc\AutomationController\UHT;..\Build\Win64\UnrealEditor\Inc\AutomationController\VNI;..\..\Source\Developer\AutomationController\Public;..\Build\Win64\UnrealEditor\Inc\AutomationTest\UHT;..\Build\Win64\UnrealEditor\Inc\AutomationTest\VNI;..\..\Source\Runtime\AutomationTest\Public;..\Build\Win64\UnrealEditor\Inc\Localization\UHT;..\Build\Win64\UnrealEditor\Inc\Localization\VNI;..\..\Source\Developer\Localization\Public;..\Build\Win64\UnrealEditor\Inc\AudioEditor\UHT;..\Build\Win64\UnrealEditor\Inc\AudioEditor\VNI;..\..\Source\Editor\AudioEditor\Classes;..\..\Source\Editor\AudioEditor\Public;..\Build\Win64\UnrealEditor\Inc\AudioMixer\UHT;..\Build\Win64\UnrealEditor\Inc\AudioMixer\VNI;..\..\Source\Runtime\AudioMixer\Classes;..\..\Source\Runtime\AudioMixer\Public;..\Build\Win64\UnrealEditor\Inc\AudioLinkEngine\UHT;..\Build\Win64\UnrealEditor\Inc\AudioLinkEngine\VNI;..\..\Source\Runtime\AudioLink\AudioLinkEngine\Public;..\Build\Win64\UnrealEditor\Inc\TargetPlatform\UHT;..\Build\Win64\UnrealEditor\Inc\TargetPlatform\VNI;..\..\Source\Developer\TargetPlatform\Public;..\Build\Win64\UnrealEditor\Inc\TextureFormat\UHT;..\Build\Win64\UnrealEditor\Inc\TextureFormat\VNI;..\..\Source\Developer\TextureFormat\Public;..\Build\Win64\UnrealEditor\Inc\LevelEditor\UHT;..\Build\Win64\UnrealEditor\Inc\LevelEditor\VNI;..\..\Source\Editor\LevelEditor\Public;..\Build\Win64\UnrealEditor\Inc\Settings\UHT;..\Build\Win64\UnrealEditor\Inc\Settings\VNI;..\..\Source\Developer\Settings\Public;..\Build\Win64\UnrealEditor\Inc\HeadMountedDisplay\UHT;..\Build\Win64\UnrealEditor\Inc\HeadMountedDisplay\VNI;..\..\Source\Runtime\HeadMountedDisplay\Public;..\Build\Win64\UnrealEditor\Inc\VREditor\UHT;..\Build\Win64\UnrealEditor\Inc\VREditor\VNI;..\..\Source\Editor\VREditor;..\..\Source\Editor\VREditor\Public;..\Build\Win64\UnrealEditor\Inc\CommonMenuExtensions\UHT;..\Build\Win64\UnrealEditor\Inc\CommonMenuExtensions\VNI;..\..\Source\Editor\CommonMenuExtensions\Public;..\Build\Win64\UnrealEditor\Inc\Landscape\UHT;..\Build\Win64\UnrealEditor\Inc\Landscape\VNI;..\..\Source\Runtime\Landscape\Classes;..\..\Source\Runtime\Landscape\Public;..\Build\Win64\UnrealEditor\Inc\PropertyEditor\UHT;..\Build\Win64\UnrealEditor\Inc\PropertyEditor\VNI;..\..\Source\Editor\PropertyEditor\Public;..\Build\Win64\UnrealEditor\Inc\ActorPickerMode\UHT;..\Build\Win64\UnrealEditor\Inc\ActorPickerMode\VNI;..\..\Source\Editor\ActorPickerMode\Public;..\Build\Win64\UnrealEditor\Inc\SceneDepthPickerMode\UHT;..\Build\Win64\UnrealEditor\Inc\SceneDepthPickerMode\VNI;..\..\Source\Editor\SceneDepthPickerMode\Public;..\Build\Win64\UnrealEditor\Inc\EditorConfig\UHT;..\Build\Win64\UnrealEditor\Inc\EditorConfig\VNI;..\..\Source\Editor\EditorConfig\Public;..\Build\Win64\UnrealEditor\Inc\DetailCustomizations\UHT;..\Build\Win64\UnrealEditor\Inc\DetailCustomizations\VNI;..\..\Source\Editor\DetailCustomizations\Public;..\Build\Win64\UnrealEditor\Inc\ClassViewer\UHT;..\Build\Win64\UnrealEditor\Inc\ClassViewer\VNI;..\..\Source\Editor\ClassViewer\Public;..\Build\Win64\UnrealEditor\Inc\GraphEditor\UHT;..\Build\Win64\UnrealEditor\Inc\GraphEditor\VNI;..\..\Source\Editor\GraphEditor\Public;..\Build\Win64\UnrealEditor\Inc\StructViewer\UHT;..\Build\Win64\UnrealEditor\Inc\StructViewer\VNI;..\..\Source\Editor\StructViewer\Public;..\Build\Win64\UnrealEditor\Inc\ContentBrowser\UHT;..\Build\Win64\UnrealEditor\Inc\ContentBrowser\VNI;..\..\Source\Editor\ContentBrowser\Public;..\Build\Win64\UnrealEditor\Inc\AssetTools\UHT;..\Build\Win64\UnrealEditor\Inc\AssetTools\VNI;..\..\Source\Developer\AssetTools\Public;..\Build\Win64\UnrealEditor\Inc\Merge\UHT;..\Build\Win64\UnrealEditor\Inc\Merge\VNI;..\..\Source\Developer\Merge\Public;..\Build\Win64\UnrealEditor\Inc\CollectionManager\UHT;..\Build\Win64\UnrealEditor\Inc\CollectionManager\VNI;..\..\Source\Developer\CollectionManager\Public;..\Build\Win64\UnrealEditor\Inc\ContentBrowserData\UHT;..\Build\Win64\UnrealEditor\Inc\ContentBrowserData\VNI;..\..\Source\Editor\ContentBrowserData\Public;..\Build\Win64\UnrealEditor\Inc\UELibSampleRate\UHT;..\Build\Win64\UnrealEditor\Inc\UELibSampleRate\VNI;..\..\Source\ThirdParty\libSampleRate\Public;..\Build\Win64\UnrealEditor\Inc\NetworkFileSystem\UHT;..\Build\Win64\UnrealEditor\Inc\NetworkFileSystem\VNI;..\..\Source\Runtime\NetworkFileSystem\Public;..\Build\Win64\UnrealEditor\Inc\UMG\UHT;..\Build\Win64\UnrealEditor\Inc\UMG\VNI;..\..\Source\Runtime\UMG\Public;..\Build\Win64\UnrealEditor\Inc\MovieScene\UHT;..\Build\Win64\UnrealEditor\Inc\MovieScene\VNI;..\..\Source\Runtime\MovieScene\Public;..\Build\Win64\UnrealEditor\Inc\TimeManagement\UHT;..\Build\Win64\UnrealEditor\Inc\TimeManagement\VNI;..\..\Source\Runtime\TimeManagement\Public;..\Build\Win64\UnrealEditor\Inc\MovieSceneTracks\UHT;..\Build\Win64\UnrealEditor\Inc\MovieSceneTracks\VNI;..\..\Source\Runtime\MovieSceneTracks\Public;..\Build\Win64\UnrealEditor\Inc\Constraints\UHT;..\Build\Win64\UnrealEditor\Inc\Constraints\VNI;..\..\Source\Runtime\Experimental\Animation\Constraints\Public;..\..\Source\Runtime\Experimental\Animation;..\Build\Win64\UnrealEditor\Inc\PropertyPath\UHT;..\Build\Win64\UnrealEditor\Inc\PropertyPath\VNI;..\..\Source\Runtime\PropertyPath\Public;..\Build\Win64\UnrealEditor\Inc\NavigationSystem\UHT;..\Build\Win64\UnrealEditor\Inc\NavigationSystem\VNI;..\..\Source\Runtime\NavigationSystem\Public;..\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine\UHT;..\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine\VNI;..\..\Source\Runtime\Experimental\GeometryCollectionEngine\Public;..\Build\Win64\UnrealEditor\Inc\MSQS\UHT;..\Build\Win64\UnrealEditor\Inc\MSQS\VNI;..\..\Source\Runtime\MaterialShaderQualitySettings\Classes;..\Build\Win64\UnrealEditor\Inc\FieldSystemEngine\UHT;..\Build\Win64\UnrealEditor\Inc\FieldSystemEngine\VNI;..\..\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public;..\..\Source\Runtime\Experimental\FieldSystem\Source;..\Build\Win64\UnrealEditor\Inc\ChaosSolverEngine\UHT;..\Build\Win64\UnrealEditor\Inc\ChaosSolverEngine\VNI;..\..\Source\Runtime\Experimental\ChaosSolverEngine\Public;..\Build\Win64\UnrealEditor\Inc\DataflowCore\UHT;..\Build\Win64\UnrealEditor\Inc\DataflowCore\VNI;..\..\Source\Runtime\Experimental\Dataflow\Core\Public;..\..\Source\Runtime\Experimental\Dataflow;..\Build\Win64\UnrealEditor\Inc\DataflowEngine\UHT;..\Build\Win64\UnrealEditor\Inc\DataflowEngine\VNI;..\..\Source\Runtime\Experimental\Dataflow\Engine\Public;..\Build\Win64\UnrealEditor\Inc\MeshBuilder\UHT;..\Build\Win64\UnrealEditor\Inc\MeshBuilder\VNI;..\..\Source\Developer\MeshBuilder\Public;..\Build\Win64\UnrealEditor\Inc\MeshUtilitiesCommon\UHT;..\Build\Win64\UnrealEditor\Inc\MeshUtilitiesCommon\VNI;..\..\Source\Runtime\MeshUtilitiesCommon\Public;..\Build\Win64\UnrealEditor\Inc\ToolMenusEditor\UHT;..\Build\Win64\UnrealEditor\Inc\ToolMenusEditor\VNI;..\..\Source\Editor\ToolMenusEditor\Public;..\Build\Win64\UnrealEditor\Inc\ToolMenus\UHT;..\Build\Win64\UnrealEditor\Inc\ToolMenus\VNI;..\..\Source\Developer\ToolMenus\Public;..\Build\Win64\UnrealEditor\Inc\StatusBar\UHT;..\Build\Win64\UnrealEditor\Inc\StatusBar\VNI;..\..\Source\Editor\StatusBar\Public;..\Build\Win64\UnrealEditor\Inc\InterchangeCore\UHT;..\Build\Win64\UnrealEditor\Inc\InterchangeCore\VNI;..\..\Source\Runtime\Interchange\Core\Public;..\..\Source\Runtime\Interchange;..\Build\Win64\UnrealEditor\Inc\InterchangeEngine\UHT;..\Build\Win64\UnrealEditor\Inc\InterchangeEngine\VNI;..\..\Source\Runtime\Interchange\Engine\Public;..\Build\Win64\UnrealEditor\Inc\DeveloperToolSettings\UHT;..\Build\Win64\UnrealEditor\Inc\DeveloperToolSettings\VNI;..\..\Source\Developer\DeveloperToolSettings\Classes;..\..\Source\Developer\DeveloperToolSettings\Public;..\Build\Win64\UnrealEditor\Inc\SubobjectDataInterface\UHT;..\Build\Win64\UnrealEditor\Inc\SubobjectDataInterface\VNI;..\..\Source\Editor\SubobjectDataInterface\Public;..\Build\Win64\UnrealEditor\Inc\SubobjectEditor\UHT;..\Build\Win64\UnrealEditor\Inc\SubobjectEditor\VNI;..\..\Source\Editor\SubobjectEditor\Public;..\Build\Win64\UnrealEditor\Inc\Kismet\UHT;..\Build\Win64\UnrealEditor\Inc\Kismet\VNI;..\..\Source\Editor\Kismet\Classes;..\..\Source\Editor\Kismet\Public;..\Build\Win64\UnrealEditor\Inc\PhysicsUtilities\UHT;..\Build\Win64\UnrealEditor\Inc\PhysicsUtilities\VNI;..\..\Source\Developer\PhysicsUtilities\Public;..\Build\Win64\UnrealEditor\Inc\ToolWidgets\UHT;..\Build\Win64\UnrealEditor\Inc\ToolWidgets\VNI;..\..\Source\Developer\ToolWidgets\Public;..\Build\Win64\UnrealEditor\Inc\AudioMixerXAudio2\UHT;..\Build\Win64\UnrealEditor\Inc\AudioMixerXAudio2\VNI;..\..\Source\Runtime\Windows;..\Build\Win64\UnrealEditor\Inc\AssetTagsEditor\UHT;..\Build\Win64\UnrealEditor\Inc\AssetTagsEditor\VNI;..\..\Source\Editor\AssetTagsEditor\Public;..\Build\Win64\UnrealEditor\Inc\AddContentDialog\UHT;..\Build\Win64\UnrealEditor\Inc\AddContentDialog\VNI;..\..\Source\Editor\AddContentDialog\Public;..\Build\Win64\UnrealEditor\Inc\MeshUtilities\UHT;..\Build\Win64\UnrealEditor\Inc\MeshUtilities\VNI;..\..\Source\Developer\MeshUtilities\Public;..\Build\Win64\UnrealEditor\Inc\MeshMergeUtilities\UHT;..\Build\Win64\UnrealEditor\Inc\MeshMergeUtilities\VNI;..\..\Source\Developer\MeshMergeUtilities\Public;..\Build\Win64\UnrealEditor\Inc\HierarchicalLODUtilities\UHT;..\Build\Win64\UnrealEditor\Inc\HierarchicalLODUtilities\VNI;..\..\Source\Developer\HierarchicalLODUtilities\Public;..\Build\Win64\UnrealEditor\Inc\MeshReductionInterface\UHT;..\Build\Win64\UnrealEditor\Inc\MeshReductionInterface\VNI;..\..\Source\Developer\MeshReductionInterface\Public;..\Build\Win64\UnrealEditor\Inc\SkeletalMeshEditor\UHT;..\Build\Win64\UnrealEditor\Inc\SkeletalMeshEditor\VNI;..\..\Source\Editor\SkeletalMeshEditor\Public;..\Build\Win64\UnrealEditor\Inc\Persona\UHT;..\Build\Win64\UnrealEditor\Inc\Persona\VNI;..\..\Source\Editor\Persona\Public;..\Build\Win64\UnrealEditor\Inc\SkeletonEditor\UHT;..\Build\Win64\UnrealEditor\Inc\SkeletonEditor\VNI;..\..\Source\Editor\SkeletonEditor\Public;..\Build\Win64\UnrealEditor\Inc\AnimationWidgets\UHT;..\Build\Win64\UnrealEditor\Inc\AnimationWidgets\VNI;..\..\Source\Developer\AnimationWidgets\Public;..\Build\Win64\UnrealEditor\Inc\AnimationEditor\UHT;..\Build\Win64\UnrealEditor\Inc\AnimationEditor\VNI;..\..\Source\Editor\AnimationEditor\Public;..\Build\Win64\UnrealEditor\Inc\AdvancedPreviewScene\UHT;..\Build\Win64\UnrealEditor\Inc\AdvancedPreviewScene\VNI;..\..\Source\Editor\AdvancedPreviewScene\Public;..\Build\Win64\UnrealEditor\Inc\KismetCompiler\UHT;..\Build\Win64\UnrealEditor\Inc\KismetCompiler\VNI;..\..\Source\Editor\KismetCompiler\Public;..\Build\Win64\UnrealEditor\Inc\GameplayTasks\UHT;..\Build\Win64\UnrealEditor\Inc\GameplayTasks\VNI;..\..\Source\Runtime\GameplayTasks\Classes;..\..\Source\Runtime\GameplayTasks\Public;..\Build\Win64\UnrealEditor\Inc\AIModule\UHT;..\Build\Win64\UnrealEditor\Inc\AIModule\VNI;..\..\Source\Runtime\AIModule\Public;..\..\Source\Runtime\AIModule\Classes;..\Build\Win64\UnrealEditor\Inc\ClothSysRuntimeIntrfc\UHT;..\Build\Win64\UnrealEditor\Inc\ClothSysRuntimeIntrfc\VNI;..\..\Source\Runtime\ClothingSystemRuntimeInterface\Public;..\Build\Win64\UnrealEditor\Inc\IrisCore\UHT;..\Build\Win64\UnrealEditor\Inc\IrisCore\VNI;..\..\Source\Runtime\Experimental\Iris\Core\Public;..\..\Source\Runtime\Experimental\Iris;..\Build\Win64\UnrealEditor\Inc\MovieSceneCapture\UHT;..\Build\Win64\UnrealEditor\Inc\MovieSceneCapture\VNI;..\..\Source\Runtime\MovieSceneCapture\Public;..\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT;..\Build\Win64\UnrealEditor\Inc\AnimationDataController\VNI;..\..\Source\Developer\AnimationDataController\Public;..\Build\Win64\UnrealEditor\Inc\AugmentedReality\UHT;..\Build\Win64\UnrealEditor\Inc\AugmentedReality\VNI;..\..\Source\Runtime\AugmentedReality\Public;..\Build\Win64\UnrealEditor\Inc\MRMesh\UHT;..\Build\Win64\UnrealEditor\Inc\MRMesh\VNI;..\..\Source\Runtime\MRMesh\Public;..\..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT;..\..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\VNI;..\..\Plugins\EnhancedInput\Source\EnhancedInput\Public;..\..\Plugins\EnhancedInput\Source;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\ThirdPerson\ThirdPerson.uproject"/>
+    <None Include="..\..\..\ThirdPerson\Source\ThirdPerson.Target.cs"/>
+    <None Include="..\..\..\ThirdPerson\Source\ThirdPersonEditor.Target.cs"/>
+    <None Include="..\..\..\ThirdPerson\Config\DefaultEditor.ini"/>
+    <None Include="..\..\..\ThirdPerson\Config\DefaultEditorPerProjectUserSettings.ini"/>
+    <None Include="..\..\..\ThirdPerson\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\ThirdPerson\Config\DefaultGame.ini"/>
+    <None Include="..\..\..\ThirdPerson\Config\DefaultInput.ini"/>
+    <None Include="..\..\..\ThirdPerson\Source\ThirdPerson\ThirdPerson.Build.cs"/>
+    <ClCompile Include="..\..\..\ThirdPerson\Source\ThirdPerson\ThirdPerson.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h;$(SolutionDir)ThirdPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\ThirdPerson\Definitions.ThirdPerson.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\ThirdPerson\Source\ThirdPerson\ThirdPerson.h"/>
+    <ClCompile Include="..\..\..\ThirdPerson\Source\ThirdPerson\ThirdPersonCharacter.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h;$(SolutionDir)ThirdPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\ThirdPerson\Definitions.ThirdPerson.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\ThirdPerson\Source\ThirdPerson\ThirdPersonCharacter.h"/>
+    <ClCompile Include="..\..\..\ThirdPerson\Source\ThirdPerson\ThirdPersonGameMode.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h;$(SolutionDir)ThirdPerson\Intermediate\Build\Win64\x64\UnrealEditor\Development\ThirdPerson\Definitions.ThirdPerson.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\ThirdPerson\Source\ThirdPerson\ThirdPersonGameMode.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

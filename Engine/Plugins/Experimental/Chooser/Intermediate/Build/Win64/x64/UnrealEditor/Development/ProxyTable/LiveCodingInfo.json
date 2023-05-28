@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ProxyTable.cpp.obj": [
+			"IChooserParameterProxyTable.gen.cpp.obj",
+			"ProxyTable.gen.cpp.obj",
+			"ProxyTable.init.gen.cpp.obj",
+			"ProxyTable.cpp.obj",
+			"ProxyTableModule.cpp.obj"
+		]
+	}
+}

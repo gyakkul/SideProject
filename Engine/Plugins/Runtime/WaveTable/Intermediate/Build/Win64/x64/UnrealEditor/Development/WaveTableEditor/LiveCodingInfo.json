@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WaveTableEditor.cpp.obj": [
+			"WaveTableBankFactory.gen.cpp.obj",
+			"WaveTableCurveEditorViewStacked.gen.cpp.obj",
+			"WaveTableEditor.init.gen.cpp.obj",
+			"AssetTypeActions_WaveTableBank.cpp.obj",
+			"WaveTableBankEditor.cpp.obj",
+			"WaveTableBankFactory.cpp.obj",
+			"WaveTableCurveEditorViewStacked.cpp.obj",
+			"WaveTableEditorModule.cpp.obj",
+			"WaveTableFileUtilities.cpp.obj",
+			"WaveTableTransformLayout.cpp.obj"
+		]
+	}
+}

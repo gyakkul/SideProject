@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataValidation.cpp.obj": [
+			"DataValidation.init.gen.cpp.obj",
+			"DataValidationModule.gen.cpp.obj",
+			"DataValidationChangelist.cpp.obj",
+			"DataValidationCommandlet.cpp.obj",
+			"DataValidationManager.cpp.obj",
+			"DataValidationModule.cpp.obj",
+			"DirtyFilesChangelistValidator.cpp.obj",
+			"EditorValidatorBase.cpp.obj",
+			"EditorValidatorSubsystem.cpp.obj",
+			"EditorValidator_Localization.cpp.obj",
+			"WorldPartitionChangelistValidator.cpp.obj"
+		]
+	}
+}

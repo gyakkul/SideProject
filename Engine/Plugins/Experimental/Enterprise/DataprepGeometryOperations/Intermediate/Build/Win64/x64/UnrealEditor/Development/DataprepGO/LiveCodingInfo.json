@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataprepGO.cpp.obj": [
+			"DataprepGeometryFilters.gen.cpp.obj",
+			"DataprepGeometryOperations.gen.cpp.obj",
+			"DataprepGeometryOperations.init.gen.cpp.obj",
+			"DataprepGeometrySelectionTransforms.gen.cpp.obj",
+			"DataprepGeometryFilters.cpp.obj",
+			"DataprepGeometryOperations.cpp.obj",
+			"DataprepGeometryOperationsModule.cpp.obj",
+			"DataprepGeometrySelectionTransforms.cpp.obj",
+			"JacketingProcess.cpp.obj"
+		]
+	}
+}

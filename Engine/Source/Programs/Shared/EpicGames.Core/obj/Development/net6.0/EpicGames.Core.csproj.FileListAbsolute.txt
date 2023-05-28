@@ -1,0 +1,10 @@
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\bin\Development\net6.0\EpicGames.Core.deps.json
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\bin\Development\net6.0\EpicGames.Core.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\bin\Development\net6.0\EpicGames.Core.pdb
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\obj\Development\net6.0\EpicGames.Core.csproj.AssemblyReference.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\obj\Development\net6.0\EpicGames.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\obj\Development\net6.0\EpicGames.Core.csproj.CoreCompileInputs.cache
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\obj\Development\net6.0\EpicGames.Core.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\obj\Development\net6.0\refint\EpicGames.Core.dll
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\obj\Development\net6.0\EpicGames.Core.pdb
+C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Shared\EpicGames.Core\obj\Development\net6.0\ref\EpicGames.Core.dll

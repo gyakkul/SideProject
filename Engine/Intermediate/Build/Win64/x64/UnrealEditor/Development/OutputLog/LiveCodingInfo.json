@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OutputLog.cpp.obj": [
+			"OutputLog.init.gen.cpp.obj",
+			"OutputLogSettings.gen.cpp.obj",
+			"OutputLogModule.cpp.obj",
+			"OutputLogStyle.cpp.obj",
+			"SDebugConsole.cpp.obj",
+			"SDeviceOutputLog.cpp.obj",
+			"SOutputLog.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PanoramicCapture.cpp.obj": [
+			"PanoramicCapture.init.gen.cpp.obj",
+			"SceneCapturer.gen.cpp.obj",
+			"StereoCapturePawn.gen.cpp.obj",
+			"StereoStaticMeshComponent.gen.cpp.obj",
+			"SceneCapturer.cpp.obj",
+			"StereoCapturePawn.cpp.obj",
+			"StereoPanorama.cpp.obj",
+			"StereoPanoramaManager.cpp.obj",
+			"StereoStaticMeshComponent.cpp.obj"
+		]
+	}
+}

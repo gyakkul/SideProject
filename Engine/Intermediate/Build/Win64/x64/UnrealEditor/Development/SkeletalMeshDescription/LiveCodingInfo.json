@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SkeletalMeshDescription.cpp.obj": [
+			"SkeletalMeshAttributes.cpp.obj",
+			"SkeletalMeshDescriptionModule.cpp.obj",
+			"SkeletalMeshOperations.cpp.obj"
+		]
+	}
+}

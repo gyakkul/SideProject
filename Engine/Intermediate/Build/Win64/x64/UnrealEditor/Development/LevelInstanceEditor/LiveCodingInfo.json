@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LevelInstanceEditor.cpp.obj": [
+			"LevelInstanceActorFactory.gen.cpp.obj",
+			"LevelInstanceEditor.init.gen.cpp.obj",
+			"LevelInstanceEditorMode.gen.cpp.obj",
+			"LevelInstanceEditorSettings.gen.cpp.obj",
+			"LevelInstanceActorDetails.cpp.obj",
+			"LevelInstanceActorFactory.cpp.obj",
+			"LevelInstanceEditorMode.cpp.obj",
+			"LevelInstanceEditorModeCommands.cpp.obj",
+			"LevelInstanceEditorModeToolkit.cpp.obj",
+			"LevelInstanceEditorModule.cpp.obj",
+			"LevelInstanceEditorSettings.cpp.obj",
+			"LevelInstancePivotDetails.cpp.obj",
+			"SLevelInstancePivotPicker.cpp.obj",
+			"SNewLevelInstanceDialog.cpp.obj"
+		]
+	}
+}

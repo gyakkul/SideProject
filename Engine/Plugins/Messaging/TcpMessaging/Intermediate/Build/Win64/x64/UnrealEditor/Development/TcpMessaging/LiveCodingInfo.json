@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TcpMessaging.cpp.obj": [
+			"TcpMessaging.init.gen.cpp.obj",
+			"TcpMessagingSettings.gen.cpp.obj",
+			"TcpMessagingModule.cpp.obj",
+			"TcpDeserializedMessage.cpp.obj",
+			"TcpMessageTransport.cpp.obj",
+			"TcpMessageTransportConnection.cpp.obj",
+			"TcpSerializeMessageTask.cpp.obj"
+		]
+	}
+}

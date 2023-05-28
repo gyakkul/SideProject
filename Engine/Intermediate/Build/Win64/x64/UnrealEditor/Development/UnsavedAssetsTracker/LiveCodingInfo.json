@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UnsavedAssetsTracker.cpp.obj": [
+			"SUnsavedAssetsStatusBarWidget.cpp.obj",
+			"UnsavedAssetsAutoCheckout.cpp.obj",
+			"UnsavedAssetsTracker.cpp.obj",
+			"UnsavedAssetsTrackerModule.cpp.obj"
+		]
+	}
+}

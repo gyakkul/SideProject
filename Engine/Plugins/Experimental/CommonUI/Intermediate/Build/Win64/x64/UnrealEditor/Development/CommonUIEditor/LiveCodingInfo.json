@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CommonUIEditor.cpp.obj": [
+			"CommonUIEditor.init.gen.cpp.obj",
+			"CommonAssetTypeActions_GenericInputActionDataTable.cpp.obj",
+			"CommonGenericInputActionDataTableFactory.cpp.obj",
+			"CommonUIEditorModule.cpp.obj",
+			"CommonVideoPlayerCustomization.cpp.obj"
+		]
+	}
+}

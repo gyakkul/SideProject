@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NaniteUtilities.cpp.obj": [
+			"AdaptiveTessellator.cpp.obj",
+			"DisplacementMap.cpp.obj"
+		]
+	}
+}

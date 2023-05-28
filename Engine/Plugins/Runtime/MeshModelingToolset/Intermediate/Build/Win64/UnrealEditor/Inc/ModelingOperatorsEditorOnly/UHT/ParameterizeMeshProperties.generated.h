@@ -1,0 +1,338 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Properties/ParameterizeMeshProperties.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MODELINGOPERATORSEDITORONLY_ParameterizeMeshProperties_generated_h
+#error "ParameterizeMeshProperties.generated.h already included, missing '#pragma once' in ParameterizeMeshProperties.h"
+#endif
+#define MODELINGOPERATORSEDITORONLY_ParameterizeMeshProperties_generated_h
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_INCLASS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolProperties(UParameterizeMeshToolProperties&&); \
+	NO_API UParameterizeMeshToolProperties(const UParameterizeMeshToolProperties&); \
+public: \
+	NO_API virtual ~UParameterizeMeshToolProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolProperties(UParameterizeMeshToolProperties&&); \
+	NO_API UParameterizeMeshToolProperties(const UParameterizeMeshToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolProperties) \
+	NO_API virtual ~UParameterizeMeshToolProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_25_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_28_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGOPERATORSEDITORONLY_API UClass* StaticClass<class UParameterizeMeshToolProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolUVAtlasProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolUVAtlasProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolUVAtlasProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolUVAtlasProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_INCLASS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolUVAtlasProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolUVAtlasProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolUVAtlasProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolUVAtlasProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolUVAtlasProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolUVAtlasProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolUVAtlasProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolUVAtlasProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolUVAtlasProperties(UParameterizeMeshToolUVAtlasProperties&&); \
+	NO_API UParameterizeMeshToolUVAtlasProperties(const UParameterizeMeshToolUVAtlasProperties&); \
+public: \
+	NO_API virtual ~UParameterizeMeshToolUVAtlasProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolUVAtlasProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolUVAtlasProperties(UParameterizeMeshToolUVAtlasProperties&&); \
+	NO_API UParameterizeMeshToolUVAtlasProperties(const UParameterizeMeshToolUVAtlasProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolUVAtlasProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolUVAtlasProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolUVAtlasProperties) \
+	NO_API virtual ~UParameterizeMeshToolUVAtlasProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_39_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_42_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGOPERATORSEDITORONLY_API UClass* StaticClass<class UParameterizeMeshToolUVAtlasProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolXAtlasProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolXAtlasProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolXAtlasProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolXAtlasProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_INCLASS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolXAtlasProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolXAtlasProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolXAtlasProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolXAtlasProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolXAtlasProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolXAtlasProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolXAtlasProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolXAtlasProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolXAtlasProperties(UParameterizeMeshToolXAtlasProperties&&); \
+	NO_API UParameterizeMeshToolXAtlasProperties(const UParameterizeMeshToolXAtlasProperties&); \
+public: \
+	NO_API virtual ~UParameterizeMeshToolXAtlasProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolXAtlasProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolXAtlasProperties(UParameterizeMeshToolXAtlasProperties&&); \
+	NO_API UParameterizeMeshToolXAtlasProperties(const UParameterizeMeshToolXAtlasProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolXAtlasProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolXAtlasProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolXAtlasProperties) \
+	NO_API virtual ~UParameterizeMeshToolXAtlasProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_74_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_77_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGOPERATORSEDITORONLY_API UClass* StaticClass<class UParameterizeMeshToolXAtlasProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolPatchBuilderProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolPatchBuilderProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolPatchBuilderProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolPatchBuilderProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_INCLASS \
+private: \
+	static void StaticRegisterNativesUParameterizeMeshToolPatchBuilderProperties(); \
+	friend struct Z_Construct_UClass_UParameterizeMeshToolPatchBuilderProperties_Statics; \
+public: \
+	DECLARE_CLASS(UParameterizeMeshToolPatchBuilderProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingOperatorsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UParameterizeMeshToolPatchBuilderProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolPatchBuilderProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolPatchBuilderProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolPatchBuilderProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolPatchBuilderProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolPatchBuilderProperties(UParameterizeMeshToolPatchBuilderProperties&&); \
+	NO_API UParameterizeMeshToolPatchBuilderProperties(const UParameterizeMeshToolPatchBuilderProperties&); \
+public: \
+	NO_API virtual ~UParameterizeMeshToolPatchBuilderProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UParameterizeMeshToolPatchBuilderProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UParameterizeMeshToolPatchBuilderProperties(UParameterizeMeshToolPatchBuilderProperties&&); \
+	NO_API UParameterizeMeshToolPatchBuilderProperties(const UParameterizeMeshToolPatchBuilderProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UParameterizeMeshToolPatchBuilderProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UParameterizeMeshToolPatchBuilderProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UParameterizeMeshToolPatchBuilderProperties) \
+	NO_API virtual ~UParameterizeMeshToolPatchBuilderProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_85_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h_88_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGOPERATORSEDITORONLY_API UClass* StaticClass<class UParameterizeMeshToolPatchBuilderProperties>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingOperatorsEditorOnly_Public_Properties_ParameterizeMeshProperties_h
+
+
+#define FOREACH_ENUM_EPARAMETERIZEMESHUVMETHOD(op) \
+	op(EParameterizeMeshUVMethod::PatchBuilder) \
+	op(EParameterizeMeshUVMethod::UVAtlas) \
+	op(EParameterizeMeshUVMethod::XAtlas) 
+
+enum class EParameterizeMeshUVMethod;
+template<> struct TIsUEnumClass<EParameterizeMeshUVMethod> { enum { Value = true }; };
+template<> MODELINGOPERATORSEDITORONLY_API UEnum* StaticEnum<EParameterizeMeshUVMethod>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

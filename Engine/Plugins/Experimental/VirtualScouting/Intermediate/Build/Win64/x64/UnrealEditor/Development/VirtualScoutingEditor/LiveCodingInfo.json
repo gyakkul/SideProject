@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VirtualScoutingEditor.cpp.obj": [
+			"VirtualScoutingEditor.init.gen.cpp.obj",
+			"VPScoutingMode.gen.cpp.obj",
+			"VPScoutingMode.cpp.obj"
+		]
+	}
+}

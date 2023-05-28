@@ -1,0 +1,1197 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ReplicationGraph.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UObject;
+#ifdef REPLICATIONGRAPH_ReplicationGraph_generated_h
+#error "ReplicationGraph.generated.h already included, missing '#pragma once' in ReplicationGraph.h"
+#endif
+#define REPLICATIONGRAPH_ReplicationGraph_generated_h
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UReplicationGraphNode, NO_API)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode, UObject, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ARCHIVESERIALIZER \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode, UObject, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ARCHIVESERIALIZER \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode(UReplicationGraphNode&&); \
+	NO_API UReplicationGraphNode(const UReplicationGraphNode&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode(UReplicationGraphNode&&); \
+	NO_API UReplicationGraphNode(const UReplicationGraphNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode) \
+	NO_API virtual ~UReplicationGraphNode();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_64_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_67_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UReplicationGraphNode_ActorList, NO_API)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_ActorList(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_ActorList_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_ActorList, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_ActorList) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_ActorList(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_ActorList_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_ActorList, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_ActorList) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_ActorList(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_ActorList) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_ActorList); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_ActorList); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_ActorList(UReplicationGraphNode_ActorList&&); \
+	NO_API UReplicationGraphNode_ActorList(const UReplicationGraphNode_ActorList&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_ActorList();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_ActorList(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_ActorList(UReplicationGraphNode_ActorList&&); \
+	NO_API UReplicationGraphNode_ActorList(const UReplicationGraphNode_ActorList&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_ActorList); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_ActorList); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_ActorList) \
+	NO_API virtual ~UReplicationGraphNode_ActorList();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_165_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_168_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_ActorList>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UReplicationGraphNode_ActorListFrequencyBuckets, NO_API)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_ActorListFrequencyBuckets(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_ActorListFrequencyBuckets_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_ActorListFrequencyBuckets, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_ActorListFrequencyBuckets) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_ActorListFrequencyBuckets(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_ActorListFrequencyBuckets_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_ActorListFrequencyBuckets, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_ActorListFrequencyBuckets) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_ActorListFrequencyBuckets(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_ActorListFrequencyBuckets) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_ActorListFrequencyBuckets); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_ActorListFrequencyBuckets); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_ActorListFrequencyBuckets(UReplicationGraphNode_ActorListFrequencyBuckets&&); \
+	NO_API UReplicationGraphNode_ActorListFrequencyBuckets(const UReplicationGraphNode_ActorListFrequencyBuckets&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_ActorListFrequencyBuckets();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_ActorListFrequencyBuckets(UReplicationGraphNode_ActorListFrequencyBuckets&&); \
+	NO_API UReplicationGraphNode_ActorListFrequencyBuckets(const UReplicationGraphNode_ActorListFrequencyBuckets&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_ActorListFrequencyBuckets); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_ActorListFrequencyBuckets); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_ActorListFrequencyBuckets) \
+	NO_API virtual ~UReplicationGraphNode_ActorListFrequencyBuckets();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_212_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_215_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_ActorListFrequencyBuckets>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_DynamicSpatialFrequency(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_DynamicSpatialFrequency_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_DynamicSpatialFrequency, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_DynamicSpatialFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_DynamicSpatialFrequency(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_DynamicSpatialFrequency_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_DynamicSpatialFrequency, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_DynamicSpatialFrequency)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_DynamicSpatialFrequency(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_DynamicSpatialFrequency) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_DynamicSpatialFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_DynamicSpatialFrequency); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_DynamicSpatialFrequency(UReplicationGraphNode_DynamicSpatialFrequency&&); \
+	NO_API UReplicationGraphNode_DynamicSpatialFrequency(const UReplicationGraphNode_DynamicSpatialFrequency&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_DynamicSpatialFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_DynamicSpatialFrequency(UReplicationGraphNode_DynamicSpatialFrequency&&); \
+	NO_API UReplicationGraphNode_DynamicSpatialFrequency(const UReplicationGraphNode_DynamicSpatialFrequency&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_DynamicSpatialFrequency); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_DynamicSpatialFrequency); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_DynamicSpatialFrequency) \
+	NO_API virtual ~UReplicationGraphNode_DynamicSpatialFrequency();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_291_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_294_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_DynamicSpatialFrequency>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_ConnectionDormancyNode(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_ConnectionDormancyNode_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_ConnectionDormancyNode, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_ConnectionDormancyNode)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_ConnectionDormancyNode(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_ConnectionDormancyNode_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_ConnectionDormancyNode, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_ConnectionDormancyNode)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_ConnectionDormancyNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_ConnectionDormancyNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_ConnectionDormancyNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_ConnectionDormancyNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_ConnectionDormancyNode(UReplicationGraphNode_ConnectionDormancyNode&&); \
+	NO_API UReplicationGraphNode_ConnectionDormancyNode(const UReplicationGraphNode_ConnectionDormancyNode&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_ConnectionDormancyNode();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_ConnectionDormancyNode(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_ConnectionDormancyNode(UReplicationGraphNode_ConnectionDormancyNode&&); \
+	NO_API UReplicationGraphNode_ConnectionDormancyNode(const UReplicationGraphNode_ConnectionDormancyNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_ConnectionDormancyNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_ConnectionDormancyNode); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_ConnectionDormancyNode) \
+	NO_API virtual ~UReplicationGraphNode_ConnectionDormancyNode();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_396_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_399_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_ConnectionDormancyNode>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_DormancyNode(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_DormancyNode_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_DormancyNode, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_DormancyNode)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_DormancyNode(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_DormancyNode_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_DormancyNode, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_DormancyNode)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_DormancyNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_DormancyNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_DormancyNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_DormancyNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_DormancyNode(UReplicationGraphNode_DormancyNode&&); \
+	NO_API UReplicationGraphNode_DormancyNode(const UReplicationGraphNode_DormancyNode&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_DormancyNode();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_DormancyNode(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_DormancyNode(UReplicationGraphNode_DormancyNode&&); \
+	NO_API UReplicationGraphNode_DormancyNode(const UReplicationGraphNode_DormancyNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_DormancyNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_DormancyNode); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_DormancyNode) \
+	NO_API virtual ~UReplicationGraphNode_DormancyNode();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_451_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_454_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_DormancyNode>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_GridCell(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_GridCell_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_GridCell, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_GridCell)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_GridCell(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_GridCell_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_GridCell, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_GridCell)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_GridCell(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_GridCell) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_GridCell); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_GridCell); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_GridCell(UReplicationGraphNode_GridCell&&); \
+	NO_API UReplicationGraphNode_GridCell(const UReplicationGraphNode_GridCell&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_GridCell();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_GridCell(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_GridCell(UReplicationGraphNode_GridCell&&); \
+	NO_API UReplicationGraphNode_GridCell(const UReplicationGraphNode_GridCell&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_GridCell); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_GridCell); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_GridCell) \
+	NO_API virtual ~UReplicationGraphNode_GridCell();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_499_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_502_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_GridCell>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UReplicationGraphNode_GridSpatialization2D, NO_API)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_GridSpatialization2D(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_GridSpatialization2D_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_GridSpatialization2D, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_GridSpatialization2D) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_GridSpatialization2D(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_GridSpatialization2D_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_GridSpatialization2D, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_GridSpatialization2D) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_GridSpatialization2D(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_GridSpatialization2D) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_GridSpatialization2D); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_GridSpatialization2D); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_GridSpatialization2D(UReplicationGraphNode_GridSpatialization2D&&); \
+	NO_API UReplicationGraphNode_GridSpatialization2D(const UReplicationGraphNode_GridSpatialization2D&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_GridSpatialization2D();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_GridSpatialization2D(UReplicationGraphNode_GridSpatialization2D&&); \
+	NO_API UReplicationGraphNode_GridSpatialization2D(const UReplicationGraphNode_GridSpatialization2D&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_GridSpatialization2D); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_GridSpatialization2D); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_GridSpatialization2D) \
+	NO_API virtual ~UReplicationGraphNode_GridSpatialization2D();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_540_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_543_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_GridSpatialization2D>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_AlwaysRelevant(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_AlwaysRelevant_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_AlwaysRelevant, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_AlwaysRelevant)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_AlwaysRelevant(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_AlwaysRelevant_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_AlwaysRelevant, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_AlwaysRelevant)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_AlwaysRelevant(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_AlwaysRelevant) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_AlwaysRelevant); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_AlwaysRelevant); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_AlwaysRelevant(UReplicationGraphNode_AlwaysRelevant&&); \
+	NO_API UReplicationGraphNode_AlwaysRelevant(const UReplicationGraphNode_AlwaysRelevant&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_AlwaysRelevant();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_AlwaysRelevant(UReplicationGraphNode_AlwaysRelevant&&); \
+	NO_API UReplicationGraphNode_AlwaysRelevant(const UReplicationGraphNode_AlwaysRelevant&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_AlwaysRelevant); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_AlwaysRelevant); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_AlwaysRelevant) \
+	NO_API virtual ~UReplicationGraphNode_AlwaysRelevant();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_723_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_726_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_AlwaysRelevant>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_754_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FAlwaysRelevantActorInfo_Statics; \
+	REPLICATIONGRAPH_API static class UScriptStruct* StaticStruct();
+
+
+template<> REPLICATIONGRAPH_API UScriptStruct* StaticStruct<struct FAlwaysRelevantActorInfo>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_AlwaysRelevant_ForConnection(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_AlwaysRelevant_ForConnection_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_AlwaysRelevant_ForConnection, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_AlwaysRelevant_ForConnection)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_AlwaysRelevant_ForConnection(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_AlwaysRelevant_ForConnection_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_AlwaysRelevant_ForConnection, UReplicationGraphNode_ActorList, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_AlwaysRelevant_ForConnection)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_AlwaysRelevant_ForConnection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_AlwaysRelevant_ForConnection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_AlwaysRelevant_ForConnection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_AlwaysRelevant_ForConnection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_AlwaysRelevant_ForConnection(UReplicationGraphNode_AlwaysRelevant_ForConnection&&); \
+	NO_API UReplicationGraphNode_AlwaysRelevant_ForConnection(const UReplicationGraphNode_AlwaysRelevant_ForConnection&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_AlwaysRelevant_ForConnection();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_AlwaysRelevant_ForConnection(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_AlwaysRelevant_ForConnection(UReplicationGraphNode_AlwaysRelevant_ForConnection&&); \
+	NO_API UReplicationGraphNode_AlwaysRelevant_ForConnection(const UReplicationGraphNode_AlwaysRelevant_ForConnection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_AlwaysRelevant_ForConnection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_AlwaysRelevant_ForConnection); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_AlwaysRelevant_ForConnection) \
+	NO_API virtual ~UReplicationGraphNode_AlwaysRelevant_ForConnection();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_778_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_781_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_AlwaysRelevant_ForConnection>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_826_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FTearOffActorInfo_Statics; \
+	REPLICATIONGRAPH_API static class UScriptStruct* StaticStruct();
+
+
+template<> REPLICATIONGRAPH_API UScriptStruct* StaticStruct<struct FTearOffActorInfo>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UReplicationGraphNode_TearOff_ForConnection, NO_API)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_TearOff_ForConnection(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_TearOff_ForConnection_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_TearOff_ForConnection, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_TearOff_ForConnection) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraphNode_TearOff_ForConnection(); \
+	friend struct Z_Construct_UClass_UReplicationGraphNode_TearOff_ForConnection_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraphNode_TearOff_ForConnection, UReplicationGraphNode, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraphNode_TearOff_ForConnection) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_TearOff_ForConnection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraphNode_TearOff_ForConnection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_TearOff_ForConnection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_TearOff_ForConnection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_TearOff_ForConnection(UReplicationGraphNode_TearOff_ForConnection&&); \
+	NO_API UReplicationGraphNode_TearOff_ForConnection(const UReplicationGraphNode_TearOff_ForConnection&); \
+public: \
+	NO_API virtual ~UReplicationGraphNode_TearOff_ForConnection();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraphNode_TearOff_ForConnection(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraphNode_TearOff_ForConnection(UReplicationGraphNode_TearOff_ForConnection&&); \
+	NO_API UReplicationGraphNode_TearOff_ForConnection(const UReplicationGraphNode_TearOff_ForConnection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraphNode_TearOff_ForConnection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraphNode_TearOff_ForConnection); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraphNode_TearOff_ForConnection) \
+	NO_API virtual ~UReplicationGraphNode_TearOff_ForConnection();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_839_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_842_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraphNode_TearOff_ForConnection>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UReplicationGraph, NO_API)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUReplicationGraph(); \
+	friend struct Z_Construct_UClass_UReplicationGraph_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraph, UReplicationDriver, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraph) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_INCLASS \
+private: \
+	static void StaticRegisterNativesUReplicationGraph(); \
+	friend struct Z_Construct_UClass_UReplicationGraph_Statics; \
+public: \
+	DECLARE_CLASS(UReplicationGraph, UReplicationDriver, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UReplicationGraph) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UReplicationGraph(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UReplicationGraph) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraph); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraph); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraph(UReplicationGraph&&); \
+	NO_API UReplicationGraph(const UReplicationGraph&); \
+public: \
+	NO_API virtual ~UReplicationGraph();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UReplicationGraph(UReplicationGraph&&); \
+	NO_API UReplicationGraph(const UReplicationGraph&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UReplicationGraph); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UReplicationGraph); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UReplicationGraph) \
+	NO_API virtual ~UReplicationGraph();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_869_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_872_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UReplicationGraph>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1165_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLastLocationGatherInfo_Statics; \
+	REPLICATIONGRAPH_API static class UScriptStruct* StaticStruct();
+
+
+template<> REPLICATIONGRAPH_API UScriptStruct* StaticStruct<struct FLastLocationGatherInfo>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UNetReplicationGraphConnection, NO_API)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNetReplicationGraphConnection(); \
+	friend struct Z_Construct_UClass_UNetReplicationGraphConnection_Statics; \
+public: \
+	DECLARE_CLASS(UNetReplicationGraphConnection, UReplicationConnectionDriver, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UNetReplicationGraphConnection) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_INCLASS \
+private: \
+	static void StaticRegisterNativesUNetReplicationGraphConnection(); \
+	friend struct Z_Construct_UClass_UNetReplicationGraphConnection_Statics; \
+public: \
+	DECLARE_CLASS(UNetReplicationGraphConnection, UReplicationConnectionDriver, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(UNetReplicationGraphConnection) \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNetReplicationGraphConnection(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNetReplicationGraphConnection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNetReplicationGraphConnection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNetReplicationGraphConnection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNetReplicationGraphConnection(UNetReplicationGraphConnection&&); \
+	NO_API UNetReplicationGraphConnection(const UNetReplicationGraphConnection&); \
+public: \
+	NO_API virtual ~UNetReplicationGraphConnection();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNetReplicationGraphConnection(UNetReplicationGraphConnection&&); \
+	NO_API UNetReplicationGraphConnection(const UNetReplicationGraphConnection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNetReplicationGraphConnection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNetReplicationGraphConnection); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNetReplicationGraphConnection) \
+	NO_API virtual ~UNetReplicationGraphConnection();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1186_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1189_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class UNetReplicationGraphConnection>();
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_RPC_WRAPPERS \
+	virtual void ClientCellInfo_Implementation(FVector CellLocation, FVector CellExtent, TArray<AActor*> const& Actors); \
+	virtual void ServerPrintCullDistances_Implementation(); \
+	virtual void ServerSetConditionalActorBreakpoint_Implementation(AActor* Actor); \
+	virtual void ServerSetPeriodFrameForClass_Implementation(UClass* Class, int32 PeriodFrame); \
+	virtual void ServerSetCullDistanceForClass_Implementation(UClass* Class, float CullDistance); \
+	virtual void ServerPrintAllActorInfo_Implementation(const FString& Str); \
+	virtual void ServerCellInfo_Implementation(); \
+	virtual void ServerStopDebugging_Implementation(); \
+	virtual void ServerStartDebugging_Implementation(); \
+ \
+	DECLARE_FUNCTION(execClientCellInfo); \
+	DECLARE_FUNCTION(execServerPrintCullDistances); \
+	DECLARE_FUNCTION(execServerSetConditionalActorBreakpoint); \
+	DECLARE_FUNCTION(execServerSetPeriodFrameForClass); \
+	DECLARE_FUNCTION(execServerSetCullDistanceForClass); \
+	DECLARE_FUNCTION(execServerPrintAllActorInfo); \
+	DECLARE_FUNCTION(execServerCellInfo); \
+	DECLARE_FUNCTION(execServerStopDebugging); \
+	DECLARE_FUNCTION(execServerStartDebugging);
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void ClientCellInfo_Implementation(FVector CellLocation, FVector CellExtent, TArray<AActor*> const& Actors); \
+	virtual void ServerPrintCullDistances_Implementation(); \
+	virtual void ServerSetConditionalActorBreakpoint_Implementation(AActor* Actor); \
+	virtual void ServerSetPeriodFrameForClass_Implementation(UClass* Class, int32 PeriodFrame); \
+	virtual void ServerSetCullDistanceForClass_Implementation(UClass* Class, float CullDistance); \
+	virtual void ServerPrintAllActorInfo_Implementation(const FString& Str); \
+	virtual void ServerCellInfo_Implementation(); \
+	virtual void ServerStopDebugging_Implementation(); \
+	virtual void ServerStartDebugging_Implementation(); \
+ \
+	DECLARE_FUNCTION(execClientCellInfo); \
+	DECLARE_FUNCTION(execServerPrintCullDistances); \
+	DECLARE_FUNCTION(execServerSetConditionalActorBreakpoint); \
+	DECLARE_FUNCTION(execServerSetPeriodFrameForClass); \
+	DECLARE_FUNCTION(execServerSetCullDistanceForClass); \
+	DECLARE_FUNCTION(execServerPrintAllActorInfo); \
+	DECLARE_FUNCTION(execServerCellInfo); \
+	DECLARE_FUNCTION(execServerStopDebugging); \
+	DECLARE_FUNCTION(execServerStartDebugging);
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_CALLBACK_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAReplicationGraphDebugActor(); \
+	friend struct Z_Construct_UClass_AReplicationGraphDebugActor_Statics; \
+public: \
+	DECLARE_CLASS(AReplicationGraphDebugActor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(AReplicationGraphDebugActor)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_INCLASS \
+private: \
+	static void StaticRegisterNativesAReplicationGraphDebugActor(); \
+	friend struct Z_Construct_UClass_AReplicationGraphDebugActor_Statics; \
+public: \
+	DECLARE_CLASS(AReplicationGraphDebugActor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ReplicationGraph"), NO_API) \
+	DECLARE_SERIALIZER(AReplicationGraphDebugActor)
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AReplicationGraphDebugActor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AReplicationGraphDebugActor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AReplicationGraphDebugActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AReplicationGraphDebugActor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AReplicationGraphDebugActor(AReplicationGraphDebugActor&&); \
+	NO_API AReplicationGraphDebugActor(const AReplicationGraphDebugActor&); \
+public: \
+	NO_API virtual ~AReplicationGraphDebugActor();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AReplicationGraphDebugActor(AReplicationGraphDebugActor&&); \
+	NO_API AReplicationGraphDebugActor(const AReplicationGraphDebugActor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AReplicationGraphDebugActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AReplicationGraphDebugActor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AReplicationGraphDebugActor) \
+	NO_API virtual ~AReplicationGraphDebugActor();
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1409_PROLOG
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_CALLBACK_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_INCLASS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_CALLBACK_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h_1412_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> REPLICATIONGRAPH_API UClass* StaticClass<class AReplicationGraphDebugActor>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_ReplicationGraph_Source_Public_ReplicationGraph_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

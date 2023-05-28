@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebBrowserWidget.cpp.obj": [
+			"WebBrowser.gen.cpp.obj",
+			"WebBrowserAssetManager.gen.cpp.obj",
+			"WebBrowserWidget.init.gen.cpp.obj",
+			"WebBrowser.cpp.obj",
+			"WebBrowserAssetManager.cpp.obj",
+			"WebBrowserWidgetModule.cpp.obj"
+		]
+	}
+}

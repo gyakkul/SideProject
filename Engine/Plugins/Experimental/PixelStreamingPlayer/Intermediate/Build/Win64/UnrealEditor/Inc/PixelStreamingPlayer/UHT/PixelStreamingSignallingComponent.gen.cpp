@@ -1,0 +1,852 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "PixelStreamingSignallingComponent.h"
+#include "PixelStreamingWebRTCWrappers.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodePixelStreamingSignallingComponent() {}
+// Cross Module References
+	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+	MEDIAASSETS_API UClass* Z_Construct_UClass_UStreamMediaSource_NoRegister();
+	PIXELSTREAMINGPLAYER_API UClass* Z_Construct_UClass_UPixelStreamingSignallingComponent();
+	PIXELSTREAMINGPLAYER_API UClass* Z_Construct_UClass_UPixelStreamingSignallingComponent_NoRegister();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature();
+	PIXELSTREAMINGPLAYER_API UScriptStruct* Z_Construct_UScriptStruct_FPixelStreamingIceCandidateWrapper();
+	PIXELSTREAMINGPLAYER_API UScriptStruct* Z_Construct_UScriptStruct_FPixelStreamingRTCConfigWrapper();
+	PIXELSTREAMINGPLAYER_API UScriptStruct* Z_Construct_UScriptStruct_FPixelStreamingSessionDescriptionWrapper();
+	UPackage* Z_Construct_UPackage__Script_PixelStreamingPlayer();
+// End Cross Module References
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentConnected__DelegateSignature", "PixelStreamingSignallingComponent", "OnConnected", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentConnected_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentConnected)
+{
+	PixelStreamingSignallingComponentConnected.ProcessMulticastDelegate<UObject>(NULL);
+}
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics
+	{
+		struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConnectionError_Parms
+		{
+			FString ErrorMsg;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ErrorMsg_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_ErrorMsg;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::NewProp_ErrorMsg_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::NewProp_ErrorMsg = { "ErrorMsg", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConnectionError_Parms, ErrorMsg), METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::NewProp_ErrorMsg_MetaData, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::NewProp_ErrorMsg_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::NewProp_ErrorMsg,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentConnectionError__DelegateSignature", "PixelStreamingSignallingComponent", "OnConnectionError", sizeof(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConnectionError_Parms), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentConnectionError_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentConnectionError, const FString& ErrorMsg)
+{
+	struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConnectionError_Parms
+	{
+		FString ErrorMsg;
+	};
+	_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConnectionError_Parms Parms;
+	Parms.ErrorMsg=ErrorMsg;
+	PixelStreamingSignallingComponentConnectionError.ProcessMulticastDelegate<UObject>(&Parms);
+}
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics
+	{
+		struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms
+		{
+			int32 StatusCode;
+			FString Reason;
+			bool bWasClean;
+		};
+		static const UECodeGen_Private::FIntPropertyParams NewProp_StatusCode;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Reason_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_Reason;
+		static void NewProp_bWasClean_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bWasClean;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_StatusCode = { "StatusCode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms, StatusCode), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_Reason_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_Reason = { "Reason", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms, Reason), METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_Reason_MetaData, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_Reason_MetaData)) };
+	void Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_bWasClean_SetBit(void* Obj)
+	{
+		((_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms*)Obj)->bWasClean = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_bWasClean = { "bWasClean", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms), &Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_bWasClean_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_StatusCode,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_Reason,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::NewProp_bWasClean,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentDisconnected__DelegateSignature", "PixelStreamingSignallingComponent", "OnDisconnected", sizeof(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentDisconnected_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentDisconnected, int32 StatusCode, const FString& Reason, bool bWasClean)
+{
+	struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms
+	{
+		int32 StatusCode;
+		FString Reason;
+		bool bWasClean;
+	};
+	_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDisconnected_Parms Parms;
+	Parms.StatusCode=StatusCode;
+	Parms.Reason=Reason;
+	Parms.bWasClean=bWasClean ? true : false;
+	PixelStreamingSignallingComponentDisconnected.ProcessMulticastDelegate<UObject>(&Parms);
+}
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics
+	{
+		struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConfig_Parms
+		{
+			FPixelStreamingRTCConfigWrapper Config;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Config;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::NewProp_Config = { "Config", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConfig_Parms, Config), Z_Construct_UScriptStruct_FPixelStreamingRTCConfigWrapper, METADATA_PARAMS(nullptr, 0) }; // 3214905874
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::NewProp_Config,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentConfig__DelegateSignature", "PixelStreamingSignallingComponent", "OnConfig", sizeof(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConfig_Parms), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentConfig_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentConfig, FPixelStreamingRTCConfigWrapper Config)
+{
+	struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConfig_Parms
+	{
+		FPixelStreamingRTCConfigWrapper Config;
+	};
+	_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentConfig_Parms Parms;
+	Parms.Config=Config;
+	PixelStreamingSignallingComponentConfig.ProcessMulticastDelegate<UObject>(&Parms);
+}
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics
+	{
+		struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentOffer_Parms
+		{
+			FString Offer;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Offer_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_Offer;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::NewProp_Offer_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::NewProp_Offer = { "Offer", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentOffer_Parms, Offer), METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::NewProp_Offer_MetaData, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::NewProp_Offer_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::NewProp_Offer,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentOffer__DelegateSignature", "PixelStreamingSignallingComponent", "OnOffer", sizeof(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentOffer_Parms), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentOffer_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentOffer, const FString& Offer)
+{
+	struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentOffer_Parms
+	{
+		FString Offer;
+	};
+	_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentOffer_Parms Parms;
+	Parms.Offer=Offer;
+	PixelStreamingSignallingComponentOffer.ProcessMulticastDelegate<UObject>(&Parms);
+}
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics
+	{
+		struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentAnswer_Parms
+		{
+			FString Answer;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Answer_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_Answer;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::NewProp_Answer_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::NewProp_Answer = { "Answer", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentAnswer_Parms, Answer), METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::NewProp_Answer_MetaData, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::NewProp_Answer_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::NewProp_Answer,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentAnswer__DelegateSignature", "PixelStreamingSignallingComponent", "OnAnswer", sizeof(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentAnswer_Parms), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentAnswer_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentAnswer, const FString& Answer)
+{
+	struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentAnswer_Parms
+	{
+		FString Answer;
+	};
+	_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentAnswer_Parms Parms;
+	Parms.Answer=Answer;
+	PixelStreamingSignallingComponentAnswer.ProcessMulticastDelegate<UObject>(&Parms);
+}
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics
+	{
+		struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentIceCandidate_Parms
+		{
+			FPixelStreamingIceCandidateWrapper Candidate;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Candidate;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::NewProp_Candidate = { "Candidate", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentIceCandidate_Parms, Candidate), Z_Construct_UScriptStruct_FPixelStreamingIceCandidateWrapper, METADATA_PARAMS(nullptr, 0) }; // 2093416331
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::NewProp_Candidate,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentIceCandidate__DelegateSignature", "PixelStreamingSignallingComponent", "OnIceCandidate", sizeof(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentIceCandidate_Parms), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentIceCandidate_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentIceCandidate, FPixelStreamingIceCandidateWrapper Candidate)
+{
+	struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentIceCandidate_Parms
+	{
+		FPixelStreamingIceCandidateWrapper Candidate;
+	};
+	_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentIceCandidate_Parms Parms;
+	Parms.Candidate=Candidate;
+	PixelStreamingSignallingComponentIceCandidate.ProcessMulticastDelegate<UObject>(&Parms);
+}
+	struct Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics
+	{
+		struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDataChannels_Parms
+		{
+			int32 SendStreamId;
+			int32 RecvStreamId;
+		};
+		static const UECodeGen_Private::FIntPropertyParams NewProp_SendStreamId;
+		static const UECodeGen_Private::FIntPropertyParams NewProp_RecvStreamId;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::NewProp_SendStreamId = { "SendStreamId", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDataChannels_Parms, SendStreamId), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::NewProp_RecvStreamId = { "RecvStreamId", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDataChannels_Parms, RecvStreamId), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::NewProp_SendStreamId,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::NewProp_RecvStreamId,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PixelStreamingPlayer, nullptr, "PixelStreamingSignallingComponentDataChannels__DelegateSignature", "PixelStreamingSignallingComponent", "OnDataChannels", sizeof(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDataChannels_Parms), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDataChannels__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+void FPixelStreamingSignallingComponentDataChannels_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentDataChannels, int32 SendStreamId, int32 RecvStreamId)
+{
+	struct _Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDataChannels_Parms
+	{
+		int32 SendStreamId;
+		int32 RecvStreamId;
+	};
+	_Script_PixelStreamingPlayer_eventPixelStreamingSignallingComponentDataChannels_Parms Parms;
+	Parms.SendStreamId=SendStreamId;
+	Parms.RecvStreamId=RecvStreamId;
+	PixelStreamingSignallingComponentDataChannels.ProcessMulticastDelegate<UObject>(&Parms);
+}
+	DEFINE_FUNCTION(UPixelStreamingSignallingComponent::execSendIceCandidate)
+	{
+		P_GET_STRUCT_REF(FPixelStreamingIceCandidateWrapper,Z_Param_Out_CandidateWrapper);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SendIceCandidate(Z_Param_Out_CandidateWrapper);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UPixelStreamingSignallingComponent::execSendAnswer)
+	{
+		P_GET_STRUCT_REF(FPixelStreamingSessionDescriptionWrapper,Z_Param_Out_Answer);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SendAnswer(Z_Param_Out_Answer);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UPixelStreamingSignallingComponent::execSendOffer)
+	{
+		P_GET_STRUCT_REF(FPixelStreamingSessionDescriptionWrapper,Z_Param_Out_Offer);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SendOffer(Z_Param_Out_Offer);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UPixelStreamingSignallingComponent::execDisconnect)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Disconnect();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UPixelStreamingSignallingComponent::execConnect)
+	{
+		P_GET_PROPERTY(FStrProperty,Z_Param_Url);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Connect(Z_Param_Url);
+		P_NATIVE_END;
+	}
+	void UPixelStreamingSignallingComponent::StaticRegisterNativesUPixelStreamingSignallingComponent()
+	{
+		UClass* Class = UPixelStreamingSignallingComponent::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Connect", &UPixelStreamingSignallingComponent::execConnect },
+			{ "Disconnect", &UPixelStreamingSignallingComponent::execDisconnect },
+			{ "SendAnswer", &UPixelStreamingSignallingComponent::execSendAnswer },
+			{ "SendIceCandidate", &UPixelStreamingSignallingComponent::execSendIceCandidate },
+			{ "SendOffer", &UPixelStreamingSignallingComponent::execSendOffer },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics
+	{
+		struct PixelStreamingSignallingComponent_eventConnect_Parms
+		{
+			FString Url;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Url_MetaData[];
+#endif
+		static const UECodeGen_Private::FStrPropertyParams NewProp_Url;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::NewProp_Url_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::NewProp_Url = { "Url", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(PixelStreamingSignallingComponent_eventConnect_Parms, Url), METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::NewProp_Url_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::NewProp_Url_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::NewProp_Url,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::Function_MetaDataParams[] = {
+		{ "Category", "PixelStreaming" },
+		{ "Comment", "/**\n\x09 * Attempt to connect to a specified signalling server.\n\x09 * @param Url The url of the signalling server. Ignored if this component has a MediaSource. In that case the URL on the media source will be used instead.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Attempt to connect to a specified signalling server.\n@param Url The url of the signalling server. Ignored if this component has a MediaSource. In that case the URL on the media source will be used instead." },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPixelStreamingSignallingComponent, nullptr, "Connect", nullptr, nullptr, sizeof(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::PixelStreamingSignallingComponent_eventConnect_Parms), Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect_Statics::Function_MetaDataParams[] = {
+		{ "Category", "PixelStreaming" },
+		{ "Comment", "/**\n\x09 * Disconnect from the signalling server. No action if no connection exists.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Disconnect from the signalling server. No action if no connection exists." },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPixelStreamingSignallingComponent, nullptr, "Disconnect", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics
+	{
+		struct PixelStreamingSignallingComponent_eventSendAnswer_Parms
+		{
+			FPixelStreamingSessionDescriptionWrapper Answer;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Answer_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Answer;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::NewProp_Answer_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::NewProp_Answer = { "Answer", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(PixelStreamingSignallingComponent_eventSendAnswer_Parms, Answer), Z_Construct_UScriptStruct_FPixelStreamingSessionDescriptionWrapper, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::NewProp_Answer_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::NewProp_Answer_MetaData)) }; // 1162726789
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::NewProp_Answer,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::Function_MetaDataParams[] = {
+		{ "Category", "PixelStreaming" },
+		{ "Comment", "/**\n\x09 * Send an answer created from a Peer Connection to the signalling server.\n\x09 * @param Answer The answer object created from calling CreateAnswer on a Peer Connection.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Send an answer created from a Peer Connection to the signalling server.\n@param Answer The answer object created from calling CreateAnswer on a Peer Connection." },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPixelStreamingSignallingComponent, nullptr, "SendAnswer", nullptr, nullptr, sizeof(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::PixelStreamingSignallingComponent_eventSendAnswer_Parms), Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics
+	{
+		struct PixelStreamingSignallingComponent_eventSendIceCandidate_Parms
+		{
+			FPixelStreamingIceCandidateWrapper CandidateWrapper;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CandidateWrapper_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_CandidateWrapper;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::NewProp_CandidateWrapper_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::NewProp_CandidateWrapper = { "CandidateWrapper", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(PixelStreamingSignallingComponent_eventSendIceCandidate_Parms, CandidateWrapper), Z_Construct_UScriptStruct_FPixelStreamingIceCandidateWrapper, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::NewProp_CandidateWrapper_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::NewProp_CandidateWrapper_MetaData)) }; // 2093416331
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::NewProp_CandidateWrapper,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::Function_MetaDataParams[] = {
+		{ "Category", "PixelStreaming" },
+		{ "Comment", "/**\n\x09 * Send an Ice Candidate to the signalling server that is generated from a Peer Connection.\n\x09 * @param Candidate The Ice Candidate object generated from a Peer Connection.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Send an Ice Candidate to the signalling server that is generated from a Peer Connection.\n@param Candidate The Ice Candidate object generated from a Peer Connection." },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPixelStreamingSignallingComponent, nullptr, "SendIceCandidate", nullptr, nullptr, sizeof(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::PixelStreamingSignallingComponent_eventSendIceCandidate_Parms), Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics
+	{
+		struct PixelStreamingSignallingComponent_eventSendOffer_Parms
+		{
+			FPixelStreamingSessionDescriptionWrapper Offer;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Offer_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Offer;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::NewProp_Offer_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::NewProp_Offer = { "Offer", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(PixelStreamingSignallingComponent_eventSendOffer_Parms, Offer), Z_Construct_UScriptStruct_FPixelStreamingSessionDescriptionWrapper, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::NewProp_Offer_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::NewProp_Offer_MetaData)) }; // 1162726789
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::NewProp_Offer,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::Function_MetaDataParams[] = {
+		{ "Category", "PixelStreaming" },
+		{ "Comment", "/**\n\x09 * Send an offer created from a Peer Connection to the signalling server.\n\x09 * @param Offer The answer object created from calling CreateAnswer on a Peer Connection.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Send an offer created from a Peer Connection to the signalling server.\n@param Offer The answer object created from calling CreateAnswer on a Peer Connection." },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPixelStreamingSignallingComponent, nullptr, "SendOffer", nullptr, nullptr, sizeof(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::PixelStreamingSignallingComponent_eventSendOffer_Parms), Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UPixelStreamingSignallingComponent);
+	UClass* Z_Construct_UClass_UPixelStreamingSignallingComponent_NoRegister()
+	{
+		return UPixelStreamingSignallingComponent::StaticClass();
+	}
+	struct Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnConnected_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnConnected;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnConnectionError_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnConnectionError;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnDisconnected_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnDisconnected;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnConfig_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnConfig;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnOffer_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnOffer;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnAnswer_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAnswer;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OnIceCandidate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnIceCandidate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MediaSource_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_MediaSource;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UActorComponent,
+		(UObject* (*)())Z_Construct_UPackage__Script_PixelStreamingPlayer,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UPixelStreamingSignallingComponent_Connect, "Connect" }, // 3027859785
+		{ &Z_Construct_UFunction_UPixelStreamingSignallingComponent_Disconnect, "Disconnect" }, // 2107039235
+		{ &Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendAnswer, "SendAnswer" }, // 2035547866
+		{ &Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendIceCandidate, "SendIceCandidate" }, // 633365061
+		{ &Z_Construct_UFunction_UPixelStreamingSignallingComponent_SendOffer, "SendOffer" }, // 3402782166
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintSpawnableComponent", "" },
+		{ "BlueprintType", "true" },
+		{ "Category", "PixelStreaming" },
+		{ "Comment", "/**\n * A blueprint class representing a Pixel Streaming Signalling connection. Used to communicate with the signalling server and\n * should route information to the peer connection.\n */" },
+		{ "DisplayName", "PixelStreaming Signalling Component" },
+		{ "IncludePath", "PixelStreamingSignallingComponent.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "A blueprint class representing a Pixel Streaming Signalling connection. Used to communicate with the signalling server and\nshould route information to the peer connection." },
+	};
+#endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnected_MetaData[] = {
+		{ "Category", "Components|Activation" },
+		{ "Comment", "/**\n\x09 * Fired when the signalling connection is successfully established.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Fired when the signalling connection is successfully established." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnected = { "OnConnected", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::SparseMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, OnConnected), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnected__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnected_MetaData)) }; // 1230014837
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnectionError_MetaData[] = {
+		{ "Category", "Components|Activation" },
+		{ "Comment", "/**\n\x09 * Fired if the connection failed or an error occurs during the connection. If this is fired at any point the connection should be considered closed.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Fired if the connection failed or an error occurs during the connection. If this is fired at any point the connection should be considered closed." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnectionError = { "OnConnectionError", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::SparseMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, OnConnectionError), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConnectionError__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnectionError_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnectionError_MetaData)) }; // 2017985280
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnDisconnected_MetaData[] = {
+		{ "Category", "Components|Activation" },
+		{ "Comment", "/**\n\x09 * Fired when the connection successfully closes.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Fired when the connection successfully closes." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnDisconnected = { "OnDisconnected", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::SparseMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, OnDisconnected), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentDisconnected__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnDisconnected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnDisconnected_MetaData)) }; // 344325852
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConfig_MetaData[] = {
+		{ "Category", "Components|Activation" },
+		{ "Comment", "/**\n\x09 * Fired when the connection receives a config message from the server. This is the earliest place where the peer connection can be initialized.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Fired when the connection receives a config message from the server. This is the earliest place where the peer connection can be initialized." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConfig = { "OnConfig", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::SparseMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, OnConfig), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentConfig__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConfig_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConfig_MetaData)) }; // 2102659861
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnOffer_MetaData[] = {
+		{ "Category", "Components|Activation" },
+		{ "Comment", "/**\n\x09 * Fired when the connection receives an offer from the server. This means there is media being offered up to this connection. Forward to the peer connection.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Fired when the connection receives an offer from the server. This means there is media being offered up to this connection. Forward to the peer connection." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnOffer = { "OnOffer", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::SparseMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, OnOffer), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentOffer__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnOffer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnOffer_MetaData)) }; // 3068861604
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnAnswer_MetaData[] = {
+		{ "Category", "Components|Activation" },
+		{ "Comment", "/**\n\x09 * Fired when the connection receives an answer from the server. The streamer is answering a previously sent offer by us. Forward to the peer connection.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Fired when the connection receives an answer from the server. The streamer is answering a previously sent offer by us. Forward to the peer connection." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnAnswer = { "OnAnswer", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::SparseMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, OnAnswer), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentAnswer__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnAnswer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnAnswer_MetaData)) }; // 3012083175
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnIceCandidate_MetaData[] = {
+		{ "Category", "Components|Activation" },
+		{ "Comment", "/**\n\x09 * Fired when the server sends through an ice candidate. Forward this information on to the peer connection.\n\x09 */" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "Fired when the server sends through an ice candidate. Forward this information on to the peer connection." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnIceCandidate = { "OnIceCandidate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::SparseMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, OnIceCandidate), Z_Construct_USparseDelegateFunction_PixelStreamingPlayer_PixelStreamingSignallingComponentIceCandidate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnIceCandidate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnIceCandidate_MetaData)) }; // 3761907562
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_MediaSource_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Properties" },
+		{ "Comment", "/**\n\x09 * If this media source is set we will use its supplied URL instead of the Url parameter on the connect call.\n\x09 */" },
+		{ "DisplayName", "Stream Media Source" },
+		{ "ModuleRelativePath", "Public/PixelStreamingSignallingComponent.h" },
+		{ "ToolTip", "If this media source is set we will use its supplied URL instead of the Url parameter on the connect call." },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_MediaSource = { "MediaSource", nullptr, (EPropertyFlags)0x0014000000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UPixelStreamingSignallingComponent, MediaSource), Z_Construct_UClass_UStreamMediaSource_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_MediaSource_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_MediaSource_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnected,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConnectionError,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnDisconnected,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnConfig,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnOffer,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnAnswer,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_OnIceCandidate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::NewProp_MediaSource,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UPixelStreamingSignallingComponent>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::ClassParams = {
+		&UPixelStreamingSignallingComponent::StaticClass,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::PropPointers),
+		0,
+		0x00B000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UPixelStreamingSignallingComponent()
+	{
+		if (!Z_Registration_Info_UClass_UPixelStreamingSignallingComponent.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UPixelStreamingSignallingComponent.OuterSingleton, Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_UPixelStreamingSignallingComponent.OuterSingleton;
+	}
+	template<> PIXELSTREAMINGPLAYER_API UClass* StaticClass<UPixelStreamingSignallingComponent>()
+	{
+		return UPixelStreamingSignallingComponent::StaticClass();
+	}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UPixelStreamingSignallingComponent);
+	UPixelStreamingSignallingComponent::~UPixelStreamingSignallingComponent() {}
+	struct Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UPixelStreamingSignallingComponent, UPixelStreamingSignallingComponent::StaticClass, TEXT("UPixelStreamingSignallingComponent"), &Z_Registration_Info_UClass_UPixelStreamingSignallingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPixelStreamingSignallingComponent), 3014094118U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_2839252338(TEXT("/Script/PixelStreamingPlayer"),
+		Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_Statics::ClassInfo),
+		nullptr, 0,
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

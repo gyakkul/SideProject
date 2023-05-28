@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteControlProtocolOSC.cpp.obj": [
+			"RemoteControlProtocolOSC.gen.cpp.obj",
+			"RemoteControlProtocolOSC.init.gen.cpp.obj",
+			"RemoteControlProtocolOSCSettings.gen.cpp.obj",
+			"RemoteControlProtocolOSC.cpp.obj",
+			"RemoteControlProtocolOSCModule.cpp.obj",
+			"RemoteControlProtocolOSCSettings.cpp.obj"
+		]
+	}
+}

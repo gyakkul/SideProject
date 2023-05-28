@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosUserDataPT.cpp.obj": [
+			"ChaosUserDataPTModule.cpp.obj",
+			"ChaosUserDataPTStats.cpp.obj"
+		]
+	}
+}

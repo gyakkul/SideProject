@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HTTPServer.cpp.obj": [
+			"HttpConnection.cpp.obj",
+			"HttpConnectionContext.cpp.obj",
+			"HttpConnectionRequestReadContext.cpp.obj",
+			"HttpConnectionResponseWriteContext.cpp.obj",
+			"HttpListener.cpp.obj",
+			"HttpPath.cpp.obj",
+			"HttpRequestHandlerIterator.cpp.obj",
+			"HttpRequestHandlerRegistrar.cpp.obj",
+			"HttpRouter.cpp.obj",
+			"HttpServerConfig.cpp.obj",
+			"HttpServerModule.cpp.obj",
+			"HttpServerResponse.cpp.obj",
+			"IHttpRouter.cpp.obj",
+			"HttpServerTests.cpp.obj"
+		]
+	}
+}

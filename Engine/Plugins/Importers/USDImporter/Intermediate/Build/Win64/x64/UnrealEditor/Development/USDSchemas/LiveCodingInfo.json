@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDSchemas.cpp.obj": [
+			"MDLUSDShadeMaterialTranslator.cpp.obj",
+			"MeshTranslationImpl.cpp.obj",
+			"USDGeomCameraTranslator.cpp.obj",
+			"USDGeomMeshTranslator.cpp.obj",
+			"USDGeomPointInstancerTranslator.cpp.obj",
+			"USDGeomXformableTranslator.cpp.obj",
+			"USDGroomTranslator.cpp.obj",
+			"USDGroomTranslatorUtils.cpp.obj",
+			"USDInfoCache.cpp.obj",
+			"USDLuxLightTranslator.cpp.obj",
+			"USDSchemasModule.cpp.obj",
+			"USDSchemaTranslator.cpp.obj",
+			"USDShadeMaterialTranslator.cpp.obj",
+			"USDSkelRootTranslator.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioSynesthesiaCore.cpp.obj": [
+			"AudioSynesthesiaCoreModule.cpp.obj",
+			"AudioSynesthesiaCustomVersion.cpp.obj",
+			"AutoCorrelationPitchDetector.cpp.obj",
+			"ConstantQAnalyzer.cpp.obj",
+			"ConstantQNRTFactory.cpp.obj",
+			"FFTPeakPitchDetector.cpp.obj",
+			"LoudnessAnalyzer.cpp.obj",
+			"LoudnessFactory.cpp.obj",
+			"LoudnessNRTFactory.cpp.obj",
+			"MaxStrengthPitchTracker.cpp.obj",
+			"MeterAnalyzer.cpp.obj",
+			"MeterFactory.cpp.obj",
+			"OnsetAnalyzer.cpp.obj",
+			"OnsetNRTFactory.cpp.obj",
+			"PeakPicker.cpp.obj",
+			"SynesthesiaSpectrumAnalysisFactory.cpp.obj",
+			"SynesthesiaSpectrumAnalyzer.cpp.obj"
+		]
+	}
+}

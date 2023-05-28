@@ -1,0 +1,539 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Tools/GenerateStaticMeshLODAssetTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHLODTOOLSET_GenerateStaticMeshLODAssetTool_generated_h
+#error "GenerateStaticMeshLODAssetTool.generated.h already included, missing '#pragma once' in GenerateStaticMeshLODAssetTool.h"
+#endif
+#define MESHLODTOOLSET_GenerateStaticMeshLODAssetTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolBuilder(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_INCLASS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolBuilder(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolBuilder(UGenerateStaticMeshLODAssetToolBuilder&&); \
+	NO_API UGenerateStaticMeshLODAssetToolBuilder(const UGenerateStaticMeshLODAssetToolBuilder&); \
+public: \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolBuilder(UGenerateStaticMeshLODAssetToolBuilder&&); \
+	NO_API UGenerateStaticMeshLODAssetToolBuilder(const UGenerateStaticMeshLODAssetToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolBuilder) \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_38_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_41_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHLODTOOLSET_API UClass* StaticClass<class UGenerateStaticMeshLODAssetToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolOutputProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolOutputProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolOutputProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolOutputProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_INCLASS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolOutputProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolOutputProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolOutputProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolOutputProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolOutputProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolOutputProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolOutputProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolOutputProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolOutputProperties(UGenerateStaticMeshLODAssetToolOutputProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolOutputProperties(const UGenerateStaticMeshLODAssetToolOutputProperties&); \
+public: \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolOutputProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolOutputProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolOutputProperties(UGenerateStaticMeshLODAssetToolOutputProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolOutputProperties(const UGenerateStaticMeshLODAssetToolOutputProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolOutputProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolOutputProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolOutputProperties) \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolOutputProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_55_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHLODTOOLSET_API UClass* StaticClass<class UGenerateStaticMeshLODAssetToolOutputProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execWriteToPreset); \
+	DECLARE_FUNCTION(execReadFromPreset);
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execWriteToPreset); \
+	DECLARE_FUNCTION(execReadFromPreset);
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolPresetProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolPresetProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolPresetProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolPresetProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_INCLASS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolPresetProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolPresetProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolPresetProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolPresetProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolPresetProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolPresetProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolPresetProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolPresetProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolPresetProperties(UGenerateStaticMeshLODAssetToolPresetProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolPresetProperties(const UGenerateStaticMeshLODAssetToolPresetProperties&); \
+public: \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolPresetProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolPresetProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolPresetProperties(UGenerateStaticMeshLODAssetToolPresetProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolPresetProperties(const UGenerateStaticMeshLODAssetToolPresetProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolPresetProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolPresetProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolPresetProperties) \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolPresetProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_92_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_95_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHLODTOOLSET_API UClass* StaticClass<class UGenerateStaticMeshLODAssetToolPresetProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetGroupLayersFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetGroupLayersFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_INCLASS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolProperties(UGenerateStaticMeshLODAssetToolProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolProperties(const UGenerateStaticMeshLODAssetToolProperties&); \
+public: \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolProperties(UGenerateStaticMeshLODAssetToolProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolProperties(const UGenerateStaticMeshLODAssetToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolProperties) \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_127_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_130_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHLODTOOLSET_API UClass* StaticClass<class UGenerateStaticMeshLODAssetToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_205_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGenerateStaticMeshLOD_TextureConfig_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> MESHLODTOOLSET_API UScriptStruct* StaticStruct<struct FGenerateStaticMeshLOD_TextureConfig>();
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_223_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FGenerateStaticMeshLOD_MaterialConfig_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> MESHLODTOOLSET_API UScriptStruct* StaticStruct<struct FGenerateStaticMeshLOD_MaterialConfig>();
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolTextureProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolTextureProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolTextureProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolTextureProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_INCLASS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetToolTextureProperties(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetToolTextureProperties_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetToolTextureProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetToolTextureProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolTextureProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolTextureProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolTextureProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolTextureProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolTextureProperties(UGenerateStaticMeshLODAssetToolTextureProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolTextureProperties(const UGenerateStaticMeshLODAssetToolTextureProperties&); \
+public: \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolTextureProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetToolTextureProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetToolTextureProperties(UGenerateStaticMeshLODAssetToolTextureProperties&&); \
+	NO_API UGenerateStaticMeshLODAssetToolTextureProperties(const UGenerateStaticMeshLODAssetToolTextureProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetToolTextureProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetToolTextureProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetToolTextureProperties) \
+	NO_API virtual ~UGenerateStaticMeshLODAssetToolTextureProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_239_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_242_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHLODTOOLSET_API UClass* StaticClass<class UGenerateStaticMeshLODAssetToolTextureProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetTool(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetTool_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_INCLASS \
+private: \
+	static void StaticRegisterNativesUGenerateStaticMeshLODAssetTool(); \
+	friend struct Z_Construct_UClass_UGenerateStaticMeshLODAssetTool_Statics; \
+public: \
+	DECLARE_CLASS(UGenerateStaticMeshLODAssetTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshLODToolset"), NO_API) \
+	DECLARE_SERIALIZER(UGenerateStaticMeshLODAssetTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetTool(UGenerateStaticMeshLODAssetTool&&); \
+	NO_API UGenerateStaticMeshLODAssetTool(const UGenerateStaticMeshLODAssetTool&); \
+public: \
+	NO_API virtual ~UGenerateStaticMeshLODAssetTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGenerateStaticMeshLODAssetTool(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGenerateStaticMeshLODAssetTool(UGenerateStaticMeshLODAssetTool&&); \
+	NO_API UGenerateStaticMeshLODAssetTool(const UGenerateStaticMeshLODAssetTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGenerateStaticMeshLODAssetTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGenerateStaticMeshLODAssetTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGenerateStaticMeshLODAssetTool) \
+	NO_API virtual ~UGenerateStaticMeshLODAssetTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_260_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h_263_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHLODTOOLSET_API UClass* StaticClass<class UGenerateStaticMeshLODAssetTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshLODToolset_Source_MeshLODToolset_Public_Tools_GenerateStaticMeshLODAssetTool_h
+
+
+#define FOREACH_ENUM_EGENERATELODASSETOUTPUTMODE(op) \
+	op(EGenerateLODAssetOutputMode::CreateNewAsset) \
+	op(EGenerateLODAssetOutputMode::UpdateExistingAsset) 
+
+enum class EGenerateLODAssetOutputMode : uint8;
+template<> struct TIsUEnumClass<EGenerateLODAssetOutputMode> { enum { Value = true }; };
+template<> MESHLODTOOLSET_API UEnum* StaticEnum<EGenerateLODAssetOutputMode>();
+
+#define FOREACH_ENUM_EGENERATELODASSETTOOLPRESETACTION(op) \
+	op(EGenerateLODAssetToolPresetAction::ReadFromPreset) \
+	op(EGenerateLODAssetToolPresetAction::WriteToPreset) 
+
+enum class EGenerateLODAssetToolPresetAction : uint8;
+template<> struct TIsUEnumClass<EGenerateLODAssetToolPresetAction> { enum { Value = true }; };
+template<> MESHLODTOOLSET_API UEnum* StaticEnum<EGenerateLODAssetToolPresetAction>();
+
+#define FOREACH_ENUM_EGENERATESTATICMESHLOD_BAKECONSTRAINT(op) \
+	op(EGenerateStaticMeshLOD_BakeConstraint::NoConstraint) \
+	op(EGenerateStaticMeshLOD_BakeConstraint::DoNotBake) 
+
+enum class EGenerateStaticMeshLOD_BakeConstraint;
+template<> struct TIsUEnumClass<EGenerateStaticMeshLOD_BakeConstraint> { enum { Value = true }; };
+template<> MESHLODTOOLSET_API UEnum* StaticEnum<EGenerateStaticMeshLOD_BakeConstraint>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

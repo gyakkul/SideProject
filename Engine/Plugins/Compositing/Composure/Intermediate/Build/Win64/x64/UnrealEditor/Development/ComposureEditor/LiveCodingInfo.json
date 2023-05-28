@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ComposureEditor.cpp.obj": [
+			"ComposureEditorModule.cpp.obj",
+			"ComposureExportTrackEditor.cpp.obj",
+			"ComposurePostMoveSettingsPropertyTrackEditor.cpp.obj",
+			"SComposurePostMoveSettingsImportDialog.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,252 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "LandscapeTextureBackedRenderTarget.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef LANDSCAPEPATCH_LandscapeTextureBackedRenderTarget_generated_h
+#error "LandscapeTextureBackedRenderTarget.generated.h already included, missing '#pragma once' in LandscapeTextureBackedRenderTarget.h"
+#endif
+#define LANDSCAPEPATCH_LandscapeTextureBackedRenderTarget_generated_h
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_ACCESSORS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesULandscapeTextureBackedRenderTargetBase(); \
+	friend struct Z_Construct_UClass_ULandscapeTextureBackedRenderTargetBase_Statics; \
+public: \
+	DECLARE_CLASS(ULandscapeTextureBackedRenderTargetBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/LandscapePatch"), NO_API) \
+	DECLARE_SERIALIZER(ULandscapeTextureBackedRenderTargetBase)
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesULandscapeTextureBackedRenderTargetBase(); \
+	friend struct Z_Construct_UClass_ULandscapeTextureBackedRenderTargetBase_Statics; \
+public: \
+	DECLARE_CLASS(ULandscapeTextureBackedRenderTargetBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/LandscapePatch"), NO_API) \
+	DECLARE_SERIALIZER(ULandscapeTextureBackedRenderTargetBase)
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ULandscapeTextureBackedRenderTargetBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULandscapeTextureBackedRenderTargetBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULandscapeTextureBackedRenderTargetBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULandscapeTextureBackedRenderTargetBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULandscapeTextureBackedRenderTargetBase(ULandscapeTextureBackedRenderTargetBase&&); \
+	NO_API ULandscapeTextureBackedRenderTargetBase(const ULandscapeTextureBackedRenderTargetBase&); \
+public: \
+	NO_API virtual ~ULandscapeTextureBackedRenderTargetBase();
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ULandscapeTextureBackedRenderTargetBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULandscapeTextureBackedRenderTargetBase(ULandscapeTextureBackedRenderTargetBase&&); \
+	NO_API ULandscapeTextureBackedRenderTargetBase(const ULandscapeTextureBackedRenderTargetBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULandscapeTextureBackedRenderTargetBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULandscapeTextureBackedRenderTargetBase); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULandscapeTextureBackedRenderTargetBase) \
+	NO_API virtual ~ULandscapeTextureBackedRenderTargetBase();
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_21_PROLOG
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_ACCESSORS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_INCLASS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_ACCESSORS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_24_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> LANDSCAPEPATCH_API UClass* StaticClass<class ULandscapeTextureBackedRenderTargetBase>();
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_ACCESSORS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesULandscapeWeightTextureBackedRenderTarget(); \
+	friend struct Z_Construct_UClass_ULandscapeWeightTextureBackedRenderTarget_Statics; \
+public: \
+	DECLARE_CLASS(ULandscapeWeightTextureBackedRenderTarget, ULandscapeTextureBackedRenderTargetBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LandscapePatch"), NO_API) \
+	DECLARE_SERIALIZER(ULandscapeWeightTextureBackedRenderTarget)
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_INCLASS \
+private: \
+	static void StaticRegisterNativesULandscapeWeightTextureBackedRenderTarget(); \
+	friend struct Z_Construct_UClass_ULandscapeWeightTextureBackedRenderTarget_Statics; \
+public: \
+	DECLARE_CLASS(ULandscapeWeightTextureBackedRenderTarget, ULandscapeTextureBackedRenderTargetBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LandscapePatch"), NO_API) \
+	DECLARE_SERIALIZER(ULandscapeWeightTextureBackedRenderTarget)
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ULandscapeWeightTextureBackedRenderTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULandscapeWeightTextureBackedRenderTarget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULandscapeWeightTextureBackedRenderTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULandscapeWeightTextureBackedRenderTarget); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULandscapeWeightTextureBackedRenderTarget(ULandscapeWeightTextureBackedRenderTarget&&); \
+	NO_API ULandscapeWeightTextureBackedRenderTarget(const ULandscapeWeightTextureBackedRenderTarget&); \
+public: \
+	NO_API virtual ~ULandscapeWeightTextureBackedRenderTarget();
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ULandscapeWeightTextureBackedRenderTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULandscapeWeightTextureBackedRenderTarget(ULandscapeWeightTextureBackedRenderTarget&&); \
+	NO_API ULandscapeWeightTextureBackedRenderTarget(const ULandscapeWeightTextureBackedRenderTarget&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULandscapeWeightTextureBackedRenderTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULandscapeWeightTextureBackedRenderTarget); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULandscapeWeightTextureBackedRenderTarget) \
+	NO_API virtual ~ULandscapeWeightTextureBackedRenderTarget();
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_79_PROLOG
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_ACCESSORS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_INCLASS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_ACCESSORS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_82_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> LANDSCAPEPATCH_API UClass* StaticClass<class ULandscapeWeightTextureBackedRenderTarget>();
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_ACCESSORS
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesULandscapeHeightTextureBackedRenderTarget(); \
+	friend struct Z_Construct_UClass_ULandscapeHeightTextureBackedRenderTarget_Statics; \
+public: \
+	DECLARE_CLASS(ULandscapeHeightTextureBackedRenderTarget, ULandscapeTextureBackedRenderTargetBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LandscapePatch"), NO_API) \
+	DECLARE_SERIALIZER(ULandscapeHeightTextureBackedRenderTarget)
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_INCLASS \
+private: \
+	static void StaticRegisterNativesULandscapeHeightTextureBackedRenderTarget(); \
+	friend struct Z_Construct_UClass_ULandscapeHeightTextureBackedRenderTarget_Statics; \
+public: \
+	DECLARE_CLASS(ULandscapeHeightTextureBackedRenderTarget, ULandscapeTextureBackedRenderTargetBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/LandscapePatch"), NO_API) \
+	DECLARE_SERIALIZER(ULandscapeHeightTextureBackedRenderTarget)
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ULandscapeHeightTextureBackedRenderTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULandscapeHeightTextureBackedRenderTarget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULandscapeHeightTextureBackedRenderTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULandscapeHeightTextureBackedRenderTarget); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULandscapeHeightTextureBackedRenderTarget(ULandscapeHeightTextureBackedRenderTarget&&); \
+	NO_API ULandscapeHeightTextureBackedRenderTarget(const ULandscapeHeightTextureBackedRenderTarget&); \
+public: \
+	NO_API virtual ~ULandscapeHeightTextureBackedRenderTarget();
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ULandscapeHeightTextureBackedRenderTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ULandscapeHeightTextureBackedRenderTarget(ULandscapeHeightTextureBackedRenderTarget&&); \
+	NO_API ULandscapeHeightTextureBackedRenderTarget(const ULandscapeHeightTextureBackedRenderTarget&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ULandscapeHeightTextureBackedRenderTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULandscapeHeightTextureBackedRenderTarget); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULandscapeHeightTextureBackedRenderTarget) \
+	NO_API virtual ~ULandscapeHeightTextureBackedRenderTarget();
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_98_PROLOG
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_ACCESSORS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_INCLASS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_ACCESSORS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h_101_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> LANDSCAPEPATCH_API UClass* StaticClass<class ULandscapeHeightTextureBackedRenderTarget>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_LandscapePatch_Source_LandscapePatch_Public_LandscapeTextureBackedRenderTarget_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

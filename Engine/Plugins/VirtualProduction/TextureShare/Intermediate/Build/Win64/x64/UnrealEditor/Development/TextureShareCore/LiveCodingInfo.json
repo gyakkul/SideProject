@@ -1,0 +1,42 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TextureShareCore.cpp.obj": [
+			"TextureShareCoreD3D11ResourcesCache.cpp.obj",
+			"TextureShareCoreD3D11ResourcesCacheItem.cpp.obj",
+			"TextureShareCoreD3D12ResourcesCache.cpp.obj",
+			"TextureShareCoreD3D12ResourcesCacheItem.cpp.obj",
+			"TextureShareCoreResourcesCache.cpp.obj",
+			"TextureShareCoreResourcesCacheItem.cpp.obj",
+			"TextureShareCoreVulkanResourcesCache.cpp.obj",
+			"TextureShareCoreVulkanResourcesCacheItem.cpp.obj",
+			"TextureShareCore.cpp.obj",
+			"TextureShareCoreCallbacks.cpp.obj",
+			"TextureShareCoreSecurityAttributes.cpp.obj",
+			"TextureShareCoreTime.cpp.obj",
+			"TextureShareCoreInterprocessContainers.cpp.obj",
+			"TextureShareCoreInterprocessMemory.cpp.obj",
+			"TextureShareCoreInterprocessObjectData.cpp.obj",
+			"TextureShareCoreInterprocessObjectDesc.cpp.obj",
+			"TextureShareCoreInterprocessObjectSync.cpp.obj",
+			"TextureShareCoreInterprocessObjectSyncSettings.cpp.obj",
+			"TextureShareCoreInterprocessObjectSyncState.cpp.obj",
+			"TextureShareCoreInterprocessEvent.cpp.obj",
+			"TextureShareCoreInterprocessMemoryRegion.cpp.obj",
+			"TextureShareCoreInterprocessMutex.cpp.obj",
+			"TextureShareCoreInterprocessSerializer.cpp.obj",
+			"TextureShareCoreLog.cpp.obj",
+			"TextureShareCoreLogDefines.cpp.obj",
+			"TextureShareCoreModule.cpp.obj",
+			"TextureShareCoreObject.cpp.obj",
+			"TextureShareCoreObject_Connect.cpp.obj",
+			"TextureShareCoreObject_Data.cpp.obj",
+			"TextureShareCoreObject_Session.cpp.obj",
+			"TextureShareCoreObject_Settings.cpp.obj",
+			"TextureShareCoreObject_State.cpp.obj",
+			"TextureShareCoreObject_Sync.cpp.obj",
+			"TextureShareCoreObject_SyncBarrier.cpp.obj",
+			"TextureShareCoreObject_ThreadMutex.cpp.obj"
+		]
+	}
+}

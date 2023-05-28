@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExternalRpcRegistry.cpp.obj": [
+			"ExternalRpcRegistry.init.gen.cpp.obj",
+			"ExternalRpcRegistry.cpp.obj"
+		]
+	}
+}

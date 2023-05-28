@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExrReaderGpu.cpp.obj": [
+			"ExrReaderGpu.cpp.obj",
+			"ExrReaderGpuModule.cpp.obj",
+			"ExrSwizzlingShader.cpp.obj"
+		]
+	}
+}

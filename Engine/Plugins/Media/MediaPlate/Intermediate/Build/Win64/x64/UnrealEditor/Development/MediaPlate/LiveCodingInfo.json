@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaPlate.cpp.obj": [
+			"MediaPlate.init.gen.cpp.obj",
+			"MediaPlate.cpp.obj",
+			"MediaPlateAssetUserData.cpp.obj",
+			"MediaPlateComponent.cpp.obj",
+			"MediaPlateModule.cpp.obj"
+		]
+	}
+}

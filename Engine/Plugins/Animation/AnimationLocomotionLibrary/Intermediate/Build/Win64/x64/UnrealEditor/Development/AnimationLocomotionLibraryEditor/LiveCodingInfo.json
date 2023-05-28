@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationLocomotionLibraryEditor.cpp.obj": [
+			"AnimationLocomotionLibraryEditor.init.gen.cpp.obj",
+			"DistanceCurveModifier.gen.cpp.obj",
+			"AnimationLocomotionLibraryEditor.cpp.obj",
+			"DistanceCurveModifier.cpp.obj"
+		]
+	}
+}

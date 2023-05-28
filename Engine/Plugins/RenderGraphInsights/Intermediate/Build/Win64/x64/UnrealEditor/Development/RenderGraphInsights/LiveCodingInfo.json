@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderGraphInsights.cpp.obj": [
+			"RenderGraphAnalyzer.cpp.obj",
+			"RenderGraphInsightsModule.cpp.obj",
+			"RenderGraphProvider.cpp.obj",
+			"RenderGraphTimingViewExtender.cpp.obj",
+			"RenderGraphTimingViewSession.cpp.obj",
+			"RenderGraphTraceModule.cpp.obj",
+			"RenderGraphTrack.cpp.obj",
+			"RenderGraphTrackDrawHelper.cpp.obj"
+		]
+	}
+}

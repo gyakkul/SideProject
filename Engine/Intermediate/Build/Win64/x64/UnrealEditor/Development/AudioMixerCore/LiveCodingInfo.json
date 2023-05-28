@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioMixerCore.cpp.obj": [
+			"AudioMixer.cpp.obj",
+			"AudioMixerCoreModule.cpp.obj",
+			"AudioMixerNullDevice.cpp.obj"
+		]
+	}
+}

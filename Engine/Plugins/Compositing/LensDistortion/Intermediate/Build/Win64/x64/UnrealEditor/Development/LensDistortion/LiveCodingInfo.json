@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LensDistortion.cpp.obj": [
+			"LensDistortion.init.gen.cpp.obj",
+			"LensDistortionAPI.gen.cpp.obj",
+			"LensDistortionBlueprintLibrary.gen.cpp.obj",
+			"LensDistortion.cpp.obj",
+			"LensDistortionBlueprintLibrary.cpp.obj",
+			"LensDistortionRendering.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VPSettings.cpp.obj": [
+			"VPSettings.gen.cpp.obj",
+			"VPSettings.init.gen.cpp.obj",
+			"VPSettings.cpp.obj",
+			"VPSettingsModule.cpp.obj"
+		]
+	}
+}

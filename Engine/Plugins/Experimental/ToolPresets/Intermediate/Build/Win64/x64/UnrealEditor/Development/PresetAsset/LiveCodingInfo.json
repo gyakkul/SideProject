@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PresetAsset.cpp.obj": [
+			"AssetDefinition_PresetAsset.gen.cpp.obj",
+			"PresetAsset.gen.cpp.obj",
+			"PresetAsset.init.gen.cpp.obj",
+			"AssetDefinition_PresetAsset.cpp.obj",
+			"PresetAssetModule.cpp.obj"
+		]
+	}
+}

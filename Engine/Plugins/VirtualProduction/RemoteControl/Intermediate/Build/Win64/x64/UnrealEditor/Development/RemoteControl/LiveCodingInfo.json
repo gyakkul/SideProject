@@ -1,0 +1,60 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteControl.1_of_4.cpp.obj": [
+			"IRemoteControlModule.gen.cpp.obj",
+			"RCVirtualProperty.gen.cpp.obj",
+			"RCVirtualPropertyContainer.gen.cpp.obj",
+			"RemoteControl.init.gen.cpp.obj",
+			"RemoteControlActor.gen.cpp.obj",
+			"RemoteControlBinding.gen.cpp.obj",
+			"RemoteControlDeltaAPITestData.gen.cpp.obj",
+			"RemoteControlEntity.gen.cpp.obj",
+			"RemoteControlExposeRegistry.gen.cpp.obj",
+			"RemoteControlField.gen.cpp.obj",
+			"RemoteControlFieldMetadata.gen.cpp.obj"
+		],
+		"Module.RemoteControl.2_of_4.cpp.obj": [
+			"RemoteControlFieldPath.gen.cpp.obj",
+			"RemoteControlFunctionLibrary.gen.cpp.obj",
+			"RemoteControlInstanceMaterial.gen.cpp.obj",
+			"RemoteControlInterceptionTestData.gen.cpp.obj",
+			"RemoteControlPreset.gen.cpp.obj",
+			"RemoteControlPresetActor.gen.cpp.obj",
+			"RemoteControlPropertyHandleTestData.gen.cpp.obj",
+			"RemoteControlProtocolBinding.gen.cpp.obj",
+			"RemoteControlTestData.gen.cpp.obj",
+			"RCDefaultValueFactories.cpp.obj",
+			"RemoteControlMaskingFactories.cpp.obj",
+			"RCVirtualProperty.cpp.obj",
+			"RCVirtualPropertyComparators.cpp.obj",
+			"RCVirtualPropertyContainer.cpp.obj",
+			"RemoteControlBinding.cpp.obj"
+		],
+		"Module.RemoteControl.3_of_4.cpp.obj": [
+			"RemoteControlEntity.cpp.obj",
+			"RemoteControlExposeRegistry.cpp.obj",
+			"RemoteControlField.cpp.obj",
+			"RemoteControlFieldPath.cpp.obj",
+			"RemoteControlFunctionLibrary.cpp.obj",
+			"RemoteControlInstanceMaterial.cpp.obj",
+			"RemoteControlInterceptionProcessor.cpp.obj",
+			"RemoteControlLogger.cpp.obj",
+			"RemoteControlModule.cpp.obj",
+			"RemoteControlPreset.cpp.obj",
+			"RemoteControlPresetActor.cpp.obj",
+			"RemoteControlPresetRebindingManager.cpp.obj",
+			"RemoteControlPropertyHandle.cpp.obj",
+			"RemoteControlProtocolBinding.cpp.obj",
+			"PropertyMapStructDeserializerBackendWrapper.cpp.obj",
+			"RemoteControlDeltaAPITestData.cpp.obj",
+			"RemoteControlDeltaAPITests.spec.cpp.obj",
+			"RemoteControlInterceptionTest.cpp.obj",
+			"RemoteControlPropertyHandleTests.cpp.obj"
+		],
+		"Module.RemoteControl.4_of_4.cpp.obj": [
+			"RemoteControlTests.cpp.obj",
+			"RemoteControlObjectVersion.cpp.obj"
+		]
+	}
+}

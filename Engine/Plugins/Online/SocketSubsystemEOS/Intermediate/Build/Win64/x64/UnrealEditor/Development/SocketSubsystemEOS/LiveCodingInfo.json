@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SocketSubsystemEOS.cpp.obj": [
+			"SocketSubsystemEOS.init.gen.cpp.obj",
+			"InternetAddrEOS.cpp.obj",
+			"NetConnectionEOS.cpp.obj",
+			"NetDriverEOSBase.cpp.obj",
+			"SocketEOS.cpp.obj",
+			"SocketSubsystemEOS.cpp.obj",
+			"SocketSubsystemEOSModule.cpp.obj"
+		]
+	}
+}

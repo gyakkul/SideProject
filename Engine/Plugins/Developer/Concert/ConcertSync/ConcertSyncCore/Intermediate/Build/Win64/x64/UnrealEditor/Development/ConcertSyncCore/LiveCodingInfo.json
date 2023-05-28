@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConcertSyncCore.cpp.obj": [
+			"ConcertDataStoreMessages.gen.cpp.obj",
+			"ConcertPresenceEvents.gen.cpp.obj",
+			"ConcertSequencerMessages.gen.cpp.obj",
+			"ConcertSyncCore.init.gen.cpp.obj",
+			"ConcertSyncSettings.gen.cpp.obj",
+			"ConcertTransactionEvents.gen.cpp.obj",
+			"ConcertWorkspaceData.gen.cpp.obj",
+			"ConcertWorkspaceMessages.gen.cpp.obj",
+			"ConcertDataStore.cpp.obj",
+			"ConcertFileCache.cpp.obj",
+			"ConcertLocalFileSharingService.cpp.obj",
+			"ConcertPackageEvents.cpp.obj",
+			"ConcertSyncArchives.cpp.obj",
+			"ConcertSyncCoreModule.cpp.obj",
+			"ConcertSyncSessionDatabase.cpp.obj",
+			"ActivityDependencyEdge.cpp.obj",
+			"ActivityDependencyGraph.cpp.obj",
+			"ActivityNode.cpp.obj",
+			"DebugDependencyGraph.cpp.obj",
+			"DependencyGraphBuilder.cpp.obj",
+			"HistoryBottomUpAnalysis.cpp.obj",
+			"HistoryEdition.cpp.obj",
+			"HistoryTopDownAnalysis.cpp.obj",
+			"ConcertSyncSessionTypes.cpp.obj"
+		]
+	}
+}

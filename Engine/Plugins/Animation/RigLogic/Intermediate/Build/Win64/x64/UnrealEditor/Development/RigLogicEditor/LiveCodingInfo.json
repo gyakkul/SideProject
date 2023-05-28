@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RigLogicEditor.cpp.obj": [
+			"DNAAssetImportUI.gen.cpp.obj",
+			"RigLogicEditor.init.gen.cpp.obj",
+			"DNAAssetImportFactory.cpp.obj",
+			"DNAAssetImportWindow.cpp.obj",
+			"DNAImporter.cpp.obj",
+			"RigLogicEditor.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetTools.cpp.obj": [
+			"AssetDefinition_AssetTypeActionsProxy.gen.cpp.obj",
+			"AssetTools.init.gen.cpp.obj",
+			"AssetToolsSettings.gen.cpp.obj",
+			"AssetTypeActivationOpenedMethod.gen.cpp.obj",
+			"IAssetTools.gen.cpp.obj",
+			"AdvancedCopyCustomization.cpp.obj",
+			"AssetDefinition_AssetTypeActionsProxy.cpp.obj",
+			"AssetFixUpRedirectors.cpp.obj",
+			"AssetRenameManager.cpp.obj",
+			"AssetTools.cpp.obj",
+			"AssetToolsModule.cpp.obj",
+			"AssetTypeActions_AnimationAsset.cpp.obj",
+			"AssetTypeActions_AnimBoneCompressionSettings.cpp.obj",
+			"AssetTypeActions_AnimCurveCompressionSettings.cpp.obj",
+			"AssetTypeActions_Blueprint.cpp.obj",
+			"AssetTypeActions_BlueprintGeneratedClass.cpp.obj",
+			"AssetTypeActions_CSVAssetBase.cpp.obj",
+			"AssetTypeActions_DataAsset.cpp.obj",
+			"AssetTypeActions_ForceFeedbackEffect.cpp.obj",
+			"AssetTypeActions_ParticleSystem.cpp.obj",
+			"AssetTypeActions_PhysicalMaterialMask.cpp.obj",
+			"AssetViewUtils.cpp.obj",
+			"CollectionAssetManagement.cpp.obj",
+			"FindSourceFileInExplorer.cpp.obj",
+			"PackageMigrationContext.cpp.obj",
+			"SAdvancedCopyReportDialog.cpp.obj",
+			"SDiscoveringAssetsDialog.cpp.obj",
+			"SPackageReportDialog.cpp.obj"
+		]
+	}
+}

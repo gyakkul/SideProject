@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LocationServicesBPLibrary.cpp.obj": [
+			"LocationServicesBPLibrary.gen.cpp.obj",
+			"LocationServicesBPLibrary.init.gen.cpp.obj",
+			"LocationServicesImpl.gen.cpp.obj",
+			"LocationServicesBPLibrary.cpp.obj",
+			"LocationServicesBPLibraryModule.cpp.obj"
+		]
+	}
+}

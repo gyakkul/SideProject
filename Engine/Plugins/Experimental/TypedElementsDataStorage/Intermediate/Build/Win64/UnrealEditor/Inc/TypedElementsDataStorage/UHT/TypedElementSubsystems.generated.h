@@ -1,0 +1,246 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "TypedElementSubsystems.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef TYPEDELEMENTSDATASTORAGE_TypedElementSubsystems_generated_h
+#error "TypedElementSubsystems.generated.h already included, missing '#pragma once' in TypedElementSubsystems.h"
+#endif
+#define TYPEDELEMENTSDATASTORAGE_TypedElementSubsystems_generated_h
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_ACCESSORS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTypedElementDataStorageSubsystem(); \
+	friend struct Z_Construct_UClass_UTypedElementDataStorageSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementDataStorageSubsystem, UEditorSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementDataStorageSubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_INCLASS \
+private: \
+	static void StaticRegisterNativesUTypedElementDataStorageSubsystem(); \
+	friend struct Z_Construct_UClass_UTypedElementDataStorageSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementDataStorageSubsystem, UEditorSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementDataStorageSubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTypedElementDataStorageSubsystem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTypedElementDataStorageSubsystem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementDataStorageSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementDataStorageSubsystem); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementDataStorageSubsystem(UTypedElementDataStorageSubsystem&&); \
+	NO_API UTypedElementDataStorageSubsystem(const UTypedElementDataStorageSubsystem&); \
+public:
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTypedElementDataStorageSubsystem(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementDataStorageSubsystem(UTypedElementDataStorageSubsystem&&); \
+	NO_API UTypedElementDataStorageSubsystem(const UTypedElementDataStorageSubsystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementDataStorageSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementDataStorageSubsystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTypedElementDataStorageSubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_18_PROLOG
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_INCLASS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_21_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TYPEDELEMENTSDATASTORAGE_API UClass* StaticClass<class UTypedElementDataStorageSubsystem>();
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_ACCESSORS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTypedElementDataStorageUiSubsystem(); \
+	friend struct Z_Construct_UClass_UTypedElementDataStorageUiSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementDataStorageUiSubsystem, UEditorSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementDataStorageUiSubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_INCLASS \
+private: \
+	static void StaticRegisterNativesUTypedElementDataStorageUiSubsystem(); \
+	friend struct Z_Construct_UClass_UTypedElementDataStorageUiSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementDataStorageUiSubsystem, UEditorSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementDataStorageUiSubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTypedElementDataStorageUiSubsystem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTypedElementDataStorageUiSubsystem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementDataStorageUiSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementDataStorageUiSubsystem); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementDataStorageUiSubsystem(UTypedElementDataStorageUiSubsystem&&); \
+	NO_API UTypedElementDataStorageUiSubsystem(const UTypedElementDataStorageUiSubsystem&); \
+public:
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTypedElementDataStorageUiSubsystem(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementDataStorageUiSubsystem(UTypedElementDataStorageUiSubsystem&&); \
+	NO_API UTypedElementDataStorageUiSubsystem(const UTypedElementDataStorageUiSubsystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementDataStorageUiSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementDataStorageUiSubsystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTypedElementDataStorageUiSubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_37_PROLOG
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_INCLASS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_40_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TYPEDELEMENTSDATASTORAGE_API UClass* StaticClass<class UTypedElementDataStorageUiSubsystem>();
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_ACCESSORS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTypedElementDataStorageCompatibilitySubsystem(); \
+	friend struct Z_Construct_UClass_UTypedElementDataStorageCompatibilitySubsystem_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementDataStorageCompatibilitySubsystem, UEditorSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementDataStorageCompatibilitySubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_INCLASS \
+private: \
+	static void StaticRegisterNativesUTypedElementDataStorageCompatibilitySubsystem(); \
+	friend struct Z_Construct_UClass_UTypedElementDataStorageCompatibilitySubsystem_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementDataStorageCompatibilitySubsystem, UEditorSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementDataStorageCompatibilitySubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTypedElementDataStorageCompatibilitySubsystem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTypedElementDataStorageCompatibilitySubsystem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementDataStorageCompatibilitySubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementDataStorageCompatibilitySubsystem); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementDataStorageCompatibilitySubsystem(UTypedElementDataStorageCompatibilitySubsystem&&); \
+	NO_API UTypedElementDataStorageCompatibilitySubsystem(const UTypedElementDataStorageCompatibilitySubsystem&); \
+public:
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTypedElementDataStorageCompatibilitySubsystem(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementDataStorageCompatibilitySubsystem(UTypedElementDataStorageCompatibilitySubsystem&&); \
+	NO_API UTypedElementDataStorageCompatibilitySubsystem(const UTypedElementDataStorageCompatibilitySubsystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementDataStorageCompatibilitySubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementDataStorageCompatibilitySubsystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTypedElementDataStorageCompatibilitySubsystem)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_56_PROLOG
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_INCLASS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h_59_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TYPEDELEMENTSDATASTORAGE_API UClass* StaticClass<class UTypedElementDataStorageCompatibilitySubsystem>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Public_TypedElementSubsystems_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

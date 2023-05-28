@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MobileFSR.cpp.obj": [
+			"MobileFSRModule.cpp.obj",
+			"MobileFSRUpscaler.cpp.obj",
+			"MobileFSRViewExtension.cpp.obj"
+		]
+	}
+}

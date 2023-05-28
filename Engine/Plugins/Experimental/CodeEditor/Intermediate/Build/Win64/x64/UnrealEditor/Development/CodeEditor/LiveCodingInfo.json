@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CodeEditor.cpp.obj": [
+			"CodeEditor.init.gen.cpp.obj",
+			"CodeEditorCustomization.gen.cpp.obj",
+			"CodeProject.gen.cpp.obj",
+			"CodeProjectFactory.gen.cpp.obj",
+			"CodeProjectItem.gen.cpp.obj",
+			"CodeAssetTypeActions.cpp.obj",
+			"CodeEditor.cpp.obj",
+			"CodeEditorCustomization.cpp.obj",
+			"CodeEditorStyle.cpp.obj",
+			"CodeProject.cpp.obj",
+			"CodeProjectEditor.cpp.obj",
+			"CodeProjectEditorCommands.cpp.obj",
+			"CodeProjectEditorToolbar.cpp.obj",
+			"CodeProjectFactory.cpp.obj",
+			"CodeProjectItem.cpp.obj",
+			"CPPRichTextSyntaxHighlighterTextLayoutMarshaller.cpp.obj",
+			"DirectoryScanner.cpp.obj",
+			"SCodeEditableText.cpp.obj",
+			"SCodeEditor.cpp.obj",
+			"SCodeProjectEditor.cpp.obj",
+			"SProjectViewItem.cpp.obj",
+			"WhiteSpaceTextRun.cpp.obj"
+		]
+	}
+}

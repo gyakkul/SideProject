@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Shotgrid.cpp.obj": [
+			"Shotgrid.init.gen.cpp.obj",
+			"ShotgridEngine.gen.cpp.obj",
+			"ShotgridSettings.gen.cpp.obj",
+			"ShotgridEngine.cpp.obj",
+			"ShotgridModule.cpp.obj",
+			"ShotgridSettings.cpp.obj",
+			"ShotgridStyle.cpp.obj",
+			"ShotgridUIManager.cpp.obj"
+		]
+	}
+}

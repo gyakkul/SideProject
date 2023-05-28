@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CinePrestream.cpp.obj": [
+			"CinematicPrestreaming.init.gen.cpp.obj",
+			"MovieSceneCinePrestreamingSection.gen.cpp.obj",
+			"MovieSceneCinePrestreamingTrack.gen.cpp.obj",
+			"MovieSceneCinePrestreamingTrackInstance.gen.cpp.obj",
+			"CinePrestreamingData.cpp.obj",
+			"CinePrestreamingModule.cpp.obj",
+			"MovieSceneCinePrestreamingSection.cpp.obj",
+			"MovieSceneCinePrestreamingTrackInstance.cpp.obj",
+			"MovieSceneCinePrestreamingTrack.cpp.obj"
+		]
+	}
+}

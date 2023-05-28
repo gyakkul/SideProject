@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioGameplayVolumeEditor.cpp.obj": [
+			"AudioGameplayVolumeEditorModule.cpp.obj",
+			"ReverbVolumeComponentDetail.cpp.obj"
+		]
+	}
+}

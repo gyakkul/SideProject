@@ -1,0 +1,22 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\providers\\shared\\node_unit\\node_unit.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nneort\\pch.nneonnxruntime.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\providers\\shared\\node_unit\\node_unit.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\optimizer\\qdq_transformer\\selectors_actions\\qdq_selectors.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\optimizer\\selectors_actions\\selector_action_transformer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\internal\\core\\optimizer\\graph_transformer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\optimizer\\selectors_actions\\actions.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\graph\\graph_utils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\graph\\runtime_optimization_record.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\optimizer\\selectors_actions\\helpers.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\optimizer\\selectors_actions\\selector_action_transformer_apply_contexts.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\optimizer\\qdq_transformer\\selectors_actions\\shared\\utils.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

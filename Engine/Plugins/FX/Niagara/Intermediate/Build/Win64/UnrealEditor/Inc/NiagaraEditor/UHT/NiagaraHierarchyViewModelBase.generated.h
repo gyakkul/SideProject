@@ -1,0 +1,547 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ViewModels/HierarchyEditor/NiagaraHierarchyViewModelBase.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef NIAGARAEDITOR_NiagaraHierarchyViewModelBase_generated_h
+#error "NiagaraHierarchyViewModelBase.generated.h already included, missing '#pragma once' in NiagaraHierarchyViewModelBase.h"
+#endif
+#define NIAGARAEDITOR_NiagaraHierarchyViewModelBase_generated_h
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_15_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FNiagaraHierarchyIdentity_Statics; \
+	NIAGARAEDITOR_API static class UScriptStruct* StaticStruct();
+
+
+template<> NIAGARAEDITOR_API UScriptStruct* StaticStruct<struct FNiagaraHierarchyIdentity>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyItemBase(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyItemBase_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyItemBase, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyItemBase)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyItemBase(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyItemBase_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyItemBase, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyItemBase)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchyItemBase(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchyItemBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyItemBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyItemBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyItemBase(UNiagaraHierarchyItemBase&&); \
+	NO_API UNiagaraHierarchyItemBase(const UNiagaraHierarchyItemBase&); \
+public:
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyItemBase(UNiagaraHierarchyItemBase&&); \
+	NO_API UNiagaraHierarchyItemBase(const UNiagaraHierarchyItemBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyItemBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyItemBase); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraHierarchyItemBase)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_55_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_58_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraHierarchyItemBase>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyRoot(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyRoot_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyRoot, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyRoot)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyRoot(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyRoot_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyRoot, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyRoot)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchyRoot(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchyRoot) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyRoot); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyRoot); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyRoot(UNiagaraHierarchyRoot&&); \
+	NO_API UNiagaraHierarchyRoot(const UNiagaraHierarchyRoot&); \
+public:
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyRoot(UNiagaraHierarchyRoot&&); \
+	NO_API UNiagaraHierarchyRoot(const UNiagaraHierarchyRoot&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyRoot); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyRoot); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraHierarchyRoot)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_173_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_176_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraHierarchyRoot>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyItem(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyItem_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyItem, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyItem)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyItem(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyItem_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyItem, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyItem)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchyItem(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchyItem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyItem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyItem); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyItem(UNiagaraHierarchyItem&&); \
+	NO_API UNiagaraHierarchyItem(const UNiagaraHierarchyItem&); \
+public:
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyItem(UNiagaraHierarchyItem&&); \
+	NO_API UNiagaraHierarchyItem(const UNiagaraHierarchyItem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyItem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyItem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraHierarchyItem)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_198_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_201_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraHierarchyItem>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyCategory(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyCategory_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyCategory, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyCategory)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyCategory(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyCategory_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyCategory, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyCategory)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchyCategory(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchyCategory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyCategory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyCategory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyCategory(UNiagaraHierarchyCategory&&); \
+	NO_API UNiagaraHierarchyCategory(const UNiagaraHierarchyCategory&); \
+public: \
+	NO_API virtual ~UNiagaraHierarchyCategory();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyCategory(UNiagaraHierarchyCategory&&); \
+	NO_API UNiagaraHierarchyCategory(const UNiagaraHierarchyCategory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyCategory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyCategory); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraHierarchyCategory) \
+	NO_API virtual ~UNiagaraHierarchyCategory();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_210_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_213_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraHierarchyCategory>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchySection(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchySection_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchySection, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchySection)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchySection(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchySection_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchySection, UNiagaraHierarchyItemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchySection)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchySection(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchySection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchySection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchySection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchySection(UNiagaraHierarchySection&&); \
+	NO_API UNiagaraHierarchySection(const UNiagaraHierarchySection&); \
+public: \
+	NO_API virtual ~UNiagaraHierarchySection();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchySection(UNiagaraHierarchySection&&); \
+	NO_API UNiagaraHierarchySection(const UNiagaraHierarchySection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchySection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchySection); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraHierarchySection) \
+	NO_API virtual ~UNiagaraHierarchySection();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_243_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_246_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraHierarchySection>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyMenuContext(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyMenuContext_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyMenuContext, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyMenuContext)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyMenuContext(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyMenuContext_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyMenuContext, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyMenuContext)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchyMenuContext(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchyMenuContext) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyMenuContext); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyMenuContext); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyMenuContext(UNiagaraHierarchyMenuContext&&); \
+	NO_API UNiagaraHierarchyMenuContext(const UNiagaraHierarchyMenuContext&); \
+public: \
+	NO_API virtual ~UNiagaraHierarchyMenuContext();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchyMenuContext(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyMenuContext(UNiagaraHierarchyMenuContext&&); \
+	NO_API UNiagaraHierarchyMenuContext(const UNiagaraHierarchyMenuContext&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyMenuContext); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyMenuContext); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchyMenuContext) \
+	NO_API virtual ~UNiagaraHierarchyMenuContext();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_303_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_306_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraHierarchyMenuContext>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyViewModelBase(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyViewModelBase_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyViewModelBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyViewModelBase)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraHierarchyViewModelBase(); \
+	friend struct Z_Construct_UClass_UNiagaraHierarchyViewModelBase_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraHierarchyViewModelBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraHierarchyViewModelBase)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraHierarchyViewModelBase(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraHierarchyViewModelBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyViewModelBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyViewModelBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyViewModelBase(UNiagaraHierarchyViewModelBase&&); \
+	NO_API UNiagaraHierarchyViewModelBase(const UNiagaraHierarchyViewModelBase&); \
+public:
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraHierarchyViewModelBase(UNiagaraHierarchyViewModelBase&&); \
+	NO_API UNiagaraHierarchyViewModelBase(const UNiagaraHierarchyViewModelBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraHierarchyViewModelBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraHierarchyViewModelBase); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UNiagaraHierarchyViewModelBase)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_314_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h_325_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraHierarchyViewModelBase>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_HierarchyEditor_NiagaraHierarchyViewModelBase_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

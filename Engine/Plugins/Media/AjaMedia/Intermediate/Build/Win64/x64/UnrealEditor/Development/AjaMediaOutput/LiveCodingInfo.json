@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AjaMediaOutput.cpp.obj": [
+			"AjaMediaCapture.gen.cpp.obj",
+			"AjaMediaFrameGrabberProtocol.gen.cpp.obj",
+			"AjaMediaOutput.gen.cpp.obj",
+			"AjaMediaOutput.init.gen.cpp.obj",
+			"AjaMediaCapture.cpp.obj",
+			"AjaMediaFrameGrabberProtocol.cpp.obj",
+			"AjaMediaOutput.cpp.obj",
+			"AjaMediaOutputModule.cpp.obj"
+		]
+	}
+}

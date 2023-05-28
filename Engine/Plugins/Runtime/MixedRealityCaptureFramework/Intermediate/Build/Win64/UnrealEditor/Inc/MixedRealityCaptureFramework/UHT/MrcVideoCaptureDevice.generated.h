@@ -1,0 +1,274 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MrcVideoCaptureDevice.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FMrcVideoCaptureFeedIndex;
+#ifdef MIXEDREALITYCAPTUREFRAMEWORK_MrcVideoCaptureDevice_generated_h
+#error "MrcVideoCaptureDevice.generated.h already included, missing '#pragma once' in MrcVideoCaptureDevice.h"
+#endif
+#define MIXEDREALITYCAPTUREFRAMEWORK_MrcVideoCaptureDevice_generated_h
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_19_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMrcVideoCaptureFeedIndex_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> MIXEDREALITYCAPTUREFRAMEWORK_API UScriptStruct* StaticStruct<struct FMrcVideoCaptureFeedIndex>();
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_58_DELEGATE \
+MIXEDREALITYCAPTUREFRAMEWORK_API void FMRCaptureFeedDelegate_DelegateWrapper(const FMulticastScriptDelegate& MRCaptureFeedDelegate, FMrcVideoCaptureFeedIndex const& FeedRef);
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnVideoFeedOpenFailure); \
+	DECLARE_FUNCTION(execOnVideoFeedOpened);
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnVideoFeedOpenFailure); \
+	DECLARE_FUNCTION(execOnVideoFeedOpened);
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAsyncTask_OpenMrcVidCaptureFeedBase(); \
+	friend struct Z_Construct_UClass_UAsyncTask_OpenMrcVidCaptureFeedBase_Statics; \
+public: \
+	DECLARE_CLASS(UAsyncTask_OpenMrcVidCaptureFeedBase, UBlueprintAsyncActionBase, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/MixedRealityCaptureFramework"), NO_API) \
+	DECLARE_SERIALIZER(UAsyncTask_OpenMrcVidCaptureFeedBase)
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_INCLASS \
+private: \
+	static void StaticRegisterNativesUAsyncTask_OpenMrcVidCaptureFeedBase(); \
+	friend struct Z_Construct_UClass_UAsyncTask_OpenMrcVidCaptureFeedBase_Statics; \
+public: \
+	DECLARE_CLASS(UAsyncTask_OpenMrcVidCaptureFeedBase, UBlueprintAsyncActionBase, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/MixedRealityCaptureFramework"), NO_API) \
+	DECLARE_SERIALIZER(UAsyncTask_OpenMrcVidCaptureFeedBase)
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeedBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAsyncTask_OpenMrcVidCaptureFeedBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAsyncTask_OpenMrcVidCaptureFeedBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAsyncTask_OpenMrcVidCaptureFeedBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeedBase(UAsyncTask_OpenMrcVidCaptureFeedBase&&); \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeedBase(const UAsyncTask_OpenMrcVidCaptureFeedBase&); \
+public: \
+	NO_API virtual ~UAsyncTask_OpenMrcVidCaptureFeedBase();
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeedBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeedBase(UAsyncTask_OpenMrcVidCaptureFeedBase&&); \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeedBase(const UAsyncTask_OpenMrcVidCaptureFeedBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAsyncTask_OpenMrcVidCaptureFeedBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAsyncTask_OpenMrcVidCaptureFeedBase); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAsyncTask_OpenMrcVidCaptureFeedBase) \
+	NO_API virtual ~UAsyncTask_OpenMrcVidCaptureFeedBase();
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_60_PROLOG
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_INCLASS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_63_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class AsyncTask_OpenMrcVidCaptureFeedBase."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MIXEDREALITYCAPTUREFRAMEWORK_API UClass* StaticClass<class UAsyncTask_OpenMrcVidCaptureFeedBase>();
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAsyncTask_OpenMrcVidCaptureDevice(); \
+	friend struct Z_Construct_UClass_UAsyncTask_OpenMrcVidCaptureDevice_Statics; \
+public: \
+	DECLARE_CLASS(UAsyncTask_OpenMrcVidCaptureDevice, UAsyncTask_OpenMrcVidCaptureFeedBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MixedRealityCaptureFramework"), NO_API) \
+	DECLARE_SERIALIZER(UAsyncTask_OpenMrcVidCaptureDevice)
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_INCLASS \
+private: \
+	static void StaticRegisterNativesUAsyncTask_OpenMrcVidCaptureDevice(); \
+	friend struct Z_Construct_UClass_UAsyncTask_OpenMrcVidCaptureDevice_Statics; \
+public: \
+	DECLARE_CLASS(UAsyncTask_OpenMrcVidCaptureDevice, UAsyncTask_OpenMrcVidCaptureFeedBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MixedRealityCaptureFramework"), NO_API) \
+	DECLARE_SERIALIZER(UAsyncTask_OpenMrcVidCaptureDevice)
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureDevice(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAsyncTask_OpenMrcVidCaptureDevice) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAsyncTask_OpenMrcVidCaptureDevice); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAsyncTask_OpenMrcVidCaptureDevice); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureDevice(UAsyncTask_OpenMrcVidCaptureDevice&&); \
+	NO_API UAsyncTask_OpenMrcVidCaptureDevice(const UAsyncTask_OpenMrcVidCaptureDevice&); \
+public: \
+	NO_API virtual ~UAsyncTask_OpenMrcVidCaptureDevice();
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureDevice(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureDevice(UAsyncTask_OpenMrcVidCaptureDevice&&); \
+	NO_API UAsyncTask_OpenMrcVidCaptureDevice(const UAsyncTask_OpenMrcVidCaptureDevice&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAsyncTask_OpenMrcVidCaptureDevice); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAsyncTask_OpenMrcVidCaptureDevice); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAsyncTask_OpenMrcVidCaptureDevice) \
+	NO_API virtual ~UAsyncTask_OpenMrcVidCaptureDevice();
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_98_PROLOG
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_INCLASS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_101_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class AsyncTask_OpenMrcVidCaptureDevice."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MIXEDREALITYCAPTUREFRAMEWORK_API UClass* StaticClass<class UAsyncTask_OpenMrcVidCaptureDevice>();
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAsyncTask_OpenMrcVidCaptureFeed(); \
+	friend struct Z_Construct_UClass_UAsyncTask_OpenMrcVidCaptureFeed_Statics; \
+public: \
+	DECLARE_CLASS(UAsyncTask_OpenMrcVidCaptureFeed, UAsyncTask_OpenMrcVidCaptureFeedBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MixedRealityCaptureFramework"), NO_API) \
+	DECLARE_SERIALIZER(UAsyncTask_OpenMrcVidCaptureFeed)
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_INCLASS \
+private: \
+	static void StaticRegisterNativesUAsyncTask_OpenMrcVidCaptureFeed(); \
+	friend struct Z_Construct_UClass_UAsyncTask_OpenMrcVidCaptureFeed_Statics; \
+public: \
+	DECLARE_CLASS(UAsyncTask_OpenMrcVidCaptureFeed, UAsyncTask_OpenMrcVidCaptureFeedBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MixedRealityCaptureFramework"), NO_API) \
+	DECLARE_SERIALIZER(UAsyncTask_OpenMrcVidCaptureFeed)
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeed(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAsyncTask_OpenMrcVidCaptureFeed) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAsyncTask_OpenMrcVidCaptureFeed); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAsyncTask_OpenMrcVidCaptureFeed); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeed(UAsyncTask_OpenMrcVidCaptureFeed&&); \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeed(const UAsyncTask_OpenMrcVidCaptureFeed&); \
+public: \
+	NO_API virtual ~UAsyncTask_OpenMrcVidCaptureFeed();
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeed(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeed(UAsyncTask_OpenMrcVidCaptureFeed&&); \
+	NO_API UAsyncTask_OpenMrcVidCaptureFeed(const UAsyncTask_OpenMrcVidCaptureFeed&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAsyncTask_OpenMrcVidCaptureFeed); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAsyncTask_OpenMrcVidCaptureFeed); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAsyncTask_OpenMrcVidCaptureFeed) \
+	NO_API virtual ~UAsyncTask_OpenMrcVidCaptureFeed();
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_113_PROLOG
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_INCLASS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h_116_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class AsyncTask_OpenMrcVidCaptureFeed."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MIXEDREALITYCAPTUREFRAMEWORK_API UClass* StaticClass<class UAsyncTask_OpenMrcVidCaptureFeed>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MixedRealityCaptureFramework_Source_MixedRealityCaptureFramework_Public_MrcVideoCaptureDevice_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

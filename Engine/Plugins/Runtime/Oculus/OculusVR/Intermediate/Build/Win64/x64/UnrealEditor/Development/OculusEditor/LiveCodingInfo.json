@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OculusEditor.cpp.obj": [
+			"OculusEditor.init.gen.cpp.obj",
+			"OculusEditorSettings.gen.cpp.obj",
+			"OculusPlatformToolSettings.gen.cpp.obj",
+			"OculusBuildAnalytics.cpp.obj",
+			"OculusEditorModule.cpp.obj",
+			"OculusEditorSettings.cpp.obj",
+			"OculusPlatformToolSettings.cpp.obj",
+			"OculusPlatformToolWidget.cpp.obj",
+			"OculusToolCommands.cpp.obj",
+			"OculusToolStyle.cpp.obj",
+			"OculusToolWidget.cpp.obj"
+		]
+	}
+}

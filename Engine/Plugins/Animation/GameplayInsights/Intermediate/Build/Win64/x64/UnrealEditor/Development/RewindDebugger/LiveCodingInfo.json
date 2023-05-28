@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RewindDebugger.cpp.obj": [
+			"RewindDebugger.init.gen.cpp.obj",
+			"AnimInstanceHelpers.cpp.obj",
+			"BlueprintDoubleClickHandler.cpp.obj",
+			"PropertyTraceMenu.cpp.obj",
+			"RewindDebugger.cpp.obj",
+			"RewindDebuggerCamera.cpp.obj",
+			"RewindDebuggerFallbackTrack.cpp.obj",
+			"RewindDebuggerModule.cpp.obj",
+			"RewindDebuggerObjectTrack.cpp.obj",
+			"RewindDebuggerSettings.cpp.obj",
+			"RewindDebuggerStyle.cpp.obj",
+			"RewindDebuggerTrackCreators.cpp.obj",
+			"RewindDebuggerViewCreators.cpp.obj",
+			"SRewindDebugger.cpp.obj",
+			"SRewindDebuggerComponentTree.cpp.obj",
+			"SRewindDebuggerDetails.cpp.obj",
+			"SRewindDebuggerTimelines.cpp.obj"
+		]
+	}
+}

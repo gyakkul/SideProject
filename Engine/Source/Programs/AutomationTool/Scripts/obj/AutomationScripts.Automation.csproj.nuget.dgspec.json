@@ -1,0 +1,1021 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+        "projectName": "AutomationUtils.Automation",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce\\EpicGames.Perforce.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce\\EpicGames.Perforce.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Apis.Drive.v3": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.33.1.1225, )"
+            },
+            "Google.Apis.Sheets.v4": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.33.1.1229, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+        "projectName": "Localization.Automation",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Localization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj",
+        "projectName": "AutomationScripts.Automation",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\AutomationScripts.Automation.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Scripts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\AutomationUtils\\AutomationUtils.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\AutomationTool\\Localization\\Localization.Automation.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+                "privateAssets": "all"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.113.2, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+        "projectName": "EpicGames.Build",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.MsBuild\\EpicGames.MsBuild.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.MsBuild\\EpicGames.MsBuild.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+        "projectName": "EpicGames.Core",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2022.1.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.ObjectPool": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "OpenTracing": {
+              "target": "Package",
+              "version": "[0.12.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj",
+        "projectName": "EpicGames.IoHash",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blake3": {
+              "target": "Package",
+              "version": "[0.5.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+        "projectName": "EpicGames.Jupiter",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.MsBuild\\EpicGames.MsBuild.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.MsBuild\\EpicGames.MsBuild.csproj",
+        "projectName": "EpicGames.MsBuild",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.MsBuild\\EpicGames.MsBuild.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.MsBuild\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Build": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Microsoft.Build.Locator": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce\\EpicGames.Perforce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce\\EpicGames.Perforce.csproj",
+        "projectName": "EpicGames.Perforce",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce\\EpicGames.Perforce.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Serialization\\EpicGames.Serialization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Serialization\\EpicGames.Serialization.csproj",
+        "projectName": "EpicGames.Serialization",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Serialization\\EpicGames.Serialization.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\EpicGames.UHT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\EpicGames.UHT.csproj",
+        "projectName": "EpicGames.UHT",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\EpicGames.UHT.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+        "projectName": "UnrealBuildTool",
+        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+        "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\UnrealBuildTool\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkdtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.IoHash\\EpicGames.IoHash.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Serialization\\EpicGames.Serialization.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Serialization\\EpicGames.Serialization.csproj"
+              },
+              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\EpicGames.UHT.csproj": {
+                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.UHT\\EpicGames.UHT.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Build": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Microsoft.Build.Locator": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "OpenTracing": {
+              "target": "Package",
+              "version": "[0.12.1, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Reflection.MetadataLoadContext": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "System.Security.Cryptography.Csp": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

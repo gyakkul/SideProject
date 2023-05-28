@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkCameraRecording.cpp.obj": [
+			"LiveLinkCameraRecording.init.gen.cpp.obj",
+			"MovieSceneLiveLinkCameraControllerSection.gen.cpp.obj",
+			"MovieSceneLiveLinkCameraControllerTrack.gen.cpp.obj",
+			"MovieSceneLiveLinkCameraControllerTrackRecorder.gen.cpp.obj",
+			"LiveLinkCameraControllerTrackEditor.cpp.obj",
+			"LiveLinkCameraRecording.cpp.obj",
+			"MovieSceneLiveLinkCameraControllerSection.cpp.obj",
+			"MovieSceneLiveLinkCameraControllerTrack.cpp.obj",
+			"MovieSceneLiveLinkCameraControllerTrackRecorder.cpp.obj"
+		]
+	}
+}

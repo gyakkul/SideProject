@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioSynesthesia.cpp.obj": [
+			"AudioSynesthesia.init.gen.cpp.obj",
+			"AudioSynesthesia.cpp.obj",
+			"AudioSynesthesiaModule.cpp.obj",
+			"AudioSynesthesiaNRT.cpp.obj",
+			"ConstantQNRT.cpp.obj",
+			"Loudness.cpp.obj",
+			"LoudnessNRT.cpp.obj",
+			"Meter.cpp.obj",
+			"OnsetNRT.cpp.obj",
+			"SynesthesiaSpectrumAnalysis.cpp.obj"
+		]
+	}
+}

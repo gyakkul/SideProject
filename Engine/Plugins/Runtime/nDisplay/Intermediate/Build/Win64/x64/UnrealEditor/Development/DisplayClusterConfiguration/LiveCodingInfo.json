@@ -1,0 +1,44 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterConfiguration.1_of_5.cpp.obj": [
+			"DisplayClusterConfiguration.init.gen.cpp.obj",
+			"DisplayClusterConfigurationJsonTypes_426.gen.cpp.obj",
+			"DisplayClusterConfigurationJsonTypes_427.gen.cpp.obj"
+		],
+		"Module.DisplayClusterConfiguration.2_of_5.cpp.obj": [
+			"DisplayClusterConfigurationJsonTypes_500.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes.gen.cpp.obj"
+		],
+		"Module.DisplayClusterConfiguration.3_of_5.cpp.obj": [
+			"DisplayClusterConfigurationTypes_Base.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes_Enums.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes_ICVFX.gen.cpp.obj"
+		],
+		"Module.DisplayClusterConfiguration.4_of_5.cpp.obj": [
+			"DisplayClusterConfigurationTypes_Media.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes_OCIO.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes_OutputRemap.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes_Postprocess.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes_PostRender.gen.cpp.obj",
+			"DisplayClusterConfigurationTypes_Viewport.gen.cpp.obj"
+		],
+		"Module.DisplayClusterConfiguration.5_of_5.cpp.obj": [
+			"DisplayClusterConfigurationTypes_ViewportRemap.gen.cpp.obj",
+			"DisplayClusterConfigurationVersionCheckerTypes.gen.cpp.obj",
+			"DisplayClusterEditorPropertyReference.gen.cpp.obj",
+			"DisplayClusterConfigurationLog.cpp.obj",
+			"DisplayClusterConfigurationMgr.cpp.obj",
+			"DisplayClusterConfigurationModule.cpp.obj",
+			"DisplayClusterConfigurationTypes.cpp.obj",
+			"DisplayClusterConfigurationTypes_ICVFX.cpp.obj",
+			"DisplayClusterConfigurationTypes_Media.cpp.obj",
+			"DisplayClusterConfigurationTypes_OCIO.cpp.obj",
+			"DisplayClusterConfigurationTypes_ViewportRemap.cpp.obj",
+			"DisplayClusterConfigurationJsonParser_426.cpp.obj",
+			"DisplayClusterConfigurationJsonParser_427.cpp.obj",
+			"DisplayClusterConfigurationJsonParser_500.cpp.obj",
+			"DisplayClusterConfigurationVersionChecker.cpp.obj"
+		]
+	}
+}

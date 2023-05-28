@@ -1,0 +1,26 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\remotedatabasesupport\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\remotedatabasesupport\\module.remotedatabasesupport.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\remotedatabasesupport\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\remotedatabasesupport\\definitions.remotedatabasesupport.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\remotedatabasesupport\\source\\remotedatabasesupport\\private\\remotedatabaseconnection.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\remotedatabasesupport\\source\\remotedatabasesupport\\public\\remotedatabaseconnection.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\databasesupport\\source\\databasesupport\\public\\database.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\sockets.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\sockettypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\net\\common\\public\\net\\common\\packets\\packetview.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\net\\common\\public\\net\\common\\sockets\\socketerrors.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\net\\common\\public\\net\\common\\packets\\packettraits.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\socketsubsystem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\addressinfotypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\ipaddress.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\remotedatabasesupport\\source\\remotedatabasesupport\\private\\remotedatabasesupport.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\remotedatabasesupport\\source\\remotedatabasesupport\\public\\remotedatabasesupport.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

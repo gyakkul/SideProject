@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SkeletalMeshUtilitiesCommon.cpp.obj": [
+			"LODUtilities.cpp.obj",
+			"StaticToSkeletalMeshConverter.cpp.obj"
+		]
+	}
+}

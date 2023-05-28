@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LevelSequenceEditor.cpp.obj": [
+			"AssetDefinition_LevelSequence.gen.cpp.obj",
+			"FilmOverlayToolkit.gen.cpp.obj",
+			"LevelSequenceEditor.init.gen.cpp.obj",
+			"LevelSequenceEditorMenuContext.gen.cpp.obj",
+			"AssetDefinition_LevelSequence.cpp.obj",
+			"FilmOverlays.cpp.obj",
+			"SCinematicLevelViewport.cpp.obj",
+			"SCinematicTransportRange.cpp.obj",
+			"LevelSequenceFactoryNew.cpp.obj",
+			"FilmOverlayToolkit.cpp.obj",
+			"LevelSequenceEditorBlueprintLibrary.cpp.obj",
+			"LevelSequenceEditorCommands.cpp.obj",
+			"LevelSequenceEditorModule.cpp.obj",
+			"LevelSequenceEditorSubsystem.cpp.obj",
+			"LevelSequenceEditorToolkit.cpp.obj",
+			"LevelSequenceEditorActorBinding.cpp.obj",
+			"LevelSequenceEditorActorSpawner.cpp.obj",
+			"LevelSequenceEditorHelpers.cpp.obj",
+			"LevelSequenceEditorSettings.cpp.obj",
+			"LevelSequenceEditorSpawnRegister.cpp.obj",
+			"LevelSequencePlaybackContext.cpp.obj"
+		]
+	}
+}

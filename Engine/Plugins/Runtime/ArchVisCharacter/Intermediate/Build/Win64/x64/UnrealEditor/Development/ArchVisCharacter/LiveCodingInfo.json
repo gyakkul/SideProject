@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ArchVisCharacter.cpp.obj": [
+			"ArchVisCharacter.gen.cpp.obj",
+			"ArchVisCharacter.init.gen.cpp.obj",
+			"ArchVisCharMovementComponent.gen.cpp.obj",
+			"ArchVisCharacter.cpp.obj",
+			"ArchVisCharacterPlugin.cpp.obj",
+			"ArchVisCharMovementComponent.cpp.obj"
+		]
+	}
+}

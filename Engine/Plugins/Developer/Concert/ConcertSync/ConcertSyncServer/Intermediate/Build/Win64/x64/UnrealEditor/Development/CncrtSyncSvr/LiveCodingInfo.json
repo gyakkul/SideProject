@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CncrtSyncSvr.cpp.obj": [
+			"ConcertServerDataStore.cpp.obj",
+			"ConcertServerSequencerManager.cpp.obj",
+			"ConcertServerSyncCommandQueue.cpp.obj",
+			"ConcertServerWorkspace.cpp.obj",
+			"ConcertSyncServer.cpp.obj",
+			"ConcertSyncServerArchivedSession.cpp.obj",
+			"ConcertSyncServerLiveSession.cpp.obj",
+			"ConcertSyncServerModule.cpp.obj"
+		]
+	}
+}

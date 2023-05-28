@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidFileServerEditor.cpp.obj": [
+			"AndroidFileServerEditor.init.gen.cpp.obj",
+			"AndroidFileServerEditor.cpp.obj",
+			"AndroidFileServerRuntimeSettings.cpp.obj"
+		]
+	}
+}

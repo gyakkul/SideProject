@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelingToolsEditorMode.cpp.obj": [
+			"ModelingSelectionInteraction.gen.cpp.obj",
+			"ModelingToolsEditorMode.init.gen.cpp.obj",
+			"ModelingToolsEditorModeToolkit.gen.cpp.obj",
+			"BakeMeshAttributeToolCustomizations.cpp.obj",
+			"BakeTransformToolCustomizations.cpp.obj",
+			"MeshTopologySelectionMechanicCustomization.cpp.obj",
+			"MeshVertexSculptToolCustomizations.cpp.obj",
+			"ModelingToolsAxisFilterCustomization.cpp.obj",
+			"ModelingToolsBrushSizeCustomization.cpp.obj",
+			"ModelingModeAssetUtils.cpp.obj",
+			"ModelingModeToolkit_Toolbars.cpp.obj",
+			"ModelingSelectionInteraction.cpp.obj",
+			"ModelingToolsActions.cpp.obj",
+			"ModelingToolsEditorMode.cpp.obj",
+			"ModelingToolsEditorModeModule.cpp.obj",
+			"ModelingToolsEditorModeSettings.cpp.obj",
+			"ModelingToolsEditorModeStyle.cpp.obj",
+			"ModelingToolsEditorModeToolkit.cpp.obj",
+			"ModelingToolsManagerActions.cpp.obj"
+		]
+	}
+}

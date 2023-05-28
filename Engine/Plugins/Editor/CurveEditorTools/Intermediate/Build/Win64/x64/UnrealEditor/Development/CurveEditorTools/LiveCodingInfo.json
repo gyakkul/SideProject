@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CurveEditorTools.cpp.obj": [
+			"CurveEditorTools.init.gen.cpp.obj",
+			"CurveEditorFocusExtension.cpp.obj",
+			"CurveEditorToolCommands.cpp.obj",
+			"CurveEditorToolsModule.cpp.obj",
+			"CurveEditorFFTFilter.cpp.obj",
+			"CurveEditorMultiScaleTool.cpp.obj",
+			"CurveEditorRetimeTool.cpp.obj",
+			"CurveEditorTransformTool.cpp.obj"
+		]
+	}
+}

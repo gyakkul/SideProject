@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CryptoKeys.cpp.obj": [
+			"CryptoKeys.init.gen.cpp.obj",
+			"CryptoKeys.cpp.obj",
+			"CryptoKeysCommandlet.cpp.obj",
+			"CryptoKeysHelpers.cpp.obj",
+			"CryptoKeysProjectBuildMutatorFeature.cpp.obj",
+			"CryptoKeysSettings.cpp.obj",
+			"CryptoKeysSettingsDetails.cpp.obj"
+		]
+	}
+}

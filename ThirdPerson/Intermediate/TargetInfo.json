@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ThirdPerson",
+			"Path": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\ThirdPerson\\Source\\ThirdPerson.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ThirdPersonEditor",
+			"Path": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\ThirdPerson\\Source\\ThirdPersonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

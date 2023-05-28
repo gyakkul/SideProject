@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CookOnTheFlyNetServer.cpp.obj": [
+			"CookOnTheFlyNetServer.cpp.obj",
+			"CookOnTheFlyNetServerBase.cpp.obj",
+			"PlatformProtocolServer.cpp.obj",
+			"TCPServer.cpp.obj"
+		]
+	}
+}

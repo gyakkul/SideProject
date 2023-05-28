@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithFacade.cpp.obj": [
+			"DatasmithFacadeActor.cpp.obj",
+			"DatasmithFacadeActorCamera.cpp.obj",
+			"DatasmithFacadeActorLight.cpp.obj",
+			"DatasmithFacadeActorMesh.cpp.obj",
+			"DatasmithFacadeAnimation.cpp.obj",
+			"DatasmithFacadeDecal.cpp.obj",
+			"DatasmithFacadeElement.cpp.obj",
+			"DatasmithFacadeKeyValueProperty.cpp.obj",
+			"DatasmithFacadeLog.cpp.obj",
+			"DatasmithFacadeMaterial.cpp.obj",
+			"DatasmithFacadeMaterialID.cpp.obj",
+			"DatasmithFacadeMaterialsUtils.cpp.obj",
+			"DatasmithFacadeMesh.cpp.obj",
+			"DatasmithFacadeMetaData.cpp.obj",
+			"DatasmithFacadeModule.cpp.obj",
+			"DatasmithFacadeScene.cpp.obj",
+			"DatasmithFacadeTexture.cpp.obj",
+			"DatasmithFacadeUEPbrMaterial.cpp.obj",
+			"DatasmithFacadeUtils.cpp.obj",
+			"DatasmithFacadeVariant.cpp.obj",
+			"DatasmithFacadeDirectLink.cpp.obj",
+			"DatasmithFacadeEndpointObserver.cpp.obj"
+		]
+	}
+}

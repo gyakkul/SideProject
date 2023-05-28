@@ -1,0 +1,216 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "NetworkPredictionExtrasFlyingPawn.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UMockFlyingAbilityComponent;
+#ifdef NETWORKPREDICTIONEXTRAS_NetworkPredictionExtrasFlyingPawn_generated_h
+#error "NetworkPredictionExtrasFlyingPawn.generated.h already included, missing '#pragma once' in NetworkPredictionExtrasFlyingPawn.h"
+#endif
+#define NETWORKPREDICTIONEXTRAS_NetworkPredictionExtrasFlyingPawn_generated_h
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddMaxMoveSpeed); \
+	DECLARE_FUNCTION(execSetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execGetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execPrintDebug);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddMaxMoveSpeed); \
+	DECLARE_FUNCTION(execSetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execGetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execPrintDebug);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasFlyingPawn(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasFlyingPawn_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasFlyingPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasFlyingPawn)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_INCLASS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasFlyingPawn(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasFlyingPawn_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasFlyingPawn, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasFlyingPawn)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ANetworkPredictionExtrasFlyingPawn(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasFlyingPawn) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasFlyingPawn); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasFlyingPawn); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasFlyingPawn(ANetworkPredictionExtrasFlyingPawn&&); \
+	NO_API ANetworkPredictionExtrasFlyingPawn(const ANetworkPredictionExtrasFlyingPawn&); \
+public: \
+	NO_API virtual ~ANetworkPredictionExtrasFlyingPawn();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasFlyingPawn(ANetworkPredictionExtrasFlyingPawn&&); \
+	NO_API ANetworkPredictionExtrasFlyingPawn(const ANetworkPredictionExtrasFlyingPawn&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasFlyingPawn); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasFlyingPawn); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasFlyingPawn) \
+	NO_API virtual ~ANetworkPredictionExtrasFlyingPawn();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_46_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_49_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class ANetworkPredictionExtrasFlyingPawn>();
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMaxStamina); \
+	DECLARE_FUNCTION(execGetStamina); \
+	DECLARE_FUNCTION(execGetMockFlyingAbilityComponent);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMaxStamina); \
+	DECLARE_FUNCTION(execGetStamina); \
+	DECLARE_FUNCTION(execGetMockFlyingAbilityComponent);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasFlyingPawn_MockAbility(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasFlyingPawn_MockAbility_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasFlyingPawn_MockAbility, ANetworkPredictionExtrasFlyingPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasFlyingPawn_MockAbility)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_INCLASS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasFlyingPawn_MockAbility(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasFlyingPawn_MockAbility_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasFlyingPawn_MockAbility, ANetworkPredictionExtrasFlyingPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasFlyingPawn_MockAbility)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ANetworkPredictionExtrasFlyingPawn_MockAbility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasFlyingPawn_MockAbility) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasFlyingPawn_MockAbility); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasFlyingPawn_MockAbility); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasFlyingPawn_MockAbility(ANetworkPredictionExtrasFlyingPawn_MockAbility&&); \
+	NO_API ANetworkPredictionExtrasFlyingPawn_MockAbility(const ANetworkPredictionExtrasFlyingPawn_MockAbility&); \
+public: \
+	NO_API virtual ~ANetworkPredictionExtrasFlyingPawn_MockAbility();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasFlyingPawn_MockAbility(ANetworkPredictionExtrasFlyingPawn_MockAbility&&); \
+	NO_API ANetworkPredictionExtrasFlyingPawn_MockAbility(const ANetworkPredictionExtrasFlyingPawn_MockAbility&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasFlyingPawn_MockAbility); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasFlyingPawn_MockAbility); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasFlyingPawn_MockAbility) \
+	NO_API virtual ~ANetworkPredictionExtrasFlyingPawn_MockAbility();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_117_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h_120_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class ANetworkPredictionExtrasFlyingPawn_MockAbility>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasFlyingPawn_h
+
+
+#define FOREACH_ENUM_ENETWORKPREDICTIONEXTRASFLYINGINPUTPRESET(op) \
+	op(ENetworkPredictionExtrasFlyingInputPreset::None) \
+	op(ENetworkPredictionExtrasFlyingInputPreset::Forward) 
+
+enum class ENetworkPredictionExtrasFlyingInputPreset : uint8;
+template<> struct TIsUEnumClass<ENetworkPredictionExtrasFlyingInputPreset> { enum { Value = true }; };
+template<> NETWORKPREDICTIONEXTRAS_API UEnum* StaticEnum<ENetworkPredictionExtrasFlyingInputPreset>();
+
+#define FOREACH_ENUM_ENETWORKPREDICTIONEXTRASMOCKABILITYINPUTPRESET(op) \
+	op(ENetworkPredictionExtrasMockAbilityInputPreset::None) \
+	op(ENetworkPredictionExtrasMockAbilityInputPreset::Sprint) \
+	op(ENetworkPredictionExtrasMockAbilityInputPreset::Dash) \
+	op(ENetworkPredictionExtrasMockAbilityInputPreset::Blink) 
+
+enum class ENetworkPredictionExtrasMockAbilityInputPreset : uint8;
+template<> struct TIsUEnumClass<ENetworkPredictionExtrasMockAbilityInputPreset> { enum { Value = true }; };
+template<> NETWORKPREDICTIONEXTRAS_API UEnum* StaticEnum<ENetworkPredictionExtrasMockAbilityInputPreset>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

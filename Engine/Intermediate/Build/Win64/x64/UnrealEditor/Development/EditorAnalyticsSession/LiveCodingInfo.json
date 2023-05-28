@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorAnalyticsSession.cpp.obj": [
+			"EditorAnalyticsSession.cpp.obj",
+			"EditorSessionSummarySender.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SourceFilteringCore.cpp.obj": [
+			"IDataSourceFilterInterface.gen.cpp.obj",
+			"IDataSourceFilterSetInterface.gen.cpp.obj",
+			"SourceFilteringCore.init.gen.cpp.obj",
+			"TraceSourceFilteringSettings.gen.cpp.obj",
+			"DataSourceFiltering.cpp.obj"
+		]
+	}
+}

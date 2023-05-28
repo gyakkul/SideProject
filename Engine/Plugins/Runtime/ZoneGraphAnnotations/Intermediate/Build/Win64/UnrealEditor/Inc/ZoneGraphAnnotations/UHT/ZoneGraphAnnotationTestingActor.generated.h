@@ -1,0 +1,256 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ZoneGraphAnnotationTestingActor.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef ZONEGRAPHANNOTATIONS_ZoneGraphAnnotationTestingActor_generated_h
+#error "ZoneGraphAnnotationTestingActor.generated.h already included, missing '#pragma once' in ZoneGraphAnnotationTestingActor.h"
+#endif
+#define ZONEGRAPHANNOTATIONS_ZoneGraphAnnotationTestingActor_generated_h
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUZoneGraphAnnotationTest(); \
+	friend struct Z_Construct_UClass_UZoneGraphAnnotationTest_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphAnnotationTest, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphAnnotationTest)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_INCLASS \
+private: \
+	static void StaticRegisterNativesUZoneGraphAnnotationTest(); \
+	friend struct Z_Construct_UClass_UZoneGraphAnnotationTest_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphAnnotationTest, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphAnnotationTest)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UZoneGraphAnnotationTest(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphAnnotationTest) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphAnnotationTest); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphAnnotationTest); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphAnnotationTest(UZoneGraphAnnotationTest&&); \
+	NO_API UZoneGraphAnnotationTest(const UZoneGraphAnnotationTest&); \
+public: \
+	NO_API virtual ~UZoneGraphAnnotationTest();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UZoneGraphAnnotationTest(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphAnnotationTest(UZoneGraphAnnotationTest&&); \
+	NO_API UZoneGraphAnnotationTest(const UZoneGraphAnnotationTest&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphAnnotationTest); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphAnnotationTest); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphAnnotationTest) \
+	NO_API virtual ~UZoneGraphAnnotationTest();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_14_PROLOG
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_INCLASS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ZONEGRAPHANNOTATIONS_API UClass* StaticClass<class UZoneGraphAnnotationTest>();
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUZoneGraphAnnotationTestingComponent(); \
+	friend struct Z_Construct_UClass_UZoneGraphAnnotationTestingComponent_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphAnnotationTestingComponent, UDebugDrawComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphAnnotationTestingComponent)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_INCLASS \
+private: \
+	static void StaticRegisterNativesUZoneGraphAnnotationTestingComponent(); \
+	friend struct Z_Construct_UClass_UZoneGraphAnnotationTestingComponent_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphAnnotationTestingComponent, UDebugDrawComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphAnnotationTestingComponent)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UZoneGraphAnnotationTestingComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphAnnotationTestingComponent) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphAnnotationTestingComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphAnnotationTestingComponent); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphAnnotationTestingComponent(UZoneGraphAnnotationTestingComponent&&); \
+	NO_API UZoneGraphAnnotationTestingComponent(const UZoneGraphAnnotationTestingComponent&); \
+public: \
+	NO_API virtual ~UZoneGraphAnnotationTestingComponent();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphAnnotationTestingComponent(UZoneGraphAnnotationTestingComponent&&); \
+	NO_API UZoneGraphAnnotationTestingComponent(const UZoneGraphAnnotationTestingComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphAnnotationTestingComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphAnnotationTestingComponent); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphAnnotationTestingComponent) \
+	NO_API virtual ~UZoneGraphAnnotationTestingComponent();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_40_PROLOG
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_INCLASS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_43_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ZONEGRAPHANNOTATIONS_API UClass* StaticClass<class UZoneGraphAnnotationTestingComponent>();
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execTrigger);
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTrigger);
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAZoneGraphAnnotationTestingActor(); \
+	friend struct Z_Construct_UClass_AZoneGraphAnnotationTestingActor_Statics; \
+public: \
+	DECLARE_CLASS(AZoneGraphAnnotationTestingActor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(AZoneGraphAnnotationTestingActor)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_INCLASS \
+private: \
+	static void StaticRegisterNativesAZoneGraphAnnotationTestingActor(); \
+	friend struct Z_Construct_UClass_AZoneGraphAnnotationTestingActor_Statics; \
+public: \
+	DECLARE_CLASS(AZoneGraphAnnotationTestingActor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(AZoneGraphAnnotationTestingActor)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AZoneGraphAnnotationTestingActor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AZoneGraphAnnotationTestingActor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AZoneGraphAnnotationTestingActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AZoneGraphAnnotationTestingActor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AZoneGraphAnnotationTestingActor(AZoneGraphAnnotationTestingActor&&); \
+	NO_API AZoneGraphAnnotationTestingActor(const AZoneGraphAnnotationTestingActor&); \
+public: \
+	NO_API virtual ~AZoneGraphAnnotationTestingActor();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AZoneGraphAnnotationTestingActor(AZoneGraphAnnotationTestingActor&&); \
+	NO_API AZoneGraphAnnotationTestingActor(const AZoneGraphAnnotationTestingActor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AZoneGraphAnnotationTestingActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AZoneGraphAnnotationTestingActor); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AZoneGraphAnnotationTestingActor) \
+	NO_API virtual ~AZoneGraphAnnotationTestingActor();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_75_PROLOG
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_INCLASS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h_78_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ZONEGRAPHANNOTATIONS_API UClass* StaticClass<class AZoneGraphAnnotationTestingActor>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_ZoneGraphAnnotationTestingActor_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

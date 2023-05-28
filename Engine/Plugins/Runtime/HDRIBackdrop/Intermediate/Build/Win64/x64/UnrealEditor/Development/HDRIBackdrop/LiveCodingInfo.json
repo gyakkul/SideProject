@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HDRIBackdrop.cpp.obj": [
+			"HDRIBackdrop.cpp.obj",
+			"HDRIBackdropPlacement.cpp.obj",
+			"HDRIBackdropStyle.cpp.obj"
+		]
+	}
+}

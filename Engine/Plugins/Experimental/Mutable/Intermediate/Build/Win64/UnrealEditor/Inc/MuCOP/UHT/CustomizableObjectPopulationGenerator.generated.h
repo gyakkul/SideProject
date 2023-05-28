@@ -1,0 +1,102 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MuCOP/CustomizableObjectPopulationGenerator.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CUSTOMIZABLEOBJECTPOPULATION_CustomizableObjectPopulationGenerator_generated_h
+#error "CustomizableObjectPopulationGenerator.generated.h already included, missing '#pragma once' in CustomizableObjectPopulationGenerator.h"
+#endif
+#define CUSTOMIZABLEOBJECTPOPULATION_CustomizableObjectPopulationGenerator_generated_h
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ARCHIVESERIALIZER \
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UCustomizableObjectPopulationGenerator, NO_API)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectPopulationGenerator(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectPopulationGenerator_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectPopulationGenerator, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectPopulation"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectPopulationGenerator) \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_INCLASS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectPopulationGenerator(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectPopulationGenerator_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectPopulationGenerator, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectPopulation"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectPopulationGenerator) \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ARCHIVESERIALIZER
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCustomizableObjectPopulationGenerator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCustomizableObjectPopulationGenerator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectPopulationGenerator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectPopulationGenerator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectPopulationGenerator(UCustomizableObjectPopulationGenerator&&); \
+	NO_API UCustomizableObjectPopulationGenerator(const UCustomizableObjectPopulationGenerator&); \
+public: \
+	NO_API virtual ~UCustomizableObjectPopulationGenerator();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectPopulationGenerator(UCustomizableObjectPopulationGenerator&&); \
+	NO_API UCustomizableObjectPopulationGenerator(const UCustomizableObjectPopulationGenerator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectPopulationGenerator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectPopulationGenerator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCustomizableObjectPopulationGenerator) \
+	NO_API virtual ~UCustomizableObjectPopulationGenerator();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_62_PROLOG
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_INCLASS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h_65_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CUSTOMIZABLEOBJECTPOPULATION_API UClass* StaticClass<class UCustomizableObjectPopulationGenerator>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectPopulation_Classes_MuCOP_CustomizableObjectPopulationGenerator_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

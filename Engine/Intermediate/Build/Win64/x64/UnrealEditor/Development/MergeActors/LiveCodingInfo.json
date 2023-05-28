@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MergeActors.cpp.obj": [
+			"MergeActors.init.gen.cpp.obj",
+			"MeshApproximationTool.gen.cpp.obj",
+			"MeshInstancingTool.gen.cpp.obj",
+			"MeshMergingTool.gen.cpp.obj",
+			"MeshProxyTool.gen.cpp.obj",
+			"MergeActorsModule.cpp.obj",
+			"MergeActorsTool.cpp.obj",
+			"SMeshProxyCommonDialog.cpp.obj",
+			"Utils.cpp.obj",
+			"MeshApproximationTool.cpp.obj",
+			"SMeshApproximationDialog.cpp.obj",
+			"MeshInstancingTool.cpp.obj",
+			"SMeshInstancingDialog.cpp.obj",
+			"MeshMergingTool.cpp.obj",
+			"SMeshMergingDialog.cpp.obj",
+			"MeshProxyTool.cpp.obj",
+			"SMeshProxyDialog.cpp.obj",
+			"SMergeActorsToolbar.cpp.obj"
+		]
+	}
+}

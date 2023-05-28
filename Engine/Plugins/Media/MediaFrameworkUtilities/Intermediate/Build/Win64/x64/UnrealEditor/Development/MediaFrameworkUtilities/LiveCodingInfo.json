@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaFrameworkUtilities.cpp.obj": [
+			"MediaBundle.gen.cpp.obj",
+			"MediaBundleActorBase.gen.cpp.obj",
+			"MediaBundleTimeSynchronizationSource.gen.cpp.obj",
+			"MediaFrameworkUtilities.init.gen.cpp.obj",
+			"MediaPlayerTimeSynchronizationSource.gen.cpp.obj",
+			"MediaProfile.gen.cpp.obj",
+			"MediaProfileBlueprintLibrary.gen.cpp.obj",
+			"MediaProfileSettings.gen.cpp.obj",
+			"ProxyMediaOutput.gen.cpp.obj",
+			"ProxyMediaSource.gen.cpp.obj",
+			"ProxyMediaOutput.cpp.obj",
+			"ProxyMediaSource.cpp.obj",
+			"MediaBundle.cpp.obj",
+			"MediaBundleActorBase.cpp.obj",
+			"MediaBundleTimeSynchronizationSource.cpp.obj",
+			"MediaFrameworkUtilitiesModule.cpp.obj",
+			"MediaPlayerTimeSynchronizationSource.cpp.obj",
+			"MediaProfile.cpp.obj",
+			"MediaProfileBlueprintLibrary.cpp.obj",
+			"MediaProfileManager.cpp.obj",
+			"MediaProfileSettings.cpp.obj"
+		]
+	}
+}

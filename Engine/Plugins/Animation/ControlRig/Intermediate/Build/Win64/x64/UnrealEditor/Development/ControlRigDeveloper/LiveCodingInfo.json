@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ControlRigDeveloper.cpp.obj": [
+			"ControlRigDeveloper.init.gen.cpp.obj",
+			"AnimGraphNode_ControlRig.cpp.obj",
+			"ControlRigBlueprint.cpp.obj",
+			"ControlRigBlueprintCompiler.cpp.obj",
+			"ControlRigBlueprintUtils.cpp.obj",
+			"ControlRigDeveloper.cpp.obj",
+			"ControlRigVisualGraphUtils.cpp.obj",
+			"ControlRigGraph.cpp.obj",
+			"ControlRigGraphNode.cpp.obj",
+			"ControlRigGraphSchema.cpp.obj",
+			"SVariableMappingWidget.cpp.obj"
+		]
+	}
+}

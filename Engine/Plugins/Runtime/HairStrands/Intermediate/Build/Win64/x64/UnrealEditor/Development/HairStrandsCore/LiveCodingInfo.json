@@ -1,0 +1,73 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HairStrandsCore.1_of_5.cpp.obj": [
+			"DeformerDataInterfaceGroom.gen.cpp.obj",
+			"DeformerDataInterfaceGroomExec.gen.cpp.obj",
+			"DeformerDataInterfaceGroomWrite.gen.cpp.obj",
+			"DeformerGroomComponentSource.gen.cpp.obj",
+			"GroomCacheImportOptions.gen.cpp.obj",
+			"GroomDesc.gen.cpp.obj",
+			"HairStrandsCore.init.gen.cpp.obj",
+			"DeformerDataInterfaceGroom.cpp.obj",
+			"DeformerDataInterfaceGroomExec.cpp.obj",
+			"DeformerDataInterfaceGroomWrite.cpp.obj",
+			"DeformerGroomComponentSource.cpp.obj",
+			"GroomActor.cpp.obj",
+			"GroomAsset.cpp.obj",
+			"GroomAssetCards.cpp.obj",
+			"GroomAssetImportData.cpp.obj",
+			"GroomAssetInterpolation.cpp.obj",
+			"GroomAssetMeshes.cpp.obj",
+			"GroomAssetPhysics.cpp.obj",
+			"GroomAssetRendering.cpp.obj",
+			"GroomBindingAsset.cpp.obj",
+			"GroomBindingBuilder.cpp.obj"
+		],
+		"Module.HairStrandsCore.2_of_5.cpp.obj": [
+			"GroomBlueprintLibrary.cpp.obj",
+			"GroomBuilder.cpp.obj",
+			"GroomCache.cpp.obj",
+			"GroomCacheData.cpp.obj",
+			"GroomCacheStreamingData.cpp.obj",
+			"GroomCacheStreamingManager.cpp.obj",
+			"GroomComponent.cpp.obj",
+			"GroomCreateBindingOptions.cpp.obj",
+			"GroomCreateFollicleMaskOptions.cpp.obj",
+			"GroomCreateStrandsTexturesOptions.cpp.obj",
+			"GroomDebug.cpp.obj",
+			"GroomDeformerBuilder.cpp.obj"
+		],
+		"Module.HairStrandsCore.3_of_5.cpp.obj": [
+			"GroomEdit.cpp.obj",
+			"GroomGeometryCache.cpp.obj",
+			"GroomImportOptions.cpp.obj",
+			"GroomManager.cpp.obj",
+			"GroomPluginSettings.cpp.obj",
+			"GroomRBFDeformer.cpp.obj",
+			"GroomResources.cpp.obj",
+			"GroomSettings.cpp.obj",
+			"GroomTextureBuilder.cpp.obj",
+			"HairAttributes.cpp.obj",
+			"HairCardsBuilder.cpp.obj"
+		],
+		"Module.HairStrandsCore.4_of_5.cpp.obj": [
+			"HairCardsDatas.cpp.obj",
+			"HairCardsVertexFactory.cpp.obj",
+			"HairDescription.cpp.obj",
+			"HairStrandsCore.cpp.obj",
+			"HairStrandsDatas.cpp.obj",
+			"HairStrandsMeshProjection.cpp.obj",
+			"HairStrandsRendering.cpp.obj",
+			"HairStrandsVertexFactory.cpp.obj",
+			"MovieSceneGroomCacheSection.cpp.obj",
+			"MovieSceneGroomCacheTemplate.cpp.obj",
+			"MovieSceneGroomCacheTrack.cpp.obj",
+			"NiagaraDataInterfaceHairStrands.cpp.obj"
+		],
+		"Module.HairStrandsCore.5_of_5.cpp.obj": [
+			"NiagaraDataInterfacePressureGrid.cpp.obj",
+			"NiagaraDataInterfaceVelocityGrid.cpp.obj"
+		]
+	}
+}

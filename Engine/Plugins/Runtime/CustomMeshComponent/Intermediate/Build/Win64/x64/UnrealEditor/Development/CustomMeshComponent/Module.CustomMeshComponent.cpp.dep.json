@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\custommeshcomponent\\module.custommeshcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\custommeshcomponent\\definitions.custommeshcomponent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\intermediate\\build\\win64\\unrealeditor\\inc\\custommeshcomponent\\uht\\custommeshcomponent.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\classes\\custommeshcomponent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\intermediate\\build\\win64\\unrealeditor\\inc\\custommeshcomponent\\uht\\custommeshcomponent.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\intermediate\\build\\win64\\unrealeditor\\inc\\custommeshcomponent\\uht\\custommeshcomponent.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\private\\custommeshcomponent.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\materialdomain.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\materialdomain.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\materials\\materialrenderproxy.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\dynamicmeshbuilder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\private\\custommeshcomponentplugin.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\custommeshcomponent\\source\\custommeshcomponent\\public\\icustommeshcomponentplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDStageEditor.cpp.obj": [
+			"SUSDIntegrationsPanel.gen.cpp.obj",
+			"USDStageEditor.init.gen.cpp.obj",
+			"USDStageEditorBlueprintLibrary.gen.cpp.obj",
+			"USDStageEditorSettings.gen.cpp.obj",
+			"SUSDLayersTreeView.cpp.obj",
+			"SUSDPrimInfo.cpp.obj",
+			"SUSDSaveDialog.cpp.obj",
+			"SUSDStage.cpp.obj",
+			"SUSDStageEditorStyle.cpp.obj",
+			"SUSDStageTreeView.cpp.obj",
+			"USDStageEditorBlueprintLibrary.cpp.obj",
+			"USDStageEditorModule.cpp.obj",
+			"SUSDIntegrationsPanel.cpp.obj",
+			"SUSDPrimPropertiesList.cpp.obj",
+			"SUSDReferencesList.cpp.obj",
+			"SUSDVariantSetsList.cpp.obj"
+		]
+	}
+}

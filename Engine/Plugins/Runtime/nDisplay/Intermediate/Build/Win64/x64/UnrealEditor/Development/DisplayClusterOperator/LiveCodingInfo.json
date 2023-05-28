@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterOperator.cpp.obj": [
+			"DisplayClusterOperatorModule.cpp.obj",
+			"DisplayClusterOperatorStatusBarExtender.cpp.obj",
+			"DisplayClusterOperatorStyle.cpp.obj",
+			"DisplayClusterOperatorViewModel.cpp.obj",
+			"SDisplayClusterOperatorPanel.cpp.obj",
+			"SDisplayClusterOperatorStatusBar.cpp.obj",
+			"SDisplayClusterOperatorToolbar.cpp.obj"
+		]
+	}
+}

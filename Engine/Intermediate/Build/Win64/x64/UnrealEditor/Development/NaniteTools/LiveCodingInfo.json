@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NaniteTools.cpp.obj": [
+			"NaniteTools.init.gen.cpp.obj",
+			"NaniteToolsArguments.gen.cpp.obj",
+			"NaniteAuditRegistry.cpp.obj",
+			"NaniteToolCommands.cpp.obj",
+			"NaniteToolsArguments.cpp.obj",
+			"NaniteToolsModule.cpp.obj",
+			"SNaniteAudit.cpp.obj",
+			"SNaniteTools.cpp.obj"
+		]
+	}
+}

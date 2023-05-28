@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosVehiclesCore.cpp.obj": [
+			"AerodynamicsSystem.cpp.obj",
+			"AerofoilSystem.cpp.obj",
+			"ArcadeSystem.cpp.obj",
+			"ChaosVehiclesCoreModule.cpp.obj",
+			"EngineSystem.cpp.obj",
+			"AerofoilModule.cpp.obj",
+			"AxleModule.cpp.obj",
+			"ChassisModule.cpp.obj",
+			"ClutchModule.cpp.obj",
+			"DeferredForcesModular.cpp.obj",
+			"EngineModule.cpp.obj",
+			"MotorModule.cpp.obj",
+			"SimModuleTree.cpp.obj",
+			"SimulationModuleBase.cpp.obj",
+			"SuspensionModule.cpp.obj",
+			"ThrusterModule.cpp.obj",
+			"TorqueSimModule.cpp.obj",
+			"TransmissionModule.cpp.obj",
+			"WheelModule.cpp.obj",
+			"SteeringSystem.cpp.obj",
+			"SuspensionSystem.cpp.obj",
+			"SuspensionUtility.cpp.obj",
+			"ThrustSystem.cpp.obj",
+			"TransmissionSystem.cpp.obj",
+			"TransmissionUtility.cpp.obj",
+			"VehicleUtility.cpp.obj",
+			"WheelSystem.cpp.obj"
+		]
+	}
+}

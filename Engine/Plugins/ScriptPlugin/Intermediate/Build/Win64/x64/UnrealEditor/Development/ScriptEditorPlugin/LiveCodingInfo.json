@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ScriptEditorPlugin.cpp.obj": [
+			"ReimportScriptFactory.gen.cpp.obj",
+			"ScriptEditorPlugin.init.gen.cpp.obj",
+			"ScriptFactory.gen.cpp.obj",
+			"ScriptBlueprintCompiler.cpp.obj",
+			"ScriptBlueprintEditor.cpp.obj",
+			"ScriptEditorPlugin.cpp.obj",
+			"ScriptFactory.cpp.obj"
+		]
+	}
+}

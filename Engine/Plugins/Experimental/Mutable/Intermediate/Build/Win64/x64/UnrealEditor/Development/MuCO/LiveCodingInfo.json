@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MuCO.1_of_2.cpp.obj": [
+			"CustomizableInstancePrivateData.gen.cpp.obj",
+			"CustomizableObject.init.gen.cpp.obj",
+			"CustomizableObjectClothingTypes.gen.cpp.obj",
+			"CustomizableObjectParameterTypeDefinitions.gen.cpp.obj",
+			"CustomizableObjectUIData.gen.cpp.obj",
+			"CustomizableInstanceLODManagement.cpp.obj",
+			"CustomizableObject.cpp.obj",
+			"CustomizableObjectCustomVersion.cpp.obj",
+			"CustomizableObjectDGGUI.cpp.obj",
+			"CustomizableObjectIdentifier.cpp.obj",
+			"CustomizableObjectInstance.cpp.obj"
+		],
+		"Module.MuCO.2_of_2.cpp.obj": [
+			"CustomizableObjectInstanceDescriptor.cpp.obj",
+			"CustomizableObjectMipDataProvider.cpp.obj",
+			"CustomizableObjectModule.cpp.obj",
+			"CustomizableObjectSystem.cpp.obj",
+			"CustomizableSkeletalComponent.cpp.obj",
+			"CustomizableSkeletalMeshActor.cpp.obj",
+			"DefaultImageProvider.cpp.obj",
+			"LogBenchmarkUtil.cpp.obj",
+			"LogInformationUtil.cpp.obj",
+			"MultilayerProjector.cpp.obj",
+			"MutableMeshBufferUtils.cpp.obj",
+			"UnrealBakeHelpers.cpp.obj",
+			"UnrealConversionUtils.cpp.obj",
+			"UnrealMutableImageProvider.cpp.obj",
+			"UnrealMutableModelDiskStreamer.cpp.obj"
+		]
+	}
+}

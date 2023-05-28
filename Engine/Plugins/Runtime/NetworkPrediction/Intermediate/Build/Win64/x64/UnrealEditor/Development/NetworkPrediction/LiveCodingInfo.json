@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetworkPrediction.cpp.obj": [
+			"NetworkPrediction.init.gen.cpp.obj",
+			"NetworkPredictionConfig.gen.cpp.obj",
+			"NetworkPredictionProxy.gen.cpp.obj",
+			"NetworkPredictionComponent.cpp.obj",
+			"NetworkPredictionCues.cpp.obj",
+			"NetworkPredictionDebug.cpp.obj",
+			"NetworkPredictionGenericKinematicActor.cpp.obj",
+			"NetworkPredictionLog.cpp.obj",
+			"NetworkPredictionModelDefRegistry.cpp.obj",
+			"NetworkPredictionModule.cpp.obj",
+			"NetworkPredictionPhysics.cpp.obj",
+			"NetworkPredictionPhysicsComponent.cpp.obj",
+			"NetworkPredictionReplicatedManager.cpp.obj",
+			"NetworkPredictionReplicationProxy.cpp.obj",
+			"NetworkPredictionSettings.cpp.obj",
+			"NetworkPredictionTrace.cpp.obj",
+			"NetworkPredictionUtil.cpp.obj",
+			"NetworkPredictionWorldManager.cpp.obj"
+		]
+	}
+}

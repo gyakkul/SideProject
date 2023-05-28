@@ -1,0 +1,197 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Annotations/ZoneGraphDisturbanceAnnotation.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef ZONEGRAPHANNOTATIONS_ZoneGraphDisturbanceAnnotation_generated_h
+#error "ZoneGraphDisturbanceAnnotation.generated.h already included, missing '#pragma once' in ZoneGraphDisturbanceAnnotation.h"
+#endif
+#define ZONEGRAPHANNOTATIONS_ZoneGraphDisturbanceAnnotation_generated_h
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_18_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FZoneGraphDisturbanceArea_Statics; \
+	static class UScriptStruct* StaticStruct(); \
+	typedef FZoneGraphAnnotationEventBase Super;
+
+
+template<> ZONEGRAPHANNOTATIONS_API UScriptStruct* StaticStruct<struct FZoneGraphDisturbanceArea>();
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_49_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FZoneGraphObstacleDisturbanceArea_Statics; \
+	static class UScriptStruct* StaticStruct(); \
+	typedef FZoneGraphAnnotationEventBase Super;
+
+
+template<> ZONEGRAPHANNOTATIONS_API UScriptStruct* StaticStruct<struct FZoneGraphObstacleDisturbanceArea>();
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUZoneGraphDisturbanceAnnotation(); \
+	friend struct Z_Construct_UClass_UZoneGraphDisturbanceAnnotation_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphDisturbanceAnnotation, UZoneGraphAnnotationComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphDisturbanceAnnotation)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_INCLASS \
+private: \
+	static void StaticRegisterNativesUZoneGraphDisturbanceAnnotation(); \
+	friend struct Z_Construct_UClass_UZoneGraphDisturbanceAnnotation_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphDisturbanceAnnotation, UZoneGraphAnnotationComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphDisturbanceAnnotation)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UZoneGraphDisturbanceAnnotation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphDisturbanceAnnotation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphDisturbanceAnnotation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphDisturbanceAnnotation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphDisturbanceAnnotation(UZoneGraphDisturbanceAnnotation&&); \
+	NO_API UZoneGraphDisturbanceAnnotation(const UZoneGraphDisturbanceAnnotation&); \
+public: \
+	NO_API virtual ~UZoneGraphDisturbanceAnnotation();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphDisturbanceAnnotation(UZoneGraphDisturbanceAnnotation&&); \
+	NO_API UZoneGraphDisturbanceAnnotation(const UZoneGraphDisturbanceAnnotation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphDisturbanceAnnotation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphDisturbanceAnnotation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphDisturbanceAnnotation) \
+	NO_API virtual ~UZoneGraphDisturbanceAnnotation();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_151_PROLOG
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_INCLASS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_154_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ZONEGRAPHANNOTATIONS_API UClass* StaticClass<class UZoneGraphDisturbanceAnnotation>();
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUZoneGraphDisturbanceAnnotationTest(); \
+	friend struct Z_Construct_UClass_UZoneGraphDisturbanceAnnotationTest_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphDisturbanceAnnotationTest, UZoneGraphAnnotationTest, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphDisturbanceAnnotationTest)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_INCLASS \
+private: \
+	static void StaticRegisterNativesUZoneGraphDisturbanceAnnotationTest(); \
+	friend struct Z_Construct_UClass_UZoneGraphDisturbanceAnnotationTest_Statics; \
+public: \
+	DECLARE_CLASS(UZoneGraphDisturbanceAnnotationTest, UZoneGraphAnnotationTest, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ZoneGraphAnnotations"), NO_API) \
+	DECLARE_SERIALIZER(UZoneGraphDisturbanceAnnotationTest)
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UZoneGraphDisturbanceAnnotationTest(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphDisturbanceAnnotationTest) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphDisturbanceAnnotationTest); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphDisturbanceAnnotationTest); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphDisturbanceAnnotationTest(UZoneGraphDisturbanceAnnotationTest&&); \
+	NO_API UZoneGraphDisturbanceAnnotationTest(const UZoneGraphDisturbanceAnnotationTest&); \
+public: \
+	NO_API virtual ~UZoneGraphDisturbanceAnnotationTest();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UZoneGraphDisturbanceAnnotationTest(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UZoneGraphDisturbanceAnnotationTest(UZoneGraphDisturbanceAnnotationTest&&); \
+	NO_API UZoneGraphDisturbanceAnnotationTest(const UZoneGraphDisturbanceAnnotationTest&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UZoneGraphDisturbanceAnnotationTest); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UZoneGraphDisturbanceAnnotationTest); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UZoneGraphDisturbanceAnnotationTest) \
+	NO_API virtual ~UZoneGraphDisturbanceAnnotationTest();
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_234_PROLOG
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_INCLASS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h_237_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ZONEGRAPHANNOTATIONS_API UClass* StaticClass<class UZoneGraphDisturbanceAnnotationTest>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_ZoneGraphAnnotations_Source_ZoneGraphAnnotations_Public_Annotations_ZoneGraphDisturbanceAnnotation_h
+
+
+#define FOREACH_ENUM_EZONEGRAPHOBSTACLEDISTURBANCEAREAACTION(op) \
+	op(EZoneGraphObstacleDisturbanceAreaAction::Add) \
+	op(EZoneGraphObstacleDisturbanceAreaAction::Remove) 
+
+enum class EZoneGraphObstacleDisturbanceAreaAction : uint8;
+template<> struct TIsUEnumClass<EZoneGraphObstacleDisturbanceAreaAction> { enum { Value = true }; };
+template<> ZONEGRAPHANNOTATIONS_API UEnum* StaticEnum<EZoneGraphObstacleDisturbanceAreaAction>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

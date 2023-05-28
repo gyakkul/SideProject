@@ -1,0 +1,33 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VPUtilitiesEditor.cpp.obj": [
+			"VPCameraBase.gen.cpp.obj",
+			"VPCameraUIBase.gen.cpp.obj",
+			"VPCustomUIHandler.gen.cpp.obj",
+			"VPEditorTickableActorBase.gen.cpp.obj",
+			"VPScoutingSubsystem.gen.cpp.obj",
+			"VPTransientEditorTickableActorBase.gen.cpp.obj",
+			"VPUIBase.gen.cpp.obj",
+			"VPUtilitiesEditor.init.gen.cpp.obj",
+			"VPUtilitiesEditorBlueprintLibrary.gen.cpp.obj",
+			"VPUtilitiesEditorSettings.gen.cpp.obj",
+			"VRTool.gen.cpp.obj",
+			"SGenlockProvider.cpp.obj",
+			"SGenlockProviderTab.cpp.obj",
+			"STimecodeProvider.cpp.obj",
+			"STimecodeProviderTab.cpp.obj",
+			"VPCameraBase.cpp.obj",
+			"VPCameraUIBase.cpp.obj",
+			"VPCustomUIHandler.cpp.obj",
+			"VPEditorTickableActorBase.cpp.obj",
+			"VPScoutingSubsystem.cpp.obj",
+			"VPUIBase.cpp.obj",
+			"VPUtilitiesEditorBlueprintLibrary.cpp.obj",
+			"VPUtilitiesEditorModule.cpp.obj",
+			"VPUtilitiesEditorSettings.cpp.obj",
+			"VPUtilitiesEditorStyle.cpp.obj",
+			"VRTool.cpp.obj"
+		]
+	}
+}

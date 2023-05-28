@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaAssets.cpp.obj": [
+			"MediaAssets.init.gen.cpp.obj",
+			"MediaSourceRendererInterface.gen.cpp.obj",
+			"MediaTexture.gen.cpp.obj",
+			"BaseMediaSource.cpp.obj",
+			"FileMediaSource.cpp.obj",
+			"MediaComponent.cpp.obj",
+			"MediaPlayer.cpp.obj",
+			"MediaPlayerProxyInterface.cpp.obj",
+			"MediaPlaylist.cpp.obj",
+			"MediaSoundComponent.cpp.obj",
+			"MediaSource.cpp.obj",
+			"MediaTexture.cpp.obj",
+			"MediaTextureTracker.cpp.obj",
+			"PlatformMediaSource.cpp.obj",
+			"StreamMediaSource.cpp.obj",
+			"TimeSynchronizableMediaSource.cpp.obj",
+			"MediaAssetsModule.cpp.obj",
+			"MediaBlueprintFunctionLibrary.cpp.obj",
+			"MediaTextureResource.cpp.obj",
+			"MediaPlaylistTest.cpp.obj"
+		]
+	}
+}

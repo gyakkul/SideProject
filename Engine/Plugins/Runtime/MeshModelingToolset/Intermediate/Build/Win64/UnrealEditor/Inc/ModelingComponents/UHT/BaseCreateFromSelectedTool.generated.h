@@ -1,0 +1,336 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "BaseTools/BaseCreateFromSelectedTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MODELINGCOMPONENTS_BaseCreateFromSelectedTool_generated_h
+#error "BaseCreateFromSelectedTool.generated.h already included, missing '#pragma once' in BaseCreateFromSelectedTool.h"
+#endif
+#define MODELINGCOMPONENTS_BaseCreateFromSelectedTool_generated_h
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBaseCreateFromSelectedToolBuilder(); \
+	friend struct Z_Construct_UClass_UBaseCreateFromSelectedToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UBaseCreateFromSelectedToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UBaseCreateFromSelectedToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesUBaseCreateFromSelectedToolBuilder(); \
+	friend struct Z_Construct_UClass_UBaseCreateFromSelectedToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UBaseCreateFromSelectedToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UBaseCreateFromSelectedToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBaseCreateFromSelectedToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBaseCreateFromSelectedToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseCreateFromSelectedToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseCreateFromSelectedToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseCreateFromSelectedToolBuilder(UBaseCreateFromSelectedToolBuilder&&); \
+	NO_API UBaseCreateFromSelectedToolBuilder(const UBaseCreateFromSelectedToolBuilder&); \
+public: \
+	NO_API virtual ~UBaseCreateFromSelectedToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBaseCreateFromSelectedToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseCreateFromSelectedToolBuilder(UBaseCreateFromSelectedToolBuilder&&); \
+	NO_API UBaseCreateFromSelectedToolBuilder(const UBaseCreateFromSelectedToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseCreateFromSelectedToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseCreateFromSelectedToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBaseCreateFromSelectedToolBuilder) \
+	NO_API virtual ~UBaseCreateFromSelectedToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_21_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_24_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UBaseCreateFromSelectedToolBuilder>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBaseCreateFromSelectedHandleSourceProperties(); \
+	friend struct Z_Construct_UClass_UBaseCreateFromSelectedHandleSourceProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBaseCreateFromSelectedHandleSourceProperties, UOnAcceptHandleSourcesProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UBaseCreateFromSelectedHandleSourceProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_INCLASS \
+private: \
+	static void StaticRegisterNativesUBaseCreateFromSelectedHandleSourceProperties(); \
+	friend struct Z_Construct_UClass_UBaseCreateFromSelectedHandleSourceProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBaseCreateFromSelectedHandleSourceProperties, UOnAcceptHandleSourcesProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UBaseCreateFromSelectedHandleSourceProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBaseCreateFromSelectedHandleSourceProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBaseCreateFromSelectedHandleSourceProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseCreateFromSelectedHandleSourceProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseCreateFromSelectedHandleSourceProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseCreateFromSelectedHandleSourceProperties(UBaseCreateFromSelectedHandleSourceProperties&&); \
+	NO_API UBaseCreateFromSelectedHandleSourceProperties(const UBaseCreateFromSelectedHandleSourceProperties&); \
+public: \
+	NO_API virtual ~UBaseCreateFromSelectedHandleSourceProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBaseCreateFromSelectedHandleSourceProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseCreateFromSelectedHandleSourceProperties(UBaseCreateFromSelectedHandleSourceProperties&&); \
+	NO_API UBaseCreateFromSelectedHandleSourceProperties(const UBaseCreateFromSelectedHandleSourceProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseCreateFromSelectedHandleSourceProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseCreateFromSelectedHandleSourceProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBaseCreateFromSelectedHandleSourceProperties) \
+	NO_API virtual ~UBaseCreateFromSelectedHandleSourceProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_51_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_54_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UBaseCreateFromSelectedHandleSourceProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTransformInputsToolProperties(); \
+	friend struct Z_Construct_UClass_UTransformInputsToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UTransformInputsToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UTransformInputsToolProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_INCLASS \
+private: \
+	static void StaticRegisterNativesUTransformInputsToolProperties(); \
+	friend struct Z_Construct_UClass_UTransformInputsToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UTransformInputsToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UTransformInputsToolProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTransformInputsToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTransformInputsToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTransformInputsToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTransformInputsToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTransformInputsToolProperties(UTransformInputsToolProperties&&); \
+	NO_API UTransformInputsToolProperties(const UTransformInputsToolProperties&); \
+public: \
+	NO_API virtual ~UTransformInputsToolProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTransformInputsToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTransformInputsToolProperties(UTransformInputsToolProperties&&); \
+	NO_API UTransformInputsToolProperties(const UTransformInputsToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTransformInputsToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTransformInputsToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTransformInputsToolProperties) \
+	NO_API virtual ~UTransformInputsToolProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_78_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_81_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UTransformInputsToolProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBaseCreateFromSelectedTool(); \
+	friend struct Z_Construct_UClass_UBaseCreateFromSelectedTool_Statics; \
+public: \
+	DECLARE_CLASS(UBaseCreateFromSelectedTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UBaseCreateFromSelectedTool)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_INCLASS \
+private: \
+	static void StaticRegisterNativesUBaseCreateFromSelectedTool(); \
+	friend struct Z_Construct_UClass_UBaseCreateFromSelectedTool_Statics; \
+public: \
+	DECLARE_CLASS(UBaseCreateFromSelectedTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UBaseCreateFromSelectedTool)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBaseCreateFromSelectedTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBaseCreateFromSelectedTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseCreateFromSelectedTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseCreateFromSelectedTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseCreateFromSelectedTool(UBaseCreateFromSelectedTool&&); \
+	NO_API UBaseCreateFromSelectedTool(const UBaseCreateFromSelectedTool&); \
+public: \
+	NO_API virtual ~UBaseCreateFromSelectedTool();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseCreateFromSelectedTool(UBaseCreateFromSelectedTool&&); \
+	NO_API UBaseCreateFromSelectedTool(const UBaseCreateFromSelectedTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseCreateFromSelectedTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseCreateFromSelectedTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UBaseCreateFromSelectedTool) \
+	NO_API virtual ~UBaseCreateFromSelectedTool();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_94_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UBaseCreateFromSelectedTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_BaseTools_BaseCreateFromSelectedTool_h
+
+
+#define FOREACH_ENUM_EBASECREATEFROMSELECTEDTARGETTYPE(op) \
+	op(EBaseCreateFromSelectedTargetType::NewObject) \
+	op(EBaseCreateFromSelectedTargetType::FirstInputObject) \
+	op(EBaseCreateFromSelectedTargetType::LastInputObject) 
+
+enum class EBaseCreateFromSelectedTargetType;
+template<> struct TIsUEnumClass<EBaseCreateFromSelectedTargetType> { enum { Value = true }; };
+template<> MODELINGCOMPONENTS_API UEnum* StaticEnum<EBaseCreateFromSelectedTargetType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

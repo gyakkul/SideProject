@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ApexDestruction.cpp.obj": [
+			"ApexDestruction.init.gen.cpp.obj",
+			"DestructibleActor.gen.cpp.obj",
+			"DestructibleComponent.gen.cpp.obj",
+			"DestructibleFractureSettings.gen.cpp.obj",
+			"DestructibleMesh.gen.cpp.obj",
+			"ApexDestructibleAssetImport.cpp.obj",
+			"ApexDestructionCustomPayload.cpp.obj",
+			"ApexDestructionModule.cpp.obj",
+			"DestructibleActor.cpp.obj",
+			"DestructibleComponent.cpp.obj",
+			"DestructibleFractureSettings.cpp.obj",
+			"DestructibleMesh.cpp.obj"
+		]
+	}
+}

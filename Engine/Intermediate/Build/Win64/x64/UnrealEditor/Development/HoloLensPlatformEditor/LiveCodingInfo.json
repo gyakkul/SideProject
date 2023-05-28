@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HoloLensPlatformEditor.cpp.obj": [
+			"HoloLensLocalizedResources.gen.cpp.obj",
+			"HoloLensPlatformEditor.init.gen.cpp.obj",
+			"HoloLensTargetSettings.gen.cpp.obj",
+			"HoloLensImageResourcesCustomization.cpp.obj",
+			"HoloLensLocalizedResourcesCustomization.cpp.obj",
+			"HoloLensPlatformEditorModule.cpp.obj",
+			"HoloLensTargetSettings.cpp.obj",
+			"HoloLensTargetSettingsCustomization.cpp.obj"
+		]
+	}
+}

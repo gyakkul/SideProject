@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataflowNodes.cpp.obj": [
+			"DataflowNodes.init.gen.cpp.obj",
+			"DataflowContextOverridesNodes.cpp.obj",
+			"DataflowNodesPlugin.cpp.obj",
+			"DataflowSelectionNodes.cpp.obj",
+			"DataflowSkeletalMeshNodes.cpp.obj",
+			"DataflowStaticMeshNodes.cpp.obj"
+		]
+	}
+}

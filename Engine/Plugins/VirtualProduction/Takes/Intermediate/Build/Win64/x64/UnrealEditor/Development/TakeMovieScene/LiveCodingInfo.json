@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TakeMovieScene.cpp.obj": [
+			"TakeMovieScene.init.gen.cpp.obj",
+			"MovieSceneTakeSection.cpp.obj",
+			"MovieSceneTakeSettings.cpp.obj",
+			"MovieSceneTakeTrack.cpp.obj",
+			"TakeMovieSceneModule.cpp.obj"
+		]
+	}
+}

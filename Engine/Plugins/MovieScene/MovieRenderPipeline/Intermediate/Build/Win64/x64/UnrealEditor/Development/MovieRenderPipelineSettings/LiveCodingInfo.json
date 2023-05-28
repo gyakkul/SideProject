@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MovieRenderPipelineSettings.cpp.obj": [
+			"MoviePipelineBurnInWidget.gen.cpp.obj",
+			"MovieRenderPipelineSettings.init.gen.cpp.obj",
+			"MoviePipelineBurnInSetting.cpp.obj",
+			"MoviePipelineConsoleVariableSetting.cpp.obj",
+			"MoviePipelineWidgetRenderSetting.cpp.obj",
+			"MovieRenderPipelineSettingsModule.cpp.obj"
+		]
+	}
+}

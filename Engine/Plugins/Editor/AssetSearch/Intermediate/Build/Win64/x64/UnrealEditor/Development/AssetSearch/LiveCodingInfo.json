@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetSearch.cpp.obj": [
+			"AssetSearch.init.gen.cpp.obj",
+			"AssetSearchDatabase.cpp.obj",
+			"AssetSearchManager.cpp.obj",
+			"AssetSearchModule.cpp.obj",
+			"FileInfoDatabase.cpp.obj",
+			"ActorIndexer.cpp.obj",
+			"BlueprintIndexer.cpp.obj",
+			"CurveTableIndexer.cpp.obj",
+			"DataTableIndexer.cpp.obj",
+			"DialogueWaveIndexer.cpp.obj",
+			"GenericObjectIndexer.cpp.obj",
+			"LevelIndexer.cpp.obj",
+			"MaterialExpressionIndexer.cpp.obj",
+			"SoundCueIndexer.cpp.obj",
+			"WidgetBlueprintIndexer.cpp.obj",
+			"AssetRegistrySearchProvider.cpp.obj",
+			"SearchSerializer.cpp.obj",
+			"SearchProjectSettings.cpp.obj",
+			"SearchUserSettings.cpp.obj",
+			"IndexerUtilities.cpp.obj",
+			"SearchStyle.cpp.obj",
+			"SSearchBrowser.cpp.obj",
+			"SSearchTreeRow.cpp.obj"
+		]
+	}
+}

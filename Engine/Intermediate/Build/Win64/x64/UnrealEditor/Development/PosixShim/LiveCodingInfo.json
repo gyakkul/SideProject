@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PosixShim.cpp.obj": [
+			"PosixShimDefault.cpp.obj",
+			"PosixShimModule.cpp.obj"
+		]
+	}
+}

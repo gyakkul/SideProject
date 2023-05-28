@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Text3D.cpp.obj": [
+			"BevelType.gen.cpp.obj",
+			"Text3D.init.gen.cpp.obj",
+			"Text3DActor.gen.cpp.obj",
+			"Text3DCharacterTransform.gen.cpp.obj",
+			"Text3DComponent.gen.cpp.obj",
+			"Text3DEngineSubsystem.gen.cpp.obj",
+			"Arrangement.cpp.obj",
+			"Contour.cpp.obj",
+			"ContourList.cpp.obj",
+			"Data.cpp.obj",
+			"Glyph.cpp.obj",
+			"GlyphLoader.cpp.obj",
+			"Mesh.cpp.obj",
+			"MeshCreator.cpp.obj",
+			"Part.cpp.obj",
+			"Text3DActor.cpp.obj",
+			"Text3DCharacterTransform.cpp.obj",
+			"Text3DComponent.cpp.obj",
+			"Text3DEngineSubsystem.cpp.obj",
+			"Text3DPrivate.cpp.obj",
+			"TextShaper.cpp.obj"
+		]
+	}
+}

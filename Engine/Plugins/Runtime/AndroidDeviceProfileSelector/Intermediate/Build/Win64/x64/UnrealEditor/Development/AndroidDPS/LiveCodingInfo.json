@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidDPS.cpp.obj": [
+			"AndroidDeviceProfileMatchingRules.gen.cpp.obj",
+			"AndroidDeviceProfileSelector.init.gen.cpp.obj",
+			"AndroidJavaSurfaceViewDevices.gen.cpp.obj",
+			"AndroidDeviceProfileSelector.cpp.obj",
+			"AndroidDeviceProfileSelectorModule.cpp.obj"
+		]
+	}
+}

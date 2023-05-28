@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.XRCreativeEditor.cpp.obj": [
+			"XRCreativeEditor.init.gen.cpp.obj",
+			"XRCreativeVREditorMode.gen.cpp.obj",
+			"XRCreativeEditorModule.cpp.obj",
+			"XRCreativeVREditorMode.cpp.obj"
+		]
+	}
+}

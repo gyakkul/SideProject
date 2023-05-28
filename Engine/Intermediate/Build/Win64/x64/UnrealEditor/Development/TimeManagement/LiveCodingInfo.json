@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TimeManagement.cpp.obj": [
+			"FrameNumberDisplayFormat.gen.cpp.obj",
+			"TimeManagement.init.gen.cpp.obj",
+			"CommonFrameRates.cpp.obj",
+			"FixedFrameRateCustomTimeStep.cpp.obj",
+			"FrameNumberTimeEvaluator.cpp.obj",
+			"GenlockedCustomTimeStep.cpp.obj",
+			"GenlockedFixedRateCustomTimeStep.cpp.obj",
+			"GenlockedTimecodeProvider.cpp.obj",
+			"ITimedDataInput.cpp.obj",
+			"TimeManagementBlueprintLibrary.cpp.obj",
+			"TimeManagementModule.cpp.obj",
+			"TimeManagementTests.cpp.obj",
+			"TimeSynchronizationSource.cpp.obj",
+			"SFrameRateEntryBox.cpp.obj",
+			"SFrameRatePicker.cpp.obj",
+			"STimecode.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UIFramework.cpp.obj": [
+			"UIFEvents.gen.cpp.obj",
+			"UIFLocalSettings.gen.cpp.obj",
+			"UIFramework.init.gen.cpp.obj",
+			"UIFWidgetOwner.gen.cpp.obj",
+			"UIFParentWidget.cpp.obj",
+			"UIFSlotBase.cpp.obj",
+			"UIFWidgetId.cpp.obj",
+			"UIFWidgetTree.cpp.obj",
+			"UIFWidgetTreeOwner.cpp.obj",
+			"UIFLocalSettings.cpp.obj",
+			"UIFLog.cpp.obj",
+			"UIFModule.cpp.obj",
+			"UIFPlayerComponent.cpp.obj",
+			"UIFPresenter.cpp.obj",
+			"UIFWidget.cpp.obj",
+			"UIFButton.cpp.obj",
+			"UIFCanvasBox.cpp.obj",
+			"UIFColorBlock.cpp.obj",
+			"UIFImageBlock.cpp.obj",
+			"UIFOverlay.cpp.obj",
+			"UIFSimpleButton.cpp.obj",
+			"UIFStackBox.cpp.obj",
+			"UIFTextBlock.cpp.obj",
+			"UIFUserWidget.cpp.obj"
+		]
+	}
+}

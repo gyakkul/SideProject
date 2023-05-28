@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MultiUserClient.cpp.obj": [
+			"ConcertWorkspaceUI.cpp.obj",
+			"MultiUserClientModule.cpp.obj",
+			"MultiUserClientUtils.cpp.obj",
+			"ClientSessionHistoryController.cpp.obj",
+			"SActiveSession.cpp.obj",
+			"SConcertBrowser.cpp.obj",
+			"SConcertSandboxPersistWidget.cpp.obj"
+		]
+	}
+}

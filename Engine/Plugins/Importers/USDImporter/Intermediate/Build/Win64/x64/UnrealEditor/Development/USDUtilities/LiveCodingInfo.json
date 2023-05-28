@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDUtilities.cpp.obj": [
+			"USDAttributeUtils.cpp.obj",
+			"USDConversionUtils.cpp.obj",
+			"USDErrorUtils.cpp.obj",
+			"USDGeomMeshConversion.cpp.obj",
+			"USDGroomConversion.cpp.obj",
+			"USDIntegrationUtils.cpp.obj",
+			"USDLayerUtils.cpp.obj",
+			"USDLightConversion.cpp.obj",
+			"USDPrimConversion.cpp.obj",
+			"USDShadeConversion.cpp.obj",
+			"USDSkeletalDataConversion.cpp.obj",
+			"USDTypesConversion.cpp.obj",
+			"USDUtilitiesModule.cpp.obj",
+			"USDValueConversion.cpp.obj"
+		]
+	}
+}

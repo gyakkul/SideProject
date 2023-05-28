@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterLaunchEditor.cpp.obj": [
+			"DisplayClusterLaunchEditor.init.gen.cpp.obj",
+			"DisplayClusterLaunchEditorProjectSettings.gen.cpp.obj",
+			"DisplayClusterLaunchEditorModule.cpp.obj",
+			"DisplayClusterLaunchEditorStyle.cpp.obj"
+		]
+	}
+}

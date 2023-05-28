@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SubobjectEditor.cpp.obj": [
+			"SubobjectEditor.init.gen.cpp.obj",
+			"SubobjectEditorMenuContext.gen.cpp.obj",
+			"SSubobjectBlueprintEditor.cpp.obj",
+			"SSubobjectEditor.cpp.obj",
+			"SSubobjectEditorModule.cpp.obj",
+			"SSubobjectInstanceEditor.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ScriptableToolsEditorMode.cpp.obj": [
+			"ScriptableToolsEditorMode.gen.cpp.obj",
+			"ScriptableToolsEditorMode.init.gen.cpp.obj",
+			"ScriptableToolsEditorMode.cpp.obj",
+			"ScriptableToolsEditorModeManagerCommands.cpp.obj",
+			"ScriptableToolsEditorModeModule.cpp.obj",
+			"ScriptableToolsEditorModeStyle.cpp.obj",
+			"ScriptableToolsEditorModeToolkit.cpp.obj"
+		]
+	}
+}

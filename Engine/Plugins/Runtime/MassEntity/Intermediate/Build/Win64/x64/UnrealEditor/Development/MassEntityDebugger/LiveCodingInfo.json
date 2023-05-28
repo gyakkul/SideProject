@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassEntityDebugger.cpp.obj": [
+			"MassDebuggerSettings.gen.cpp.obj",
+			"MassEntityDebugger.init.gen.cpp.obj",
+			"MassDebuggerModel.cpp.obj",
+			"MassDebuggerModule.cpp.obj",
+			"MassDebuggerStyle.cpp.obj",
+			"SMassArchetype.cpp.obj",
+			"SMassArchetypesView.cpp.obj",
+			"SMassDebugger.cpp.obj",
+			"SMassDebuggerViewBase.cpp.obj",
+			"SMassProcessingGraphView.cpp.obj",
+			"SMassProcessingView.cpp.obj",
+			"SMassProcessor.cpp.obj",
+			"SMassProcessorsView.cpp.obj",
+			"SMassQuery.cpp.obj"
+		]
+	}
+}

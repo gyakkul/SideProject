@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NaniteDisplacedMesh.cpp.obj": [
+			"NaniteDisplacedMesh.init.gen.cpp.obj",
+			"NaniteDisplacedMesh.cpp.obj",
+			"NaniteDisplacedMeshAlgo.cpp.obj",
+			"NaniteDisplacedMeshCompiler.cpp.obj",
+			"NaniteDisplacedMeshComponent.cpp.obj",
+			"NaniteDisplacedMeshLog.cpp.obj",
+			"NaniteDisplacedMeshModule.cpp.obj"
+		]
+	}
+}

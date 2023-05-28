@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeCommonParser.cpp.obj": [
+			"InterchangeCommonParser.init.gen.cpp.obj",
+			"InterchangeCommonAnimationPayload.cpp.obj",
+			"InterchangeCommonParserModule.cpp.obj"
+		]
+	}
+}

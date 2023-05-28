@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VisualGraphUtils.cpp.obj": [
+			"VisualGraphUtils.init.gen.cpp.obj",
+			"VisualGraph.cpp.obj",
+			"VisualGraphEdge.cpp.obj",
+			"VisualGraphElement.cpp.obj",
+			"VisualGraphNode.cpp.obj",
+			"VisualGraphObjectUtils.cpp.obj",
+			"VisualGraphUtilsModule.cpp.obj"
+		]
+	}
+}

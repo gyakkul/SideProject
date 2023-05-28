@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TimedDataMonitor.cpp.obj": [
+			"TimedDataMonitor.init.gen.cpp.obj",
+			"TimedDataMonitorCalibration.gen.cpp.obj",
+			"TimedDataMonitorSubsystem.gen.cpp.obj",
+			"TimedDataMonitorTypes.gen.cpp.obj",
+			"TimedDataMonitorCalibration.cpp.obj",
+			"TimedDataMonitorModule.cpp.obj",
+			"TimedDataMonitorSubsystem.cpp.obj"
+		]
+	}
+}

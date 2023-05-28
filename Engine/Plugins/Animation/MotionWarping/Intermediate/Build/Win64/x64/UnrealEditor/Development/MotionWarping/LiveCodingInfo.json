@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MotionWarping.cpp.obj": [
+			"MotionWarping.init.gen.cpp.obj",
+			"AnimNotifyState_MotionWarping.cpp.obj",
+			"MotionWarping.cpp.obj",
+			"MotionWarpingComponent.cpp.obj",
+			"RootMotionModifier.cpp.obj",
+			"RootMotionModifier_AdjustmentBlendWarp.cpp.obj",
+			"RootMotionModifier_SkewWarp.cpp.obj"
+		]
+	}
+}

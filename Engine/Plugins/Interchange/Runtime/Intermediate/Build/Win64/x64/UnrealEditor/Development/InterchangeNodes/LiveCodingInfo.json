@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeNodes.cpp.obj": [
+			"InterchangeAnimationTrackSetNode.gen.cpp.obj",
+			"InterchangeCameraNode.gen.cpp.obj",
+			"InterchangeLightNode.gen.cpp.obj",
+			"InterchangeNodes.init.gen.cpp.obj",
+			"InterchangeTexture2DArrayNode.gen.cpp.obj",
+			"InterchangeTextureCubeArrayNode.gen.cpp.obj",
+			"InterchangeTextureCubeNode.gen.cpp.obj",
+			"InterchangeTextureLightProfileNode.gen.cpp.obj",
+			"InterchangeTextureNode.gen.cpp.obj",
+			"InterchangeVariantSetNode.gen.cpp.obj",
+			"InterchangeVolumeTextureNode.gen.cpp.obj",
+			"InterchangeAnimationTrackSetNode.cpp.obj",
+			"InterchangeLightNode.cpp.obj",
+			"InterchangeMaterialInstanceNode.cpp.obj",
+			"InterchangeMeshNode.cpp.obj",
+			"InterchangeNodesModule.cpp.obj",
+			"InterchangeSceneNode.cpp.obj",
+			"InterchangeShaderGraphNode.cpp.obj",
+			"InterchangeTexture2DNode.cpp.obj",
+			"InterchangeVariantSetNode.cpp.obj"
+		]
+	}
+}

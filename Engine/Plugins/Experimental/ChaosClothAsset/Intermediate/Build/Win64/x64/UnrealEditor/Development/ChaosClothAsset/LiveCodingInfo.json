@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosClothAsset.cpp.obj": [
+			"ChaosClothAssetModule.cpp.obj",
+			"ClothAdapter.cpp.obj",
+			"ClothCollection.cpp.obj",
+			"ClothGeometryTools.cpp.obj",
+			"ClothLodAdapter.cpp.obj",
+			"ClothPatternAdapter.cpp.obj"
+		]
+	}
+}

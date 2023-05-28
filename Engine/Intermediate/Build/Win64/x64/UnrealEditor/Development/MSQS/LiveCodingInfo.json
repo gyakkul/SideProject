@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MSQS.cpp.obj": [
+			"MaterialShaderQualitySettings.init.gen.cpp.obj",
+			"ShaderPlatformQualitySettings.gen.cpp.obj",
+			"MaterialShaderQualitySettings.cpp.obj",
+			"MaterialShaderQualitySettingsCustomization.cpp.obj",
+			"MaterialShaderQualitySettingsModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Chooser.cpp.obj": [
+			"BoolColumn.gen.cpp.obj",
+			"Chooser.init.gen.cpp.obj",
+			"ChooserFunctionLibrary.gen.cpp.obj",
+			"EnumColumn.gen.cpp.obj",
+			"FloatRangeColumn.gen.cpp.obj",
+			"GameplayTagColumn.gen.cpp.obj",
+			"IChooserColumn.gen.cpp.obj",
+			"IChooserParameterBase.gen.cpp.obj",
+			"IChooserParameterBool.gen.cpp.obj",
+			"IChooserParameterEnum.gen.cpp.obj",
+			"IChooserParameterFloat.gen.cpp.obj",
+			"IChooserParameterGameplayTag.gen.cpp.obj",
+			"IObjectChooser.gen.cpp.obj",
+			"ObjectChooser_Asset.gen.cpp.obj",
+			"BoolColumn.cpp.obj",
+			"Chooser.cpp.obj",
+			"ChooserModule.cpp.obj",
+			"ChooserPropertyAccess.cpp.obj",
+			"EnumColumn.cpp.obj",
+			"FloatRangeColumn.cpp.obj",
+			"GameplayTagColumn.cpp.obj",
+			"ObjectChooser_Asset.cpp.obj"
+		]
+	}
+}

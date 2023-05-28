@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OptionalMobileFeaturesBPLibrary.cpp.obj": [
+			"OptionalMobileFeaturesBPLibrary.gen.cpp.obj",
+			"OptionalMobileFeaturesBPLibrary.init.gen.cpp.obj",
+			"OptionalMobileFeaturesBPLibrary.cpp.obj",
+			"OptionalMobileFeaturesBPLibraryModule.cpp.obj"
+		]
+	}
+}

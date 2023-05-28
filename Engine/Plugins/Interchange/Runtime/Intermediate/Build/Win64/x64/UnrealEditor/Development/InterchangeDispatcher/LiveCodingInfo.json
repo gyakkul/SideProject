@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeDispatcher.cpp.obj": [
+			"InterchangeCommands.cpp.obj",
+			"InterchangeDispatcher.cpp.obj",
+			"InterchangeDispatcherModule.cpp.obj",
+			"InterchangeDispatcherNetworking.cpp.obj",
+			"InterchangeDispatcherTask.cpp.obj",
+			"InterchangeWorkerHandler.cpp.obj"
+		]
+	}
+}

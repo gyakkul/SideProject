@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FlurryEditor.cpp.obj": [
+			"FlurryEditor.init.gen.cpp.obj",
+			"FlurrySettings.gen.cpp.obj",
+			"FlurryEditor.cpp.obj"
+		]
+	}
+}

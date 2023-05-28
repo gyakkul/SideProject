@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameFeaturesEditor.cpp.obj": [
+			"GameFeaturesEditor.init.gen.cpp.obj",
+			"GameFeaturesEditorSettings.gen.cpp.obj",
+			"GameFeatureDataDetailsCustomization.cpp.obj",
+			"GameFeaturePluginMetadataCustomization.cpp.obj",
+			"GameFeaturesEditorModule.cpp.obj",
+			"SGameFeatureStateWidget.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HLMediaEditor.cpp.obj": [
+			"HLMediaEditor.init.gen.cpp.obj",
+			"HLMediaSourceFactory.gen.cpp.obj",
+			"HLMediaEditorModule.cpp.obj",
+			"HLMediaSourceFactory.cpp.obj"
+		]
+	}
+}

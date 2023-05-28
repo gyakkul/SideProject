@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WindowsPlatformFeatures.cpp.obj": [
+			"HighlightRecorder.cpp.obj",
+			"WindowsPlatformFeatures.cpp.obj",
+			"WindowsVideoRecordingSystem.cpp.obj",
+			"WmfMp4Writer.cpp.obj",
+			"WmfRingBuffer.cpp.obj"
+		]
+	}
+}

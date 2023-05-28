@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SettingsEditor.cpp.obj": [
+			"PerPlatformSettingsCustomization.cpp.obj",
+			"SettingsEditorModule.cpp.obj",
+			"SSettingsEditor.cpp.obj",
+			"SSettingsSectionHeader.cpp.obj"
+		]
+	}
+}

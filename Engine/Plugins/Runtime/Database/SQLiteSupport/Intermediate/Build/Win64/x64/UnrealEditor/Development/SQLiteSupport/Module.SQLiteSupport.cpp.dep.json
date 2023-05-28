@@ -1,0 +1,23 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sqlitesupport\\module.sqlitesupport.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sqlitesupport\\definitions.sqlitesupport.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\source\\sqlitesupport\\private\\sqlitedatabaseconnection.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\source\\sqlitesupport\\public\\sqlitedatabaseconnection.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\source\\sqlitesupport\\public\\sqlitesupport.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\source\\sqlitesupport\\public\\sqliteresultset.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\databasesupport\\source\\databasesupport\\public\\database.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitepreparedstatement.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitetypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitecore\\source\\sqlitecore\\public\\sqlitedatabase.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\source\\sqlitesupport\\private\\sqliteresultset.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\database\\sqlitesupport\\source\\sqlitesupport\\private\\sqlitesupport.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

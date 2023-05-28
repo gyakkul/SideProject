@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveUpdateForSlate.cpp.obj": [
+			"LiveUpdateForSlate.init.gen.cpp.obj",
+			"LiveUpdateSlateSettings.gen.cpp.obj",
+			"LiveUpdateForSlate.cpp.obj"
+		]
+	}
+}

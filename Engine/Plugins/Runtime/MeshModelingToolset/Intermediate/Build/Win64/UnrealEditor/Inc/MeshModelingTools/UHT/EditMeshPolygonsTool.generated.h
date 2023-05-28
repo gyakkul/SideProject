@@ -1,0 +1,1299 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "EditMeshPolygonsTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLS_EditMeshPolygonsTool_generated_h
+#error "EditMeshPolygonsTool.generated.h already included, missing '#pragma once' in EditMeshPolygonsTool.h"
+#endif
+#define MESHMODELINGTOOLS_EditMeshPolygonsTool_generated_h
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolBuilder, USingleTargetWithSelectionToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolBuilder, USingleTargetWithSelectionToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolBuilder(UEditMeshPolygonsToolBuilder&&); \
+	NO_API UEditMeshPolygonsToolBuilder(const UEditMeshPolygonsToolBuilder&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolBuilder(UEditMeshPolygonsToolBuilder&&); \
+	NO_API UEditMeshPolygonsToolBuilder(const UEditMeshPolygonsToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolBuilder) \
+	NO_API virtual ~UEditMeshPolygonsToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_43_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_46_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolBuilder>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPolyEditCommonProperties(); \
+	friend struct Z_Construct_UClass_UPolyEditCommonProperties_Statics; \
+public: \
+	DECLARE_CLASS(UPolyEditCommonProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UPolyEditCommonProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_INCLASS \
+private: \
+	static void StaticRegisterNativesUPolyEditCommonProperties(); \
+	friend struct Z_Construct_UClass_UPolyEditCommonProperties_Statics; \
+public: \
+	DECLARE_CLASS(UPolyEditCommonProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UPolyEditCommonProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPolyEditCommonProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPolyEditCommonProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPolyEditCommonProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPolyEditCommonProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPolyEditCommonProperties(UPolyEditCommonProperties&&); \
+	NO_API UPolyEditCommonProperties(const UPolyEditCommonProperties&); \
+public: \
+	NO_API virtual ~UPolyEditCommonProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPolyEditCommonProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPolyEditCommonProperties(UPolyEditCommonProperties&&); \
+	NO_API UPolyEditCommonProperties(const UPolyEditCommonProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPolyEditCommonProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPolyEditCommonProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPolyEditCommonProperties) \
+	NO_API virtual ~UPolyEditCommonProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_68_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_71_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UPolyEditCommonProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsActionModeToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsActionModeToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsActionModeToolBuilder, UEditMeshPolygonsToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsActionModeToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsActionModeToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsActionModeToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsActionModeToolBuilder, UEditMeshPolygonsToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsActionModeToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsActionModeToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsActionModeToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsActionModeToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsActionModeToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsActionModeToolBuilder(UEditMeshPolygonsActionModeToolBuilder&&); \
+	NO_API UEditMeshPolygonsActionModeToolBuilder(const UEditMeshPolygonsActionModeToolBuilder&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsActionModeToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsActionModeToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsActionModeToolBuilder(UEditMeshPolygonsActionModeToolBuilder&&); \
+	NO_API UEditMeshPolygonsActionModeToolBuilder(const UEditMeshPolygonsActionModeToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsActionModeToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsActionModeToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsActionModeToolBuilder) \
+	NO_API virtual ~UEditMeshPolygonsActionModeToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_149_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_152_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsActionModeToolBuilder>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsSelectionModeToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsSelectionModeToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsSelectionModeToolBuilder, UEditMeshPolygonsToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsSelectionModeToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsSelectionModeToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsSelectionModeToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsSelectionModeToolBuilder, UEditMeshPolygonsToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsSelectionModeToolBuilder)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsSelectionModeToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsSelectionModeToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsSelectionModeToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsSelectionModeToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsSelectionModeToolBuilder(UEditMeshPolygonsSelectionModeToolBuilder&&); \
+	NO_API UEditMeshPolygonsSelectionModeToolBuilder(const UEditMeshPolygonsSelectionModeToolBuilder&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsSelectionModeToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsSelectionModeToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsSelectionModeToolBuilder(UEditMeshPolygonsSelectionModeToolBuilder&&); \
+	NO_API UEditMeshPolygonsSelectionModeToolBuilder(const UEditMeshPolygonsSelectionModeToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsSelectionModeToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsSelectionModeToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsSelectionModeToolBuilder) \
+	NO_API virtual ~UEditMeshPolygonsSelectionModeToolBuilder();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_170_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_173_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsSelectionModeToolBuilder>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolActionPropertySet(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolActionPropertySet_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolActionPropertySet, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolActionPropertySet)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolActionPropertySet(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolActionPropertySet_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolActionPropertySet, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolActionPropertySet)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolActionPropertySet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolActionPropertySet) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolActionPropertySet); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolActionPropertySet); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolActionPropertySet(UEditMeshPolygonsToolActionPropertySet&&); \
+	NO_API UEditMeshPolygonsToolActionPropertySet(const UEditMeshPolygonsToolActionPropertySet&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolActionPropertySet();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolActionPropertySet(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolActionPropertySet(UEditMeshPolygonsToolActionPropertySet&&); \
+	NO_API UEditMeshPolygonsToolActionPropertySet(const UEditMeshPolygonsToolActionPropertySet&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolActionPropertySet); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolActionPropertySet); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolActionPropertySet) \
+	NO_API virtual ~UEditMeshPolygonsToolActionPropertySet();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_182_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_185_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolActionPropertySet>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execRegenerateExtraCorners);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execRegenerateExtraCorners);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPolyEditTopologyProperties(); \
+	friend struct Z_Construct_UClass_UPolyEditTopologyProperties_Statics; \
+public: \
+	DECLARE_CLASS(UPolyEditTopologyProperties, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UPolyEditTopologyProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_INCLASS \
+private: \
+	static void StaticRegisterNativesUPolyEditTopologyProperties(); \
+	friend struct Z_Construct_UClass_UPolyEditTopologyProperties_Statics; \
+public: \
+	DECLARE_CLASS(UPolyEditTopologyProperties, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UPolyEditTopologyProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPolyEditTopologyProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPolyEditTopologyProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPolyEditTopologyProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPolyEditTopologyProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPolyEditTopologyProperties(UPolyEditTopologyProperties&&); \
+	NO_API UPolyEditTopologyProperties(const UPolyEditTopologyProperties&); \
+public: \
+	NO_API virtual ~UPolyEditTopologyProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPolyEditTopologyProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPolyEditTopologyProperties(UPolyEditTopologyProperties&&); \
+	NO_API UPolyEditTopologyProperties(const UPolyEditTopologyProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPolyEditTopologyProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPolyEditTopologyProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPolyEditTopologyProperties) \
+	NO_API virtual ~UPolyEditTopologyProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_195_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_198_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UPolyEditTopologyProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSimplifyByGroups); \
+	DECLARE_FUNCTION(execInsertEdge); \
+	DECLARE_FUNCTION(execInsertEdgeLoop); \
+	DECLARE_FUNCTION(execDuplicate); \
+	DECLARE_FUNCTION(execDisconnect); \
+	DECLARE_FUNCTION(execDecompose); \
+	DECLARE_FUNCTION(execRetriangulate); \
+	DECLARE_FUNCTION(execFlip); \
+	DECLARE_FUNCTION(execRecalcNormals); \
+	DECLARE_FUNCTION(execCutFaces); \
+	DECLARE_FUNCTION(execDelete); \
+	DECLARE_FUNCTION(execMerge); \
+	DECLARE_FUNCTION(execBevel); \
+	DECLARE_FUNCTION(execOutset); \
+	DECLARE_FUNCTION(execInset); \
+	DECLARE_FUNCTION(execOffset); \
+	DECLARE_FUNCTION(execPushPull); \
+	DECLARE_FUNCTION(execExtrude);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSimplifyByGroups); \
+	DECLARE_FUNCTION(execInsertEdge); \
+	DECLARE_FUNCTION(execInsertEdgeLoop); \
+	DECLARE_FUNCTION(execDuplicate); \
+	DECLARE_FUNCTION(execDisconnect); \
+	DECLARE_FUNCTION(execDecompose); \
+	DECLARE_FUNCTION(execRetriangulate); \
+	DECLARE_FUNCTION(execFlip); \
+	DECLARE_FUNCTION(execRecalcNormals); \
+	DECLARE_FUNCTION(execCutFaces); \
+	DECLARE_FUNCTION(execDelete); \
+	DECLARE_FUNCTION(execMerge); \
+	DECLARE_FUNCTION(execBevel); \
+	DECLARE_FUNCTION(execOutset); \
+	DECLARE_FUNCTION(execInset); \
+	DECLARE_FUNCTION(execOffset); \
+	DECLARE_FUNCTION(execPushPull); \
+	DECLARE_FUNCTION(execExtrude);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolActions(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolActions, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolActions)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolActions(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolActions, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolActions)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolActions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolActions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolActions(UEditMeshPolygonsToolActions&&); \
+	NO_API UEditMeshPolygonsToolActions(const UEditMeshPolygonsToolActions&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolActions();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolActions(UEditMeshPolygonsToolActions&&); \
+	NO_API UEditMeshPolygonsToolActions(const UEditMeshPolygonsToolActions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolActions); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolActions) \
+	NO_API virtual ~UEditMeshPolygonsToolActions();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_227_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_230_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolActions>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPoke); \
+	DECLARE_FUNCTION(execDuplicate); \
+	DECLARE_FUNCTION(execDisconnect); \
+	DECLARE_FUNCTION(execFlip); \
+	DECLARE_FUNCTION(execRecalcNormals); \
+	DECLARE_FUNCTION(execCutFaces); \
+	DECLARE_FUNCTION(execDelete); \
+	DECLARE_FUNCTION(execOutset); \
+	DECLARE_FUNCTION(execInset); \
+	DECLARE_FUNCTION(execOffset); \
+	DECLARE_FUNCTION(execPushPull); \
+	DECLARE_FUNCTION(execExtrude);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPoke); \
+	DECLARE_FUNCTION(execDuplicate); \
+	DECLARE_FUNCTION(execDisconnect); \
+	DECLARE_FUNCTION(execFlip); \
+	DECLARE_FUNCTION(execRecalcNormals); \
+	DECLARE_FUNCTION(execCutFaces); \
+	DECLARE_FUNCTION(execDelete); \
+	DECLARE_FUNCTION(execOutset); \
+	DECLARE_FUNCTION(execInset); \
+	DECLARE_FUNCTION(execOffset); \
+	DECLARE_FUNCTION(execPushPull); \
+	DECLARE_FUNCTION(execExtrude);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolActions_Triangles(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolActions_Triangles_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolActions_Triangles, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolActions_Triangles)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolActions_Triangles(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolActions_Triangles_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolActions_Triangles, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolActions_Triangles)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolActions_Triangles(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolActions_Triangles) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolActions_Triangles); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolActions_Triangles); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolActions_Triangles(UEditMeshPolygonsToolActions_Triangles&&); \
+	NO_API UEditMeshPolygonsToolActions_Triangles(const UEditMeshPolygonsToolActions_Triangles&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolActions_Triangles();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolActions_Triangles(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolActions_Triangles(UEditMeshPolygonsToolActions_Triangles&&); \
+	NO_API UEditMeshPolygonsToolActions_Triangles(const UEditMeshPolygonsToolActions_Triangles&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolActions_Triangles); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolActions_Triangles); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolActions_Triangles) \
+	NO_API virtual ~UEditMeshPolygonsToolActions_Triangles();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_316_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_319_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolActions_Triangles>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execPlanarProjection);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execPlanarProjection);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolUVActions(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolUVActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolUVActions, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolUVActions)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolUVActions(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolUVActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolUVActions, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolUVActions)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolUVActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolUVActions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolUVActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolUVActions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolUVActions(UEditMeshPolygonsToolUVActions&&); \
+	NO_API UEditMeshPolygonsToolUVActions(const UEditMeshPolygonsToolUVActions&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolUVActions();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolUVActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolUVActions(UEditMeshPolygonsToolUVActions&&); \
+	NO_API UEditMeshPolygonsToolUVActions(const UEditMeshPolygonsToolUVActions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolUVActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolUVActions); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolUVActions) \
+	NO_API virtual ~UEditMeshPolygonsToolUVActions();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_374_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_377_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolUVActions>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execBridge); \
+	DECLARE_FUNCTION(execBevel); \
+	DECLARE_FUNCTION(execFillHole); \
+	DECLARE_FUNCTION(execStraighten); \
+	DECLARE_FUNCTION(execWeld);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execBridge); \
+	DECLARE_FUNCTION(execBevel); \
+	DECLARE_FUNCTION(execFillHole); \
+	DECLARE_FUNCTION(execStraighten); \
+	DECLARE_FUNCTION(execWeld);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolEdgeActions(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolEdgeActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolEdgeActions, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolEdgeActions)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolEdgeActions(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolEdgeActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolEdgeActions, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolEdgeActions)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolEdgeActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolEdgeActions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolEdgeActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolEdgeActions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolEdgeActions(UEditMeshPolygonsToolEdgeActions&&); \
+	NO_API UEditMeshPolygonsToolEdgeActions(const UEditMeshPolygonsToolEdgeActions&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolEdgeActions();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolEdgeActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolEdgeActions(UEditMeshPolygonsToolEdgeActions&&); \
+	NO_API UEditMeshPolygonsToolEdgeActions(const UEditMeshPolygonsToolEdgeActions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolEdgeActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolEdgeActions); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolEdgeActions) \
+	NO_API virtual ~UEditMeshPolygonsToolEdgeActions();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_393_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_396_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolEdgeActions>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSplit); \
+	DECLARE_FUNCTION(execFlip); \
+	DECLARE_FUNCTION(execCollapse); \
+	DECLARE_FUNCTION(execFillHole); \
+	DECLARE_FUNCTION(execWeld);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSplit); \
+	DECLARE_FUNCTION(execFlip); \
+	DECLARE_FUNCTION(execCollapse); \
+	DECLARE_FUNCTION(execFillHole); \
+	DECLARE_FUNCTION(execWeld);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolEdgeActions_Triangles(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolEdgeActions_Triangles_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolEdgeActions_Triangles, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolEdgeActions_Triangles)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolEdgeActions_Triangles(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolEdgeActions_Triangles_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolEdgeActions_Triangles, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolEdgeActions_Triangles)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolEdgeActions_Triangles(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolEdgeActions_Triangles) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolEdgeActions_Triangles); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolEdgeActions_Triangles); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolEdgeActions_Triangles(UEditMeshPolygonsToolEdgeActions_Triangles&&); \
+	NO_API UEditMeshPolygonsToolEdgeActions_Triangles(const UEditMeshPolygonsToolEdgeActions_Triangles&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolEdgeActions_Triangles();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolEdgeActions_Triangles(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolEdgeActions_Triangles(UEditMeshPolygonsToolEdgeActions_Triangles&&); \
+	NO_API UEditMeshPolygonsToolEdgeActions_Triangles(const UEditMeshPolygonsToolEdgeActions_Triangles&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolEdgeActions_Triangles); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolEdgeActions_Triangles); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolEdgeActions_Triangles) \
+	NO_API virtual ~UEditMeshPolygonsToolEdgeActions_Triangles();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_420_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_423_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolEdgeActions_Triangles>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDone);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDone);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolCancelAction(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolCancelAction_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolCancelAction, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolCancelAction)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolCancelAction(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolCancelAction_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolCancelAction, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolCancelAction)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolCancelAction(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolCancelAction) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolCancelAction); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolCancelAction); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolCancelAction(UEditMeshPolygonsToolCancelAction&&); \
+	NO_API UEditMeshPolygonsToolCancelAction(const UEditMeshPolygonsToolCancelAction&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolCancelAction();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolCancelAction(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolCancelAction(UEditMeshPolygonsToolCancelAction&&); \
+	NO_API UEditMeshPolygonsToolCancelAction(const UEditMeshPolygonsToolCancelAction&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolCancelAction); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolCancelAction); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolCancelAction) \
+	NO_API virtual ~UEditMeshPolygonsToolCancelAction();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_452_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_455_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolCancelAction>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execCancel); \
+	DECLARE_FUNCTION(execApply);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execCancel); \
+	DECLARE_FUNCTION(execApply);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolAcceptCancelAction(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolAcceptCancelAction_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolAcceptCancelAction, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolAcceptCancelAction)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsToolAcceptCancelAction(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsToolAcceptCancelAction_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsToolAcceptCancelAction, UEditMeshPolygonsToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsToolAcceptCancelAction)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolAcceptCancelAction(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolAcceptCancelAction) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolAcceptCancelAction); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolAcceptCancelAction); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolAcceptCancelAction(UEditMeshPolygonsToolAcceptCancelAction&&); \
+	NO_API UEditMeshPolygonsToolAcceptCancelAction(const UEditMeshPolygonsToolAcceptCancelAction&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsToolAcceptCancelAction();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsToolAcceptCancelAction(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsToolAcceptCancelAction(UEditMeshPolygonsToolAcceptCancelAction&&); \
+	NO_API UEditMeshPolygonsToolAcceptCancelAction(const UEditMeshPolygonsToolAcceptCancelAction&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsToolAcceptCancelAction); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsToolAcceptCancelAction); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsToolAcceptCancelAction) \
+	NO_API virtual ~UEditMeshPolygonsToolAcceptCancelAction();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_466_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_469_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsToolAcceptCancelAction>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsTool(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsTool_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsTool, USingleTargetWithSelectionTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UEditMeshPolygonsTool*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshPolygonsTool(); \
+	friend struct Z_Construct_UClass_UEditMeshPolygonsTool_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshPolygonsTool, USingleTargetWithSelectionTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingTools"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshPolygonsTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UEditMeshPolygonsTool*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshPolygonsTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshPolygonsTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsTool(UEditMeshPolygonsTool&&); \
+	NO_API UEditMeshPolygonsTool(const UEditMeshPolygonsTool&); \
+public: \
+	NO_API virtual ~UEditMeshPolygonsTool();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshPolygonsTool(UEditMeshPolygonsTool&&); \
+	NO_API UEditMeshPolygonsTool(const UEditMeshPolygonsTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshPolygonsTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshPolygonsTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEditMeshPolygonsTool) \
+	NO_API virtual ~UEditMeshPolygonsTool();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_484_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h_490_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLS_API UClass* StaticClass<class UEditMeshPolygonsTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_MeshModelingTools_Public_EditMeshPolygonsTool_h
+
+
+#define FOREACH_ENUM_ELOCALFRAMEMODE(op) \
+	op(ELocalFrameMode::FromObject) \
+	op(ELocalFrameMode::FromGeometry) 
+
+enum class ELocalFrameMode;
+template<> struct TIsUEnumClass<ELocalFrameMode> { enum { Value = true }; };
+template<> MESHMODELINGTOOLS_API UEnum* StaticEnum<ELocalFrameMode>();
+
+#define FOREACH_ENUM_EEDITMESHPOLYGONSTOOLACTIONS(op) \
+	op(EEditMeshPolygonsToolActions::NoAction) \
+	op(EEditMeshPolygonsToolActions::AcceptCurrent) \
+	op(EEditMeshPolygonsToolActions::CancelCurrent) \
+	op(EEditMeshPolygonsToolActions::Extrude) \
+	op(EEditMeshPolygonsToolActions::PushPull) \
+	op(EEditMeshPolygonsToolActions::Offset) \
+	op(EEditMeshPolygonsToolActions::Inset) \
+	op(EEditMeshPolygonsToolActions::Outset) \
+	op(EEditMeshPolygonsToolActions::BevelFaces) \
+	op(EEditMeshPolygonsToolActions::InsertEdge) \
+	op(EEditMeshPolygonsToolActions::InsertEdgeLoop) \
+	op(EEditMeshPolygonsToolActions::Complete) \
+	op(EEditMeshPolygonsToolActions::PlaneCut) \
+	op(EEditMeshPolygonsToolActions::Merge) \
+	op(EEditMeshPolygonsToolActions::Delete) \
+	op(EEditMeshPolygonsToolActions::CutFaces) \
+	op(EEditMeshPolygonsToolActions::RecalculateNormals) \
+	op(EEditMeshPolygonsToolActions::FlipNormals) \
+	op(EEditMeshPolygonsToolActions::Retriangulate) \
+	op(EEditMeshPolygonsToolActions::Decompose) \
+	op(EEditMeshPolygonsToolActions::Disconnect) \
+	op(EEditMeshPolygonsToolActions::Duplicate) \
+	op(EEditMeshPolygonsToolActions::CollapseEdge) \
+	op(EEditMeshPolygonsToolActions::WeldEdges) \
+	op(EEditMeshPolygonsToolActions::StraightenEdge) \
+	op(EEditMeshPolygonsToolActions::FillHole) \
+	op(EEditMeshPolygonsToolActions::BridgeEdges) \
+	op(EEditMeshPolygonsToolActions::BevelEdges) \
+	op(EEditMeshPolygonsToolActions::PlanarProjectionUV) \
+	op(EEditMeshPolygonsToolActions::SimplifyByGroups) \
+	op(EEditMeshPolygonsToolActions::RegenerateExtraCorners) \
+	op(EEditMeshPolygonsToolActions::PokeSingleFace) \
+	op(EEditMeshPolygonsToolActions::SplitSingleEdge) \
+	op(EEditMeshPolygonsToolActions::FlipSingleEdge) \
+	op(EEditMeshPolygonsToolActions::CollapseSingleEdge) \
+	op(EEditMeshPolygonsToolActions::BevelAuto) 
+
+enum class EEditMeshPolygonsToolActions;
+template<> struct TIsUEnumClass<EEditMeshPolygonsToolActions> { enum { Value = true }; };
+template<> MESHMODELINGTOOLS_API UEnum* StaticEnum<EEditMeshPolygonsToolActions>();
+
+#define FOREACH_ENUM_EEDITMESHPOLYGONSTOOLSELECTIONMODE(op) \
+	op(EEditMeshPolygonsToolSelectionMode::Faces) \
+	op(EEditMeshPolygonsToolSelectionMode::Edges) \
+	op(EEditMeshPolygonsToolSelectionMode::Vertices) \
+	op(EEditMeshPolygonsToolSelectionMode::Loops) \
+	op(EEditMeshPolygonsToolSelectionMode::Rings) \
+	op(EEditMeshPolygonsToolSelectionMode::FacesEdgesVertices) 
+
+enum class EEditMeshPolygonsToolSelectionMode;
+template<> struct TIsUEnumClass<EEditMeshPolygonsToolSelectionMode> { enum { Value = true }; };
+template<> MESHMODELINGTOOLS_API UEnum* StaticEnum<EEditMeshPolygonsToolSelectionMode>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

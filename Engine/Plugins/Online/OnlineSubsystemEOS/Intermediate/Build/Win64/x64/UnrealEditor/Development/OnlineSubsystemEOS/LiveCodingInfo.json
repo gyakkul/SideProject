@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineSubsystemEOS.cpp.obj": [
+			"NetDriverEOS.gen.cpp.obj",
+			"OnlineSubsystemEOS.init.gen.cpp.obj",
+			"EOSHelpers.cpp.obj",
+			"EOSSettings.cpp.obj",
+			"OnlineAchievementsEOS.cpp.obj",
+			"OnlineLeaderboardsEOS.cpp.obj",
+			"OnlineSessionEOS.cpp.obj",
+			"OnlineStatsEOS.cpp.obj",
+			"OnlineStoreEOS.cpp.obj",
+			"OnlineSubsystemEOS.cpp.obj",
+			"OnlineSubsystemEOSTypes.cpp.obj",
+			"OnlineSubsystemModuleEOS.cpp.obj",
+			"OnlineTitleFileEOS.cpp.obj",
+			"OnlineUserCloudEOS.cpp.obj",
+			"SocketSubsystemEOSUtils_OnlineSubsystemEOS.cpp.obj",
+			"UserManagerEOS.cpp.obj",
+			"WindowsEOSHelpers.cpp.obj"
+		]
+	}
+}

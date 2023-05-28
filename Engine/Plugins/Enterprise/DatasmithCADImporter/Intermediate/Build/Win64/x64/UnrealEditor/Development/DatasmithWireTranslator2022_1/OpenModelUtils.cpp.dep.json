@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcadimporter\\source\\datasmithwiretranslator\\private\\openmodelutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcadimporter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\datasmithwiretranslator2022_1\\definitions.datasmithwiretranslator2022_1.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcadimporter\\source\\datasmithwiretranslator\\private\\openmodelutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcadimporter\\source\\cadtools\\public\\cadoptions.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\datasmith\\datasmithcore\\public\\datasmithdefinitions.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,44 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VariantManager.cpp.obj": [
+			"CapturableProperty.gen.cpp.obj",
+			"PropertyTemplateObject.gen.cpp.obj",
+			"VariantManager.init.gen.cpp.obj",
+			"VariantManagerBlueprintLibrary.gen.cpp.obj",
+			"VariantManagerDisplayNode.gen.cpp.obj",
+			"SCapturedActorsWidget.cpp.obj",
+			"SCaptureDialog.cpp.obj",
+			"SCapturedPropertiesWidget.cpp.obj",
+			"VariantManagerActorNode.cpp.obj",
+			"VariantManagerColorPropertyNode.cpp.obj",
+			"VariantManagerDisplayNode.cpp.obj",
+			"VariantManagerEnumPropertyNode.cpp.obj",
+			"VariantManagerFunctionPropertyNode.cpp.obj",
+			"VariantManagerOptionPropertyNode.cpp.obj",
+			"VariantManagerPropertyNode.cpp.obj",
+			"VariantManagerStringPropertyNode.cpp.obj",
+			"VariantManagerStructPropertyNode.cpp.obj",
+			"VariantManagerVariantNode.cpp.obj",
+			"VariantManagerVariantSetNode.cpp.obj",
+			"LevelVariantSetsEditorToolkit.cpp.obj",
+			"PropertyTemplateObject.cpp.obj",
+			"SDependencyRow.cpp.obj",
+			"SVariantManager.cpp.obj",
+			"SVariantManagerActorListView.cpp.obj",
+			"SVariantManagerNodeTreeView.cpp.obj",
+			"SVariantManagerTableRow.cpp.obj",
+			"VariantManager.cpp.obj",
+			"VariantManagerBlueprintLibrary.cpp.obj",
+			"VariantManagerClipboard.cpp.obj",
+			"VariantManagerDragDropOp.cpp.obj",
+			"VariantManagerEditorCommands.cpp.obj",
+			"VariantManagerModule.cpp.obj",
+			"VariantManagerNodeTree.cpp.obj",
+			"VariantManagerPropertyCapturer.cpp.obj",
+			"VariantManagerSelection.cpp.obj",
+			"VariantManagerStyle.cpp.obj",
+			"VariantManagerUtils.cpp.obj"
+		]
+	}
+}

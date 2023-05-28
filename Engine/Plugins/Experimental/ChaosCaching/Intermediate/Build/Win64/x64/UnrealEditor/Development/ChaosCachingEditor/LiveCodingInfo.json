@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosCachingEditor.cpp.obj": [
+			"ActorFactoryCacheManager.gen.cpp.obj",
+			"CacheCollectionFactory.gen.cpp.obj",
+			"ChaosCachingEditor.init.gen.cpp.obj",
+			"MovieSceneChaosCacheTrackRecorder.gen.cpp.obj",
+			"TakeRecorderChaosCacheSource.gen.cpp.obj",
+			"ActorFactoryCacheManager.cpp.obj",
+			"AssetTypeActions_ChaosCacheCollection.cpp.obj",
+			"CacheCollectionCustomization.cpp.obj",
+			"CacheCollectionFactory.cpp.obj",
+			"CacheEditorCommands.cpp.obj",
+			"CacheManagerCustomization.cpp.obj",
+			"ChaosCachingEditorPlugin.cpp.obj",
+			"ChaosCachingEditorStyle.cpp.obj",
+			"ChaosCacheTrackEditor.cpp.obj",
+			"MovieSceneChaosCacheTrackRecorder.cpp.obj",
+			"TakeRecorderChaosCacheSource.cpp.obj"
+		]
+	}
+}

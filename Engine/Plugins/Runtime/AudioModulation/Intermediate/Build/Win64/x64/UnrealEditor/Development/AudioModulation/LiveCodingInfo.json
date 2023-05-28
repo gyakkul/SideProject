@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioModulation.cpp.obj": [
+			"AudioModulation.init.gen.cpp.obj",
+			"AudioModulationStyle.gen.cpp.obj",
+			"AudioModulation.cpp.obj",
+			"AudioModulationDebugger.cpp.obj",
+			"AudioModulationLogging.cpp.obj",
+			"AudioModulationSettings.cpp.obj",
+			"AudioModulationStatics.cpp.obj",
+			"AudioModulationSystem.cpp.obj",
+			"SoundModulationEnvelopeFollower.cpp.obj",
+			"SoundModulationLFO.cpp.obj",
+			"GetModulatorValueNode.cpp.obj",
+			"MixModulatorsNode.cpp.obj",
+			"SoundControlBus.cpp.obj",
+			"SoundControlBusMix.cpp.obj",
+			"SoundControlBusMixProxy.cpp.obj",
+			"SoundControlBusProxy.cpp.obj",
+			"SoundModulationGenerator.cpp.obj",
+			"SoundModulationGeneratorProxy.cpp.obj",
+			"SoundModulationParameter.cpp.obj",
+			"SoundModulationPatch.cpp.obj",
+			"SoundModulationPatchProxy.cpp.obj",
+			"SoundModulationValue.cpp.obj",
+			"SoundModulatorAsset.cpp.obj"
+		]
+	}
+}

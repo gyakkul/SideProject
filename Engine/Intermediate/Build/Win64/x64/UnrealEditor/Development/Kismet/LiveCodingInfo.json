@@ -1,0 +1,107 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Kismet.1_of_7.cpp.obj": [
+			"BlueprintActionMenuItem.gen.cpp.obj",
+			"BlueprintActionMenuUtils.gen.cpp.obj",
+			"BlueprintCompilerExtension.gen.cpp.obj",
+			"BlueprintDragDropMenuItem.gen.cpp.obj",
+			"BlueprintEditorContext.gen.cpp.obj",
+			"BlueprintPaletteFavorites.gen.cpp.obj",
+			"BPGraphClipboardData.gen.cpp.obj",
+			"FindInBlueprintManager.gen.cpp.obj",
+			"Kismet.init.gen.cpp.obj",
+			"SCSEditorExtensionContext.gen.cpp.obj",
+			"SSCSEditorMenuContext.gen.cpp.obj",
+			"SubobjectEditorExtensionContext.gen.cpp.obj",
+			"BitmaskLiteralDetails.cpp.obj",
+			"BlueprintActionMenuBuilder.cpp.obj",
+			"BlueprintActionMenuItem.cpp.obj",
+			"BlueprintActionMenuUtils.cpp.obj",
+			"BlueprintAssetHandler.cpp.obj",
+			"BlueprintCompilationManager.cpp.obj",
+			"BlueprintCompilerExtension.cpp.obj",
+			"BlueprintDebugger.cpp.obj",
+			"BlueprintDetailsCustomization.cpp.obj"
+		],
+		"Module.Kismet.2_of_7.cpp.obj": [
+			"BlueprintDragDropMenuItem.cpp.obj",
+			"BlueprintEditor.cpp.obj",
+			"BlueprintEditorCommands.cpp.obj",
+			"BlueprintEditorModes.cpp.obj"
+		],
+		"Module.Kismet.3_of_7.cpp.obj": [
+			"BlueprintEditorModule.cpp.obj",
+			"BlueprintEditorTabFactories.cpp.obj",
+			"BlueprintEditorTabs.cpp.obj",
+			"BlueprintEditorViewportContextMenuExtender.cpp.obj",
+			"BlueprintManagedListDetails.cpp.obj",
+			"BlueprintMemberReferenceCustomization.cpp.obj",
+			"BlueprintNamespaceHelper.cpp.obj",
+			"BlueprintNamespaceRegistry.cpp.obj",
+			"BlueprintNamespaceUtilities.cpp.obj",
+			"BlueprintPaletteFavorites.cpp.obj",
+			"BlueprintWarningsConfigurationPanel.cpp.obj",
+			"BPDelegateDragDropAction.cpp.obj",
+			"BPFunctionDragDropAction.cpp.obj",
+			"BPGraphClipboardData.cpp.obj",
+			"BPVariableDragDropAction.cpp.obj",
+			"CallStackViewer.cpp.obj",
+			"SKismetDebuggingView.cpp.obj",
+			"SKismetDebugTreeView.cpp.obj",
+			"DetailsDiff.cpp.obj",
+			"DiffControl.cpp.obj",
+			"DiffUtils.cpp.obj",
+			"FiBSearchInstance.cpp.obj"
+		],
+		"Module.Kismet.4_of_7.cpp.obj": [
+			"FindInBlueprintManager.cpp.obj",
+			"FindInBlueprints.cpp.obj",
+			"FormatTextDetails.cpp.obj",
+			"ImaginaryBlueprintData.cpp.obj",
+			"InstancedStaticMeshSCSEditorCustomization.cpp.obj",
+			"ISCSEditorUICustomization.cpp.obj",
+			"MyBlueprintItemDragDropAction.cpp.obj",
+			"ReplaceNodeReferencesHelper.cpp.obj",
+			"SBlueprintActionMenu.cpp.obj",
+			"SBlueprintBookmarks.cpp.obj",
+			"SBlueprintContextTargetMenu.cpp.obj",
+			"SBlueprintDiff.cpp.obj",
+			"SBlueprintEditorSelectedDebugObjectWidget.cpp.obj",
+			"SBlueprintEditorToolbar.cpp.obj"
+		],
+		"Module.Kismet.5_of_7.cpp.obj": [
+			"SBlueprintFavoritesPalette.cpp.obj",
+			"SBlueprintLibraryPalette.cpp.obj",
+			"SBlueprintNamespaceEntry.cpp.obj",
+			"SBlueprintPalette.cpp.obj",
+			"SBlueprintRevisionMenu.cpp.obj",
+			"SBlueprintSubPalette.cpp.obj",
+			"SCSDiff.cpp.obj",
+			"SCSEditorExtensionContext.cpp.obj",
+			"SCSEditorViewportClient.cpp.obj",
+			"SDetailsDiff.cpp.obj",
+			"SFilterableObjectList.cpp.obj",
+			"SFixupSelfContextDlg.cpp.obj",
+			"SGraphTitleBar.cpp.obj",
+			"SGraphTitleBarAddNewBookmark.cpp.obj",
+			"SKismetInspector.cpp.obj",
+			"SMyBlueprint.cpp.obj"
+		],
+		"Module.Kismet.6_of_7.cpp.obj": [
+			"SPinValueInspector.cpp.obj",
+			"SReplaceNodeReferences.cpp.obj",
+			"SSCSEditor.cpp.obj",
+			"SSCSEditorViewport.cpp.obj",
+			"STimelineEditor.cpp.obj",
+			"SubobjectEditorExtensionContext.cpp.obj",
+			"SubobjectEditorMenuContext.cpp.obj",
+			"BlueprintEditorTests.cpp.obj"
+		],
+		"Module.Kismet.7_of_7.cpp.obj": [
+			"UserDefinedEnumEditor.cpp.obj",
+			"UserDefinedStructureEditor.cpp.obj",
+			"WatchPointViewer.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\displayclustermediaeditor\\module.displayclustermediaeditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\displayclustermediaeditor\\definitions.displayclustermediaeditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displayclustermediaeditor\\uht\\displayclustermediaeditor.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displayclustermediaeditor\\uht\\sharedmemorymediaoutputfactory.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclustermediaeditor\\private\\sharedmemorymediaoutputfactory.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displayclustermediaeditor\\uht\\sharedmemorymediaoutputfactory.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displayclustermediaeditor\\uht\\sharedmemorymediasourcefactory.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclustermediaeditor\\private\\sharedmemorymediasourcefactory.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displayclustermediaeditor\\uht\\sharedmemorymediasourcefactory.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclustermediaeditor\\private\\displayclustermediaeditormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclustermediaeditor\\private\\sharedmemorymediaoutputfactory.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\assettools\\public\\assettypecategories.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclustermedia\\public\\sharedmemorymediaoutput.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\mediaioframework\\source\\mediaiocore\\public\\mediaoutput.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\mediaioframework\\intermediate\\build\\win64\\unrealeditor\\inc\\mediaiocore\\uht\\mediaoutput.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\mediaioframework\\source\\mediaiocore\\public\\mediaiocoredefinitions.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\mediaioframework\\intermediate\\build\\win64\\unrealeditor\\inc\\mediaiocore\\uht\\mediaiocoredefinitions.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displayclustermedia\\uht\\sharedmemorymediaoutput.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\engineanalytics.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analyticset\\public\\ianalyticsprovideret.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analyticset\\public\\analyticset.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsproviderconfigurationdelegate.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovidermodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclustermediaeditor\\private\\sharedmemorymediasourcefactory.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclustermedia\\public\\sharedmemorymediasource.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\mediaassets\\public\\mediasource.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\media\\public\\imediaoptions.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\mediaassets\\uht\\mediasource.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displayclustermedia\\uht\\sharedmemorymediasource.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXPixelMappingRenderer.cpp.obj": [
+			"DMXPixelMappingRenderer.cpp.obj",
+			"DMXPixelMappingRendererCommon.cpp.obj",
+			"DMXPixelMappingRendererModule.cpp.obj"
+		]
+	}
+}

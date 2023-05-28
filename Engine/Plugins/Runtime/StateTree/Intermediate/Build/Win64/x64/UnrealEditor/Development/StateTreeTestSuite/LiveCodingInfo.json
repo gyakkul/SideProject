@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StateTreeTestSuite.cpp.obj": [
+			"StateTreeTestSuite.init.gen.cpp.obj",
+			"StateTreeTestTypes.gen.cpp.obj",
+			"StateTreeTest.cpp.obj",
+			"StateTreeTestSuiteModule.cpp.obj"
+		]
+	}
+}

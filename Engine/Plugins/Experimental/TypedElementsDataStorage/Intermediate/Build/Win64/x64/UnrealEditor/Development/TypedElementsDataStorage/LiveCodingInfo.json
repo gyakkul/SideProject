@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TypedElementsDataStorage.cpp.obj": [
+			"TypedElementActorLabelProcessors.gen.cpp.obj",
+			"TypedElementActorPackagePathToColumnProcessor.gen.cpp.obj",
+			"TypedElementActorTransformProcessors.gen.cpp.obj",
+			"TypedElementDatabase.gen.cpp.obj",
+			"TypedElementDatabaseCompatibility.gen.cpp.obj",
+			"TypedElementDatabaseUI.gen.cpp.obj",
+			"TypedElementMiscProcessors.gen.cpp.obj",
+			"TypedElementsDataStorage.init.gen.cpp.obj",
+			"TypedElementSlateWidgetReferenceColumnUpdateProcessor.gen.cpp.obj",
+			"TypedElementSubsystems.gen.cpp.obj",
+			"TypedElementActorLabelProcessors.cpp.obj",
+			"TypedElementActorPackagePathToColumnProcessor.cpp.obj",
+			"TypedElementActorTransformProcessors.cpp.obj",
+			"TypedElementMiscProcessors.cpp.obj",
+			"TypedElementDatabase.cpp.obj",
+			"TypedElementDatabaseCompatibility.cpp.obj",
+			"TypedElementDatabaseUI.cpp.obj",
+			"TypedElementsDataStorage.cpp.obj",
+			"TypedElementSubsystems.cpp.obj",
+			"TypedElementSlateWidgetReferenceColumnUpdateProcessor.cpp.obj"
+		]
+	}
+}

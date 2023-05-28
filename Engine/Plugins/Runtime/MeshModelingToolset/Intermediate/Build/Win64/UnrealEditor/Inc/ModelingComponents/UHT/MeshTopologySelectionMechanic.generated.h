@@ -1,0 +1,183 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Selection/MeshTopologySelectionMechanic.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MODELINGCOMPONENTS_MeshTopologySelectionMechanic_generated_h
+#error "MeshTopologySelectionMechanic.generated.h already included, missing '#pragma once' in MeshTopologySelectionMechanic.h"
+#endif
+#define MODELINGCOMPONENTS_MeshTopologySelectionMechanic_generated_h
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSelectAll); \
+	DECLARE_FUNCTION(execInvertSelection);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSelectAll); \
+	DECLARE_FUNCTION(execInvertSelection);
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshTopologySelectionMechanicProperties(); \
+	friend struct Z_Construct_UClass_UMeshTopologySelectionMechanicProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshTopologySelectionMechanicProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UMeshTopologySelectionMechanicProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshTopologySelectionMechanicProperties(); \
+	friend struct Z_Construct_UClass_UMeshTopologySelectionMechanicProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshTopologySelectionMechanicProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UMeshTopologySelectionMechanicProperties)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshTopologySelectionMechanicProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshTopologySelectionMechanicProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshTopologySelectionMechanicProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshTopologySelectionMechanicProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshTopologySelectionMechanicProperties(UMeshTopologySelectionMechanicProperties&&); \
+	NO_API UMeshTopologySelectionMechanicProperties(const UMeshTopologySelectionMechanicProperties&); \
+public: \
+	NO_API virtual ~UMeshTopologySelectionMechanicProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshTopologySelectionMechanicProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshTopologySelectionMechanicProperties(UMeshTopologySelectionMechanicProperties&&); \
+	NO_API UMeshTopologySelectionMechanicProperties(const UMeshTopologySelectionMechanicProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshTopologySelectionMechanicProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshTopologySelectionMechanicProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshTopologySelectionMechanicProperties) \
+	NO_API virtual ~UMeshTopologySelectionMechanicProperties();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_28_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_31_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UMeshTopologySelectionMechanicProperties>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshTopologySelectionMechanic(); \
+	friend struct Z_Construct_UClass_UMeshTopologySelectionMechanic_Statics; \
+public: \
+	DECLARE_CLASS(UMeshTopologySelectionMechanic, UInteractionMechanic, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UMeshTopologySelectionMechanic)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshTopologySelectionMechanic(); \
+	friend struct Z_Construct_UClass_UMeshTopologySelectionMechanic_Statics; \
+public: \
+	DECLARE_CLASS(UMeshTopologySelectionMechanic, UInteractionMechanic, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponents"), NO_API) \
+	DECLARE_SERIALIZER(UMeshTopologySelectionMechanic)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshTopologySelectionMechanic(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshTopologySelectionMechanic) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshTopologySelectionMechanic); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshTopologySelectionMechanic); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshTopologySelectionMechanic(UMeshTopologySelectionMechanic&&); \
+	NO_API UMeshTopologySelectionMechanic(const UMeshTopologySelectionMechanic&); \
+public:
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshTopologySelectionMechanic(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshTopologySelectionMechanic(UMeshTopologySelectionMechanic&&); \
+	NO_API UMeshTopologySelectionMechanic(const UMeshTopologySelectionMechanic&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshTopologySelectionMechanic); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshTopologySelectionMechanic); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UMeshTopologySelectionMechanic)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_108_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h_111_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTS_API UClass* StaticClass<class UMeshTopologySelectionMechanic>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponents_Public_Selection_MeshTopologySelectionMechanic_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

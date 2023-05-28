@@ -1,0 +1,567 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SmoothMeshTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_SmoothMeshTool_generated_h
+#error "SmoothMeshTool.generated.h already included, missing '#pragma once' in SmoothMeshTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_SmoothMeshTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSmoothMeshToolProperties(); \
+	friend struct Z_Construct_UClass_USmoothMeshToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(USmoothMeshToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothMeshToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_INCLASS \
+private: \
+	static void StaticRegisterNativesUSmoothMeshToolProperties(); \
+	friend struct Z_Construct_UClass_USmoothMeshToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(USmoothMeshToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothMeshToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothMeshToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothMeshToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothMeshToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothMeshToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothMeshToolProperties(USmoothMeshToolProperties&&); \
+	NO_API USmoothMeshToolProperties(const USmoothMeshToolProperties&); \
+public: \
+	NO_API virtual ~USmoothMeshToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothMeshToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothMeshToolProperties(USmoothMeshToolProperties&&); \
+	NO_API USmoothMeshToolProperties(const USmoothMeshToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothMeshToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothMeshToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothMeshToolProperties) \
+	NO_API virtual ~USmoothMeshToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_26_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_29_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USmoothMeshToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUIterativeSmoothProperties(); \
+	friend struct Z_Construct_UClass_UIterativeSmoothProperties_Statics; \
+public: \
+	DECLARE_CLASS(UIterativeSmoothProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UIterativeSmoothProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_INCLASS \
+private: \
+	static void StaticRegisterNativesUIterativeSmoothProperties(); \
+	friend struct Z_Construct_UClass_UIterativeSmoothProperties_Statics; \
+public: \
+	DECLARE_CLASS(UIterativeSmoothProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UIterativeSmoothProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UIterativeSmoothProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIterativeSmoothProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UIterativeSmoothProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIterativeSmoothProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UIterativeSmoothProperties(UIterativeSmoothProperties&&); \
+	NO_API UIterativeSmoothProperties(const UIterativeSmoothProperties&); \
+public: \
+	NO_API virtual ~UIterativeSmoothProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UIterativeSmoothProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UIterativeSmoothProperties(UIterativeSmoothProperties&&); \
+	NO_API UIterativeSmoothProperties(const UIterativeSmoothProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UIterativeSmoothProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIterativeSmoothProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIterativeSmoothProperties) \
+	NO_API virtual ~UIterativeSmoothProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_40_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_43_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UIterativeSmoothProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDiffusionSmoothProperties(); \
+	friend struct Z_Construct_UClass_UDiffusionSmoothProperties_Statics; \
+public: \
+	DECLARE_CLASS(UDiffusionSmoothProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDiffusionSmoothProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_INCLASS \
+private: \
+	static void StaticRegisterNativesUDiffusionSmoothProperties(); \
+	friend struct Z_Construct_UClass_UDiffusionSmoothProperties_Statics; \
+public: \
+	DECLARE_CLASS(UDiffusionSmoothProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UDiffusionSmoothProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDiffusionSmoothProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDiffusionSmoothProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDiffusionSmoothProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDiffusionSmoothProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDiffusionSmoothProperties(UDiffusionSmoothProperties&&); \
+	NO_API UDiffusionSmoothProperties(const UDiffusionSmoothProperties&); \
+public: \
+	NO_API virtual ~UDiffusionSmoothProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDiffusionSmoothProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDiffusionSmoothProperties(UDiffusionSmoothProperties&&); \
+	NO_API UDiffusionSmoothProperties(const UDiffusionSmoothProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDiffusionSmoothProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDiffusionSmoothProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDiffusionSmoothProperties) \
+	NO_API virtual ~UDiffusionSmoothProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_61_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_64_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UDiffusionSmoothProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUImplicitSmoothProperties(); \
+	friend struct Z_Construct_UClass_UImplicitSmoothProperties_Statics; \
+public: \
+	DECLARE_CLASS(UImplicitSmoothProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UImplicitSmoothProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_INCLASS \
+private: \
+	static void StaticRegisterNativesUImplicitSmoothProperties(); \
+	friend struct Z_Construct_UClass_UImplicitSmoothProperties_Statics; \
+public: \
+	DECLARE_CLASS(UImplicitSmoothProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UImplicitSmoothProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UImplicitSmoothProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UImplicitSmoothProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UImplicitSmoothProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UImplicitSmoothProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UImplicitSmoothProperties(UImplicitSmoothProperties&&); \
+	NO_API UImplicitSmoothProperties(const UImplicitSmoothProperties&); \
+public: \
+	NO_API virtual ~UImplicitSmoothProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UImplicitSmoothProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UImplicitSmoothProperties(UImplicitSmoothProperties&&); \
+	NO_API UImplicitSmoothProperties(const UImplicitSmoothProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UImplicitSmoothProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UImplicitSmoothProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UImplicitSmoothProperties) \
+	NO_API virtual ~UImplicitSmoothProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_84_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_87_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UImplicitSmoothProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSmoothWeightMapSetProperties(); \
+	friend struct Z_Construct_UClass_USmoothWeightMapSetProperties_Statics; \
+public: \
+	DECLARE_CLASS(USmoothWeightMapSetProperties, UWeightMapSetProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothWeightMapSetProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_INCLASS \
+private: \
+	static void StaticRegisterNativesUSmoothWeightMapSetProperties(); \
+	friend struct Z_Construct_UClass_USmoothWeightMapSetProperties_Statics; \
+public: \
+	DECLARE_CLASS(USmoothWeightMapSetProperties, UWeightMapSetProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothWeightMapSetProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothWeightMapSetProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothWeightMapSetProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothWeightMapSetProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothWeightMapSetProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothWeightMapSetProperties(USmoothWeightMapSetProperties&&); \
+	NO_API USmoothWeightMapSetProperties(const USmoothWeightMapSetProperties&); \
+public: \
+	NO_API virtual ~USmoothWeightMapSetProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothWeightMapSetProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothWeightMapSetProperties(USmoothWeightMapSetProperties&&); \
+	NO_API USmoothWeightMapSetProperties(const USmoothWeightMapSetProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothWeightMapSetProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothWeightMapSetProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothWeightMapSetProperties) \
+	NO_API virtual ~USmoothWeightMapSetProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_110_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_113_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USmoothWeightMapSetProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSmoothMeshTool(); \
+	friend struct Z_Construct_UClass_USmoothMeshTool_Statics; \
+public: \
+	DECLARE_CLASS(USmoothMeshTool, UBaseMeshProcessingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothMeshTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_INCLASS \
+private: \
+	static void StaticRegisterNativesUSmoothMeshTool(); \
+	friend struct Z_Construct_UClass_USmoothMeshTool_Statics; \
+public: \
+	DECLARE_CLASS(USmoothMeshTool, UBaseMeshProcessingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothMeshTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothMeshTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothMeshTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothMeshTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothMeshTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothMeshTool(USmoothMeshTool&&); \
+	NO_API USmoothMeshTool(const USmoothMeshTool&); \
+public: \
+	NO_API virtual ~USmoothMeshTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothMeshTool(USmoothMeshTool&&); \
+	NO_API USmoothMeshTool(const USmoothMeshTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothMeshTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothMeshTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USmoothMeshTool) \
+	NO_API virtual ~USmoothMeshTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_127_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_130_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USmoothMeshTool>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSmoothMeshToolBuilder(); \
+	friend struct Z_Construct_UClass_USmoothMeshToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(USmoothMeshToolBuilder, UBaseMeshProcessingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothMeshToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_INCLASS \
+private: \
+	static void StaticRegisterNativesUSmoothMeshToolBuilder(); \
+	friend struct Z_Construct_UClass_USmoothMeshToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(USmoothMeshToolBuilder, UBaseMeshProcessingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothMeshToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothMeshToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothMeshToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothMeshToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothMeshToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothMeshToolBuilder(USmoothMeshToolBuilder&&); \
+	NO_API USmoothMeshToolBuilder(const USmoothMeshToolBuilder&); \
+public: \
+	NO_API virtual ~USmoothMeshToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothMeshToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothMeshToolBuilder(USmoothMeshToolBuilder&&); \
+	NO_API USmoothMeshToolBuilder(const USmoothMeshToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothMeshToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothMeshToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothMeshToolBuilder) \
+	NO_API virtual ~USmoothMeshToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_169_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h_172_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USmoothMeshToolBuilder>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_SmoothMeshTool_h
+
+
+#define FOREACH_ENUM_ESMOOTHMESHTOOLSMOOTHTYPE(op) \
+	op(ESmoothMeshToolSmoothType::Iterative) \
+	op(ESmoothMeshToolSmoothType::Implicit) \
+	op(ESmoothMeshToolSmoothType::Diffusion) 
+
+enum class ESmoothMeshToolSmoothType : uint8;
+template<> struct TIsUEnumClass<ESmoothMeshToolSmoothType> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<ESmoothMeshToolSmoothType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

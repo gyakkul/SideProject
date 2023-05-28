@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.IKRigDeveloper.cpp.obj": [
+			"IKRigDeveloper.init.gen.cpp.obj",
+			"AnimGraphNode_IKRig.cpp.obj",
+			"AnimGraphNode_RetargetPoseFromMesh.cpp.obj",
+			"IKRigDeveloper.cpp.obj"
+		]
+	}
+}

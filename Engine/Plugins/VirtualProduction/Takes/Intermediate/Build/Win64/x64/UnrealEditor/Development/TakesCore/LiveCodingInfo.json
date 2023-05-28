@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TakesCore.cpp.obj": [
+			"TakesCore.init.gen.cpp.obj",
+			"TakeMetaData.cpp.obj",
+			"TakePreset.cpp.obj",
+			"TakeRecorderSource.cpp.obj",
+			"TakeRecorderSourceProperty.cpp.obj",
+			"TakeRecorderSources.cpp.obj",
+			"TakesCoreBlueprintLibrary.cpp.obj",
+			"TakesCoreModule.cpp.obj",
+			"TakesUtils.cpp.obj"
+		]
+	}
+}

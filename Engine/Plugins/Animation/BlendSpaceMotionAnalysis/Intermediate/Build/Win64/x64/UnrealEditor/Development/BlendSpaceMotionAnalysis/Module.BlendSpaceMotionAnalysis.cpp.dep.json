@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blendspacemotionanalysis\\module.blendspacemotionanalysis.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.typecastwarnings.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blendspacemotionanalysis\\definitions.blendspacemotionanalysis.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\unrealeditor\\inc\\blendspacemotionanalysis\\uht\\blendspacemotionanalysis.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\source\\blendspacemotionanalysis\\private\\blendspacemotionanalysis.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\source\\blendspacemotionanalysis\\public\\blendspacemotionanalysis.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\source\\blendspacemotionanalysis\\public\\rootmotionanalysis.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\persona\\public\\blendspaceanalysis.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\persona\\uht\\blendspaceanalysis.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\unrealeditor\\inc\\blendspacemotionanalysis\\uht\\rootmotionanalysis.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\source\\blendspacemotionanalysis\\public\\locomotionanalysis.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\unrealeditor\\inc\\blendspacemotionanalysis\\uht\\locomotionanalysis.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\unrealeditor\\inc\\blendspacemotionanalysis\\uht\\blendspacemotionanalysis.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\unrealeditor\\inc\\blendspacemotionanalysis\\uht\\blendspacemotionanalysis.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\source\\blendspacemotionanalysis\\private\\locomotionanalysis.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\unrealeditor\\inc\\blendspacemotionanalysis\\uht\\locomotionanalysis.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\source\\blendspacemotionanalysis\\private\\rootmotionanalysis.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\blendspacemotionanalysis\\intermediate\\build\\win64\\unrealeditor\\inc\\blendspacemotionanalysis\\uht\\rootmotionanalysis.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GooglePADEditor.cpp.obj": [
+			"GooglePADEditor.init.gen.cpp.obj",
+			"GooglePADRuntimeSettings.gen.cpp.obj",
+			"GooglePADModule.cpp.obj",
+			"GooglePADRuntimeSettings.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosFleshEditor.cpp.obj": [
+			"ChaosFleshEditor.init.gen.cpp.obj",
+			"ActorFactoryFlesh.cpp.obj",
+			"AssetTypeActions_FleshAsset.cpp.obj",
+			"FleshAssetFactory.cpp.obj",
+			"FleshAssetThumbnailRenderer.cpp.obj",
+			"FleshAssetThumbnailScene.cpp.obj",
+			"FleshDeformableInterfaceDetails.cpp.obj",
+			"ChaosFleshEditorPlugin.cpp.obj",
+			"ChaosFleshCommands.cpp.obj",
+			"FleshAssetConversion.cpp.obj"
+		]
+	}
+}

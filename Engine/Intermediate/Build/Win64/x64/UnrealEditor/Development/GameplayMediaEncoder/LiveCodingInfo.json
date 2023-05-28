@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayMediaEncoder.cpp.obj": [
+			"GameplayMediaEncoder.cpp.obj",
+			"GameplayMediaEncoderCommon.cpp.obj",
+			"GameplayMediaEncoderModule.cpp.obj",
+			"IbmLiveStreaming.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AvfMediaEditor.cpp.obj": [
+			"AvfMediaEditor.init.gen.cpp.obj",
+			"AvfFileMediaSourceFactory.cpp.obj",
+			"AvfMediaEditorModule.cpp.obj"
+		]
+	}
+}

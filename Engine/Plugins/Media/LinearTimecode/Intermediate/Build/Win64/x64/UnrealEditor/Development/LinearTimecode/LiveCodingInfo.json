@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LinearTimecode.cpp.obj": [
+			"DropTimecode.gen.cpp.obj",
+			"LinearTimecode.init.gen.cpp.obj",
+			"LinearTimecodeComponent.gen.cpp.obj",
+			"LinearTimecodeComponent.cpp.obj",
+			"LinearTimecodeDecoder.cpp.obj",
+			"LinearTimecodePlugin.cpp.obj"
+		]
+	}
+}

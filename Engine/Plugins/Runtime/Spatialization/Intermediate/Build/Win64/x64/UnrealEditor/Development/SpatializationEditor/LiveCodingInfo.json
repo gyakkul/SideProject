@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SpatializationEditor.cpp.obj": [
+			"ITDSpatializationSourceSettingsFactory.gen.cpp.obj",
+			"SpatializationEditor.init.gen.cpp.obj",
+			"ITDSpatializationSourceSettingsFactory.cpp.obj",
+			"SpatializationEditorModule.cpp.obj"
+		]
+	}
+}

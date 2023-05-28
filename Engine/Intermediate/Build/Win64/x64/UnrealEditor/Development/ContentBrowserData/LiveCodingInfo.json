@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ContentBrowserData.cpp.obj": [
+			"ContentBrowserData.init.gen.cpp.obj",
+			"ContentBrowserDataFilter.gen.cpp.obj",
+			"ContentBrowserDataLegacyBridge.gen.cpp.obj",
+			"ContentBrowserDataMenuContexts.gen.cpp.obj",
+			"ContentBrowserDataSource.gen.cpp.obj",
+			"ContentBrowserDataSubsystem.gen.cpp.obj",
+			"ContentBrowserItem.gen.cpp.obj",
+			"ContentBrowserItemPath.gen.cpp.obj",
+			"ContentBrowserDataDragDropOp.cpp.obj",
+			"ContentBrowserDataFilter.cpp.obj",
+			"ContentBrowserDataLegacyBridge.cpp.obj",
+			"ContentBrowserDataModule.cpp.obj",
+			"ContentBrowserDataSource.cpp.obj",
+			"ContentBrowserDataSubsystem.cpp.obj",
+			"ContentBrowserDataUtils.cpp.obj",
+			"ContentBrowserItem.cpp.obj",
+			"ContentBrowserItemData.cpp.obj",
+			"ContentBrowserItemPath.cpp.obj",
+			"ContentBrowserVirtualPathTree.cpp.obj"
+		]
+	}
+}

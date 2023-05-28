@@ -1,0 +1,441 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "NearestNeighborOptimizedNetwork.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UNearestNeighborNetworkLayer;
+#ifdef NEARESTNEIGHBORMODEL_NearestNeighborOptimizedNetwork_generated_h
+#error "NearestNeighborOptimizedNetwork.generated.h already included, missing '#pragma once' in NearestNeighborOptimizedNetwork.h"
+#endif
+#define NEARESTNEIGHBORMODEL_NearestNeighborOptimizedNetwork_generated_h
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_18_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FNearestNeighborNetworkParameter_Statics; \
+	NEARESTNEIGHBORMODEL_API static class UScriptStruct* StaticStruct();
+
+
+template<> NEARESTNEIGHBORMODEL_API UScriptStruct* StaticStruct<struct FNearestNeighborNetworkParameter>();
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddParameter);
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddParameter);
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_ACCESSORS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborNetworkLayer(); \
+	friend struct Z_Construct_UClass_UNearestNeighborNetworkLayer_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborNetworkLayer, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborNetworkLayer)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_INCLASS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborNetworkLayer(); \
+	friend struct Z_Construct_UClass_UNearestNeighborNetworkLayer_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborNetworkLayer, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborNetworkLayer)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborNetworkLayer(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborNetworkLayer) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborNetworkLayer); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborNetworkLayer); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborNetworkLayer(UNearestNeighborNetworkLayer&&); \
+	NO_API UNearestNeighborNetworkLayer(const UNearestNeighborNetworkLayer&); \
+public: \
+	NO_API virtual ~UNearestNeighborNetworkLayer();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborNetworkLayer(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborNetworkLayer(UNearestNeighborNetworkLayer&&); \
+	NO_API UNearestNeighborNetworkLayer(const UNearestNeighborNetworkLayer&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborNetworkLayer); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborNetworkLayer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborNetworkLayer) \
+	NO_API virtual ~UNearestNeighborNetworkLayer();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_37_PROLOG
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_INCLASS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_41_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NEARESTNEIGHBORMODEL_API UClass* StaticClass<class UNearestNeighborNetworkLayer>();
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_ACCESSORS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborNetworkLayer_Gemm_Prelu(); \
+	friend struct Z_Construct_UClass_UNearestNeighborNetworkLayer_Gemm_Prelu_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborNetworkLayer_Gemm_Prelu, UNearestNeighborNetworkLayer, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborNetworkLayer_Gemm_Prelu)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_INCLASS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborNetworkLayer_Gemm_Prelu(); \
+	friend struct Z_Construct_UClass_UNearestNeighborNetworkLayer_Gemm_Prelu_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborNetworkLayer_Gemm_Prelu, UNearestNeighborNetworkLayer, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborNetworkLayer_Gemm_Prelu)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm_Prelu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborNetworkLayer_Gemm_Prelu) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborNetworkLayer_Gemm_Prelu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborNetworkLayer_Gemm_Prelu); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm_Prelu(UNearestNeighborNetworkLayer_Gemm_Prelu&&); \
+	NO_API UNearestNeighborNetworkLayer_Gemm_Prelu(const UNearestNeighborNetworkLayer_Gemm_Prelu&); \
+public: \
+	NO_API virtual ~UNearestNeighborNetworkLayer_Gemm_Prelu();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm_Prelu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm_Prelu(UNearestNeighborNetworkLayer_Gemm_Prelu&&); \
+	NO_API UNearestNeighborNetworkLayer_Gemm_Prelu(const UNearestNeighborNetworkLayer_Gemm_Prelu&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborNetworkLayer_Gemm_Prelu); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborNetworkLayer_Gemm_Prelu); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborNetworkLayer_Gemm_Prelu) \
+	NO_API virtual ~UNearestNeighborNetworkLayer_Gemm_Prelu();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_63_PROLOG
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_INCLASS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_67_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NEARESTNEIGHBORMODEL_API UClass* StaticClass<class UNearestNeighborNetworkLayer_Gemm_Prelu>();
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_ACCESSORS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborNetworkLayer_Gemm(); \
+	friend struct Z_Construct_UClass_UNearestNeighborNetworkLayer_Gemm_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborNetworkLayer_Gemm, UNearestNeighborNetworkLayer, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborNetworkLayer_Gemm)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_INCLASS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborNetworkLayer_Gemm(); \
+	friend struct Z_Construct_UClass_UNearestNeighborNetworkLayer_Gemm_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborNetworkLayer_Gemm, UNearestNeighborNetworkLayer, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborNetworkLayer_Gemm)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborNetworkLayer_Gemm) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborNetworkLayer_Gemm); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborNetworkLayer_Gemm); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm(UNearestNeighborNetworkLayer_Gemm&&); \
+	NO_API UNearestNeighborNetworkLayer_Gemm(const UNearestNeighborNetworkLayer_Gemm&); \
+public: \
+	NO_API virtual ~UNearestNeighborNetworkLayer_Gemm();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborNetworkLayer_Gemm(UNearestNeighborNetworkLayer_Gemm&&); \
+	NO_API UNearestNeighborNetworkLayer_Gemm(const UNearestNeighborNetworkLayer_Gemm&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborNetworkLayer_Gemm); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborNetworkLayer_Gemm); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborNetworkLayer_Gemm) \
+	NO_API virtual ~UNearestNeighborNetworkLayer_Gemm();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_73_PROLOG
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_INCLASS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_77_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NEARESTNEIGHBORMODEL_API UClass* StaticClass<class UNearestNeighborNetworkLayer_Gemm>();
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddLayer); \
+	DECLARE_FUNCTION(execEmpty);
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddLayer); \
+	DECLARE_FUNCTION(execEmpty);
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_ACCESSORS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborOptimizedNetwork(); \
+	friend struct Z_Construct_UClass_UNearestNeighborOptimizedNetwork_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborOptimizedNetwork, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborOptimizedNetwork)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_INCLASS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborOptimizedNetwork(); \
+	friend struct Z_Construct_UClass_UNearestNeighborOptimizedNetwork_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborOptimizedNetwork, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborOptimizedNetwork)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborOptimizedNetwork(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborOptimizedNetwork) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborOptimizedNetwork); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborOptimizedNetwork); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborOptimizedNetwork(UNearestNeighborOptimizedNetwork&&); \
+	NO_API UNearestNeighborOptimizedNetwork(const UNearestNeighborOptimizedNetwork&); \
+public: \
+	NO_API virtual ~UNearestNeighborOptimizedNetwork();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborOptimizedNetwork(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborOptimizedNetwork(UNearestNeighborOptimizedNetwork&&); \
+	NO_API UNearestNeighborOptimizedNetwork(const UNearestNeighborOptimizedNetwork&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborOptimizedNetwork); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborOptimizedNetwork); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborOptimizedNetwork) \
+	NO_API virtual ~UNearestNeighborOptimizedNetwork();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_87_PROLOG
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_INCLASS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_91_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NEARESTNEIGHBORMODEL_API UClass* StaticClass<class UNearestNeighborOptimizedNetwork>();
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_ACCESSORS
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborOptimizedNetworkInstance(); \
+	friend struct Z_Construct_UClass_UNearestNeighborOptimizedNetworkInstance_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborOptimizedNetworkInstance, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborOptimizedNetworkInstance)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_INCLASS \
+private: \
+	static void StaticRegisterNativesUNearestNeighborOptimizedNetworkInstance(); \
+	friend struct Z_Construct_UClass_UNearestNeighborOptimizedNetworkInstance_Statics; \
+public: \
+	DECLARE_CLASS(UNearestNeighborOptimizedNetworkInstance, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NearestNeighborModel"), NO_API) \
+	DECLARE_SERIALIZER(UNearestNeighborOptimizedNetworkInstance)
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborOptimizedNetworkInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborOptimizedNetworkInstance) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborOptimizedNetworkInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborOptimizedNetworkInstance); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborOptimizedNetworkInstance(UNearestNeighborOptimizedNetworkInstance&&); \
+	NO_API UNearestNeighborOptimizedNetworkInstance(const UNearestNeighborOptimizedNetworkInstance&); \
+public: \
+	NO_API virtual ~UNearestNeighborOptimizedNetworkInstance();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNearestNeighborOptimizedNetworkInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNearestNeighborOptimizedNetworkInstance(UNearestNeighborOptimizedNetworkInstance&&); \
+	NO_API UNearestNeighborOptimizedNetworkInstance(const UNearestNeighborOptimizedNetworkInstance&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNearestNeighborOptimizedNetworkInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNearestNeighborOptimizedNetworkInstance); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNearestNeighborOptimizedNetworkInstance) \
+	NO_API virtual ~UNearestNeighborOptimizedNetworkInstance();
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_164_PROLOG
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_INCLASS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_ACCESSORS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h_170_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NEARESTNEIGHBORMODEL_API UClass* StaticClass<class UNearestNeighborOptimizedNetworkInstance>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Animation_MLDeformer_NearestNeighborModel_Source_NearestNeighborModel_Private_NearestNeighborOptimizedNetwork_h
+
+
+#define FOREACH_ENUM_ENEARESTNEIGHBORNETWORKLAYERTYPE(op) \
+	op(ENearestNeighborNetworkLayerType::None) \
+	op(ENearestNeighborNetworkLayerType::Gemm_Prelu) \
+	op(ENearestNeighborNetworkLayerType::Gemm) 
+
+enum class ENearestNeighborNetworkLayerType : uint8;
+template<> struct TIsUEnumClass<ENearestNeighborNetworkLayerType> { enum { Value = true }; };
+template<> NEARESTNEIGHBORMODEL_API UEnum* StaticEnum<ENearestNeighborNetworkLayerType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

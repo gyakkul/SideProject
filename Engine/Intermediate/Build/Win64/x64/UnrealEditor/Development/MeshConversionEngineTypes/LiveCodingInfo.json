@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshConversionEngineTypes.cpp.obj": [
+			"IndexedMeshToDynamicMesh.cpp.obj",
+			"MeshConversionEngineTypesModule.cpp.obj",
+			"SkeletalMeshLODModelToDynamicMesh.cpp.obj",
+			"StaticMeshLODResourcesToDynamicMesh.cpp.obj"
+		]
+	}
+}

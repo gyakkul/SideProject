@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GoogleARCoreRendering.cpp.obj": [
+			"GoogleARCorePassthroughCameraRenderer.gen.cpp.obj",
+			"GoogleARCoreRendering.init.gen.cpp.obj",
+			"MaterialExpressionGoogleARCorePassthroughCamera.gen.cpp.obj",
+			"GoogleARCorePassthroughCameraRenderer.cpp.obj",
+			"GoogleARCoreRenderingModule.cpp.obj",
+			"MaterialExpressionGoogleARCorePassthroughCamera.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenXRInput.cpp.obj": [
+			"OpenXRInput.init.gen.cpp.obj",
+			"OpenXRInputFunctionLibrary.gen.cpp.obj",
+			"OpenXRInputSettings.gen.cpp.obj",
+			"OpenXRInput.cpp.obj",
+			"OpenXRInputFunctionLibrary.cpp.obj",
+			"OpenXRInputSettings.cpp.obj"
+		]
+	}
+}

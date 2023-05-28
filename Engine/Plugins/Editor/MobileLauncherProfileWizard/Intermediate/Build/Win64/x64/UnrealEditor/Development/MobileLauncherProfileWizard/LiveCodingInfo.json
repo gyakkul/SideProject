@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MobileLauncherProfileWizard.cpp.obj": [
+			"AndroidProfileWizard.cpp.obj",
+			"IOSProfileWizard.cpp.obj",
+			"MobileLauncherProfileWizard.cpp.obj",
+			"SProfileWizardUI.cpp.obj"
+		]
+	}
+}

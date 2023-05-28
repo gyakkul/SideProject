@@ -1,0 +1,208 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "CaptureTab/MediaFrameworkCapturePanelBlueprintLibrary.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UMediaFrameworkCapturePanel;
+class UMediaOutput;
+class UTextureRenderTarget2D;
+struct FMediaCaptureOptions;
+#ifdef MEDIAFRAMEWORKUTILITIESEDITOR_MediaFrameworkCapturePanelBlueprintLibrary_generated_h
+#error "MediaFrameworkCapturePanelBlueprintLibrary.generated.h already included, missing '#pragma once' in MediaFrameworkCapturePanelBlueprintLibrary.h"
+#endif
+#define MEDIAFRAMEWORKUTILITIESEDITOR_MediaFrameworkCapturePanelBlueprintLibrary_generated_h
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_SPARSE_DATA
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetCurrentViewportCapture); \
+	DECLARE_FUNCTION(execAddViewportCapture); \
+	DECLARE_FUNCTION(execEmptyViewportCapture); \
+	DECLARE_FUNCTION(execAddRenderTargetCapture); \
+	DECLARE_FUNCTION(execEmptyRenderTargetCapture); \
+	DECLARE_FUNCTION(execStopCapture); \
+	DECLARE_FUNCTION(execStartCapture);
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetCurrentViewportCapture); \
+	DECLARE_FUNCTION(execAddViewportCapture); \
+	DECLARE_FUNCTION(execEmptyViewportCapture); \
+	DECLARE_FUNCTION(execAddRenderTargetCapture); \
+	DECLARE_FUNCTION(execEmptyRenderTargetCapture); \
+	DECLARE_FUNCTION(execStopCapture); \
+	DECLARE_FUNCTION(execStartCapture);
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_ACCESSORS
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMediaFrameworkCapturePanel(); \
+	friend struct Z_Construct_UClass_UMediaFrameworkCapturePanel_Statics; \
+public: \
+	DECLARE_CLASS(UMediaFrameworkCapturePanel, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MediaFrameworkUtilitiesEditor"), MEDIAFRAMEWORKUTILITIESEDITOR_API) \
+	DECLARE_SERIALIZER(UMediaFrameworkCapturePanel)
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesUMediaFrameworkCapturePanel(); \
+	friend struct Z_Construct_UClass_UMediaFrameworkCapturePanel_Statics; \
+public: \
+	DECLARE_CLASS(UMediaFrameworkCapturePanel, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MediaFrameworkUtilitiesEditor"), MEDIAFRAMEWORKUTILITIESEDITOR_API) \
+	DECLARE_SERIALIZER(UMediaFrameworkCapturePanel)
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanel(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMediaFrameworkCapturePanel) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(MEDIAFRAMEWORKUTILITIESEDITOR_API, UMediaFrameworkCapturePanel); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMediaFrameworkCapturePanel); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanel(UMediaFrameworkCapturePanel&&); \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanel(const UMediaFrameworkCapturePanel&); \
+public: \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API virtual ~UMediaFrameworkCapturePanel();
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanel(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanel(UMediaFrameworkCapturePanel&&); \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanel(const UMediaFrameworkCapturePanel&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(MEDIAFRAMEWORKUTILITIESEDITOR_API, UMediaFrameworkCapturePanel); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMediaFrameworkCapturePanel); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMediaFrameworkCapturePanel) \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API virtual ~UMediaFrameworkCapturePanel();
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_20_PROLOG
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_RPC_WRAPPERS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_ACCESSORS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_INCLASS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_ACCESSORS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_24_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MEDIAFRAMEWORKUTILITIESEDITOR_API UClass* StaticClass<class UMediaFrameworkCapturePanel>();
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_SPARSE_DATA
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMediaCapturePanel);
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMediaCapturePanel);
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_ACCESSORS
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMediaFrameworkCapturePanelBlueprintLibrary(); \
+	friend struct Z_Construct_UClass_UMediaFrameworkCapturePanelBlueprintLibrary_Statics; \
+public: \
+	DECLARE_CLASS(UMediaFrameworkCapturePanelBlueprintLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MediaFrameworkUtilitiesEditor"), MEDIAFRAMEWORKUTILITIESEDITOR_API) \
+	DECLARE_SERIALIZER(UMediaFrameworkCapturePanelBlueprintLibrary)
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_INCLASS \
+private: \
+	static void StaticRegisterNativesUMediaFrameworkCapturePanelBlueprintLibrary(); \
+	friend struct Z_Construct_UClass_UMediaFrameworkCapturePanelBlueprintLibrary_Statics; \
+public: \
+	DECLARE_CLASS(UMediaFrameworkCapturePanelBlueprintLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MediaFrameworkUtilitiesEditor"), MEDIAFRAMEWORKUTILITIESEDITOR_API) \
+	DECLARE_SERIALIZER(UMediaFrameworkCapturePanelBlueprintLibrary)
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanelBlueprintLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMediaFrameworkCapturePanelBlueprintLibrary) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(MEDIAFRAMEWORKUTILITIESEDITOR_API, UMediaFrameworkCapturePanelBlueprintLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMediaFrameworkCapturePanelBlueprintLibrary); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanelBlueprintLibrary(UMediaFrameworkCapturePanelBlueprintLibrary&&); \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanelBlueprintLibrary(const UMediaFrameworkCapturePanelBlueprintLibrary&); \
+public: \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API virtual ~UMediaFrameworkCapturePanelBlueprintLibrary();
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanelBlueprintLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanelBlueprintLibrary(UMediaFrameworkCapturePanelBlueprintLibrary&&); \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API UMediaFrameworkCapturePanelBlueprintLibrary(const UMediaFrameworkCapturePanelBlueprintLibrary&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(MEDIAFRAMEWORKUTILITIESEDITOR_API, UMediaFrameworkCapturePanelBlueprintLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMediaFrameworkCapturePanelBlueprintLibrary); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMediaFrameworkCapturePanelBlueprintLibrary) \
+	MEDIAFRAMEWORKUTILITIESEDITOR_API virtual ~UMediaFrameworkCapturePanelBlueprintLibrary();
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_70_PROLOG
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_SPARSE_DATA \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_RPC_WRAPPERS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_ACCESSORS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_INCLASS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_SPARSE_DATA \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_ACCESSORS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h_74_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MEDIAFRAMEWORKUTILITIESEDITOR_API UClass* StaticClass<class UMediaFrameworkCapturePanelBlueprintLibrary>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Media_MediaFrameworkUtilities_Source_MediaFrameworkUtilitiesEditor_Private_CaptureTab_MediaFrameworkCapturePanelBlueprintLibrary_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

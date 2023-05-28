@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HairCardGeneratorFramework.cpp.obj": [
+			"HairCardGenerator.cpp.obj",
+			"HairCardGeneratorFramework.cpp.obj"
+		]
+	}
+}

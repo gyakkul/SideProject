@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\optimussettings\\module.optimussettings.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\optimussettings\\definitions.optimussettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\intermediate\\build\\win64\\unrealeditor\\inc\\optimussettings\\uht\\optimussettings.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\source\\optimussettings\\public\\optimussettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\intermediate\\build\\win64\\unrealeditor\\inc\\optimussettings\\uht\\optimussettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\intermediate\\build\\win64\\unrealeditor\\inc\\optimussettings\\uht\\optimussettings.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\source\\optimussettings\\private\\optimussettingsmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\deformergraph\\source\\optimussettings\\private\\optimussettingsmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\animation\\meshdeformerprovider.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\animation\\meshdeformer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\meshdeformer.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\computeframework\\source\\computeframework\\public\\computeframework\\computeframework.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\rendercore\\public\\shaderplatformcachedinivalue.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

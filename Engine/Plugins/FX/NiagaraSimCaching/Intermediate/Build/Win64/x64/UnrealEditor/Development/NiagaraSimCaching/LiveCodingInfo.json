@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NiagaraSimCaching.cpp.obj": [
+			"MovieSceneNiagaraCacheSection.gen.cpp.obj",
+			"MovieSceneNiagaraCacheTemplate.gen.cpp.obj",
+			"MovieSceneNiagaraCacheTrack.gen.cpp.obj",
+			"NiagaraSimCaching.init.gen.cpp.obj",
+			"NiagaraSimCachingPlugin.cpp.obj",
+			"MovieSceneNiagaraCacheSection.cpp.obj",
+			"MovieSceneNiagaraCacheTemplate.cpp.obj",
+			"MovieSceneNiagaraCacheTrack.cpp.obj"
+		]
+	}
+}

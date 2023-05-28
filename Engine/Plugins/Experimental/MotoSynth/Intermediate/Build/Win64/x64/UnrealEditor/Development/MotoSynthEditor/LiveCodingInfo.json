@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MotoSynthEditor.cpp.obj": [
+			"MotoSynthEditor.init.gen.cpp.obj",
+			"MotoSynthEditorModule.cpp.obj",
+			"MotoSynthSourceFactory.cpp.obj",
+			"SoundWaveAssetActionExtenderMotoSynth.cpp.obj"
+		]
+	}
+}

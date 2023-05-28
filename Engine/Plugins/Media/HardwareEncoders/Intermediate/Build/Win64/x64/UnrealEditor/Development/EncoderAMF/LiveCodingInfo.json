@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EncoderAMF.cpp.obj": [
+			"Amf_Common.cpp.obj",
+			"Amf_EncoderH264.cpp.obj",
+			"Amf_EncoderModule.cpp.obj"
+		]
+	}
+}

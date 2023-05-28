@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Icmp.cpp.obj": [
+			"Icmp.cpp.obj",
+			"IcmpModule.cpp.obj",
+			"IcmpPosix.cpp.obj",
+			"UDPPing.cpp.obj",
+			"IcmpWindows.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterTests.cpp.obj": [
+			"DisplayCluster.spec.cpp.obj",
+			"DisplayClusterTestsModule.cpp.obj",
+			"DisplayClusterTestUtils.cpp.obj"
+		]
+	}
+}

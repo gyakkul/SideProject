@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryFlowCore.cpp.obj": [
+			"GeometryFlowCoreModule.cpp.obj",
+			"GeometryFlowGraph.cpp.obj",
+			"GeometryFlowNode.cpp.obj"
+		]
+	}
+}

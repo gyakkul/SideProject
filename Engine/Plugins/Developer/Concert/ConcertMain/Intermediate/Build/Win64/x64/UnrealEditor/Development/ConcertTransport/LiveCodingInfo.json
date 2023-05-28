@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConcertTransport.cpp.obj": [
+			"ConcertIdentifierTableData.gen.cpp.obj",
+			"ConcertTransport.init.gen.cpp.obj",
+			"ConcertTransportMessages.gen.cpp.obj",
+			"ConcertTransportSettings.gen.cpp.obj",
+			"ConcertLocalEndpoint.cpp.obj",
+			"ConcertLogGlobal.cpp.obj",
+			"ConcertMessageContext.cpp.obj",
+			"ConcertRemoteEndpoint.cpp.obj",
+			"ConcertTransportModule.cpp.obj",
+			"ConcertIdentifierTable.cpp.obj",
+			"ConcertTransportArchives.cpp.obj",
+			"ConcertScratchpad.cpp.obj"
+		]
+	}
+}

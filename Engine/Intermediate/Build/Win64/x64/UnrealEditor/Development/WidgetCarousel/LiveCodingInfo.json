@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WidgetCarousel.cpp.obj": [
+			"WidgetCarousel.init.gen.cpp.obj",
+			"SCarouselNavigationBar.cpp.obj",
+			"WidgetCarouselModule.cpp.obj",
+			"WidgetCarouselStyle.cpp.obj"
+		]
+	}
+}

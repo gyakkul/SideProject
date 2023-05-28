@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Documentation.cpp.obj": [
+			"Documentation.init.gen.cpp.obj",
+			"DocumentationSettings.gen.cpp.obj",
+			"Documentation.cpp.obj",
+			"DocumentationModule.cpp.obj",
+			"DocumentationPage.cpp.obj",
+			"SDocumentationAnchor.cpp.obj",
+			"SDocumentationToolTip.cpp.obj",
+			"UDNParser.cpp.obj"
+		]
+	}
+}

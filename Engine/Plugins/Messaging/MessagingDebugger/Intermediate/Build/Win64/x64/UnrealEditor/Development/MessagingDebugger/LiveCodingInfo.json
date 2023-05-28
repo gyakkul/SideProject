@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MessagingDebugger.cpp.obj": [
+			"MessagingDebuggerModule.cpp.obj",
+			"MessagingDebuggerModel.cpp.obj",
+			"SMessagingBreakpoints.cpp.obj",
+			"SMessagingBreakpointsTableRow.cpp.obj",
+			"SMessagingAddressTableRow.cpp.obj",
+			"SMessagingEndpointDetails.cpp.obj",
+			"SMessagingEndpoints.cpp.obj",
+			"SMessagingEndpointsFilterBar.cpp.obj",
+			"SMessagingEndpointsTableRow.cpp.obj",
+			"SMessagingGraph.cpp.obj",
+			"SMessagingHistory.cpp.obj",
+			"SMessagingHistoryTableRow.cpp.obj",
+			"SMessagingInterceptors.cpp.obj",
+			"SMessagingInterceptorsTableRow.cpp.obj",
+			"SMessagingMessageData.cpp.obj",
+			"SMessagingMessageDetails.cpp.obj",
+			"SMessagingDebugger.cpp.obj",
+			"SMessagingDebuggerToolbar.cpp.obj",
+			"SMessagingTypes.cpp.obj",
+			"SMessagingTypesFilterBar.cpp.obj",
+			"SMessagingTypesTableRow.cpp.obj"
+		]
+	}
+}

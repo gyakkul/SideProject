@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidFileServer.cpp.obj": [
+			"AndroidFileServer.init.gen.cpp.obj",
+			"AndroidFileServer.cpp.obj",
+			"AndroidFileServerBPLibrary.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDStage.cpp.obj": [
+			"USDPrimTwin.gen.cpp.obj",
+			"USDStage.init.gen.cpp.obj",
+			"USDStageActor.gen.cpp.obj",
+			"USDTransactor.gen.cpp.obj",
+			"USDLevelSequenceHelper.cpp.obj",
+			"USDPrimTwin.cpp.obj",
+			"USDStageActor.cpp.obj",
+			"USDStageActorCustomization.cpp.obj",
+			"USDStageModule.cpp.obj",
+			"USDTransactor.cpp.obj"
+		]
+	}
+}

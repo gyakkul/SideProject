@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXDisplayClusterLightCard.cpp.obj": [
+			"DMXDisplayClusterLightCard.init.gen.cpp.obj",
+			"DMXDisplayClusterLightCardComponent.gen.cpp.obj",
+			"DMXDisplayClusterLightCardComponent.cpp.obj",
+			"DMXDisplayClusterLightCardModule.cpp.obj"
+		]
+	}
+}

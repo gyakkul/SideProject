@@ -1,0 +1,41 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioMixer.cpp.obj": [
+			"AudioBusSubsystem.gen.cpp.obj",
+			"AudioMixer.init.gen.cpp.obj",
+			"AudioBusSubsystem.cpp.obj",
+			"AudioDeviceNotificationSubsystem.cpp.obj",
+			"AudioMixerBlueprintLibrary.cpp.obj",
+			"AudioMixerBuffer.cpp.obj",
+			"AudioMixerBus.cpp.obj",
+			"AudioMixerChannelMaps.cpp.obj",
+			"AudioMixerDevice.cpp.obj",
+			"AudioMixerEffectsManager.cpp.obj",
+			"AudioMixerModule.cpp.obj",
+			"AudioMixerSource.cpp.obj",
+			"AudioMixerSourceBuffer.cpp.obj",
+			"AudioMixerSourceDecode.cpp.obj",
+			"AudioMixerSourceManager.cpp.obj",
+			"AudioMixerSourceOutputBuffer.cpp.obj",
+			"AudioMixerSourceVoice.cpp.obj",
+			"AudioMixerSubmix.cpp.obj",
+			"SynthComponent.cpp.obj",
+			"AudioMixerSubmixEffectDynamicsProcessor.cpp.obj",
+			"AudioMixerSubmixEffectEQ.cpp.obj",
+			"AudioMixerSubmixEffectReverb.cpp.obj",
+			"FileDecoder.cpp.obj",
+			"AudioGenerator.cpp.obj",
+			"AudioMixerClock.cpp.obj",
+			"AudioMixerClockHandle.cpp.obj",
+			"AudioMixerClockManager.cpp.obj",
+			"AudioMixerQuantizedCommands.cpp.obj",
+			"QuartzMetronome.cpp.obj",
+			"QuartzSubsystem.cpp.obj",
+			"SoundFileIO.cpp.obj",
+			"SoundFileIOManager.cpp.obj",
+			"SoundFileIOManagerImpl.cpp.obj",
+			"SoundWaveDecoder.cpp.obj"
+		]
+	}
+}

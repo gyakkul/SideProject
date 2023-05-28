@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SteamVREditor.cpp.obj": [
+			"AnimGraphNode_SteamVRInputAnimPose.gen.cpp.obj",
+			"AnimGraphNode_SteamVRSetWristTransform.gen.cpp.obj",
+			"SteamVREditor.init.gen.cpp.obj",
+			"SteamVREditorSettings.gen.cpp.obj",
+			"AnimGraphNode_SteamVRInputAnimPose.cpp.obj",
+			"AnimGraphNode_SteamVRSetWristTransform.cpp.obj",
+			"SteamVREditor.cpp.obj",
+			"SteamVREditorCommands.cpp.obj",
+			"SteamVREditorSettings.cpp.obj",
+			"SteamVREditorStyle.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,252 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SoundCueTemplateFactory.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef SOUNDCUETEMPLATESEDITOR_SoundCueTemplateFactory_generated_h
+#error "SoundCueTemplateFactory.generated.h already included, missing '#pragma once' in SoundCueTemplateFactory.h"
+#endif
+#define SOUNDCUETEMPLATESEDITOR_SoundCueTemplateFactory_generated_h
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_ACCESSORS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundCueTemplateCopyFactory(); \
+	friend struct Z_Construct_UClass_USoundCueTemplateCopyFactory_Statics; \
+public: \
+	DECLARE_CLASS(USoundCueTemplateCopyFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SoundCueTemplatesEditor"), SOUNDCUETEMPLATESEDITOR_API) \
+	DECLARE_SERIALIZER(USoundCueTemplateCopyFactory)
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundCueTemplateCopyFactory(); \
+	friend struct Z_Construct_UClass_USoundCueTemplateCopyFactory_Statics; \
+public: \
+	DECLARE_CLASS(USoundCueTemplateCopyFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SoundCueTemplatesEditor"), SOUNDCUETEMPLATESEDITOR_API) \
+	DECLARE_SERIALIZER(USoundCueTemplateCopyFactory)
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateCopyFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundCueTemplateCopyFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SOUNDCUETEMPLATESEDITOR_API, USoundCueTemplateCopyFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundCueTemplateCopyFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateCopyFactory(USoundCueTemplateCopyFactory&&); \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateCopyFactory(const USoundCueTemplateCopyFactory&); \
+public: \
+	SOUNDCUETEMPLATESEDITOR_API virtual ~USoundCueTemplateCopyFactory();
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateCopyFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateCopyFactory(USoundCueTemplateCopyFactory&&); \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateCopyFactory(const USoundCueTemplateCopyFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SOUNDCUETEMPLATESEDITOR_API, USoundCueTemplateCopyFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundCueTemplateCopyFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundCueTemplateCopyFactory) \
+	SOUNDCUETEMPLATESEDITOR_API virtual ~USoundCueTemplateCopyFactory();
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_13_PROLOG
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_ACCESSORS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_INCLASS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_ACCESSORS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_16_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SoundCueTemplateCopyFactory."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SOUNDCUETEMPLATESEDITOR_API UClass* StaticClass<class USoundCueTemplateCopyFactory>();
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_ACCESSORS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundCueTemplateFactory(); \
+	friend struct Z_Construct_UClass_USoundCueTemplateFactory_Statics; \
+public: \
+	DECLARE_CLASS(USoundCueTemplateFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SoundCueTemplatesEditor"), SOUNDCUETEMPLATESEDITOR_API) \
+	DECLARE_SERIALIZER(USoundCueTemplateFactory)
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundCueTemplateFactory(); \
+	friend struct Z_Construct_UClass_USoundCueTemplateFactory_Statics; \
+public: \
+	DECLARE_CLASS(USoundCueTemplateFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SoundCueTemplatesEditor"), SOUNDCUETEMPLATESEDITOR_API) \
+	DECLARE_SERIALIZER(USoundCueTemplateFactory)
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundCueTemplateFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SOUNDCUETEMPLATESEDITOR_API, USoundCueTemplateFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundCueTemplateFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateFactory(USoundCueTemplateFactory&&); \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateFactory(const USoundCueTemplateFactory&); \
+public: \
+	SOUNDCUETEMPLATESEDITOR_API virtual ~USoundCueTemplateFactory();
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateFactory(USoundCueTemplateFactory&&); \
+	SOUNDCUETEMPLATESEDITOR_API USoundCueTemplateFactory(const USoundCueTemplateFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SOUNDCUETEMPLATESEDITOR_API, USoundCueTemplateFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundCueTemplateFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundCueTemplateFactory) \
+	SOUNDCUETEMPLATESEDITOR_API virtual ~USoundCueTemplateFactory();
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_27_PROLOG
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_ACCESSORS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_INCLASS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_ACCESSORS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_30_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SoundCueTemplateFactory."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SOUNDCUETEMPLATESEDITOR_API UClass* StaticClass<class USoundCueTemplateFactory>();
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_ACCESSORS
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSoundCueTemplateClassTemplate(); \
+	friend struct Z_Construct_UClass_USoundCueTemplateClassTemplate_Statics; \
+public: \
+	DECLARE_CLASS(USoundCueTemplateClassTemplate, UPluginClassTemplate, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SoundCueTemplatesEditor"), NO_API) \
+	DECLARE_SERIALIZER(USoundCueTemplateClassTemplate)
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_INCLASS \
+private: \
+	static void StaticRegisterNativesUSoundCueTemplateClassTemplate(); \
+	friend struct Z_Construct_UClass_USoundCueTemplateClassTemplate_Statics; \
+public: \
+	DECLARE_CLASS(USoundCueTemplateClassTemplate, UPluginClassTemplate, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SoundCueTemplatesEditor"), NO_API) \
+	DECLARE_SERIALIZER(USoundCueTemplateClassTemplate)
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USoundCueTemplateClassTemplate(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundCueTemplateClassTemplate) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USoundCueTemplateClassTemplate); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundCueTemplateClassTemplate); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USoundCueTemplateClassTemplate(USoundCueTemplateClassTemplate&&); \
+	NO_API USoundCueTemplateClassTemplate(const USoundCueTemplateClassTemplate&); \
+public: \
+	NO_API virtual ~USoundCueTemplateClassTemplate();
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USoundCueTemplateClassTemplate(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USoundCueTemplateClassTemplate(USoundCueTemplateClassTemplate&&); \
+	NO_API USoundCueTemplateClassTemplate(const USoundCueTemplateClassTemplate&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USoundCueTemplateClassTemplate); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USoundCueTemplateClassTemplate); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USoundCueTemplateClassTemplate) \
+	NO_API virtual ~USoundCueTemplateClassTemplate();
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_45_PROLOG
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_ACCESSORS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_INCLASS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_ACCESSORS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h_48_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SoundCueTemplateClassTemplate."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> SOUNDCUETEMPLATESEDITOR_API UClass* StaticClass<class USoundCueTemplateClassTemplate>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_SoundCueTemplates_Source_SoundCueTemplatesEditor_Public_SoundCueTemplateFactory_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

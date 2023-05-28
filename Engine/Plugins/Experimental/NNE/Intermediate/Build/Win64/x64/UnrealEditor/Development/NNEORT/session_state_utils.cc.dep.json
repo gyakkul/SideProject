@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\session_state_utils.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nneort\\pch.nneonnxruntime.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\session_state_utils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\tensor_allocator.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\graph_partitioner.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\ort_value_pattern_planner.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\mem_pattern_planner.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\tensorprotoutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\endian_utils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\mem_buffer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\tensor_external_data_info.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\bfc_arena.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\framework\\arena_extend_strategy.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\internal\\core\\session\\onnxruntime_session_options_config_keys.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.XRVisualization.cpp.obj": [
+			"XRVisualization.init.gen.cpp.obj",
+			"XRVisualizationFunctionLibrary.gen.cpp.obj",
+			"XRVisualizationFunctionLibrary.cpp.obj",
+			"XRVisualizationModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioCaptureRtAudio.cpp.obj": [
+			"AudioCaptureRtAudio.cpp.obj",
+			"AudioCaptureRtAudioModule.cpp.obj",
+			"RtAudio.cpp.obj",
+			"RtAudioWrapper.cpp.obj"
+		]
+	}
+}

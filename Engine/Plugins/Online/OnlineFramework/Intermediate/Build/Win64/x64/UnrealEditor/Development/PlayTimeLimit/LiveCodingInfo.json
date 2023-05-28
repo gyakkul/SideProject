@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlayTimeLimit.cpp.obj": [
+			"PlayTimeLimitImpl.cpp.obj",
+			"PlayTimeLimitModule.cpp.obj",
+			"PlayTimeLimitUserMock.cpp.obj"
+		]
+	}
+}

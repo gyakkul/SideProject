@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NVCodecs.cpp.obj": [
+			"NVCodecsModule.cpp.obj",
+			"VideoResourceCUDA.cpp.obj"
+		]
+	}
+}

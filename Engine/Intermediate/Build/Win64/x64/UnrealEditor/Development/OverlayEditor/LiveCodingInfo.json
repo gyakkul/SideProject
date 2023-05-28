@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OverlayEditor.cpp.obj": [
+			"BasicOverlaysFactory.gen.cpp.obj",
+			"BasicOverlaysFactoryNew.gen.cpp.obj",
+			"LocalizedOverlaysFactoryNew.gen.cpp.obj",
+			"OverlayEditor.init.gen.cpp.obj",
+			"ReimportBasicOverlaysFactory.gen.cpp.obj",
+			"BasicOverlaysFactory.cpp.obj",
+			"BasicOverlaysFactoryNew.cpp.obj",
+			"LocalizedOverlaysFactoryNew.cpp.obj",
+			"ReimportBasicOverlaysFactory.cpp.obj",
+			"OverlayEditorModule.cpp.obj"
+		]
+	}
+}

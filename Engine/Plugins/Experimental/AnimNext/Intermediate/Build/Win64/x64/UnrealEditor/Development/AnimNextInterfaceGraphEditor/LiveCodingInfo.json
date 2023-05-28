@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimNextInterfaceGraphEditor.cpp.obj": [
+			"AnimNextInterfaceGraphEditor.init.gen.cpp.obj",
+			"AnimNextInterfaceGraphEditorSchemaActions.gen.cpp.obj",
+			"AnimNextInterfaceGraphFactory.gen.cpp.obj",
+			"AnimNextInterfaceEditorUtils.cpp.obj",
+			"AnimNextInterfaceGraphEditor.cpp.obj",
+			"AnimNextInterfaceGraphEditorMode.cpp.obj",
+			"AnimNextInterfaceGraphEditorModule.cpp.obj",
+			"AnimNextInterfaceGraphEditorSchemaActions.cpp.obj",
+			"AnimNextInterfaceGraphFactory.cpp.obj",
+			"AnimNextInterfacePropertyTypeCustomization.cpp.obj",
+			"AnimNextInterfaceWidgetFactories.cpp.obj",
+			"AssetTypeActions_AnimNextInterfaceGraph.cpp.obj",
+			"SAnimNextInterfaceGraphEditorActionMenu.cpp.obj"
+		]
+	}
+}

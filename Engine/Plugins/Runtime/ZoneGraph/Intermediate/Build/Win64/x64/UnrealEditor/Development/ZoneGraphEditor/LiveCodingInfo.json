@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ZoneGraphEditor.cpp.obj": [
+			"ZoneGraphEditor.init.gen.cpp.obj",
+			"ZoneShapeComponentVisualizer.gen.cpp.obj",
+			"ZoneGraphEditorModule.cpp.obj",
+			"ZoneGraphEditorStyle.cpp.obj",
+			"ZoneGraphPropertyUtils.cpp.obj",
+			"ZoneGraphTagDetails.cpp.obj",
+			"ZoneGraphTagFilterDetails.cpp.obj",
+			"ZoneGraphTagInfoDetails.cpp.obj",
+			"ZoneGraphTagMaskDetails.cpp.obj",
+			"ZoneGraphTessellationSettingsDetails.cpp.obj",
+			"ZoneLaneDescDetails.cpp.obj",
+			"ZoneLaneProfileDetails.cpp.obj",
+			"ZoneLaneProfileRefDetails.cpp.obj",
+			"ZoneShapeComponentDetails.cpp.obj",
+			"ZoneShapeComponentVisualizer.cpp.obj"
+		]
+	}
+}

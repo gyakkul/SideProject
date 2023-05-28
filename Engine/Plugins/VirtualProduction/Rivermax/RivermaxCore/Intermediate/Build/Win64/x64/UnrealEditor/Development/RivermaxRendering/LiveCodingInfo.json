@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RivermaxRendering.cpp.obj": [
+			"RivermaxRenderingModule.cpp.obj",
+			"RivermaxShaders.cpp.obj"
+		]
+	}
+}

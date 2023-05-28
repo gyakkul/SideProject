@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PortalRpc.cpp.obj": [
+			"PortalRpc.init.gen.cpp.obj",
+			"PortalRpcMessages.gen.cpp.obj",
+			"PortalRpcLocator.cpp.obj",
+			"PortalRpcModule.cpp.obj",
+			"PortalRpcResponder.cpp.obj",
+			"PortalRpcServer.cpp.obj"
+		]
+	}
+}

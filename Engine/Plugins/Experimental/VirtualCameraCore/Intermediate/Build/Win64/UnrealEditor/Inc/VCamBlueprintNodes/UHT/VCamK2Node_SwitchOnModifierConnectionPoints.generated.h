@@ -1,0 +1,98 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SwitchNode/VCamK2Node_SwitchOnModifierConnectionPoints.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VCAMBLUEPRINTNODES_VCamK2Node_SwitchOnModifierConnectionPoints_generated_h
+#error "VCamK2Node_SwitchOnModifierConnectionPoints.generated.h already included, missing '#pragma once' in VCamK2Node_SwitchOnModifierConnectionPoints.h"
+#endif
+#define VCAMBLUEPRINTNODES_VCamK2Node_SwitchOnModifierConnectionPoints_generated_h
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_ACCESSORS
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVCamK2Node_SwitchOnModifierConnectionPoints(); \
+	friend struct Z_Construct_UClass_UVCamK2Node_SwitchOnModifierConnectionPoints_Statics; \
+public: \
+	DECLARE_CLASS(UVCamK2Node_SwitchOnModifierConnectionPoints, UVCamK2Node_SwitchConnectionSystemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VCamBlueprintNodes"), NO_API) \
+	DECLARE_SERIALIZER(UVCamK2Node_SwitchOnModifierConnectionPoints)
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_INCLASS \
+private: \
+	static void StaticRegisterNativesUVCamK2Node_SwitchOnModifierConnectionPoints(); \
+	friend struct Z_Construct_UClass_UVCamK2Node_SwitchOnModifierConnectionPoints_Statics; \
+public: \
+	DECLARE_CLASS(UVCamK2Node_SwitchOnModifierConnectionPoints, UVCamK2Node_SwitchConnectionSystemBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VCamBlueprintNodes"), NO_API) \
+	DECLARE_SERIALIZER(UVCamK2Node_SwitchOnModifierConnectionPoints)
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVCamK2Node_SwitchOnModifierConnectionPoints(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVCamK2Node_SwitchOnModifierConnectionPoints) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVCamK2Node_SwitchOnModifierConnectionPoints); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVCamK2Node_SwitchOnModifierConnectionPoints); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVCamK2Node_SwitchOnModifierConnectionPoints(UVCamK2Node_SwitchOnModifierConnectionPoints&&); \
+	NO_API UVCamK2Node_SwitchOnModifierConnectionPoints(const UVCamK2Node_SwitchOnModifierConnectionPoints&); \
+public: \
+	NO_API virtual ~UVCamK2Node_SwitchOnModifierConnectionPoints();
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVCamK2Node_SwitchOnModifierConnectionPoints(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVCamK2Node_SwitchOnModifierConnectionPoints(UVCamK2Node_SwitchOnModifierConnectionPoints&&); \
+	NO_API UVCamK2Node_SwitchOnModifierConnectionPoints(const UVCamK2Node_SwitchOnModifierConnectionPoints&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVCamK2Node_SwitchOnModifierConnectionPoints); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVCamK2Node_SwitchOnModifierConnectionPoints); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVCamK2Node_SwitchOnModifierConnectionPoints) \
+	NO_API virtual ~UVCamK2Node_SwitchOnModifierConnectionPoints();
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_14_PROLOG
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_ACCESSORS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_INCLASS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_ACCESSORS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VCAMBLUEPRINTNODES_API UClass* StaticClass<class UVCamK2Node_SwitchOnModifierConnectionPoints>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_VirtualCameraCore_Source_VCamBlueprintNodes_Private_SwitchNode_VCamK2Node_SwitchOnModifierConnectionPoints_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

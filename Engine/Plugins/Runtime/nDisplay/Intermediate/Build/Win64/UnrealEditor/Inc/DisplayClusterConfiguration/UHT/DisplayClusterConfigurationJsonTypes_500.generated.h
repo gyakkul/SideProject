@@ -1,0 +1,209 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Formats/JSON500/DisplayClusterConfigurationJsonTypes_500.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef DISPLAYCLUSTERCONFIGURATION_DisplayClusterConfigurationJsonTypes_500_generated_h
+#error "DisplayClusterConfigurationJsonTypes_500.generated.h already included, missing '#pragma once' in DisplayClusterConfigurationJsonTypes_500.h"
+#endif
+#define DISPLAYCLUSTERCONFIGURATION_DisplayClusterConfigurationJsonTypes_500_generated_h
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_14_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonRectangle_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonRectangle_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_43_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonVector_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonVector_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_84_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonRotator_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonRotator_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_125_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonSizeInt_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonSizeInt_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_159_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonSizeFloat_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonSizeFloat_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_197_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonPolymorphicEntity_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonPolymorphicEntity_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_211_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonMisc_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonMisc_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_235_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonSceneComponent_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonSceneComponent_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_243_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonSceneComponentXform_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct(); \
+	typedef FDisplayClusterConfigurationJsonSceneComponent_500 Super;
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonSceneComponentXform_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_272_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonSceneComponentCamera_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct(); \
+	typedef FDisplayClusterConfigurationJsonSceneComponentXform_500 Super;
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonSceneComponentCamera_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_302_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonSceneComponentScreen_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct(); \
+	typedef FDisplayClusterConfigurationJsonSceneComponentXform_500 Super;
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonSceneComponentScreen_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_323_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonScene_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonScene_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_340_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonPrimaryNode_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonPrimaryNode_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_355_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonClusterSyncPolicy_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct(); \
+	typedef FDisplayClusterConfigurationJsonPolymorphicEntity_500 Super;
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonClusterSyncPolicy_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_362_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonClusterSync_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonClusterSync_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_376_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationFailoverSettings_500_Statics; \
+	static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationFailoverSettings_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_393_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonPostprocess_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct(); \
+	typedef FDisplayClusterConfigurationJsonPolymorphicEntity_500 Super;
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonPostprocess_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_401_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonProjectionPolicy_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct(); \
+	typedef FDisplayClusterConfigurationJsonPolymorphicEntity_500 Super;
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonProjectionPolicy_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_408_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonOverscan_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonOverscan_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_437_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonViewport_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonViewport_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_469_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationFramePostProcess_OutputRemap_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationFramePostProcess_OutputRemap_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_489_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonClusterNode_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonClusterNode_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_527_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonCluster_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonCluster_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_550_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonDiagnostics_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonDiagnostics_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_568_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonNdisplay_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonNdisplay_500>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h_601_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterConfigurationJsonContainer_500_Statics; \
+	DISPLAYCLUSTERCONFIGURATION_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERCONFIGURATION_API UScriptStruct* StaticStruct<struct FDisplayClusterConfigurationJsonContainer_500>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterConfiguration_Private_Formats_JSON500_DisplayClusterConfigurationJsonTypes_500_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

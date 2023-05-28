@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassAIReplication.cpp.obj": [
+			"MassAIReplication.init.gen.cpp.obj",
+			"MassReplicationPathHandlers.gen.cpp.obj",
+			"MassAIReplicationModule.cpp.obj",
+			"MassReplicationPathHandlers.cpp.obj"
+		]
+	}
+}

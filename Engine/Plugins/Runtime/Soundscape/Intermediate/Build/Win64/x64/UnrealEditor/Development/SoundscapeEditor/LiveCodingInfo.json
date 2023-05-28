@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundscapeEditor.cpp.obj": [
+			"SoundscapeColorFactory.gen.cpp.obj",
+			"SoundscapeEditor.init.gen.cpp.obj",
+			"SoundScapePaletteFactory.gen.cpp.obj",
+			"AssetTypeActions_SoundscapeColor.cpp.obj",
+			"AssetTypeActions_SoundScapePalette.cpp.obj",
+			"SoundscapeColorFactory.cpp.obj",
+			"SoundScapeEditorModule.cpp.obj",
+			"SoundScapePaletteFactory.cpp.obj"
+		]
+	}
+}

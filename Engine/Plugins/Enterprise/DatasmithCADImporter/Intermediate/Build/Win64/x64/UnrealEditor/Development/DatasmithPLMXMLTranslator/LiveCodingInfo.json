@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithPLMXMLTranslator.cpp.obj": [
+			"DatasmithPlmXmlImporter.cpp.obj",
+			"DatasmithPlmXmlTranslator.cpp.obj",
+			"DatasmithPlmXmlTranslatorModule.cpp.obj"
+		]
+	}
+}

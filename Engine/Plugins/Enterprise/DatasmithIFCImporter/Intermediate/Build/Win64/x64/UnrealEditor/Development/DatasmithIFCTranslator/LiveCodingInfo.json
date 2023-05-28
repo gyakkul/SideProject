@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithIFCTranslator.cpp.obj": [
+			"DatasmithIFCImportOptions.gen.cpp.obj",
+			"DatasmithIFCTranslator.init.gen.cpp.obj",
+			"DatasmithIFCImporter.cpp.obj",
+			"DatasmithIFCImportOptions.cpp.obj",
+			"DatasmithIFCTranslator.cpp.obj",
+			"DatasmithIFCTranslatorModule.cpp.obj",
+			"IFCReader.cpp.obj",
+			"IFCStaticMeshFactory.cpp.obj"
+		]
+	}
+}

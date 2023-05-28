@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EnvironmentLightingViewer.cpp.obj": [
+			"EnvironmentLightingModule.cpp.obj",
+			"SEnvironmentLightingViewer.cpp.obj"
+		]
+	}
+}

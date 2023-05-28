@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataprepEditorScriptingUtilities.cpp.obj": [
+			"DataprepEditorScriptingUtilities.init.gen.cpp.obj",
+			"EditorDataprepAssetLibrary.gen.cpp.obj",
+			"DataprepEditorScriptingLog.cpp.obj",
+			"DataprepEditorScriptingUtilitiesModule.cpp.obj",
+			"EditorDataprepAssetLibrary.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AxFImporter.cpp.obj": [
+			"AxFImporter.init.gen.cpp.obj",
+			"AxFImporterFactory.gen.cpp.obj",
+			"AxFImporterOptions.gen.cpp.obj",
+			"AxFImporter.cpp.obj",
+			"AxFImporterFactory.cpp.obj",
+			"AxFImporterModule.cpp.obj",
+			"AxFImporterOptions.cpp.obj",
+			"Logging.cpp.obj",
+			"AxFOptionsWindow.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosClothAssetEditor.cpp.obj": [
+			"AssetDefinition_ClothAsset.gen.cpp.obj",
+			"ChaosClothAssetEditor.init.gen.cpp.obj",
+			"ClothEditorPreviewScene.gen.cpp.obj",
+			"AssetDefinition_ClothAsset.cpp.obj",
+			"ChaosClothAssetEditorModule.cpp.obj",
+			"ClothDataflowNodes.cpp.obj",
+			"ClothEditor.cpp.obj",
+			"ClothEditor3DViewportClient.cpp.obj",
+			"ClothEditorCommands.cpp.obj",
+			"ClothEditorMode.cpp.obj",
+			"ClothEditorModeToolkit.cpp.obj",
+			"ClothEditorModeUILayer.cpp.obj",
+			"ClothEditorPreviewScene.cpp.obj",
+			"ClothEditorRestSpaceViewportClient.cpp.obj",
+			"ClothEditorStyle.cpp.obj",
+			"ClothEditorToolkit.cpp.obj",
+			"SClothCollectionOutliner.cpp.obj",
+			"SClothEditor3DViewport.cpp.obj",
+			"SClothEditor3DViewportToolBar.cpp.obj",
+			"SClothEditorRestSpaceViewport.cpp.obj",
+			"SClothEditorRestSpaceViewportToolBar.cpp.obj",
+			"SClothEditorViewportToolBarBase.cpp.obj"
+		]
+	}
+}

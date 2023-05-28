@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CameraShakePreviewer.cpp.obj": [
+			"CameraShakePreviewer.init.gen.cpp.obj",
+			"CameraShakePreviewerModule.cpp.obj",
+			"SCameraShakePreviewer.cpp.obj"
+		]
+	}
+}

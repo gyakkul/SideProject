@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassReplication.cpp.obj": [
+			"MassClientBubbleHandler.gen.cpp.obj",
+			"MassClientBubbleInfoBase.gen.cpp.obj",
+			"MassClientBubbleSerializerBase.gen.cpp.obj",
+			"MassReplication.init.gen.cpp.obj",
+			"MassReplicationFragments.gen.cpp.obj",
+			"MassReplicationGridProcessor.gen.cpp.obj",
+			"MassReplicationProcessor.gen.cpp.obj",
+			"MassReplicationSettings.gen.cpp.obj",
+			"MassReplicationSubsystem.gen.cpp.obj",
+			"MassReplicationTrait.gen.cpp.obj",
+			"MassReplicationTransformHandlers.gen.cpp.obj",
+			"MassReplicationTypes.gen.cpp.obj",
+			"MassClientBubbleInfoBase.cpp.obj",
+			"MassClientBubbleSerializerBase.cpp.obj",
+			"MassReplicationFragments.cpp.obj",
+			"MassReplicationGridProcessor.cpp.obj",
+			"MassReplicationModule.cpp.obj",
+			"MassReplicationProcessor.cpp.obj",
+			"MassReplicationSubsystem.cpp.obj",
+			"MassReplicationTrait.cpp.obj",
+			"MassReplicationTransformHandlers.cpp.obj",
+			"MassReplicationTypes.cpp.obj"
+		]
+	}
+}

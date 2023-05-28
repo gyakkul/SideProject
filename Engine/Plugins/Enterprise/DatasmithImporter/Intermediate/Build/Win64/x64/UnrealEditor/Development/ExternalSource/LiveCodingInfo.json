@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExternalSource.cpp.obj": [
+			"ExternalSource.cpp.obj",
+			"ExternalSourceModule.cpp.obj",
+			"SourceUri.cpp.obj",
+			"UriManager.cpp.obj"
+		]
+	}
+}

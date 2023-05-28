@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TraceDataFiltering.cpp.obj": [
+			"TraceDataFiltering.init.gen.cpp.obj",
+			"BaseSessionFilterService.cpp.obj",
+			"EventFilterStyle.cpp.obj",
+			"FilterPresets.cpp.obj",
+			"SessionEditorFilterService.cpp.obj",
+			"SFilterPreset.cpp.obj",
+			"SFilterPresetList.cpp.obj",
+			"STraceDataFilterWidget.cpp.obj",
+			"STraceObjectRowWidget.cpp.obj",
+			"TraceChannel.cpp.obj",
+			"TraceDataFilteringModule.cpp.obj",
+			"SessionTraceFilterService.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TextToSpeech.cpp.obj": [
+			"TextToSpeech.init.gen.cpp.obj",
+			"TextToSpeechEngineSubsystem.gen.cpp.obj",
+			"FliteAdapter.cpp.obj",
+			"FliteMallocOverrides.cpp.obj",
+			"FliteSynthesizedSpeechData.cpp.obj",
+			"FliteTextToSpeech.cpp.obj",
+			"FliteTextToSpeechSubmixListener.cpp.obj",
+			"TextToSpeechBase.cpp.obj",
+			"TextToSpeechEngineSubsystem.cpp.obj",
+			"TextToSpeechModule.cpp.obj",
+			"WindowsTextToSpeechFactory.cpp.obj"
+		]
+	}
+}

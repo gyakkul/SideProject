@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Constraints.cpp.obj": [
+			"Constraints.init.gen.cpp.obj",
+			"ConstraintChannel.cpp.obj",
+			"ConstraintsActor.cpp.obj",
+			"ConstraintsManager.cpp.obj",
+			"ConstraintsModule.cpp.obj",
+			"ConstraintsScripting.cpp.obj",
+			"TransformableHandle.cpp.obj",
+			"TransformableRegistry.cpp.obj",
+			"TransformConstraint.cpp.obj"
+		]
+	}
+}

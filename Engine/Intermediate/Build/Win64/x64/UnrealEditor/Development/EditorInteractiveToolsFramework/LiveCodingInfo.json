@@ -1,0 +1,38 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorInteractiveToolsFramework.cpp.obj": [
+			"EditorInteractiveGizmoConditionalBuilder.gen.cpp.obj",
+			"EditorInteractiveGizmoManager.gen.cpp.obj",
+			"EditorInteractiveGizmoRegistry.gen.cpp.obj",
+			"EditorInteractiveGizmoSelectionBuilder.gen.cpp.obj",
+			"EditorInteractiveGizmoSubsystem.gen.cpp.obj",
+			"EditorInteractiveToolsFramework.init.gen.cpp.obj",
+			"EditorTransformGizmo.gen.cpp.obj",
+			"EditorTransformGizmoBuilder.gen.cpp.obj",
+			"EditorTransformGizmoSource.gen.cpp.obj",
+			"EditorTransformProxy.gen.cpp.obj",
+			"EdModeInteractiveToolsContext.gen.cpp.obj",
+			"InteractiveToolStack.gen.cpp.obj",
+			"ToolStackContext.gen.cpp.obj",
+			"TransformGizmo.gen.cpp.obj",
+			"TransformGizmoInterfaces.gen.cpp.obj",
+			"WidgetToolsContext.gen.cpp.obj",
+			"2DViewportBehaviorTargets.cpp.obj",
+			"EditorTransformGizmo.cpp.obj",
+			"EditorTransformGizmoBuilder.cpp.obj",
+			"EditorTransformGizmoSource.cpp.obj",
+			"EditorTransformProxy.cpp.obj",
+			"TransformGizmo.cpp.obj",
+			"EditorInteractiveGizmoManager.cpp.obj",
+			"EditorInteractiveGizmoRegistry.cpp.obj",
+			"EditorInteractiveGizmoSelectionBuilder.cpp.obj",
+			"EditorInteractiveGizmoSubsystem.cpp.obj",
+			"EditorInteractiveToolsFrameworkModule.cpp.obj",
+			"EdModeInteractiveToolsContext.cpp.obj",
+			"InteractiveToolStack.cpp.obj",
+			"ToolStackContext.cpp.obj",
+			"WidgetToolsContext.cpp.obj"
+		]
+	}
+}

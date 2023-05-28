@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCollectionNodes.cpp.obj": [
+			"GeometryCollectionAssetNodes.gen.cpp.obj",
+			"GeometryCollectionFieldNodes.gen.cpp.obj",
+			"GeometryCollectionMaterialNodes.gen.cpp.obj",
+			"GeometryCollectionNodes.init.gen.cpp.obj",
+			"GeometryCollectionProcessingNodes.gen.cpp.obj",
+			"GeometryCollectionSkeletalMeshNodes.gen.cpp.obj",
+			"GeometryCollectionUtilityNodes.gen.cpp.obj",
+			"GeometryCollectionClusteringNodes.cpp.obj",
+			"GeometryCollectionEditNodes.cpp.obj",
+			"GeometryCollectionEmbedNodes.cpp.obj",
+			"GeometryCollectionFieldNodes.cpp.obj",
+			"GeometryCollectionFracturingNodes.cpp.obj",
+			"GeometryCollectionMaterialNodes.cpp.obj",
+			"GeometryCollectionMathNodes.cpp.obj",
+			"GeometryCollectionMeshNodes.cpp.obj",
+			"GeometryCollectionNodes.cpp.obj",
+			"GeometryCollectionNodesPlugin.cpp.obj",
+			"GeometryCollectionProcessingNodes.cpp.obj",
+			"GeometryCollectionSelectionNodes.cpp.obj",
+			"GeometryCollectionSkeletalMeshNodes.cpp.obj",
+			"GeometryCollectionUtilityNodes.cpp.obj",
+			"GeometryCollectionVerticesNodes.cpp.obj",
+			"GeometryCollectionAssetNodes.cpp.obj"
+		]
+	}
+}

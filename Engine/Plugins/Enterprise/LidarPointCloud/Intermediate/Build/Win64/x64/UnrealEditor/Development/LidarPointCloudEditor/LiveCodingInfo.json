@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LidarPointCloudEditor.cpp.obj": [
+			"ActorFactoryLidarPointCloud.gen.cpp.obj",
+			"LidarPointCloudEditor.init.gen.cpp.obj",
+			"LidarPointCloudEditorTools.gen.cpp.obj",
+			"LidarPointCloudEdMode.gen.cpp.obj",
+			"LidarPointCloudFactory.gen.cpp.obj",
+			"ActorFactoryLidarPointCloud.cpp.obj",
+			"LidarPointCloudEditor.cpp.obj",
+			"LidarPointCloudEditorCommands.cpp.obj",
+			"LidarPointCloudEditorHelper.cpp.obj",
+			"LidarPointCloudEditorModule.cpp.obj",
+			"LidarPointCloudEditorTools.cpp.obj",
+			"LidarPointCloudEditorViewport.cpp.obj",
+			"LidarPointCloudEditorViewportClient.cpp.obj",
+			"LidarPointCloudEdMode.cpp.obj",
+			"LidarPointCloudEdModeToolkit.cpp.obj",
+			"LidarPointCloudFactory.cpp.obj",
+			"LidarPointCloudImportUI.cpp.obj",
+			"LidarPointCloudStyle.cpp.obj"
+		]
+	}
+}

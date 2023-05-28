@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BSPUtils.cpp.obj": [
+			"BSPOps.cpp.obj",
+			"BSPUtils.cpp.obj"
+		]
+	}
+}

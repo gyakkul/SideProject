@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StructViewer.cpp.obj": [
+			"StructViewer.init.gen.cpp.obj",
+			"StructViewerProjectSettings.gen.cpp.obj",
+			"SStructViewer.cpp.obj",
+			"StructViewerModule.cpp.obj",
+			"StructViewerNode.cpp.obj",
+			"StructViewerProjectSettings.cpp.obj"
+		]
+	}
+}

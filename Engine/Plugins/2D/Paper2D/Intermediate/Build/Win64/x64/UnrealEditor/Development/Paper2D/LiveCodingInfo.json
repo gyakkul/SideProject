@@ -1,0 +1,42 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Paper2D.cpp.obj": [
+			"IntMargin.gen.cpp.obj",
+			"Paper2D.init.gen.cpp.obj",
+			"SpriteDrawCall.gen.cpp.obj",
+			"SpriteEditorOnlyTypes.gen.cpp.obj",
+			"GroupedSpriteSceneProxy.cpp.obj",
+			"Paper2DModule.cpp.obj",
+			"PaperCharacter.cpp.obj",
+			"PaperCustomVersion.cpp.obj",
+			"PaperFlipbook.cpp.obj",
+			"PaperFlipbookActor.cpp.obj",
+			"PaperFlipbookComponent.cpp.obj",
+			"PaperFlipbookSceneProxy.cpp.obj",
+			"PaperGroupedSpriteActor.cpp.obj",
+			"PaperGroupedSpriteComponent.cpp.obj",
+			"PaperRenderSceneProxy.cpp.obj",
+			"PaperRuntimeSettings.cpp.obj",
+			"PaperSprite.cpp.obj",
+			"PaperSpriteActor.cpp.obj",
+			"PaperSpriteAtlas.cpp.obj",
+			"PaperSpriteBlueprintLibrary.cpp.obj",
+			"PaperSpriteComponent.cpp.obj",
+			"PaperSpriteSceneProxy.cpp.obj",
+			"PaperSpriteVertexBuffer.cpp.obj",
+			"PaperTileLayer.cpp.obj",
+			"PaperTileMap.cpp.obj",
+			"PaperTileMapActor.cpp.obj",
+			"PaperTileMapComponent.cpp.obj",
+			"PaperTileMapRenderSceneProxy.cpp.obj",
+			"PaperTileSet.cpp.obj",
+			"MaterialExpressionSpriteTextureSampler.cpp.obj",
+			"PaperTerrainActor.cpp.obj",
+			"PaperTerrainComponent.cpp.obj",
+			"PaperTerrainMaterial.cpp.obj",
+			"PaperTerrainSplineComponent.cpp.obj",
+			"TileMapBlueprintLibrary.cpp.obj"
+		]
+	}
+}

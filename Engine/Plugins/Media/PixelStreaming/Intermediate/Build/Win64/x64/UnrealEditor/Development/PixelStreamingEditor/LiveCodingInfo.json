@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelStreamingEditor.cpp.obj": [
+			"PixelStreamingCommands.cpp.obj",
+			"PixelStreamingEditorModule.cpp.obj",
+			"PixelStreamingEditorUtils.cpp.obj",
+			"PixelStreamingStyle.cpp.obj",
+			"PixelStreamingToolbar.cpp.obj",
+			"PixelStreamingVideoInputBackBufferComposited.cpp.obj",
+			"PixelStreamingVideoInputViewport.cpp.obj",
+			"Settings.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineServicesInterface.cpp.obj": [
+			"Achievements.cpp.obj",
+			"Auth.cpp.obj",
+			"Commerce.cpp.obj",
+			"Connectivity.cpp.obj",
+			"Lobbies.cpp.obj",
+			"OnlineError.cpp.obj",
+			"OnlineServices.cpp.obj",
+			"OnlineServicesDelegates.cpp.obj",
+			"OnlineServicesInterfaceModule.cpp.obj",
+			"OnlineServicesRegistry.cpp.obj",
+			"Presence.cpp.obj",
+			"Privileges.cpp.obj",
+			"Schema.cpp.obj",
+			"SchemaTypes.cpp.obj",
+			"Sessions.cpp.obj"
+		]
+	}
+}

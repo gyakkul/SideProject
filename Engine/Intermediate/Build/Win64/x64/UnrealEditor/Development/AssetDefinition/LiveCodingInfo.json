@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetDefinition.cpp.obj": [
+			"AssetDefinition.gen.cpp.obj",
+			"AssetDefinition.init.gen.cpp.obj",
+			"AssetDefinitionRegistry.gen.cpp.obj",
+			"AssetFilterData.gen.cpp.obj",
+			"AssetDefinition.cpp.obj",
+			"AssetDefinitionModule.cpp.obj",
+			"AssetDefinitionRegistry.cpp.obj"
+		]
+	}
+}

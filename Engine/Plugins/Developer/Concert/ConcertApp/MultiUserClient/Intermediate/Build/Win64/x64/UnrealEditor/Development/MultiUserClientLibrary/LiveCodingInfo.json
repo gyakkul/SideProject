@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MultiUserClientLibrary.cpp.obj": [
+			"MultiUserClientLibrary.init.gen.cpp.obj",
+			"MultiUserClientStatics.gen.cpp.obj",
+			"MultiUserClientLibraryModule.cpp.obj",
+			"MultiUserClientStatics.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlatformCryptoOpenSSL.cpp.obj": [
+			"EncryptionContextOpenSSL.cpp.obj",
+			"PlatformCryptoAesDecryptorsOpenSSL.cpp.obj",
+			"PlatformCryptoAesEncryptorsOpenSSL.cpp.obj",
+			"PlatformCryptoOpenSSL.cpp.obj"
+		]
+	}
+}

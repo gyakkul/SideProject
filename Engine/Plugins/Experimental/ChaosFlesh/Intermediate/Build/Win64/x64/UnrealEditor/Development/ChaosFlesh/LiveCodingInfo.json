@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosFlesh.cpp.obj": [
+			"ChaosFlesh.cpp.obj",
+			"ChaosFleshModule.cpp.obj",
+			"FleshCollection.cpp.obj",
+			"FleshCollectionUtility.cpp.obj",
+			"TetrahedralCollection.cpp.obj",
+			"TetrahedralExampleGeometry.cpp.obj",
+			"ChaosFleshRadialMeshing.cpp.obj"
+		]
+	}
+}

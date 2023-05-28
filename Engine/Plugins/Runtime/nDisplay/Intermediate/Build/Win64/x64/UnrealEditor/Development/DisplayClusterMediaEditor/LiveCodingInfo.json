@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterMediaEditor.cpp.obj": [
+			"DisplayClusterMediaEditor.init.gen.cpp.obj",
+			"SharedMemoryMediaOutputFactory.gen.cpp.obj",
+			"SharedMemoryMediaSourceFactory.gen.cpp.obj",
+			"DisplayClusterMediaEditorModule.cpp.obj",
+			"SharedMemoryMediaOutputFactory.cpp.obj",
+			"SharedMemoryMediaSourceFactory.cpp.obj"
+		]
+	}
+}

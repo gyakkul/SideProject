@@ -1,0 +1,149 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "PixelStreamingSignallingComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FPixelStreamingIceCandidateWrapper;
+struct FPixelStreamingRTCConfigWrapper;
+struct FPixelStreamingSessionDescriptionWrapper;
+#ifdef PIXELSTREAMINGPLAYER_PixelStreamingSignallingComponent_generated_h
+#error "PixelStreamingSignallingComponent.generated.h already included, missing '#pragma once' in PixelStreamingSignallingComponent.h"
+#endif
+#define PIXELSTREAMINGPLAYER_PixelStreamingSignallingComponent_generated_h
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_11_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentConnected_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentConnected);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_12_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentConnectionError_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentConnectionError, const FString& ErrorMsg);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_13_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentDisconnected_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentDisconnected, int32 StatusCode, const FString& Reason, bool bWasClean);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_14_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentConfig_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentConfig, FPixelStreamingRTCConfigWrapper Config);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_15_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentOffer_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentOffer, const FString& Offer);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_16_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentAnswer_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentAnswer, const FString& Answer);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_17_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentIceCandidate_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentIceCandidate, FPixelStreamingIceCandidateWrapper Candidate);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_18_DELEGATE \
+PIXELSTREAMINGPLAYER_API void FPixelStreamingSignallingComponentDataChannels_DelegateWrapper(const FMulticastScriptDelegate& PixelStreamingSignallingComponentDataChannels, int32 SendStreamId, int32 RecvStreamId);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSendIceCandidate); \
+	DECLARE_FUNCTION(execSendAnswer); \
+	DECLARE_FUNCTION(execSendOffer); \
+	DECLARE_FUNCTION(execDisconnect); \
+	DECLARE_FUNCTION(execConnect);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSendIceCandidate); \
+	DECLARE_FUNCTION(execSendAnswer); \
+	DECLARE_FUNCTION(execSendOffer); \
+	DECLARE_FUNCTION(execDisconnect); \
+	DECLARE_FUNCTION(execConnect);
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_ACCESSORS
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPixelStreamingSignallingComponent(); \
+	friend struct Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics; \
+public: \
+	DECLARE_CLASS(UPixelStreamingSignallingComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/PixelStreamingPlayer"), NO_API) \
+	DECLARE_SERIALIZER(UPixelStreamingSignallingComponent)
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_INCLASS \
+private: \
+	static void StaticRegisterNativesUPixelStreamingSignallingComponent(); \
+	friend struct Z_Construct_UClass_UPixelStreamingSignallingComponent_Statics; \
+public: \
+	DECLARE_CLASS(UPixelStreamingSignallingComponent, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/PixelStreamingPlayer"), NO_API) \
+	DECLARE_SERIALIZER(UPixelStreamingSignallingComponent)
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPixelStreamingSignallingComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPixelStreamingSignallingComponent) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPixelStreamingSignallingComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPixelStreamingSignallingComponent); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPixelStreamingSignallingComponent(UPixelStreamingSignallingComponent&&); \
+	NO_API UPixelStreamingSignallingComponent(const UPixelStreamingSignallingComponent&); \
+public: \
+	NO_API virtual ~UPixelStreamingSignallingComponent();
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPixelStreamingSignallingComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPixelStreamingSignallingComponent(UPixelStreamingSignallingComponent&&); \
+	NO_API UPixelStreamingSignallingComponent(const UPixelStreamingSignallingComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPixelStreamingSignallingComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPixelStreamingSignallingComponent); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPixelStreamingSignallingComponent) \
+	NO_API virtual ~UPixelStreamingSignallingComponent();
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_24_PROLOG
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_ACCESSORS \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_INCLASS \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_ACCESSORS \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h_27_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PixelStreamingSignallingComponent."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> PIXELSTREAMINGPLAYER_API UClass* StaticClass<class UPixelStreamingSignallingComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_PixelStreamingPlayer_Source_PixelStreamingPlayer_Public_PixelStreamingSignallingComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

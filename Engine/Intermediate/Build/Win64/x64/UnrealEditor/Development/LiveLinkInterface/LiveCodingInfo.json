@@ -1,0 +1,38 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkInterface.cpp.obj": [
+			"ILiveLinkSource.gen.cpp.obj",
+			"LiveLinkAnimationTypes.gen.cpp.obj",
+			"LiveLinkBasicTypes.gen.cpp.obj",
+			"LiveLinkCameraTypes.gen.cpp.obj",
+			"LiveLinkController.gen.cpp.obj",
+			"LiveLinkFrameInterpolationProcessor.gen.cpp.obj",
+			"LiveLinkFramePreProcessor.gen.cpp.obj",
+			"LiveLinkInterface.init.gen.cpp.obj",
+			"LiveLinkLightTypes.gen.cpp.obj",
+			"LiveLinkPresetTypes.gen.cpp.obj",
+			"LiveLinkRefSkeleton.gen.cpp.obj",
+			"LiveLinkRole.gen.cpp.obj",
+			"LiveLinkTransformTypes.gen.cpp.obj",
+			"ILiveLinkSubject.cpp.obj",
+			"LiveLinkCurveRemapSettings.cpp.obj",
+			"LiveLinkCustomVersion.cpp.obj",
+			"LiveLinkFrameTranslator.cpp.obj",
+			"LiveLinkLog.cpp.obj",
+			"LiveLinkModule.cpp.obj",
+			"LiveLinkRoleTrait.cpp.obj",
+			"LiveLinkSourceFactory.cpp.obj",
+			"LiveLinkSourceSettings.cpp.obj",
+			"LiveLinkSubjectSettings.cpp.obj",
+			"LiveLinkTypes.cpp.obj",
+			"LiveLinkVirtualSubject.cpp.obj",
+			"LiveLinkAnimationBlueprintStructs.cpp.obj",
+			"LiveLinkAnimationRole.cpp.obj",
+			"LiveLinkBasicRole.cpp.obj",
+			"LiveLinkCameraRole.cpp.obj",
+			"LiveLinkLightRole.cpp.obj",
+			"LiveLinkTransformRole.cpp.obj"
+		]
+	}
+}

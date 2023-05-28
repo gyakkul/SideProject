@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NUTUnrealEngine.cpp.obj": [
+			"FTextCrash.gen.cpp.obj",
+			"NetBitsTest.gen.cpp.obj",
+			"NUTUnrealEngine.init.gen.cpp.obj",
+			"UTT61_DebugReplicateData.gen.cpp.obj",
+			"NUTUnrealEngine.cpp.obj",
+			"FTextCrash.cpp.obj",
+			"NetBitsTest.cpp.obj",
+			"UTT61_DebugReplicateData.cpp.obj",
+			"PacketLimitTest.cpp.obj",
+			"PacketLimitTest_Oodle.cpp.obj"
+		]
+	}
+}

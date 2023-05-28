@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Zen.cpp.obj": [
+			"ZenClient.cpp.obj",
+			"ZenSerialization.cpp.obj",
+			"ZenServerHttp.cpp.obj",
+			"ZenServerInterface.cpp.obj",
+			"ZenVersion.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LandscapePatch.cpp.obj": [
+			"LandscapePatch.init.gen.cpp.obj",
+			"LandscapeCircleHeightPatch.cpp.obj",
+			"LandscapeCircleHeightPatchPS.cpp.obj",
+			"LandscapePatchComponent.cpp.obj",
+			"LandscapePatchLogging.cpp.obj",
+			"LandscapePatchManager.cpp.obj",
+			"LandscapePatchModule.cpp.obj",
+			"LandscapePatchUtil.cpp.obj",
+			"LandscapeTextureBackedRenderTarget.cpp.obj",
+			"LandscapeTexturePatch.cpp.obj",
+			"LandscapeTexturePatchPS.cpp.obj"
+		]
+	}
+}

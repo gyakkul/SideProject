@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkMasterLockitEditor.cpp.obj": [
+			"LiveLinkMasterLockitEditorModule.cpp.obj",
+			"LiveLinkMasterLockitSourcePanel.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NullReplayStreaming.cpp.obj": [
+			"NullNetworkReplayStreaming.cpp.obj",
+			"NullNetworkReplayStreamingModule.cpp.obj"
+		]
+	}
+}

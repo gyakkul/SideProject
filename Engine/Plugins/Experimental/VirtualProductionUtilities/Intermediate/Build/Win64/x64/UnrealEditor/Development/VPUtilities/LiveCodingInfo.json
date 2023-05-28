@@ -1,0 +1,32 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VPUtilities.cpp.obj": [
+			"IVPContextMenuProvider.gen.cpp.obj",
+			"IVPInteraction.gen.cpp.obj",
+			"VPBlueprintLibrary.gen.cpp.obj",
+			"VPBookmarkActor.gen.cpp.obj",
+			"VPBookmarkSettings.gen.cpp.obj",
+			"VPCameraBlueprintLibrary.gen.cpp.obj",
+			"VPFullScreenUserWidget.gen.cpp.obj",
+			"VPFullScreenUserWidgetActor.gen.cpp.obj",
+			"VPGameMode.gen.cpp.obj",
+			"VPRenderingBlueprintLibrary.gen.cpp.obj",
+			"VPRootActor.gen.cpp.obj",
+			"VPTimecodeCustomTimeStep.gen.cpp.obj",
+			"VPUtilities.init.gen.cpp.obj",
+			"VPViewportTickableActorBase.gen.cpp.obj",
+			"VPBlueprintLibrary.cpp.obj",
+			"VPBookmarkActor.cpp.obj",
+			"VPCameraBlueprintLibrary.cpp.obj",
+			"VPFullScreenUserWidget.cpp.obj",
+			"VPFullScreenUserWidgetActor.cpp.obj",
+			"VPGameMode.cpp.obj",
+			"VPRenderingBlueprintLibrary.cpp.obj",
+			"VPRootActor.cpp.obj",
+			"VPTimecodeCustomTimeStep.cpp.obj",
+			"VPUtilitiesModule.cpp.obj",
+			"VPViewportTickableActorBase.cpp.obj"
+		]
+	}
+}

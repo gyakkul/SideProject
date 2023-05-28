@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassSpawner.cpp.obj": [
+			"MassAssortedFragmentsTrait.gen.cpp.obj",
+			"MassEntityConfigAsset.gen.cpp.obj",
+			"MassEntityEQSSpawnPointsGenerator.gen.cpp.obj",
+			"MassEntitySpawnDataGeneratorBase.gen.cpp.obj",
+			"MassEntityTemplate.gen.cpp.obj",
+			"MassEntityTemplateRegistry.gen.cpp.obj",
+			"MassEntityTraitBase.gen.cpp.obj",
+			"MassEntityZoneGraphSpawnPointsGenerator.gen.cpp.obj",
+			"MassSpawner.gen.cpp.obj",
+			"MassSpawner.init.gen.cpp.obj",
+			"MassSpawnerSubsystem.gen.cpp.obj",
+			"MassSpawnerTypes.gen.cpp.obj",
+			"MassSpawnLocationProcessor.gen.cpp.obj",
+			"MassTranslator.gen.cpp.obj",
+			"MassAssortedFragmentsTrait.cpp.obj",
+			"MassEntityConfigAsset.cpp.obj",
+			"MassEntityEQSSpawnPointsGenerator.cpp.obj",
+			"MassEntitySpawnDataGeneratorBase.cpp.obj",
+			"MassEntityTemplate.cpp.obj",
+			"MassEntityTemplateRegistry.cpp.obj",
+			"MassEntityZoneGraphSpawnPointsGenerator.cpp.obj",
+			"MassSpawner.cpp.obj",
+			"MassSpawnerModule.cpp.obj",
+			"MassSpawnerSubsystem.cpp.obj",
+			"MassSpawnerTypes.cpp.obj",
+			"MassSpawnLocationProcessor.cpp.obj",
+			"MassTranslator.cpp.obj"
+		]
+	}
+}

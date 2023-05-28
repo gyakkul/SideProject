@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.XRCreative.cpp.obj": [
+			"SelectionInteraction.gen.cpp.obj",
+			"TransformInteraction.gen.cpp.obj",
+			"XRCreative.init.gen.cpp.obj",
+			"XRCreativeAvatar.gen.cpp.obj",
+			"XRCreativeGameMode.gen.cpp.obj",
+			"XRCreativeGizmos.gen.cpp.obj",
+			"XRCreativeITFComponent.gen.cpp.obj",
+			"XRCreativeITFRenderComponent.gen.cpp.obj",
+			"XRCreativePointerComponent.gen.cpp.obj",
+			"XRCreativeSettings.gen.cpp.obj",
+			"XRCreativeSubsystem.gen.cpp.obj",
+			"XRCreativeTeleporter.gen.cpp.obj",
+			"XRCreativeToolset.gen.cpp.obj",
+			"SelectionInteraction.cpp.obj",
+			"TransformInteraction.cpp.obj",
+			"XRCreativeGizmos.cpp.obj",
+			"XRCreativeITFComponent.cpp.obj",
+			"XRCreativeITFRenderComponent.cpp.obj",
+			"Module.cpp.obj",
+			"OneEuroFilter.cpp.obj",
+			"XRCreativeAvatar.cpp.obj",
+			"XRCreativeGameMode.cpp.obj",
+			"XRCreativePointerComponent.cpp.obj",
+			"XRCreativeSettings.cpp.obj",
+			"XRCreativeSubsystem.cpp.obj",
+			"XRCreativeTeleporter.cpp.obj",
+			"XRCreativeToolset.cpp.obj"
+		]
+	}
+}

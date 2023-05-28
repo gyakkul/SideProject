@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ThirdPartyHelperAndDLLLoader.cpp.obj": [
+			"Module.cpp.obj",
+			"ORTExceptionHandler.cpp.obj"
+		]
+	}
+}

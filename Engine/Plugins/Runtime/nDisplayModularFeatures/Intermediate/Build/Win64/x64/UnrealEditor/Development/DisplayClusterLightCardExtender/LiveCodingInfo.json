@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterLightCardExtender.cpp.obj": [
+			"DisplayClusterLightCardExtender.init.gen.cpp.obj",
+			"DisplayClusterPositionalParams.gen.cpp.obj",
+			"DisplayClusterStageActorTemplate.gen.cpp.obj",
+			"IDisplayClusterStageActor.gen.cpp.obj",
+			"DisplayClusterLightCardExtenderModule.cpp.obj",
+			"IDisplayClusterLightCardActorExtender.cpp.obj",
+			"DisplayClusterWeakStageActorPtr.cpp.obj",
+			"IDisplayClusterStageActor.cpp.obj"
+		]
+	}
+}

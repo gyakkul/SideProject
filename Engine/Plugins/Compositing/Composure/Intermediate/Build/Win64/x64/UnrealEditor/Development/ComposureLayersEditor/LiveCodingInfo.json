@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ComposureLayersEditor.cpp.obj": [
+			"ComposureEditorSettings.gen.cpp.obj",
+			"ComposureLayersEditor.init.gen.cpp.obj",
+			"EditorCompElementContainer.gen.cpp.obj",
+			"CompElementCollectionViewModel.cpp.obj",
+			"CompElementDragDropOp.cpp.obj",
+			"CompElementEditorModule.cpp.obj",
+			"CompElementManager.cpp.obj",
+			"CompElementViewModel.cpp.obj",
+			"CompositingViewportClient.cpp.obj",
+			"ComposureDetailCustomizations.cpp.obj",
+			"ComposureEditorSettings.cpp.obj",
+			"EditorCompElementContainer.cpp.obj",
+			"SCompElementBrowser.cpp.obj",
+			"SCompElementEdCommandsMenu.cpp.obj",
+			"SCompElementPickerWindow.cpp.obj",
+			"SCompElementPreviewDialog.cpp.obj",
+			"SCompElementPreviewPane.cpp.obj",
+			"SCompElementViewRow.cpp.obj"
+		]
+	}
+}

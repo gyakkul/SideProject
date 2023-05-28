@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ResonanceAudioEditor.cpp.obj": [
+			"ResonanceAudioEditor.init.gen.cpp.obj",
+			"ResonanceAudioEditorModule.cpp.obj",
+			"ResonanceAudioReverbPluginPresetFactory.cpp.obj",
+			"ResonanceAudioSpatializationSourceSettingsFactory.cpp.obj"
+		]
+	}
+}

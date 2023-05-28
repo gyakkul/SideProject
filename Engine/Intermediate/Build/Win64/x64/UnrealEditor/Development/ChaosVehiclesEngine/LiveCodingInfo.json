@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosVehiclesEngine.cpp.obj": [
+			"ChaosVehicles.gen.cpp.obj",
+			"ChaosVehiclesEngine.init.gen.cpp.obj",
+			"ChaosVehicles.cpp.obj",
+			"ChaosVehiclesEngineModule.cpp.obj"
+		]
+	}
+}

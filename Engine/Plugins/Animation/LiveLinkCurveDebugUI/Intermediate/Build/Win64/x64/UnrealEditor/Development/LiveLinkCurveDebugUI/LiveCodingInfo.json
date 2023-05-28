@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkCurveDebugUI.cpp.obj": [
+			"LiveLinkCurveDebugUI.init.gen.cpp.obj",
+			"LiveLinkDebuggerBlueprintLibrary.gen.cpp.obj",
+			"LiveLinkDebuggerSettings.gen.cpp.obj",
+			"LiveLinkCurveDebugUIModule.cpp.obj",
+			"LiveLinkDebugCurveNodeBase.cpp.obj",
+			"LiveLinkDebuggerBlueprintLibrary.cpp.obj",
+			"LiveLinkDebuggerSettings.cpp.obj",
+			"SLiveLinkCurveDebugUI.cpp.obj",
+			"SLiveLinkCurveDebugUIListItem.cpp.obj",
+			"SLiveLinkCurveDebugUITab.cpp.obj"
+		]
+	}
+}

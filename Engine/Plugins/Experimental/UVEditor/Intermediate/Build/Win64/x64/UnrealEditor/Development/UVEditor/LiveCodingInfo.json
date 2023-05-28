@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UVEditor.cpp.obj": [
+			"UVEditor.init.gen.cpp.obj",
+			"UVEditorInitializationContext.gen.cpp.obj",
+			"SUVEditor2DViewport.cpp.obj",
+			"SUVEditor2DViewportToolBar.cpp.obj",
+			"SUVEditor3DViewport.cpp.obj",
+			"SUVEditor3DViewportToolBar.cpp.obj",
+			"UVEditor.cpp.obj",
+			"UVEditor2DViewportClient.cpp.obj",
+			"UVEditor3DViewportClient.cpp.obj",
+			"UVEditorBackgroundPreview.cpp.obj",
+			"UVEditorCommands.cpp.obj",
+			"UVEditorMode.cpp.obj",
+			"UVEditorModeChannelProperties.cpp.obj",
+			"UVEditorModeToolkit.cpp.obj",
+			"UVEditorModeUILayer.cpp.obj",
+			"UVEditorModularFeature.cpp.obj",
+			"UVEditorModule.cpp.obj",
+			"UVEditorSubsystem.cpp.obj",
+			"UVEditorToolkit.cpp.obj"
+		]
+	}
+}

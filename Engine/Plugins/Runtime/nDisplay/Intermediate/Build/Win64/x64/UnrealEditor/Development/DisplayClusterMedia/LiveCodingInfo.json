@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterMedia.cpp.obj": [
+			"DisplayClusterMedia.init.gen.cpp.obj",
+			"SharedMemoryMediaCapture.gen.cpp.obj",
+			"SharedMemoryMediaOutput.gen.cpp.obj",
+			"SharedMemoryMediaSource.gen.cpp.obj",
+			"DisplayClusterMediaCaptureBase.cpp.obj",
+			"DisplayClusterMediaCaptureCamera.cpp.obj",
+			"DisplayClusterMediaCaptureNode.cpp.obj",
+			"DisplayClusterMediaCaptureViewport.cpp.obj",
+			"SharedMemoryMediaCapture.cpp.obj",
+			"SharedMemoryMediaOutput.cpp.obj",
+			"DisplayClusterMediaHelpers.cpp.obj",
+			"DisplayClusterMediaLog.cpp.obj",
+			"DisplayClusterMediaModule.cpp.obj",
+			"DisplayClusterMediaInputBase.cpp.obj",
+			"DisplayClusterMediaInputNode.cpp.obj",
+			"DisplayClusterMediaInputViewport.cpp.obj",
+			"SharedMemoryMediaPlayer.cpp.obj",
+			"SharedMemoryMediaPlayerFactory.cpp.obj",
+			"SharedMemoryMediaSource.cpp.obj",
+			"SharedMemoryMediaPlatformWindowsD3D12.cpp.obj",
+			"SharedMemoryMediaPlatform.cpp.obj",
+			"DisplayClusterFrameQueue.cpp.obj",
+			"DisplayClusterFrameQueueItem.cpp.obj"
+		]
+	}
+}

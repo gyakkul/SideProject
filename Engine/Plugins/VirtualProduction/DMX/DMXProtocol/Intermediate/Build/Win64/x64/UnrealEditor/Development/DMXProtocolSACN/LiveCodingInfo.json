@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXProtocolSACN.cpp.obj": [
+			"DMXProtocolSACN.cpp.obj",
+			"DMXProtocolSACNModule.cpp.obj",
+			"DMXProtocolSACNReceiver.cpp.obj",
+			"DMXProtocolSACNSender.cpp.obj",
+			"DMXProtocolSACNUtils.cpp.obj",
+			"DMXProtocolE131PDUPacket.cpp.obj"
+		]
+	}
+}

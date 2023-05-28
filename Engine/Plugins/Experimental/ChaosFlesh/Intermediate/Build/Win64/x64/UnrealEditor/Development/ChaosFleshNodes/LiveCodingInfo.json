@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosFleshNodes.cpp.obj": [
+			"ChaosFleshBindingsNodes.gen.cpp.obj",
+			"ChaosFleshCoreNodes.gen.cpp.obj",
+			"ChaosFleshFiberDirectionInitializationNodes.gen.cpp.obj",
+			"ChaosFleshNodes.init.gen.cpp.obj",
+			"ChaosFleshRadialTetrahedronNodes.gen.cpp.obj",
+			"ChaosFleshRenderInitializationNodes.gen.cpp.obj",
+			"ChaosFleshSkeletalBindingsNode.gen.cpp.obj",
+			"ChaosFleshTetrahedralNodes.gen.cpp.obj",
+			"ChaosFleshBindingsNodes.cpp.obj",
+			"ChaosFleshCoreNodes.cpp.obj",
+			"ChaosFleshEngineAssetNodes.cpp.obj",
+			"ChaosFleshFiberDirectionInitializationNodes.cpp.obj",
+			"ChaosFleshKinematicInitializationNodes.cpp.obj",
+			"ChaosFleshNodesPlugin.cpp.obj",
+			"ChaosFleshPositionTargetInitializationNodes.cpp.obj",
+			"ChaosFleshRadialTetrahedronNodes.cpp.obj",
+			"ChaosFleshRenderInitializationNodes.cpp.obj",
+			"ChaosFleshSkeletalBindingsNode.cpp.obj",
+			"ChaosFleshTetrahedralNodes.cpp.obj"
+		]
+	}
+}

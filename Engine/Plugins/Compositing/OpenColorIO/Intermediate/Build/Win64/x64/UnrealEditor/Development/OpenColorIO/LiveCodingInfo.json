@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenColorIO.cpp.obj": [
+			"OpenColorIO.init.gen.cpp.obj",
+			"OpenColorIOSettings.gen.cpp.obj",
+			"OpenColorIOBlueprintLibrary.cpp.obj",
+			"OpenColorIOColorSpace.cpp.obj",
+			"OpenColorIOColorTransform.cpp.obj",
+			"OpenColorIOConfiguration.cpp.obj",
+			"OpenColorIODisplayExtension.cpp.obj",
+			"OpenColorIODisplayExtensionWrapper.cpp.obj",
+			"OpenColorIODisplayManager.cpp.obj",
+			"OpenColorIOLibHandler.cpp.obj",
+			"OpenColorIOModule.cpp.obj",
+			"OpenColorIORendering.cpp.obj",
+			"OpenColorIOSettings.cpp.obj",
+			"OpenColorIOShader.cpp.obj",
+			"OpenColorIOShaderCompilationManager.cpp.obj",
+			"OpenColorIOShaderMap.cpp.obj",
+			"OpenColorIOShared.cpp.obj"
+		]
+	}
+}

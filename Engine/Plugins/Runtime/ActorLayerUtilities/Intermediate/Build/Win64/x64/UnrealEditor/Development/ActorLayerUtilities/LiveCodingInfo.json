@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorLayerUtilities.cpp.obj": [
+			"ActorLayerUtilities.init.gen.cpp.obj",
+			"ActorLayerUtilities.cpp.obj"
+		]
+	}
+}

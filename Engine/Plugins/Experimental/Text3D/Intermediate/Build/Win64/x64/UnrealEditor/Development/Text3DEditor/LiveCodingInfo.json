@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Text3DEditor.cpp.obj": [
+			"ActorFactoryText3D.gen.cpp.obj",
+			"Text3DEditor.init.gen.cpp.obj",
+			"ActorFactoryText3D.cpp.obj",
+			"Text3DEditor.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CommonInput.cpp.obj": [
+			"CommonInput.init.gen.cpp.obj",
+			"CommonInputModeTypes.gen.cpp.obj",
+			"CommonInputTypeEnum.gen.cpp.obj",
+			"CommonInputActionDomain.cpp.obj",
+			"CommonInputBaseTypes.cpp.obj",
+			"CommonInputModule.cpp.obj",
+			"CommonInputSettings.cpp.obj",
+			"CommonInputSubsystem.cpp.obj"
+		]
+	}
+}

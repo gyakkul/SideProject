@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNERuntimeORT.cpp.obj": [
+			"NNERuntimeORT.init.gen.cpp.obj",
+			"NNERuntimeORT.cpp.obj",
+			"NNERuntimeORTModel.cpp.obj",
+			"NNERuntimeORTModule.cpp.obj"
+		]
+	}
+}

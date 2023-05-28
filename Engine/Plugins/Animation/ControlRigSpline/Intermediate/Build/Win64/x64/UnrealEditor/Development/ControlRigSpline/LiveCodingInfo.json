@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ControlRigSpline.cpp.obj": [
+			"ControlRigSpline.init.gen.cpp.obj",
+			"ControlRigSplineModule.cpp.obj",
+			"ControlRigSplineTypes.cpp.obj",
+			"ControlRigSplineUnits.cpp.obj"
+		]
+	}
+}

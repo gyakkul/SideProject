@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VCamBlueprintNodes.cpp.obj": [
+			"VCamBlueprintNodes.init.gen.cpp.obj",
+			"VCamK2Node_SwitchConnectionSystemBase.gen.cpp.obj",
+			"VCamK2Node_SwitchOnModifierConnectionPoints.gen.cpp.obj",
+			"VCamK2Node_SwitchOnWidgetConnections.gen.cpp.obj",
+			"VCamK2Node_SwitchConnectionSystemBase.cpp.obj",
+			"VCamK2Node_SwitchOnModifierConnectionPoints.cpp.obj",
+			"VCamK2Node_SwitchOnWidgetConnections.cpp.obj",
+			"VCamBlueprintNodes.cpp.obj",
+			"VCamBlueprintNodesLog.cpp.obj"
+		]
+	}
+}

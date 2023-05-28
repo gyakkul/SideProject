@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderGrid.cpp.obj": [
+			"RenderGrid.gen.cpp.obj",
+			"RenderGrid.init.gen.cpp.obj",
+			"RenderGridManager.gen.cpp.obj",
+			"RenderGridPropsSource.gen.cpp.obj",
+			"RenderGridQueue.gen.cpp.obj",
+			"RenderGridUtils.gen.cpp.obj",
+			"RenderGridPropsSourceFactoryLocal.cpp.obj",
+			"RenderGridPropsSourceFactoryRemoteControl.cpp.obj",
+			"RenderGridModule.cpp.obj",
+			"RenderGridUtils.cpp.obj",
+			"RenderGrid.cpp.obj",
+			"RenderGridBlueprintGeneratedClass.cpp.obj",
+			"RenderGridManager.cpp.obj",
+			"RenderGridPropsSource.cpp.obj",
+			"RenderGridQueue.cpp.obj",
+			"RenderGridGenericExecutionQueue.cpp.obj"
+		]
+	}
+}

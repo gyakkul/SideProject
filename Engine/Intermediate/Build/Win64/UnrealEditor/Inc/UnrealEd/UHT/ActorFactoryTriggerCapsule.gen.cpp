@@ -1,0 +1,88 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "../../../Editor/UnrealEd/Classes/ActorFactories/ActorFactoryTriggerCapsule.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeActorFactoryTriggerCapsule() {}
+// Cross Module References
+	UNREALED_API UClass* Z_Construct_UClass_UActorFactory();
+	UNREALED_API UClass* Z_Construct_UClass_UActorFactoryTriggerCapsule();
+	UNREALED_API UClass* Z_Construct_UClass_UActorFactoryTriggerCapsule_NoRegister();
+	UPackage* Z_Construct_UPackage__Script_UnrealEd();
+// End Cross Module References
+	void UActorFactoryTriggerCapsule::StaticRegisterNativesUActorFactoryTriggerCapsule()
+	{
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UActorFactoryTriggerCapsule);
+	UClass* Z_Construct_UClass_UActorFactoryTriggerCapsule_NoRegister()
+	{
+		return UActorFactoryTriggerCapsule::StaticClass();
+	}
+	struct Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UActorFactory,
+		(UObject* (*)())Z_Construct_UPackage__Script_UnrealEd,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Object Object" },
+		{ "IncludePath", "ActorFactories/ActorFactoryTriggerCapsule.h" },
+		{ "ModuleRelativePath", "Classes/ActorFactories/ActorFactoryTriggerCapsule.h" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UActorFactoryTriggerCapsule>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics::ClassParams = {
+		&UActorFactoryTriggerCapsule::StaticClass,
+		"Editor",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x000830ACu,
+		METADATA_PARAMS(Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UActorFactoryTriggerCapsule()
+	{
+		if (!Z_Registration_Info_UClass_UActorFactoryTriggerCapsule.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UActorFactoryTriggerCapsule.OuterSingleton, Z_Construct_UClass_UActorFactoryTriggerCapsule_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_UActorFactoryTriggerCapsule.OuterSingleton;
+	}
+	template<> UNREALED_API UClass* StaticClass<UActorFactoryTriggerCapsule>()
+	{
+		return UActorFactoryTriggerCapsule::StaticClass();
+	}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UActorFactoryTriggerCapsule);
+	UActorFactoryTriggerCapsule::~UActorFactoryTriggerCapsule() {}
+	struct Z_CompiledInDeferFile_FID_Engine_Source_Editor_UnrealEd_Classes_ActorFactories_ActorFactoryTriggerCapsule_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Editor_UnrealEd_Classes_ActorFactories_ActorFactoryTriggerCapsule_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UActorFactoryTriggerCapsule, UActorFactoryTriggerCapsule::StaticClass, TEXT("UActorFactoryTriggerCapsule"), &Z_Registration_Info_UClass_UActorFactoryTriggerCapsule, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UActorFactoryTriggerCapsule), 774934133U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Editor_UnrealEd_Classes_ActorFactories_ActorFactoryTriggerCapsule_h_2372912905(TEXT("/Script/UnrealEd"),
+		Z_CompiledInDeferFile_FID_Engine_Source_Editor_UnrealEd_Classes_ActorFactories_ActorFactoryTriggerCapsule_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Editor_UnrealEd_Classes_ActorFactories_ActorFactoryTriggerCapsule_h_Statics::ClassInfo),
+		nullptr, 0,
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderResourceViewer.cpp.obj": [
+			"RenderResourceViewerModule.cpp.obj",
+			"SRenderResourceViewer.cpp.obj"
+		]
+	}
+}

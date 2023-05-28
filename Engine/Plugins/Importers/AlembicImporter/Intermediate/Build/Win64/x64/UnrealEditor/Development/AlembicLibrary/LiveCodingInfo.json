@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AlembicLibrary.cpp.obj": [
+			"AlembicLibrary.init.gen.cpp.obj",
+			"AbcAssetImportData.cpp.obj",
+			"AbcFile.cpp.obj",
+			"AbcImporter.cpp.obj",
+			"AbcImportLogger.cpp.obj",
+			"AbcImportSettings.cpp.obj",
+			"AbcImportSettingsCustomization.cpp.obj",
+			"AbcImportUtilities.cpp.obj",
+			"AbcObject.cpp.obj",
+			"AbcPolyMesh.cpp.obj",
+			"AbcTransform.cpp.obj",
+			"AbcUtilities.cpp.obj",
+			"AlembicLibraryModule.cpp.obj",
+			"AlembicTestCommandlet.cpp.obj"
+		]
+	}
+}

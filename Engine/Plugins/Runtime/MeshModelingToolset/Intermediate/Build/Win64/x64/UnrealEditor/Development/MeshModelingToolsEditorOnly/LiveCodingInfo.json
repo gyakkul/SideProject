@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshModelingToolsEditorOnly.cpp.obj": [
+			"MeshModelingToolsEditorOnly.init.gen.cpp.obj",
+			"UVUnwrapToolCustomizations.cpp.obj",
+			"MeshModelingToolsEditorOnly.cpp.obj",
+			"ParameterizeMeshTool.cpp.obj"
+		]
+	}
+}

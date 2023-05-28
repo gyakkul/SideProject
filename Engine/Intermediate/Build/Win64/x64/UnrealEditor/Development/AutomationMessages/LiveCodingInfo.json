@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AutomationMessages.cpp.obj": [
+			"AutomationMessages.init.gen.cpp.obj",
+			"AutomationWorkerMessages.gen.cpp.obj",
+			"AutomationMessagesModule.cpp.obj"
+		]
+	}
+}

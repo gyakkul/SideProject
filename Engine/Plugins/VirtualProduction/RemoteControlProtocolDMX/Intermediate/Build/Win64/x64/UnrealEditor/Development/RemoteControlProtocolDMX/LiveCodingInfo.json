@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteControlProtocolDMX.cpp.obj": [
+			"RemoteControlProtocolDMX.gen.cpp.obj",
+			"RemoteControlProtocolDMX.init.gen.cpp.obj",
+			"RemoteControlProtocolDMXSettings.gen.cpp.obj",
+			"RemoteControlProtocolDMX.cpp.obj",
+			"RemoteControlProtocolDMXModule.cpp.obj",
+			"RemoteControlProtocolDMXObjectVersion.cpp.obj",
+			"RemoteControlProtocolDMXSettings.cpp.obj"
+		]
+	}
+}

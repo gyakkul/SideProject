@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.IoStoreUtilities.cpp.obj": [
+			"IoStoreUtilities.cpp.obj",
+			"PackageStoreManifest.cpp.obj",
+			"PackageStoreOptimizer.cpp.obj",
+			"ZenFileSystemManifest.cpp.obj",
+			"ZenStoreHttpClient.cpp.obj",
+			"ZenStoreWriter.cpp.obj"
+		]
+	}
+}

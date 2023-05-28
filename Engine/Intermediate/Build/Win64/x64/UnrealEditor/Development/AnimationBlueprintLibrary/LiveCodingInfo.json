@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationBlueprintLibrary.1_of_2.cpp.obj": [
+			"AnimationAttributeBlueprintLibrary.gen.cpp.obj",
+			"AnimationBlueprintLibrary.gen.cpp.obj"
+		],
+		"Module.AnimationBlueprintLibrary.2_of_2.cpp.obj": [
+			"AnimationBlueprintLibrary.init.gen.cpp.obj",
+			"AnimPose.gen.cpp.obj",
+			"K2_AnimationAttributeNodes.gen.cpp.obj",
+			"AnimationAttributeBlueprintLibrary.cpp.obj",
+			"AnimationBlueprintLibrary.cpp.obj",
+			"AnimPose.cpp.obj",
+			"K2_AnimationAttributeNodes.cpp.obj"
+		]
+	}
+}

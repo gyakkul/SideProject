@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ToolMenus.cpp.obj": [
+			"ToolMenuDelegates.gen.cpp.obj",
+			"ToolMenuMisc.gen.cpp.obj",
+			"ToolMenuOwner.gen.cpp.obj",
+			"ToolMenus.init.gen.cpp.obj",
+			"ToolMenu.cpp.obj",
+			"ToolMenuContext.cpp.obj",
+			"ToolMenuEntry.cpp.obj",
+			"ToolMenuEntryScript.cpp.obj",
+			"ToolMenus.cpp.obj",
+			"ToolMenusBlueprintLibrary.cpp.obj",
+			"ToolMenuSection.cpp.obj",
+			"ToolMenusModule.cpp.obj"
+		]
+	}
+}

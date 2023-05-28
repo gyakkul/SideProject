@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CADLibrary.cpp.obj": [
+			"CADKernelTools.cpp.obj",
+			"CADLibraryModule.cpp.obj",
+			"MeshDescriptionHelper.cpp.obj",
+			"MeshEditingWrapper.cpp.obj",
+			"MeshOperator.cpp.obj"
+		]
+	}
+}

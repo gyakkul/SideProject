@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UVEditorToolsEditorOnly.cpp.obj": [
+			"UVEditorToolsEditorOnly.init.gen.cpp.obj",
+			"UVEditorSeamToolCustomizations.cpp.obj",
+			"UVTransformToolCustomizations.cpp.obj",
+			"UVEditorParameterizeMeshTool.cpp.obj",
+			"UVEditorToolsEditorOnlyModule.cpp.obj"
+		]
+	}
+}

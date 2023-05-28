@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineServicesCommon.cpp.obj": [
+			"OnlineServicesCommonModule.cpp.obj",
+			"AchievementsCommon.cpp.obj",
+			"AuthCommon.cpp.obj",
+			"CommerceCommon.cpp.obj",
+			"ConnectivityCommon.cpp.obj",
+			"ExternalUICommon.cpp.obj",
+			"LeaderboardsCommon.cpp.obj",
+			"LobbiesCommon.cpp.obj",
+			"LobbiesCommonTests.cpp.obj",
+			"LobbiesCommonTypes.cpp.obj",
+			"NboSerializerCommonSvc.cpp.obj",
+			"OnlineAsyncOpCache.cpp.obj",
+			"OnlineConfig.cpp.obj",
+			"OnlineExecHandler.cpp.obj",
+			"OnlineServicesCommon.cpp.obj",
+			"OnlineSyntaxTests.cpp.obj",
+			"PresenceCommon.cpp.obj",
+			"PrivilegesCommon.cpp.obj",
+			"SessionsCommon.cpp.obj",
+			"SocialCommon.cpp.obj",
+			"StatsCommon.cpp.obj",
+			"TitleFileCommon.cpp.obj",
+			"UserFileCommon.cpp.obj",
+			"UserInfoCommon.cpp.obj"
+		]
+	}
+}

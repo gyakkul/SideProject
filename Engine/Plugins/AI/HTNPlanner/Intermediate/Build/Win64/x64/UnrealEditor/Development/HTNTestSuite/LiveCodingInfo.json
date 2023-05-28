@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HTNTestSuite.cpp.obj": [
+			"HTNTestSuite.init.gen.cpp.obj",
+			"MockHTN.gen.cpp.obj",
+			"HTNTest.cpp.obj",
+			"HTNTestSuiteModule.cpp.obj"
+		]
+	}
+}

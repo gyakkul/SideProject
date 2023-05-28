@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WorldConditionsEditor.cpp.obj": [
+			"WorldConditionContextDataRefDetails.cpp.obj",
+			"WorldConditionEditableDetails.cpp.obj",
+			"WorldConditionQueryDefinitionDetails.cpp.obj",
+			"WorldConditionEditorStyle.cpp.obj",
+			"WorldConditionsEditorModule.cpp.obj"
+		]
+	}
+}

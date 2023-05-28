@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MLDeformerFrameworkEditor.cpp.obj": [
+			"MLDeformerAssetFactory.gen.cpp.obj",
+			"MLDeformerEditorModel.gen.cpp.obj",
+			"MLDeformerFrameworkEditor.init.gen.cpp.obj",
+			"MLDeformerTrainingModel.gen.cpp.obj",
+			"MLDeformerApplicationMode.cpp.obj",
+			"MLDeformerAssetActions.cpp.obj",
+			"MLDeformerAssetFactory.cpp.obj",
+			"MLDeformerCurveReferenceCustomization.cpp.obj",
+			"MLDeformerEditorActor.cpp.obj",
+			"MLDeformerEditorMode.cpp.obj",
+			"MLDeformerEditorModel.cpp.obj",
+			"MLDeformerEditorModule.cpp.obj",
+			"MLDeformerEditorStyle.cpp.obj",
+			"MLDeformerEditorToolkit.cpp.obj",
+			"MLDeformerGeomCacheActor.cpp.obj",
+			"MLDeformerGeomCacheEditorModel.cpp.obj",
+			"MLDeformerGeomCacheModelDetails.cpp.obj",
+			"MLDeformerGeomCacheSampler.cpp.obj",
+			"MLDeformerGeomCacheVizSettingsDetails.cpp.obj",
+			"MLDeformerModelDetails.cpp.obj",
+			"MLDeformerModelRegistry.cpp.obj",
+			"MLDeformerMorphModelDetails.cpp.obj",
+			"MLDeformerMorphModelEditorModel.cpp.obj",
+			"MLDeformerMorphModelQualityLevelCustomization.cpp.obj",
+			"MLDeformerMorphModelVizSettingsDetails.cpp.obj",
+			"MLDeformerSampler.cpp.obj",
+			"MLDeformerTimelineTabSummoner.cpp.obj",
+			"MLDeformerTrainingModel.cpp.obj",
+			"MLDeformerVizSettingsDetails.cpp.obj",
+			"MLDeformerVizSettingsTabSummoner.cpp.obj",
+			"SMLDeformerCurvePickerWidget.cpp.obj",
+			"SMLDeformerTimeline.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VirtualCamera.1_of_4.cpp.obj": [
+			"ConcertVirtualCamera.gen.cpp.obj",
+			"IVirtualCameraController.gen.cpp.obj",
+			"IVirtualCameraOptions.gen.cpp.obj",
+			"IVirtualCameraPresetContainer.gen.cpp.obj",
+			"LevelSequencePlaybackController.gen.cpp.obj",
+			"VCamBlueprintFunctionLibrary.gen.cpp.obj"
+		],
+		"Module.VirtualCamera.2_of_4.cpp.obj": [
+			"VirtualCamera.init.gen.cpp.obj",
+			"VirtualCameraActor.gen.cpp.obj",
+			"VirtualCameraCineCameraComponent.gen.cpp.obj",
+			"VirtualCameraClipsMetaData.gen.cpp.obj",
+			"VirtualCameraConcertCameraComponent.gen.cpp.obj",
+			"VirtualCameraMovement.gen.cpp.obj",
+			"VirtualCameraMovementComponent.gen.cpp.obj",
+			"VirtualCameraPawnBase.gen.cpp.obj",
+			"VirtualCameraPlayerControllerBase.gen.cpp.obj"
+		],
+		"Module.VirtualCamera.3_of_4.cpp.obj": [
+			"VirtualCameraSaveGame.gen.cpp.obj",
+			"VirtualCameraSubsystem.gen.cpp.obj",
+			"VirtualCameraUserSettings.gen.cpp.obj",
+			"ConcertVirtualCamera.cpp.obj",
+			"LevelSequencePlaybackController.cpp.obj",
+			"VirtualCameraClipsMetaData.cpp.obj",
+			"VCamBlueprintFunctionLibrary.cpp.obj",
+			"VirtualCamera.cpp.obj",
+			"VirtualCameraActor.cpp.obj",
+			"VirtualCameraCineCameraComponent.cpp.obj",
+			"VirtualCameraConcertCameraComponent.cpp.obj",
+			"VirtualCameraMovement.cpp.obj",
+			"VirtualCameraMovementComponent.cpp.obj",
+			"VirtualCameraPawnBase.cpp.obj",
+			"VirtualCameraPlayerControllerBase.cpp.obj",
+			"VirtualCameraSaveGame.cpp.obj",
+			"VirtualCameraSubsystem.cpp.obj"
+		],
+		"Module.VirtualCamera.4_of_4.cpp.obj": [
+			"VirtualCameraUserSettings.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MLAdapterTestSuite.cpp.obj": [
+			"AgentTest.cpp.obj",
+			"MLAdapterTestSuiteModule.cpp.obj",
+			"RPCServerTest.cpp.obj",
+			"SessionTest.cpp.obj"
+		]
+	}
+}

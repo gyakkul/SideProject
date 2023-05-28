@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Bridge.cpp.obj": [
+			"Bridge.init.gen.cpp.obj",
+			"BridgeModule.cpp.obj",
+			"NodeCommManager.cpp.obj",
+			"NodePort.cpp.obj",
+			"NodeProcess.cpp.obj",
+			"NodeProcessRunnableThread.cpp.obj",
+			"BridgeStyle.cpp.obj",
+			"BridgeUIManager.cpp.obj",
+			"BrowserBinding.cpp.obj"
+		]
+	}
+}

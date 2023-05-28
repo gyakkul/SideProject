@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ClothingSystemEditorInterface.cpp.obj": [
+			"ClothingAssetFactoryInterface.gen.cpp.obj",
+			"ClothingSystemEditorInterface.init.gen.cpp.obj",
+			"ClothingAssetFactoryInterface.cpp.obj",
+			"ClothingSystemEditorInterfaceModule.cpp.obj"
+		]
+	}
+}

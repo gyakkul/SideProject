@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MovieRenderPipelineEditor.cpp.obj": [
+			"MoviePipelinePIEExecutorSettings.gen.cpp.obj",
+			"MovieRenderPipelineEditor.init.gen.cpp.obj",
+			"AssetTypeActions_PipelineConfigs.cpp.obj",
+			"MoviePipelineAssetEditor.cpp.obj",
+			"MoviePipelineCommands.cpp.obj",
+			"MoviePipelineConfigAssetEditor.cpp.obj",
+			"MoviePipelineConfigFactory.cpp.obj",
+			"MoviePipelineEditorBlueprintLibrary.cpp.obj",
+			"MoviePipelineFunctionalTestBase.cpp.obj",
+			"MoviePipelineNewProcessExecutor.cpp.obj",
+			"MoviePipelinePIEExecutor.cpp.obj",
+			"MoviePipelineQueueSubsystem.cpp.obj",
+			"MovieRenderPipelineEditorModule.cpp.obj",
+			"MovieRenderPipelineSettings.cpp.obj",
+			"MovieRenderPipelineStyle.cpp.obj",
+			"SMoviePipelineConfigEditor.cpp.obj",
+			"SMoviePipelineConfigPanel.cpp.obj",
+			"SMoviePipelineConfigSettings.cpp.obj",
+			"SMoviePipelineConfigTabContent.cpp.obj",
+			"SMoviePipelineQueueEditor.cpp.obj",
+			"SMoviePipelineQueuePanel.cpp.obj",
+			"SMoviePipelineQueueTabContent.cpp.obj"
+		]
+	}
+}

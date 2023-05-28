@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryFlowMeshProcessingEditor.cpp.obj": [
+			"GeometryFlowMeshProcessingEditorModule.cpp.obj",
+			"MeshAutoGenerateUVsNode.cpp.obj"
+		]
+	}
+}

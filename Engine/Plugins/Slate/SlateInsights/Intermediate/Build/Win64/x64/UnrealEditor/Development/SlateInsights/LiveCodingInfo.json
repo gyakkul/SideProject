@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SlateInsights.cpp.obj": [
+			"SlateAnalyzer.cpp.obj",
+			"SlateFrameGraphTrack.cpp.obj",
+			"SlateInsightsModule.cpp.obj",
+			"SlateProvider.cpp.obj",
+			"SlateTimingViewExtender.cpp.obj",
+			"SlateTimingViewSession.cpp.obj",
+			"SlateTraceModule.cpp.obj",
+			"SlateWidgetUpdateStepsTimingTrack.cpp.obj",
+			"SSlateFrameSchematicView.cpp.obj",
+			"SSlateTraceFlags.cpp.obj"
+		]
+	}
+}

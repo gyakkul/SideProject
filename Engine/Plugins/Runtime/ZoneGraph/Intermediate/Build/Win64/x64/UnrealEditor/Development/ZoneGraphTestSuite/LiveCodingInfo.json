@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ZoneGraphTestSuite.cpp.obj": [
+			"ZoneGraphTest.cpp.obj",
+			"ZoneGraphTestSuite.cpp.obj"
+		]
+	}
+}

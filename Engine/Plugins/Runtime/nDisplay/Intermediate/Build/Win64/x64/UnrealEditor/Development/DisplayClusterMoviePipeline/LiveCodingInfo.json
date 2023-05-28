@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterMoviePipeline.cpp.obj": [
+			"DisplayClusterMoviePipeline.init.gen.cpp.obj",
+			"DisplayClusterMoviePipelineSettings.gen.cpp.obj",
+			"DisplayClusterMoviePipelineViewportPass.gen.cpp.obj",
+			"DisplayClusterMoviePipelineSettings.cpp.obj",
+			"DisplayClusterMoviePipelineViewportPass.cpp.obj"
+		]
+	}
+}

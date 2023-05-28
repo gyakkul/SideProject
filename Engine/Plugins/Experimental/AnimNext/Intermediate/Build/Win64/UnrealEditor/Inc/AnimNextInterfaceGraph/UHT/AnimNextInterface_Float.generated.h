@@ -1,0 +1,485 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "AnimNextInterface_Float.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef ANIMNEXTINTERFACEGRAPH_AnimNextInterface_Float_generated_h
+#error "AnimNextInterface_Float.generated.h already included, missing '#pragma once' in AnimNextInterface_Float.h"
+#endif
+#define ANIMNEXTINTERFACEGRAPH_AnimNextInterface_Float_generated_h
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterfaceFloat(); \
+	friend struct Z_Construct_UClass_UAnimNextInterfaceFloat_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterfaceFloat, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterfaceFloat) \
+	virtual UObject* _getUObject() const override { return const_cast<UAnimNextInterfaceFloat*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_INCLASS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterfaceFloat(); \
+	friend struct Z_Construct_UClass_UAnimNextInterfaceFloat_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterfaceFloat, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterfaceFloat) \
+	virtual UObject* _getUObject() const override { return const_cast<UAnimNextInterfaceFloat*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterfaceFloat(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterfaceFloat) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterfaceFloat); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterfaceFloat); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterfaceFloat(UAnimNextInterfaceFloat&&); \
+	NO_API UAnimNextInterfaceFloat(const UAnimNextInterfaceFloat&); \
+public: \
+	NO_API virtual ~UAnimNextInterfaceFloat();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterfaceFloat(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterfaceFloat(UAnimNextInterfaceFloat&&); \
+	NO_API UAnimNextInterfaceFloat(const UAnimNextInterfaceFloat&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterfaceFloat); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterfaceFloat); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterfaceFloat) \
+	NO_API virtual ~UAnimNextInterfaceFloat();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_11_PROLOG
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_INCLASS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_14_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ANIMNEXTINTERFACEGRAPH_API UClass* StaticClass<class UAnimNextInterfaceFloat>();
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_Literal(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_Literal_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_Literal, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_Literal)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_INCLASS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_Literal(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_Literal_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_Literal, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_Literal)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_Literal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_Literal) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_Literal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_Literal); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_Literal(UAnimNextInterface_Float_Literal&&); \
+	NO_API UAnimNextInterface_Float_Literal(const UAnimNextInterface_Float_Literal&); \
+public: \
+	NO_API virtual ~UAnimNextInterface_Float_Literal();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_Literal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_Literal(UAnimNextInterface_Float_Literal&&); \
+	NO_API UAnimNextInterface_Float_Literal(const UAnimNextInterface_Float_Literal&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_Literal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_Literal); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_Literal) \
+	NO_API virtual ~UAnimNextInterface_Float_Literal();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_29_PROLOG
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_INCLASS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_32_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ANIMNEXTINTERFACEGRAPH_API UClass* StaticClass<class UAnimNextInterface_Float_Literal>();
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_Multiply(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_Multiply_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_Multiply, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_Multiply)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_INCLASS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_Multiply(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_Multiply_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_Multiply, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_Multiply)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_Multiply(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_Multiply) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_Multiply); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_Multiply); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_Multiply(UAnimNextInterface_Float_Multiply&&); \
+	NO_API UAnimNextInterface_Float_Multiply(const UAnimNextInterface_Float_Multiply&); \
+public: \
+	NO_API virtual ~UAnimNextInterface_Float_Multiply();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_Multiply(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_Multiply(UAnimNextInterface_Float_Multiply&&); \
+	NO_API UAnimNextInterface_Float_Multiply(const UAnimNextInterface_Float_Multiply&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_Multiply); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_Multiply); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_Multiply) \
+	NO_API virtual ~UAnimNextInterface_Float_Multiply();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_45_PROLOG
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_INCLASS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_48_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ANIMNEXTINTERFACEGRAPH_API UClass* StaticClass<class UAnimNextInterface_Float_Multiply>();
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_InterpTo(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_InterpTo_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_InterpTo, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_InterpTo)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_INCLASS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_InterpTo(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_InterpTo_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_InterpTo, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_InterpTo)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_InterpTo(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_InterpTo) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_InterpTo); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_InterpTo); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_InterpTo(UAnimNextInterface_Float_InterpTo&&); \
+	NO_API UAnimNextInterface_Float_InterpTo(const UAnimNextInterface_Float_InterpTo&); \
+public: \
+	NO_API virtual ~UAnimNextInterface_Float_InterpTo();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_InterpTo(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_InterpTo(UAnimNextInterface_Float_InterpTo&&); \
+	NO_API UAnimNextInterface_Float_InterpTo(const UAnimNextInterface_Float_InterpTo&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_InterpTo); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_InterpTo); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_InterpTo) \
+	NO_API virtual ~UAnimNextInterface_Float_InterpTo();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_57_PROLOG
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_INCLASS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_60_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ANIMNEXTINTERFACEGRAPH_API UClass* StaticClass<class UAnimNextInterface_Float_InterpTo>();
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_DeltaTime(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_DeltaTime_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_DeltaTime, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_DeltaTime)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_INCLASS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_DeltaTime(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_DeltaTime_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_DeltaTime, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_DeltaTime)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_DeltaTime(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_DeltaTime) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_DeltaTime); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_DeltaTime); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_DeltaTime(UAnimNextInterface_Float_DeltaTime&&); \
+	NO_API UAnimNextInterface_Float_DeltaTime(const UAnimNextInterface_Float_DeltaTime&); \
+public: \
+	NO_API virtual ~UAnimNextInterface_Float_DeltaTime();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_DeltaTime(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_DeltaTime(UAnimNextInterface_Float_DeltaTime&&); \
+	NO_API UAnimNextInterface_Float_DeltaTime(const UAnimNextInterface_Float_DeltaTime&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_DeltaTime); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_DeltaTime); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_DeltaTime) \
+	NO_API virtual ~UAnimNextInterface_Float_DeltaTime();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_75_PROLOG
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_INCLASS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_78_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ANIMNEXTINTERFACEGRAPH_API UClass* StaticClass<class UAnimNextInterface_Float_DeltaTime>();
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_SpringInterp(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_SpringInterp_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_SpringInterp, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_SpringInterp)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_INCLASS \
+private: \
+	static void StaticRegisterNativesUAnimNextInterface_Float_SpringInterp(); \
+	friend struct Z_Construct_UClass_UAnimNextInterface_Float_SpringInterp_Statics; \
+public: \
+	DECLARE_CLASS(UAnimNextInterface_Float_SpringInterp, UAnimNextInterfaceFloat, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AnimNextInterfaceGraph"), NO_API) \
+	DECLARE_SERIALIZER(UAnimNextInterface_Float_SpringInterp)
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_SpringInterp(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_SpringInterp) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_SpringInterp); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_SpringInterp); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_SpringInterp(UAnimNextInterface_Float_SpringInterp&&); \
+	NO_API UAnimNextInterface_Float_SpringInterp(const UAnimNextInterface_Float_SpringInterp&); \
+public: \
+	NO_API virtual ~UAnimNextInterface_Float_SpringInterp();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAnimNextInterface_Float_SpringInterp(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAnimNextInterface_Float_SpringInterp(UAnimNextInterface_Float_SpringInterp&&); \
+	NO_API UAnimNextInterface_Float_SpringInterp(const UAnimNextInterface_Float_SpringInterp&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAnimNextInterface_Float_SpringInterp); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimNextInterface_Float_SpringInterp); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAnimNextInterface_Float_SpringInterp) \
+	NO_API virtual ~UAnimNextInterface_Float_SpringInterp();
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_88_PROLOG
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_INCLASS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h_91_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ANIMNEXTINTERFACEGRAPH_API UClass* StaticClass<class UAnimNextInterface_Float_SpringInterp>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_AnimNext_Source_AnimNextInterfaceGraph_Private_AnimNextInterface_Float_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RCWebIntf.cpp.obj": [
+			"RCWebInterfaceLibrary.gen.cpp.obj",
+			"RemoteControlWebInterface.init.gen.cpp.obj",
+			"RCWebInterface.cpp.obj",
+			"RCWebInterfaceCustomizations.cpp.obj",
+			"RCWebInterfaceLibrary.cpp.obj",
+			"RCWebInterfaceProcess.cpp.obj"
+		]
+	}
+}

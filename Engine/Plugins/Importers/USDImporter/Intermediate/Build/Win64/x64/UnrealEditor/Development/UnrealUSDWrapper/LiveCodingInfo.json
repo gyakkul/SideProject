@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UnrealUSDWrapper.cpp.obj": [
+			"UnrealUSDWrapper.gen.cpp.obj",
+			"UnrealUSDWrapper.init.gen.cpp.obj",
+			"UnrealUSDWrapper.cpp.obj",
+			"USDListener.cpp.obj",
+			"USDMemory.cpp.obj",
+			"SdfAttributeSpec.cpp.obj",
+			"SdfChangeBlock.cpp.obj",
+			"SdfLayer.cpp.obj",
+			"SdfPath.cpp.obj",
+			"SdfPrimSpec.cpp.obj",
+			"UsdAttribute.cpp.obj",
+			"UsdEditContext.cpp.obj",
+			"UsdGeomXformable.cpp.obj",
+			"UsdPrim.cpp.obj",
+			"UsdStage.cpp.obj",
+			"UsdTyped.cpp.obj",
+			"VtValue.cpp.obj"
+		]
+	}
+}

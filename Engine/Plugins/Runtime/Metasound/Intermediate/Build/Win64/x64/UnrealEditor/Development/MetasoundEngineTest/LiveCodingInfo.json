@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MetasoundEngineTest.cpp.obj": [
+			"EngineTestMetasoundSource.cpp.obj",
+			"EngineTestMetasoundWavePlayer.cpp.obj",
+			"MetasoundEngineTestModule.cpp.obj",
+			"NodeTestGraphBuilder.cpp.obj"
+		]
+	}
+}

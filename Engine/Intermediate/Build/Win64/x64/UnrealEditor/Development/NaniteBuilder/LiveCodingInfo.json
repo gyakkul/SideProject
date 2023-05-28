@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NaniteBuilder.cpp.obj": [
+			"Cluster.cpp.obj",
+			"ClusterDAG.cpp.obj",
+			"GraphPartitioner.cpp.obj",
+			"ImposterAtlas.cpp.obj",
+			"NaniteBuilder.cpp.obj",
+			"NaniteDisplace.cpp.obj",
+			"NaniteEncode.cpp.obj",
+			"NaniteRayTracingEncode.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\actorlayerutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\actorlayerutilities\\module.actorlayerutilities.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\actorlayerutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\actorlayerutilities\\definitions.actorlayerutilities.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\actorlayerutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\actorlayerutilities\\uht\\actorlayerutilities.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\actorlayerutilities\\source\\actorlayerutilities\\private\\actorlayerutilities.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\actorlayerutilities\\source\\actorlayerutilities\\public\\actorlayerutilities.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\actorlayerutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\actorlayerutilities\\uht\\actorlayerutilities.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\engineutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\actorlayerutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\actorlayerutilities\\uht\\actorlayerutilities.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

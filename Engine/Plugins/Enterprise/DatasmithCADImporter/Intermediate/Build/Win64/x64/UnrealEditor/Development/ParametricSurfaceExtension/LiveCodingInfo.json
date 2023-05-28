@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ParametricSurfaceExtension.cpp.obj": [
+			"DataprepTessellationOperation.gen.cpp.obj",
+			"ParametricRetessellateAction.gen.cpp.obj",
+			"ParametricSurfaceBlueprintLibrary.gen.cpp.obj",
+			"ParametricSurfaceExtension.init.gen.cpp.obj",
+			"DataprepTessellationOperation.cpp.obj",
+			"ParametricRetessellateAction.cpp.obj",
+			"ParametricSurfaceBlueprintLibrary.cpp.obj",
+			"ParametricSurfaceExtensionModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\graph\\contrib_ops\\onnx_deprecated_operators.cc",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nneort\\pch.nneonnxruntime.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\dependencies\\onnx\\include\\onnx\\defs\\tensor_proto_util.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\graph\\contrib_ops\\contrib_defs.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\graph\\contrib_ops\\ms_schema.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

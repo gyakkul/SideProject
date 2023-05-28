@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeTests.cpp.obj": [
+			"InterchangeImportTestSettings.gen.cpp.obj",
+			"InterchangeTests.init.gen.cpp.obj",
+			"MaterialXTestFunctions.gen.cpp.obj",
+			"ActorImportTestFunctions.cpp.obj",
+			"AnimationImportTestFunctions.cpp.obj",
+			"AssetImportTestFunctions.cpp.obj",
+			"ImportTestFunctionsBase.cpp.obj",
+			"InterchangeResultImportTestFunctions.cpp.obj",
+			"LevelSequenceImportTestFunctions.cpp.obj",
+			"LevelVariantSetsImportTestFunctions.cpp.obj",
+			"MaterialImportTestFunctions.cpp.obj",
+			"MaterialXTestFunctions.cpp.obj",
+			"SkeletalMeshImportTestFunctions.cpp.obj",
+			"StaticMeshImportTestFunctions.cpp.obj",
+			"TextureImportTestFunctions.cpp.obj",
+			"InterchangeImportTest.cpp.obj",
+			"InterchangeImportTestPlan.cpp.obj",
+			"InterchangeImportTestStepBase.cpp.obj",
+			"InterchangeImportTestStepImport.cpp.obj",
+			"InterchangeImportTestStepReimport.cpp.obj",
+			"InterchangeTestFunction.cpp.obj",
+			"InterchangeTestsModule.cpp.obj"
+		]
+	}
+}

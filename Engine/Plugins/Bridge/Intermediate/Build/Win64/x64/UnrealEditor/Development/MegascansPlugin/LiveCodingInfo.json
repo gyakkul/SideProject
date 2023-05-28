@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MegascansPlugin.cpp.obj": [
+			"MegascansPlugin.init.gen.cpp.obj",
+			"MSAssetImportData.gen.cpp.obj",
+			"VersionInfoHandler.gen.cpp.obj",
+			"DHIImport.cpp.obj",
+			"ImportFactory.cpp.obj",
+			"ProgressiveImport3D.cpp.obj",
+			"ProgressiveImportSurfaces.cpp.obj",
+			"UAssetNormalImport.cpp.obj",
+			"AssetsImportController.cpp.obj",
+			"BridgeDragDropHelper.cpp.obj",
+			"BridgeDragDropUtils.cpp.obj",
+			"MegascansLiveLinkModule.cpp.obj",
+			"TCPServer.cpp.obj",
+			"BlendMaterials.cpp.obj",
+			"MaterialBlendingDetails.cpp.obj",
+			"MSSettings.cpp.obj",
+			"SMSWindow.cpp.obj",
+			"MaterialUtils.cpp.obj",
+			"MiscUtils.cpp.obj",
+			"VersionInfoHandler.cpp.obj"
+		]
+	}
+}

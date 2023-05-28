@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationBlueprintEditor.cpp.obj": [
+			"AnimationBlueprintEditor.init.gen.cpp.obj",
+			"AnimationBlueprintEditorSettings.gen.cpp.obj",
+			"AnimationBlueprintToolMenuContext.gen.cpp.obj",
+			"AnimationBlueprintEditor.cpp.obj",
+			"AnimationBlueprintEditorMode.cpp.obj",
+			"AnimationBlueprintEditorModule.cpp.obj",
+			"AnimationBlueprintEditorSettings.cpp.obj",
+			"AnimationBlueprintInterfaceEditorMode.cpp.obj",
+			"AnimationGraphFactory.cpp.obj",
+			"SAnimationGraphNode.cpp.obj",
+			"SAnimNodeReference.cpp.obj",
+			"SBlendSpacePreview.cpp.obj",
+			"SGraphNodeAnimationResult.cpp.obj",
+			"SGraphNodeBlendSpaceGraph.cpp.obj",
+			"SGraphNodeBlendSpacePlayer.cpp.obj",
+			"SGraphNodeLayeredBoneBlend.cpp.obj",
+			"SGraphNodeLinkedLayer.cpp.obj",
+			"SGraphNodeSequencePlayer.cpp.obj",
+			"SGraphNodeStateMachineInstance.cpp.obj",
+			"SPoseWatchOverlay.cpp.obj",
+			"SGraphPinPose.cpp.obj",
+			"SGraphNodeAnimState.cpp.obj",
+			"SGraphNodeAnimStateAlias.cpp.obj",
+			"SGraphNodeAnimStateEntry.cpp.obj",
+			"SGraphNodeAnimTransition.cpp.obj",
+			"AnimGraphConnectionDrawingPolicy.cpp.obj",
+			"BlendSpaceDocumentTabFactory.cpp.obj",
+			"StateMachineConnectionDrawingPolicy.cpp.obj"
+		]
+	}
+}

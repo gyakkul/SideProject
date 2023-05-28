@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassNavigation.cpp.obj": [
+			"MassAvoidanceFragments.gen.cpp.obj",
+			"MassAvoidanceProcessors.gen.cpp.obj",
+			"MassAvoidanceTrait.gen.cpp.obj",
+			"MassNavigation.init.gen.cpp.obj",
+			"MassNavigationFragments.gen.cpp.obj",
+			"MassNavigationObstacleTrait.gen.cpp.obj",
+			"MassNavigationProcessors.gen.cpp.obj",
+			"MassNavigationSubsystem.gen.cpp.obj",
+			"MassNavigationTypes.gen.cpp.obj",
+			"MassSmoothOrientationFragments.gen.cpp.obj",
+			"MassSmoothOrientationProcessors.gen.cpp.obj",
+			"MassSmoothOrientationTrait.gen.cpp.obj",
+			"MassSteeringFragments.gen.cpp.obj",
+			"MassSteeringProcessors.gen.cpp.obj",
+			"MassSteeringTrait.gen.cpp.obj",
+			"MassAvoidanceProcessors.cpp.obj",
+			"MassAvoidanceTrait.cpp.obj",
+			"MassNavigationFragments.cpp.obj",
+			"MassNavigationModule.cpp.obj",
+			"MassNavigationObstacleTrait.cpp.obj",
+			"MassNavigationProcessors.cpp.obj",
+			"MassNavigationSubsystem.cpp.obj",
+			"MassNavigationTypes.cpp.obj",
+			"MassSmoothOrientationProcessors.cpp.obj",
+			"MassSmoothOrientationTrait.cpp.obj",
+			"MassSteeringProcessors.cpp.obj",
+			"MassSteeringTrait.cpp.obj"
+		]
+	}
+}

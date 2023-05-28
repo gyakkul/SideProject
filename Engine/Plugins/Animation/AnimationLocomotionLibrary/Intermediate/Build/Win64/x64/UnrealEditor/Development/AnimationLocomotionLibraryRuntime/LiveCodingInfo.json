@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationLocomotionLibraryRuntime.cpp.obj": [
+			"AnimationLocomotionLibraryRuntime.init.gen.cpp.obj",
+			"AnimCharacterMovementLibrary.gen.cpp.obj",
+			"AnimDistanceMatchingLibrary.gen.cpp.obj",
+			"AnimationLocomotionLibraryModule.cpp.obj",
+			"AnimCharacterMovementLibrary.cpp.obj",
+			"AnimDistanceMatchingLibrary.cpp.obj"
+		]
+	}
+}

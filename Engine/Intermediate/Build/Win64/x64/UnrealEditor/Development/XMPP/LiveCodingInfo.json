@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.XMPP.cpp.obj": [
+			"XmppConnection.cpp.obj",
+			"XmppModule.cpp.obj",
+			"XmppNull.cpp.obj",
+			"StropheConnection.cpp.obj",
+			"StropheContext.cpp.obj",
+			"StropheError.cpp.obj",
+			"StropheStanza.cpp.obj",
+			"StropheWebsocketConnection.cpp.obj",
+			"XmppConnectionStrophe.cpp.obj",
+			"XmppMessagesStrophe.cpp.obj",
+			"XmppMultiUserChatStrophe.cpp.obj",
+			"XmppPingStrophe.cpp.obj",
+			"XmppPresenceStrophe.cpp.obj",
+			"XmppPrivateChatStrophe.cpp.obj",
+			"XmppPubSubStrophe.cpp.obj",
+			"XmppStrophe.cpp.obj",
+			"XmppStropheThread.cpp.obj",
+			"XmppTests.cpp.obj"
+		]
+	}
+}

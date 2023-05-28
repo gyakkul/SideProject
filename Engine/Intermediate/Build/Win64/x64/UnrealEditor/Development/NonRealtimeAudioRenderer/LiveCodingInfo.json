@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NonRealtimeAudioRenderer.cpp.obj": [
+			"AudioMixerNonRealtime.cpp.obj",
+			"AudioMixerPlatformNonRealtime.cpp.obj"
+		]
+	}
+}

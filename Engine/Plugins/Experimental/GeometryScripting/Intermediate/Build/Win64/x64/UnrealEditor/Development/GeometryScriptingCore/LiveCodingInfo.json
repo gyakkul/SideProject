@@ -1,0 +1,46 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryScriptingCore.cpp.obj": [
+			"GeometryScriptingCore.init.gen.cpp.obj",
+			"GeometryScriptTypes.gen.cpp.obj",
+			"CollisionFunctions.cpp.obj",
+			"ContainmentFunctions.cpp.obj",
+			"GeometryScriptingCoreModule.cpp.obj",
+			"GeometryScriptSelectionTypes.cpp.obj",
+			"GeometryScriptTypes.cpp.obj",
+			"ListUtilityFunctions.cpp.obj",
+			"MeshAssetFunctions.cpp.obj",
+			"MeshBakeFunctions.cpp.obj",
+			"MeshBasicEditFunctions.cpp.obj",
+			"MeshBoneWeightFunctions.cpp.obj",
+			"MeshBooleanFunctions.cpp.obj",
+			"MeshComparisonFunctions.cpp.obj",
+			"MeshDecompositionFunctions.cpp.obj",
+			"MeshDeformFunctions.cpp.obj",
+			"MeshMaterialFunctions.cpp.obj",
+			"MeshModelingFunctions.cpp.obj",
+			"MeshNormalsFunctions.cpp.obj",
+			"MeshPolygroupFunctions.cpp.obj",
+			"MeshPrimitiveFunctions.cpp.obj",
+			"MeshQueryFunctions.cpp.obj",
+			"MeshRemeshFunctions.cpp.obj",
+			"MeshRepairFunctions.cpp.obj",
+			"MeshSamplingFunctions.cpp.obj",
+			"MeshSelectionFunctions.cpp.obj",
+			"MeshSelectionQueryFunctions.cpp.obj",
+			"MeshSimplifyFunctions.cpp.obj",
+			"MeshSpatialFunctions.cpp.obj",
+			"MeshSubdivideFunctions.cpp.obj",
+			"MeshTransformFunctions.cpp.obj",
+			"MeshUVFunctions.cpp.obj",
+			"MeshVertexColorFunctions.cpp.obj",
+			"MeshVoxelFunctions.cpp.obj",
+			"PolyPathFunctions.cpp.obj",
+			"SceneUtilityFunctions.cpp.obj",
+			"ShapeFunctions.cpp.obj",
+			"TextureMapFunctions.cpp.obj",
+			"VectorMathFunctions.cpp.obj"
+		]
+	}
+}

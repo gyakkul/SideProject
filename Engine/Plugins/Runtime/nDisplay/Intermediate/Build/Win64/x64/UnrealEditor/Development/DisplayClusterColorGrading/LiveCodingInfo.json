@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterColorGrading.cpp.obj": [
+			"DisplayClusterColorGradingGenerator_ColorCorrectRegion.cpp.obj",
+			"DisplayClusterColorGradingGenerator_PostProcessVolume.cpp.obj",
+			"DisplayClusterColorGradingGenerator_RootActor.cpp.obj",
+			"SDisplayClusterColorGradingDetailTreeRow.cpp.obj",
+			"SDisplayClusterColorGradingDetailView.cpp.obj",
+			"DisplayClusterColorGradingCommands.cpp.obj",
+			"DisplayClusterColorGradingDataModel.cpp.obj",
+			"DisplayClusterColorGradingModule.cpp.obj",
+			"DisplayClusterColorGradingDrawerSingleton.cpp.obj",
+			"SDisplayClusterColorGradingDrawer.cpp.obj",
+			"SDisplayClusterColorGradingColorWheel.cpp.obj",
+			"SDisplayClusterColorGradingColorWheelPanel.cpp.obj",
+			"SDisplayClusterColorGradingDetailsPanel.cpp.obj",
+			"SDisplayClusterColorGradingObjectList.cpp.obj"
+		]
+	}
+}

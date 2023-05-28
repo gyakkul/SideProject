@@ -1,0 +1,396 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "XRCreativeGizmos.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef XRCREATIVE_XRCreativeGizmos_generated_h
+#error "XRCreativeGizmos.generated.h already included, missing '#pragma once' in XRCreativeGizmos.h"
+#endif
+#define XRCREATIVE_XRCreativeGizmos_generated_h
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_ACCESSORS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUXRCreativeGizmoBuilder(); \
+	friend struct Z_Construct_UClass_UXRCreativeGizmoBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UXRCreativeGizmoBuilder, UCombinedTransformGizmoBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(UXRCreativeGizmoBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_INCLASS \
+private: \
+	static void StaticRegisterNativesUXRCreativeGizmoBuilder(); \
+	friend struct Z_Construct_UClass_UXRCreativeGizmoBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UXRCreativeGizmoBuilder, UCombinedTransformGizmoBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(UXRCreativeGizmoBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UXRCreativeGizmoBuilder(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UXRCreativeGizmoBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UXRCreativeGizmoBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UXRCreativeGizmoBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UXRCreativeGizmoBuilder(UXRCreativeGizmoBuilder&&); \
+	NO_API UXRCreativeGizmoBuilder(const UXRCreativeGizmoBuilder&); \
+public: \
+	NO_API virtual ~UXRCreativeGizmoBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UXRCreativeGizmoBuilder(UXRCreativeGizmoBuilder&&); \
+	NO_API UXRCreativeGizmoBuilder(const UXRCreativeGizmoBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UXRCreativeGizmoBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UXRCreativeGizmoBuilder); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UXRCreativeGizmoBuilder) \
+	NO_API virtual ~UXRCreativeGizmoBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_9_PROLOG
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_INCLASS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> XRCREATIVE_API UClass* StaticClass<class UXRCreativeGizmoBuilder>();
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_ACCESSORS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAXRCreativeBaseTransformGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeBaseTransformGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeBaseTransformGizmoActor, ACombinedTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeBaseTransformGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_INCLASS \
+private: \
+	static void StaticRegisterNativesAXRCreativeBaseTransformGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeBaseTransformGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeBaseTransformGizmoActor, ACombinedTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeBaseTransformGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AXRCreativeBaseTransformGizmoActor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AXRCreativeBaseTransformGizmoActor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeBaseTransformGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeBaseTransformGizmoActor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeBaseTransformGizmoActor(AXRCreativeBaseTransformGizmoActor&&); \
+	NO_API AXRCreativeBaseTransformGizmoActor(const AXRCreativeBaseTransformGizmoActor&); \
+public: \
+	NO_API virtual ~AXRCreativeBaseTransformGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeBaseTransformGizmoActor(AXRCreativeBaseTransformGizmoActor&&); \
+	NO_API AXRCreativeBaseTransformGizmoActor(const AXRCreativeBaseTransformGizmoActor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeBaseTransformGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeBaseTransformGizmoActor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AXRCreativeBaseTransformGizmoActor) \
+	NO_API virtual ~AXRCreativeBaseTransformGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_19_PROLOG
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_INCLASS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> XRCREATIVE_API UClass* StaticClass<class AXRCreativeBaseTransformGizmoActor>();
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_ACCESSORS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAXRCreativeTRSGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeTRSGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeTRSGizmoActor, AXRCreativeBaseTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeTRSGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_INCLASS \
+private: \
+	static void StaticRegisterNativesAXRCreativeTRSGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeTRSGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeTRSGizmoActor, AXRCreativeBaseTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeTRSGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AXRCreativeTRSGizmoActor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AXRCreativeTRSGizmoActor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeTRSGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeTRSGizmoActor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeTRSGizmoActor(AXRCreativeTRSGizmoActor&&); \
+	NO_API AXRCreativeTRSGizmoActor(const AXRCreativeTRSGizmoActor&); \
+public: \
+	NO_API virtual ~AXRCreativeTRSGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeTRSGizmoActor(AXRCreativeTRSGizmoActor&&); \
+	NO_API AXRCreativeTRSGizmoActor(const AXRCreativeTRSGizmoActor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeTRSGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeTRSGizmoActor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AXRCreativeTRSGizmoActor) \
+	NO_API virtual ~AXRCreativeTRSGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_41_PROLOG
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_INCLASS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_44_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> XRCREATIVE_API UClass* StaticClass<class AXRCreativeTRSGizmoActor>();
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_ACCESSORS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAXRCreativeTRUSGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeTRUSGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeTRUSGizmoActor, AXRCreativeBaseTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeTRUSGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_INCLASS \
+private: \
+	static void StaticRegisterNativesAXRCreativeTRUSGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeTRUSGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeTRUSGizmoActor, AXRCreativeBaseTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeTRUSGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AXRCreativeTRUSGizmoActor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AXRCreativeTRUSGizmoActor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeTRUSGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeTRUSGizmoActor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeTRUSGizmoActor(AXRCreativeTRUSGizmoActor&&); \
+	NO_API AXRCreativeTRUSGizmoActor(const AXRCreativeTRUSGizmoActor&); \
+public: \
+	NO_API virtual ~AXRCreativeTRUSGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeTRUSGizmoActor(AXRCreativeTRUSGizmoActor&&); \
+	NO_API AXRCreativeTRUSGizmoActor(const AXRCreativeTRUSGizmoActor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeTRUSGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeTRUSGizmoActor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AXRCreativeTRUSGizmoActor) \
+	NO_API virtual ~AXRCreativeTRUSGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_54_PROLOG
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_INCLASS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> XRCREATIVE_API UClass* StaticClass<class AXRCreativeTRUSGizmoActor>();
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_ACCESSORS
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAXRCreativeTRGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeTRGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeTRGizmoActor, AXRCreativeBaseTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeTRGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_INCLASS \
+private: \
+	static void StaticRegisterNativesAXRCreativeTRGizmoActor(); \
+	friend struct Z_Construct_UClass_AXRCreativeTRGizmoActor_Statics; \
+public: \
+	DECLARE_CLASS(AXRCreativeTRGizmoActor, AXRCreativeBaseTransformGizmoActor, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/XRCreative"), NO_API) \
+	DECLARE_SERIALIZER(AXRCreativeTRGizmoActor)
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AXRCreativeTRGizmoActor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AXRCreativeTRGizmoActor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeTRGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeTRGizmoActor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeTRGizmoActor(AXRCreativeTRGizmoActor&&); \
+	NO_API AXRCreativeTRGizmoActor(const AXRCreativeTRGizmoActor&); \
+public: \
+	NO_API virtual ~AXRCreativeTRGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AXRCreativeTRGizmoActor(AXRCreativeTRGizmoActor&&); \
+	NO_API AXRCreativeTRGizmoActor(const AXRCreativeTRGizmoActor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AXRCreativeTRGizmoActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AXRCreativeTRGizmoActor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AXRCreativeTRGizmoActor) \
+	NO_API virtual ~AXRCreativeTRGizmoActor();
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_67_PROLOG
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_INCLASS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_ACCESSORS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h_70_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> XRCREATIVE_API UClass* StaticClass<class AXRCreativeTRGizmoActor>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_XRCreativeFramework_Source_XRCreative_Public_XRCreativeGizmos_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

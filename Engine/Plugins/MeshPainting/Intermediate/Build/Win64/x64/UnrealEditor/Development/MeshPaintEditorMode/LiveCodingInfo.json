@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshPaintEditorMode.cpp.obj": [
+			"MeshPaintEditorMode.init.gen.cpp.obj",
+			"BrushSettingsCustomization.cpp.obj",
+			"ImportVertexColorOptions.cpp.obj",
+			"ImportVertexColorOptionsCustomization.cpp.obj",
+			"MeshPaintEditorMode.cpp.obj",
+			"MeshPaintMode.cpp.obj",
+			"MeshPaintModeCommands.cpp.obj",
+			"MeshPaintModeHelpers.cpp.obj",
+			"MeshPaintModeSettings.cpp.obj",
+			"MeshPaintModeToolkit.cpp.obj"
+		]
+	}
+}

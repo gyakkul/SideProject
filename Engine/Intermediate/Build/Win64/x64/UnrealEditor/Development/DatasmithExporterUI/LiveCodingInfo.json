@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithExporterUI.cpp.obj": [
+			"DatasmithExporterUIModule.cpp.obj",
+			"DirectLinkUI.cpp.obj",
+			"SDirectLinkStreamManager.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FbxAutomationTestBuilder.cpp.obj": [
+			"FbxAutomationBuilder.cpp.obj",
+			"FbxAutomationBuilderModule.cpp.obj",
+			"FbxAutomationBuilderStyle.cpp.obj"
+		]
+	}
+}

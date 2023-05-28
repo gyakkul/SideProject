@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelingOperatorsEditorOnly.cpp.obj": [
+			"ModelingOperatorsEditorOnly.init.gen.cpp.obj",
+			"ParameterizeMeshProperties.gen.cpp.obj",
+			"SimplifyMeshOp.cpp.obj",
+			"VoxelBooleanMeshesOp.cpp.obj",
+			"VoxelMergeMeshesOp.cpp.obj",
+			"EmbedPolygonsOp.cpp.obj",
+			"ModelingOperatorsEditorOnlyModule.cpp.obj",
+			"CalculateTangentsOp.cpp.obj",
+			"ParameterizeMeshOp.cpp.obj"
+		]
+	}
+}

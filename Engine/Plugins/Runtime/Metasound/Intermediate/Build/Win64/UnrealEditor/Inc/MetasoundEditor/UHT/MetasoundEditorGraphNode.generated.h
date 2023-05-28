@@ -1,0 +1,406 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MetasoundEditorGraphNode.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef METASOUNDEDITOR_MetasoundEditorGraphNode_generated_h
+#error "MetasoundEditorGraphNode.generated.h already included, missing '#pragma once' in MetasoundEditorGraphNode.h"
+#endif
+#define METASOUNDEDITOR_MetasoundEditorGraphNode_generated_h
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_ACCESSORS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphNode, UEdGraphNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_INCLASS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphNode, UEdGraphNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphNode(UMetasoundEditorGraphNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphNode(const UMetasoundEditorGraphNode&); \
+public: \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphNode(UMetasoundEditorGraphNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphNode(const UMetasoundEditorGraphNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphNode); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphNode) \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_39_PROLOG
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_INCLASS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_42_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class MetasoundEditorGraphNode."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> METASOUNDEDITOR_API UClass* StaticClass<class UMetasoundEditorGraphNode>();
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_ACCESSORS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphMemberNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphMemberNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphMemberNode, UMetasoundEditorGraphNode, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphMemberNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_INCLASS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphMemberNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphMemberNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphMemberNode, UMetasoundEditorGraphNode, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphMemberNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphMemberNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphMemberNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphMemberNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphMemberNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphMemberNode(UMetasoundEditorGraphMemberNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphMemberNode(const UMetasoundEditorGraphMemberNode&); \
+public: \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphMemberNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphMemberNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphMemberNode(UMetasoundEditorGraphMemberNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphMemberNode(const UMetasoundEditorGraphMemberNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphMemberNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphMemberNode); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphMemberNode) \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphMemberNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_132_PROLOG
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_INCLASS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_135_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> METASOUNDEDITOR_API UClass* StaticClass<class UMetasoundEditorGraphMemberNode>();
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_ACCESSORS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphOutputNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphOutputNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphOutputNode, UMetasoundEditorGraphMemberNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphOutputNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_INCLASS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphOutputNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphOutputNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphOutputNode, UMetasoundEditorGraphMemberNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphOutputNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphOutputNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphOutputNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphOutputNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphOutputNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphOutputNode(UMetasoundEditorGraphOutputNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphOutputNode(const UMetasoundEditorGraphOutputNode&); \
+public: \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphOutputNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphOutputNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphOutputNode(UMetasoundEditorGraphOutputNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphOutputNode(const UMetasoundEditorGraphOutputNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphOutputNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphOutputNode); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphOutputNode) \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphOutputNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_153_PROLOG
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_INCLASS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_156_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> METASOUNDEDITOR_API UClass* StaticClass<class UMetasoundEditorGraphOutputNode>();
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_ACCESSORS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphExternalNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphExternalNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphExternalNode, UMetasoundEditorGraphNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphExternalNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_INCLASS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphExternalNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphExternalNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphExternalNode, UMetasoundEditorGraphNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphExternalNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphExternalNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphExternalNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphExternalNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphExternalNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphExternalNode(UMetasoundEditorGraphExternalNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphExternalNode(const UMetasoundEditorGraphExternalNode&); \
+public: \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphExternalNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphExternalNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphExternalNode(UMetasoundEditorGraphExternalNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphExternalNode(const UMetasoundEditorGraphExternalNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphExternalNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphExternalNode); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphExternalNode) \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphExternalNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_187_PROLOG
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_INCLASS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_190_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> METASOUNDEDITOR_API UClass* StaticClass<class UMetasoundEditorGraphExternalNode>();
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_ACCESSORS
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphVariableNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphVariableNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphVariableNode, UMetasoundEditorGraphMemberNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphVariableNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_INCLASS \
+private: \
+	static void StaticRegisterNativesUMetasoundEditorGraphVariableNode(); \
+	friend struct Z_Construct_UClass_UMetasoundEditorGraphVariableNode_Statics; \
+public: \
+	DECLARE_CLASS(UMetasoundEditorGraphVariableNode, UMetasoundEditorGraphMemberNode, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MetasoundEditor"), METASOUNDEDITOR_API) \
+	DECLARE_SERIALIZER(UMetasoundEditorGraphVariableNode)
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphVariableNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphVariableNode) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphVariableNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphVariableNode); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphVariableNode(UMetasoundEditorGraphVariableNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphVariableNode(const UMetasoundEditorGraphVariableNode&); \
+public: \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphVariableNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphVariableNode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	METASOUNDEDITOR_API UMetasoundEditorGraphVariableNode(UMetasoundEditorGraphVariableNode&&); \
+	METASOUNDEDITOR_API UMetasoundEditorGraphVariableNode(const UMetasoundEditorGraphVariableNode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(METASOUNDEDITOR_API, UMetasoundEditorGraphVariableNode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMetasoundEditorGraphVariableNode); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMetasoundEditorGraphVariableNode) \
+	METASOUNDEDITOR_API virtual ~UMetasoundEditorGraphVariableNode();
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_233_PROLOG
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_INCLASS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_ACCESSORS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h_236_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> METASOUNDEDITOR_API UClass* StaticClass<class UMetasoundEditorGraphVariableNode>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_Metasound_Source_MetasoundEditor_Public_MetasoundEditorGraphNode_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

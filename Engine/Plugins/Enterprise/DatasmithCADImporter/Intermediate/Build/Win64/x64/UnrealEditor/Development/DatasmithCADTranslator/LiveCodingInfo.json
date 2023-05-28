@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithCADTranslator.cpp.obj": [
+			"DatasmithCADTranslator.cpp.obj",
+			"DatasmithCADTranslatorModule.cpp.obj",
+			"DatasmithMeshBuilder.cpp.obj",
+			"DatasmithSceneGraphBuilder.cpp.obj"
+		]
+	}
+}

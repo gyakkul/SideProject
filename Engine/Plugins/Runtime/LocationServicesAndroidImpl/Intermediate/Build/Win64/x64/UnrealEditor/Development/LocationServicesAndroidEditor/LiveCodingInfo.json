@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LocationServicesAndroidEditor.cpp.obj": [
+			"LocationServicesAndroidEditor.init.gen.cpp.obj",
+			"LocationServicesAndroidSettings.gen.cpp.obj",
+			"LocationServicesAndroidEditor.cpp.obj"
+		]
+	}
+}

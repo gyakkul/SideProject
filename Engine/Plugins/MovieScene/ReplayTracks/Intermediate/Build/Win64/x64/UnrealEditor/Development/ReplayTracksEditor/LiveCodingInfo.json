@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ReplayTracksEditor.cpp.obj": [
+			"ReplayTracksEditor.init.gen.cpp.obj",
+			"ReplayTracksEditorModule.gen.cpp.obj",
+			"ReplayTracksEditorModule.cpp.obj",
+			"ReplayTrackEditor.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PropertyAccessNode.cpp.obj": [
+			"PropertyAccessNode.init.gen.cpp.obj",
+			"K2Node_PropertyAccess.cpp.obj",
+			"PropertyAccessNodeFactory.cpp.obj",
+			"PropertyAccessNodeLibrary.cpp.obj",
+			"PropertyAccessNodeModule.cpp.obj",
+			"SPropertyAccessNode.cpp.obj"
+		]
+	}
+}

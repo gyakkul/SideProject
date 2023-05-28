@@ -1,0 +1,36 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\timecodesynchronizer\\module.timecodesynchronizer.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\timecodesynchronizer\\definitions.timecodesynchronizer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\intermediate\\build\\win64\\unrealeditor\\inc\\timecodesynchronizer\\uht\\timecodesynchronizer.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\source\\timecodesynchronizer\\public\\timecodesynchronizer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\engine\\timecodeprovider.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\timecodeprovider.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\timemanagement\\public\\timesynchronizationsource.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\timemanagement\\uht\\timesynchronizationsource.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\intermediate\\build\\win64\\unrealeditor\\inc\\timecodesynchronizer\\uht\\timecodesynchronizer.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\intermediate\\build\\win64\\unrealeditor\\inc\\timecodesynchronizer\\uht\\timecodesynchronizer.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\intermediate\\build\\win64\\unrealeditor\\inc\\timecodesynchronizer\\uht\\timecodesynchronizerprojectsettings.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\source\\timecodesynchronizer\\public\\timecodesynchronizerprojectsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\intermediate\\build\\win64\\unrealeditor\\inc\\timecodesynchronizer\\uht\\timecodesynchronizerprojectsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\source\\timecodesynchronizer\\private\\timecodesynchronizer.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\source\\timecodesynchronizer\\public\\timecodesynchronizermodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\timemanagement\\public\\fixedframeratecustomtimestep.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\engine\\enginecustomtimestep.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\enginecustomtimestep.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\timemanagement\\uht\\fixedframeratecustomtimestep.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slate\\public\\framework\\notifications\\notificationmanager.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\coreasynctasknotificationimpl.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\asynctasknotification.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slate\\public\\widgets\\notifications\\snotificationlist.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\source\\timecodesynchronizer\\private\\timecodesynchronizermodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\timecodesynchronizer\\source\\timecodesynchronizer\\private\\timecodesynchronizerprojectsettings.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

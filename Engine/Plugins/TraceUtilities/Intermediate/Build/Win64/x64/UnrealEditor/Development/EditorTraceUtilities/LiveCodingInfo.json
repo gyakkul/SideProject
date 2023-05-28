@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorTraceUtilities.cpp.obj": [
+			"EditorTraceUtilities.cpp.obj",
+			"SInsightsStatusBar.cpp.obj",
+			"SRecentTracesList.cpp.obj",
+			"UnrealInsightsLauncher.cpp.obj"
+		]
+	}
+}

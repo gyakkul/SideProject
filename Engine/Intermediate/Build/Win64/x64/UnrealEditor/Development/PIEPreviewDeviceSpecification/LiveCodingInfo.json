@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PIEPreviewDeviceSpecification.cpp.obj": [
+			"PIEPreviewDeviceSpecification.gen.cpp.obj",
+			"PIEPreviewDeviceSpecification.init.gen.cpp.obj",
+			"PIEPreviewDeviceSpecification.cpp.obj"
+		]
+	}
+}

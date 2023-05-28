@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithGLTFTranslator.cpp.obj": [
+			"DatasmithGLTFImportOptions.gen.cpp.obj",
+			"DatasmithGLTFTranslator.init.gen.cpp.obj",
+			"DatasmithGLTFAnimationImporter.cpp.obj",
+			"DatasmithGLTFImporter.cpp.obj",
+			"DatasmithGLTFMaterialElement.cpp.obj",
+			"DatasmithGLTFTextureFactory.cpp.obj",
+			"DatasmithGLTFTranslator.cpp.obj",
+			"DatasmithGLTFTranslatorModule.cpp.obj"
+		]
+	}
+}

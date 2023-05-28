@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TakeRecorderSources.cpp.obj": [
+			"TakeRecorderSources.init.gen.cpp.obj",
+			"TakeRecorderActorSource.cpp.obj",
+			"TakeRecorderCameraCutSource.cpp.obj",
+			"TakeRecorderLevelSequenceSource.cpp.obj",
+			"TakeRecorderLevelVisibilitySource.cpp.obj",
+			"TakeRecorderMicrophoneAudioSource.cpp.obj",
+			"TakeRecorderNearbySpawnedActorSource.cpp.obj",
+			"TakeRecorderPlayerSource.cpp.obj",
+			"TakeRecorderSourceHelpers.cpp.obj",
+			"TakeRecorderSourcesCommands.cpp.obj",
+			"TakeRecorderSourcesModule.cpp.obj",
+			"TakeRecorderWorldSource.cpp.obj"
+		]
+	}
+}

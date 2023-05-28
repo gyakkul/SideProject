@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EngineSettings.cpp.obj": [
+			"ConsoleSettings.gen.cpp.obj",
+			"EngineSettings.init.gen.cpp.obj",
+			"GameMapsSettings.gen.cpp.obj",
+			"GameNetworkManagerSettings.gen.cpp.obj",
+			"GameSessionSettings.gen.cpp.obj",
+			"GeneralEngineSettings.gen.cpp.obj",
+			"GeneralProjectSettings.gen.cpp.obj",
+			"HudSettings.gen.cpp.obj",
+			"EngineSettingsModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\hairstrands\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\haircardgeneratorframework\\module.haircardgeneratorframework.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\hairstrands\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\haircardgeneratorframework\\definitions.haircardgeneratorframework.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\hairstrands\\source\\haircardgeneratorframework\\private\\haircardgenerator.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\hairstrands\\source\\haircardgeneratorframework\\public\\ihaircardgenerator.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\hairstrands\\source\\haircardgeneratorframework\\private\\haircardgeneratorframework.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

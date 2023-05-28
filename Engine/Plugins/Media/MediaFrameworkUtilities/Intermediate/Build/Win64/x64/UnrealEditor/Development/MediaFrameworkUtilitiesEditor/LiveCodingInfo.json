@@ -1,0 +1,42 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaFrameworkUtilitiesEditor.cpp.obj": [
+			"MediaBundleFactoryNew.gen.cpp.obj",
+			"MediaFrameworkCapturePanelBlueprintLibrary.gen.cpp.obj",
+			"MediaFrameworkUtilitiesEditor.init.gen.cpp.obj",
+			"MediaFrameworkVideoInputSettings.gen.cpp.obj",
+			"MediaFrameworkWorldSettingsAssetUserData.gen.cpp.obj",
+			"MediaProfileFactoryNew.gen.cpp.obj",
+			"MediaProfileSettingsCustomizationOptions.gen.cpp.obj",
+			"ProxyMediaOutputFactoryNew.gen.cpp.obj",
+			"ProxyMediaSourceFactoryNew.gen.cpp.obj",
+			"SMediaFrameworkCapture.gen.cpp.obj",
+			"SMediaFrameworkVideoInputDisplay.gen.cpp.obj",
+			"MediaBundleEditorToolkit.cpp.obj",
+			"MediaProfileCommands.cpp.obj",
+			"MediaProfileEditorToolkit.cpp.obj",
+			"AssetTypeActions_MediaBundle.cpp.obj",
+			"AssetTypeActions_MediaProfile.cpp.obj",
+			"MediaFrameworkCapturePanelBlueprintLibrary.cpp.obj",
+			"SMediaFrameworkCapture.cpp.obj",
+			"SMediaFrameworkCaptureOutputWidget.cpp.obj",
+			"MediaProfileFactoryNew.cpp.obj",
+			"ProxyMediaOutputFactoryNew.cpp.obj",
+			"ProxyMediaSourceFactoryNew.cpp.obj",
+			"MediaBundleActorDetails.cpp.obj",
+			"MediaBundleFactoryNew.cpp.obj",
+			"MediaFrameworkUtilitiesEditorModule.cpp.obj",
+			"MediaFrameworkUtilitiesPlacement.cpp.obj",
+			"MediaFrameworkWorldSettingsAssetUserData.cpp.obj",
+			"MediaProfileCustomization.cpp.obj",
+			"MediaProfileSettingsCustomization.cpp.obj",
+			"MediaProfileSettingsCustomizationOptions.cpp.obj",
+			"SMediaProfileSettingsOptionsWindow.cpp.obj",
+			"MediaFrameworkUtilitiesEditorStyle.cpp.obj",
+			"MediaProfileMenuEntry.cpp.obj",
+			"SMediaFrameworkVideoInput.cpp.obj",
+			"SMediaFrameworkVideoInputDisplay.cpp.obj"
+		]
+	}
+}

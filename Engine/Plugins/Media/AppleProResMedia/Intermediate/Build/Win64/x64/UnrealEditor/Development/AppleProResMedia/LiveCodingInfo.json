@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AppleProResMedia.cpp.obj": [
+			"AppleProResEncoder.gen.cpp.obj",
+			"AppleProResEncoderProtocol.gen.cpp.obj",
+			"AppleProResMedia.init.gen.cpp.obj",
+			"AppleProResMediaSettings.gen.cpp.obj",
+			"MoviePipelineAppleProResOutput.gen.cpp.obj",
+			"WmfMediaAppleProResDecoder.cpp.obj",
+			"AppleProResEncoderProtocol.cpp.obj",
+			"AppleProResEncoder.cpp.obj",
+			"AppleProResMediaModule.cpp.obj",
+			"AppleProResMediaSettings.cpp.obj",
+			"MoviePipelineAppleProResOutput.cpp.obj"
+		]
+	}
+}

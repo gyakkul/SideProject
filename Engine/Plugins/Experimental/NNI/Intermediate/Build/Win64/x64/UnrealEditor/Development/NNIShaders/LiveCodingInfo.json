@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNIShaders.cpp.obj": [
+			"BatchNormalizationCS.cpp.obj",
+			"ConvBaseCS.cpp.obj",
+			"ConvTransposeCS.cpp.obj",
+			"CopyCS.cpp.obj",
+			"ElementWiseCS.cpp.obj",
+			"GemmCS.cpp.obj",
+			"Module.cpp.obj",
+			"MultidirectionalBroadcastCS.cpp.obj"
+		]
+	}
+}

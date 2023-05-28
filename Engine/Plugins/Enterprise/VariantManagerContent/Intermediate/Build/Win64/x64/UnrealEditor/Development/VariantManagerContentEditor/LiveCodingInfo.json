@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VariantManagerContentEditor.cpp.obj": [
+			"LevelVariantSetsActorFactory.gen.cpp.obj",
+			"SwitchActorFactory.gen.cpp.obj",
+			"VariantManagerContentEditor.init.gen.cpp.obj",
+			"VariantManagerFactoryNew.gen.cpp.obj",
+			"VariantManagerTestActor.gen.cpp.obj",
+			"LevelVariantSetsActorCustomization.cpp.obj",
+			"LevelVariantSetsActorFactory.cpp.obj",
+			"LevelVariantSetsAssetActions.cpp.obj",
+			"SwitchActorCustomization.cpp.obj",
+			"SwitchActorFactory.cpp.obj",
+			"VariantManagerContentEditorModule.cpp.obj",
+			"VariantManagerFactoryNew.cpp.obj",
+			"VariantManagerTestActor.cpp.obj"
+		]
+	}
+}

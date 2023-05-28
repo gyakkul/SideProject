@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UVEditorTools.cpp.obj": [
+			"BasicLineSetComponent.gen.cpp.obj",
+			"BasicPointSetComponent.gen.cpp.obj",
+			"BasicTriangleSetComponent.gen.cpp.obj",
+			"UVEditorMechanicAdapterTool.gen.cpp.obj",
+			"UVEditorTools.init.gen.cpp.obj",
+			"UVToolAssetInputsContext.gen.cpp.obj",
+			"UVToolViewportButtonsAPI.gen.cpp.obj",
+			"UVUnwrapDynamicMesh.gen.cpp.obj",
+			"UVSeamSewAction.cpp.obj",
+			"UVSplitAction.cpp.obj",
+			"UVToolAction.cpp.obj",
+			"UVToolContextObjects.cpp.obj",
+			"BasicLineSetComponent.cpp.obj",
+			"BasicPointSetComponent.cpp.obj",
+			"BasicTriangleSetComponent.cpp.obj",
+			"UVEditorUVTransformOp.cpp.obj",
+			"UVEditorMeshSelectionMechanic.cpp.obj",
+			"UVToolSelection.cpp.obj",
+			"UVToolSelectionAPI.cpp.obj",
+			"UVToolSelectionHighlightMechanic.cpp.obj",
+			"UVEditorToolMeshInput.cpp.obj",
+			"UVEditorLayerEditTool.cpp.obj",
+			"UVEditorLayoutTool.cpp.obj",
+			"UVEditorLogging.cpp.obj",
+			"UVEditorRecomputeUVsTool.cpp.obj",
+			"UVEditorSeamTool.cpp.obj",
+			"UVEditorStyle.cpp.obj",
+			"UVEditorToolAnalyticsUtils.cpp.obj",
+			"UVEditorToolsModule.cpp.obj",
+			"UVEditorTransformTool.cpp.obj",
+			"UVEditorUXSettings.cpp.obj",
+			"UVSelectTool.cpp.obj"
+		]
+	}
+}

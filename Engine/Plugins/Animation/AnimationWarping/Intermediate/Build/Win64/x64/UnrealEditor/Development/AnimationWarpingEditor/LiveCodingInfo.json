@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationWarpingEditor.cpp.obj": [
+			"AnimationWarpingEditor.init.gen.cpp.obj",
+			"AnimGraphNode_FootPlacement.gen.cpp.obj",
+			"AnimGraphNode_OffsetRootBone.gen.cpp.obj",
+			"AnimGraphNode_OrientationWarping.gen.cpp.obj",
+			"AnimGraphNode_SlopeWarping.gen.cpp.obj",
+			"AnimGraphNode_StrideWarping.gen.cpp.obj",
+			"OrientationWarpingModifier.gen.cpp.obj",
+			"OrientationWarpingModifier.cpp.obj",
+			"AnimationWarpingEditorModule.cpp.obj",
+			"AnimGraphNode_FootPlacement.cpp.obj",
+			"AnimGraphNode_OffsetRootBone.cpp.obj",
+			"AnimGraphNode_OrientationWarping.cpp.obj",
+			"AnimGraphNode_SlopeWarping.cpp.obj",
+			"AnimGraphNode_StrideWarping.cpp.obj"
+		]
+	}
+}

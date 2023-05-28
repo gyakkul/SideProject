@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithVREDTranslator.cpp.obj": [
+			"DatasmithVREDImportData.gen.cpp.obj",
+			"DatasmithVREDImportOptions.gen.cpp.obj",
+			"DatasmithVREDTranslator.init.gen.cpp.obj",
+			"DatasmithVREDClipProcessor.cpp.obj",
+			"DatasmithVREDImporter.cpp.obj",
+			"DatasmithVREDImporterAuxFiles.cpp.obj",
+			"DatasmithVREDImporterMaterialSelector.cpp.obj",
+			"DatasmithVREDImportOptions.cpp.obj",
+			"DatasmithVREDSceneProcessor.cpp.obj",
+			"DatasmithVREDTranslator.cpp.obj",
+			"DatasmithVREDTranslatorModule.cpp.obj",
+			"DatasmithVREDVariantConverter.cpp.obj"
+		]
+	}
+}

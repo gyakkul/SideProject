@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CineCameraRigsEditor.cpp.obj": [
+			"CineCameraRigsEditor.init.gen.cpp.obj",
+			"CineSplineMetadataDetails.gen.cpp.obj",
+			"CineCameraRigRailDetails.cpp.obj",
+			"CineCameraRigsEditor.cpp.obj",
+			"CineSplineComponentVisualizer.cpp.obj",
+			"CineSplineMetadataDetails.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelStreamingBlueprint.cpp.obj": [
+			"PixelStreamingBlueprint.init.gen.cpp.obj",
+			"PixelStreamingStreamerComponent.gen.cpp.obj",
+			"PixelStreamingStreamerVideoInput.gen.cpp.obj",
+			"PixelStreamingStreamerVideoInputBackBuffer.gen.cpp.obj",
+			"PixelStreamingStreamerVideoInputRenderTarget.gen.cpp.obj",
+			"PixelStreamingBlueprintModule.cpp.obj",
+			"PixelStreamingStreamerComponent.cpp.obj",
+			"PixelStreamingStreamerVideoInput.cpp.obj",
+			"PixelStreamingStreamerVideoInputBackBuffer.cpp.obj",
+			"PixelStreamingStreamerVideoInputRenderTarget.cpp.obj"
+		]
+	}
+}

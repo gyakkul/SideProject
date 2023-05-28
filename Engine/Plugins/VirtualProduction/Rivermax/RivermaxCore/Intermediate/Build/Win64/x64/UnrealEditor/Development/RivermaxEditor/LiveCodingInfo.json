@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RivermaxEditor.cpp.obj": [
+			"RivermaxDeviceSelectionCustomization.cpp.obj",
+			"RivermaxSettingsDetailsCustomization.cpp.obj",
+			"RivermaxEditorModule.cpp.obj",
+			"SRivermaxInterfaceComboBox.cpp.obj"
+		]
+	}
+}

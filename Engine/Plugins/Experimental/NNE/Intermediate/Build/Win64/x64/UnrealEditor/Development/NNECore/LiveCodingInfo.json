@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNECore.cpp.obj": [
+			"NNECore.init.gen.cpp.obj",
+			"NNECoreAttributeDataType.gen.cpp.obj",
+			"NNECoreAttributeValue.gen.cpp.obj",
+			"NNECoreModelData.gen.cpp.obj",
+			"NNECoreRuntime.gen.cpp.obj",
+			"NNECoreRuntimeCPU.gen.cpp.obj",
+			"NNECoreRuntimeFormat.gen.cpp.obj",
+			"NNECoreRuntimeGPU.gen.cpp.obj",
+			"NNECoreRuntimeRDG.gen.cpp.obj",
+			"NNECoreTypes.gen.cpp.obj",
+			"NNECore.cpp.obj",
+			"NNECoreAttributeDataType.cpp.obj",
+			"NNECoreModelData.cpp.obj",
+			"NNECoreModule.cpp.obj",
+			"NNECoreTypes.cpp.obj"
+		]
+	}
+}

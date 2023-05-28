@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeoReferencing.cpp.obj": [
+			"CartesianCoordinates.gen.cpp.obj",
+			"Ellipsoid.gen.cpp.obj",
+			"GeographicCoordinates.gen.cpp.obj",
+			"GeoReferencing.init.gen.cpp.obj",
+			"GeoReferencingBFL.gen.cpp.obj",
+			"GeoReferencingSystem.gen.cpp.obj",
+			"RoundPlanetPawn.gen.cpp.obj",
+			"CartesianCoordinates.cpp.obj",
+			"Ellipsoid.cpp.obj",
+			"GeographicCoordinates.cpp.obj",
+			"GeoReferencingBFL.cpp.obj",
+			"GeoReferencingModule.cpp.obj",
+			"GeoReferencingSystem.cpp.obj",
+			"RoundPlanetPawn.cpp.obj",
+			"UFSProjSupport.cpp.obj"
+		]
+	}
+}

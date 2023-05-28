@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkComponents.cpp.obj": [
+			"LiveLinkComponents.init.gen.cpp.obj",
+			"LiveLinkComponentSettings.gen.cpp.obj",
+			"LiveLinkLightController.cpp.obj",
+			"LiveLinkTransformController.cpp.obj",
+			"LiveLinkComponentController.cpp.obj",
+			"LiveLinkComponentModule.cpp.obj",
+			"LiveLinkControllerBase.cpp.obj"
+		]
+	}
+}

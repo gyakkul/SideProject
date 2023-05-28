@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorConfig.cpp.obj": [
+			"EditorConfig.init.gen.cpp.obj",
+			"EditorConfigBase.gen.cpp.obj",
+			"EditorConfigSubsystem.gen.cpp.obj",
+			"EditorConfigTests.gen.cpp.obj",
+			"EditorMetadataOverrides.gen.cpp.obj",
+			"EditorConfig.cpp.obj",
+			"EditorConfigBase.cpp.obj",
+			"EditorConfigModule.cpp.obj",
+			"EditorConfigSubystem.cpp.obj",
+			"EditorMetadataOverrides.cpp.obj",
+			"JsonConfig.cpp.obj",
+			"EditorConfigTestHelpers.cpp.obj",
+			"EditorConfigTests.cpp.obj",
+			"JsonConfigTests.cpp.obj"
+		]
+	}
+}

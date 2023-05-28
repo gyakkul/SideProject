@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WarpUtils.cpp.obj": [
+			"WarpUtils.init.gen.cpp.obj",
+			"WarpUtilsBlueprintLibrary.gen.cpp.obj",
+			"WarpUtilsBlueprintLibrary.cpp.obj",
+			"WarpUtils.cpp.obj",
+			"WarpUtilsLog.cpp.obj"
+		]
+	}
+}

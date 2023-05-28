@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayDebuggerEditor.cpp.obj": [
+			"GameplayDebuggerCategoryConfigCustomization.cpp.obj",
+			"GameplayDebuggerEditorModule.cpp.obj",
+			"GameplayDebuggerEdMode.cpp.obj",
+			"GameplayDebuggerExtensionConfigCustomization.cpp.obj",
+			"GameplayDebuggerInputConfigCustomization.cpp.obj",
+			"GameplayDebuggerToolkit.cpp.obj"
+		]
+	}
+}

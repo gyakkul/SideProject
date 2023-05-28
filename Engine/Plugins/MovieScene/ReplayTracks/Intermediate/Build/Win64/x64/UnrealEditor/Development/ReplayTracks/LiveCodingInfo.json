@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ReplayTracks.cpp.obj": [
+			"MovieSceneReplaySection.gen.cpp.obj",
+			"MovieSceneReplaySystem.gen.cpp.obj",
+			"MovieSceneReplayTrack.gen.cpp.obj",
+			"ReplayTracks.init.gen.cpp.obj",
+			"MovieSceneReplayManager.cpp.obj",
+			"ReplayTracksModule.cpp.obj",
+			"MovieSceneReplaySection.cpp.obj",
+			"MovieSceneReplaySystem.cpp.obj",
+			"MovieSceneReplayTrack.cpp.obj"
+		]
+	}
+}

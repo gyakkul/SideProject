@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExampleCustomDataInterface.cpp.obj": [
+			"ExampleCustomDataInterface.init.gen.cpp.obj",
+			"NiagaraDataInterfaceMousePosition.gen.cpp.obj",
+			"ExampleCustomDataInterface.cpp.obj",
+			"NiagaraDataInterfaceMousePosition.cpp.obj"
+		]
+	}
+}

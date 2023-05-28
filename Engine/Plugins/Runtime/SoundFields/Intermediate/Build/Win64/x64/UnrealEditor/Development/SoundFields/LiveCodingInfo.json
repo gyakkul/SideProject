@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundFields.cpp.obj": [
+			"SoundFields.init.gen.cpp.obj",
+			"SoundFields.cpp.obj",
+			"SoundFieldsModule.cpp.obj"
+		]
+	}
+}

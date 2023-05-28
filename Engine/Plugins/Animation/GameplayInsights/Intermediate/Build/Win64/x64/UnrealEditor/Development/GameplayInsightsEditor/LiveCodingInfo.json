@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayInsightsEditor.cpp.obj": [
+			"GameplayInsightsEditor.init.gen.cpp.obj",
+			"GamePlayInsightsEditor.cpp.obj",
+			"InsightsSkeletalMeshComponent.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MetasoundGraphCore.cpp.obj": [
+			"MetasoundBuildError.cpp.obj",
+			"MetasoundDataReference.cpp.obj",
+			"MetasoundDataReferenceCollection.cpp.obj",
+			"MetasoundEnvironment.cpp.obj",
+			"MetasoundFacade.cpp.obj",
+			"MetasoundGraph.cpp.obj",
+			"MetasoundGraphAlgo.cpp.obj",
+			"MetasoundGraphCoreModule.cpp.obj",
+			"MetasoundGraphLinter.cpp.obj",
+			"MetasoundGraphOperator.cpp.obj",
+			"MetasoundLiteral.cpp.obj",
+			"MetasoundNode.cpp.obj",
+			"MetasoundNodeInterface.cpp.obj",
+			"MetasoundOperatorBuilder.cpp.obj",
+			"MetasoundOperatorBuilderSettings.cpp.obj",
+			"MetasoundOperatorSettings.cpp.obj",
+			"MetasoundThreadLocalDebug.cpp.obj",
+			"MetasoundTrace.cpp.obj",
+			"MetasoundVariableNodes.cpp.obj",
+			"MetasoundVertex.cpp.obj",
+			"MetasoundVertexData.cpp.obj"
+		]
+	}
+}

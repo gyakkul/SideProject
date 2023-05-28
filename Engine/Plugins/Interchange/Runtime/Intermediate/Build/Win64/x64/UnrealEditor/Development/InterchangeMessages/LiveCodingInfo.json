@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeMessages.cpp.obj": [
+			"InterchangeMessages.init.gen.cpp.obj",
+			"InterchangeFbxMessages.cpp.obj",
+			"InterchangeMessagesModule.cpp.obj"
+		]
+	}
+}

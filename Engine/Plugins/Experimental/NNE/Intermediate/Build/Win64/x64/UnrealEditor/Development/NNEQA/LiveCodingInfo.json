@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNEQA.cpp.obj": [
+			"NNEQAModel.cpp.obj",
+			"NNEQAModule.cpp.obj",
+			"NNEQAParametricTest.cpp.obj",
+			"NNEQAUnitTestHelper.cpp.obj",
+			"NNEQAUnitTestOpBinary.cpp.obj",
+			"NNEQAUnitTestOpCast.cpp.obj",
+			"NNEQAUnitTestOpConcat.cpp.obj",
+			"NNEQAUnitTestOpGather.cpp.obj",
+			"NNEQAUnitTestOpSlice.cpp.obj",
+			"NNEQAUnitTestOpTranspose.cpp.obj",
+			"NNEQAUnitTestOpUnary.cpp.obj",
+			"NNEQAUtils.cpp.obj"
+		]
+	}
+}

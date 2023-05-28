@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AjaCore.cpp.obj": [
+			"AJA.cpp.obj",
+			"AjaCoreModule.cpp.obj",
+			"AutoDetectChannel.cpp.obj",
+			"ChannelBase.cpp.obj",
+			"Device.cpp.obj",
+			"DeviceScanner.cpp.obj",
+			"Helpers.cpp.obj",
+			"InputChannel.cpp.obj",
+			"OutputChannel.cpp.obj",
+			"SSE2MemCpy.cpp.obj",
+			"SyncChannel.cpp.obj",
+			"TimecodeChannel.cpp.obj",
+			"VideoFormats.cpp.obj"
+		]
+	}
+}

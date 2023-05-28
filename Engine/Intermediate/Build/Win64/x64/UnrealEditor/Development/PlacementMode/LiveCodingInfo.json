@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlacementMode.cpp.obj": [
+			"PlacementModeModule.cpp.obj",
+			"SPlacementModeTools.cpp.obj"
+		]
+	}
+}

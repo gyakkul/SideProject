@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithRuntime.cpp.obj": [
+			"DatasmithRuntime.gen.cpp.obj",
+			"DatasmithRuntime.init.gen.cpp.obj",
+			"DatasmithRuntimeAuxiliaryData.gen.cpp.obj",
+			"DatasmithRuntimeBlueprintLibrary.gen.cpp.obj",
+			"DatasmithRuntimeUtils.gen.cpp.obj",
+			"ActorImporter.cpp.obj",
+			"DatasmithRuntime.cpp.obj",
+			"DatasmithRuntimeAuxiliaryData.cpp.obj",
+			"DatasmithRuntimeBlueprintLibrary.cpp.obj",
+			"DatasmithRuntimeModule.cpp.obj",
+			"DatasmithRuntimeUtils.cpp.obj",
+			"DirectLinkUtils.cpp.obj",
+			"ImageReader.cpp.obj",
+			"LightImporter.cpp.obj",
+			"LogCategory.cpp.obj",
+			"MaterialImporter.cpp.obj",
+			"MaterialImportUtils.cpp.obj",
+			"DatasmithRuntimeMaterialSelector.cpp.obj",
+			"MeshImporter.cpp.obj",
+			"SceneImporter.cpp.obj",
+			"TextureImporter.cpp.obj"
+		]
+	}
+}

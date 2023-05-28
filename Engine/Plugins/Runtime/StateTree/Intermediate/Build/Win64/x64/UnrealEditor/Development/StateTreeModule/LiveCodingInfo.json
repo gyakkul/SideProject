@@ -1,0 +1,33 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StateTreeModule.cpp.obj": [
+			"StateTreeAnyEnum.gen.cpp.obj",
+			"StateTreeLinker.gen.cpp.obj",
+			"StateTreeModule.init.gen.cpp.obj",
+			"StateTreeNodeBase.gen.cpp.obj",
+			"StateTreeConditionBlueprintBase.cpp.obj",
+			"StateTreeEvaluatorBlueprintBase.cpp.obj",
+			"StateTreeNodeBlueprintBase.cpp.obj",
+			"StateTreeTaskBlueprintBase.cpp.obj",
+			"StateTreeCommonConditions.cpp.obj",
+			"StateTreeGameplayTagConditions.cpp.obj",
+			"StateTreeObjectConditions.cpp.obj",
+			"StateTree.cpp.obj",
+			"StateTreeConditionBase.cpp.obj",
+			"StateTreeDelegates.cpp.obj",
+			"StateTreeEvaluatorBase.cpp.obj",
+			"StateTreeEvents.cpp.obj",
+			"StateTreeExecutionContext.cpp.obj",
+			"StateTreeInstanceData.cpp.obj",
+			"StateTreeModule.cpp.obj",
+			"StateTreePropertyBindings.cpp.obj",
+			"StateTreeReference.cpp.obj",
+			"StateTreeSchema.cpp.obj",
+			"StateTreeTaskBase.cpp.obj",
+			"StateTreeTypes.cpp.obj",
+			"StateTreeDebugTextTask.cpp.obj",
+			"StateTreeDelayTask.cpp.obj"
+		]
+	}
+}

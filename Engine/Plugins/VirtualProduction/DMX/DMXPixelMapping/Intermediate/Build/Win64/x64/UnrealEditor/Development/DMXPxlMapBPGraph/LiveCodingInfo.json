@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXPxlMapBPGraph.cpp.obj": [
+			"DMXPixelMappingBlueprintGraph.init.gen.cpp.obj",
+			"K2Node_PixelMappingBaseComponent.gen.cpp.obj",
+			"K2Node_PixelMappingRendererComponent.gen.cpp.obj",
+			"DMXPixelMappingBlueprintGraphModule.cpp.obj",
+			"DMXPixelMappingPinFactory.cpp.obj",
+			"K2Node_PixelMappingBaseComponent.cpp.obj",
+			"K2Node_PixelMappingRendererComponent.cpp.obj"
+		]
+	}
+}

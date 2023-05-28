@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MobilePatchingUtils.cpp.obj": [
+			"MobilePatchingLibrary.gen.cpp.obj",
+			"MobilePatchingUtils.init.gen.cpp.obj",
+			"MobilePatchingLibrary.cpp.obj",
+			"MobilePatchingUtils.cpp.obj"
+		]
+	}
+}

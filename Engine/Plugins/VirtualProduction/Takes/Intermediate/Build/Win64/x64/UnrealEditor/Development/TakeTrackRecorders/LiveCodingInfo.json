@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TakeTrackRecorders.cpp.obj": [
+			"IMovieSceneTrackRecorderHost.gen.cpp.obj",
+			"MovieSceneTrackRecorder.gen.cpp.obj",
+			"MovieSceneTrackRecorderSettings.gen.cpp.obj",
+			"TakeTrackRecorders.init.gen.cpp.obj",
+			"MovieScene3DAttachTrackRecorder.cpp.obj",
+			"MovieScene3DTransformTrackRecorder.cpp.obj",
+			"MovieSceneAnimationTrackRecorder.cpp.obj",
+			"MovieSceneAnimationTrackRecorderSettings.cpp.obj",
+			"MovieSceneParticleTrackRecorder.cpp.obj",
+			"MovieScenePropertyTrackRecorder.cpp.obj",
+			"MovieSceneSpawnTrackRecorder.cpp.obj",
+			"MovieSceneTrackPropertyRecorder.cpp.obj",
+			"MovieSceneVisibilityTrackRecorder.cpp.obj",
+			"TakeTrackRecordersModule.cpp.obj"
+		]
+	}
+}

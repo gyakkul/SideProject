@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeExport.cpp.obj": [
+			"InterchangeExport.init.gen.cpp.obj",
+			"InterchangeExportModule.cpp.obj",
+			"InterchangeTextureWriter.cpp.obj"
+		]
+	}
+}

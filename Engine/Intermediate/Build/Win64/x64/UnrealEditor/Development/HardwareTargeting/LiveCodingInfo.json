@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HardwareTargeting.cpp.obj": [
+			"HardwareTargeting.init.gen.cpp.obj",
+			"HardwareTargetingSettings.gen.cpp.obj",
+			"HardwareTargetingModule.cpp.obj",
+			"HardwareTargetingSettings.cpp.obj"
+		]
+	}
+}

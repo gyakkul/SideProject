@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteExecution.cpp.obj": [
+			"RemoteExecution.init.gen.cpp.obj",
+			"RemoteExecutionSettings.gen.cpp.obj",
+			"DefaultRemoteExecutor.cpp.obj",
+			"RemoteExecutionModule.cpp.obj",
+			"RemoteExecutionSettings.cpp.obj",
+			"RemoteMessages.cpp.obj"
+		]
+	}
+}

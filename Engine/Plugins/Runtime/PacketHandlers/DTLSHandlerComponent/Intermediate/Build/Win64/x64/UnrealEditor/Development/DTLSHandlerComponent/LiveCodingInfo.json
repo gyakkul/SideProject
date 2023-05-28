@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DTLSHandlerComponent.cpp.obj": [
+			"DTLSCertificate.cpp.obj",
+			"DTLSCertStore.cpp.obj",
+			"DTLSContext.cpp.obj",
+			"DTLSHandlerComponent.cpp.obj"
+		]
+	}
+}

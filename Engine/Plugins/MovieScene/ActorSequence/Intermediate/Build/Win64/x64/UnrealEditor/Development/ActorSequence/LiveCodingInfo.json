@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorSequence.cpp.obj": [
+			"ActorSequence.gen.cpp.obj",
+			"ActorSequence.init.gen.cpp.obj",
+			"ActorSequenceComponent.gen.cpp.obj",
+			"ActorSequenceObjectReference.gen.cpp.obj",
+			"ActorSequencePlayer.gen.cpp.obj",
+			"ActorSequence.cpp.obj",
+			"ActorSequenceComponent.cpp.obj",
+			"ActorSequenceObjectReference.cpp.obj",
+			"ActorSequencePlayer.cpp.obj"
+		]
+	}
+}

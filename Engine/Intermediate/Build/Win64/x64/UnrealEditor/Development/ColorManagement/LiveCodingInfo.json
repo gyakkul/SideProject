@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ColorManagement.cpp.obj": [
+			"ColorSpace.cpp.obj",
+			"ColorManagementTests.cpp.obj",
+			"TransferFunctions.cpp.obj"
+		]
+	}
+}

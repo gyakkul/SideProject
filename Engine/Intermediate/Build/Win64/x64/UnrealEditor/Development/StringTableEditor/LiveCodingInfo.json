@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StringTableEditor.cpp.obj": [
+			"AssetDefinition_StringTable.gen.cpp.obj",
+			"StringTableEditor.init.gen.cpp.obj",
+			"AssetDefinition_StringTable.cpp.obj",
+			"StringTableEditor.cpp.obj",
+			"StringTableEditorModule.cpp.obj"
+		]
+	}
+}

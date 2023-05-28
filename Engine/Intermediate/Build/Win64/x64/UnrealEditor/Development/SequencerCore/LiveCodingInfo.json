@@ -1,0 +1,41 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SequencerCore.cpp.obj": [
+			"IGeometryExtension.cpp.obj",
+			"IKeyExtension.cpp.obj",
+			"IOutlinerExtension.cpp.obj",
+			"IPinnableExtension.cpp.obj",
+			"IRecyclableExtension.cpp.obj",
+			"IRenameableExtension.cpp.obj",
+			"ISortableExtension.cpp.obj",
+			"ITrackLaneExtension.cpp.obj",
+			"LinkedOutlinerExtension.cpp.obj",
+			"ViewModelExtensionCollection.cpp.obj",
+			"ICastable.cpp.obj",
+			"SharedViewModelData.cpp.obj",
+			"ViewModelPtr.cpp.obj",
+			"EditorViewModel.cpp.obj",
+			"OutlinerSpacer.cpp.obj",
+			"OutlinerViewModel.cpp.obj",
+			"OutlinerViewModelDragDropOp.cpp.obj",
+			"TrackAreaViewModel.cpp.obj",
+			"ViewModel.cpp.obj",
+			"ViewModelHierarchy.cpp.obj",
+			"ViewModelIterators.cpp.obj",
+			"VirtualTrackArea.cpp.obj",
+			"ViewModelTypeID.cpp.obj",
+			"ViewModelTypeIDs.cpp.obj",
+			"KeyRenderer.cpp.obj",
+			"SCompoundTrackLaneView.cpp.obj",
+			"SKeyNavigationButtons.cpp.obj",
+			"SOutlinerItemViewBase.cpp.obj",
+			"SOutlinerView.cpp.obj",
+			"STrackAreaLaneView.cpp.obj",
+			"STrackAreaView.cpp.obj",
+			"STrackLane.cpp.obj",
+			"ViewUtilities.cpp.obj",
+			"SequencerCoreModule.cpp.obj"
+		]
+	}
+}

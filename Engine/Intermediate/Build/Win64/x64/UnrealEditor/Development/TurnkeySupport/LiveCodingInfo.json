@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TurnkeySupport.cpp.obj": [
+			"TurnkeyEditorSupport.cpp.obj",
+			"TurnkeySupportModule.cpp.obj",
+			"TurnkeyWrapper.cpp.obj"
+		]
+	}
+}

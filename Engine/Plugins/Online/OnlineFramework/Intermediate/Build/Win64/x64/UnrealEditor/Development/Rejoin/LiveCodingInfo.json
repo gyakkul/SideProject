@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Rejoin.cpp.obj": [
+			"Rejoin.init.gen.cpp.obj",
+			"RejoinCheck.cpp.obj",
+			"RejoinModule.cpp.obj"
+		]
+	}
+}

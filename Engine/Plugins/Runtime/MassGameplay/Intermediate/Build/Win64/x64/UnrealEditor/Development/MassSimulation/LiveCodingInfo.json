@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassSimulation.cpp.obj": [
+			"MassSimulation.init.gen.cpp.obj",
+			"MassSimulationSettings.gen.cpp.obj",
+			"MassSimulationSubsystem.gen.cpp.obj",
+			"MassSimulationModule.cpp.obj",
+			"MassSimulationSubsystem.cpp.obj"
+		]
+	}
+}

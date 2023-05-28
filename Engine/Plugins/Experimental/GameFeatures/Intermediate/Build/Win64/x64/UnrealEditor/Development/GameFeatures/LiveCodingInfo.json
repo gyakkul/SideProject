@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameFeatures.cpp.obj": [
+			"GameFeatures.init.gen.cpp.obj",
+			"GameFeatureStateChangeObserver.gen.cpp.obj",
+			"GameFeatureAction.cpp.obj",
+			"GameFeatureAction_AddCheats.cpp.obj",
+			"GameFeatureAction_AddComponents.cpp.obj",
+			"GameFeatureAction_AddWPContent.cpp.obj",
+			"GameFeatureAction_DataRegistry.cpp.obj",
+			"GameFeatureAction_DataRegistrySource.cpp.obj",
+			"GameFeatureData.cpp.obj",
+			"GameFeatureDataAssetDependencyGatherer.cpp.obj",
+			"GameFeaturePluginOperationResult.cpp.obj",
+			"GameFeaturePluginStateMachine.cpp.obj",
+			"GameFeaturesModule.cpp.obj",
+			"GameFeaturesProjectPolicies.cpp.obj",
+			"GameFeaturesSubsystem.cpp.obj",
+			"GameFeaturesSubsystemSettings.cpp.obj"
+		]
+	}
+}

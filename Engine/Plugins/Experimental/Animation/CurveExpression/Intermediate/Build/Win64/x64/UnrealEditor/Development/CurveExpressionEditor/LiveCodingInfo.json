@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CurveExpressionEditor.cpp.obj": [
+			"CurveExpressionEditor.init.gen.cpp.obj",
+			"AnimGraphNode_RemapCurvesFromMesh.cpp.obj",
+			"CurveExpressionDetailsCustomization.cpp.obj",
+			"CurveExpressionEditorModule.cpp.obj",
+			"CurveExpressionEditorStyle.cpp.obj",
+			"K2Node_MakeCurveExpressionMap.cpp.obj"
+		]
+	}
+}

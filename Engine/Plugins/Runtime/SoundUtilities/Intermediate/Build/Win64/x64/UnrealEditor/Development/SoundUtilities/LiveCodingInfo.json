@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundUtilities.cpp.obj": [
+			"SoundSimple.gen.cpp.obj",
+			"SoundUtilities.gen.cpp.obj",
+			"SoundUtilities.init.gen.cpp.obj",
+			"SoundSimple.cpp.obj",
+			"SoundUtilities.cpp.obj",
+			"SoundUtilitiesModule.cpp.obj"
+		]
+	}
+}

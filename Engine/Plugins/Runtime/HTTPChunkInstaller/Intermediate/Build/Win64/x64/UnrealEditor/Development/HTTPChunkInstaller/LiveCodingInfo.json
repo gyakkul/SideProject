@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HTTPChunkInstaller.cpp.obj": [
+			"HTTPChunkInstaller.cpp.obj",
+			"HTTPChunkInstallerLog.cpp.obj",
+			"LocalTitleFile.cpp.obj"
+		]
+	}
+}

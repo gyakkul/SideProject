@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TextureShareDisplayCluster.cpp.obj": [
+			"TextureShareDisplayClusterAPI.cpp.obj",
+			"TextureShareDisplayClusterLog.cpp.obj",
+			"TextureShareDisplayClusterModule.cpp.obj",
+			"TextureSharePostprocess.cpp.obj",
+			"TextureSharePostprocessBase.cpp.obj",
+			"TextureSharePostprocessFactory.cpp.obj",
+			"TextureSharePostprocess_Frame.cpp.obj",
+			"TextureSharePostprocess_FrameProxy.cpp.obj",
+			"TextureShareProjectionPolicy.cpp.obj",
+			"TextureShareProjectionPolicyBase.cpp.obj",
+			"TextureShareProjectionPolicyFactory.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,98 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MuCOE/RemapPins/CustomizableObjectNodeRemapPinsByPosition.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CUSTOMIZABLEOBJECTEDITOR_CustomizableObjectNodeRemapPinsByPosition_generated_h
+#error "CustomizableObjectNodeRemapPinsByPosition.generated.h already included, missing '#pragma once' in CustomizableObjectNodeRemapPinsByPosition.h"
+#endif
+#define CUSTOMIZABLEOBJECTEDITOR_CustomizableObjectNodeRemapPinsByPosition_generated_h
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectNodeRemapPinsByPosition(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectNodeRemapPinsByPosition_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectNodeRemapPinsByPosition, UCustomizableObjectNodeRemapPins, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectNodeRemapPinsByPosition)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesUCustomizableObjectNodeRemapPinsByPosition(); \
+	friend struct Z_Construct_UClass_UCustomizableObjectNodeRemapPinsByPosition_Statics; \
+public: \
+	DECLARE_CLASS(UCustomizableObjectNodeRemapPinsByPosition, UCustomizableObjectNodeRemapPins, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CustomizableObjectEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCustomizableObjectNodeRemapPinsByPosition)
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCustomizableObjectNodeRemapPinsByPosition(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCustomizableObjectNodeRemapPinsByPosition) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectNodeRemapPinsByPosition); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectNodeRemapPinsByPosition); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectNodeRemapPinsByPosition(UCustomizableObjectNodeRemapPinsByPosition&&); \
+	NO_API UCustomizableObjectNodeRemapPinsByPosition(const UCustomizableObjectNodeRemapPinsByPosition&); \
+public: \
+	NO_API virtual ~UCustomizableObjectNodeRemapPinsByPosition();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCustomizableObjectNodeRemapPinsByPosition(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCustomizableObjectNodeRemapPinsByPosition(UCustomizableObjectNodeRemapPinsByPosition&&); \
+	NO_API UCustomizableObjectNodeRemapPinsByPosition(const UCustomizableObjectNodeRemapPinsByPosition&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCustomizableObjectNodeRemapPinsByPosition); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCustomizableObjectNodeRemapPinsByPosition); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCustomizableObjectNodeRemapPinsByPosition) \
+	NO_API virtual ~UCustomizableObjectNodeRemapPinsByPosition();
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_20_PROLOG
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_INCLASS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h_24_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CUSTOMIZABLEOBJECTEDITOR_API UClass* StaticClass<class UCustomizableObjectNodeRemapPinsByPosition>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Mutable_Source_CustomizableObjectEditor_Public_MuCOE_RemapPins_CustomizableObjectNodeRemapPinsByPosition_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

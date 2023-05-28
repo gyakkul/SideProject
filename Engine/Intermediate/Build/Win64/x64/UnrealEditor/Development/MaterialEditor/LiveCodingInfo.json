@@ -1,0 +1,44 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MaterialEditor.1_of_3.cpp.obj": [
+			"MaterialEditor.init.gen.cpp.obj",
+			"MaterialEditorContext.gen.cpp.obj",
+			"MaterialEditorSettings.gen.cpp.obj",
+			"MaterialPropertyHelpers.gen.cpp.obj",
+			"FindInMaterial.cpp.obj",
+			"MaterialEditingLibrary.cpp.obj",
+			"MaterialEditor.cpp.obj",
+			"MaterialEditorActions.cpp.obj",
+			"MaterialEditorDetailCustomization.cpp.obj"
+		],
+		"Module.MaterialEditor.2_of_3.cpp.obj": [
+			"MaterialEditorGraphPanelPinFactory.cpp.obj",
+			"MaterialEditorInstanceDetailCustomization.cpp.obj",
+			"MaterialEditorModes.cpp.obj",
+			"MaterialEditorModule.cpp.obj",
+			"MaterialEditorTabs.cpp.obj",
+			"MaterialEditorUtilities.cpp.obj",
+			"MaterialExpressionClasses.cpp.obj",
+			"MaterialInstanceEditor.cpp.obj",
+			"MaterialLayersFunctionsCustomization.cpp.obj",
+			"MaterialPropertyHelpers.cpp.obj",
+			"MaterialStats.cpp.obj",
+			"MaterialStatsCommon.cpp.obj",
+			"MaterialStatsGrid.cpp.obj",
+			"SMaterialEditorCustomPrimitiveDataWidget.cpp.obj",
+			"SMaterialEditorStatsWidget.cpp.obj",
+			"SMaterialEditorStrataWidget.cpp.obj",
+			"SMaterialEditorTitleBar.cpp.obj",
+			"SMaterialEditorViewport.cpp.obj"
+		],
+		"Module.MaterialEditor.3_of_3.cpp.obj": [
+			"SMaterialEditorViewportToolBar.cpp.obj",
+			"SMaterialLayersFunctionsTree.cpp.obj",
+			"SMaterialPalette.cpp.obj",
+			"SMaterialParametersOverviewWidget.cpp.obj",
+			"MaterialEditorTabFactories.cpp.obj",
+			"MaterialEditorTests.cpp.obj"
+		]
+	}
+}

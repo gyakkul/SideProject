@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CBClassDataSource.cpp.obj": [
+			"ContentBrowserClassDataSource.init.gen.cpp.obj",
+			"ContentBrowserClassDataCore.cpp.obj",
+			"ContentBrowserClassDataPayload.cpp.obj",
+			"ContentBrowserClassDataSource.cpp.obj",
+			"ContentBrowserClassDataSourceModule.cpp.obj",
+			"NativeClassHierarchy.cpp.obj",
+			"NewClassContextMenu.cpp.obj"
+		]
+	}
+}

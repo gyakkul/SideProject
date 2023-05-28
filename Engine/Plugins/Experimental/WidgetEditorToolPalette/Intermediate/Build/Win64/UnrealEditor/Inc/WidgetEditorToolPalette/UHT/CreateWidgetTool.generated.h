@@ -1,0 +1,248 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DefaultTools/CreateWidgetTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef WIDGETEDITORTOOLPALETTE_CreateWidgetTool_generated_h
+#error "CreateWidgetTool.generated.h already included, missing '#pragma once' in CreateWidgetTool.h"
+#endif
+#define WIDGETEDITORTOOLPALETTE_CreateWidgetTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_ACCESSORS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCreateWidgetToolBuilder(); \
+	friend struct Z_Construct_UClass_UCreateWidgetToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UCreateWidgetToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(UCreateWidgetToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_INCLASS \
+private: \
+	static void StaticRegisterNativesUCreateWidgetToolBuilder(); \
+	friend struct Z_Construct_UClass_UCreateWidgetToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UCreateWidgetToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(UCreateWidgetToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCreateWidgetToolBuilder(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCreateWidgetToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCreateWidgetToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCreateWidgetToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCreateWidgetToolBuilder(UCreateWidgetToolBuilder&&); \
+	NO_API UCreateWidgetToolBuilder(const UCreateWidgetToolBuilder&); \
+public: \
+	NO_API virtual ~UCreateWidgetToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCreateWidgetToolBuilder(UCreateWidgetToolBuilder&&); \
+	NO_API UCreateWidgetToolBuilder(const UCreateWidgetToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCreateWidgetToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCreateWidgetToolBuilder); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCreateWidgetToolBuilder) \
+	NO_API virtual ~UCreateWidgetToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_14_PROLOG
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_INCLASS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> WIDGETEDITORTOOLPALETTE_API UClass* StaticClass<class UCreateWidgetToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_ACCESSORS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCreateWidgetToolProperties(); \
+	friend struct Z_Construct_UClass_UCreateWidgetToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UCreateWidgetToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(UCreateWidgetToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_INCLASS \
+private: \
+	static void StaticRegisterNativesUCreateWidgetToolProperties(); \
+	friend struct Z_Construct_UClass_UCreateWidgetToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UCreateWidgetToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(UCreateWidgetToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCreateWidgetToolProperties(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCreateWidgetToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCreateWidgetToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCreateWidgetToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCreateWidgetToolProperties(UCreateWidgetToolProperties&&); \
+	NO_API UCreateWidgetToolProperties(const UCreateWidgetToolProperties&); \
+public: \
+	NO_API virtual ~UCreateWidgetToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCreateWidgetToolProperties(UCreateWidgetToolProperties&&); \
+	NO_API UCreateWidgetToolProperties(const UCreateWidgetToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCreateWidgetToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCreateWidgetToolProperties); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCreateWidgetToolProperties) \
+	NO_API virtual ~UCreateWidgetToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_34_PROLOG
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_INCLASS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_37_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> WIDGETEDITORTOOLPALETTE_API UClass* StaticClass<class UCreateWidgetToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_ACCESSORS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCreateWidgetTool(); \
+	friend struct Z_Construct_UClass_UCreateWidgetTool_Statics; \
+public: \
+	DECLARE_CLASS(UCreateWidgetTool, USingleClickTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(UCreateWidgetTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UCreateWidgetTool*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_INCLASS \
+private: \
+	static void StaticRegisterNativesUCreateWidgetTool(); \
+	friend struct Z_Construct_UClass_UCreateWidgetTool_Statics; \
+public: \
+	DECLARE_CLASS(UCreateWidgetTool, USingleClickTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(UCreateWidgetTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UCreateWidgetTool*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCreateWidgetTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCreateWidgetTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCreateWidgetTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCreateWidgetTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCreateWidgetTool(UCreateWidgetTool&&); \
+	NO_API UCreateWidgetTool(const UCreateWidgetTool&); \
+public: \
+	NO_API virtual ~UCreateWidgetTool();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCreateWidgetTool(UCreateWidgetTool&&); \
+	NO_API UCreateWidgetTool(const UCreateWidgetTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCreateWidgetTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCreateWidgetTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UCreateWidgetTool) \
+	NO_API virtual ~UCreateWidgetTool();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_47_PROLOG
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_INCLASS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h_50_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> WIDGETEDITORTOOLPALETTE_API UClass* StaticClass<class UCreateWidgetTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_CreateWidgetTool_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

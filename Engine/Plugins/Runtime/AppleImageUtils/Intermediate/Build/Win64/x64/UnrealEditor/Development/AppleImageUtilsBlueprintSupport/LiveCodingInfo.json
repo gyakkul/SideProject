@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AppleImageUtilsBlueprintSupport.cpp.obj": [
+			"AppleImageUtilsBlueprintSupport.init.gen.cpp.obj",
+			"AppleImageUtilsBlueprintSupport.cpp.obj"
+		]
+	}
+}

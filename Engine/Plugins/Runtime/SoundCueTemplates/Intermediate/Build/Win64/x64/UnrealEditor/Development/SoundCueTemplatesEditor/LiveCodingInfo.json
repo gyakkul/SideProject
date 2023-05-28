@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundCueTemplatesEditor.cpp.obj": [
+			"AssetDefinition_SoundCueTemplate.gen.cpp.obj",
+			"SoundCueTemplatesEditor.init.gen.cpp.obj",
+			"AssetDefinition_SoundCueTemplate.cpp.obj",
+			"SoundCueTemplateFactory.cpp.obj",
+			"SoundCueTemplatesEditorModule.cpp.obj"
+		]
+	}
+}

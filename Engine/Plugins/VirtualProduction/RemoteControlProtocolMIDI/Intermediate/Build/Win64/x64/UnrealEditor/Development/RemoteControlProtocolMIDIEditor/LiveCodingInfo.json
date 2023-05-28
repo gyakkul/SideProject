@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteControlProtocolMIDIEditor.cpp.obj": [
+			"RemoteControlMIDIDeviceCustomization.cpp.obj",
+			"RemoteControlProtocolMIDIEditorModule.cpp.obj"
+		]
+	}
+}

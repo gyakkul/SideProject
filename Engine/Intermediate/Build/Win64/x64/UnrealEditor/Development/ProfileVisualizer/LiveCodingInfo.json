@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ProfileVisualizer.cpp.obj": [
+			"ProfileVisualizerModule.cpp.obj",
+			"ProfileVisualizerStyle.cpp.obj",
+			"SBarVisualizer.cpp.obj",
+			"SEventsTree.cpp.obj",
+			"SGraphBar.cpp.obj",
+			"SProfileVisualizer.cpp.obj",
+			"STimeline.cpp.obj",
+			"VisualizerEvents.cpp.obj"
+		]
+	}
+}

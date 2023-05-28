@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CommonConversationGraph.cpp.obj": [
+			"CommonConversationGraph.init.gen.cpp.obj",
+			"CommonConversationGraphModule.cpp.obj",
+			"ConversationCompiler.cpp.obj",
+			"ConversationGraph.cpp.obj",
+			"ConversationGraphConnectionDrawingPolicy.cpp.obj",
+			"ConversationGraphNode.cpp.obj",
+			"ConversationGraphNode_Choice.cpp.obj",
+			"ConversationGraphNode_EntryPoint.cpp.obj",
+			"ConversationGraphNode_Knot.cpp.obj",
+			"ConversationGraphNode_Requirement.cpp.obj",
+			"ConversationGraphNode_SideEffect.cpp.obj",
+			"ConversationGraphNode_Task.cpp.obj",
+			"ConversationGraphSchema.cpp.obj",
+			"ConversationGraphTypes.cpp.obj",
+			"SConversationGraphNode.cpp.obj"
+		]
+	}
+}

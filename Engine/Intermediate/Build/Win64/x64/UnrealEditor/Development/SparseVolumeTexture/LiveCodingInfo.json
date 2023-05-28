@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SparseVolumeTexture.cpp.obj": [
+			"SparseVolumeTexture.init.gen.cpp.obj",
+			"SparseVolumeTextureFactory.gen.cpp.obj",
+			"AssetTypeActions_SparseVolumeTexture.cpp.obj",
+			"OpenVDBImportWindow.cpp.obj",
+			"SparseVolumeTextureFactory.cpp.obj",
+			"SparseVolumeTextureModule.cpp.obj",
+			"SparseVolumeTextureOpenVDBUtility.cpp.obj"
+		]
+	}
+}

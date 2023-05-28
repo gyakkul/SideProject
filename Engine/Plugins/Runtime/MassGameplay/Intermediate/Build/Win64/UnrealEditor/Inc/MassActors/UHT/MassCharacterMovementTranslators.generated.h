@@ -1,0 +1,361 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Translators/MassCharacterMovementTranslators.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MASSACTORS_MassCharacterMovementTranslators_generated_h
+#error "MassCharacterMovementTranslators.generated.h already included, missing '#pragma once' in MassCharacterMovementTranslators.h"
+#endif
+#define MASSACTORS_MassCharacterMovementTranslators_generated_h
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_15_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCharacterMovementComponentWrapperFragment_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FObjectWrapperFragment Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FCharacterMovementComponentWrapperFragment>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_22_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassCharacterMovementCopyToMassTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassCharacterMovementCopyToMassTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassCharacterMovementToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterMovementToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterMovementToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterMovementToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassCharacterMovementToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterMovementToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterMovementToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterMovementToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassCharacterMovementToMassTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassCharacterMovementToMassTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterMovementToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterMovementToMassTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterMovementToMassTranslator(UMassCharacterMovementToMassTranslator&&); \
+	NO_API UMassCharacterMovementToMassTranslator(const UMassCharacterMovementToMassTranslator&); \
+public: \
+	NO_API virtual ~UMassCharacterMovementToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterMovementToMassTranslator(UMassCharacterMovementToMassTranslator&&); \
+	NO_API UMassCharacterMovementToMassTranslator(const UMassCharacterMovementToMassTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterMovementToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterMovementToMassTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassCharacterMovementToMassTranslator) \
+	NO_API virtual ~UMassCharacterMovementToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_25_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_28_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassCharacterMovementToMassTranslator>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_43_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassCharacterMovementCopyToActorTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassCharacterMovementCopyToActorTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassCharacterMovementToActorTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterMovementToActorTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterMovementToActorTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterMovementToActorTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassCharacterMovementToActorTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterMovementToActorTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterMovementToActorTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterMovementToActorTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassCharacterMovementToActorTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassCharacterMovementToActorTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterMovementToActorTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterMovementToActorTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterMovementToActorTranslator(UMassCharacterMovementToActorTranslator&&); \
+	NO_API UMassCharacterMovementToActorTranslator(const UMassCharacterMovementToActorTranslator&); \
+public: \
+	NO_API virtual ~UMassCharacterMovementToActorTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterMovementToActorTranslator(UMassCharacterMovementToActorTranslator&&); \
+	NO_API UMassCharacterMovementToActorTranslator(const UMassCharacterMovementToActorTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterMovementToActorTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterMovementToActorTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassCharacterMovementToActorTranslator) \
+	NO_API virtual ~UMassCharacterMovementToActorTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_47_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_50_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassCharacterMovementToActorTranslator>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_66_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassCharacterOrientationCopyToMassTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassCharacterOrientationCopyToMassTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassCharacterOrientationToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterOrientationToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterOrientationToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterOrientationToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassCharacterOrientationToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterOrientationToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterOrientationToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterOrientationToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassCharacterOrientationToMassTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassCharacterOrientationToMassTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterOrientationToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterOrientationToMassTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterOrientationToMassTranslator(UMassCharacterOrientationToMassTranslator&&); \
+	NO_API UMassCharacterOrientationToMassTranslator(const UMassCharacterOrientationToMassTranslator&); \
+public: \
+	NO_API virtual ~UMassCharacterOrientationToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterOrientationToMassTranslator(UMassCharacterOrientationToMassTranslator&&); \
+	NO_API UMassCharacterOrientationToMassTranslator(const UMassCharacterOrientationToMassTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterOrientationToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterOrientationToMassTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassCharacterOrientationToMassTranslator) \
+	NO_API virtual ~UMassCharacterOrientationToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_69_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_72_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassCharacterOrientationToMassTranslator>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_87_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassCharacterOrientationCopyToActorTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassCharacterOrientationCopyToActorTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassCharacterOrientationToActorTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterOrientationToActorTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterOrientationToActorTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterOrientationToActorTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassCharacterOrientationToActorTranslator(); \
+	friend struct Z_Construct_UClass_UMassCharacterOrientationToActorTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCharacterOrientationToActorTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCharacterOrientationToActorTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassCharacterOrientationToActorTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassCharacterOrientationToActorTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterOrientationToActorTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterOrientationToActorTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterOrientationToActorTranslator(UMassCharacterOrientationToActorTranslator&&); \
+	NO_API UMassCharacterOrientationToActorTranslator(const UMassCharacterOrientationToActorTranslator&); \
+public: \
+	NO_API virtual ~UMassCharacterOrientationToActorTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCharacterOrientationToActorTranslator(UMassCharacterOrientationToActorTranslator&&); \
+	NO_API UMassCharacterOrientationToActorTranslator(const UMassCharacterOrientationToActorTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCharacterOrientationToActorTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCharacterOrientationToActorTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassCharacterOrientationToActorTranslator) \
+	NO_API virtual ~UMassCharacterOrientationToActorTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_91_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h_94_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassCharacterOrientationToActorTranslator>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCharacterMovementTranslators_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WaterEditor.cpp.obj": [
+			"WaterEditor.init.gen.cpp.obj",
+			"AssetTypeActions_WaterWaves.cpp.obj",
+			"CausticsGeneratorActor.cpp.obj",
+			"JumpFloodComponent2D.cpp.obj",
+			"WaterBodyActorFactory.cpp.obj",
+			"WaterBodyBrushCacheContainerThumbnailRenderer.cpp.obj",
+			"WaterBodyIslandActorFactory.cpp.obj",
+			"WaterBrushCacheContainer.cpp.obj",
+			"WaterBrushManager.cpp.obj",
+			"WaterBrushManagerFactory.cpp.obj",
+			"WaterEditorModule.cpp.obj",
+			"WaterEditorSettings.cpp.obj",
+			"WaterEditorSubsystem.cpp.obj",
+			"WaterLandscapeBrush.cpp.obj",
+			"WaterSplineComponentVisualizer.cpp.obj",
+			"WaterSplineMetadataDetails.cpp.obj",
+			"WaterUIStyle.cpp.obj",
+			"WaterWavesAssetFactory.cpp.obj",
+			"WaterWavesEditorCommands.cpp.obj",
+			"WaterWavesEditorToolkit.cpp.obj",
+			"WaterWavesEditorViewport.cpp.obj",
+			"WaterZoneActorFactory.cpp.obj"
+		]
+	}
+}

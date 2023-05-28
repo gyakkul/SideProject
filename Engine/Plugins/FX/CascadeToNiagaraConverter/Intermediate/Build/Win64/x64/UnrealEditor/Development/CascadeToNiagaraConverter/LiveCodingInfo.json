@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CascadeToNiagaraConverter.cpp.obj": [
+			"CascadeToNiagaraConverter.init.gen.cpp.obj",
+			"CascadeToNiagaraConverterModule.cpp.obj",
+			"NiagaraStackGraphUtilitiesAdapterLibrary.cpp.obj"
+		]
+	}
+}

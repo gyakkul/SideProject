@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DeviceProfileServices.cpp.obj": [
+			"CheckAndroidDeviceProfileCommandlet.gen.cpp.obj",
+			"DeviceProfileServices.init.gen.cpp.obj",
+			"CheckAndroidDeviceProfileCommandlet.cpp.obj",
+			"DeviceProfileServicesModule.cpp.obj",
+			"DeviceProfileServicesUIManager.cpp.obj"
+		]
+	}
+}

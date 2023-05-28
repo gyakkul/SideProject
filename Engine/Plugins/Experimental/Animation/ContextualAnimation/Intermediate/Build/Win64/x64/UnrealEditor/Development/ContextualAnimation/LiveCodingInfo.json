@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ContextualAnimation.cpp.obj": [
+			"ContextualAnimation.init.gen.cpp.obj",
+			"AnimNotifyState_EarlyOutContextualAnimWindow.cpp.obj",
+			"AnimNotifyState_IKWindow.cpp.obj",
+			"ContextualAnimActorInterface.cpp.obj",
+			"ContextualAnimation.cpp.obj",
+			"ContextualAnimManager.cpp.obj",
+			"ContextualAnimSceneActorComponent.cpp.obj",
+			"ContextualAnimSceneAsset.cpp.obj",
+			"ContextualAnimSceneInstance.cpp.obj",
+			"ContextualAnimSelectionCriterion.cpp.obj",
+			"ContextualAnimTransition.cpp.obj",
+			"ContextualAnimTypes.cpp.obj",
+			"ContextualAnimUtilities.cpp.obj"
+		]
+	}
+}

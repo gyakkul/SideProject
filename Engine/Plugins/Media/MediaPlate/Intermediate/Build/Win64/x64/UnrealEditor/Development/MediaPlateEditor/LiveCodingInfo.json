@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaPlateEditor.cpp.obj": [
+			"MediaPlateEditor.init.gen.cpp.obj",
+			"ActorFactoryMediaPlate.cpp.obj",
+			"MediaPlateActions.cpp.obj",
+			"MediaPlateCustomization.cpp.obj",
+			"MediaPlateCustomizationMesh.cpp.obj",
+			"MediaPlateEditorModule.cpp.obj",
+			"MediaPlateEditorStyle.cpp.obj",
+			"MediaPlateEditorCommands.cpp.obj",
+			"MediaPlateTrackEditor.cpp.obj",
+			"MediaPlateEditorToolkit.cpp.obj",
+			"SMediaPlateEditorDetails.cpp.obj",
+			"SMediaPlateEditorMaterial.cpp.obj",
+			"SMediaPlateEditorMediaDetails.cpp.obj",
+			"SMediaPlateEditorPlaylist.cpp.obj"
+		]
+	}
+}

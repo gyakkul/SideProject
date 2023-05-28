@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioCodecEngine.cpp.obj": [
+			"AudioCodecEngineModule.cpp.obj",
+			"DecoderBackCompat.cpp.obj",
+			"DecoderInputBackCompat.cpp.obj",
+			"DecoderInputFactory.cpp.obj"
+		]
+	}
+}

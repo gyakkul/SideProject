@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TimecodeSynchronizer.cpp.obj": [
+			"TimecodeSynchronizer.gen.cpp.obj",
+			"TimecodeSynchronizer.init.gen.cpp.obj",
+			"TimecodeSynchronizerProjectSettings.gen.cpp.obj",
+			"TimecodeSynchronizer.cpp.obj",
+			"TimecodeSynchronizerModule.cpp.obj",
+			"TimecodeSynchronizerProjectSettings.cpp.obj"
+		]
+	}
+}

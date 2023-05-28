@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HLMedia.cpp.obj": [
+			"HLMedia.init.gen.cpp.obj",
+			"HLMediaSource.gen.cpp.obj",
+			"HLMediaModule.cpp.obj",
+			"HLMediaPlayer.cpp.obj",
+			"HLMediaPlayerTracks.cpp.obj",
+			"HLMediaSource.cpp.obj"
+		]
+	}
+}

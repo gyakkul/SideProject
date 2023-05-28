@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TextureMediaPlayer.cpp.obj": [
+			"TextureMediaPlayer.cpp.obj",
+			"TextureMediaPlayerModule.cpp.obj",
+			"TextureMediaPlayerVideoDecoderOutput.cpp.obj"
+		]
+	}
+}

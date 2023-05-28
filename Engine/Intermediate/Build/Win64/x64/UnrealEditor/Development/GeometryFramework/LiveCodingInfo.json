@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryFramework.cpp.obj": [
+			"GeometryFramework.init.gen.cpp.obj",
+			"MeshChange.cpp.obj",
+			"MeshReplacementChange.cpp.obj",
+			"MeshVertexChange.cpp.obj",
+			"BaseDynamicMeshComponent.cpp.obj",
+			"BaseDynamicMeshSceneProxy.cpp.obj",
+			"DynamicMeshComponent.cpp.obj",
+			"MeshRenderDecomposition.cpp.obj",
+			"DynamicMeshActor.cpp.obj",
+			"GeometryFrameworkModule.cpp.obj",
+			"UDynamicMesh.cpp.obj"
+		]
+	}
+}

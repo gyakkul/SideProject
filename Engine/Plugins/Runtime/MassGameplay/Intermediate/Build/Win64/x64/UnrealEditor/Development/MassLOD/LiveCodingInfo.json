@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassLOD.cpp.obj": [
+			"MassLOD.init.gen.cpp.obj",
+			"MassLODCollectorProcessor.gen.cpp.obj",
+			"MassLODFragments.gen.cpp.obj",
+			"MassLODSubsystem.gen.cpp.obj",
+			"MassLODTrait.gen.cpp.obj",
+			"MassLODTypes.gen.cpp.obj",
+			"MassSimulationLOD.gen.cpp.obj",
+			"MassLODCollectorProcessor.cpp.obj",
+			"MassLODLogic.cpp.obj",
+			"MassLODModule.cpp.obj",
+			"MassLODSubsystem.cpp.obj",
+			"MassLODTrait.cpp.obj",
+			"MassLODUtils.cpp.obj",
+			"MassSimulationLOD.cpp.obj"
+		]
+	}
+}

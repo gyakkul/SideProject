@@ -1,0 +1,22 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayinsightseditor\\module.gameplayinsightseditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gameplayinsightseditor\\definitions.gameplayinsightseditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayinsightseditor\\uht\\gameplayinsightseditor.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\source\\gameplayinsightseditor\\private\\gameplayinsightseditor.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\source\\gameplayinsightseditor\\private\\insightsskeletalmeshcomponent.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\source\\gameplayinsightseditor\\public\\insightsskeletalmeshcomponent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayinsightseditor\\uht\\insightsskeletalmeshcomponent.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\source\\gameplayinsights\\public\\ianimationprovider.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\traceservices\\public\\traceservices\\model\\analysissession.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\traceservices\\public\\traceservices\\containers\\timelines.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\gameplayinsights\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayinsightseditor\\uht\\insightsskeletalmeshcomponent.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

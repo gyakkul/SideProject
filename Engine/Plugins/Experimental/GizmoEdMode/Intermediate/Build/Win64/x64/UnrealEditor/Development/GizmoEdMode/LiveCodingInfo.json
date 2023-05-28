@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GizmoEdMode.cpp.obj": [
+			"AssetEditorGizmoFactory.gen.cpp.obj",
+			"GizmoEdMode.init.gen.cpp.obj",
+			"DefaultAssetEditorGizmoFactory.cpp.obj",
+			"GizmoEdMode.cpp.obj",
+			"GizmoEdModeModule.cpp.obj"
+		]
+	}
+}

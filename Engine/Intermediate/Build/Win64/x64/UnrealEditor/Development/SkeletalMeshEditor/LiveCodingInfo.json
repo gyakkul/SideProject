@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SkeletalMeshEditor.cpp.obj": [
+			"SkeletalMeshEditor.init.gen.cpp.obj",
+			"SkeletalMeshEditorContextMenuContext.gen.cpp.obj",
+			"SkeletalMeshEditorSubsystem.gen.cpp.obj",
+			"MeshHierarchyCmd.cpp.obj",
+			"SControlRigMappingWindow.cpp.obj",
+			"SkeletalMeshEditor.cpp.obj",
+			"SkeletalMeshEditorCommands.cpp.obj",
+			"SkeletalMeshEditorMode.cpp.obj",
+			"SkeletalMeshEditorModule.cpp.obj",
+			"SkeletalMeshEditorSubsystem.cpp.obj",
+			"SSkeletalMeshEditorToolbox.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,177 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ToolTargets/DynamicMeshComponentToolTarget.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MODELINGCOMPONENTSEDITORONLY_DynamicMeshComponentToolTarget_generated_h
+#error "DynamicMeshComponentToolTarget.generated.h already included, missing '#pragma once' in DynamicMeshComponentToolTarget.h"
+#endif
+#define MODELINGCOMPONENTSEDITORONLY_DynamicMeshComponentToolTarget_generated_h
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshComponentToolTarget(); \
+	friend struct Z_Construct_UClass_UDynamicMeshComponentToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshComponentToolTarget, UPrimitiveComponentToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshComponentToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<UDynamicMeshComponentToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshComponentToolTarget(); \
+	friend struct Z_Construct_UClass_UDynamicMeshComponentToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshComponentToolTarget, UPrimitiveComponentToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshComponentToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<UDynamicMeshComponentToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshComponentToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshComponentToolTarget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshComponentToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshComponentToolTarget); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshComponentToolTarget(UDynamicMeshComponentToolTarget&&); \
+	NO_API UDynamicMeshComponentToolTarget(const UDynamicMeshComponentToolTarget&); \
+public: \
+	NO_API virtual ~UDynamicMeshComponentToolTarget();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshComponentToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshComponentToolTarget(UDynamicMeshComponentToolTarget&&); \
+	NO_API UDynamicMeshComponentToolTarget(const UDynamicMeshComponentToolTarget&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshComponentToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshComponentToolTarget); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshComponentToolTarget) \
+	NO_API virtual ~UDynamicMeshComponentToolTarget();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_23_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTSEDITORONLY_API UClass* StaticClass<class UDynamicMeshComponentToolTarget>();
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshComponentToolTargetFactory(); \
+	friend struct Z_Construct_UClass_UDynamicMeshComponentToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshComponentToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshComponentToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_INCLASS \
+private: \
+	static void StaticRegisterNativesUDynamicMeshComponentToolTargetFactory(); \
+	friend struct Z_Construct_UClass_UDynamicMeshComponentToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(UDynamicMeshComponentToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ModelingComponentsEditorOnly"), NO_API) \
+	DECLARE_SERIALIZER(UDynamicMeshComponentToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshComponentToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshComponentToolTargetFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshComponentToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshComponentToolTargetFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshComponentToolTargetFactory(UDynamicMeshComponentToolTargetFactory&&); \
+	NO_API UDynamicMeshComponentToolTargetFactory(const UDynamicMeshComponentToolTargetFactory&); \
+public: \
+	NO_API virtual ~UDynamicMeshComponentToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDynamicMeshComponentToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDynamicMeshComponentToolTargetFactory(UDynamicMeshComponentToolTargetFactory&&); \
+	NO_API UDynamicMeshComponentToolTargetFactory(const UDynamicMeshComponentToolTargetFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDynamicMeshComponentToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDynamicMeshComponentToolTargetFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDynamicMeshComponentToolTargetFactory) \
+	NO_API virtual ~UDynamicMeshComponentToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_84_PROLOG
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_INCLASS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h_87_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MODELINGCOMPONENTSEDITORONLY_API UClass* StaticClass<class UDynamicMeshComponentToolTargetFactory>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MeshModelingToolset_Source_ModelingComponentsEditorOnly_Public_ToolTargets_DynamicMeshComponentToolTarget_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

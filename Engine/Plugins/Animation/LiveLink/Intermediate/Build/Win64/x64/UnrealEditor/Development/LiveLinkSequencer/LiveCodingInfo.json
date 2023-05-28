@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkSequencer.cpp.obj": [
+			"LiveLinkSequencer.init.gen.cpp.obj",
+			"MovieSceneLiveLinkControllerTrackRecorder.gen.cpp.obj",
+			"LiveLinkSequencerModule.cpp.obj",
+			"LiveLinkSequencerSettings.cpp.obj",
+			"MovieSceneLiveLinkControllerMapTrackRecorder.cpp.obj",
+			"MovieSceneLiveLinkTrackRecorder.cpp.obj",
+			"LiveLinkPropertyTrackEditor.cpp.obj",
+			"TakeRecorderLiveLinkSource.cpp.obj"
+		]
+	}
+}

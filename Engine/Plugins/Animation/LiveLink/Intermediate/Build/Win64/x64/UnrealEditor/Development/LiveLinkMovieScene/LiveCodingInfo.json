@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkMovieScene.cpp.obj": [
+			"LiveLinkMovieScene.init.gen.cpp.obj",
+			"LiveLinkMovieSceneModule.cpp.obj",
+			"MovieSceneLiveLinkEnumHandler.cpp.obj",
+			"MovieSceneLiveLinkPropertyHandler.cpp.obj",
+			"MovieSceneLiveLinkSection.cpp.obj",
+			"MovieSceneLiveLinkSectionTemplate.cpp.obj",
+			"MovieSceneLiveLinkSource.cpp.obj",
+			"MovieSceneLiveLinkStructProperties.cpp.obj",
+			"MovieSceneLiveLinkStructPropertyBindings.cpp.obj",
+			"MovieSceneLiveLinkSubSection.cpp.obj",
+			"MovieSceneLiveLinkSubSectionAnimation.cpp.obj",
+			"MovieSceneLiveLinkSubSectionBasicRole.cpp.obj",
+			"MovieSceneLiveLinkSubSectionProperties.cpp.obj",
+			"MovieSceneLiveLinkTrack.cpp.obj",
+			"MovieSceneLiveLinkTransformHandler.cpp.obj"
+		]
+	}
+}

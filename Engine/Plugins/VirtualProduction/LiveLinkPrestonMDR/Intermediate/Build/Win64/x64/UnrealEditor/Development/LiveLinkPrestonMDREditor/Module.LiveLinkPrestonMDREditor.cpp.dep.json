@@ -1,0 +1,30 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\livelinkprestonmdreditor\\module.livelinkprestonmdreditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slate\\sharedpch.slate.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\livelinkprestonmdreditor\\definitions.livelinkprestonmdreditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\source\\livelinkprestonmdreditor\\private\\livelinkprestonmdreditormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\source\\livelinkprestonmdreditor\\private\\livelinkprestonmdreditormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\source\\livelinkprestonmdr\\public\\livelinkprestonmdrfactory.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\livelinkinterface\\public\\livelinksourcefactory.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\livelinkinterface\\uht\\livelinksourcefactory.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\intermediate\\build\\win64\\unrealeditor\\inc\\livelinkprestonmdr\\uht\\livelinkprestonmdrfactory.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\source\\livelinkprestonmdreditor\\private\\livelinkprestonmdrsourcepanel.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\source\\livelinkprestonmdr\\public\\livelinkprestonmdrconnectionsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\intermediate\\build\\win64\\unrealeditor\\inc\\livelinkprestonmdr\\uht\\livelinkprestonmdrconnectionsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\livelinkprestonmdr\\source\\livelinkprestonmdreditor\\private\\livelinkprestonmdrsourcepanel.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\detailsviewargs.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\istructuredetailsview.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\structonscope.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\propertyeditordelegates.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\propertyeditormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\idetailsview.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\ipropertytypecustomization.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

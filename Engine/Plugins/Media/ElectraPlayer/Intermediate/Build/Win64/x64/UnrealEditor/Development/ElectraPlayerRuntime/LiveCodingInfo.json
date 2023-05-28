@@ -1,0 +1,78 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElectraPlayerRuntime.1_of_5.cpp.obj": [
+			"ElectraPlayer.cpp.obj",
+			"ElectraPlayerAudioDecoderOutput.cpp.obj",
+			"ElectraPlayerRuntimeModule.cpp.obj",
+			"ElectraPlayer_Android.cpp.obj",
+			"ElectraPlayer_Apple.cpp.obj",
+			"ElectraPlayer_PC.cpp.obj",
+			"MediaThreads.cpp.obj",
+			"VideoDecoderH265_Dummy.cpp.obj",
+			"AudioDecoderAAC_DX.cpp.obj",
+			"VideoDecoderH264_DX.cpp.obj",
+			"VideoDecoderH265_DX.cpp.obj",
+			"SubtitleDecoder.cpp.obj",
+			"VideoDecoderHelpers.cpp.obj",
+			"ElectraVideoDecoder_PC.cpp.obj",
+			"PlatformVideoDecoderH265_Windows.cpp.obj",
+			"VideoDecoderH264_PC.cpp.obj",
+			"VideoDecoderH265_PC.cpp.obj",
+			"ParserISO14496-12.cpp.obj"
+		],
+		"Module.ElectraPlayerRuntime.2_of_5.cpp.obj": [
+			"HTTPManager.cpp.obj",
+			"HTTPResponseCache.cpp.obj",
+			"PlayerRuntime_PC.cpp.obj",
+			"PlayerRuntimeGlobal.cpp.obj",
+			"ABRFixedStream.cpp.obj",
+			"ABRLiveStream.cpp.obj",
+			"ABRVoDPlus.cpp.obj",
+			"AdaptiveStreamingPlayer.cpp.obj",
+			"AdaptiveStreamingPlayerABR.cpp.obj"
+		],
+		"Module.ElectraPlayerRuntime.3_of_5.cpp.obj": [
+			"AdaptiveStreamingPlayerDecoders.cpp.obj",
+			"AdaptiveStreamingPlayerEvents.cpp.obj",
+			"AdaptiveStreamingPlayerManifest.cpp.obj",
+			"AdaptiveStreamingPlayerRenderers.cpp.obj",
+			"AdaptiveStreamingPlayerResourceRequest.cpp.obj",
+			"ManifestBuilderDASH.cpp.obj",
+			"ManifestDASH.cpp.obj",
+			"ManifestParserDASH.cpp.obj"
+		],
+		"Module.ElectraPlayerRuntime.4_of_5.cpp.obj": [
+			"PlaylistReaderDASH.cpp.obj",
+			"StreamReaderFMP4DASH.cpp.obj",
+			"DRMManager.cpp.obj",
+			"InitSegmentCacheHLS.cpp.obj",
+			"LicenseKeyCacheHLS.cpp.obj",
+			"ManifestBuilderHLS.cpp.obj",
+			"ManifestHLS.cpp.obj",
+			"Parser.cpp.obj",
+			"Playlist.cpp.obj",
+			"PlaylistReaderHLS.cpp.obj",
+			"StreamReaderHLSfmp4.cpp.obj"
+		],
+		"Module.ElectraPlayerRuntime.5_of_5.cpp.obj": [
+			"TagContainer.cpp.obj",
+			"ManifestMP4.cpp.obj",
+			"PlaylistReaderMP4.cpp.obj",
+			"StreamReaderMP4.cpp.obj",
+			"PlayerEntityCache.cpp.obj",
+			"RendererAudio.cpp.obj",
+			"RendererVideo.cpp.obj",
+			"StreamAccessUnitBuffer.cpp.obj",
+			"StreamTypes.cpp.obj",
+			"SynchronizedClock.cpp.obj",
+			"AudioChannelMapper.cpp.obj",
+			"HashFunctions.cpp.obj",
+			"ISO639-Map.cpp.obj",
+			"UtilsMPEG.cpp.obj",
+			"UtilsMPEGAudio.cpp.obj",
+			"UtilsMPEGVideo.cpp.obj",
+			"Parser.spec.cpp.obj"
+		]
+	}
+}

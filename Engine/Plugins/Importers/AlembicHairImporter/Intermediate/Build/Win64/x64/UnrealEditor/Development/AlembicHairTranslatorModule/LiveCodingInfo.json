@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AlembicHairTranslatorModule.cpp.obj": [
+			"AlembicHairTranslator.cpp.obj",
+			"AlembicHairTranslatorModule.cpp.obj"
+		]
+	}
+}

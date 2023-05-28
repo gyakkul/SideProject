@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\private\\datasmithc4dtranslatormodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\datasmithc4dtranslator\\definitions.datasmithc4dtranslator.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\public\\datasmithc4dtranslatormodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

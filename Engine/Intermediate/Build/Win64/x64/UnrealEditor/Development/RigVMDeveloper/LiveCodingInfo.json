@@ -1,0 +1,50 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RigVMDeveloper.1_of_3.cpp.obj": [
+			"RigVMDeveloper.init.gen.cpp.obj",
+			"RigVMNotifications.gen.cpp.obj",
+			"RigVMVariableDescription.gen.cpp.obj",
+			"RigVMAST.cpp.obj",
+			"RigVMASTProxy.cpp.obj",
+			"RigVMCodeGenerator.cpp.obj",
+			"RigVMCompiler.cpp.obj",
+			"RigVMDeveloperModule.cpp.obj",
+			"RigVMDeveloperTypeUtils.cpp.obj",
+			"RigVMAggregateNode.cpp.obj",
+			"RigVMArrayNode.cpp.obj",
+			"RigVMBranchNode.cpp.obj",
+			"RigVMCollapseNode.cpp.obj",
+			"RigVMCommentNode.cpp.obj",
+			"RigVMDispatchNode.cpp.obj",
+			"RigVMEnumNode.cpp.obj",
+			"RigVMFunctionEntryNode.cpp.obj",
+			"RigVMFunctionReferenceNode.cpp.obj",
+			"RigVMFunctionReturnNode.cpp.obj",
+			"RigVMIfNode.cpp.obj",
+			"RigVMInvokeEntryNode.cpp.obj",
+			"RigVMLibraryNode.cpp.obj",
+			"RigVMParameterNode.cpp.obj",
+			"RigVMRerouteNode.cpp.obj",
+			"RigVMSelectNode.cpp.obj",
+			"RigVMTemplateNode.cpp.obj"
+		],
+		"Module.RigVMDeveloper.2_of_3.cpp.obj": [
+			"RigVMUnitNode.cpp.obj",
+			"RigVMVariableNode.cpp.obj",
+			"RigVMBuildData.cpp.obj",
+			"RigVMClient.cpp.obj",
+			"RigVMController.cpp.obj"
+		],
+		"Module.RigVMDeveloper.3_of_3.cpp.obj": [
+			"RigVMControllerActions.cpp.obj",
+			"RigVMFunctionLibrary.cpp.obj",
+			"RigVMGraph.cpp.obj",
+			"RigVMLink.cpp.obj",
+			"RigVMNode.cpp.obj",
+			"RigVMPin.cpp.obj",
+			"RigVMPythonUtils.cpp.obj",
+			"RigVMUserWorkflowRegistry.cpp.obj"
+		]
+	}
+}

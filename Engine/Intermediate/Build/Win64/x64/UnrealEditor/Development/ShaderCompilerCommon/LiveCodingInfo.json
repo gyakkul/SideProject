@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ShaderCompilerCommon.cpp.obj": [
+			"DXCWrapper.cpp.obj",
+			"HlslAST.cpp.obj",
+			"HlslccHeaderWriter.cpp.obj",
+			"HlslLexer.cpp.obj",
+			"HlslParser.cpp.obj",
+			"HlslUtils.cpp.obj",
+			"ShaderCompilerCommon.cpp.obj",
+			"ShaderConductorContext.cpp.obj",
+			"ShaderMinifier.cpp.obj",
+			"ShaderParameterParser.cpp.obj",
+			"ShaderSymbolExport.cpp.obj",
+			"SpirvCommon.cpp.obj",
+			"SpirvReflectCommon.cpp.obj"
+		]
+	}
+}

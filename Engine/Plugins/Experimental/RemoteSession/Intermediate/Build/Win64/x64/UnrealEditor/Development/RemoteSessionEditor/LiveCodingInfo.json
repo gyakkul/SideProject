@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteSessionEditor.cpp.obj": [
+			"RemoteSessionEditor.init.gen.cpp.obj",
+			"RemoteSessionEditorModule.cpp.obj",
+			"RemoteSessionEditorStyle.cpp.obj",
+			"SRemoteSessionStream.cpp.obj"
+		]
+	}
+}

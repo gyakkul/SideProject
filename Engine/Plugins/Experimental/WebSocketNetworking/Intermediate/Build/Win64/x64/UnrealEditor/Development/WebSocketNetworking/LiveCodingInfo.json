@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebSocketNetworking.cpp.obj": [
+			"WebSocketConnection.gen.cpp.obj",
+			"WebSocketNetDriver.gen.cpp.obj",
+			"WebSocketNetworking.init.gen.cpp.obj",
+			"WebSocket.cpp.obj",
+			"WebsocketConnection.cpp.obj",
+			"WebSocketNetDriver.cpp.obj",
+			"WebSocketNetworkingPlugin.cpp.obj",
+			"WebSocketServer.cpp.obj"
+		]
+	}
+}

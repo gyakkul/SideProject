@@ -1,0 +1,77 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderCore.1_of_4.cpp.obj": [
+			"BinkShaders.cpp.obj",
+			"BuiltInRayTracingShaders.cpp.obj",
+			"ClearQuad.cpp.obj",
+			"ClearReplacementShaders.cpp.obj",
+			"CommonRenderResources.cpp.obj",
+			"CopyTextureShaders.cpp.obj",
+			"CustomResourcePool.cpp.obj",
+			"DumpGPU.cpp.obj",
+			"DynamicBufferAllocator.cpp.obj",
+			"DynamicRenderScaling.cpp.obj",
+			"GBufferInfo.cpp.obj",
+			"GenerateMips.cpp.obj",
+			"GlobalRenderResources.cpp.obj",
+			"GlobalShader.cpp.obj",
+			"GPUMessaging.cpp.obj",
+			"LongGPUTask.cpp.obj",
+			"MediaShaders.cpp.obj",
+			"OculusShaders.cpp.obj",
+			"OneColorShader.cpp.obj",
+			"PipelineCacheUtilities.cpp.obj",
+			"PixelShaderUtils.cpp.obj",
+			"RealtimeGPUProfiler.cpp.obj",
+			"TracingProfiler.cpp.obj",
+			"RayTracingGeometry.cpp.obj",
+			"RayTracingGeometryManager.cpp.obj",
+			"RayTracingValidationShaders.cpp.obj",
+			"RenderCaptureInterface.cpp.obj",
+			"RenderCore.cpp.obj"
+		],
+		"Module.RenderCore.2_of_4.cpp.obj": [
+			"RenderGraphAllocator.cpp.obj",
+			"RenderGraphBlackboard.cpp.obj",
+			"RenderGraphBuilder.cpp.obj",
+			"RenderGraphEvent.cpp.obj",
+			"RenderGraphPass.cpp.obj",
+			"RenderGraphPrivate.cpp.obj",
+			"RenderGraphResourcePool.cpp.obj",
+			"RenderGraphResources.cpp.obj",
+			"RenderGraphTrace.cpp.obj",
+			"RenderGraphUtils.cpp.obj",
+			"RenderGraphValidation.cpp.obj",
+			"RenderingThread.cpp.obj",
+			"RenderResource.cpp.obj",
+			"RenderTargetPool.cpp.obj"
+		],
+		"Module.RenderCore.3_of_4.cpp.obj": [
+			"RenderTransform.cpp.obj",
+			"RenderUtils.cpp.obj",
+			"ResolveShader.cpp.obj",
+			"Shader.cpp.obj",
+			"ShaderCodeArchive.cpp.obj",
+			"ShaderCodeLibrary.cpp.obj",
+			"ShaderCore.cpp.obj"
+		],
+		"Module.RenderCore.4_of_4.cpp.obj": [
+			"ShaderMap.cpp.obj",
+			"ShaderMaterialDerivedHelpers.cpp.obj",
+			"ShaderParameterMetadata.cpp.obj",
+			"ShaderParameterMetadataBuilder.cpp.obj",
+			"ShaderParameters.cpp.obj",
+			"ShaderParameterStruct.cpp.obj",
+			"ShaderPipelineCache.cpp.obj",
+			"ShaderResource.cpp.obj",
+			"ShaderStableKeyDebugInfoReader.cpp.obj",
+			"StaticBoundShaderState.cpp.obj",
+			"StereoRenderUtils.cpp.obj",
+			"UnifiedBuffer.cpp.obj",
+			"VertexFactory.cpp.obj",
+			"VirtualTexturing.cpp.obj",
+			"VisualizeTexture.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LedWallCalibration.cpp.obj": [
+			"LedWallArucoGenerationOptions.gen.cpp.obj",
+			"LedWallCalibration.init.gen.cpp.obj",
+			"LedWallCalibration.cpp.obj",
+			"LedWallCalibrationModule.cpp.obj"
+		]
+	}
+}

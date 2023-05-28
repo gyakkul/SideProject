@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UObjectPlugin.cpp.obj": [
+			"MyPluginObject.gen.cpp.obj",
+			"UObjectPlugin.init.gen.cpp.obj",
+			"MyPluginObject.cpp.obj",
+			"UObjectPlugin.cpp.obj"
+		]
+	}
+}

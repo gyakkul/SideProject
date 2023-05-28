@@ -1,0 +1,860 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "EditMode/ControlRigControlsProxy.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CONTROLRIGEDITOR_ControlRigControlsProxy_generated_h
+#error "ControlRigControlsProxy.generated.h already included, missing '#pragma once' in ControlRigControlsProxy.h"
+#endif
+#define CONTROLRIGEDITOR_ControlRigControlsProxy_generated_h
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigControlsProxy(); \
+	friend struct Z_Construct_UClass_UControlRigControlsProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigControlsProxy, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigControlsProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigControlsProxy(); \
+	friend struct Z_Construct_UClass_UControlRigControlsProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigControlsProxy, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigControlsProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigControlsProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigControlsProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigControlsProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigControlsProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigControlsProxy(UControlRigControlsProxy&&); \
+	NO_API UControlRigControlsProxy(const UControlRigControlsProxy&); \
+public: \
+	NO_API virtual ~UControlRigControlsProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigControlsProxy(UControlRigControlsProxy&&); \
+	NO_API UControlRigControlsProxy(const UControlRigControlsProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigControlsProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigControlsProxy); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UControlRigControlsProxy) \
+	NO_API virtual ~UControlRigControlsProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_20_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigControlsProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigTransformControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigTransformControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigTransformControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigTransformControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigTransformControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigTransformControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigTransformControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigTransformControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigTransformControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigTransformControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigTransformControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigTransformControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigTransformControlProxy(UControlRigTransformControlProxy&&); \
+	NO_API UControlRigTransformControlProxy(const UControlRigTransformControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigTransformControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigTransformControlProxy(UControlRigTransformControlProxy&&); \
+	NO_API UControlRigTransformControlProxy(const UControlRigTransformControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigTransformControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigTransformControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigTransformControlProxy) \
+	NO_API virtual ~UControlRigTransformControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_58_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_61_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigTransformControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigEulerTransformControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigEulerTransformControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigEulerTransformControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigEulerTransformControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigEulerTransformControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigEulerTransformControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigEulerTransformControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigEulerTransformControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigEulerTransformControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigEulerTransformControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigEulerTransformControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigEulerTransformControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigEulerTransformControlProxy(UControlRigEulerTransformControlProxy&&); \
+	NO_API UControlRigEulerTransformControlProxy(const UControlRigEulerTransformControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigEulerTransformControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigEulerTransformControlProxy(UControlRigEulerTransformControlProxy&&); \
+	NO_API UControlRigEulerTransformControlProxy(const UControlRigEulerTransformControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigEulerTransformControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigEulerTransformControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigEulerTransformControlProxy) \
+	NO_API virtual ~UControlRigEulerTransformControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_81_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_84_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigEulerTransformControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigTransformNoScaleControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigTransformNoScaleControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigTransformNoScaleControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigTransformNoScaleControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigTransformNoScaleControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigTransformNoScaleControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigTransformNoScaleControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigTransformNoScaleControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigTransformNoScaleControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigTransformNoScaleControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigTransformNoScaleControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigTransformNoScaleControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigTransformNoScaleControlProxy(UControlRigTransformNoScaleControlProxy&&); \
+	NO_API UControlRigTransformNoScaleControlProxy(const UControlRigTransformNoScaleControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigTransformNoScaleControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigTransformNoScaleControlProxy(UControlRigTransformNoScaleControlProxy&&); \
+	NO_API UControlRigTransformNoScaleControlProxy(const UControlRigTransformNoScaleControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigTransformNoScaleControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigTransformNoScaleControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigTransformNoScaleControlProxy) \
+	NO_API virtual ~UControlRigTransformNoScaleControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_104_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_107_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigTransformNoScaleControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigFloatControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigFloatControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigFloatControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigFloatControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigFloatControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigFloatControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigFloatControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigFloatControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigFloatControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigFloatControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigFloatControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigFloatControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigFloatControlProxy(UControlRigFloatControlProxy&&); \
+	NO_API UControlRigFloatControlProxy(const UControlRigFloatControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigFloatControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigFloatControlProxy(UControlRigFloatControlProxy&&); \
+	NO_API UControlRigFloatControlProxy(const UControlRigFloatControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigFloatControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigFloatControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigFloatControlProxy) \
+	NO_API virtual ~UControlRigFloatControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_126_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_129_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigFloatControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigIntegerControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigIntegerControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigIntegerControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigIntegerControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigIntegerControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigIntegerControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigIntegerControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigIntegerControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigIntegerControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigIntegerControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigIntegerControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigIntegerControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigIntegerControlProxy(UControlRigIntegerControlProxy&&); \
+	NO_API UControlRigIntegerControlProxy(const UControlRigIntegerControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigIntegerControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigIntegerControlProxy(UControlRigIntegerControlProxy&&); \
+	NO_API UControlRigIntegerControlProxy(const UControlRigIntegerControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigIntegerControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigIntegerControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigIntegerControlProxy) \
+	NO_API virtual ~UControlRigIntegerControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_148_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_151_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigIntegerControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_173_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FControlRigEnumControlProxyValue_Statics; \
+	CONTROLRIGEDITOR_API static class UScriptStruct* StaticStruct();
+
+
+template<> CONTROLRIGEDITOR_API UScriptStruct* StaticStruct<struct FControlRigEnumControlProxyValue>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigEnumControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigEnumControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigEnumControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigEnumControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigEnumControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigEnumControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigEnumControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigEnumControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigEnumControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigEnumControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigEnumControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigEnumControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigEnumControlProxy(UControlRigEnumControlProxy&&); \
+	NO_API UControlRigEnumControlProxy(const UControlRigEnumControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigEnumControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigEnumControlProxy(UControlRigEnumControlProxy&&); \
+	NO_API UControlRigEnumControlProxy(const UControlRigEnumControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigEnumControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigEnumControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigEnumControlProxy) \
+	NO_API virtual ~UControlRigEnumControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_212_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_215_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigEnumControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigVectorControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigVectorControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigVectorControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigVectorControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigVectorControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigVectorControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigVectorControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigVectorControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigVectorControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigVectorControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigVectorControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigVectorControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigVectorControlProxy(UControlRigVectorControlProxy&&); \
+	NO_API UControlRigVectorControlProxy(const UControlRigVectorControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigVectorControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigVectorControlProxy(UControlRigVectorControlProxy&&); \
+	NO_API UControlRigVectorControlProxy(const UControlRigVectorControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigVectorControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigVectorControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigVectorControlProxy) \
+	NO_API virtual ~UControlRigVectorControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_234_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_237_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigVectorControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigVector2DControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigVector2DControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigVector2DControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigVector2DControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigVector2DControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigVector2DControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigVector2DControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigVector2DControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigVector2DControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigVector2DControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigVector2DControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigVector2DControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigVector2DControlProxy(UControlRigVector2DControlProxy&&); \
+	NO_API UControlRigVector2DControlProxy(const UControlRigVector2DControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigVector2DControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigVector2DControlProxy(UControlRigVector2DControlProxy&&); \
+	NO_API UControlRigVector2DControlProxy(const UControlRigVector2DControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigVector2DControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigVector2DControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigVector2DControlProxy) \
+	NO_API virtual ~UControlRigVector2DControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_256_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_259_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigVector2DControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigBoolControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigBoolControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigBoolControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigBoolControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigBoolControlProxy(); \
+	friend struct Z_Construct_UClass_UControlRigBoolControlProxy_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigBoolControlProxy, UControlRigControlsProxy, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigBoolControlProxy)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigBoolControlProxy(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigBoolControlProxy) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigBoolControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigBoolControlProxy); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigBoolControlProxy(UControlRigBoolControlProxy&&); \
+	NO_API UControlRigBoolControlProxy(const UControlRigBoolControlProxy&); \
+public: \
+	NO_API virtual ~UControlRigBoolControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigBoolControlProxy(UControlRigBoolControlProxy&&); \
+	NO_API UControlRigBoolControlProxy(const UControlRigBoolControlProxy&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigBoolControlProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigBoolControlProxy); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigBoolControlProxy) \
+	NO_API virtual ~UControlRigBoolControlProxy();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_278_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_281_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigBoolControlProxy>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_303_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FControlToProxyMap_Statics; \
+	CONTROLRIGEDITOR_API static class UScriptStruct* StaticStruct();
+
+
+template<> CONTROLRIGEDITOR_API UScriptStruct* StaticStruct<struct FControlToProxyMap>();
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_ACCESSORS
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUControlRigDetailPanelControlProxies(); \
+	friend struct Z_Construct_UClass_UControlRigDetailPanelControlProxies_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigDetailPanelControlProxies, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigDetailPanelControlProxies)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_INCLASS \
+private: \
+	static void StaticRegisterNativesUControlRigDetailPanelControlProxies(); \
+	friend struct Z_Construct_UClass_UControlRigDetailPanelControlProxies_Statics; \
+public: \
+	DECLARE_CLASS(UControlRigDetailPanelControlProxies, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ControlRigEditor"), NO_API) \
+	DECLARE_SERIALIZER(UControlRigDetailPanelControlProxies)
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UControlRigDetailPanelControlProxies(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UControlRigDetailPanelControlProxies) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigDetailPanelControlProxies); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigDetailPanelControlProxies); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigDetailPanelControlProxies(UControlRigDetailPanelControlProxies&&); \
+	NO_API UControlRigDetailPanelControlProxies(const UControlRigDetailPanelControlProxies&); \
+public: \
+	NO_API virtual ~UControlRigDetailPanelControlProxies();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UControlRigDetailPanelControlProxies(UControlRigDetailPanelControlProxies&&); \
+	NO_API UControlRigDetailPanelControlProxies(const UControlRigDetailPanelControlProxies&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UControlRigDetailPanelControlProxies); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UControlRigDetailPanelControlProxies); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UControlRigDetailPanelControlProxies) \
+	NO_API virtual ~UControlRigDetailPanelControlProxies();
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_309_PROLOG
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_INCLASS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_ACCESSORS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h_312_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CONTROLRIGEDITOR_API UClass* StaticClass<class UControlRigDetailPanelControlProxies>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Animation_ControlRig_Source_ControlRigEditor_Private_EditMode_ControlRigControlsProxy_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

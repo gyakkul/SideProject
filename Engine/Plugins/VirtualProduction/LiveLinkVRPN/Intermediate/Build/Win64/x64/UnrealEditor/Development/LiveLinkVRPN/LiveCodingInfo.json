@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkVRPN.cpp.obj": [
+			"LiveLinkVRPN.init.gen.cpp.obj",
+			"LiveLinkVRPNConnectionSettings.gen.cpp.obj",
+			"LiveLinkVRPNSourceFactory.gen.cpp.obj",
+			"LiveLinkVRPNSourceSettings.gen.cpp.obj",
+			"LiveLinkVRPN.cpp.obj",
+			"LiveLinkVRPNSource.cpp.obj",
+			"LiveLinkVRPNSourceFactory.cpp.obj",
+			"SLiveLinkVRPNSourceFactory.cpp.obj"
+		]
+	}
+}

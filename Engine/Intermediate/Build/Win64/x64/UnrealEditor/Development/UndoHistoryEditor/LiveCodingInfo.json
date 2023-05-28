@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UndoHistoryEditor.cpp.obj": [
+			"UndoHistoryEditor.init.gen.cpp.obj",
+			"UndoHistorySettings.gen.cpp.obj",
+			"UndoHistoryEditorModule.cpp.obj",
+			"SUndoHistory.cpp.obj"
+		]
+	}
+}

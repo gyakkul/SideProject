@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteControlCommon.cpp.obj": [
+			"RCPropertyContainer.gen.cpp.obj",
+			"RCPropertyContainerTestData.gen.cpp.obj",
+			"RemoteControlCommon.gen.cpp.obj",
+			"RemoteControlCommon.init.gen.cpp.obj",
+			"RemoteControlSettings.gen.cpp.obj",
+			"RCPropertyContainer.cpp.obj",
+			"RCPropertyUtilities.cpp.obj",
+			"RCTypeUtilities.cpp.obj",
+			"RemoteControlCommonModule.cpp.obj",
+			"RCPropertyContainerTests.cpp.obj"
+		]
+	}
+}

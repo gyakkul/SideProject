@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebAPI.cpp.obj": [
+			"WebAPI.init.gen.cpp.obj",
+			"WebAPIAuthentication.gen.cpp.obj",
+			"WebAPIDeveloperSettings.gen.cpp.obj",
+			"WebAPIMessageResponse.gen.cpp.obj",
+			"WebAPIOperationObject.gen.cpp.obj",
+			"WebAPISubsystem.gen.cpp.obj",
+			"WebAPIUtilities.gen.cpp.obj",
+			"WebAPIAuthentication.cpp.obj",
+			"WebAPIDeveloperSettings.cpp.obj",
+			"WebAPILog.cpp.obj",
+			"WebAPIModule.cpp.obj",
+			"WebAPIOperationObject.cpp.obj",
+			"WebAPIStats.cpp.obj",
+			"WebAPISubsystem.cpp.obj",
+			"WebAPIUtilities.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FastBuildController.cpp.obj": [
+			"FastBuildControllerModule.cpp.obj",
+			"FastBuildJobProcessor.cpp.obj",
+			"FastBuildUtilities.cpp.obj"
+		]
+	}
+}

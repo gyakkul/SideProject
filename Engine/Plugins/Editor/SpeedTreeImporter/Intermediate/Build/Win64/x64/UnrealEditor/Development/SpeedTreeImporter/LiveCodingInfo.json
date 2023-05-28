@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SpeedTreeImporter.cpp.obj": [
+			"ReimportSpeedTreeFactory.gen.cpp.obj",
+			"SpeedTreeImportData.gen.cpp.obj",
+			"SpeedTreeImporter.init.gen.cpp.obj",
+			"SpeedTreeImportFactory.gen.cpp.obj",
+			"ReimportSpeedTreeFactory.cpp.obj",
+			"SpeedTreeImportData.cpp.obj",
+			"SpeedTreeImporterModule.cpp.obj",
+			"SpeedTreeImportFactory.cpp.obj"
+		]
+	}
+}

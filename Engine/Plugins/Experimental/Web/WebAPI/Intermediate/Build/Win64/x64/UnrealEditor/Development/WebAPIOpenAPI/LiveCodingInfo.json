@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebAPIOpenAPI.cpp.obj": [
+			"WebAPIOpenAPI.init.gen.cpp.obj",
+			"WebAPIOpenAPIFactory.gen.cpp.obj",
+			"WebAPIOpenAPIFactoryBase.gen.cpp.obj",
+			"WebAPISwaggerFactory.gen.cpp.obj",
+			"WebAPIOpenAPIStats.cpp.obj",
+			"WebAPIOpenAPIFactoryBase.cpp.obj",
+			"WebAPIOpenAPI3.spec.cpp.obj",
+			"WebAPISwagger.spec.cpp.obj",
+			"WebAPISwaggerConverter.cpp.obj",
+			"WebAPISwaggerFactory.cpp.obj",
+			"WebAPISwaggerProvider.cpp.obj",
+			"WebAPISwaggerSchema.cpp.obj",
+			"WebAPIOpenAPIConverter.cpp.obj",
+			"WebAPIOpenAPIFactory.cpp.obj",
+			"WebAPIOpenAPIProvider.cpp.obj",
+			"WebAPIOpenAPISchema.cpp.obj",
+			"WebAPIOpenAPILog.cpp.obj",
+			"WebAPIOpenAPIModule.cpp.obj"
+		]
+	}
+}

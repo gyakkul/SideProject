@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SourceFilteringEditor.cpp.obj": [
+			"EditorSessionSourceFilterService.cpp.obj",
+			"FilterObject.cpp.obj",
+			"FilterSetObject.cpp.obj",
+			"SClassTraceFilteringWidget.cpp.obj",
+			"SFilterObjectWidget.cpp.obj",
+			"SourceFilteringEditorModule.cpp.obj",
+			"SourceFilterService.cpp.obj",
+			"SourceFilterStyle.cpp.obj",
+			"SSourceFilteringTreeview.cpp.obj",
+			"STraceSourceFilteringWidget.cpp.obj",
+			"SUserTraceFilteringWidget.cpp.obj",
+			"SWorldObjectWidget.cpp.obj",
+			"SWorldTraceFilteringWidget.cpp.obj",
+			"TreeViewBuilder.cpp.obj",
+			"WorldFilters.cpp.obj"
+		]
+	}
+}

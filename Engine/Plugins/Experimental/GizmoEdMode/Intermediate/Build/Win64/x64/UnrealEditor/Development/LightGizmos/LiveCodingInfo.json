@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LightGizmos.cpp.obj": [
+			"LightGizmos.init.gen.cpp.obj",
+			"DirectionalLightGizmo.cpp.obj",
+			"DirectionalLightGizmoFactory.cpp.obj",
+			"LightGizmosModule.cpp.obj",
+			"PointLightGizmo.cpp.obj",
+			"PointLightGizmoFactory.cpp.obj",
+			"ScalableConeGizmo.cpp.obj",
+			"SpotLightGizmo.cpp.obj",
+			"SpotLightGizmoFactory.cpp.obj",
+			"SubTransformProxy.cpp.obj"
+		]
+	}
+}

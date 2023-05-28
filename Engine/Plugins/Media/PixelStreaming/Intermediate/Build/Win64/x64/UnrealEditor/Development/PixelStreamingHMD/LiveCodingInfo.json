@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PixelStreamingHMD.cpp.obj": [
+			"PixelStreamingHMD.cpp.obj",
+			"PixelStreamingHMDModule.cpp.obj",
+			"Settings.cpp.obj"
+		]
+	}
+}

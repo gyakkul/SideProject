@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImgMediaEngine.cpp.obj": [
+			"ImgMediaEngine.init.gen.cpp.obj",
+			"ImgMediaEngineModule.cpp.obj",
+			"ImgMediaPlaybackComponent.cpp.obj"
+		]
+	}
+}

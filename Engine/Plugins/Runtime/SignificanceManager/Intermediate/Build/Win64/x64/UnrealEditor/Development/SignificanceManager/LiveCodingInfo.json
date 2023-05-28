@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SignificanceManager.cpp.obj": [
+			"SignificanceManager.init.gen.cpp.obj",
+			"SignificanceManager.cpp.obj"
+		]
+	}
+}

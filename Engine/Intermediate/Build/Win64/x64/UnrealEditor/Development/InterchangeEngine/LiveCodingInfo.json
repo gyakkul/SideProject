@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeEngine.cpp.obj": [
+			"InterchangeAssetImportData.gen.cpp.obj",
+			"InterchangeBlueprintPipelineBase.gen.cpp.obj",
+			"InterchangeEngine.init.gen.cpp.obj",
+			"InterchangeFilePickerBase.gen.cpp.obj",
+			"InterchangePipelineConfigurationBase.gen.cpp.obj",
+			"InterchangeProjectSettings.gen.cpp.obj",
+			"InterchangePythonPipelineBase.gen.cpp.obj",
+			"InterchangeEngineModule.cpp.obj",
+			"InterchangeImportCommon.cpp.obj",
+			"InterchangeManager.cpp.obj",
+			"InterchangeMeshUtilities.cpp.obj",
+			"InterchangeProjectSettings.cpp.obj",
+			"InterchangePythonPipelineBase.cpp.obj",
+			"InterchangeTaskCompletion.cpp.obj",
+			"InterchangeTaskCreateSceneObjects.cpp.obj",
+			"InterchangeTaskImportObject.cpp.obj",
+			"InterchangeTaskParsing.cpp.obj",
+			"InterchangeTaskPipeline.cpp.obj",
+			"InterchangeTaskTranslator.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaMovieStreamer.cpp.obj": [
+			"MediaMovieStreamer.init.gen.cpp.obj",
+			"MediaMovieAssets.cpp.obj",
+			"MediaMovieStreamer.cpp.obj",
+			"MediaMovieStreamerModule.cpp.obj",
+			"MediaMovieTimeSource.cpp.obj"
+		]
+	}
+}

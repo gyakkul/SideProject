@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ScreenReader.cpp.obj": [
+			"ScreenReader.init.gen.cpp.obj",
+			"ScreenReaderAnnouncement.gen.cpp.obj",
+			"ScreenReaderReply.gen.cpp.obj",
+			"ScreenReaderAnnouncement.cpp.obj",
+			"ScreenReaderAnnouncementChannel.cpp.obj",
+			"ScreenReaderWidgetAnnouncementBuilder.cpp.obj",
+			"ScreenReaderApplicationMessageHandlerBase.cpp.obj",
+			"ScreenReaderBase.cpp.obj",
+			"ScreenReaderUser.cpp.obj",
+			"ScreenReaderModule.cpp.obj"
+		]
+	}
+}

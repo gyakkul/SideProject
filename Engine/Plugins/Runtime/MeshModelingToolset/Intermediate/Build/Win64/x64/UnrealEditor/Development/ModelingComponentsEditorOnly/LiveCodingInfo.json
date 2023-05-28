@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelingComponentsEditorOnly.cpp.obj": [
+			"ModelingComponentsEditorOnly.init.gen.cpp.obj",
+			"CreateMaterialUtil.cpp.obj",
+			"CreateSkeletalMeshUtil.cpp.obj",
+			"CreateStaticMeshUtil.cpp.obj",
+			"CreateTexture2DUtil.cpp.obj",
+			"DynamicMeshToVolume.cpp.obj",
+			"EditorModelingObjectsCreationAPI.cpp.obj",
+			"ModelingComponentsEditorOnlyModule.cpp.obj",
+			"SubdividePoly.cpp.obj",
+			"LevelObjectsObserver.cpp.obj",
+			"StaticMeshSelector.cpp.obj",
+			"VolumeSelector.cpp.obj",
+			"DynamicMeshComponentToolTarget.cpp.obj",
+			"SkeletalMeshComponentToolTarget.cpp.obj",
+			"SkeletalMeshToolTarget.cpp.obj",
+			"StaticMeshComponentToolTarget.cpp.obj",
+			"StaticMeshToolTarget.cpp.obj",
+			"VolumeComponentTarget.cpp.obj",
+			"VolumeComponentToolTarget.cpp.obj"
+		]
+	}
+}

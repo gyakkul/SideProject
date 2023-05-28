@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebAPIBlueprintGraph.cpp.obj": [
+			"K2Node_WebAPIOperation.gen.cpp.obj",
+			"WebAPIBlueprintGraph.init.gen.cpp.obj",
+			"K2Node_WebAPIOperation.cpp.obj",
+			"WebAPIBlueprintGraphLog.cpp.obj",
+			"WebAPIBlueprintGraphModule.cpp.obj",
+			"WebAPIBlueprintGraphStats.cpp.obj",
+			"WebAPIBlueprintGraphUtilities.cpp.obj"
+		]
+	}
+}

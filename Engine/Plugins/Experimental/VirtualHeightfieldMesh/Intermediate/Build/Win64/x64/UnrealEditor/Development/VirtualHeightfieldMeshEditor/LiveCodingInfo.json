@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VirtualHeightfieldMeshEditor.cpp.obj": [
+			"VirtualHeightfieldMeshEditor.init.gen.cpp.obj",
+			"HeightfieldMinMaxTextureAssetTypeActions.cpp.obj",
+			"HeightfieldMinMaxTextureBuild.cpp.obj",
+			"HeightfieldMinMaxTextureFactory.cpp.obj",
+			"HeightfieldMinMaxTextureThumbnailRenderer.cpp.obj",
+			"VirtualHeightfieldMeshDetailsCustomization.cpp.obj",
+			"VirtualHeightfieldMeshEditorModule.cpp.obj",
+			"WorldPartitionVirtualHeightfieldMeshBuilder.cpp.obj"
+		]
+	}
+}

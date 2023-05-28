@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PythonAutomationTest.cpp.obj": [
+			"PythonAutomationTest.init.gen.cpp.obj",
+			"PythonAutomationTest.cpp.obj",
+			"PythonAutomationTestModule.cpp.obj"
+		]
+	}
+}

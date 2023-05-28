@@ -1,0 +1,25 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AdvancedWidgets.cpp.obj": [
+			"AdvancedWidgets.init.gen.cpp.obj",
+			"AdvancedWidgetsModule.cpp.obj",
+			"RadialSlider.cpp.obj",
+			"FieldIconFinder.cpp.obj",
+			"IFieldIterator.cpp.obj",
+			"PropertyPath.cpp.obj",
+			"PropertyValueFactory.cpp.obj",
+			"SRadialSlider.cpp.obj",
+			"AdvancedWidgetsStyle.cpp.obj",
+			"SBoolPropertyValue.cpp.obj",
+			"SDefaultPropertyValue.cpp.obj",
+			"SEnumPropertyValue.cpp.obj",
+			"SFieldIcon.cpp.obj",
+			"SFieldName.cpp.obj",
+			"SNumericPropertyValue.cpp.obj",
+			"SPropertyViewer.cpp.obj",
+			"SPropertyViewerImpl.cpp.obj",
+			"SStringPropertyValue.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slatescriptingcommands\\module.slatescriptingcommands.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slatescriptingcommands\\definitions.slatescriptingcommands.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\intermediate\\build\\win64\\unrealeditor\\inc\\slatescriptingcommands\\uht\\slatescriptingcommands.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\intermediate\\build\\win64\\unrealeditor\\inc\\slatescriptingcommands\\uht\\uicommandsscriptingsubsystem.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\source\\slatescriptingcommands\\public\\uicommandsscriptingsubsystem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\intermediate\\build\\win64\\unrealeditor\\inc\\slatescriptingcommands\\uht\\uicommandsscriptingsubsystem.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\source\\slatescriptingcommands\\private\\slatescriptingcommandsmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\source\\slatescriptingcommands\\public\\slatescriptingcommandsmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\slate\\slatescripting\\source\\slatescriptingcommands\\private\\uicommandsscriptingsubsystem.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

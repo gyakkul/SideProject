@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNIEditor.cpp.obj": [
+			"NeuralNetworkFactory.gen.cpp.obj",
+			"NeuralNetworkInferenceEditor.init.gen.cpp.obj",
+			"NeuralNetworkInferenceQAAssetFactory.gen.cpp.obj",
+			"NeuralNetworkReimportFactory.gen.cpp.obj",
+			"NeuralNetworkAssetTypeActions.cpp.obj",
+			"NeuralNetworkFactory.cpp.obj",
+			"NeuralNetworkInferenceEditorModule.cpp.obj",
+			"NeuralNetworkReimportFactory.cpp.obj",
+			"NeuralNetworkInferenceQAAssetFactory.cpp.obj",
+			"NeuralNetworkInferenceQAAssetTypeActions.cpp.obj"
+		]
+	}
+}

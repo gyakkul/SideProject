@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HTNPlanner.cpp.obj": [
+			"HTNBrainComponent.gen.cpp.obj",
+			"HTNDomain.gen.cpp.obj",
+			"HTNPlanner.init.gen.cpp.obj",
+			"HTNBrainComponent.cpp.obj",
+			"GameplayDebuggerCategory_HTN.cpp.obj",
+			"HTNDebug.cpp.obj",
+			"HTNBuilder.cpp.obj",
+			"HTNDomain.cpp.obj",
+			"HTNPlanner.cpp.obj",
+			"HTNPlannerModule.cpp.obj"
+		]
+	}
+}

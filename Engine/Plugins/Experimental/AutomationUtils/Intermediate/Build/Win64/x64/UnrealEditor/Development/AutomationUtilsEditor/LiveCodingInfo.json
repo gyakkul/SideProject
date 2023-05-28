@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AutomationUtilsEditor.cpp.obj": [
+			"AutomationUtilsEditor.init.gen.cpp.obj",
+			"AutomationUtilsEditor.cpp.obj",
+			"ScreenshotComparisonCommandlet.cpp.obj"
+		]
+	}
+}

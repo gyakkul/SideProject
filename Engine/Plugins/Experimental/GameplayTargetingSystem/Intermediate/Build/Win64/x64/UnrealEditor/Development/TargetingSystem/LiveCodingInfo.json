@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TargetingSystem.cpp.obj": [
+			"AbilityTask_PerformTargeting.gen.cpp.obj",
+			"AsyncAction_PerformTargeting.gen.cpp.obj",
+			"TargetingFilterTask_ActorClass.gen.cpp.obj",
+			"TargetingFilterTask_BasicFilterTemplate.gen.cpp.obj",
+			"TargetingPreset.gen.cpp.obj",
+			"TargetingSelectionTask_AOE.gen.cpp.obj",
+			"TargetingSelectionTask_SourceActor.gen.cpp.obj",
+			"TargetingSelectionTask_Trace.gen.cpp.obj",
+			"TargetingSortTask_Base.gen.cpp.obj",
+			"TargetingSubsystem.gen.cpp.obj",
+			"TargetingSystem.init.gen.cpp.obj",
+			"TargetingSystemTypes.gen.cpp.obj",
+			"TargetingTask.gen.cpp.obj",
+			"AbilityTask_PerformTargeting.cpp.obj",
+			"AsyncAction_PerformTargeting.cpp.obj",
+			"TargetingSystemModule.cpp.obj",
+			"TargetingPreset.cpp.obj",
+			"TargetingSubsystem.cpp.obj",
+			"TargetingFilterTask_ActorClass.cpp.obj",
+			"TargetingFilterTask_BasicFilterTemplate.cpp.obj",
+			"TargetingFilterTask_SortByDistance.cpp.obj",
+			"TargetingSelectionTask_AOE.cpp.obj",
+			"TargetingSelectionTask_SourceActor.cpp.obj",
+			"TargetingSelectionTask_Trace.cpp.obj",
+			"TargetingSortTask_Base.cpp.obj",
+			"TargetingTask.cpp.obj",
+			"TargetingSystemDataStores.cpp.obj",
+			"TargetingSystemTypes.cpp.obj"
+		]
+	}
+}

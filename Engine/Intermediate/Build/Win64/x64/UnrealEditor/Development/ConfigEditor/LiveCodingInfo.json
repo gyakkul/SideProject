@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConfigEditor.cpp.obj": [
+			"ConfigEditor.init.gen.cpp.obj",
+			"ConfigPropertyHelper.gen.cpp.obj",
+			"ConfigEditorModule.cpp.obj",
+			"ConfigPropertyHelper.cpp.obj",
+			"ConfigPropertyCellPresenter.cpp.obj",
+			"ConfigPropertyColumn.cpp.obj",
+			"ConfigPropertyConfigFileStateColumn.cpp.obj",
+			"SConfigEditor.cpp.obj",
+			"STargetPlatformSelector.cpp.obj"
+		]
+	}
+}

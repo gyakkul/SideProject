@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioModulationEditor.cpp.obj": [
+			"AudioModulationEditor.init.gen.cpp.obj",
+			"AssetTypeActions_SoundControlBus.cpp.obj",
+			"AssetTypeActions_SoundControlBusMix.cpp.obj",
+			"AssetTypeActions_SoundModulationGenerator.cpp.obj",
+			"AssetTypeActions_SoundModulationParameter.cpp.obj",
+			"AssetTypeActions_SoundModulationPatch.cpp.obj",
+			"AudioModulationClassTemplates.cpp.obj",
+			"AudioModulationEditor.cpp.obj",
+			"ModulationPatchCurveEditorViewStacked.cpp.obj",
+			"ModulationPatchEditor.cpp.obj",
+			"SoundControlBusFactory.cpp.obj",
+			"SoundControlBusMixFactory.cpp.obj",
+			"SoundModulationGeneratorFactory.cpp.obj",
+			"SoundModulationParameterFactory.cpp.obj",
+			"SoundModulationPatchFactory.cpp.obj",
+			"SoundControlBusMixStageLayout.cpp.obj",
+			"SoundControlModulationPatchLayout.cpp.obj",
+			"SoundModulationParameterSettingsLayout.cpp.obj",
+			"SoundModulationTransformLayout.cpp.obj"
+		]
+	}
+}

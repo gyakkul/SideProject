@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AVCodecsCore.cpp.obj": [
+			"AudioDecoder.cpp.obj",
+			"AudioEncoder.cpp.obj",
+			"AudioResource.cpp.obj",
+			"AudioEncoderConfigAAC.cpp.obj",
+			"AudioResourceCPU.cpp.obj",
+			"AVCodecsCoreModule.cpp.obj",
+			"AVCoder.cpp.obj",
+			"AVDevice.cpp.obj",
+			"AVResource.cpp.obj",
+			"AVResult.cpp.obj",
+			"AVUtility.cpp.obj",
+			"CodecUtilsH264.cpp.obj",
+			"CodecUtilsH265.cpp.obj",
+			"VideoDecoderConfigH264.cpp.obj",
+			"VideoDecoderConfigH265.cpp.obj",
+			"VideoEncoderConfigH264.cpp.obj",
+			"VideoEncoderConfigH265.cpp.obj",
+			"VideoResourceCPU.cpp.obj",
+			"VideoResourceVulkan.cpp.obj",
+			"VideoResourceD3D.cpp.obj",
+			"VideoDecoder.cpp.obj",
+			"VideoEncoder.cpp.obj",
+			"VideoResource.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,3 @@
+Runtime/Core/Public\\Math/Aossoa.isph
+Runtime/Core/Public\\Math/Scalar.isph
+Runtime/SignalProcessing/Private/FloatArrayMath.ispc

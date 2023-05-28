@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SourceControlWindows.cpp.obj": [
+			"SourceControlMenuContext.gen.cpp.obj",
+			"SourceControlSettings.gen.cpp.obj",
+			"SourceControlWindows.init.gen.cpp.obj",
+			"SourceControlWindows.cpp.obj",
+			"SourceControlWindowsModule.cpp.obj",
+			"SSourceControlChangelistRows.cpp.obj",
+			"SSourceControlChangelists.cpp.obj",
+			"SSourceControlCommon.cpp.obj",
+			"SSourceControlDescription.cpp.obj",
+			"SSourceControlFileDialog.cpp.obj",
+			"SSourceControlHistory.cpp.obj",
+			"SSourceControlRevert.cpp.obj",
+			"SSourceControlSubmit.cpp.obj"
+		]
+	}
+}

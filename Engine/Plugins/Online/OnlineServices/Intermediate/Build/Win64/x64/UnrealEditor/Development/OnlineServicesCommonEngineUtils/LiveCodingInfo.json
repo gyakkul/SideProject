@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineServicesCommonEngineUtils.cpp.obj": [
+			"OnlineServicesCommonEngineUtils.cpp.obj",
+			"OnlineServicesCommonEngineUtilsModule.cpp.obj",
+			"SessionsLAN.cpp.obj"
+		]
+	}
+}

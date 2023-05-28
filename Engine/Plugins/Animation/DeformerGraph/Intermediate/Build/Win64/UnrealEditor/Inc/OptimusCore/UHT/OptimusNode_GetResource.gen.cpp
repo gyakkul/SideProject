@@ -1,0 +1,88 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "../Private/Nodes/OptimusNode_GetResource.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeOptimusNode_GetResource() {}
+// Cross Module References
+	OPTIMUSCORE_API UClass* Z_Construct_UClass_UOptimusNode_GetResource();
+	OPTIMUSCORE_API UClass* Z_Construct_UClass_UOptimusNode_GetResource_NoRegister();
+	OPTIMUSCORE_API UClass* Z_Construct_UClass_UOptimusNode_ResourceAccessorBase();
+	UPackage* Z_Construct_UPackage__Script_OptimusCore();
+// End Cross Module References
+	void UOptimusNode_GetResource::StaticRegisterNativesUOptimusNode_GetResource()
+	{
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UOptimusNode_GetResource);
+	UClass* Z_Construct_UClass_UOptimusNode_GetResource_NoRegister()
+	{
+		return UOptimusNode_GetResource::StaticClass();
+	}
+	struct Z_Construct_UClass_UOptimusNode_GetResource_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UOptimusNode_GetResource_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UOptimusNode_ResourceAccessorBase,
+		(UObject* (*)())Z_Construct_UPackage__Script_OptimusCore,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOptimusNode_GetResource_Statics::Class_MetaDataParams[] = {
+		{ "IncludePath", "Nodes/OptimusNode_GetResource.h" },
+		{ "ModuleRelativePath", "Private/Nodes/OptimusNode_GetResource.h" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UOptimusNode_GetResource_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UOptimusNode_GetResource>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_UOptimusNode_GetResource_Statics::ClassParams = {
+		&UOptimusNode_GetResource::StaticClass,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x010000A0u,
+		METADATA_PARAMS(Z_Construct_UClass_UOptimusNode_GetResource_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UOptimusNode_GetResource_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UOptimusNode_GetResource()
+	{
+		if (!Z_Registration_Info_UClass_UOptimusNode_GetResource.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UOptimusNode_GetResource.OuterSingleton, Z_Construct_UClass_UOptimusNode_GetResource_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_UOptimusNode_GetResource.OuterSingleton;
+	}
+	template<> OPTIMUSCORE_API UClass* StaticClass<UOptimusNode_GetResource>()
+	{
+		return UOptimusNode_GetResource::StaticClass();
+	}
+	UOptimusNode_GetResource::UOptimusNode_GetResource() {}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UOptimusNode_GetResource);
+	UOptimusNode_GetResource::~UOptimusNode_GetResource() {}
+	struct Z_CompiledInDeferFile_FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_Nodes_OptimusNode_GetResource_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_Nodes_OptimusNode_GetResource_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UOptimusNode_GetResource, UOptimusNode_GetResource::StaticClass, TEXT("UOptimusNode_GetResource"), &Z_Registration_Info_UClass_UOptimusNode_GetResource, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOptimusNode_GetResource), 436192550U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_Nodes_OptimusNode_GetResource_h_1960603371(TEXT("/Script/OptimusCore"),
+		Z_CompiledInDeferFile_FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_Nodes_OptimusNode_GetResource_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_Nodes_OptimusNode_GetResource_h_Statics::ClassInfo),
+		nullptr, 0,
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

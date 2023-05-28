@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SubobjectDataInterface.cpp.obj": [
+			"SubobjectData.gen.cpp.obj",
+			"SubobjectDataBlueprintFunctionLibrary.gen.cpp.obj",
+			"SubobjectDataHandle.gen.cpp.obj",
+			"SubobjectDataInterface.init.gen.cpp.obj",
+			"SubobjectDataSubsystem.gen.cpp.obj",
+			"BaseSubobjectDataFactory.cpp.obj",
+			"ChildActorSubobjectData.cpp.obj",
+			"ChildSubobjectDataFactory.cpp.obj",
+			"InheritedSubobjectData.cpp.obj",
+			"InheritedSubobjectDataFactory.cpp.obj",
+			"SubobjectData.cpp.obj",
+			"SubobjectDataBlueprintFunctionLibrary.cpp.obj",
+			"SubobjectDataHandle.cpp.obj",
+			"SubobjectDataInterfaceModule.cpp.obj",
+			"SubobjectDataSubsystem.cpp.obj"
+		]
+	}
+}

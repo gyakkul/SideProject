@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithExporter.cpp.obj": [
+			"DatasmithDirectLink.cpp.obj",
+			"DatasmithExporterManager.cpp.obj",
+			"DatasmithExportOptions.cpp.obj",
+			"DatasmithLogger.cpp.obj",
+			"DatasmithMeshExporter.cpp.obj",
+			"DatasmithSceneExporter.cpp.obj"
+		]
+	}
+}

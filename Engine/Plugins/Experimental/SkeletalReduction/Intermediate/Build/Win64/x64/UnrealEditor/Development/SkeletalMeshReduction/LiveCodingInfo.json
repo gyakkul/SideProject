@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SkeletalMeshReduction.cpp.obj": [
+			"SkeletalMeshReductionPlugin.cpp.obj",
+			"SkeletalSimplifier.cpp.obj",
+			"SkeletalSimplifierMeshManager.cpp.obj"
+		]
+	}
+}

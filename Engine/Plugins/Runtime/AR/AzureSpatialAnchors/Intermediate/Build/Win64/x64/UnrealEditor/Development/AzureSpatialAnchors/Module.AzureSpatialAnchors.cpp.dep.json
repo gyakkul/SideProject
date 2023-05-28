@@ -1,0 +1,43 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\azurespatialanchors\\module.azurespatialanchors.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\azurespatialanchors\\definitions.azurespatialanchors.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurecloudspatialanchor.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\public\\azurecloudspatialanchor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\augmentedreality\\public\\arpin.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\augmentedreality\\public\\artypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\engine\\dataasset.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dataasset.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\augmentedreality\\uht\\artypes.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\augmentedreality\\uht\\arpin.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurecloudspatialanchor.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurespatialanchors.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurespatialanchorseventcomponent.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\public\\azurespatialanchorseventcomponent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\public\\iazurespatialanchors.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\public\\azurespatialanchorstypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurespatialanchorstypes.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\public\\azurespatialanchors.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurespatialanchorseventcomponent.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurespatialanchorsfunctionlibrary.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\public\\azurespatialanchorsfunctionlibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurespatialanchorsfunctionlibrary.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\intermediate\\build\\win64\\unrealeditor\\inc\\azurespatialanchors\\uht\\azurespatialanchorstypes.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\private\\azurecloudspatialanchor.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\private\\azurespatialanchors.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\private\\azurespatialanchorsbase.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\public\\azurespatialanchorsbase.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\private\\azurespatialanchorseventcomponent.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\private\\azurespatialanchorsfunctionlibrary.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\latentactions.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\private\\azurespatialanchorstypes.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ar\\azurespatialanchors\\source\\azurespatialanchors\\private\\iazurespatialanchors.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

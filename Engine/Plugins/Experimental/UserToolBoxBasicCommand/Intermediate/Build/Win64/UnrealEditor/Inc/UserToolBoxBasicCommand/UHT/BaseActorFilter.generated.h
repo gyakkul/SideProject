@@ -1,0 +1,809 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ActorFilter/BaseActorFilter.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+#ifdef USERTOOLBOXBASICCOMMAND_BaseActorFilter_generated_h
+#error "BaseActorFilter.generated.h already included, missing '#pragma once' in BaseActorFilter.h"
+#endif
+#define USERTOOLBOXBASICCOMMAND_BaseActorFilter_generated_h
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_RPC_WRAPPERS \
+	virtual bool FilterUnit_Implementation(AActor* Source); \
+	virtual TArray<AActor*> Filter_Implementation(TArray<AActor*> const& Source); \
+ \
+	DECLARE_FUNCTION(execFilterUnit); \
+	DECLARE_FUNCTION(execFilter);
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool FilterUnit_Implementation(AActor* Source); \
+	virtual TArray<AActor*> Filter_Implementation(TArray<AActor*> const& Source); \
+ \
+	DECLARE_FUNCTION(execFilterUnit); \
+	DECLARE_FUNCTION(execFilter);
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_CALLBACK_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBaseActorFilter(); \
+	friend struct Z_Construct_UClass_UBaseActorFilter_Statics; \
+public: \
+	DECLARE_CLASS(UBaseActorFilter, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UBaseActorFilter)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_INCLASS \
+private: \
+	static void StaticRegisterNativesUBaseActorFilter(); \
+	friend struct Z_Construct_UClass_UBaseActorFilter_Statics; \
+public: \
+	DECLARE_CLASS(UBaseActorFilter, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UBaseActorFilter)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBaseActorFilter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBaseActorFilter) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseActorFilter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseActorFilter); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseActorFilter(UBaseActorFilter&&); \
+	NO_API UBaseActorFilter(const UBaseActorFilter&); \
+public: \
+	NO_API virtual ~UBaseActorFilter();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBaseActorFilter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBaseActorFilter(UBaseActorFilter&&); \
+	NO_API UBaseActorFilter(const UBaseActorFilter&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBaseActorFilter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBaseActorFilter); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBaseActorFilter) \
+	NO_API virtual ~UBaseActorFilter();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_14_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_CALLBACK_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_CALLBACK_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UBaseActorFilter>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGetAllDescendants(); \
+	friend struct Z_Construct_UClass_UGetAllDescendants_Statics; \
+public: \
+	DECLARE_CLASS(UGetAllDescendants, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UGetAllDescendants)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_INCLASS \
+private: \
+	static void StaticRegisterNativesUGetAllDescendants(); \
+	friend struct Z_Construct_UClass_UGetAllDescendants_Statics; \
+public: \
+	DECLARE_CLASS(UGetAllDescendants, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UGetAllDescendants)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGetAllDescendants(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGetAllDescendants) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGetAllDescendants); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGetAllDescendants); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGetAllDescendants(UGetAllDescendants&&); \
+	NO_API UGetAllDescendants(const UGetAllDescendants&); \
+public: \
+	NO_API virtual ~UGetAllDescendants();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGetAllDescendants(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGetAllDescendants(UGetAllDescendants&&); \
+	NO_API UGetAllDescendants(const UGetAllDescendants&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGetAllDescendants); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGetAllDescendants); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGetAllDescendants) \
+	NO_API virtual ~UGetAllDescendants();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_56_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_59_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UGetAllDescendants>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGetParents(); \
+	friend struct Z_Construct_UClass_UGetParents_Statics; \
+public: \
+	DECLARE_CLASS(UGetParents, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UGetParents)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_INCLASS \
+private: \
+	static void StaticRegisterNativesUGetParents(); \
+	friend struct Z_Construct_UClass_UGetParents_Statics; \
+public: \
+	DECLARE_CLASS(UGetParents, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UGetParents)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGetParents(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGetParents) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGetParents); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGetParents); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGetParents(UGetParents&&); \
+	NO_API UGetParents(const UGetParents&); \
+public: \
+	NO_API virtual ~UGetParents();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGetParents(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGetParents(UGetParents&&); \
+	NO_API UGetParents(const UGetParents&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGetParents); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGetParents); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGetParents) \
+	NO_API virtual ~UGetParents();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_66_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_69_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UGetParents>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHasAttachedActor(); \
+	friend struct Z_Construct_UClass_UHasAttachedActor_Statics; \
+public: \
+	DECLARE_CLASS(UHasAttachedActor, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasAttachedActor)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_INCLASS \
+private: \
+	static void StaticRegisterNativesUHasAttachedActor(); \
+	friend struct Z_Construct_UClass_UHasAttachedActor_Statics; \
+public: \
+	DECLARE_CLASS(UHasAttachedActor, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasAttachedActor)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasAttachedActor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasAttachedActor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasAttachedActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasAttachedActor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasAttachedActor(UHasAttachedActor&&); \
+	NO_API UHasAttachedActor(const UHasAttachedActor&); \
+public: \
+	NO_API virtual ~UHasAttachedActor();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasAttachedActor(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasAttachedActor(UHasAttachedActor&&); \
+	NO_API UHasAttachedActor(const UHasAttachedActor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasAttachedActor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasAttachedActor); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasAttachedActor) \
+	NO_API virtual ~UHasAttachedActor();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_73_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_76_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UHasAttachedActor>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHasComponentOfClass(); \
+	friend struct Z_Construct_UClass_UHasComponentOfClass_Statics; \
+public: \
+	DECLARE_CLASS(UHasComponentOfClass, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasComponentOfClass)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_INCLASS \
+private: \
+	static void StaticRegisterNativesUHasComponentOfClass(); \
+	friend struct Z_Construct_UClass_UHasComponentOfClass_Statics; \
+public: \
+	DECLARE_CLASS(UHasComponentOfClass, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasComponentOfClass)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasComponentOfClass(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasComponentOfClass) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasComponentOfClass); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasComponentOfClass); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasComponentOfClass(UHasComponentOfClass&&); \
+	NO_API UHasComponentOfClass(const UHasComponentOfClass&); \
+public: \
+	NO_API virtual ~UHasComponentOfClass();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasComponentOfClass(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasComponentOfClass(UHasComponentOfClass&&); \
+	NO_API UHasComponentOfClass(const UHasComponentOfClass&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasComponentOfClass); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasComponentOfClass); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasComponentOfClass) \
+	NO_API virtual ~UHasComponentOfClass();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_81_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_84_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UHasComponentOfClass>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHasMetadataByKey(); \
+	friend struct Z_Construct_UClass_UHasMetadataByKey_Statics; \
+public: \
+	DECLARE_CLASS(UHasMetadataByKey, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasMetadataByKey)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_INCLASS \
+private: \
+	static void StaticRegisterNativesUHasMetadataByKey(); \
+	friend struct Z_Construct_UClass_UHasMetadataByKey_Statics; \
+public: \
+	DECLARE_CLASS(UHasMetadataByKey, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasMetadataByKey)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasMetadataByKey(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasMetadataByKey) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasMetadataByKey); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasMetadataByKey); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasMetadataByKey(UHasMetadataByKey&&); \
+	NO_API UHasMetadataByKey(const UHasMetadataByKey&); \
+public: \
+	NO_API virtual ~UHasMetadataByKey();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasMetadataByKey(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasMetadataByKey(UHasMetadataByKey&&); \
+	NO_API UHasMetadataByKey(const UHasMetadataByKey&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasMetadataByKey); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasMetadataByKey); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasMetadataByKey) \
+	NO_API virtual ~UHasMetadataByKey();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_90_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_93_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UHasMetadataByKey>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHasMetadataByKeyAndValue(); \
+	friend struct Z_Construct_UClass_UHasMetadataByKeyAndValue_Statics; \
+public: \
+	DECLARE_CLASS(UHasMetadataByKeyAndValue, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasMetadataByKeyAndValue)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_INCLASS \
+private: \
+	static void StaticRegisterNativesUHasMetadataByKeyAndValue(); \
+	friend struct Z_Construct_UClass_UHasMetadataByKeyAndValue_Statics; \
+public: \
+	DECLARE_CLASS(UHasMetadataByKeyAndValue, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasMetadataByKeyAndValue)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasMetadataByKeyAndValue(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasMetadataByKeyAndValue) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasMetadataByKeyAndValue); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasMetadataByKeyAndValue); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasMetadataByKeyAndValue(UHasMetadataByKeyAndValue&&); \
+	NO_API UHasMetadataByKeyAndValue(const UHasMetadataByKeyAndValue&); \
+public: \
+	NO_API virtual ~UHasMetadataByKeyAndValue();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasMetadataByKeyAndValue(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasMetadataByKeyAndValue(UHasMetadataByKeyAndValue&&); \
+	NO_API UHasMetadataByKeyAndValue(const UHasMetadataByKeyAndValue&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasMetadataByKeyAndValue); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasMetadataByKeyAndValue); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasMetadataByKeyAndValue) \
+	NO_API virtual ~UHasMetadataByKeyAndValue();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_99_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_102_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UHasMetadataByKeyAndValue>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUIsClassOf(); \
+	friend struct Z_Construct_UClass_UIsClassOf_Statics; \
+public: \
+	DECLARE_CLASS(UIsClassOf, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UIsClassOf)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_INCLASS \
+private: \
+	static void StaticRegisterNativesUIsClassOf(); \
+	friend struct Z_Construct_UClass_UIsClassOf_Statics; \
+public: \
+	DECLARE_CLASS(UIsClassOf, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UIsClassOf)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UIsClassOf(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIsClassOf) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UIsClassOf); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIsClassOf); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UIsClassOf(UIsClassOf&&); \
+	NO_API UIsClassOf(const UIsClassOf&); \
+public: \
+	NO_API virtual ~UIsClassOf();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UIsClassOf(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UIsClassOf(UIsClassOf&&); \
+	NO_API UIsClassOf(const UIsClassOf&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UIsClassOf); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIsClassOf); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UIsClassOf) \
+	NO_API virtual ~UIsClassOf();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_110_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_113_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UIsClassOf>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUGetNDescendants(); \
+	friend struct Z_Construct_UClass_UGetNDescendants_Statics; \
+public: \
+	DECLARE_CLASS(UGetNDescendants, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UGetNDescendants)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_INCLASS \
+private: \
+	static void StaticRegisterNativesUGetNDescendants(); \
+	friend struct Z_Construct_UClass_UGetNDescendants_Statics; \
+public: \
+	DECLARE_CLASS(UGetNDescendants, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UGetNDescendants)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGetNDescendants(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGetNDescendants) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGetNDescendants); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGetNDescendants); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGetNDescendants(UGetNDescendants&&); \
+	NO_API UGetNDescendants(const UGetNDescendants&); \
+public: \
+	NO_API virtual ~UGetNDescendants();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UGetNDescendants(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UGetNDescendants(UGetNDescendants&&); \
+	NO_API UGetNDescendants(const UGetNDescendants&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGetNDescendants); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGetNDescendants); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGetNDescendants) \
+	NO_API virtual ~UGetNDescendants();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_121_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_124_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UGetNDescendants>();
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_ACCESSORS
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHasMetadataByKeyAndValueDropDown(); \
+	friend struct Z_Construct_UClass_UHasMetadataByKeyAndValueDropDown_Statics; \
+public: \
+	DECLARE_CLASS(UHasMetadataByKeyAndValueDropDown, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasMetadataByKeyAndValueDropDown)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_INCLASS \
+private: \
+	static void StaticRegisterNativesUHasMetadataByKeyAndValueDropDown(); \
+	friend struct Z_Construct_UClass_UHasMetadataByKeyAndValueDropDown_Statics; \
+public: \
+	DECLARE_CLASS(UHasMetadataByKeyAndValueDropDown, UBaseActorFilter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/UserToolBoxBasicCommand"), NO_API) \
+	DECLARE_SERIALIZER(UHasMetadataByKeyAndValueDropDown)
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasMetadataByKeyAndValueDropDown(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasMetadataByKeyAndValueDropDown) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasMetadataByKeyAndValueDropDown); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasMetadataByKeyAndValueDropDown); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasMetadataByKeyAndValueDropDown(UHasMetadataByKeyAndValueDropDown&&); \
+	NO_API UHasMetadataByKeyAndValueDropDown(const UHasMetadataByKeyAndValueDropDown&); \
+public: \
+	NO_API virtual ~UHasMetadataByKeyAndValueDropDown();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHasMetadataByKeyAndValueDropDown(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHasMetadataByKeyAndValueDropDown(UHasMetadataByKeyAndValueDropDown&&); \
+	NO_API UHasMetadataByKeyAndValueDropDown(const UHasMetadataByKeyAndValueDropDown&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHasMetadataByKeyAndValueDropDown); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHasMetadataByKeyAndValueDropDown); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHasMetadataByKeyAndValueDropDown) \
+	NO_API virtual ~UHasMetadataByKeyAndValueDropDown();
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_132_PROLOG
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_INCLASS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_ACCESSORS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h_135_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> USERTOOLBOXBASICCOMMAND_API UClass* StaticClass<class UHasMetadataByKeyAndValueDropDown>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_UserToolBoxBasicCommand_Source_UserToolBoxBasicCommand_Public_ActorFilter_BaseActorFilter_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

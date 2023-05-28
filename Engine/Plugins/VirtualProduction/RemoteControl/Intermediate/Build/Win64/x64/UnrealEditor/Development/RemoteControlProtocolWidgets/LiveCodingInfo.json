@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteControlProtocolWidgets.cpp.obj": [
+			"ProtocolStyles.gen.cpp.obj",
+			"RemoteControlProtocolWidgets.init.gen.cpp.obj",
+			"RemoteControlProtocolWidgetsSettings.gen.cpp.obj",
+			"RemoteControlProtocolWidgetsModule.cpp.obj",
+			"ProtocolPanelStyle.cpp.obj",
+			"ProtocolStyles.cpp.obj",
+			"ProtocolBindingViewModel.cpp.obj",
+			"ProtocolEntityViewModel.cpp.obj",
+			"ProtocolRangeViewModel.cpp.obj",
+			"SRCProtocolBindingMask.cpp.obj",
+			"SRCProtocolMask.cpp.obj",
+			"SRCProtocolMaskButton.cpp.obj",
+			"SRCProtocolMaskTriplet.cpp.obj",
+			"SPropertyView.cpp.obj",
+			"SRCBindingWarning.cpp.obj",
+			"SRCProtocolBinding.cpp.obj",
+			"SRCProtocolBindingList.cpp.obj",
+			"SRCProtocolEntity.cpp.obj",
+			"SRCProtocolRange.cpp.obj",
+			"SRCProtocolRangeList.cpp.obj",
+			"SRCProtocolShared.cpp.obj"
+		]
+	}
+}

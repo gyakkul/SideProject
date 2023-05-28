@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Landmass.cpp.obj": [
+			"Landmass.init.gen.cpp.obj",
+			"BrushEffectsList.cpp.obj",
+			"FalloffSettings.cpp.obj",
+			"LandmassModule.cpp.obj",
+			"TerrainCarvingSettings.cpp.obj"
+		]
+	}
+}

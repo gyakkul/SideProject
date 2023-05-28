@@ -1,0 +1,30 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\stagemonitorcommon\\module.stagemonitorcommon.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\stagemonitorcommon\\definitions.stagemonitorcommon.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\intermediate\\build\\win64\\unrealeditor\\inc\\stagemonitorcommon\\uht\\stagemonitorcommon.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\intermediate\\build\\win64\\unrealeditor\\inc\\stagemonitorcommon\\uht\\stagemonitoringsettings.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\source\\stagemonitorcommon\\public\\stagemonitoringsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\virtualproduction\\stagedatacore\\public\\stagemessages.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\stagedatacore\\uht\\stagemessages.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\intermediate\\build\\win64\\unrealeditor\\inc\\stagemonitorcommon\\uht\\stagemonitoringsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\intermediate\\build\\win64\\unrealeditor\\inc\\stagemonitorcommon\\uht\\stagemonitorutils.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\source\\stagemonitorcommon\\public\\stagemonitorutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\intermediate\\build\\win64\\unrealeditor\\inc\\stagemonitorcommon\\uht\\stagemonitorutils.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\source\\stagemonitorcommon\\private\\stagemonitorcommonmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\source\\stagemonitorcommon\\private\\stagemonitoringsettings.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\stagemonitoring\\source\\stagemonitorcommon\\private\\stagemonitorutils.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproduction\\vproles\\source\\vproles\\public\\vprolessubsystem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproduction\\vproles\\intermediate\\build\\win64\\unrealeditor\\inc\\vproles\\uht\\vprolessubsystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

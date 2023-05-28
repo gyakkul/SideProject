@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ORTHelper.cpp.obj": [
+			"Module.cpp.obj",
+			"ORTExceptionHandler.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioLinkEngine.cpp.obj": [
+			"AudioLinkEngine.init.gen.cpp.obj",
+			"AudioLinkModule.cpp.obj",
+			"BufferedListenerBase.cpp.obj",
+			"BufferedSourceListener.cpp.obj",
+			"BufferedSubmixListener.cpp.obj",
+			"IAudioLink.cpp.obj",
+			"IAudioLinkBlueprintInterface.cpp.obj",
+			"IAudioLinkFactory.cpp.obj"
+		]
+	}
+}

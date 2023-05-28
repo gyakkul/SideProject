@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioCaptureTimecodeProvider.cpp.obj": [
+			"AudioCaptureTimecodeProvider.gen.cpp.obj",
+			"AudioCaptureTimecodeProvider.init.gen.cpp.obj",
+			"AudioCaptureTimecodeProvider.cpp.obj",
+			"AudioCaptureTimecodeProviderModule.cpp.obj"
+		]
+	}
+}

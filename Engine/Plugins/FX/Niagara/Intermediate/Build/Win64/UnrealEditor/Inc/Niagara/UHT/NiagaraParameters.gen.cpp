@@ -1,0 +1,99 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "../Public/NiagaraParameters.h"
+#include "../Public/NiagaraTypes.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeNiagaraParameters() {}
+// Cross Module References
+	NIAGARA_API UScriptStruct* Z_Construct_UScriptStruct_FNiagaraParameters();
+	NIAGARA_API UScriptStruct* Z_Construct_UScriptStruct_FNiagaraVariable();
+	UPackage* Z_Construct_UPackage__Script_Niagara();
+// End Cross Module References
+	static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_NiagaraParameters;
+class UScriptStruct* FNiagaraParameters::StaticStruct()
+{
+	if (!Z_Registration_Info_UScriptStruct_NiagaraParameters.OuterSingleton)
+	{
+		Z_Registration_Info_UScriptStruct_NiagaraParameters.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FNiagaraParameters, (UObject*)Z_Construct_UPackage__Script_Niagara(), TEXT("NiagaraParameters"));
+	}
+	return Z_Registration_Info_UScriptStruct_NiagaraParameters.OuterSingleton;
+}
+template<> NIAGARA_API UScriptStruct* StaticStruct<FNiagaraParameters>()
+{
+	return FNiagaraParameters::StaticStruct();
+}
+	struct Z_Construct_UScriptStruct_FNiagaraParameters_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Parameters_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Parameters_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_Parameters;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UECodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FNiagaraParameters_Statics::Struct_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/NiagaraParameters.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FNiagaraParameters>();
+	}
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewProp_Parameters_Inner = { "Parameters", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FNiagaraVariable, METADATA_PARAMS(nullptr, 0) }; // 2575088255
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewProp_Parameters_MetaData[] = {
+		{ "Category", "Uniform" },
+		{ "Comment", "//TODO: Sort the array so we can binary search, do not change to a TMap to avoid memory bloat!\n" },
+		{ "ModuleRelativePath", "Public/NiagaraParameters.h" },
+		{ "ToolTip", "TODO: Sort the array so we can binary search, do not change to a TMap to avoid memory bloat!" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewProp_Parameters = { "Parameters", nullptr, (EPropertyFlags)0x0010000000000041, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FNiagaraParameters, Parameters), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewProp_Parameters_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewProp_Parameters_MetaData)) }; // 2575088255
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FNiagaraParameters_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewProp_Parameters_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewProp_Parameters,
+	};
+	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FNiagaraParameters_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_Niagara,
+		nullptr,
+		&NewStructOps,
+		"NiagaraParameters",
+		sizeof(FNiagaraParameters),
+		alignof(FNiagaraParameters),
+		Z_Construct_UScriptStruct_FNiagaraParameters_Statics::PropPointers,
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FNiagaraParameters_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FNiagaraParameters_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FNiagaraParameters_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FNiagaraParameters()
+	{
+		if (!Z_Registration_Info_UScriptStruct_NiagaraParameters.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUScriptStruct(Z_Registration_Info_UScriptStruct_NiagaraParameters.InnerSingleton, Z_Construct_UScriptStruct_FNiagaraParameters_Statics::ReturnStructParams);
+		}
+		return Z_Registration_Info_UScriptStruct_NiagaraParameters.InnerSingleton;
+	}
+	struct Z_CompiledInDeferFile_FID_Engine_Plugins_FX_Niagara_Source_Niagara_Public_NiagaraParameters_h_Statics
+	{
+		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
+	};
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_FX_Niagara_Source_Niagara_Public_NiagaraParameters_h_Statics::ScriptStructInfo[] = {
+		{ FNiagaraParameters::StaticStruct, Z_Construct_UScriptStruct_FNiagaraParameters_Statics::NewStructOps, TEXT("NiagaraParameters"), &Z_Registration_Info_UScriptStruct_NiagaraParameters, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FNiagaraParameters), 2881145709U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_FX_Niagara_Source_Niagara_Public_NiagaraParameters_h_36691984(TEXT("/Script/Niagara"),
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_Engine_Plugins_FX_Niagara_Source_Niagara_Public_NiagaraParameters_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Plugins_FX_Niagara_Source_Niagara_Public_NiagaraParameters_h_Statics::ScriptStructInfo),
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

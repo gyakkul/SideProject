@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenColorIOEditor.cpp.obj": [
+			"OpenColorIOEditor.init.gen.cpp.obj",
+			"AssetTypeActions_OpenColorIOConfiguration.cpp.obj",
+			"OpenColorIOConfigurationFactoryNew.cpp.obj",
+			"OpenColorIOColorSpaceConversionCustomization.cpp.obj",
+			"OpenColorIOColorSpaceCustomization.cpp.obj",
+			"OpenColorIOConfigurationCustomization.cpp.obj",
+			"OpenColorIOEditorModule.cpp.obj",
+			"OpenColorIOEditorSettings.cpp.obj",
+			"OpenColorIOShaderProcessor.cpp.obj",
+			"SOpenColorIOColorSpacePicker.cpp.obj",
+			"SOpenColorIODisplay.cpp.obj"
+		]
+	}
+}

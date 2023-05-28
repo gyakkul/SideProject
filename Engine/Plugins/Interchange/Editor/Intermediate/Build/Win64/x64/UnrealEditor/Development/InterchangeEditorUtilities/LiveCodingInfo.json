@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeEditorUtilities.cpp.obj": [
+			"InterchangeEditorUtilities.init.gen.cpp.obj",
+			"InterchangeEditorUtilitiesModule.cpp.obj",
+			"InterchangeOpenFileDialog.cpp.obj"
+		]
+	}
+}

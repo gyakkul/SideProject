@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AlembicImporter.cpp.obj": [
+			"AlembicImporter.init.gen.cpp.obj",
+			"AlembicImporterModule.cpp.obj",
+			"AlembicImportFactory.cpp.obj",
+			"AlembicImportOptions.cpp.obj"
+		]
+	}
+}

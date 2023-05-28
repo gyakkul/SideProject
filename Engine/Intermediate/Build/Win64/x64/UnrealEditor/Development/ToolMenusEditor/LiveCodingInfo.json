@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ToolMenusEditor.cpp.obj": [
+			"ToolMenusEditor.gen.cpp.obj",
+			"ToolMenusEditor.init.gen.cpp.obj",
+			"SEditToolMenuDialog.cpp.obj",
+			"ToolMenusEditor.cpp.obj",
+			"ToolMenusEditorModule.cpp.obj"
+		]
+	}
+}

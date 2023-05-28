@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ToolWidgets.cpp.obj": [
+			"CustomTextFilters.gen.cpp.obj",
+			"SBasicFilterBar.gen.cpp.obj",
+			"ToolWidgets.init.gen.cpp.obj",
+			"SCustomDialog.cpp.obj",
+			"SMessageDialog.cpp.obj",
+			"SCustomTextFilterDialog.cpp.obj",
+			"SFilterSearchBox.cpp.obj",
+			"SCheckBoxList.cpp.obj",
+			"SNegativeActionButton.cpp.obj",
+			"SPositiveActionButton.cpp.obj",
+			"SPrimaryButton.cpp.obj",
+			"SRichTextWarningOrErrorBox.cpp.obj",
+			"SSearchableComboBox.cpp.obj",
+			"SSegmentedTimelineView.cpp.obj",
+			"SSimpleButton.cpp.obj",
+			"SSimpleComboButton.cpp.obj",
+			"SSimpleTimeSlider.cpp.obj",
+			"SWarningOrErrorBox.cpp.obj",
+			"SWidgetDrawer.cpp.obj",
+			"ToolWidgetsModule.cpp.obj"
+		]
+	}
+}

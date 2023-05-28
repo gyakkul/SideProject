@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataRegistry.cpp.obj": [
+			"DataRegistry.init.gen.cpp.obj",
+			"DataRegistrySettings.gen.cpp.obj",
+			"DataRegistry.cpp.obj",
+			"DataRegistryId.cpp.obj",
+			"DataRegistryModule.cpp.obj",
+			"DataRegistrySource.cpp.obj",
+			"DataRegistrySource_CurveTable.cpp.obj",
+			"DataRegistrySource_DataTable.cpp.obj",
+			"DataRegistrySubsystem.cpp.obj",
+			"DataRegistryTypes.cpp.obj"
+		]
+	}
+}

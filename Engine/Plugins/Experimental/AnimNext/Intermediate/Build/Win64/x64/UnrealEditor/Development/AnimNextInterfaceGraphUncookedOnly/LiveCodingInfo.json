@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimNextInterfaceGraphUncookedOnly.cpp.obj": [
+			"AnimNextInterfaceGraphUncookedOnly.init.gen.cpp.obj",
+			"AnimNextInterfaceGraph_EdGraph.gen.cpp.obj",
+			"AnimNextInterfaceGraph_EdGraphNode.gen.cpp.obj",
+			"AnimNextInterfaceGraph_EdGraphSchema.gen.cpp.obj",
+			"AnimNextInterfaceGraph_EditorData.gen.cpp.obj",
+			"AnimGraphNode_AnimNextInterfaceGraph.cpp.obj",
+			"AnimNextInterfaceGraphUncookedOnlyModule.cpp.obj",
+			"AnimNextInterfaceGraphUncookedOnlyUtils.cpp.obj",
+			"AnimNextInterfaceGraph_EdGraph.cpp.obj",
+			"AnimNextInterfaceGraph_EdGraphSchema.cpp.obj",
+			"AnimNextInterfaceGraph_EditorData.cpp.obj"
+		]
+	}
+}

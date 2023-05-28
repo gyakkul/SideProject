@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataLayerEditor.cpp.obj": [
+			"DataLayerEditor.init.gen.cpp.obj",
+			"DataLayerEditorSubsystem.gen.cpp.obj",
+			"DataLayerFactory.gen.cpp.obj",
+			"DataLayerEditorModule.cpp.obj",
+			"DataLayerDragDropOp.cpp.obj",
+			"DataLayerEditorSubsystem.cpp.obj",
+			"DataLayerFactory.cpp.obj",
+			"DataLayerHierarchy.cpp.obj",
+			"DataLayerInstanceCustomization.cpp.obj",
+			"DataLayerMode.cpp.obj",
+			"DataLayerOutlinerDeleteButtonColumn.cpp.obj",
+			"DataLayerOutlinerHasErrorColumn.cpp.obj",
+			"DataLayerOutlinerIsLoadedInEditorColumn.cpp.obj",
+			"DataLayerOutlinerIsVisibleColumn.cpp.obj",
+			"DataLayerPropertyTypeCustomization.cpp.obj",
+			"DataLayerPropertyTypeCustomizationHelper.cpp.obj",
+			"DataLayerTreeItem.cpp.obj",
+			"SDataLayerBrowser.cpp.obj",
+			"SDataLayerOutliner.cpp.obj",
+			"SDataLayerTreeLabel.cpp.obj",
+			"WorldDataLayersTreeItem.cpp.obj"
+		]
+	}
+}

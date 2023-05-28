@@ -1,0 +1,177 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ChaosClothAsset/ClothComponentToolTarget.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CHAOSCLOTHASSETEDITORTOOLS_ClothComponentToolTarget_generated_h
+#error "ClothComponentToolTarget.generated.h already included, missing '#pragma once' in ClothComponentToolTarget.h"
+#endif
+#define CHAOSCLOTHASSETEDITORTOOLS_ClothComponentToolTarget_generated_h
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_ACCESSORS
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUClothComponentToolTarget(); \
+	friend struct Z_Construct_UClass_UClothComponentToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(UClothComponentToolTarget, UPrimitiveComponentToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ChaosClothAssetEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UClothComponentToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<UClothComponentToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_INCLASS \
+private: \
+	static void StaticRegisterNativesUClothComponentToolTarget(); \
+	friend struct Z_Construct_UClass_UClothComponentToolTarget_Statics; \
+public: \
+	DECLARE_CLASS(UClothComponentToolTarget, UPrimitiveComponentToolTarget, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ChaosClothAssetEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UClothComponentToolTarget) \
+	virtual UObject* _getUObject() const override { return const_cast<UClothComponentToolTarget*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UClothComponentToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UClothComponentToolTarget) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UClothComponentToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UClothComponentToolTarget); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UClothComponentToolTarget(UClothComponentToolTarget&&); \
+	NO_API UClothComponentToolTarget(const UClothComponentToolTarget&); \
+public: \
+	NO_API virtual ~UClothComponentToolTarget();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UClothComponentToolTarget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UClothComponentToolTarget(UClothComponentToolTarget&&); \
+	NO_API UClothComponentToolTarget(const UClothComponentToolTarget&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UClothComponentToolTarget); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UClothComponentToolTarget); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UClothComponentToolTarget) \
+	NO_API virtual ~UClothComponentToolTarget();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_15_PROLOG
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_INCLASS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_18_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CHAOSCLOTHASSETEDITORTOOLS_API UClass* StaticClass<class UClothComponentToolTarget>();
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_ACCESSORS
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUClothComponentToolTargetFactory(); \
+	friend struct Z_Construct_UClass_UClothComponentToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(UClothComponentToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ChaosClothAssetEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UClothComponentToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_INCLASS \
+private: \
+	static void StaticRegisterNativesUClothComponentToolTargetFactory(); \
+	friend struct Z_Construct_UClass_UClothComponentToolTargetFactory_Statics; \
+public: \
+	DECLARE_CLASS(UClothComponentToolTargetFactory, UToolTargetFactory, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/ChaosClothAssetEditorTools"), NO_API) \
+	DECLARE_SERIALIZER(UClothComponentToolTargetFactory)
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UClothComponentToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UClothComponentToolTargetFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UClothComponentToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UClothComponentToolTargetFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UClothComponentToolTargetFactory(UClothComponentToolTargetFactory&&); \
+	NO_API UClothComponentToolTargetFactory(const UClothComponentToolTargetFactory&); \
+public: \
+	NO_API virtual ~UClothComponentToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UClothComponentToolTargetFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UClothComponentToolTargetFactory(UClothComponentToolTargetFactory&&); \
+	NO_API UClothComponentToolTargetFactory(const UClothComponentToolTargetFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UClothComponentToolTargetFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UClothComponentToolTargetFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UClothComponentToolTargetFactory) \
+	NO_API virtual ~UClothComponentToolTargetFactory();
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_35_PROLOG
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_INCLASS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_ACCESSORS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h_38_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CHAOSCLOTHASSETEDITORTOOLS_API UClass* StaticClass<class UClothComponentToolTargetFactory>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_ChaosClothAssetEditor_Source_ChaosClothAssetEditorTools_Public_ChaosClothAsset_ClothComponentToolTarget_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

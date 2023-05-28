@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PinnedCommandList.cpp.obj": [
+			"PinnedCommandList.init.gen.cpp.obj",
+			"PinnedCommandListSettings.gen.cpp.obj",
+			"PinnedCommandListModule.cpp.obj",
+			"SPinnedCommandList.cpp.obj",
+			"UICommandList_Pinnable.cpp.obj"
+		]
+	}
+}

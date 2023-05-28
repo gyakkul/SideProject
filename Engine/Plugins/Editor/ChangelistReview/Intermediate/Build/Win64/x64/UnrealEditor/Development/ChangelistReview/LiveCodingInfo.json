@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChangelistReview.cpp.obj": [
+			"ChangelistReviewModule.cpp.obj",
+			"SSourceControlReview.cpp.obj",
+			"SSourceControlReviewEntry.cpp.obj"
+		]
+	}
+}

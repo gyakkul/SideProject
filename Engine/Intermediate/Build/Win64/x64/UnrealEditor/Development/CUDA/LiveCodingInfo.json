@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CUDA.cpp.obj": [
+			"CudaModule.cpp.obj",
+			"CudaWrapper.cpp.obj"
+		]
+	}
+}

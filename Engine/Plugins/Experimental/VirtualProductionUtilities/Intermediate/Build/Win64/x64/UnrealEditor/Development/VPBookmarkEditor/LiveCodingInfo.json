@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VPBookmarkEditor.cpp.obj": [
+			"VPBookmarkEditor.init.gen.cpp.obj",
+			"VPBookmarkEditorBlueprintLibrary.gen.cpp.obj",
+			"SVPBookmarkListView.cpp.obj",
+			"VPBookmarkEditorBlueprintLibrary.cpp.obj",
+			"VPBookmarkEditorModule.cpp.obj",
+			"VPBookmarkTypeActions.cpp.obj"
+		]
+	}
+}

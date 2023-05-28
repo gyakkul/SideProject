@@ -1,0 +1,329 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "RevolveBoundaryTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_RevolveBoundaryTool_generated_h
+#error "RevolveBoundaryTool.generated.h already included, missing '#pragma once' in RevolveBoundaryTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_RevolveBoundaryTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryToolBuilder(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_INCLASS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryToolBuilder(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URevolveBoundaryToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryToolBuilder(URevolveBoundaryToolBuilder&&); \
+	NO_API URevolveBoundaryToolBuilder(const URevolveBoundaryToolBuilder&); \
+public: \
+	NO_API virtual ~URevolveBoundaryToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryToolBuilder(URevolveBoundaryToolBuilder&&); \
+	NO_API URevolveBoundaryToolBuilder(const URevolveBoundaryToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URevolveBoundaryToolBuilder) \
+	NO_API virtual ~URevolveBoundaryToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_22_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_25_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class URevolveBoundaryToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryOperatorFactory(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryOperatorFactory(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URevolveBoundaryOperatorFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryOperatorFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryOperatorFactory(URevolveBoundaryOperatorFactory&&); \
+	NO_API URevolveBoundaryOperatorFactory(const URevolveBoundaryOperatorFactory&); \
+public: \
+	NO_API virtual ~URevolveBoundaryOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryOperatorFactory(URevolveBoundaryOperatorFactory&&); \
+	NO_API URevolveBoundaryOperatorFactory(const URevolveBoundaryOperatorFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryOperatorFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URevolveBoundaryOperatorFactory) \
+	NO_API virtual ~URevolveBoundaryOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_31_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class URevolveBoundaryOperatorFactory>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryToolProperties(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryToolProperties, URevolveProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_INCLASS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryToolProperties(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryToolProperties, URevolveProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URevolveBoundaryToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryToolProperties(URevolveBoundaryToolProperties&&); \
+	NO_API URevolveBoundaryToolProperties(const URevolveBoundaryToolProperties&); \
+public: \
+	NO_API virtual ~URevolveBoundaryToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryToolProperties(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryToolProperties(URevolveBoundaryToolProperties&&); \
+	NO_API URevolveBoundaryToolProperties(const URevolveBoundaryToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryToolProperties); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(URevolveBoundaryToolProperties) \
+	NO_API virtual ~URevolveBoundaryToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_44_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_47_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class URevolveBoundaryToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryTool(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryTool_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryTool, UMeshBoundaryToolBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_INCLASS \
+private: \
+	static void StaticRegisterNativesURevolveBoundaryTool(); \
+	friend struct Z_Construct_UClass_URevolveBoundaryTool_Statics; \
+public: \
+	DECLARE_CLASS(URevolveBoundaryTool, UMeshBoundaryToolBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URevolveBoundaryTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URevolveBoundaryTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryTool(URevolveBoundaryTool&&); \
+	NO_API URevolveBoundaryTool(const URevolveBoundaryTool&); \
+public: \
+	NO_API virtual ~URevolveBoundaryTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URevolveBoundaryTool(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URevolveBoundaryTool(URevolveBoundaryTool&&); \
+	NO_API URevolveBoundaryTool(const URevolveBoundaryTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URevolveBoundaryTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URevolveBoundaryTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(URevolveBoundaryTool) \
+	NO_API virtual ~URevolveBoundaryTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_81_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h_84_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class URevolveBoundaryTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_RevolveBoundaryTool_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

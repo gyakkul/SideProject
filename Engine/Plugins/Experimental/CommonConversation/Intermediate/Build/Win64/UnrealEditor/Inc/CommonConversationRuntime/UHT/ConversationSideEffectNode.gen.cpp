@@ -1,0 +1,215 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "ConversationSideEffectNode.h"
+#include "ConversationContext.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeConversationSideEffectNode() {}
+// Cross Module References
+	COMMONCONVERSATIONRUNTIME_API UClass* Z_Construct_UClass_UConversationSideEffectNode();
+	COMMONCONVERSATIONRUNTIME_API UClass* Z_Construct_UClass_UConversationSideEffectNode_NoRegister();
+	COMMONCONVERSATIONRUNTIME_API UClass* Z_Construct_UClass_UConversationSubNode();
+	COMMONCONVERSATIONRUNTIME_API UScriptStruct* Z_Construct_UScriptStruct_FConversationContext();
+	UPackage* Z_Construct_UPackage__Script_CommonConversationRuntime();
+// End Cross Module References
+	DEFINE_FUNCTION(UConversationSideEffectNode::execClientCauseSideEffect)
+	{
+		P_GET_STRUCT_REF(FConversationContext,Z_Param_Out_Context);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ClientCauseSideEffect_Implementation(Z_Param_Out_Context);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UConversationSideEffectNode::execServerCauseSideEffect)
+	{
+		P_GET_STRUCT_REF(FConversationContext,Z_Param_Out_Context);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ServerCauseSideEffect_Implementation(Z_Param_Out_Context);
+		P_NATIVE_END;
+	}
+	struct ConversationSideEffectNode_eventClientCauseSideEffect_Parms
+	{
+		FConversationContext Context;
+	};
+	struct ConversationSideEffectNode_eventServerCauseSideEffect_Parms
+	{
+		FConversationContext Context;
+	};
+	static FName NAME_UConversationSideEffectNode_ClientCauseSideEffect = FName(TEXT("ClientCauseSideEffect"));
+	void UConversationSideEffectNode::ClientCauseSideEffect(FConversationContext const& Context) const
+	{
+		ConversationSideEffectNode_eventClientCauseSideEffect_Parms Parms;
+		Parms.Context=Context;
+		const_cast<UConversationSideEffectNode*>(this)->ProcessEvent(FindFunctionChecked(NAME_UConversationSideEffectNode_ClientCauseSideEffect),&Parms);
+	}
+	static FName NAME_UConversationSideEffectNode_ServerCauseSideEffect = FName(TEXT("ServerCauseSideEffect"));
+	void UConversationSideEffectNode::ServerCauseSideEffect(FConversationContext const& Context) const
+	{
+		ConversationSideEffectNode_eventServerCauseSideEffect_Parms Parms;
+		Parms.Context=Context;
+		const_cast<UConversationSideEffectNode*>(this)->ProcessEvent(FindFunctionChecked(NAME_UConversationSideEffectNode_ServerCauseSideEffect),&Parms);
+	}
+	void UConversationSideEffectNode::StaticRegisterNativesUConversationSideEffectNode()
+	{
+		UClass* Class = UConversationSideEffectNode::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "ClientCauseSideEffect", &UConversationSideEffectNode::execClientCauseSideEffect },
+			{ "ServerCauseSideEffect", &UConversationSideEffectNode::execServerCauseSideEffect },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Context_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Context;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::NewProp_Context_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::NewProp_Context = { "Context", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ConversationSideEffectNode_eventClientCauseSideEffect_Parms, Context), Z_Construct_UScriptStruct_FConversationContext, METADATA_PARAMS(Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::NewProp_Context_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::NewProp_Context_MetaData)) }; // 3817681265
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::NewProp_Context,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/ConversationSideEffectNode.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UConversationSideEffectNode, nullptr, "ClientCauseSideEffect", nullptr, nullptr, sizeof(ConversationSideEffectNode_eventClientCauseSideEffect_Parms), Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x48480C08, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Context_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Context;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::NewProp_Context_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::NewProp_Context = { "Context", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ConversationSideEffectNode_eventServerCauseSideEffect_Parms, Context), Z_Construct_UScriptStruct_FConversationContext, METADATA_PARAMS(Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::NewProp_Context_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::NewProp_Context_MetaData)) }; // 3817681265
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::NewProp_Context,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/ConversationSideEffectNode.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UConversationSideEffectNode, nullptr, "ServerCauseSideEffect", nullptr, nullptr, sizeof(ConversationSideEffectNode_eventServerCauseSideEffect_Parms), Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x48480C04, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UConversationSideEffectNode);
+	UClass* Z_Construct_UClass_UConversationSideEffectNode_NoRegister()
+	{
+		return UConversationSideEffectNode::StaticClass();
+	}
+	struct Z_Construct_UClass_UConversationSideEffectNode_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UConversationSideEffectNode_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UConversationSubNode,
+		(UObject* (*)())Z_Construct_UPackage__Script_CommonConversationRuntime,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UConversationSideEffectNode_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UConversationSideEffectNode_ClientCauseSideEffect, "ClientCauseSideEffect" }, // 44835275
+		{ &Z_Construct_UFunction_UConversationSideEffectNode_ServerCauseSideEffect, "ServerCauseSideEffect" }, // 2726599102
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UConversationSideEffectNode_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "Comment", "/**\n * Side effects are actions that are performed just after a task is executed\n * (this allows state-altering or cosmetic actions to be mixed in to other nodes)\n * \n * When a task executes on the server, it replicates to the client that it executed and\n * to then execute any client side effects that may be necessary for that task.\n */" },
+		{ "IncludePath", "ConversationSideEffectNode.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/ConversationSideEffectNode.h" },
+		{ "ToolTip", "Side effects are actions that are performed just after a task is executed\n(this allows state-altering or cosmetic actions to be mixed in to other nodes)\n\nWhen a task executes on the server, it replicates to the client that it executed and\nto then execute any client side effects that may be necessary for that task." },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UConversationSideEffectNode_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UConversationSideEffectNode>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_UConversationSideEffectNode_Statics::ClassParams = {
+		&UConversationSideEffectNode::StaticClass,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		0,
+		0,
+		0x001100A1u,
+		METADATA_PARAMS(Z_Construct_UClass_UConversationSideEffectNode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UConversationSideEffectNode_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UConversationSideEffectNode()
+	{
+		if (!Z_Registration_Info_UClass_UConversationSideEffectNode.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UConversationSideEffectNode.OuterSingleton, Z_Construct_UClass_UConversationSideEffectNode_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_UConversationSideEffectNode.OuterSingleton;
+	}
+	template<> COMMONCONVERSATIONRUNTIME_API UClass* StaticClass<UConversationSideEffectNode>()
+	{
+		return UConversationSideEffectNode::StaticClass();
+	}
+	UConversationSideEffectNode::UConversationSideEffectNode(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UConversationSideEffectNode);
+	UConversationSideEffectNode::~UConversationSideEffectNode() {}
+	struct Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_CommonConversation_Source_CommonConversationRuntime_Public_ConversationSideEffectNode_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_CommonConversation_Source_CommonConversationRuntime_Public_ConversationSideEffectNode_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UConversationSideEffectNode, UConversationSideEffectNode::StaticClass, TEXT("UConversationSideEffectNode"), &Z_Registration_Info_UClass_UConversationSideEffectNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UConversationSideEffectNode), 383578086U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_CommonConversation_Source_CommonConversationRuntime_Public_ConversationSideEffectNode_h_2845086131(TEXT("/Script/CommonConversationRuntime"),
+		Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_CommonConversation_Source_CommonConversationRuntime_Public_ConversationSideEffectNode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Plugins_Experimental_CommonConversation_Source_CommonConversationRuntime_Public_ConversationSideEffectNode_h_Statics::ClassInfo),
+		nullptr, 0,
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

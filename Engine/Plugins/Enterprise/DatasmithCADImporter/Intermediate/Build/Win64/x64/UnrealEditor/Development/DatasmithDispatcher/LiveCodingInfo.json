@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithDispatcher.cpp.obj": [
+			"DatasmithCommands.cpp.obj",
+			"DatasmithDispatcher.cpp.obj",
+			"DatasmithDispatcherModule.cpp.obj",
+			"DatasmithDispatcherNetworking.cpp.obj",
+			"DatasmithWorkerHandler.cpp.obj"
+		]
+	}
+}

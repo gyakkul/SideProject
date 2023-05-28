@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameMenuBuilder.cpp.obj": [
+			"GameMenuBuilder.init.gen.cpp.obj",
+			"GameMenuWidgetStyle.gen.cpp.obj",
+			"GameMenuBuilderModule.cpp.obj",
+			"GameMenuBuilderStyle.cpp.obj",
+			"GameMenuItem.cpp.obj",
+			"GameMenuPage.cpp.obj",
+			"GameMenuWidgetStyle.cpp.obj",
+			"SGameMenuItemWidget.cpp.obj",
+			"SGameMenuPageWidget.cpp.obj"
+		]
+	}
+}

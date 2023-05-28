@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioExtensions.cpp.obj": [
+			"AudioExtensions.init.gen.cpp.obj",
+			"IAudioExtensionPlugin.gen.cpp.obj",
+			"AudioExtensionsModule.cpp.obj",
+			"AudioParameter.cpp.obj",
+			"AudioParameterControllerInterface.cpp.obj",
+			"IAudioCodec.cpp.obj",
+			"IAudioCodecRegistry.cpp.obj",
+			"IAudioDecoderScheduler.cpp.obj",
+			"IAudioEndpoint.cpp.obj",
+			"IAudioModulation.cpp.obj",
+			"IAudioParameterInterfaceRegistry.cpp.obj",
+			"IAudioParameterTransmitter.cpp.obj",
+			"IAudioProxyInitializer.cpp.obj",
+			"ISoundfieldEndpoint.cpp.obj",
+			"ISoundfieldFormat.cpp.obj",
+			"IWaveformTransformation.cpp.obj",
+			"PcmCodec.cpp.obj"
+		]
+	}
+}

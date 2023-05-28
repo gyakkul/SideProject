@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidMediaFactory.cpp.obj": [
+			"AndroidMediaFactory.init.gen.cpp.obj",
+			"AndroidMediaFactoryModule.cpp.obj",
+			"AndroidMediaSettings.cpp.obj"
+		]
+	}
+}

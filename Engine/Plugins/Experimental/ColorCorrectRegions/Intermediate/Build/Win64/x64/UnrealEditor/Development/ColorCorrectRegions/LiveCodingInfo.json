@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ColorCorrectRegions.cpp.obj": [
+			"ColorCorrectRegion.gen.cpp.obj",
+			"ColorCorrectRegions.init.gen.cpp.obj",
+			"ColorCorrectRegionsSubsystem.gen.cpp.obj",
+			"ColorCorrectWindow.gen.cpp.obj",
+			"ColorCorrectRegion.cpp.obj",
+			"ColorCorrectRegionsModule.cpp.obj",
+			"ColorCorrectRegionsPostProcessMaterial.cpp.obj",
+			"ColorCorrectRegionsSceneViewExtension.cpp.obj",
+			"ColorCorrectRegionsStencilManager.cpp.obj",
+			"ColorCorrectRegionSubsystem.cpp.obj",
+			"ColorCorrectWindow.cpp.obj"
+		]
+	}
+}

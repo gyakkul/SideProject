@@ -1,0 +1,175 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "PoseCorrectivesAnimInstance.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef POSECORRECTIVESEDITOR_PoseCorrectivesAnimInstance_generated_h
+#error "PoseCorrectivesAnimInstance.generated.h already included, missing '#pragma once' in PoseCorrectivesAnimInstance.h"
+#endif
+#define POSECORRECTIVESEDITOR_PoseCorrectivesAnimInstance_generated_h
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPoseCorrectivesAnimInstance(); \
+	friend struct Z_Construct_UClass_UPoseCorrectivesAnimInstance_Statics; \
+public: \
+	DECLARE_CLASS(UPoseCorrectivesAnimInstance, UAnimPreviewInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/PoseCorrectivesEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseCorrectivesAnimInstance)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_INCLASS \
+private: \
+	static void StaticRegisterNativesUPoseCorrectivesAnimInstance(); \
+	friend struct Z_Construct_UClass_UPoseCorrectivesAnimInstance_Statics; \
+public: \
+	DECLARE_CLASS(UPoseCorrectivesAnimInstance, UAnimPreviewInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/PoseCorrectivesEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseCorrectivesAnimInstance)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseCorrectivesAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseCorrectivesAnimInstance) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseCorrectivesAnimInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseCorrectivesAnimInstance); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseCorrectivesAnimInstance(UPoseCorrectivesAnimInstance&&); \
+	NO_API UPoseCorrectivesAnimInstance(const UPoseCorrectivesAnimInstance&); \
+public: \
+	NO_API virtual ~UPoseCorrectivesAnimInstance();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseCorrectivesAnimInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseCorrectivesAnimInstance(UPoseCorrectivesAnimInstance&&); \
+	NO_API UPoseCorrectivesAnimInstance(const UPoseCorrectivesAnimInstance&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseCorrectivesAnimInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseCorrectivesAnimInstance); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseCorrectivesAnimInstance) \
+	NO_API virtual ~UPoseCorrectivesAnimInstance();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_11_PROLOG
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_INCLASS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_14_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PoseCorrectivesAnimInstance."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> POSECORRECTIVESEDITOR_API UClass* StaticClass<class UPoseCorrectivesAnimInstance>();
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPoseCorrectivesAnimSourceInstance(); \
+	friend struct Z_Construct_UClass_UPoseCorrectivesAnimSourceInstance_Statics; \
+public: \
+	DECLARE_CLASS(UPoseCorrectivesAnimSourceInstance, UAnimPreviewInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/PoseCorrectivesEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseCorrectivesAnimSourceInstance)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_INCLASS \
+private: \
+	static void StaticRegisterNativesUPoseCorrectivesAnimSourceInstance(); \
+	friend struct Z_Construct_UClass_UPoseCorrectivesAnimSourceInstance_Statics; \
+public: \
+	DECLARE_CLASS(UPoseCorrectivesAnimSourceInstance, UAnimPreviewInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/PoseCorrectivesEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseCorrectivesAnimSourceInstance)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseCorrectivesAnimSourceInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseCorrectivesAnimSourceInstance) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseCorrectivesAnimSourceInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseCorrectivesAnimSourceInstance); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseCorrectivesAnimSourceInstance(UPoseCorrectivesAnimSourceInstance&&); \
+	NO_API UPoseCorrectivesAnimSourceInstance(const UPoseCorrectivesAnimSourceInstance&); \
+public: \
+	NO_API virtual ~UPoseCorrectivesAnimSourceInstance();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseCorrectivesAnimSourceInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseCorrectivesAnimSourceInstance(UPoseCorrectivesAnimSourceInstance&&); \
+	NO_API UPoseCorrectivesAnimSourceInstance(const UPoseCorrectivesAnimSourceInstance&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseCorrectivesAnimSourceInstance); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseCorrectivesAnimSourceInstance); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseCorrectivesAnimSourceInstance) \
+	NO_API virtual ~UPoseCorrectivesAnimSourceInstance();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_40_PROLOG
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_INCLASS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h_43_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PoseCorrectivesAnimSourceInstance."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> POSECORRECTIVESEDITOR_API UClass* StaticClass<class UPoseCorrectivesAnimSourceInstance>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Animation_PoseCorrectives_Source_PoseCorrectivesEditor_Public_PoseCorrectivesAnimInstance_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

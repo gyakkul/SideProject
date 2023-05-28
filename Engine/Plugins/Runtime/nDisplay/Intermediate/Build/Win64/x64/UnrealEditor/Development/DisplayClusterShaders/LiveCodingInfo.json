@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterShaders.cpp.obj": [
+			"DisplayClusterShaders.init.gen.cpp.obj",
+			"MPCDIGeometryData.gen.cpp.obj",
+			"MPCDIGeometryData.cpp.obj",
+			"DisplayClusterShadersLog.cpp.obj",
+			"DisplayClusterShadersModule.cpp.obj",
+			"DisplayClusterRenderTexture.cpp.obj",
+			"DisplayClusterShadersGenerateMips.cpp.obj",
+			"DisplayClusterShadersPostprocess_Blur.cpp.obj",
+			"DisplayClusterShadersPostprocess_OutputRemap.cpp.obj",
+			"DisplayClusterShadersPreprocess_UVLightCards.cpp.obj",
+			"DisplayClusterShadersWarpblend_ICVFX.cpp.obj",
+			"DisplayClusterShadersWarpblend_MPCDI.cpp.obj",
+			"DisplayClusterWarpBlend.cpp.obj",
+			"DisplayClusterWarpBlendManager.cpp.obj",
+			"DisplayClusterWarpBlend_FrustumCache.cpp.obj",
+			"DisplayClusterWarpBlend_GeometryContext.cpp.obj",
+			"DisplayClusterWarpBlend_GeometryProxy.cpp.obj",
+			"DisplayClusterWarpBlendExporter_WarpMap.cpp.obj",
+			"DisplayClusterWarpBlendLoader_MeshComponent.cpp.obj",
+			"DisplayClusterWarpBlendLoader_MPCDI.cpp.obj",
+			"DisplayClusterWarpBlendLoader_ProceduralMeshComponent.cpp.obj",
+			"DisplayClusterWarpBlendLoader_Texture.cpp.obj",
+			"DisplayClusterWarpBlendLoader_WarpMap.cpp.obj",
+			"DisplayClusterWarpBlendMath_Frustum.cpp.obj"
+		]
+	}
+}

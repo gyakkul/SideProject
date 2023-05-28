@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AutomationDriverTests.cpp.obj": [
+			"AutomationDriver.spec.cpp.obj",
+			"AutomationDriverSpecSuiteViewModel.cpp.obj",
+			"AutomationDriverTests.cpp.obj",
+			"SAutomationDriverSpecSuite.cpp.obj"
+		]
+	}
+}

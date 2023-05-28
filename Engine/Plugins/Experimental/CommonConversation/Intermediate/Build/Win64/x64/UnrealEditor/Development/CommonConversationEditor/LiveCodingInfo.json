@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CommonConversationEditor.cpp.obj": [
+			"AssetTypeActions_ConversationDatabase.cpp.obj",
+			"CommonConversationEditorModule.cpp.obj",
+			"ConversationDebugger.cpp.obj",
+			"ConversationEditor.cpp.obj",
+			"ConversationEditorCommands.cpp.obj",
+			"ConversationEditorModes.cpp.obj",
+			"ConversationEditorTabFactories.cpp.obj",
+			"ConversationEditorTabs.cpp.obj",
+			"ConversationEditorToolbar.cpp.obj",
+			"ConversationEditorUtils.cpp.obj",
+			"FindInConversationGraph.cpp.obj",
+			"SConversationDiff.cpp.obj",
+			"SConversationTreeEditor.cpp.obj"
+		]
+	}
+}

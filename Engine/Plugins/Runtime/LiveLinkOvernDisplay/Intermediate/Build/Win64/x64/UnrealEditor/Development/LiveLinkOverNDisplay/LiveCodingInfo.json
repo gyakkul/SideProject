@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkOverNDisplay.cpp.obj": [
+			"LiveLinkOverNDisplay.init.gen.cpp.obj",
+			"LiveLinkOverNDisplaySettings.gen.cpp.obj",
+			"NDisplayAgentVirtualSubject.gen.cpp.obj",
+			"LiveLinkOverNDisplayModule.cpp.obj",
+			"LiveLinkOverNDisplaySettings.cpp.obj",
+			"NDisplayAgentVirtualSubject.cpp.obj",
+			"NDisplayLiveLinkSubjectReplicator.cpp.obj"
+		]
+	}
+}

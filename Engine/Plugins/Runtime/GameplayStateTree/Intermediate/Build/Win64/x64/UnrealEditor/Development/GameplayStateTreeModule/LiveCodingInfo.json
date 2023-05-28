@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayStateTreeModule.cpp.obj": [
+			"GameplayStateTreeModule.init.gen.cpp.obj",
+			"StateTreeComponent.gen.cpp.obj",
+			"StateTreeComponentSchema.gen.cpp.obj",
+			"StateTreeComponent.cpp.obj",
+			"StateTreeComponentSchema.cpp.obj",
+			"GameplayStateTreeModule.cpp.obj"
+		]
+	}
+}

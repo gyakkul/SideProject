@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OSC.cpp.obj": [
+			"OSC.init.gen.cpp.obj",
+			"OSCAddress.gen.cpp.obj",
+			"OSCBundle.gen.cpp.obj",
+			"OSCClient.gen.cpp.obj",
+			"OSCManager.gen.cpp.obj",
+			"OSCMessage.gen.cpp.obj",
+			"OSCServer.gen.cpp.obj",
+			"OSCAddress.cpp.obj",
+			"OSCBundle.cpp.obj",
+			"OSCBundlePacket.cpp.obj",
+			"OSCClient.cpp.obj",
+			"OSCClientProxy.cpp.obj",
+			"OSCManager.cpp.obj",
+			"OSCMessage.cpp.obj",
+			"OSCMessagePacket.cpp.obj",
+			"OSCPacket.cpp.obj",
+			"OSCServer.cpp.obj",
+			"OSCServerProxy.cpp.obj",
+			"OSCStream.cpp.obj",
+			"OSCModule.cpp.obj"
+		]
+	}
+}

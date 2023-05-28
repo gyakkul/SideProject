@@ -1,0 +1,41 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dataprepeditorscriptingutilities\\module.dataprepeditorscriptingutilities.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dataprepeditorscriptingutilities\\definitions.dataprepeditorscriptingutilities.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepeditorscriptingutilities\\uht\\dataprepeditorscriptingutilities.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepeditorscriptingutilities\\uht\\editordataprepassetlibrary.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepeditorscriptingutilities\\public\\editordataprepassetlibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepeditorscriptingutilities\\uht\\editordataprepassetlibrary.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepeditorscriptingutilities\\private\\dataprepeditorscriptinglog.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepeditorscriptingutilities\\private\\dataprepeditorscriptinglog.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepeditorscriptingutilities\\private\\dataprepeditorscriptingutilitiesmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepeditorscriptingutilities\\private\\editordataprepassetlibrary.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\dataprepasset.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\dataprepactionasset.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\dataprepparameterizableobject.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepcore\\uht\\dataprepparameterizableobject.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepcore\\uht\\dataprepactionasset.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\dataprepassetinterface.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepcore\\uht\\dataprepassetinterface.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\dataprepassetproducers.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepcore\\uht\\dataprepassetproducers.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepcore\\uht\\dataprepasset.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\dataprepcontentproducer.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\idatapreplogger.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\idataprepprogressreporter.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\intermediate\\build\\win64\\unrealeditor\\inc\\dataprepcore\\uht\\dataprepcontentproducer.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\dataprepeditor\\source\\dataprepcore\\public\\dataprepcoreutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\unrealed\\public\\feedbackcontexteditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\messagedialog.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\hal\\feedbackcontextansi.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\outputdeviceconsole.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\outputdevicehelper.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

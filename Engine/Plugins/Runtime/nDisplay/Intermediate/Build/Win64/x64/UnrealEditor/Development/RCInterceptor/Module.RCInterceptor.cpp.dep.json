@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rcinterceptor\\module.rcinterceptor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rcinterceptor\\definitions.displayclusterremotecontrolinterceptor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclusterremotecontrolinterceptor\\private\\displayclusterremotecontrolinterceptor.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclusterremotecontrolinterceptor\\private\\displayclusterremotecontrolinterceptor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\remotecontrolinterception\\source\\remotecontrolinterception\\public\\iremotecontrolinterceptionfeature.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\remotecontrolinterception\\source\\remotecontrolinterception\\public\\iremotecontrolinterceptioncommands.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displaycluster\\public\\cluster\\idisplayclusterclustermanager.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displaycluster\\public\\displayclusterenums.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displaycluster\\uht\\displayclusterenums.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclusterremotecontrolinterceptor\\private\\displayclusterremotecontrolinterceptorlog.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displaycluster\\public\\idisplaycluster.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displaycluster\\public\\cluster\\displayclusterclusterevent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\intermediate\\build\\win64\\unrealeditor\\inc\\displaycluster\\uht\\displayclusterclusterevent.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclusterremotecontrolinterceptor\\private\\displayclusterremotecontrolinterceptorlog.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclusterremotecontrolinterceptor\\private\\displayclusterremotecontrolinterceptormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\ndisplay\\source\\displayclusterremotecontrolinterceptor\\private\\displayclusterremotecontrolinterceptormodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

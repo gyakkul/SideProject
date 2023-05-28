@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebMMoviePlayer.cpp.obj": [
+			"WebMMoviePlayer.cpp.obj",
+			"WebMMovieStreamer.cpp.obj"
+		]
+	}
+}

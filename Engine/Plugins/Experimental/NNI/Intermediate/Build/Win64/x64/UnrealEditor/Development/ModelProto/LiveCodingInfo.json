@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelProto.cpp.obj": [
+			"ModelProto.init.gen.cpp.obj",
+			"ModelProto.cpp.obj",
+			"ModelProtoStringParser.cpp.obj",
+			"Module.cpp.obj"
+		]
+	}
+}

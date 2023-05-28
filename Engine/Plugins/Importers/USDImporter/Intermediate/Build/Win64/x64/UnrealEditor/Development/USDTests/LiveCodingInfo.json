@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDTests.cpp.obj": [
+			"USDTests.init.gen.cpp.obj",
+			"USDTestsBlueprintLibrary.gen.cpp.obj",
+			"USDTestsBlueprintLibrary.cpp.obj",
+			"USDTestsModule.cpp.obj"
+		]
+	}
+}

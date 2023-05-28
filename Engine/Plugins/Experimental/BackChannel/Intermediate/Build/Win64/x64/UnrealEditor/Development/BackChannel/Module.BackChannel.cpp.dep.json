@@ -1,0 +1,42 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\backchannel\\module.backchannel.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\backchannel\\definitions.backchannel.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\protocol\\backchanneloscbundle.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\protocol\\osc\\backchanneloscbundle.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\protocol\\osc\\backchanneloscpacket.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\backchannelcommon.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\protocol\\backchanneloscconnection.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\protocol\\osc\\backchanneloscconnection.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\ibackchannelconnection.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\types.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\utils\\dispatchmap.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\protocol\\osc\\backchanneloscmessage.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\ibackchannelpacket.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\transport\\ibackchannelsocketconnection.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\sockets.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\protocol\\backchanneloscmessage.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\protocol\\backchanneloscpacket.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\protocol\\testbackchannelosc.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\transport\\backchannelconnection.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\transport\\backchannelconnection.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4endpoint.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4address.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4subnetmask.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\socketsubsystem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sockets\\public\\addressinfotypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\transport\\backchanneltransport.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\transport\\ibackchanneltransport.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\transport\\testbackchanneltransport.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\utils\\backchannelthreadedconnection.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\public\\backchannel\\utils\\backchannelthreadedconnection.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\backchannel\\source\\backchannel\\private\\utils\\dispatchmap.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TextureUtilitiesCommon.cpp.obj": [
+			"TextureUtilitiesCommon.init.gen.cpp.obj",
+			"NormalMapIdentification.cpp.obj",
+			"TextureImportSettings.cpp.obj",
+			"TextureImportUtils.cpp.obj",
+			"TextureUtilitiesCommonModule.cpp.obj",
+			"UDIMUtilities.cpp.obj"
+		]
+	}
+}

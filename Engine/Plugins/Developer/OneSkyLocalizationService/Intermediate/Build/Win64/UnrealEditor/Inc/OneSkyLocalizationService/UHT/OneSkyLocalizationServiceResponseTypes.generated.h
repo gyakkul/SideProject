@@ -1,0 +1,357 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "OneSkyLocalizationServiceResponseTypes.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef ONESKYLOCALIZATIONSERVICE_OneSkyLocalizationServiceResponseTypes_generated_h
+#error "OneSkyLocalizationServiceResponseTypes.generated.h already included, missing '#pragma once' in OneSkyLocalizationServiceResponseTypes.h"
+#endif
+#define ONESKYLOCALIZATIONSERVICE_OneSkyLocalizationServiceResponseTypes_generated_h
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_13_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectGroupsResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectGroupsResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_55_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectGroupsResponseDataItem_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectGroupsResponseDataItem>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_80_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectGroupsResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectGroupsResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_106_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowProjectGroupResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowProjectGroupResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_123_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowProjectGroupResponseData_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowProjectGroupResponseData>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_156_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowProjectGroupResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowProjectGroupResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_182_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectGroupResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectGroupResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_199_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectGroupResponseBaseLanguage_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectGroupResponseBaseLanguage>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_232_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectGroupResponseData_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectGroupResponseData>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_261_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectGroupResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectGroupResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_287_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectGroupLanguagesResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectGroupLanguagesResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_308_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectGroupLanguagesResponseDataItem_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectGroupLanguagesResponseDataItem>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_349_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectGroupLanguagesResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectGroupLanguagesResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_375_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectsInGroupResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectsInGroupResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_396_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectsInGroupResponseDataItem_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectsInGroupResponseDataItem>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_421_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectsInGroupResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectsInGroupResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_447_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowProjectResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowProjectResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_465_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowProjectResponseProjectType_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowProjectResponseProjectType>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_486_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowProjectResponseData_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowProjectResponseData>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_526_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowProjectResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowProjectResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_552_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_570_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectResponseProjectType_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectResponseProjectType>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_591_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectResponseData_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectResponseData>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_623_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyCreateProjectResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyCreateProjectResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_649_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectLanguagesResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectLanguagesResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_670_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectLanguagesResponseDataItem_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectLanguagesResponseDataItem>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_719_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListProjectLanguagesResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListProjectLanguagesResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_745_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyTranslationStatusResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyTranslationStatusResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_763_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyTranslationStatusResponseLocale_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyTranslationStatusResponseLocale>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_796_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyTranslationStatusResponseData_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyTranslationStatusResponseData>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_833_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyTranslationStatusResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyTranslationStatusResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_859_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListUploadedFilesResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListUploadedFilesResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_900_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListUploadedFilesResponseLastImport_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListUploadedFilesResponseLastImport>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_922_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListUploadedFilesResponseDataItem_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListUploadedFilesResponseDataItem>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_959_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListUploadedFilesResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListUploadedFilesResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_984_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyUploadFileResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyUploadFileResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1002_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyUploadFileResponseLanguage_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyUploadFileResponseLanguage>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1035_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyUploadedFileResponseImport_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyUploadedFileResponseImport>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1060_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyUploadFileResponseData_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyUploadFileResponseData>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1093_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyUploadFileResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyUploadFileResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1119_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListPhraseCollectionsResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListPhraseCollectionsResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1160_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListPhraseCollectionsResponseDataItem_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListPhraseCollectionsResponseDataItem>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1189_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyListPhraseCollectionsResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyListPhraseCollectionsResponse>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1215_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowImportTaskResponseMeta_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowImportTaskResponseMeta>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1232_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowImportTaskResponseLocale_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowImportTaskResponseLocale>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1266_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowImportTaskResponseFile_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowImportTaskResponseFile>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1291_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowImportTaskResponseData_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowImportTaskResponseData>();
+
+#define FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h_1336_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FOneSkyShowImportTaskResponse_Statics; \
+	ONESKYLOCALIZATIONSERVICE_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONESKYLOCALIZATIONSERVICE_API UScriptStruct* StaticStruct<struct FOneSkyShowImportTaskResponse>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Developer_OneSkyLocalizationService_Source_OneSkyLocalizationService_Private_OneSkyLocalizationServiceResponseTypes_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisasterRecoveryClient.cpp.obj": [
+			"DisasterRecoveryClient.init.gen.cpp.obj",
+			"DisasterRecoverySessionInfo.gen.cpp.obj",
+			"DisasterRecoverySettings.gen.cpp.obj",
+			"DisasterRecoveryClientModule.cpp.obj",
+			"DisasterRecoverySessionManager.cpp.obj",
+			"DisasterRecoverySettings.cpp.obj",
+			"DisasterRecoveryTasks.cpp.obj",
+			"SDisasterRecoveryHub.cpp.obj"
+		]
+	}
+}

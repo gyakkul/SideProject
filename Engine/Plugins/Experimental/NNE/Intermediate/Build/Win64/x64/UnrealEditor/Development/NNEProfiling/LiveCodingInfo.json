@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNEProfiling.cpp.obj": [
+			"NNEProfilingModule.cpp.obj",
+			"NNEProfilingStatistics.cpp.obj",
+			"NNEProfilingTimer.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Qos.cpp.obj": [
+			"Qos.init.gen.cpp.obj",
+			"QosBeaconClient.cpp.obj",
+			"QosBeaconHost.cpp.obj",
+			"QosEvaluator.cpp.obj",
+			"QosInterface.cpp.obj",
+			"QosModule.cpp.obj",
+			"QosRegionManager.cpp.obj",
+			"QosStats.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SQLiteSupport.cpp.obj": [
+			"SQLiteDatabaseConnection.cpp.obj",
+			"SQLiteResultSet.cpp.obj",
+			"SQLiteSupport.cpp.obj"
+		]
+	}
+}

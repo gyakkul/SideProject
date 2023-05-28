@@ -1,0 +1,36 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebBrowser.cpp.obj": [
+			"WebBrowser.init.gen.cpp.obj",
+			"CEFBrowserApp.cpp.obj",
+			"CEFBrowserByteResource.cpp.obj",
+			"CEFBrowserHandler.cpp.obj",
+			"CEFBrowserPopupFeatures.cpp.obj",
+			"CEFCookieManager.cpp.obj",
+			"CEFImeHandler.cpp.obj",
+			"CEFJSScripting.cpp.obj",
+			"CEFJSStructDeserializerBackend.cpp.obj",
+			"CEFJSStructSerializerBackend.cpp.obj",
+			"CEFResourceContextHandler.cpp.obj",
+			"CEFSchemeHandler.cpp.obj",
+			"CEFTextInputMethodContext.cpp.obj",
+			"CEFWebBrowserWindow.cpp.obj",
+			"CEFWebBrowserWindowRHIHelper.cpp.obj",
+			"MobileJSScripting.cpp.obj",
+			"MobileJSStructDeserializerBackend.cpp.obj",
+			"MobileJSStructSerializerBackend.cpp.obj",
+			"NativeJSScripting.cpp.obj",
+			"NativeJSStructDeserializerBackend.cpp.obj",
+			"NativeJSStructSerializerBackend.cpp.obj",
+			"NativeWebBrowserProxy.cpp.obj",
+			"SWebBrowser.cpp.obj",
+			"SWebBrowserView.cpp.obj",
+			"WebBrowserAdapter.cpp.obj",
+			"WebBrowserModule.cpp.obj",
+			"WebBrowserSingleton.cpp.obj",
+			"WebBrowserViewport.cpp.obj",
+			"WebJSFunction.cpp.obj"
+		]
+	}
+}

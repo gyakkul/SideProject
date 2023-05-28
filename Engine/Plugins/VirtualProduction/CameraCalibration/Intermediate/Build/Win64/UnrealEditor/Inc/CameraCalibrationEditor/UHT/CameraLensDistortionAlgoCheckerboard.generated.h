@@ -1,0 +1,112 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Calibrators/CameraLensDistortionAlgoCheckerboard.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef CAMERACALIBRATIONEDITOR_CameraLensDistortionAlgoCheckerboard_generated_h
+#error "CameraLensDistortionAlgoCheckerboard.generated.h already included, missing '#pragma once' in CameraLensDistortionAlgoCheckerboard.h"
+#endif
+#define CAMERACALIBRATIONEDITOR_CameraLensDistortionAlgoCheckerboard_generated_h
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_52_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLensDistortionCheckerboardCameraData_Statics; \
+	CAMERACALIBRATIONEDITOR_API static class UScriptStruct* StaticStruct();
+
+
+template<> CAMERACALIBRATIONEDITOR_API UScriptStruct* StaticStruct<struct FLensDistortionCheckerboardCameraData>();
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_71_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FLensDistortionCheckerboardRowData_Statics; \
+	CAMERACALIBRATIONEDITOR_API static class UScriptStruct* StaticStruct();
+
+
+template<> CAMERACALIBRATIONEDITOR_API UScriptStruct* StaticStruct<struct FLensDistortionCheckerboardRowData>();
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUCameraLensDistortionAlgoCheckerboard(); \
+	friend struct Z_Construct_UClass_UCameraLensDistortionAlgoCheckerboard_Statics; \
+public: \
+	DECLARE_CLASS(UCameraLensDistortionAlgoCheckerboard, UCameraLensDistortionAlgo, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CameraCalibrationEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCameraLensDistortionAlgoCheckerboard)
+
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_INCLASS \
+private: \
+	static void StaticRegisterNativesUCameraLensDistortionAlgoCheckerboard(); \
+	friend struct Z_Construct_UClass_UCameraLensDistortionAlgoCheckerboard_Statics; \
+public: \
+	DECLARE_CLASS(UCameraLensDistortionAlgoCheckerboard, UCameraLensDistortionAlgo, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/CameraCalibrationEditor"), NO_API) \
+	DECLARE_SERIALIZER(UCameraLensDistortionAlgoCheckerboard)
+
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCameraLensDistortionAlgoCheckerboard(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCameraLensDistortionAlgoCheckerboard) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCameraLensDistortionAlgoCheckerboard); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCameraLensDistortionAlgoCheckerboard); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCameraLensDistortionAlgoCheckerboard(UCameraLensDistortionAlgoCheckerboard&&); \
+	NO_API UCameraLensDistortionAlgoCheckerboard(const UCameraLensDistortionAlgoCheckerboard&); \
+public: \
+	NO_API virtual ~UCameraLensDistortionAlgoCheckerboard();
+
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UCameraLensDistortionAlgoCheckerboard(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UCameraLensDistortionAlgoCheckerboard(UCameraLensDistortionAlgoCheckerboard&&); \
+	NO_API UCameraLensDistortionAlgoCheckerboard(const UCameraLensDistortionAlgoCheckerboard&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCameraLensDistortionAlgoCheckerboard); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCameraLensDistortionAlgoCheckerboard); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCameraLensDistortionAlgoCheckerboard) \
+	NO_API virtual ~UCameraLensDistortionAlgoCheckerboard();
+
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_123_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h_126_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> CAMERACALIBRATIONEDITOR_API UClass* StaticClass<class UCameraLensDistortionAlgoCheckerboard>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_VirtualProduction_CameraCalibration_Source_CameraCalibrationEditor_Private_Calibrators_CameraLensDistortionAlgoCheckerboard_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

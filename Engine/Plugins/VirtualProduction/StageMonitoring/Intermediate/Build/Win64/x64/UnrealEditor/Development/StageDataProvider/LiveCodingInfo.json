@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StageDataProvider.cpp.obj": [
+			"FramePerformanceProvider.gen.cpp.obj",
+			"GenlockWatchdog.gen.cpp.obj",
+			"StageDataProvider.init.gen.cpp.obj",
+			"TimecodeProviderWatchdog.gen.cpp.obj",
+			"FramePerformanceProvider.cpp.obj",
+			"GenlockWatchdog.cpp.obj",
+			"StageDataProvider.cpp.obj",
+			"StageDataProviderModule.cpp.obj",
+			"TakeRecorderStateProvider.cpp.obj",
+			"TimecodeProviderWatchdog.cpp.obj"
+		]
+	}
+}

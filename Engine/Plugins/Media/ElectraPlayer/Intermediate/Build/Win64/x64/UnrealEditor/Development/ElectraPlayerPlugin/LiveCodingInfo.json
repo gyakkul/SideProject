@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElectraPlayerPlugin.cpp.obj": [
+			"ElectraPlayerAudioSample.cpp.obj",
+			"ElectraPlayerPlugin.cpp.obj",
+			"ElectraPlayerPluginModule.cpp.obj",
+			"ElectraPlayerPlugin_Android.cpp.obj",
+			"ElectraPlayerPlugin_Apple.cpp.obj",
+			"ElectraPlayerPlugin_Windows.cpp.obj"
+		]
+	}
+}

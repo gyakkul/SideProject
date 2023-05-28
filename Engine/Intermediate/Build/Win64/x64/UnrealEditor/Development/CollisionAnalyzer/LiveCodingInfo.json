@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CollisionAnalyzer.cpp.obj": [
+			"CollisionAnalyzer.cpp.obj",
+			"CollisionAnalyzerModule.cpp.obj",
+			"CollisionAnalyzerStyle.cpp.obj",
+			"SCAQueryDetails.cpp.obj",
+			"SCAQueryTableRow.cpp.obj",
+			"SCollisionAnalyzer.cpp.obj"
+		]
+	}
+}

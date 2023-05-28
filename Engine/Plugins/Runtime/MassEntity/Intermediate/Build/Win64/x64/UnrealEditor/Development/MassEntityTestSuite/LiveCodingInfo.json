@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassEntityTestSuite.cpp.obj": [
+			"MassEntityTestSuite.init.gen.cpp.obj",
+			"MassEntityTestTypes.gen.cpp.obj",
+			"MassChunkCollectionTest.cpp.obj",
+			"MassCommandsTest.cpp.obj",
+			"MassComplexTest.cpp.obj",
+			"MassCompositeProcessorTest.cpp.obj",
+			"MassDependencyTest.cpp.obj",
+			"MassDynamicProcessorsTest.cpp.obj",
+			"MassEntityTest.cpp.obj",
+			"MassEntityTestFarmPlot.cpp.obj",
+			"MassEntityTestSuiteModule.cpp.obj",
+			"MassExecutionTest.cpp.obj",
+			"MassMultiThreadTest.cpp.obj",
+			"MassObserverTest.cpp.obj",
+			"MassProcessingPhasesTest.cpp.obj",
+			"MassProcessorTest.cpp.obj",
+			"MassQueryTest.cpp.obj",
+			"MassSystemRequirementTest.cpp.obj",
+			"MassTestTypes.cpp.obj",
+			"MassUtilsTest.cpp.obj"
+		]
+	}
+}

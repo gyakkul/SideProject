@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetPlacementEdMode.cpp.obj": [
+			"AssetPlacementEdMode.init.gen.cpp.obj",
+			"AssetPlacementEdMode.cpp.obj",
+			"AssetPlacementEdModeCommands.cpp.obj",
+			"AssetPlacementEdModeModule.cpp.obj",
+			"AssetPlacementEdModeStyle.cpp.obj",
+			"AssetPlacementEdModeToolkit.cpp.obj",
+			"AssetPlacementPaletteItem.cpp.obj",
+			"AssetPlacementSettings.cpp.obj",
+			"AssetTypeActions_PlacementPalette.cpp.obj",
+			"PlacementModeSubsystem.cpp.obj",
+			"PlacementPaletteAsset.cpp.obj",
+			"PlacementPaletteItem.cpp.obj",
+			"SAssetPlacementPalette.cpp.obj",
+			"PlacementBrushToolBase.cpp.obj",
+			"PlacementClickDragToolBase.cpp.obj",
+			"PlacementEraseTool.cpp.obj",
+			"PlacementFillTool.cpp.obj",
+			"PlacementLassoSelectTool.cpp.obj",
+			"PlacementPlaceSingleTool.cpp.obj",
+			"PlacementPlaceTool.cpp.obj",
+			"PlacementSelectTool.cpp.obj"
+		]
+	}
+}

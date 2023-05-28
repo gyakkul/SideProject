@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelViewViewModelBlueprint.cpp.obj": [
+			"ModelViewViewModelBlueprint.init.gen.cpp.obj",
+			"MVVMDeveloperProjectSettings.gen.cpp.obj",
+			"MVVMCompiledBindingLibraryCompiler.cpp.obj",
+			"MVVMConversionFunctionHelper.cpp.obj",
+			"ModelViewViewModelBlueprintModule.cpp.obj",
+			"MVVMBlueprintView.cpp.obj",
+			"MVVMBlueprintViewBinding.cpp.obj",
+			"MVVMBlueprintViewModel.cpp.obj",
+			"MVVMBlueprintViewModelContext.cpp.obj",
+			"MVVMDeveloperProjectSettings.cpp.obj",
+			"MVVMFunctionGraphHelper.cpp.obj",
+			"MVVMPropertyPath.cpp.obj",
+			"MVVMViewBlueprintCompiler.cpp.obj",
+			"MVVMWidgetBlueprintExtension_View.cpp.obj",
+			"MVVMViewModelBlueprint.cpp.obj",
+			"MVVMViewModelBlueprintCompiler.cpp.obj"
+		]
+	}
+}

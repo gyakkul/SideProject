@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DirectLinkExtension.cpp.obj": [
+			"DirectLinkExtension.init.gen.cpp.obj",
+			"DirectLinkExtensionBlueprintLibrary.gen.cpp.obj",
+			"DirectLinkExtensionSettings.gen.cpp.obj",
+			"AutoReimportManager.cpp.obj",
+			"DirectLinkAssetObserver.cpp.obj",
+			"DirectLinkExtensionBlueprintLibrary.cpp.obj",
+			"DirectLinkExtensionModule.cpp.obj",
+			"DirectLinkExternalSource.cpp.obj",
+			"DirectLinkManager.cpp.obj",
+			"DirectLinkUriResolver.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TraceUtilities.cpp.obj": [
+			"TraceUtilities.init.gen.cpp.obj",
+			"TraceUtilLibrary.cpp.obj"
+		]
+	}
+}

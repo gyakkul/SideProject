@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioLinkCore.cpp.obj": [
+			"AudioLinkCore.init.gen.cpp.obj",
+			"AudioLinkSettingsAbstract.gen.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLink.cpp.obj": [
+			"LiveLink.init.gen.cpp.obj",
+			"LiveLinkRetargetAssetReference.gen.cpp.obj",
+			"ClockOffsetEstimatorRamp.cpp.obj",
+			"LiveLinkAnimationFrameInterpolateProcessor.cpp.obj",
+			"LiveLinkBasicFrameInterpolateProcessor.cpp.obj",
+			"LiveLinkAnimationVirtualSubject.cpp.obj",
+			"LiveLinkBlueprintLibrary.cpp.obj",
+			"LiveLinkClient.cpp.obj",
+			"LiveLinkClientReference.cpp.obj",
+			"LiveLinkComponent.cpp.obj",
+			"LiveLinkDebugCommand.cpp.obj",
+			"LiveLinkDebugView.cpp.obj",
+			"LiveLinkDrivenComponent.cpp.obj",
+			"LiveLinkHeartbeatEmitter.cpp.obj",
+			"LiveLinkLogInstance.cpp.obj",
+			"LiveLinkMessageBusDiscoveryManager.cpp.obj",
+			"LiveLinkMessageBusFinder.cpp.obj",
+			"LiveLinkMessageBusSource.cpp.obj",
+			"LiveLinkMessageBusSourceFactory.cpp.obj",
+			"LiveLinkMessageBusSourceSettings.cpp.obj",
+			"LiveLinkModule.cpp.obj",
+			"LiveLinkPreset.cpp.obj",
+			"LiveLinkSettings.cpp.obj",
+			"LiveLinkSourceCollection.cpp.obj",
+			"LiveLinkSubject.cpp.obj",
+			"LiveLinkTimecodeProvider.cpp.obj",
+			"LiveLinkTimedDataInput.cpp.obj",
+			"LiveLinkTimeSynchronizationSource.cpp.obj",
+			"LiveLinkVirtualSource.cpp.obj",
+			"LiveLinkAxisSwitchPreProcessor.cpp.obj",
+			"SLiveLinkMessageBusSourceFactory.cpp.obj",
+			"LiveLinkAnimationRoleToTransform.cpp.obj",
+			"LiveLinkBlueprintVirtualSubject.cpp.obj"
+		]
+	}
+}

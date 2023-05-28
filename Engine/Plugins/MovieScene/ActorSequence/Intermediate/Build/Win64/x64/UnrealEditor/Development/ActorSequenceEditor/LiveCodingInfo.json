@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorSequenceEditor.cpp.obj": [
+			"ActorSequenceComponentCustomization.cpp.obj",
+			"ActorSequenceEditor.cpp.obj",
+			"ActorSequenceEditorTabSummoner.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MediaCompositingEditor.cpp.obj": [
+			"MediaCompositingEditor.init.gen.cpp.obj",
+			"MediaCompositingEditor.cpp.obj",
+			"MediaPlayerPropertyTrackEditor.cpp.obj",
+			"MediaPlayerRecording.cpp.obj",
+			"MediaSequenceRecorderExtender.cpp.obj",
+			"MediaThumbnailSection.cpp.obj",
+			"MediaTrackEditor.cpp.obj",
+			"MovieSceneMediaPlayerSectionRecorder.cpp.obj",
+			"MediaCompositingEditorStyle.cpp.obj"
+		]
+	}
+}

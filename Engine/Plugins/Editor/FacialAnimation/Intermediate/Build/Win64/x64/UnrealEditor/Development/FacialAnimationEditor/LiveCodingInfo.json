@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FacialAnimationEditor.cpp.obj": [
+			"FacialAnimationBulkImporterSettings.gen.cpp.obj",
+			"FacialAnimationEditor.init.gen.cpp.obj",
+			"FacialAnimationBulkImporterSettings.cpp.obj",
+			"FacialAnimationEditorModule.cpp.obj",
+			"FacialAnimationImportItem.cpp.obj",
+			"SFacialAnimationBulkImporter.cpp.obj"
+		]
+	}
+}

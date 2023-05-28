@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetTagsEditor.cpp.obj": [
+			"AssetTagsEditorModule.cpp.obj",
+			"SAssetTagItem.cpp.obj"
+		]
+	}
+}

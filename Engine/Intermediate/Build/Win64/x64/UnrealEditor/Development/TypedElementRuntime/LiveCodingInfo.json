@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TypedElementRuntime.cpp.obj": [
+			"TypedElementRuntime.init.gen.cpp.obj",
+			"TypedElementSelectionSetLibrary.gen.cpp.obj",
+			"TypedElementInterfaceCustomization.cpp.obj",
+			"TypedElementListObjectUtil.cpp.obj",
+			"TypedElementSelectionSet.cpp.obj",
+			"TypedElementAssetDataInterface.cpp.obj",
+			"TypedElementHierarchyInterface.cpp.obj",
+			"TypedElementObjectInterface.cpp.obj",
+			"TypedElementSelectionInterface.cpp.obj",
+			"TypedElementRuntimeModule.cpp.obj"
+		]
+	}
+}

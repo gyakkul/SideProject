@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AVCodecsCoreRHI.cpp.obj": [
+			"AVCodecsCoreRHI.init.gen.cpp.obj",
+			"SimpleAudio.gen.cpp.obj",
+			"SimpleAudioEncoder.gen.cpp.obj",
+			"SimpleAV.gen.cpp.obj",
+			"SimpleVideo.gen.cpp.obj",
+			"SimpleVideoDecoder.gen.cpp.obj",
+			"SimpleVideoEncoder.gen.cpp.obj",
+			"SimpleAudioEncoder.cpp.obj",
+			"SimpleAudio.cpp.obj",
+			"AVCodecsCoreRHIModule.cpp.obj",
+			"SimpleAV.cpp.obj",
+			"SimpleVideoDecoder.cpp.obj",
+			"SimpleVideoEncoder.cpp.obj",
+			"VideoResourceRHI.cpp.obj",
+			"SimpleVideo.cpp.obj"
+		]
+	}
+}

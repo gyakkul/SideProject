@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SunPosition.cpp.obj": [
+			"SunPosition.gen.cpp.obj",
+			"SunPosition.init.gen.cpp.obj",
+			"SunPosition.cpp.obj",
+			"SunPositionModule.cpp.obj",
+			"SunPositionPlacement.cpp.obj",
+			"SunPositionStyle.cpp.obj"
+		]
+	}
+}

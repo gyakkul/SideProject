@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXBlueprintGraph.cpp.obj": [
+			"DMXBlueprintGraph.init.gen.cpp.obj",
+			"K2Node_CastPatchToType.gen.cpp.obj",
+			"K2Node_GetDMXAttributeValues.gen.cpp.obj",
+			"K2Node_GetDMXFixturePatch.gen.cpp.obj",
+			"K2Node_GetDMXFixtureType.gen.cpp.obj",
+			"K2Node_CastPatchToTypeCustomization.cpp.obj",
+			"K2Node_GetDMXAttributeValuesCustomization.cpp.obj",
+			"DMXBlueprintGraphModule.cpp.obj",
+			"DMXGraphPanelPinFactory.cpp.obj",
+			"K2Node_CastPatchToType.cpp.obj",
+			"K2Node_GetDMXAttributeValues.cpp.obj",
+			"K2Node_GetDMXFixturePatch.cpp.obj",
+			"K2Node_GetDMXFixtureType.cpp.obj",
+			"SDMXAttributeNameGraphPin.cpp.obj",
+			"SDMXEntityReferenceGraphPin.cpp.obj",
+			"SDMXFixtureCategoryGraphPin.cpp.obj",
+			"SNullGraphPin.cpp.obj"
+		]
+	}
+}

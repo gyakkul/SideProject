@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ScriptPlugin.cpp.obj": [
+			"ScriptBlueprint.gen.cpp.obj",
+			"ScriptContext.gen.cpp.obj",
+			"ScriptContextComponent.gen.cpp.obj",
+			"ScriptPlugin.init.gen.cpp.obj",
+			"ScriptPluginComponent.gen.cpp.obj",
+			"ScriptTestActor.gen.cpp.obj",
+			"LuaIntegration.cpp.obj",
+			"ScriptBlueprint.cpp.obj",
+			"ScriptBlueprintGeneratedClass.cpp.obj",
+			"ScriptContext.cpp.obj",
+			"ScriptContextComponent.cpp.obj",
+			"ScriptObjectReferencer.cpp.obj",
+			"ScriptPlugin.cpp.obj",
+			"ScriptPluginComponent.cpp.obj",
+			"ScriptTestActor.cpp.obj"
+		]
+	}
+}

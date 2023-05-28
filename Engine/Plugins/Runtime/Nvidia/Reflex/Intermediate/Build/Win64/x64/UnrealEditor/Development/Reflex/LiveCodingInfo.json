@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Reflex.cpp.obj": [
+			"Reflex.init.gen.cpp.obj",
+			"ReflexBlueprint.cpp.obj",
+			"ReflexLatencyMarkers.cpp.obj",
+			"ReflexMaxTickRateHandler.cpp.obj",
+			"ReflexModule.cpp.obj",
+			"ReflexStatsLatencyMarkers.cpp.obj"
+		]
+	}
+}

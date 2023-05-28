@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RCInterceptor.cpp.obj": [
+			"DisplayClusterRemoteControlInterceptor.cpp.obj",
+			"DisplayClusterRemoteControlInterceptorLog.cpp.obj",
+			"DisplayClusterRemoteControlInterceptorModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimToTexture.cpp.obj": [
+			"AnimToTexture.init.gen.cpp.obj",
+			"AnimToTextureDataAsset.gen.cpp.obj",
+			"AnimToTextureInstancePlaybackHelpers.gen.cpp.obj",
+			"EvaluateSequenceAnimInstance.gen.cpp.obj",
+			"AnimToTexture.cpp.obj",
+			"AnimToTextureDataAsset.cpp.obj",
+			"AnimToTextureInstancePlaybackHelpers.cpp.obj",
+			"EvaluateSequenceAnimInstance.cpp.obj",
+			"LightweightMontageInstance.cpp.obj"
+		]
+	}
+}

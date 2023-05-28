@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TimecodeSynchronizerEditor.cpp.obj": [
+			"TimecodeSynchronizerEditor.init.gen.cpp.obj",
+			"TimecodeSynchronizerFactory.gen.cpp.obj",
+			"TimecodeSynchronizerEditorToolkit.cpp.obj",
+			"AssetTypeActions_TimecodeSynchronizer.cpp.obj",
+			"TimecodeSynchronizerFactory.cpp.obj",
+			"TimecodeSynchronizerEditorModule.cpp.obj",
+			"TimecodeSynchronizerEditorCommand.cpp.obj",
+			"TimecodeSynchronizerEditorLevelToolbar.cpp.obj",
+			"TimecodeSynchronizerEditorStyle.cpp.obj",
+			"STimecodeSynchronizerSourceViewer.cpp.obj",
+			"STimecodeSynchronizerSourceViewport.cpp.obj",
+			"STimecodeSynchronizerWidget.cpp.obj"
+		]
+	}
+}

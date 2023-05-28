@@ -1,0 +1,191 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "../Private/ExternalTextureMaterialExpression.h"
+#include "../../Source/Runtime/Engine/Classes/Materials/MaterialExpression.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeExternalTextureMaterialExpression() {}
+// Cross Module References
+	APPLEARKIT_API UClass* Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera();
+	APPLEARKIT_API UClass* Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_NoRegister();
+	APPLEARKIT_API UEnum* Z_Construct_UEnum_AppleARKit_EARKitTextureType();
+	ENGINE_API UClass* Z_Construct_UClass_UMaterialExpression();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FExpressionInput();
+	UPackage* Z_Construct_UPackage__Script_AppleARKit();
+// End Cross Module References
+	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EARKitTextureType;
+	static UEnum* EARKitTextureType_StaticEnum()
+	{
+		if (!Z_Registration_Info_UEnum_EARKitTextureType.OuterSingleton)
+		{
+			Z_Registration_Info_UEnum_EARKitTextureType.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_AppleARKit_EARKitTextureType, (UObject*)Z_Construct_UPackage__Script_AppleARKit(), TEXT("EARKitTextureType"));
+		}
+		return Z_Registration_Info_UEnum_EARKitTextureType.OuterSingleton;
+	}
+	template<> APPLEARKIT_API UEnum* StaticEnum<EARKitTextureType>()
+	{
+		return EARKitTextureType_StaticEnum();
+	}
+	struct Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics
+	{
+		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FEnumParams EnumParams;
+	};
+	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::Enumerators[] = {
+		{ "TextureY", (int64)TextureY },
+		{ "TextureCbCr", (int64)TextureCbCr },
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::Enum_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Private/ExternalTextureMaterialExpression.h" },
+		{ "TextureCbCr.Name", "TextureCbCr" },
+		{ "TextureY.Name", "TextureY" },
+	};
+#endif
+	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::EnumParams = {
+		(UObject*(*)())Z_Construct_UPackage__Script_AppleARKit,
+		nullptr,
+		"EARKitTextureType",
+		"EARKitTextureType",
+		Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::Enumerators,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::Enumerators),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EEnumFlags::None,
+		(uint8)UEnum::ECppForm::Regular,
+		METADATA_PARAMS(Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::Enum_MetaDataParams))
+	};
+	UEnum* Z_Construct_UEnum_AppleARKit_EARKitTextureType()
+	{
+		if (!Z_Registration_Info_UEnum_EARKitTextureType.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EARKitTextureType.InnerSingleton, Z_Construct_UEnum_AppleARKit_EARKitTextureType_Statics::EnumParams);
+		}
+		return Z_Registration_Info_UEnum_EARKitTextureType.InnerSingleton;
+	}
+	void UDEPRECATED_MaterialExpressionARKitPassthroughCamera::StaticRegisterNativesUDEPRECATED_MaterialExpressionARKitPassthroughCamera()
+	{
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UDEPRECATED_MaterialExpressionARKitPassthroughCamera);
+	UClass* Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_NoRegister()
+	{
+		return UDEPRECATED_MaterialExpressionARKitPassthroughCamera::StaticClass();
+	}
+	struct Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Coordinates_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_Coordinates;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ConstCoordinate_MetaData[];
+#endif
+		static const UECodeGen_Private::FUInt32PropertyParams NewProp_ConstCoordinate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TextureType_MetaData[];
+#endif
+		static const UECodeGen_Private::FBytePropertyParams NewProp_TextureType;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UMaterialExpression,
+		(UObject* (*)())Z_Construct_UPackage__Script_AppleARKit,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/**\n* Implements a node sampling from the ARKit Passthrough external textures.\n*/" },
+		{ "HideCategories", "Object Object" },
+		{ "IncludePath", "ExternalTextureMaterialExpression.h" },
+		{ "ModuleRelativePath", "Private/ExternalTextureMaterialExpression.h" },
+		{ "ToolTip", "Implements a node sampling from the ARKit Passthrough external textures." },
+	};
+#endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_Coordinates_MetaData[] = {
+		{ "ModuleRelativePath", "Private/ExternalTextureMaterialExpression.h" },
+		{ "RequiredInput", "false" },
+		{ "ToolTip", "Defaults to 'ConstCoordinate' if not specified" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_Coordinates = { "Coordinates", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UDEPRECATED_MaterialExpressionARKitPassthroughCamera, Coordinates), Z_Construct_UScriptStruct_FExpressionInput, METADATA_PARAMS(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_Coordinates_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_Coordinates_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_ConstCoordinate_MetaData[] = {
+		{ "Category", "UMaterialExpressionARKitPassthroughCamera" },
+		{ "Comment", "/** Only used if Coordinates is not hooked up */" },
+		{ "ModuleRelativePath", "Private/ExternalTextureMaterialExpression.h" },
+		{ "ToolTip", "Only used if Coordinates is not hooked up" },
+	};
+#endif
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_ConstCoordinate = { "ConstCoordinate", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UDEPRECATED_MaterialExpressionARKitPassthroughCamera, ConstCoordinate), METADATA_PARAMS(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_ConstCoordinate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_ConstCoordinate_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_TextureType_MetaData[] = {
+		{ "Category", "UMaterialExpressionARKitPassthroughCamera" },
+		{ "ModuleRelativePath", "Private/ExternalTextureMaterialExpression.h" },
+	};
+#endif
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_TextureType = { "TextureType", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UDEPRECATED_MaterialExpressionARKitPassthroughCamera, TextureType), Z_Construct_UEnum_AppleARKit_EARKitTextureType, METADATA_PARAMS(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_TextureType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_TextureType_MetaData)) }; // 140152503
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_Coordinates,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_ConstCoordinate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::NewProp_TextureType,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UDEPRECATED_MaterialExpressionARKitPassthroughCamera>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::ClassParams = {
+		&UDEPRECATED_MaterialExpressionARKitPassthroughCamera::StaticClass,
+		nullptr,
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::PropPointers),
+		0,
+		0x020022B0u,
+		METADATA_PARAMS(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera()
+	{
+		if (!Z_Registration_Info_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera.OuterSingleton, Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera.OuterSingleton;
+	}
+	template<> APPLEARKIT_API UClass* StaticClass<UDEPRECATED_MaterialExpressionARKitPassthroughCamera>()
+	{
+		return UDEPRECATED_MaterialExpressionARKitPassthroughCamera::StaticClass();
+	}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UDEPRECATED_MaterialExpressionARKitPassthroughCamera);
+	UDEPRECATED_MaterialExpressionARKitPassthroughCamera::~UDEPRECATED_MaterialExpressionARKitPassthroughCamera() {}
+	struct Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_Statics
+	{
+		static const FEnumRegisterCompiledInInfo EnumInfo[];
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_Statics::EnumInfo[] = {
+		{ EARKitTextureType_StaticEnum, TEXT("EARKitTextureType"), &Z_Registration_Info_UEnum_EARKitTextureType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 140152503U) },
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera, UDEPRECATED_MaterialExpressionARKitPassthroughCamera::StaticClass, TEXT("UDEPRECATED_MaterialExpressionARKitPassthroughCamera"), &Z_Registration_Info_UClass_UDEPRECATED_MaterialExpressionARKitPassthroughCamera, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDEPRECATED_MaterialExpressionARKitPassthroughCamera), 161431057U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_1460167140(TEXT("/Script/AppleARKit"),
+		Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_Statics::ClassInfo),
+		nullptr, 0,
+		Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Plugins_Runtime_AR_AppleAR_AppleARKit_Source_AppleARKit_Private_ExternalTextureMaterialExpression_h_Statics::EnumInfo));
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

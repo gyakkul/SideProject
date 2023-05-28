@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterMultiUser.cpp.obj": [
+			"DisplayClusterMultiUser.init.gen.cpp.obj",
+			"MediaAssetMultiUserManager.gen.cpp.obj",
+			"DisplayClusterMultiUserLog.cpp.obj",
+			"DisplayClusterMultiUserManager.cpp.obj",
+			"DisplayClusterMultiUserModule.cpp.obj",
+			"MediaAssetMultiUserManager.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\remotecontrolinterception\\source\\remotecontrolinterception\\private\\remotecontrolinterceptionmodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\remotecontrolinterception\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\remotecontrolinterception\\definitions.remotecontrolinterception.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\remotecontrolinterception\\source\\remotecontrolinterception\\private\\remotecontrolinterceptionmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

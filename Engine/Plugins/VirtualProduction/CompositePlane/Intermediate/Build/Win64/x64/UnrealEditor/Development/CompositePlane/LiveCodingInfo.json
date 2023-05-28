@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CompositePlane.cpp.obj": [
+			"CompositePlane.cpp.obj",
+			"CompositePlanePlacement.cpp.obj"
+		]
+	}
+}

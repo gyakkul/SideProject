@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConcertServer.cpp.obj": [
+			"ConcertServer.init.gen.cpp.obj",
+			"ConcertServerSessionRepositories.gen.cpp.obj",
+			"ConcertServerSettings.gen.cpp.obj",
+			"ConcertServer.cpp.obj",
+			"ConcertServerModule.cpp.obj",
+			"ConcertServerSession.cpp.obj",
+			"ConcertServerSettings.cpp.obj",
+			"ConcertServerUtil.cpp.obj"
+		]
+	}
+}

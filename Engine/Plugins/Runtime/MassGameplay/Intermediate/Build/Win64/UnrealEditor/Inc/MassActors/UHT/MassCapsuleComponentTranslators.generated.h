@@ -1,0 +1,195 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Translators/MassCapsuleComponentTranslators.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MASSACTORS_MassCapsuleComponentTranslators_generated_h
+#error "MassCapsuleComponentTranslators.generated.h already included, missing '#pragma once' in MassCapsuleComponentTranslators.h"
+#endif
+#define MASSACTORS_MassCapsuleComponentTranslators_generated_h
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_16_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCapsuleComponentWrapperFragment_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FObjectWrapperFragment Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FCapsuleComponentWrapperFragment>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_31_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassCapsuleTransformCopyToMassTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassCapsuleTransformCopyToMassTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassCapsuleTransformToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassCapsuleTransformToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCapsuleTransformToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCapsuleTransformToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassCapsuleTransformToMassTranslator(); \
+	friend struct Z_Construct_UClass_UMassCapsuleTransformToMassTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassCapsuleTransformToMassTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassCapsuleTransformToMassTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassCapsuleTransformToMassTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassCapsuleTransformToMassTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCapsuleTransformToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCapsuleTransformToMassTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCapsuleTransformToMassTranslator(UMassCapsuleTransformToMassTranslator&&); \
+	NO_API UMassCapsuleTransformToMassTranslator(const UMassCapsuleTransformToMassTranslator&); \
+public: \
+	NO_API virtual ~UMassCapsuleTransformToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassCapsuleTransformToMassTranslator(UMassCapsuleTransformToMassTranslator&&); \
+	NO_API UMassCapsuleTransformToMassTranslator(const UMassCapsuleTransformToMassTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassCapsuleTransformToMassTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassCapsuleTransformToMassTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassCapsuleTransformToMassTranslator) \
+	NO_API virtual ~UMassCapsuleTransformToMassTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_34_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_37_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassCapsuleTransformToMassTranslator>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_51_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FMassCapsuleTransformCopyToActorTag_Statics; \
+	MASSACTORS_API static class UScriptStruct* StaticStruct(); \
+	typedef FMassTag Super;
+
+
+template<> MASSACTORS_API UScriptStruct* StaticStruct<struct FMassCapsuleTransformCopyToActorTag>();
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_ACCESSORS
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMassTransformToActorCapsuleTranslator(); \
+	friend struct Z_Construct_UClass_UMassTransformToActorCapsuleTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassTransformToActorCapsuleTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassTransformToActorCapsuleTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_INCLASS \
+private: \
+	static void StaticRegisterNativesUMassTransformToActorCapsuleTranslator(); \
+	friend struct Z_Construct_UClass_UMassTransformToActorCapsuleTranslator_Statics; \
+public: \
+	DECLARE_CLASS(UMassTransformToActorCapsuleTranslator, UMassTranslator, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/MassActors"), NO_API) \
+	DECLARE_SERIALIZER(UMassTransformToActorCapsuleTranslator)
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMassTransformToActorCapsuleTranslator(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMassTransformToActorCapsuleTranslator) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassTransformToActorCapsuleTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassTransformToActorCapsuleTranslator); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassTransformToActorCapsuleTranslator(UMassTransformToActorCapsuleTranslator&&); \
+	NO_API UMassTransformToActorCapsuleTranslator(const UMassTransformToActorCapsuleTranslator&); \
+public: \
+	NO_API virtual ~UMassTransformToActorCapsuleTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMassTransformToActorCapsuleTranslator(UMassTransformToActorCapsuleTranslator&&); \
+	NO_API UMassTransformToActorCapsuleTranslator(const UMassTransformToActorCapsuleTranslator&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMassTransformToActorCapsuleTranslator); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMassTransformToActorCapsuleTranslator); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMassTransformToActorCapsuleTranslator) \
+	NO_API virtual ~UMassTransformToActorCapsuleTranslator();
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_54_PROLOG
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_INCLASS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_ACCESSORS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MASSACTORS_API UClass* StaticClass<class UMassTransformToActorCapsuleTranslator>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_MassGameplay_Source_MassActors_Public_Translators_MassCapsuleComponentTranslators_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

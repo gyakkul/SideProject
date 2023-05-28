@@ -1,0 +1,494 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DataInterfaces/OptimusDataInterfaceRawBuffer.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef OPTIMUSCORE_OptimusDataInterfaceRawBuffer_generated_h
+#error "OptimusDataInterfaceRawBuffer.generated.h already included, missing '#pragma once' in OptimusDataInterfaceRawBuffer.h"
+#endif
+#define OPTIMUSCORE_OptimusDataInterfaceRawBuffer_generated_h
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusRawBufferDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusRawBufferDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusRawBufferDataInterface, UOptimusComputeDataInterface, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusRawBufferDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusRawBufferDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusRawBufferDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusRawBufferDataInterface, UOptimusComputeDataInterface, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusRawBufferDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusRawBufferDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusRawBufferDataInterface) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusRawBufferDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusRawBufferDataInterface); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusRawBufferDataInterface(UOptimusRawBufferDataInterface&&); \
+	NO_API UOptimusRawBufferDataInterface(const UOptimusRawBufferDataInterface&); \
+public: \
+	NO_API virtual ~UOptimusRawBufferDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusRawBufferDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusRawBufferDataInterface(UOptimusRawBufferDataInterface&&); \
+	NO_API UOptimusRawBufferDataInterface(const UOptimusRawBufferDataInterface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusRawBufferDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusRawBufferDataInterface); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusRawBufferDataInterface) \
+	NO_API virtual ~UOptimusRawBufferDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_31_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusRawBufferDataInterface>();
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusTransientBufferDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusTransientBufferDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusTransientBufferDataInterface, UOptimusRawBufferDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusTransientBufferDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusTransientBufferDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusTransientBufferDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusTransientBufferDataInterface, UOptimusRawBufferDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusTransientBufferDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusTransientBufferDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusTransientBufferDataInterface) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusTransientBufferDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusTransientBufferDataInterface); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusTransientBufferDataInterface(UOptimusTransientBufferDataInterface&&); \
+	NO_API UOptimusTransientBufferDataInterface(const UOptimusTransientBufferDataInterface&); \
+public: \
+	NO_API virtual ~UOptimusTransientBufferDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusTransientBufferDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusTransientBufferDataInterface(UOptimusTransientBufferDataInterface&&); \
+	NO_API UOptimusTransientBufferDataInterface(const UOptimusTransientBufferDataInterface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusTransientBufferDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusTransientBufferDataInterface); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusTransientBufferDataInterface) \
+	NO_API virtual ~UOptimusTransientBufferDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_96_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_99_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusTransientBufferDataInterface>();
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusPersistentBufferDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusPersistentBufferDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusPersistentBufferDataInterface, UOptimusRawBufferDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusPersistentBufferDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusPersistentBufferDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusPersistentBufferDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusPersistentBufferDataInterface, UOptimusRawBufferDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusPersistentBufferDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusPersistentBufferDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusPersistentBufferDataInterface) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusPersistentBufferDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusPersistentBufferDataInterface); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusPersistentBufferDataInterface(UOptimusPersistentBufferDataInterface&&); \
+	NO_API UOptimusPersistentBufferDataInterface(const UOptimusPersistentBufferDataInterface&); \
+public: \
+	NO_API virtual ~UOptimusPersistentBufferDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusPersistentBufferDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusPersistentBufferDataInterface(UOptimusPersistentBufferDataInterface&&); \
+	NO_API UOptimusPersistentBufferDataInterface(const UOptimusPersistentBufferDataInterface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusPersistentBufferDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusPersistentBufferDataInterface); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusPersistentBufferDataInterface) \
+	NO_API virtual ~UOptimusPersistentBufferDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_116_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_119_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusPersistentBufferDataInterface>();
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusRawBufferDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusRawBufferDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusRawBufferDataProvider, UComputeDataProvider, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusRawBufferDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusRawBufferDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusRawBufferDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusRawBufferDataProvider, UComputeDataProvider, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusRawBufferDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusRawBufferDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusRawBufferDataProvider) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusRawBufferDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusRawBufferDataProvider); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusRawBufferDataProvider(UOptimusRawBufferDataProvider&&); \
+	NO_API UOptimusRawBufferDataProvider(const UOptimusRawBufferDataProvider&); \
+public: \
+	NO_API virtual ~UOptimusRawBufferDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusRawBufferDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusRawBufferDataProvider(UOptimusRawBufferDataProvider&&); \
+	NO_API UOptimusRawBufferDataProvider(const UOptimusRawBufferDataProvider&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusRawBufferDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusRawBufferDataProvider); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusRawBufferDataProvider) \
+	NO_API virtual ~UOptimusRawBufferDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_144_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_147_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusRawBufferDataProvider>();
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusTransientBufferDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusTransientBufferDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusTransientBufferDataProvider, UOptimusRawBufferDataProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusTransientBufferDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusTransientBufferDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusTransientBufferDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusTransientBufferDataProvider, UOptimusRawBufferDataProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusTransientBufferDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusTransientBufferDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusTransientBufferDataProvider) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusTransientBufferDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusTransientBufferDataProvider); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusTransientBufferDataProvider(UOptimusTransientBufferDataProvider&&); \
+	NO_API UOptimusTransientBufferDataProvider(const UOptimusTransientBufferDataProvider&); \
+public: \
+	NO_API virtual ~UOptimusTransientBufferDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusTransientBufferDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusTransientBufferDataProvider(UOptimusTransientBufferDataProvider&&); \
+	NO_API UOptimusTransientBufferDataProvider(const UOptimusTransientBufferDataProvider&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusTransientBufferDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusTransientBufferDataProvider); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusTransientBufferDataProvider) \
+	NO_API virtual ~UOptimusTransientBufferDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_179_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_182_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusTransientBufferDataProvider>();
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusPersistentBufferDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusPersistentBufferDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusPersistentBufferDataProvider, UOptimusRawBufferDataProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusPersistentBufferDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusPersistentBufferDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusPersistentBufferDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusPersistentBufferDataProvider, UOptimusRawBufferDataProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusPersistentBufferDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusPersistentBufferDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusPersistentBufferDataProvider) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusPersistentBufferDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusPersistentBufferDataProvider); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusPersistentBufferDataProvider(UOptimusPersistentBufferDataProvider&&); \
+	NO_API UOptimusPersistentBufferDataProvider(const UOptimusPersistentBufferDataProvider&); \
+public: \
+	NO_API virtual ~UOptimusPersistentBufferDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusPersistentBufferDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusPersistentBufferDataProvider(UOptimusPersistentBufferDataProvider&&); \
+	NO_API UOptimusPersistentBufferDataProvider(const UOptimusPersistentBufferDataProvider&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusPersistentBufferDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusPersistentBufferDataProvider); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusPersistentBufferDataProvider) \
+	NO_API virtual ~UOptimusPersistentBufferDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_192_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h_195_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusPersistentBufferDataProvider>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceRawBuffer_h
+
+
+#define FOREACH_ENUM_EOPTIMUSBUFFERWRITETYPE(op) \
+	op(EOptimusBufferWriteType::Write) \
+	op(EOptimusBufferWriteType::WriteAtomicAdd) \
+	op(EOptimusBufferWriteType::WriteAtomicMin) \
+	op(EOptimusBufferWriteType::WriteAtomicMax) \
+	op(EOptimusBufferWriteType::Count) 
+
+enum class EOptimusBufferWriteType : uint8;
+template<> struct TIsUEnumClass<EOptimusBufferWriteType> { enum { Value = true }; };
+template<> OPTIMUSCORE_API UEnum* StaticEnum<EOptimusBufferWriteType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

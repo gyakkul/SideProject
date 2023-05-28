@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TurnkeyIO.cpp.obj": [
+			"STurnkeyIOWidgets.cpp.obj",
+			"TurnkeyEditorIOServer.cpp.obj",
+			"TurnkeyIOModule.cpp.obj"
+		]
+	}
+}

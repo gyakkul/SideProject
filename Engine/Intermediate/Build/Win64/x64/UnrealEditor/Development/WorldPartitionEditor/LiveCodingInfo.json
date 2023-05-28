@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WorldPartitionEditor.cpp.obj": [
+			"ContentBundleEditorSubsystem.gen.cpp.obj",
+			"HLODLayerFactory.gen.cpp.obj",
+			"WorldPartitionConvertOptions.gen.cpp.obj",
+			"WorldPartitionEditor.init.gen.cpp.obj",
+			"WorldPartitionEditorSettings.gen.cpp.obj",
+			"WorldPartitionEditorModule.cpp.obj",
+			"ContentBundleEditorSubsystem.cpp.obj",
+			"ContentBundleActorCountColumn.cpp.obj",
+			"ContentBundleClientColumn.cpp.obj",
+			"ContentBundleEditingColumn.cpp.obj",
+			"ContentBundleHierarchy.cpp.obj",
+			"ContentBundleMode.cpp.obj",
+			"ContentBundleStatusColumn.cpp.obj",
+			"ContentBundleTreeItem.cpp.obj",
+			"SContentBundleOutliner.cpp.obj",
+			"SContentBundleBrowser.cpp.obj",
+			"WorldPartitionDetailsCustomization.cpp.obj",
+			"WorldPartitionHLODDetailsCustomization.cpp.obj",
+			"WorldPartitionRuntimeSpatialHashDetailsCustomization.cpp.obj",
+			"HLODLayerAssetTypeActions.cpp.obj",
+			"HLODLayerFactory.cpp.obj",
+			"SWorldPartitionBuildHLODsDialog.cpp.obj",
+			"SWorldPartitionConvertDialog.cpp.obj",
+			"SWorldPartitionEditor.cpp.obj",
+			"SWorldPartitionEditorGrid.cpp.obj",
+			"SWorldPartitionEditorGrid2D.cpp.obj",
+			"SWorldPartitionEditorGridSpatialHash.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,329 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "AppleImageUtilsBlueprintSupport.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef APPLEIMAGEUTILSBLUEPRINTSUPPORT_AppleImageUtilsBlueprintSupport_generated_h
+#error "AppleImageUtilsBlueprintSupport.generated.h already included, missing '#pragma once' in AppleImageUtilsBlueprintSupport.h"
+#endif
+#define APPLEIMAGEUTILSBLUEPRINTSUPPORT_AppleImageUtilsBlueprintSupport_generated_h
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToJPEG(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToJPEG_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToJPEG, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToJPEG)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_INCLASS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToJPEG(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToJPEG_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToJPEG, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToJPEG)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToJPEG(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToJPEG) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToJPEG); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToJPEG); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToJPEG(UK2Node_ConvertToJPEG&&); \
+	NO_API UK2Node_ConvertToJPEG(const UK2Node_ConvertToJPEG&); \
+public: \
+	NO_API virtual ~UK2Node_ConvertToJPEG();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToJPEG(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToJPEG(UK2Node_ConvertToJPEG&&); \
+	NO_API UK2Node_ConvertToJPEG(const UK2Node_ConvertToJPEG&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToJPEG); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToJPEG); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToJPEG) \
+	NO_API virtual ~UK2Node_ConvertToJPEG();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_9_PROLOG
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_INCLASS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_13_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class K2Node_ConvertToJPEG."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> APPLEIMAGEUTILSBLUEPRINTSUPPORT_API UClass* StaticClass<class UK2Node_ConvertToJPEG>();
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToHEIF(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToHEIF_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToHEIF, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToHEIF)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_INCLASS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToHEIF(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToHEIF_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToHEIF, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToHEIF)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToHEIF(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToHEIF) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToHEIF); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToHEIF); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToHEIF(UK2Node_ConvertToHEIF&&); \
+	NO_API UK2Node_ConvertToHEIF(const UK2Node_ConvertToHEIF&); \
+public: \
+	NO_API virtual ~UK2Node_ConvertToHEIF();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToHEIF(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToHEIF(UK2Node_ConvertToHEIF&&); \
+	NO_API UK2Node_ConvertToHEIF(const UK2Node_ConvertToHEIF&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToHEIF); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToHEIF); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToHEIF) \
+	NO_API virtual ~UK2Node_ConvertToHEIF();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_16_PROLOG
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_INCLASS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_20_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class K2Node_ConvertToHEIF."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> APPLEIMAGEUTILSBLUEPRINTSUPPORT_API UClass* StaticClass<class UK2Node_ConvertToHEIF>();
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToTIFF(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToTIFF_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToTIFF, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToTIFF)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_INCLASS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToTIFF(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToTIFF_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToTIFF, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToTIFF)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToTIFF(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToTIFF) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToTIFF); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToTIFF); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToTIFF(UK2Node_ConvertToTIFF&&); \
+	NO_API UK2Node_ConvertToTIFF(const UK2Node_ConvertToTIFF&); \
+public: \
+	NO_API virtual ~UK2Node_ConvertToTIFF();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToTIFF(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToTIFF(UK2Node_ConvertToTIFF&&); \
+	NO_API UK2Node_ConvertToTIFF(const UK2Node_ConvertToTIFF&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToTIFF); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToTIFF); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToTIFF) \
+	NO_API virtual ~UK2Node_ConvertToTIFF();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_23_PROLOG
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_INCLASS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_27_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class K2Node_ConvertToTIFF."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> APPLEIMAGEUTILSBLUEPRINTSUPPORT_API UClass* StaticClass<class UK2Node_ConvertToTIFF>();
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_ACCESSORS
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToPNG(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToPNG_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToPNG, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToPNG)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesUK2Node_ConvertToPNG(); \
+	friend struct Z_Construct_UClass_UK2Node_ConvertToPNG_Statics; \
+public: \
+	DECLARE_CLASS(UK2Node_ConvertToPNG, UK2Node_BaseAsyncTask, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AppleImageUtilsBlueprintSupport"), NO_API) \
+	DECLARE_SERIALIZER(UK2Node_ConvertToPNG)
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToPNG(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToPNG) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToPNG); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToPNG); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToPNG(UK2Node_ConvertToPNG&&); \
+	NO_API UK2Node_ConvertToPNG(const UK2Node_ConvertToPNG&); \
+public: \
+	NO_API virtual ~UK2Node_ConvertToPNG();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UK2Node_ConvertToPNG(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UK2Node_ConvertToPNG(UK2Node_ConvertToPNG&&); \
+	NO_API UK2Node_ConvertToPNG(const UK2Node_ConvertToPNG&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UK2Node_ConvertToPNG); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UK2Node_ConvertToPNG); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UK2Node_ConvertToPNG) \
+	NO_API virtual ~UK2Node_ConvertToPNG();
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_30_PROLOG
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_INCLASS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h_34_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class K2Node_ConvertToPNG."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> APPLEIMAGEUTILSBLUEPRINTSUPPORT_API UClass* StaticClass<class UK2Node_ConvertToPNG>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_AppleImageUtils_Source_AppleImageUtilsBlueprintSupport_Classes_AppleImageUtilsBlueprintSupport_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

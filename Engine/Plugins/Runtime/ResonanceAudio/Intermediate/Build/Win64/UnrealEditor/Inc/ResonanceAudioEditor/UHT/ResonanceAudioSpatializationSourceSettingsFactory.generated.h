@@ -1,0 +1,98 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ResonanceAudioSpatializationSourceSettingsFactory.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef RESONANCEAUDIOEDITOR_ResonanceAudioSpatializationSourceSettingsFactory_generated_h
+#error "ResonanceAudioSpatializationSourceSettingsFactory.generated.h already included, missing '#pragma once' in ResonanceAudioSpatializationSourceSettingsFactory.h"
+#endif
+#define RESONANCEAUDIOEDITOR_ResonanceAudioSpatializationSourceSettingsFactory_generated_h
+
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_ACCESSORS
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUResonanceAudioSpatializationSourceSettingsFactory(); \
+	friend struct Z_Construct_UClass_UResonanceAudioSpatializationSourceSettingsFactory_Statics; \
+public: \
+	DECLARE_CLASS(UResonanceAudioSpatializationSourceSettingsFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ResonanceAudioEditor"), RESONANCEAUDIOEDITOR_API) \
+	DECLARE_SERIALIZER(UResonanceAudioSpatializationSourceSettingsFactory)
+
+
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_INCLASS \
+private: \
+	static void StaticRegisterNativesUResonanceAudioSpatializationSourceSettingsFactory(); \
+	friend struct Z_Construct_UClass_UResonanceAudioSpatializationSourceSettingsFactory_Statics; \
+public: \
+	DECLARE_CLASS(UResonanceAudioSpatializationSourceSettingsFactory, UFactory, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/ResonanceAudioEditor"), RESONANCEAUDIOEDITOR_API) \
+	DECLARE_SERIALIZER(UResonanceAudioSpatializationSourceSettingsFactory)
+
+
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	RESONANCEAUDIOEDITOR_API UResonanceAudioSpatializationSourceSettingsFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UResonanceAudioSpatializationSourceSettingsFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(RESONANCEAUDIOEDITOR_API, UResonanceAudioSpatializationSourceSettingsFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UResonanceAudioSpatializationSourceSettingsFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	RESONANCEAUDIOEDITOR_API UResonanceAudioSpatializationSourceSettingsFactory(UResonanceAudioSpatializationSourceSettingsFactory&&); \
+	RESONANCEAUDIOEDITOR_API UResonanceAudioSpatializationSourceSettingsFactory(const UResonanceAudioSpatializationSourceSettingsFactory&); \
+public: \
+	RESONANCEAUDIOEDITOR_API virtual ~UResonanceAudioSpatializationSourceSettingsFactory();
+
+
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	RESONANCEAUDIOEDITOR_API UResonanceAudioSpatializationSourceSettingsFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	RESONANCEAUDIOEDITOR_API UResonanceAudioSpatializationSourceSettingsFactory(UResonanceAudioSpatializationSourceSettingsFactory&&); \
+	RESONANCEAUDIOEDITOR_API UResonanceAudioSpatializationSourceSettingsFactory(const UResonanceAudioSpatializationSourceSettingsFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(RESONANCEAUDIOEDITOR_API, UResonanceAudioSpatializationSourceSettingsFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UResonanceAudioSpatializationSourceSettingsFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UResonanceAudioSpatializationSourceSettingsFactory) \
+	RESONANCEAUDIOEDITOR_API virtual ~UResonanceAudioSpatializationSourceSettingsFactory();
+
+
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_21_PROLOG
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_INCLASS \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_ACCESSORS \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h_24_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class ResonanceAudioSpatializationSourceSettingsFactory."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> RESONANCEAUDIOEDITOR_API UClass* StaticClass<class UResonanceAudioSpatializationSourceSettingsFactory>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_ResonanceAudio_Source_ResonanceAudioEditor_Private_ResonanceAudioSpatializationSourceSettingsFactory_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

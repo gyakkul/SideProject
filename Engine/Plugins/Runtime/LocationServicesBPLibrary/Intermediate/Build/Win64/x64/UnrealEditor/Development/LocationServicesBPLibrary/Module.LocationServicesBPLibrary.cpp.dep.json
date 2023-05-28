@@ -1,0 +1,23 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\locationservicesbplibrary\\module.locationservicesbplibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\locationservicesbplibrary\\definitions.locationservicesbplibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\intermediate\\build\\win64\\unrealeditor\\inc\\locationservicesbplibrary\\uht\\locationservicesbplibrary.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\source\\locationservicesbplibrary\\classes\\locationservicesbplibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\intermediate\\build\\win64\\unrealeditor\\inc\\locationservicesbplibrary\\uht\\locationservicesbplibrary.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\intermediate\\build\\win64\\unrealeditor\\inc\\locationservicesbplibrary\\uht\\locationservicesbplibrary.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\intermediate\\build\\win64\\unrealeditor\\inc\\locationservicesbplibrary\\uht\\locationservicesimpl.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\source\\locationservicesbplibrary\\classes\\locationservicesimpl.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\intermediate\\build\\win64\\unrealeditor\\inc\\locationservicesbplibrary\\uht\\locationservicesimpl.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\source\\locationservicesbplibrary\\private\\locationservicesbplibrary.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\source\\locationservicesbplibrary\\private\\locationservicesbplibrarymodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\locationservicesbplibrary\\source\\locationservicesbplibrary\\public\\locationservicesbplibrarymodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

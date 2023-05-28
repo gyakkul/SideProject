@@ -1,0 +1,45 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetworkPredictionExtras.cpp.obj": [
+			"BaseMovementComponent.gen.cpp.obj",
+			"CharacterMotionComponent.gen.cpp.obj",
+			"FlyingMovementComponent.gen.cpp.obj",
+			"MockAbilitySimulation.gen.cpp.obj",
+			"MockCharacterAbilitySimulation.gen.cpp.obj",
+			"MockNetworkSimulation.gen.cpp.obj",
+			"MockPhysicsComponent.gen.cpp.obj",
+			"MockPhysicsGrenade.gen.cpp.obj",
+			"MockPhysicsSimulation.gen.cpp.obj",
+			"MockRootMotionComponent.gen.cpp.obj",
+			"MockRootMotionSourceObject.gen.cpp.obj",
+			"NetworkPredictionExtras.init.gen.cpp.obj",
+			"NetworkPredictionExtrasCharacter.gen.cpp.obj",
+			"NetworkPredictionExtrasFlyingPawn.gen.cpp.obj",
+			"NetworkPredictionExtrasGameMode.gen.cpp.obj",
+			"NetworkPredictionExtrasGameState.gen.cpp.obj",
+			"ParametricMovement.gen.cpp.obj",
+			"Springs.gen.cpp.obj",
+			"BaseMovementComponent.cpp.obj",
+			"BaseMovementSimulation.cpp.obj",
+			"CharacterMotionComponent.cpp.obj",
+			"CharacterMotionSimulation.cpp.obj",
+			"FlyingMovementComponent.cpp.obj",
+			"FlyingMovementSimulation.cpp.obj",
+			"MockAbilitySimulation.cpp.obj",
+			"MockCharacterAbilitySimulation.cpp.obj",
+			"MockNetworkSimulation.cpp.obj",
+			"MockPhysicsComponent.cpp.obj",
+			"MockPhysicsGrenade.cpp.obj",
+			"MockPhysicsSimulation.cpp.obj",
+			"MockRootMotionComponent.cpp.obj",
+			"MockRootMotionSimulation.cpp.obj",
+			"MockRootMotionSourceObject.cpp.obj",
+			"NetworkPredictionExtrasCharacter.cpp.obj",
+			"NetworkPredictionExtrasFlyingPawn.cpp.obj",
+			"NetworkPredictionExtrasGameMode.cpp.obj",
+			"NetworkPredictionExtrasModule.cpp.obj",
+			"ParametricMovement.cpp.obj"
+		]
+	}
+}

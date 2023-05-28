@@ -1,0 +1,28 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\landmass\\module.landmass.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\landmass\\definitions.landmass.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\unrealeditor\\inc\\landmass\\uht\\landmass.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\brusheffectslist.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\brusheffectslist.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\unrealeditor\\inc\\landmass\\uht\\brusheffectslist.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\unrealeditor\\inc\\landmass\\uht\\brusheffectslist.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\falloffsettings.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\falloffsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\unrealeditor\\inc\\landmass\\uht\\falloffsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\unrealeditor\\inc\\landmass\\uht\\falloffsettings.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\landmassmodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\landmassmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\private\\terraincarvingsettings.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\source\\runtime\\public\\terraincarvingsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\unrealeditor\\inc\\landmass\\uht\\terraincarvingsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\landmass\\intermediate\\build\\win64\\unrealeditor\\inc\\landmass\\uht\\terraincarvingsettings.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

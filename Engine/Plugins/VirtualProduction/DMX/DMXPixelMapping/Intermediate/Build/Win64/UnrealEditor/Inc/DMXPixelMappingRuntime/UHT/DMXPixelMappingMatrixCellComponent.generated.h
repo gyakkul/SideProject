@@ -1,0 +1,96 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Components/DMXPixelMappingMatrixCellComponent.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef DMXPIXELMAPPINGRUNTIME_DMXPixelMappingMatrixCellComponent_generated_h
+#error "DMXPixelMappingMatrixCellComponent.generated.h already included, missing '#pragma once' in DMXPixelMappingMatrixCellComponent.h"
+#endif
+#define DMXPIXELMAPPINGRUNTIME_DMXPixelMappingMatrixCellComponent_generated_h
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_SPARSE_DATA
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_RPC_WRAPPERS
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_ACCESSORS
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDMXPixelMappingMatrixCellComponent(); \
+	friend struct Z_Construct_UClass_UDMXPixelMappingMatrixCellComponent_Statics; \
+public: \
+	DECLARE_CLASS(UDMXPixelMappingMatrixCellComponent, UDMXPixelMappingOutputDMXComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DMXPixelMappingRuntime"), NO_API) \
+	DECLARE_SERIALIZER(UDMXPixelMappingMatrixCellComponent)
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_INCLASS \
+private: \
+	static void StaticRegisterNativesUDMXPixelMappingMatrixCellComponent(); \
+	friend struct Z_Construct_UClass_UDMXPixelMappingMatrixCellComponent_Statics; \
+public: \
+	DECLARE_CLASS(UDMXPixelMappingMatrixCellComponent, UDMXPixelMappingOutputDMXComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DMXPixelMappingRuntime"), NO_API) \
+	DECLARE_SERIALIZER(UDMXPixelMappingMatrixCellComponent)
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDMXPixelMappingMatrixCellComponent(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDMXPixelMappingMatrixCellComponent) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDMXPixelMappingMatrixCellComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDMXPixelMappingMatrixCellComponent); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDMXPixelMappingMatrixCellComponent(UDMXPixelMappingMatrixCellComponent&&); \
+	NO_API UDMXPixelMappingMatrixCellComponent(const UDMXPixelMappingMatrixCellComponent&); \
+public: \
+	NO_API virtual ~UDMXPixelMappingMatrixCellComponent();
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDMXPixelMappingMatrixCellComponent(UDMXPixelMappingMatrixCellComponent&&); \
+	NO_API UDMXPixelMappingMatrixCellComponent(const UDMXPixelMappingMatrixCellComponent&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDMXPixelMappingMatrixCellComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDMXPixelMappingMatrixCellComponent); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDMXPixelMappingMatrixCellComponent) \
+	NO_API virtual ~UDMXPixelMappingMatrixCellComponent();
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_19_PROLOG
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_RPC_WRAPPERS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_INCLASS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_SPARSE_DATA \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_ACCESSORS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h_23_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DMXPIXELMAPPINGRUNTIME_API UClass* StaticClass<class UDMXPixelMappingMatrixCellComponent>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_VirtualProduction_DMX_DMXPixelMapping_Source_DMXPixelMappingRuntime_Public_Components_DMXPixelMappingMatrixCellComponent_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

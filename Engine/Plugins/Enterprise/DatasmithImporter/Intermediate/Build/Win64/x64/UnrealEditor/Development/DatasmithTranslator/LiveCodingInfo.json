@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithTranslator.cpp.obj": [
+			"DatasmithPayload.cpp.obj",
+			"DatasmithSceneSource.cpp.obj",
+			"DatasmithTranslatableSource.cpp.obj",
+			"DatasmithTranslator.cpp.obj",
+			"DatasmithTranslatorManager.cpp.obj",
+			"DatasmithTranslatorModule.cpp.obj",
+			"DatasmithC4DMaterialSelector.cpp.obj",
+			"DatasmithCityEngineMaterialSelector.cpp.obj",
+			"DatasmithReferenceMaterial.cpp.obj",
+			"DatasmithReferenceMaterialManager.cpp.obj",
+			"DatasmithReferenceMaterialSelector.cpp.obj",
+			"DatasmithRevitMaterialSelector.cpp.obj",
+			"DatasmithSketchupMaterialSelector.cpp.obj",
+			"DatasmithStdMaterialSelector.cpp.obj",
+			"DatasmithMeshHelper.cpp.obj"
+		]
+	}
+}

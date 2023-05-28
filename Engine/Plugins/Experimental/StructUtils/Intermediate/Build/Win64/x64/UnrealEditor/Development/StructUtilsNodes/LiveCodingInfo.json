@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StructUtilsNodes.cpp.obj": [
+			"StructUtilsNodes.init.gen.cpp.obj",
+			"K2Node_InstancedStruct.cpp.obj",
+			"StructUtilsNodesModule.cpp.obj"
+		]
+	}
+}

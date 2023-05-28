@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXControlConsoleEditor.cpp.obj": [
+			"AssetDefinition_DMXControlConsole.gen.cpp.obj",
+			"DMXControlConsoleActorFactory.gen.cpp.obj",
+			"DMXControlConsoleEditor.init.gen.cpp.obj",
+			"DMXControlConsoleEditorModel.gen.cpp.obj",
+			"AssetDefinition_DMXControlConsole.cpp.obj",
+			"DMXControlConsoleEditorCommands.cpp.obj",
+			"DMXControlConsoleDataDetails.cpp.obj",
+			"DMXControlConsoleFaderGroupDetails.cpp.obj",
+			"DMXControlConsoleEditorFromLegacyUpgradeHandler.cpp.obj",
+			"DMXControlConsoleEditorManager.cpp.obj",
+			"DMXControlConsoleEditorModule.cpp.obj",
+			"DMXControlConsoleEditorSelection.cpp.obj",
+			"DMXControlConsoleActorFactory.cpp.obj",
+			"DMXControlConsoleEditorModel.cpp.obj",
+			"DMXControlConsoleEditorStyle.cpp.obj",
+			"SDMXControlConsoleEditorFaderGroupRowView.cpp.obj",
+			"SDMXControlConsoleEditorFaderGroupView.cpp.obj",
+			"SDMXControlConsoleEditorView.cpp.obj",
+			"SDMXControlConsoleEditorAddButton.cpp.obj",
+			"SDMXControlConsoleEditorAssetPicker.cpp.obj",
+			"SDMXControlConsoleEditorExpandArrowButton.cpp.obj",
+			"SDMXControlConsoleEditorFader.cpp.obj",
+			"SDMXControlConsoleEditorFaderGroup.cpp.obj",
+			"SDMXControlConsoleEditorFixturePatchRowWidget.cpp.obj",
+			"SDMXControlConsoleEditorFixturePatchVerticalBox.cpp.obj",
+			"SDMXControlConsoleEditorMatrixCell.cpp.obj",
+			"SDMXControlConsoleEditorPortSelector.cpp.obj",
+			"SDMXControlConsoleEditorSpinBoxVertical.cpp.obj"
+		]
+	}
+}

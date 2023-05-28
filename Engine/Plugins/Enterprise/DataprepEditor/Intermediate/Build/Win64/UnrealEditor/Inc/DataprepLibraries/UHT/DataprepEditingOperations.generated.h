@@ -1,0 +1,479 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DataprepEditingOperations.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef DATAPREPLIBRARIES_DataprepEditingOperations_generated_h
+#error "DataprepEditingOperations.generated.h already included, missing '#pragma once' in DataprepEditingOperations.h"
+#endif
+#define DATAPREPLIBRARIES_DataprepEditingOperations_generated_h
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_SPARSE_DATA
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_RPC_WRAPPERS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_ACCESSORS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepDeleteObjectsOperation(); \
+	friend struct Z_Construct_UClass_UDataprepDeleteObjectsOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepDeleteObjectsOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepDeleteObjectsOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepDeleteObjectsOperation(); \
+	friend struct Z_Construct_UClass_UDataprepDeleteObjectsOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepDeleteObjectsOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepDeleteObjectsOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepDeleteObjectsOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepDeleteObjectsOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepDeleteObjectsOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepDeleteObjectsOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepDeleteObjectsOperation(UDataprepDeleteObjectsOperation&&); \
+	NO_API UDataprepDeleteObjectsOperation(const UDataprepDeleteObjectsOperation&); \
+public: \
+	NO_API virtual ~UDataprepDeleteObjectsOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepDeleteObjectsOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepDeleteObjectsOperation(UDataprepDeleteObjectsOperation&&); \
+	NO_API UDataprepDeleteObjectsOperation(const UDataprepDeleteObjectsOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepDeleteObjectsOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepDeleteObjectsOperation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepDeleteObjectsOperation) \
+	NO_API virtual ~UDataprepDeleteObjectsOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_24_PROLOG
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_RPC_WRAPPERS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_INCLASS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_27_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPLIBRARIES_API UClass* StaticClass<class UDataprepDeleteObjectsOperation>();
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_SPARSE_DATA
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_RPC_WRAPPERS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_ACCESSORS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepMergeActorsOperation(); \
+	friend struct Z_Construct_UClass_UDataprepMergeActorsOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepMergeActorsOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepMergeActorsOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepMergeActorsOperation(); \
+	friend struct Z_Construct_UClass_UDataprepMergeActorsOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepMergeActorsOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepMergeActorsOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepMergeActorsOperation(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepMergeActorsOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepMergeActorsOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepMergeActorsOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepMergeActorsOperation(UDataprepMergeActorsOperation&&); \
+	NO_API UDataprepMergeActorsOperation(const UDataprepMergeActorsOperation&); \
+public: \
+	NO_API virtual ~UDataprepMergeActorsOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepMergeActorsOperation(UDataprepMergeActorsOperation&&); \
+	NO_API UDataprepMergeActorsOperation(const UDataprepMergeActorsOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepMergeActorsOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepMergeActorsOperation); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDataprepMergeActorsOperation) \
+	NO_API virtual ~UDataprepMergeActorsOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_41_PROLOG
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_RPC_WRAPPERS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_INCLASS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_44_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPLIBRARIES_API UClass* StaticClass<class UDataprepMergeActorsOperation>();
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_SPARSE_DATA
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_RPC_WRAPPERS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_ACCESSORS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepCreateProxyMeshOperation(); \
+	friend struct Z_Construct_UClass_UDataprepCreateProxyMeshOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepCreateProxyMeshOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepCreateProxyMeshOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepCreateProxyMeshOperation(); \
+	friend struct Z_Construct_UClass_UDataprepCreateProxyMeshOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepCreateProxyMeshOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepCreateProxyMeshOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepCreateProxyMeshOperation(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepCreateProxyMeshOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepCreateProxyMeshOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepCreateProxyMeshOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepCreateProxyMeshOperation(UDataprepCreateProxyMeshOperation&&); \
+	NO_API UDataprepCreateProxyMeshOperation(const UDataprepCreateProxyMeshOperation&); \
+public: \
+	NO_API virtual ~UDataprepCreateProxyMeshOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepCreateProxyMeshOperation(UDataprepCreateProxyMeshOperation&&); \
+	NO_API UDataprepCreateProxyMeshOperation(const UDataprepCreateProxyMeshOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepCreateProxyMeshOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepCreateProxyMeshOperation); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDataprepCreateProxyMeshOperation) \
+	NO_API virtual ~UDataprepCreateProxyMeshOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_94_PROLOG
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_RPC_WRAPPERS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_INCLASS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_97_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPLIBRARIES_API UClass* StaticClass<class UDataprepCreateProxyMeshOperation>();
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_SPARSE_DATA
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_RPC_WRAPPERS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_ACCESSORS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepDeleteUnusedAssetsOperation(); \
+	friend struct Z_Construct_UClass_UDataprepDeleteUnusedAssetsOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepDeleteUnusedAssetsOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepDeleteUnusedAssetsOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepDeleteUnusedAssetsOperation(); \
+	friend struct Z_Construct_UClass_UDataprepDeleteUnusedAssetsOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepDeleteUnusedAssetsOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepDeleteUnusedAssetsOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepDeleteUnusedAssetsOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepDeleteUnusedAssetsOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepDeleteUnusedAssetsOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepDeleteUnusedAssetsOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepDeleteUnusedAssetsOperation(UDataprepDeleteUnusedAssetsOperation&&); \
+	NO_API UDataprepDeleteUnusedAssetsOperation(const UDataprepDeleteUnusedAssetsOperation&); \
+public: \
+	NO_API virtual ~UDataprepDeleteUnusedAssetsOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepDeleteUnusedAssetsOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepDeleteUnusedAssetsOperation(UDataprepDeleteUnusedAssetsOperation&&); \
+	NO_API UDataprepDeleteUnusedAssetsOperation(const UDataprepDeleteUnusedAssetsOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepDeleteUnusedAssetsOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepDeleteUnusedAssetsOperation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepDeleteUnusedAssetsOperation) \
+	NO_API virtual ~UDataprepDeleteUnusedAssetsOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_129_PROLOG
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_RPC_WRAPPERS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_INCLASS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_132_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPLIBRARIES_API UClass* StaticClass<class UDataprepDeleteUnusedAssetsOperation>();
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_SPARSE_DATA
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_RPC_WRAPPERS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_ACCESSORS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepCompactSceneGraphOperation(); \
+	friend struct Z_Construct_UClass_UDataprepCompactSceneGraphOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepCompactSceneGraphOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepCompactSceneGraphOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepCompactSceneGraphOperation(); \
+	friend struct Z_Construct_UClass_UDataprepCompactSceneGraphOperation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepCompactSceneGraphOperation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepCompactSceneGraphOperation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepCompactSceneGraphOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepCompactSceneGraphOperation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepCompactSceneGraphOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepCompactSceneGraphOperation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepCompactSceneGraphOperation(UDataprepCompactSceneGraphOperation&&); \
+	NO_API UDataprepCompactSceneGraphOperation(const UDataprepCompactSceneGraphOperation&); \
+public: \
+	NO_API virtual ~UDataprepCompactSceneGraphOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepCompactSceneGraphOperation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepCompactSceneGraphOperation(UDataprepCompactSceneGraphOperation&&); \
+	NO_API UDataprepCompactSceneGraphOperation(const UDataprepCompactSceneGraphOperation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepCompactSceneGraphOperation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepCompactSceneGraphOperation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepCompactSceneGraphOperation) \
+	NO_API virtual ~UDataprepCompactSceneGraphOperation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_146_PROLOG
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_RPC_WRAPPERS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_INCLASS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_149_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPLIBRARIES_API UClass* StaticClass<class UDataprepCompactSceneGraphOperation>();
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_SPARSE_DATA
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_RPC_WRAPPERS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_ACCESSORS
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDataprepSpawnActorsAtLocation(); \
+	friend struct Z_Construct_UClass_UDataprepSpawnActorsAtLocation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepSpawnActorsAtLocation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepSpawnActorsAtLocation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_INCLASS \
+private: \
+	static void StaticRegisterNativesUDataprepSpawnActorsAtLocation(); \
+	friend struct Z_Construct_UClass_UDataprepSpawnActorsAtLocation_Statics; \
+public: \
+	DECLARE_CLASS(UDataprepSpawnActorsAtLocation, UDataprepEditingOperation, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/DataprepLibraries"), NO_API) \
+	DECLARE_SERIALIZER(UDataprepSpawnActorsAtLocation)
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepSpawnActorsAtLocation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepSpawnActorsAtLocation) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepSpawnActorsAtLocation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepSpawnActorsAtLocation); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepSpawnActorsAtLocation(UDataprepSpawnActorsAtLocation&&); \
+	NO_API UDataprepSpawnActorsAtLocation(const UDataprepSpawnActorsAtLocation&); \
+public: \
+	NO_API virtual ~UDataprepSpawnActorsAtLocation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDataprepSpawnActorsAtLocation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDataprepSpawnActorsAtLocation(UDataprepSpawnActorsAtLocation&&); \
+	NO_API UDataprepSpawnActorsAtLocation(const UDataprepSpawnActorsAtLocation&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDataprepSpawnActorsAtLocation); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDataprepSpawnActorsAtLocation); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDataprepSpawnActorsAtLocation) \
+	NO_API virtual ~UDataprepSpawnActorsAtLocation();
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_165_PROLOG
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_RPC_WRAPPERS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_INCLASS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_SPARSE_DATA \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_ACCESSORS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h_168_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DATAPREPLIBRARIES_API UClass* StaticClass<class UDataprepSpawnActorsAtLocation>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Enterprise_DataprepEditor_Source_DataprepLibraries_Private_DataprepEditingOperations_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

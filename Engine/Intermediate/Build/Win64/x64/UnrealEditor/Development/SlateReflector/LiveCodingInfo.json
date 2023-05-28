@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SlateReflector.cpp.obj": [
+			"SlateReflector.init.gen.cpp.obj",
+			"WidgetSnapshotMessages.gen.cpp.obj",
+			"InputEventVisualizer.cpp.obj",
+			"NavigationSimulationNode.cpp.obj",
+			"WidgetReflectorNode.cpp.obj",
+			"SlateNavigationEventSimulator.cpp.obj",
+			"SlateReflectorModule.cpp.obj",
+			"WidgetReflectorStyle.cpp.obj",
+			"VisualTreeCapture.cpp.obj",
+			"WidgetSnapshotService.cpp.obj",
+			"NavigationSimulationOverlay.cpp.obj",
+			"SAtlasVisualizer.cpp.obj",
+			"SNavigationSimulationList.cpp.obj",
+			"SSlateOptions.cpp.obj",
+			"SWidgetEventLog.cpp.obj",
+			"SWidgetHittestGrid.cpp.obj",
+			"SWidgetList.cpp.obj",
+			"SWidgetReflector.cpp.obj",
+			"SWidgetReflectorToolTipWidget.cpp.obj",
+			"SWidgetReflectorTreeWidgetItem.cpp.obj",
+			"SWidgetSnapshotVisualizer.cpp.obj"
+		]
+	}
+}

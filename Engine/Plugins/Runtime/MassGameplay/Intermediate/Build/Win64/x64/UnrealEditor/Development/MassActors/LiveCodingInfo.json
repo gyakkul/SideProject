@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassActors.cpp.obj": [
+			"MassActorPoolableInterface.gen.cpp.obj",
+			"MassActors.init.gen.cpp.obj",
+			"MassActorSpawnerSubsystem.gen.cpp.obj",
+			"MassActorSubsystem.gen.cpp.obj",
+			"MassAgentComponent.gen.cpp.obj",
+			"MassAgentSubsystem.gen.cpp.obj",
+			"MassAgentTraits.gen.cpp.obj",
+			"MassCapsuleComponentTranslators.gen.cpp.obj",
+			"MassCharacterMovementTranslators.gen.cpp.obj",
+			"MassSceneComponentLocationTranslator.gen.cpp.obj",
+			"MassTranslators_BehaviorTree.gen.cpp.obj",
+			"MassActorHelper.cpp.obj",
+			"MassActorPoolableInterface.cpp.obj",
+			"MassActorsModule.cpp.obj",
+			"MassActorSpawnerSubsystem.cpp.obj",
+			"MassActorSubsystem.cpp.obj",
+			"MassActorTypes.cpp.obj",
+			"MassAgentComponent.cpp.obj",
+			"MassAgentSubsystem.cpp.obj",
+			"MassAgentTraits.cpp.obj",
+			"MassCapsuleComponentTranslators.cpp.obj",
+			"MassCharacterMovementTranslators.cpp.obj",
+			"MassSceneComponentLocationTranslator.cpp.obj",
+			"MassTranslators_BehaviorTree.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundCueTemplates.cpp.obj": [
+			"SoundCueTemplates.init.gen.cpp.obj",
+			"SoundCueContainer.cpp.obj",
+			"SoundCueDistanceCrossfade.cpp.obj",
+			"SoundCueTemplate.cpp.obj",
+			"SoundCueTemplateSettings.cpp.obj",
+			"SoundCueTemplatesModule.cpp.obj"
+		]
+	}
+}

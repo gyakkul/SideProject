@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OpenCVLensDistortion.cpp.obj": [
+			"OpenCVLensDistortion.init.gen.cpp.obj",
+			"OpenCVLensDistortionBlueprintLibrary.gen.cpp.obj",
+			"OpenCVLensDistortionParameters.gen.cpp.obj",
+			"LensDistortionDisplacementMapRendering.cpp.obj",
+			"OpenCVLensDistortionBlueprintLibrary.cpp.obj",
+			"OpenCVLensDistortionModule.cpp.obj",
+			"OpenCVLensDistortionParameters.cpp.obj"
+		]
+	}
+}

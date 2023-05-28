@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayTasksEditor.cpp.obj": [
+			"GameplayTasksEditor.init.gen.cpp.obj",
+			"K2Node_LatentGameplayTaskCall.gen.cpp.obj",
+			"GameplayTasksEditorModule.cpp.obj",
+			"K2Node_LatentGameplayTaskCall.cpp.obj"
+		]
+	}
+}

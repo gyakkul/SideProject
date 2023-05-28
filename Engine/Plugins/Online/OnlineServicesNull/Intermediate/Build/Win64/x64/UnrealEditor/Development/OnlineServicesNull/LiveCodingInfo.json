@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineServicesNull.cpp.obj": [
+			"AchievementsNull.cpp.obj",
+			"AuthNull.cpp.obj",
+			"LeaderboardsNull.cpp.obj",
+			"LobbiesNull.cpp.obj",
+			"LobbyRegistryNull.cpp.obj",
+			"OnlineServicesNull.cpp.obj",
+			"OnlineServicesNullModule.cpp.obj",
+			"PresenceNull.cpp.obj",
+			"SessionsNull.cpp.obj",
+			"StatsNull.cpp.obj",
+			"TitleFileNull.cpp.obj",
+			"UserFileNull.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StructUtils.cpp.obj": [
+			"StructUtils.init.gen.cpp.obj",
+			"InstancedStruct.cpp.obj",
+			"InstancedStructContainer.cpp.obj",
+			"PropertyBag.cpp.obj",
+			"SharedStruct.cpp.obj",
+			"StructUtilsFunctionLibrary.cpp.obj",
+			"StructUtilsModule.cpp.obj",
+			"StructUtilsTypes.cpp.obj"
+		]
+	}
+}

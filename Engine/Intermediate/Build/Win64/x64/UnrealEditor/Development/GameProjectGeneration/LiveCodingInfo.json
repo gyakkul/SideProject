@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameProjectGeneration.cpp.obj": [
+			"ClassTemplateEditorSubsystem.gen.cpp.obj",
+			"DefaultTemplateProjectDefs.gen.cpp.obj",
+			"GameProjectGeneration.init.gen.cpp.obj",
+			"TemplateProjectDefs.gen.cpp.obj",
+			"ClassTemplateEditorSubsystem.cpp.obj",
+			"DefaultTemplateProjectDefs.cpp.obj",
+			"GameProjectGenerationModule.cpp.obj",
+			"GameProjectUtils.cpp.obj",
+			"SGetSuggestedIDEWidget.cpp.obj",
+			"SNewClassDialog.cpp.obj",
+			"SProjectBrowser.cpp.obj",
+			"SProjectDialog.cpp.obj",
+			"SVerbChoiceDialog.cpp.obj",
+			"TemplateProjectDefs.cpp.obj",
+			"GameProjectAutomationTests.cpp.obj"
+		]
+	}
+}

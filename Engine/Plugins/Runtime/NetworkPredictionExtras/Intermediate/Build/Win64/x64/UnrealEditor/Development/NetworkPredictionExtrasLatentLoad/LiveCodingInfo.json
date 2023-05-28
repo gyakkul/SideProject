@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetworkPredictionExtrasLatentLoad.cpp.obj": [
+			"NetworkPredictionExtrasLatentLoad.init.gen.cpp.obj",
+			"NetworkPredictionExtrasLatentLoadModule.gen.cpp.obj",
+			"NetworkPredictionExtrasLatentLoadModule.cpp.obj"
+		]
+	}
+}

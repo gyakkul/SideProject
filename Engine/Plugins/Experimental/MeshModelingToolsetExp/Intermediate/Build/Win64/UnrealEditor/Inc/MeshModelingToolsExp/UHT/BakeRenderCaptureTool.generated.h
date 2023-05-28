@@ -1,0 +1,578 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "BakeRenderCaptureTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_BakeRenderCaptureTool_generated_h
+#error "BakeRenderCaptureTool.generated.h already included, missing '#pragma once' in BakeRenderCaptureTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_BakeRenderCaptureTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureResults(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureResults_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureResults, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureResults)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureResults(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureResults_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureResults, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureResults)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureResults(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureResults) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureResults); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureResults); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureResults(UBakeRenderCaptureResults&&); \
+	NO_API UBakeRenderCaptureResults(const UBakeRenderCaptureResults&); \
+public: \
+	NO_API virtual ~UBakeRenderCaptureResults();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureResults(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureResults(UBakeRenderCaptureResults&&); \
+	NO_API UBakeRenderCaptureResults(const UBakeRenderCaptureResults&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureResults); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureResults); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureResults) \
+	NO_API virtual ~UBakeRenderCaptureResults();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_34_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_37_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeRenderCaptureResults>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureToolBuilder(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureToolBuilder(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureToolBuilder, UMultiSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureToolBuilder(UBakeRenderCaptureToolBuilder&&); \
+	NO_API UBakeRenderCaptureToolBuilder(const UBakeRenderCaptureToolBuilder&); \
+public: \
+	NO_API virtual ~UBakeRenderCaptureToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureToolBuilder(UBakeRenderCaptureToolBuilder&&); \
+	NO_API UBakeRenderCaptureToolBuilder(const UBakeRenderCaptureToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureToolBuilder) \
+	NO_API virtual ~UBakeRenderCaptureToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_77_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_80_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeRenderCaptureToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURenderCaptureProperties(); \
+	friend struct Z_Construct_UClass_URenderCaptureProperties_Statics; \
+public: \
+	DECLARE_CLASS(URenderCaptureProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URenderCaptureProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_INCLASS \
+private: \
+	static void StaticRegisterNativesURenderCaptureProperties(); \
+	friend struct Z_Construct_UClass_URenderCaptureProperties_Statics; \
+public: \
+	DECLARE_CLASS(URenderCaptureProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(URenderCaptureProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderCaptureProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderCaptureProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderCaptureProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderCaptureProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderCaptureProperties(URenderCaptureProperties&&); \
+	NO_API URenderCaptureProperties(const URenderCaptureProperties&); \
+public: \
+	NO_API virtual ~URenderCaptureProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URenderCaptureProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URenderCaptureProperties(URenderCaptureProperties&&); \
+	NO_API URenderCaptureProperties(const URenderCaptureProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URenderCaptureProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URenderCaptureProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URenderCaptureProperties) \
+	NO_API virtual ~URenderCaptureProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_97_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_100_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class URenderCaptureProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMapPreviewNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMapPreviewNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureToolProperties(UBakeRenderCaptureToolProperties&&); \
+	NO_API UBakeRenderCaptureToolProperties(const UBakeRenderCaptureToolProperties&); \
+public: \
+	NO_API virtual ~UBakeRenderCaptureToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureToolProperties(UBakeRenderCaptureToolProperties&&); \
+	NO_API UBakeRenderCaptureToolProperties(const UBakeRenderCaptureToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureToolProperties) \
+	NO_API virtual ~UBakeRenderCaptureToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_182_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_185_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeRenderCaptureToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetTargetUVLayerNamesFunc); \
+	DECLARE_FUNCTION(execGetTargetUVLayerIndex);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetTargetUVLayerNamesFunc); \
+	DECLARE_FUNCTION(execGetTargetUVLayerIndex);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureInputToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureInputToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureInputToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureInputToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureInputToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureInputToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureInputToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureInputToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureInputToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureInputToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureInputToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureInputToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureInputToolProperties(UBakeRenderCaptureInputToolProperties&&); \
+	NO_API UBakeRenderCaptureInputToolProperties(const UBakeRenderCaptureInputToolProperties&); \
+public: \
+	NO_API virtual ~UBakeRenderCaptureInputToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureInputToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureInputToolProperties(UBakeRenderCaptureInputToolProperties&&); \
+	NO_API UBakeRenderCaptureInputToolProperties(const UBakeRenderCaptureInputToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureInputToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureInputToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureInputToolProperties) \
+	NO_API virtual ~UBakeRenderCaptureInputToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_226_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_229_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeRenderCaptureInputToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureVisualizationProperties(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureVisualizationProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureVisualizationProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureVisualizationProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureVisualizationProperties(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureVisualizationProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureVisualizationProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureVisualizationProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureVisualizationProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureVisualizationProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureVisualizationProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureVisualizationProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureVisualizationProperties(UBakeRenderCaptureVisualizationProperties&&); \
+	NO_API UBakeRenderCaptureVisualizationProperties(const UBakeRenderCaptureVisualizationProperties&); \
+public: \
+	NO_API virtual ~UBakeRenderCaptureVisualizationProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureVisualizationProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureVisualizationProperties(UBakeRenderCaptureVisualizationProperties&&); \
+	NO_API UBakeRenderCaptureVisualizationProperties(const UBakeRenderCaptureVisualizationProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureVisualizationProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureVisualizationProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureVisualizationProperties) \
+	NO_API virtual ~UBakeRenderCaptureVisualizationProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_256_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_259_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeRenderCaptureVisualizationProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureTool(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureTool_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UBakeRenderCaptureTool*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeRenderCaptureTool(); \
+	friend struct Z_Construct_UClass_UBakeRenderCaptureTool_Statics; \
+public: \
+	DECLARE_CLASS(UBakeRenderCaptureTool, UMultiSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeRenderCaptureTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UBakeRenderCaptureTool*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeRenderCaptureTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeRenderCaptureTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureTool(UBakeRenderCaptureTool&&); \
+	NO_API UBakeRenderCaptureTool(const UBakeRenderCaptureTool&); \
+public: \
+	NO_API virtual ~UBakeRenderCaptureTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeRenderCaptureTool(UBakeRenderCaptureTool&&); \
+	NO_API UBakeRenderCaptureTool(const UBakeRenderCaptureTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeRenderCaptureTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeRenderCaptureTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UBakeRenderCaptureTool) \
+	NO_API virtual ~UBakeRenderCaptureTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_288_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h_294_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeRenderCaptureTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeRenderCaptureTool_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

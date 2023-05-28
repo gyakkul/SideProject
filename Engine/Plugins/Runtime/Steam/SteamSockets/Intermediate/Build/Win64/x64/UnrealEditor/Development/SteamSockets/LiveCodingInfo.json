@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SteamSockets.cpp.obj": [
+			"SteamSockets.init.gen.cpp.obj",
+			"SteamSocketsNetConnection.gen.cpp.obj",
+			"SteamSocketsNetDriver.gen.cpp.obj",
+			"IPAddressSteamSockets.cpp.obj",
+			"SteamSocket.cpp.obj",
+			"SteamSocketsModule.cpp.obj",
+			"SteamSocketsNetConnection.cpp.obj",
+			"SteamSocketsNetDriver.cpp.obj",
+			"SteamSocketsPing.cpp.obj",
+			"SteamSocketsSubsystem.cpp.obj",
+			"SteamSocketsTaskManager.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WmfMedia.cpp.obj": [
+			"WmfMediaPlayer.cpp.obj",
+			"WmfMediaTracks.cpp.obj",
+			"WmfMediaCodecManager.cpp.obj",
+			"WmfMediaDecoder.cpp.obj",
+			"WmfMediaModule.cpp.obj",
+			"WmfMediaByteStream.cpp.obj",
+			"WmfMediaHardwareVideoDecodingRendering.cpp.obj",
+			"WmfMediaHardwareVideoDecodingShaders.cpp.obj",
+			"WmfMediaHardwareVideoDecodingTextureSample.cpp.obj",
+			"WmfMediaSession.cpp.obj",
+			"WmfMediaSink.cpp.obj",
+			"WmfMediaStreamSink.cpp.obj",
+			"WmfMediaTopologyLoader.cpp.obj",
+			"WmfMediaUtils.cpp.obj"
+		]
+	}
+}

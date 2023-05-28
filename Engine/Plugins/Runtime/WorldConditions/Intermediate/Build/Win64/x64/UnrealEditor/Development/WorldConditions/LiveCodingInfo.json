@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WorldConditions.cpp.obj": [
+			"WorldConditions.init.gen.cpp.obj",
+			"WorldConditionBase.cpp.obj",
+			"WorldConditionContext.cpp.obj",
+			"WorldConditionQuery.cpp.obj",
+			"WorldConditionSchema.cpp.obj",
+			"WorldConditionsModule.cpp.obj",
+			"WorldConditionTypes.cpp.obj"
+		]
+	}
+}

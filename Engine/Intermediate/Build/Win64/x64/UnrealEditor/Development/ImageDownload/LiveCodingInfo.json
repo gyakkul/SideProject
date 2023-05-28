@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImageDownload.cpp.obj": [
+			"ImageDownloadModule.cpp.obj",
+			"WebImage.cpp.obj",
+			"WebImageCache.cpp.obj"
+		]
+	}
+}

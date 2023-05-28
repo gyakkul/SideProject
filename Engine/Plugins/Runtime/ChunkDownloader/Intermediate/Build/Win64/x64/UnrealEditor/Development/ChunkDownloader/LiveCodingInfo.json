@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChunkDownloader.cpp.obj": [
+			"ChunkDownloader.cpp.obj",
+			"ChunkDownloaderModule.cpp.obj",
+			"Download.cpp.obj",
+			"PlatformStreamDownload.cpp.obj"
+		]
+	}
+}

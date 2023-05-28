@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeCore.cpp.obj": [
+			"InterchangeCore.init.gen.cpp.obj",
+			"InterchangeFactoryBase.gen.cpp.obj",
+			"InterchangeSourceData.gen.cpp.obj",
+			"InterchangeWriterBase.gen.cpp.obj",
+			"InterchangeCoreModule.cpp.obj",
+			"InterchangePipelineBase.cpp.obj",
+			"InterchangeResult.cpp.obj",
+			"InterchangeResultsContainer.cpp.obj",
+			"InterchangeTranslatorBase.cpp.obj",
+			"InterchangeAnimationAPI.cpp.obj",
+			"InterchangeBaseNode.cpp.obj",
+			"InterchangeBaseNodeContainer.cpp.obj",
+			"InterchangeFactoryBaseNode.cpp.obj",
+			"InterchangeSourceNode.cpp.obj",
+			"InterchangeUserDefinedAttribute.cpp.obj",
+			"StorageTest.cpp.obj",
+			"AttributeStorage.cpp.obj"
+		]
+	}
+}

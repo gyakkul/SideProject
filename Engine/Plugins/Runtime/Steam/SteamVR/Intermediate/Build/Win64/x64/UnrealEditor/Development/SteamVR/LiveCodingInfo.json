@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SteamVR.cpp.obj": [
+			"SteamVR.init.gen.cpp.obj",
+			"SteamVRChaperoneComponent.gen.cpp.obj",
+			"SteamVRFunctionLibrary.gen.cpp.obj",
+			"SteamVRHQLayerShape.gen.cpp.obj",
+			"SteamVRAssetManager.cpp.obj",
+			"SteamVRChaperoneComponent.cpp.obj",
+			"SteamVRFunctionLibrary.cpp.obj",
+			"SteamVRHMD.cpp.obj",
+			"SteamVRHQLayerShape.cpp.obj",
+			"SteamVRRender.cpp.obj",
+			"SteamVRSpectatorScreen.cpp.obj",
+			"SteamVRSplash.cpp.obj",
+			"SteamVRStereoLayers.cpp.obj"
+		]
+	}
+}

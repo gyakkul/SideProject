@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RemoteSession.cpp.obj": [
+			"RemoteSession.init.gen.cpp.obj",
+			"RemoteSessionTypes.gen.cpp.obj",
+			"RemoteSessionARCameraChannel.cpp.obj",
+			"RemoteSessionARSystemChannel.cpp.obj",
+			"RemoteSessionChannel.cpp.obj",
+			"RemoteSessionFrameBufferChannel.cpp.obj",
+			"RemoteSessionImageChannel.cpp.obj",
+			"RemoteSessionInputChannel.cpp.obj",
+			"RemoteSessionLiveLinkChannel.cpp.obj",
+			"RemoteSessionXRTrackingChannel.cpp.obj",
+			"RemoteSessionFrameBufferImageProvider.cpp.obj",
+			"RemoteSessionMediaOutput.cpp.obj",
+			"ProxyMessageHandler.cpp.obj",
+			"RecordingMessageHandler.cpp.obj",
+			"RemoteSessionClient.cpp.obj",
+			"RemoteSessionHost.cpp.obj",
+			"RemoteSessionModule.cpp.obj",
+			"RemoteSessionRole.cpp.obj",
+			"RemoteSessionUtils.cpp.obj"
+		]
+	}
+}

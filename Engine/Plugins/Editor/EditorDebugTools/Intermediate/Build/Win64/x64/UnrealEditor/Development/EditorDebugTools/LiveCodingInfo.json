@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorDebugTools.cpp.obj": [
+			"EditorDebugTools.cpp.obj",
+			"EditorDebugToolsStyle.cpp.obj",
+			"GammaUIPanel.cpp.obj",
+			"SDebugPanel.cpp.obj",
+			"SModuleUI.cpp.obj"
+		]
+	}
+}

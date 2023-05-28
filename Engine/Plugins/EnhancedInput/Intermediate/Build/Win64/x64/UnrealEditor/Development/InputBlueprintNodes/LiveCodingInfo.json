@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InputBlueprintNodes.cpp.obj": [
+			"InputBlueprintNodes.init.gen.cpp.obj",
+			"InputBlueprintNodesModule.cpp.obj",
+			"K2Node_EnhancedInputAction.cpp.obj",
+			"K2Node_EnhancedInputActionEvent.cpp.obj",
+			"K2Node_GetInputActionValue.cpp.obj",
+			"K2Node_InputActionValueAccessor.cpp.obj",
+			"K2Node_InputDebugKey.cpp.obj",
+			"K2Node_InputDebugKeyEvent.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LoginFlow.cpp.obj": [
+			"LoginFlowManager.cpp.obj",
+			"LoginFlowModule.cpp.obj",
+			"LoginFlowViewModel.cpp.obj",
+			"SLoginFlow.cpp.obj"
+		]
+	}
+}

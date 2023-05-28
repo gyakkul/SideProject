@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PCGGeometryScriptInterop.cpp.obj": [
+			"PCGGeometryScriptInterop.init.gen.cpp.obj",
+			"PCGMeshSampler.gen.cpp.obj",
+			"PCGMeshSampler.cpp.obj",
+			"PCGGeometryScriptInteropModule.cpp.obj"
+		]
+	}
+}

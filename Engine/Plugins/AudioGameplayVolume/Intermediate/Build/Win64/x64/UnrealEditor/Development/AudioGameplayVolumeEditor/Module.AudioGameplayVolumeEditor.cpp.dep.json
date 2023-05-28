@@ -1,0 +1,32 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audiogameplayvolumeeditor\\module.audiogameplayvolumeeditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audiogameplayvolumeeditor\\definitions.audiogameplayvolumeeditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\source\\audiogameplayvolumeeditor\\private\\audiogameplayvolumeeditormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\source\\audiogameplayvolumeeditor\\public\\audiogameplayvolumeeditormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\source\\audiogameplayvolumeeditor\\private\\detailcustomizations\\reverbvolumecomponentdetail.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomization.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\source\\audiogameplayvolumeeditor\\private\\detailcustomizations\\reverbvolumecomponentdetail.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\detailcategorybuilder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomnodebuilder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\detailbuildertypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\detaillayoutbuilder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\propertyeditor\\public\\idetailpropertyrow.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\source\\audiogameplayvolume\\public\\reverbvolumecomponent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\source\\audiogameplayvolume\\public\\audiogameplayvolumemutator.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplay\\source\\audiogameplay\\public\\audiogameplaycomponent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplay\\source\\audiogameplay\\public\\audiogameplayflags.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\audiogameplay\\uht\\audiogameplaycomponent.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\intermediate\\build\\win64\\unrealeditor\\inc\\audiogameplayvolume\\uht\\audiogameplayvolumemutator.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\sound\\reverbsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\reverbsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\audiogameplayvolume\\intermediate\\build\\win64\\unrealeditor\\inc\\audiogameplayvolume\\uht\\reverbvolumecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeResultsBrowser.cpp.obj": [
+			"InterchangeResultsBrowserModule.cpp.obj",
+			"SInterchangeResultsBrowserWindow.cpp.obj"
+		]
+	}
+}

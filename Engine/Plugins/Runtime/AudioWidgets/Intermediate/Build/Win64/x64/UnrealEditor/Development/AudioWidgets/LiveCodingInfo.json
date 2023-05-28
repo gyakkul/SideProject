@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioWidgets.cpp.obj": [
+			"AudioMeterTypes.gen.cpp.obj",
+			"AudioWidgets.init.gen.cpp.obj",
+			"SAudioRadialSlider.gen.cpp.obj",
+			"AudioMeter.cpp.obj",
+			"AudioMeterStyle.cpp.obj",
+			"AudioRadialSlider.cpp.obj",
+			"AudioSlider.cpp.obj",
+			"AudioWidgets.cpp.obj",
+			"AudioWidgetsSlateTypes.cpp.obj",
+			"AudioWidgetsStyle.cpp.obj",
+			"SAudioMeter.cpp.obj",
+			"SAudioRadialSlider.cpp.obj",
+			"SAudioSlider.cpp.obj",
+			"SAudioTextBox.cpp.obj"
+		]
+	}
+}

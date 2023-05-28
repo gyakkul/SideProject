@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCacheStreamer.cpp.obj": [
+			"GeometryCacheStreamer.init.gen.cpp.obj",
+			"GeometryCacheStreamBase.cpp.obj",
+			"GeometryCacheStreamer.cpp.obj",
+			"GeometryCacheStreamerModule.cpp.obj",
+			"GeometryCacheStreamerSettings.cpp.obj"
+		]
+	}
+}

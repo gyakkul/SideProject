@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXProtocolBlueprintGraph.cpp.obj": [
+			"DMXProtocolBlueprintGraphModule.cpp.obj",
+			"DMXProtocolGraphPanelPinFactory.cpp.obj",
+			"SDMXInputPortReferenceGraphPin.cpp.obj",
+			"SDMXOutputPortReferenceGraphPin.cpp.obj"
+		]
+	}
+}

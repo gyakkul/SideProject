@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElectraSubtitles.cpp.obj": [
+			"ElectraSubtitleModule.cpp.obj",
+			"ElectraSubtitleDecoder_TTML.cpp.obj",
+			"TTMLParser.cpp.obj",
+			"TTMLSubtitleList.cpp.obj",
+			"ElectraSubtitleDecoder_TX3G.cpp.obj",
+			"ElectraSubtitleDecoder_WVTT.cpp.obj"
+		]
+	}
+}

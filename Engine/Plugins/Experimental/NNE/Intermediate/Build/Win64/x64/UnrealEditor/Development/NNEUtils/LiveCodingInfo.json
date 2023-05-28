@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNEUtils.cpp.obj": [
+			"NNEUtilsLogHelper.cpp.obj",
+			"NNEUtilsModelBuilderNNE.cpp.obj",
+			"NNEUtilsModelBuilderONNX.cpp.obj",
+			"NNEUtilsModelOptimizer.cpp.obj",
+			"NNEUtilsModule.cpp.obj"
+		]
+	}
+}

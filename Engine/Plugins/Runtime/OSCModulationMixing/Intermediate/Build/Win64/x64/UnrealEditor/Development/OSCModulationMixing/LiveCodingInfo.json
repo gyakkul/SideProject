@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OSCModulationMixing.cpp.obj": [
+			"OSCModulationMixing.init.gen.cpp.obj",
+			"OSCModulationMixingStatics.gen.cpp.obj",
+			"OSCModulationMixing.cpp.obj",
+			"OSCModulationMixingStatics.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dmxruntime\\module.dmxruntime.2_of_5.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dmxruntime\\definitions.dmxruntime.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmxentityreference.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\source\\dmxruntime\\public\\library\\dmxentityreference.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmxentityreference.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmxgdtfassetimportdata.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\source\\dmxruntime\\public\\library\\dmxgdtfassetimportdata.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\source\\dmxruntime\\public\\dmxtypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxprotocol\\source\\dmxprotocol\\public\\dmxattribute.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxprotocol\\source\\dmxprotocol\\public\\dmxnamelistitem.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxprotocol\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxprotocol\\uht\\dmxnamelistitem.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxprotocol\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxprotocol\\uht\\dmxattribute.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmxtypes.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\editorframework\\assetimportdata.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetimportdata.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmxgdtfassetimportdata.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmximport.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\source\\dmxruntime\\public\\library\\dmximport.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmximport.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmximportgdtf.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\source\\dmxruntime\\public\\library\\dmximportgdtf.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\virtualproduction\\dmx\\dmxengine\\intermediate\\build\\win64\\unrealeditor\\inc\\dmxruntime\\uht\\dmximportgdtf.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

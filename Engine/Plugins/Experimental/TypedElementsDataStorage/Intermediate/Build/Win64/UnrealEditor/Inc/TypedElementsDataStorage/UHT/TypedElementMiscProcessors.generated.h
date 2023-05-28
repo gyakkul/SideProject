@@ -1,0 +1,96 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Processors/TypedElementMiscProcessors.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef TYPEDELEMENTSDATASTORAGE_TypedElementMiscProcessors_generated_h
+#error "TypedElementMiscProcessors.generated.h already included, missing '#pragma once' in TypedElementMiscProcessors.h"
+#endif
+#define TYPEDELEMENTSDATASTORAGE_TypedElementMiscProcessors_generated_h
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_ACCESSORS
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUTypedElementRemoveSyncToWorldTagProcessor(); \
+	friend struct Z_Construct_UClass_UTypedElementRemoveSyncToWorldTagProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementRemoveSyncToWorldTagProcessor, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementRemoveSyncToWorldTagProcessor)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_INCLASS \
+private: \
+	static void StaticRegisterNativesUTypedElementRemoveSyncToWorldTagProcessor(); \
+	friend struct Z_Construct_UClass_UTypedElementRemoveSyncToWorldTagProcessor_Statics; \
+public: \
+	DECLARE_CLASS(UTypedElementRemoveSyncToWorldTagProcessor, UMassProcessor, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/TypedElementsDataStorage"), NO_API) \
+	DECLARE_SERIALIZER(UTypedElementRemoveSyncToWorldTagProcessor)
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTypedElementRemoveSyncToWorldTagProcessor(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTypedElementRemoveSyncToWorldTagProcessor) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementRemoveSyncToWorldTagProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementRemoveSyncToWorldTagProcessor); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementRemoveSyncToWorldTagProcessor(UTypedElementRemoveSyncToWorldTagProcessor&&); \
+	NO_API UTypedElementRemoveSyncToWorldTagProcessor(const UTypedElementRemoveSyncToWorldTagProcessor&); \
+public: \
+	NO_API virtual ~UTypedElementRemoveSyncToWorldTagProcessor();
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UTypedElementRemoveSyncToWorldTagProcessor(UTypedElementRemoveSyncToWorldTagProcessor&&); \
+	NO_API UTypedElementRemoveSyncToWorldTagProcessor(const UTypedElementRemoveSyncToWorldTagProcessor&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTypedElementRemoveSyncToWorldTagProcessor); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTypedElementRemoveSyncToWorldTagProcessor); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTypedElementRemoveSyncToWorldTagProcessor) \
+	NO_API virtual ~UTypedElementRemoveSyncToWorldTagProcessor();
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_13_PROLOG
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_INCLASS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_ACCESSORS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> TYPEDELEMENTSDATASTORAGE_API UClass* StaticClass<class UTypedElementRemoveSyncToWorldTagProcessor>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_TypedElementsDataStorage_Source_TypedElementsDataStorage_Private_Processors_TypedElementMiscProcessors_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

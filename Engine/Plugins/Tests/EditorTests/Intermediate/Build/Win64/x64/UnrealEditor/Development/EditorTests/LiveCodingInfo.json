@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorTests.cpp.obj": [
+			"CollisionAutomationTests.gen.cpp.obj",
+			"EditorTests.init.gen.cpp.obj",
+			"EditorTestsUtilityLibrary.gen.cpp.obj",
+			"EditorUtilityTest.gen.cpp.obj",
+			"ObjectToolsTests.gen.cpp.obj",
+			"AnimationBlueprintFastPathTest.cpp.obj",
+			"EditorTests.cpp.obj",
+			"EditorUtilityTest.cpp.obj",
+			"SourceControlTests.cpp.obj",
+			"AutoReimportTests.cpp.obj",
+			"BlueprintAutomationTests.cpp.obj",
+			"CollisionAutomationTests.cpp.obj",
+			"EditorAssetAutomationTests.cpp.obj",
+			"EditorAutomationTests.cpp.obj",
+			"EditorBuildPromotionTests.cpp.obj",
+			"EditorIterationTests.cpp.obj",
+			"EditorOpenAssetAutomationTests.cpp.obj",
+			"EditorPerformanceTests.cpp.obj",
+			"EditorSettingsTests.cpp.obj",
+			"EditorTestsUtilityLibrary.cpp.obj",
+			"EditorViewportFlagsTest.cpp.obj",
+			"FbxAutomationTests.cpp.obj",
+			"FeaturePackAutomationTests.cpp.obj",
+			"GeometryTests.cpp.obj",
+			"LightingTests.cpp.obj",
+			"MeshDescriptionTests.cpp.obj",
+			"ObjectToolsTests.cpp.obj",
+			"PlayMapInPIETests.cpp.obj"
+		]
+	}
+}

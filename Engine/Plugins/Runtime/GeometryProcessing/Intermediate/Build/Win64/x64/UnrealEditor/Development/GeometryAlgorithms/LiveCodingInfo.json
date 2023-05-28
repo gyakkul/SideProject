@@ -1,0 +1,60 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryAlgorithms.1_of_3.cpp.obj": [
+			"Arrangement2d.cpp.obj",
+			"ConstrainedDelaunay2.cpp.obj",
+			"PolygonIntersectionUtils.cpp.obj",
+			"PolygonOffsetUtils.cpp.obj",
+			"DistLine3Circle3.cpp.obj",
+			"FitCapsule3.cpp.obj",
+			"FTetWildWrapper.cpp.obj",
+			"GeometryAlgorithmsModule.cpp.obj",
+			"MinVolumeBox3.cpp.obj",
+			"MinVolumeSphere3.cpp.obj",
+			"clipper.engine.cpp.obj",
+			"clipper.offset.cpp.obj",
+			"AABBWrapper.cpp.obj",
+			"auto_table.cpp.obj",
+			"CutMesh.cpp.obj",
+			"EdgeCollapsing.cpp.obj",
+			"EdgeSplitting.cpp.obj",
+			"EdgeSwapping.cpp.obj",
+			"FloatTetDelaunay.cpp.obj",
+			"FloatTetwild.cpp.obj"
+		],
+		"Module.GeometryAlgorithms.2_of_3.cpp.obj": [
+			"intersections.cpp.obj",
+			"LocalOperations.cpp.obj",
+			"Mesh.cpp.obj",
+			"MeshImprovement.cpp.obj",
+			"Predicates.cpp.obj",
+			"Simplification.cpp.obj",
+			"TriangleInsertion.cpp.obj",
+			"VertexSmoothing.cpp.obj",
+			"GTEnginePCH.cpp.obj",
+			"GteLogger.cpp.obj",
+			"GteLogReporter.cpp.obj",
+			"GteLogToFile.cpp.obj",
+			"GteLogToStdout.cpp.obj",
+			"GteLogToStringArray.cpp.obj",
+			"GteTimer.cpp.obj",
+			"GteWrapper.cpp.obj",
+			"GteBitHacks.cpp.obj",
+			"GteBSPrecision.cpp.obj",
+			"GteETManifoldMesh.cpp.obj",
+			"GteETNonmanifoldMesh.cpp.obj",
+			"GteIEEEBinary16.cpp.obj",
+			"GteTetrahedronKey.cpp.obj",
+			"GteTSManifoldMesh.cpp.obj",
+			"GteUIntegerAP32.cpp.obj",
+			"GteVEManifoldMesh.cpp.obj",
+			"GteVETManifoldMesh.cpp.obj",
+			"GteVETNonmanifoldMesh.cpp.obj",
+			"xatlas.cpp.obj"
+		],
+		"Module.GeometryAlgorithms.3_of_3.cpp.obj": [
+			"XAtlasWrapper.cpp.obj"
+		]
+	}
+}

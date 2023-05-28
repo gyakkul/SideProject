@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PropertyAccessEditor.cpp.obj": [
+			"PropertyAccessEditor.cpp.obj",
+			"PropertyAccessEditorModule.cpp.obj",
+			"SPropertyBinding.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VCamExtensionsEditor.cpp.obj": [
+			"ModifierBoundWidgetStylesAssetFactory.gen.cpp.obj",
+			"ModifierHierarchyAssetFactory.gen.cpp.obj",
+			"VCamExtensionsEditor.init.gen.cpp.obj",
+			"ModifierBoundWidgetStylesAssetFactory.cpp.obj",
+			"ModifierHierarchyAssetFactory.cpp.obj",
+			"VCamExtensionsEditor.cpp.obj",
+			"VCamExtensionsEditorLog.cpp.obj"
+		]
+	}
+}

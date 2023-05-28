@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXPixelMappingEditorWidgets.cpp.obj": [
+			"DMXPixelMappingComponentWidget.cpp.obj",
+			"DMXPixelMappingRuntimeModule.cpp.obj",
+			"SDMXPixelMappingComponentBox.cpp.obj",
+			"SDMXPixelMappingComponentLabel.cpp.obj",
+			"SDMXPixelMappingEditorWidgets.cpp.obj",
+			"SDMXPixelMappingScreenComponentBox.cpp.obj"
+		]
+	}
+}

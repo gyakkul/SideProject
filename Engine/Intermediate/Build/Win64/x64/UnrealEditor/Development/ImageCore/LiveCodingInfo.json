@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImageCore.cpp.obj": [
+			"DDSFile.cpp.obj",
+			"ImageCore.cpp.obj",
+			"ImageCoreTest.cpp.obj",
+			"ImageCoreUtils.cpp.obj"
+		]
+	}
+}

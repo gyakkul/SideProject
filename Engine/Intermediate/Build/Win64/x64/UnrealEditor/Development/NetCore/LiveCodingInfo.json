@@ -1,0 +1,38 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetCore.cpp.obj": [
+			"NetCore.init.gen.cpp.obj",
+			"NetEnums.gen.cpp.obj",
+			"PushModel.gen.cpp.obj",
+			"NetAnalytics.cpp.obj",
+			"NetAnalyticsAggregatorConfig.cpp.obj",
+			"NetStatsUtils.cpp.obj",
+			"EscalationStates.cpp.obj",
+			"NetCloseResult.cpp.obj",
+			"NetConnectionFaultRecoveryBase.cpp.obj",
+			"NetResult.cpp.obj",
+			"NetResultManager.cpp.obj",
+			"StateStruct.cpp.obj",
+			"GlobalDirtyNetObjectTracker.cpp.obj",
+			"DDoSDetection.cpp.obj",
+			"GuidReferences.cpp.obj",
+			"NetConditionGroupManager.cpp.obj",
+			"NetSubObjectRegistry.cpp.obj",
+			"PacketAudit.cpp.obj",
+			"ResizableCircularQueueTests.cpp.obj",
+			"NetBitArray.cpp.obj",
+			"NetCoreModule.cpp.obj",
+			"NetHandle.cpp.obj",
+			"NetHandleManager.cpp.obj",
+			"PropertyConditions.cpp.obj",
+			"RepChangedPropertyTracker.cpp.obj",
+			"PushModel.cpp.obj",
+			"QuantizedVectorSerialization.cpp.obj",
+			"NetTraceInternal.cpp.obj",
+			"PersistentNetDebugNames.cpp.obj",
+			"NetTraceReporter.cpp.obj",
+			"FastArraySerializer.cpp.obj"
+		]
+	}
+}

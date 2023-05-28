@@ -1,0 +1,32 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MetasoundEditor.cpp.obj": [
+			"MetasoundEditor.init.gen.cpp.obj",
+			"MetasoundAssetTypeActions.cpp.obj",
+			"MetasoundDetailCustomization.cpp.obj",
+			"MetasoundEditor.cpp.obj",
+			"MetasoundEditorCommands.cpp.obj",
+			"MetasoundEditorGraph.cpp.obj",
+			"MetasoundEditorGraphBuilder.cpp.obj",
+			"MetasoundEditorGraphConnectionDrawingPolicy.cpp.obj",
+			"MetasoundEditorGraphConnectionManager.cpp.obj",
+			"MetasoundEditorGraphInputNode.cpp.obj",
+			"MetasoundEditorGraphMemberDefaults.cpp.obj",
+			"MetasoundEditorGraphNode.cpp.obj",
+			"MetasoundEditorGraphSchema.cpp.obj",
+			"MetasoundEditorGraphValidation.cpp.obj",
+			"MetasoundEditorModule.cpp.obj",
+			"MetasoundEditorSettings.cpp.obj",
+			"MetasoundFactory.cpp.obj",
+			"MetasoundNodeDetailCustomization.cpp.obj",
+			"SMetasoundActionMenu.cpp.obj",
+			"SMetasoundGraphEnumPin.cpp.obj",
+			"SMetasoundGraphNode.cpp.obj",
+			"SMetasoundGraphNodeComment.cpp.obj",
+			"SMetasoundGraphPin.cpp.obj",
+			"SMetasoundPalette.cpp.obj",
+			"SMetasoundPinValueInspector.cpp.obj"
+		]
+	}
+}

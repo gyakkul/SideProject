@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LandscapePatchEditorOnly.cpp.obj": [
+			"LandscapePatchEditorOnlyModule.cpp.obj",
+			"LandscapeTexturePatchVisualizer.cpp.obj"
+		]
+	}
+}

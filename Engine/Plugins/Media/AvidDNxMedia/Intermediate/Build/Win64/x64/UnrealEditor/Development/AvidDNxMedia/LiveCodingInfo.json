@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AvidDNxMedia.cpp.obj": [
+			"AvidDNxEncoderProtocol.gen.cpp.obj",
+			"AvidDNxMedia.init.gen.cpp.obj",
+			"MoviePipelineAvidDNxOutput.gen.cpp.obj",
+			"AvidDNxEncoderProtocol.cpp.obj",
+			"AvidDNxEncoder.cpp.obj",
+			"AvidDNxMediaModule.cpp.obj",
+			"MoviePipelineAvidDNxOutput.cpp.obj"
+		]
+	}
+}

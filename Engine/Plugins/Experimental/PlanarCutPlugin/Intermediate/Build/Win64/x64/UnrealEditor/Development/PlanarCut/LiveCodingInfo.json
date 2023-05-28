@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlanarCut.cpp.obj": [
+			"FractureAutoUV.cpp.obj",
+			"GeometryMeshConversion.cpp.obj",
+			"PlanarCut.cpp.obj",
+			"PlanarCutPlugin.cpp.obj"
+		]
+	}
+}

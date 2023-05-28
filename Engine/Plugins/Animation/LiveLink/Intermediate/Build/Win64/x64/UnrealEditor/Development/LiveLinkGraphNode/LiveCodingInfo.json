@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkGraphNode.cpp.obj": [
+			"LiveLinkGraphNode.init.gen.cpp.obj",
+			"AnimGraphNode_LiveLinkPose.cpp.obj",
+			"K2Node_EvaluateLiveLinkCustom.cpp.obj",
+			"K2Node_EvaluateLiveLinkFrame.cpp.obj",
+			"K2Node_UpdateVirtualSubjectDataBase.cpp.obj",
+			"K2Node_UpdateVirtualSubjectDataTyped.cpp.obj",
+			"LiveLinkGraphNodeModule.cpp.obj"
+		]
+	}
+}

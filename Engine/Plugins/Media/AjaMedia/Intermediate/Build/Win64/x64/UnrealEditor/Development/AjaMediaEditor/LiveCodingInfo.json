@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AjaMediaEditor.cpp.obj": [
+			"AjaMediaEditor.init.gen.cpp.obj",
+			"AjaMediaOutputFactoryNew.gen.cpp.obj",
+			"AjaMediaSourceFactoryNew.gen.cpp.obj",
+			"AjaMediaEditorModule.cpp.obj",
+			"AjaMediaTimecodeReferenceCustomization.cpp.obj",
+			"AjaMediaOutputFactoryNew.cpp.obj",
+			"AjaMediaSourceFactoryNew.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StorageServerClient.cpp.obj": [
+			"CookOnTheFlyPackageStore.cpp.obj",
+			"StorageServerConnection.cpp.obj",
+			"StorageServerIoDispatcherBackend.cpp.obj",
+			"StorageServerPackageStore.cpp.obj",
+			"StorageServerPlatformFile.cpp.obj"
+		]
+	}
+}

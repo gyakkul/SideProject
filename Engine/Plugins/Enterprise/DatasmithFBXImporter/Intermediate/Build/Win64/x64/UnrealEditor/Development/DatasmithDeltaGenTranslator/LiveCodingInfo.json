@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithDeltaGenTranslator.cpp.obj": [
+			"DatasmithDeltaGenImportOptions.gen.cpp.obj",
+			"DatasmithDeltaGenTranslator.init.gen.cpp.obj",
+			"DatasmithDeltaGenAnimationInterpolator.cpp.obj",
+			"DatasmithDeltaGenImporter.cpp.obj",
+			"DatasmithDeltaGenImporterAuxFiles.cpp.obj",
+			"DatasmithDeltaGenImporterMaterialSelector.cpp.obj",
+			"DatasmithDeltaGenImportOptions.cpp.obj",
+			"DatasmithDeltaGenSceneProcessor.cpp.obj",
+			"DatasmithDeltaGenTranslator.cpp.obj",
+			"DatasmithDeltaGenTranslatorModule.cpp.obj",
+			"DatasmithDeltaGenVariantConverter.cpp.obj"
+		]
+	}
+}

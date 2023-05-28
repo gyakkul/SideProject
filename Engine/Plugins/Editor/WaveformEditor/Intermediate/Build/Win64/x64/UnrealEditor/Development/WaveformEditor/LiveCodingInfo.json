@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WaveformEditor.cpp.obj": [
+			"WaveformEditor.init.gen.cpp.obj",
+			"WaveformEditorToolMenuContext.gen.cpp.obj",
+			"WaveformEditorTransformationsSettings.gen.cpp.obj",
+			"WaveformEditor.cpp.obj",
+			"WaveformEditorCommands.cpp.obj",
+			"WaveformEditorDetailsCustomization.cpp.obj",
+			"WaveformEditorInstantiator.cpp.obj",
+			"WaveformEditorModule.cpp.obj",
+			"WaveformEditorTransformationsSettings.cpp.obj",
+			"WaveformEditorTransportController.cpp.obj",
+			"WaveformEditorWaveWriter.cpp.obj"
+		]
+	}
+}

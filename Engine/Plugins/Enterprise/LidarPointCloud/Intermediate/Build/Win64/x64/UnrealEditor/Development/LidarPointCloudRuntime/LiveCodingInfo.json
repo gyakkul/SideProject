@@ -1,0 +1,36 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LidarPointCloudRuntime.1_of_3.cpp.obj": [
+			"LidarPointCloud.gen.cpp.obj"
+		],
+		"Module.LidarPointCloudRuntime.2_of_3.cpp.obj": [
+			"LidarPointCloudActor.gen.cpp.obj",
+			"LidarPointCloudComponent.gen.cpp.obj",
+			"LidarPointCloudFileIO.gen.cpp.obj",
+			"LidarPointCloudFileIO_ASCII.gen.cpp.obj",
+			"LidarPointCloudFileIO_E57.gen.cpp.obj",
+			"LidarPointCloudFileIO_LAS.gen.cpp.obj",
+			"LidarPointCloudRuntime.init.gen.cpp.obj",
+			"LidarPointCloudSettings.gen.cpp.obj",
+			"LidarPointCloudShared.gen.cpp.obj",
+			"LidarPointCloudFileIO.cpp.obj",
+			"LidarPointCloudFileIO_ASCII.cpp.obj",
+			"LidarPointCloudFileIO_E57.cpp.obj",
+			"LidarPointCloudFileIO_LAS.cpp.obj"
+		],
+		"Module.LidarPointCloudRuntime.3_of_3.cpp.obj": [
+			"LidarPointCloud.cpp.obj",
+			"LidarPointCloudActor.cpp.obj",
+			"LidarPointCloudComponent.cpp.obj",
+			"LidarPointCloudLODManager.cpp.obj",
+			"LidarPointCloudOctree.cpp.obj",
+			"LidarPointCloudRuntimeModule.cpp.obj",
+			"LidarPointCloudSettings.cpp.obj",
+			"LidarPointCloudShared.cpp.obj",
+			"LidarPointCloudMeshing.cpp.obj",
+			"LidarPointCloudRenderBuffers.cpp.obj",
+			"LidarPointCloudRendering.cpp.obj"
+		]
+	}
+}

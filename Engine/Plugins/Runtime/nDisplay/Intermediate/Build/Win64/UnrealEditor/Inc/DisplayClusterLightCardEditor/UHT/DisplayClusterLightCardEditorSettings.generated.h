@@ -1,0 +1,186 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Settings/DisplayClusterLightCardEditorSettings.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef DISPLAYCLUSTERLIGHTCARDEDITOR_DisplayClusterLightCardEditorSettings_generated_h
+#error "DisplayClusterLightCardEditorSettings.generated.h already included, missing '#pragma once' in DisplayClusterLightCardEditorSettings.h"
+#endif
+#define DISPLAYCLUSTERLIGHTCARDEDITOR_DisplayClusterLightCardEditorSettings_generated_h
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_ACCESSORS
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDisplayClusterLightCardEditorProjectSettings(); \
+	friend struct Z_Construct_UClass_UDisplayClusterLightCardEditorProjectSettings_Statics; \
+public: \
+	DECLARE_CLASS(UDisplayClusterLightCardEditorProjectSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/DisplayClusterLightCardEditor"), NO_API) \
+	DECLARE_SERIALIZER(UDisplayClusterLightCardEditorProjectSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("Editor");} \
+
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_INCLASS \
+private: \
+	static void StaticRegisterNativesUDisplayClusterLightCardEditorProjectSettings(); \
+	friend struct Z_Construct_UClass_UDisplayClusterLightCardEditorProjectSettings_Statics; \
+public: \
+	DECLARE_CLASS(UDisplayClusterLightCardEditorProjectSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/DisplayClusterLightCardEditor"), NO_API) \
+	DECLARE_SERIALIZER(UDisplayClusterLightCardEditorProjectSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("Editor");} \
+
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDisplayClusterLightCardEditorProjectSettings(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDisplayClusterLightCardEditorProjectSettings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDisplayClusterLightCardEditorProjectSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDisplayClusterLightCardEditorProjectSettings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDisplayClusterLightCardEditorProjectSettings(UDisplayClusterLightCardEditorProjectSettings&&); \
+	NO_API UDisplayClusterLightCardEditorProjectSettings(const UDisplayClusterLightCardEditorProjectSettings&); \
+public: \
+	NO_API virtual ~UDisplayClusterLightCardEditorProjectSettings();
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDisplayClusterLightCardEditorProjectSettings(UDisplayClusterLightCardEditorProjectSettings&&); \
+	NO_API UDisplayClusterLightCardEditorProjectSettings(const UDisplayClusterLightCardEditorProjectSettings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDisplayClusterLightCardEditorProjectSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDisplayClusterLightCardEditorProjectSettings); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDisplayClusterLightCardEditorProjectSettings) \
+	NO_API virtual ~UDisplayClusterLightCardEditorProjectSettings();
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_15_PROLOG
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_ACCESSORS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_INCLASS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_ACCESSORS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_18_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DISPLAYCLUSTERLIGHTCARDEDITOR_API UClass* StaticClass<class UDisplayClusterLightCardEditorProjectSettings>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_47_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FDisplayClusterLightCardEditorRecentItem_Statics; \
+	DISPLAYCLUSTERLIGHTCARDEDITOR_API static class UScriptStruct* StaticStruct();
+
+
+template<> DISPLAYCLUSTERLIGHTCARDEDITOR_API UScriptStruct* StaticStruct<struct FDisplayClusterLightCardEditorRecentItem>();
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_ACCESSORS
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUDisplayClusterLightCardEditorSettings(); \
+	friend struct Z_Construct_UClass_UDisplayClusterLightCardEditorSettings_Statics; \
+public: \
+	DECLARE_CLASS(UDisplayClusterLightCardEditorSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/DisplayClusterLightCardEditor"), NO_API) \
+	DECLARE_SERIALIZER(UDisplayClusterLightCardEditorSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("EditorPerProjectUserSettings");} \
+
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_INCLASS \
+private: \
+	static void StaticRegisterNativesUDisplayClusterLightCardEditorSettings(); \
+	friend struct Z_Construct_UClass_UDisplayClusterLightCardEditorSettings_Statics; \
+public: \
+	DECLARE_CLASS(UDisplayClusterLightCardEditorSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/DisplayClusterLightCardEditor"), NO_API) \
+	DECLARE_SERIALIZER(UDisplayClusterLightCardEditorSettings) \
+	static const TCHAR* StaticConfigName() {return TEXT("EditorPerProjectUserSettings");} \
+
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UDisplayClusterLightCardEditorSettings(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDisplayClusterLightCardEditorSettings) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDisplayClusterLightCardEditorSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDisplayClusterLightCardEditorSettings); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDisplayClusterLightCardEditorSettings(UDisplayClusterLightCardEditorSettings&&); \
+	NO_API UDisplayClusterLightCardEditorSettings(const UDisplayClusterLightCardEditorSettings&); \
+public: \
+	NO_API virtual ~UDisplayClusterLightCardEditorSettings();
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UDisplayClusterLightCardEditorSettings(UDisplayClusterLightCardEditorSettings&&); \
+	NO_API UDisplayClusterLightCardEditorSettings(const UDisplayClusterLightCardEditorSettings&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UDisplayClusterLightCardEditorSettings); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UDisplayClusterLightCardEditorSettings); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UDisplayClusterLightCardEditorSettings) \
+	NO_API virtual ~UDisplayClusterLightCardEditorSettings();
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_77_PROLOG
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_ACCESSORS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_INCLASS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_ACCESSORS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h_80_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> DISPLAYCLUSTERLIGHTCARDEDITOR_API UClass* StaticClass<class UDisplayClusterLightCardEditorSettings>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_nDisplay_Source_DisplayClusterLightCardEditor_Private_Settings_DisplayClusterLightCardEditorSettings_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AssetRegistryExport.cpp.obj": [
+			"AssetRegistryExport.init.gen.cpp.obj",
+			"AssetRegistryExportCommandlet.gen.cpp.obj",
+			"AssetRegistryExportCommandlet.cpp.obj"
+		]
+	}
+}

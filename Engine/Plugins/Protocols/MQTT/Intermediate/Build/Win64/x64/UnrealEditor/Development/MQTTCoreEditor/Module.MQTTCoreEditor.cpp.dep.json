@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mqttcoreeditor\\module.mqttcoreeditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mqttcoreeditor\\definitions.mqttcoreeditor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcoreeditor\\private\\mqttcoreeditorlog.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcoreeditor\\private\\mqttcoreeditorlog.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcoreeditor\\private\\mqttcoreeditormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcoreeditor\\private\\mqttcoreeditormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcoreeditor\\public\\imqttcoreeditormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcore\\public\\mqttclientsettings.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcore\\public\\mqttshared.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcore\\public\\mqttprotocol.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttcore\\uht\\mqttprotocol.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttcore\\uht\\mqttshared.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\intermediate\\build\\win64\\unrealeditor\\inc\\mqttcore\\uht\\mqttclientsettings.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcoreeditor\\private\\mqttcoreeditorstats.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\protocols\\mqtt\\source\\mqttcoreeditor\\private\\mqttcoreeditorstats.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

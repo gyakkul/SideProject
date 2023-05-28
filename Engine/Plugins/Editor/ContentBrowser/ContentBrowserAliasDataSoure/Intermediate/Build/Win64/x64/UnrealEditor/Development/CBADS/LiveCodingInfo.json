@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CBADS.cpp.obj": [
+			"ContentBrowserAliasDataSource.init.gen.cpp.obj",
+			"ContentBrowserAliasDataSource.cpp.obj",
+			"ContentBrowserAliasDataSourceModule.cpp.obj"
+		]
+	}
+}

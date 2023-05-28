@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithFBXTranslator.cpp.obj": [
+			"DatasmithFBXImportOptions.gen.cpp.obj",
+			"DatasmithFBXTranslator.init.gen.cpp.obj",
+			"DatasmithFBXFileImporter.cpp.obj",
+			"DatasmithFBXImporter.cpp.obj",
+			"DatasmithFBXScene.cpp.obj",
+			"DatasmithFBXSceneProcessor.cpp.obj",
+			"DatasmithFBXTranslatorModule.cpp.obj"
+		]
+	}
+}

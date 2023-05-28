@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorWidgets.cpp.obj": [
+			"EditorWidgets.init.gen.cpp.obj",
+			"FilterBarConfig.gen.cpp.obj",
+			"SAssetFilterBar.gen.cpp.obj",
+			"EditorWidgetsModule.cpp.obj",
+			"EditorWidgetsStyle.cpp.obj",
+			"CustomClassFilterData.cpp.obj",
+			"FilterBarConfig.cpp.obj",
+			"SAssetFilterBar.cpp.obj",
+			"ObjectNameEditSinkRegistry.cpp.obj",
+			"SAssetDiscoveryIndicator.cpp.obj",
+			"SAssetDropTarget.cpp.obj",
+			"SAssetSearchBox.cpp.obj",
+			"SDropTarget.cpp.obj",
+			"SEnumCombo.cpp.obj",
+			"SMetaDataView.cpp.obj",
+			"SObjectNameEditableTextBox.cpp.obj",
+			"STemplateStringEditableTextBox.cpp.obj",
+			"STextPropertyEditableTextBox.cpp.obj",
+			"STransportControl.cpp.obj",
+			"TemplateStringSyntaxHighlighterMarshaller.cpp.obj"
+		]
+	}
+}

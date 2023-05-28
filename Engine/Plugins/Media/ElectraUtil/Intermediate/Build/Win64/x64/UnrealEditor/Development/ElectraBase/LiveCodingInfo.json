@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElectraBase.cpp.obj": [
+			"ElectraBaseModule.cpp.obj",
+			"ParameterDictionary.cpp.obj",
+			"PlayerTime.cpp.obj",
+			"StringHelpers.cpp.obj",
+			"TimeUtilities.cpp.obj",
+			"URLParser.cpp.obj",
+			"UtilsMP4.cpp.obj"
+		]
+	}
+}

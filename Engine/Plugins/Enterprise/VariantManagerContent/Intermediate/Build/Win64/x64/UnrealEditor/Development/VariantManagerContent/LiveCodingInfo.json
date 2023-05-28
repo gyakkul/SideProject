@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VariantManagerContent.cpp.obj": [
+			"VariantManagerContent.init.gen.cpp.obj",
+			"FunctionCaller.cpp.obj",
+			"LevelVariantSets.cpp.obj",
+			"LevelVariantSetsActor.cpp.obj",
+			"LevelVariantSetsFunctionDirector.cpp.obj",
+			"PropertyValue.cpp.obj",
+			"PropertyValueColor.cpp.obj",
+			"PropertyValueMaterial.cpp.obj",
+			"PropertyValueOption.cpp.obj",
+			"PropertyValueSoftObject.cpp.obj",
+			"SwitchActor.cpp.obj",
+			"ThumbnailGenerator.cpp.obj",
+			"Variant.cpp.obj",
+			"VariantManagerContentModule.cpp.obj",
+			"VariantManagerObjectVersion.cpp.obj",
+			"VariantObjectBinding.cpp.obj",
+			"VariantSet.cpp.obj"
+		]
+	}
+}

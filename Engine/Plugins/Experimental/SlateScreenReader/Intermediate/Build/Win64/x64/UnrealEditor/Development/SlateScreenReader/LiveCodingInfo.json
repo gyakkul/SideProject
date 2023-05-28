@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SlateScreenReader.cpp.obj": [
+			"SlateScreenReader.init.gen.cpp.obj",
+			"SlateScreenReaderEngineSubsystem.gen.cpp.obj",
+			"SlateScreenReader.cpp.obj",
+			"SlateScreenReaderBuilder.cpp.obj",
+			"SlateScreenReaderEngineSubsystem.cpp.obj",
+			"SlateScreenReaderModule.cpp.obj"
+		]
+	}
+}

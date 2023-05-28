@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RewindDebuggerInterface.cpp.obj": [
+			"IRewindDebugger.gen.cpp.obj",
+			"RewindDebuggerInterface.init.gen.cpp.obj",
+			"RewindDebuggerInterface.cpp.obj"
+		]
+	}
+}

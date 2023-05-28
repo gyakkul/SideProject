@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ProceduralMeshComponentEditor.cpp.obj": [
+			"ProceduralMeshComponentDetails.cpp.obj",
+			"ProceduralMeshComponentEditorPlugin.cpp.obj"
+		]
+	}
+}

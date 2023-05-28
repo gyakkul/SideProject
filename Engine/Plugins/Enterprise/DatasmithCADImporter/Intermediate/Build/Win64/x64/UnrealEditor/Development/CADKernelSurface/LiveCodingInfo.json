@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CADKernelSurface.cpp.obj": [
+			"CADKernelSurface.init.gen.cpp.obj",
+			"CADKernelSurfaceExtension.gen.cpp.obj",
+			"CADKernelSurfaceExtension.cpp.obj",
+			"CADKernelSurfaceModule.cpp.obj"
+		]
+	}
+}

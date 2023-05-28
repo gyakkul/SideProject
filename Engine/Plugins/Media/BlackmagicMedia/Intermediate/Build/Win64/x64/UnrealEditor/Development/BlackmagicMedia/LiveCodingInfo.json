@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlackmagicMedia.cpp.obj": [
+			"BlackmagicCustomTimeStep.gen.cpp.obj",
+			"BlackmagicDeviceProvider.gen.cpp.obj",
+			"BlackmagicMedia.init.gen.cpp.obj",
+			"BlackmagicMediaSource.gen.cpp.obj",
+			"BlackmagicTimecodeProvider.gen.cpp.obj",
+			"BlackmagicCustomTimeStep.cpp.obj",
+			"BlackmagicMediaSource.cpp.obj",
+			"BlackmagicTimecodeProvider.cpp.obj",
+			"BlackmagicMediaModule.cpp.obj",
+			"BlackmagicDeviceProvider.cpp.obj",
+			"BlackmagicMediaPlayer.cpp.obj"
+		]
+	}
+}

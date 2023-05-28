@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithInterchangeScripting.cpp.obj": [
+			"DatasmithInterchangeScripting.gen.cpp.obj",
+			"DatasmithInterchangeScripting.init.gen.cpp.obj",
+			"DatasmithInterchangeScripting.cpp.obj",
+			"DatasmithInterchangeScriptingModule.cpp.obj"
+		]
+	}
+}

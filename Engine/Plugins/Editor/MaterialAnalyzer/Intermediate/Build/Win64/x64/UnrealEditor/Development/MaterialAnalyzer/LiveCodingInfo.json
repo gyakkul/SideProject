@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MaterialAnalyzer.cpp.obj": [
+			"MaterialAnalyzerModule.cpp.obj",
+			"SAnalyzedMaterialNodeWidgetItem.cpp.obj",
+			"SMaterialAnalyzer.cpp.obj"
+		]
+	}
+}

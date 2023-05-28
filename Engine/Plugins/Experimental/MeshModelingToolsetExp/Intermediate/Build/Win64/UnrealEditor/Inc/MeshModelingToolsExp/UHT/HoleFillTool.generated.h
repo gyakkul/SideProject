@@ -1,0 +1,577 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "HoleFillTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_HoleFillTool_generated_h
+#error "HoleFillTool.generated.h already included, missing '#pragma once' in HoleFillTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_HoleFillTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHoleFillToolBuilder(); \
+	friend struct Z_Construct_UClass_UHoleFillToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_INCLASS \
+private: \
+	static void StaticRegisterNativesUHoleFillToolBuilder(); \
+	friend struct Z_Construct_UClass_UHoleFillToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillToolBuilder(UHoleFillToolBuilder&&); \
+	NO_API UHoleFillToolBuilder(const UHoleFillToolBuilder&); \
+public: \
+	NO_API virtual ~UHoleFillToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillToolBuilder(UHoleFillToolBuilder&&); \
+	NO_API UHoleFillToolBuilder(const UHoleFillToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillToolBuilder) \
+	NO_API virtual ~UHoleFillToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_29_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_32_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UHoleFillToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSmoothHoleFillProperties(); \
+	friend struct Z_Construct_UClass_USmoothHoleFillProperties_Statics; \
+public: \
+	DECLARE_CLASS(USmoothHoleFillProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothHoleFillProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_INCLASS \
+private: \
+	static void StaticRegisterNativesUSmoothHoleFillProperties(); \
+	friend struct Z_Construct_UClass_USmoothHoleFillProperties_Statics; \
+public: \
+	DECLARE_CLASS(USmoothHoleFillProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(USmoothHoleFillProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API USmoothHoleFillProperties(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USmoothHoleFillProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothHoleFillProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothHoleFillProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothHoleFillProperties(USmoothHoleFillProperties&&); \
+	NO_API USmoothHoleFillProperties(const USmoothHoleFillProperties&); \
+public: \
+	NO_API virtual ~USmoothHoleFillProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API USmoothHoleFillProperties(USmoothHoleFillProperties&&); \
+	NO_API USmoothHoleFillProperties(const USmoothHoleFillProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USmoothHoleFillProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USmoothHoleFillProperties); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USmoothHoleFillProperties) \
+	NO_API virtual ~USmoothHoleFillProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_42_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_45_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class USmoothHoleFillProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHoleFillToolProperties(); \
+	friend struct Z_Construct_UClass_UHoleFillToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_INCLASS \
+private: \
+	static void StaticRegisterNativesUHoleFillToolProperties(); \
+	friend struct Z_Construct_UClass_UHoleFillToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillToolProperties(UHoleFillToolProperties&&); \
+	NO_API UHoleFillToolProperties(const UHoleFillToolProperties&); \
+public: \
+	NO_API virtual ~UHoleFillToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillToolProperties(UHoleFillToolProperties&&); \
+	NO_API UHoleFillToolProperties(const UHoleFillToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillToolProperties) \
+	NO_API virtual ~UHoleFillToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_110_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_113_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UHoleFillToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execClear); \
+	DECLARE_FUNCTION(execSelectAll);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execClear); \
+	DECLARE_FUNCTION(execSelectAll);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHoleFillToolActions(); \
+	friend struct Z_Construct_UClass_UHoleFillToolActions_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillToolActions, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillToolActions)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_INCLASS \
+private: \
+	static void StaticRegisterNativesUHoleFillToolActions(); \
+	friend struct Z_Construct_UClass_UHoleFillToolActions_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillToolActions, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillToolActions)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillToolActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillToolActions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillToolActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillToolActions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillToolActions(UHoleFillToolActions&&); \
+	NO_API UHoleFillToolActions(const UHoleFillToolActions&); \
+public: \
+	NO_API virtual ~UHoleFillToolActions();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillToolActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillToolActions(UHoleFillToolActions&&); \
+	NO_API UHoleFillToolActions(const UHoleFillToolActions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillToolActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillToolActions); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillToolActions) \
+	NO_API virtual ~UHoleFillToolActions();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_138_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_141_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UHoleFillToolActions>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHoleFillStatisticsProperties(); \
+	friend struct Z_Construct_UClass_UHoleFillStatisticsProperties_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillStatisticsProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillStatisticsProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_INCLASS \
+private: \
+	static void StaticRegisterNativesUHoleFillStatisticsProperties(); \
+	friend struct Z_Construct_UClass_UHoleFillStatisticsProperties_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillStatisticsProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillStatisticsProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillStatisticsProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillStatisticsProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillStatisticsProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillStatisticsProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillStatisticsProperties(UHoleFillStatisticsProperties&&); \
+	NO_API UHoleFillStatisticsProperties(const UHoleFillStatisticsProperties&); \
+public: \
+	NO_API virtual ~UHoleFillStatisticsProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillStatisticsProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillStatisticsProperties(UHoleFillStatisticsProperties&&); \
+	NO_API UHoleFillStatisticsProperties(const UHoleFillStatisticsProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillStatisticsProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillStatisticsProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillStatisticsProperties) \
+	NO_API virtual ~UHoleFillStatisticsProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_168_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_171_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UHoleFillStatisticsProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHoleFillOperatorFactory(); \
+	friend struct Z_Construct_UClass_UHoleFillOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_INCLASS \
+private: \
+	static void StaticRegisterNativesUHoleFillOperatorFactory(); \
+	friend struct Z_Construct_UClass_UHoleFillOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillOperatorFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillOperatorFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillOperatorFactory(UHoleFillOperatorFactory&&); \
+	NO_API UHoleFillOperatorFactory(const UHoleFillOperatorFactory&); \
+public: \
+	NO_API virtual ~UHoleFillOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillOperatorFactory(UHoleFillOperatorFactory&&); \
+	NO_API UHoleFillOperatorFactory(const UHoleFillOperatorFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillOperatorFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillOperatorFactory) \
+	NO_API virtual ~UHoleFillOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_199_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_202_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UHoleFillOperatorFactory>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUHoleFillTool(); \
+	friend struct Z_Construct_UClass_UHoleFillTool_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillTool, USingleSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_INCLASS \
+private: \
+	static void StaticRegisterNativesUHoleFillTool(); \
+	friend struct Z_Construct_UClass_UHoleFillTool_Statics; \
+public: \
+	DECLARE_CLASS(UHoleFillTool, USingleSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UHoleFillTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHoleFillTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillTool(UHoleFillTool&&); \
+	NO_API UHoleFillTool(const UHoleFillTool&); \
+public: \
+	NO_API virtual ~UHoleFillTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UHoleFillTool(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UHoleFillTool(UHoleFillTool&&); \
+	NO_API UHoleFillTool(const UHoleFillTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UHoleFillTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHoleFillTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHoleFillTool) \
+	NO_API virtual ~UHoleFillTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_217_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h_220_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UHoleFillTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_HoleFillTool_h
+
+
+#define FOREACH_ENUM_EHOLEFILLTOOLACTIONS(op) \
+	op(EHoleFillToolActions::NoAction) \
+	op(EHoleFillToolActions::SelectAll) \
+	op(EHoleFillToolActions::ClearSelection) 
+
+enum class EHoleFillToolActions;
+template<> struct TIsUEnumClass<EHoleFillToolActions> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EHoleFillToolActions>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

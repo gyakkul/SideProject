@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ControlFlows.cpp.obj": [
+			"ControlFlow.cpp.obj",
+			"ControlFlowConcurrency.cpp.obj",
+			"ControlFlowManager.cpp.obj",
+			"ControlFlowNode.cpp.obj",
+			"ControlFlows.cpp.obj",
+			"ControlFlowTask.cpp.obj"
+		]
+	}
+}

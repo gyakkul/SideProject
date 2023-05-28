@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StageMonitorEditor.cpp.obj": [
+			"SDataProviderActivityFilter.gen.cpp.obj",
+			"StageMonitorEditor.init.gen.cpp.obj",
+			"StageMonitorEditorSettings.gen.cpp.obj",
+			"SStageMonitorPanel.cpp.obj",
+			"StageMessageTypeDetailCustomization.cpp.obj",
+			"StageMonitorEditorModule.cpp.obj",
+			"StageMonitorEditorStyle.cpp.obj",
+			"SDataProviderActivities.cpp.obj",
+			"SDataProviderActivityFilter.cpp.obj",
+			"SDataProviderListView.cpp.obj"
+		]
+	}
+}

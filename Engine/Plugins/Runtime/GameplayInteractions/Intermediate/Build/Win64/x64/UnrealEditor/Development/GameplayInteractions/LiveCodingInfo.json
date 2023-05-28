@@ -1,0 +1,36 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayInteractions.cpp.obj": [
+			"GameplayActuationState.gen.cpp.obj",
+			"GameplayActuationStateProvider.gen.cpp.obj",
+			"GameplayInteractionSmartObjectBehaviorDefinition.gen.cpp.obj",
+			"GameplayInteractionsModule.init.gen.cpp.obj",
+			"GameplayTaskTransition.gen.cpp.obj",
+			"AITask_UseGameplayInteraction.cpp.obj",
+			"GameplayActuationComponent.cpp.obj",
+			"GameplayInteractionContext.cpp.obj",
+			"GameplayInteractionsModule.cpp.obj",
+			"GameplayInteractionStateTreeSchema.cpp.obj",
+			"GameplayInteractionsTypes.cpp.obj",
+			"GameplayTask_MoveTo.cpp.obj",
+			"GameplayTask_MoveToContextualAnim.cpp.obj",
+			"GameplayTask_MoveToStandTransition.cpp.obj",
+			"GameplayTask_PlayContextualAnim.cpp.obj",
+			"GameplayTask_StandAt.cpp.obj",
+			"GameplayTask_StandToMoveTransition.cpp.obj",
+			"GameplayTask_SuddenTurnTransition.cpp.obj",
+			"ContextualAnimStateTreeTask.cpp.obj",
+			"GameplayInteractionConditions.cpp.obj",
+			"GameplayInteractionFindSlotTask.cpp.obj",
+			"GameplayInteractionGetSlotActorTask.cpp.obj",
+			"GameplayInteractionListenSlotEventsTask.cpp.obj",
+			"GameplayInteractionModifySlotTagTask.cpp.obj",
+			"GameplayInteractionSendSlotEventTask.cpp.obj",
+			"GameplayInteractionSetSlotEnabledTask.cpp.obj",
+			"GameplayInteractionSyncSlotTagStateTask.cpp.obj",
+			"GameplayInteractionSyncSlotTagTransition.cpp.obj",
+			"PlayMontageStateTreeTask.cpp.obj"
+		]
+	}
+}

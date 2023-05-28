@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Soundscape.cpp.obj": [
+			"SoundScape.gen.cpp.obj",
+			"Soundscape.init.gen.cpp.obj",
+			"SoundscapeColor.gen.cpp.obj",
+			"SoundscapeColorPoint.gen.cpp.obj",
+			"SoundScapePalette.gen.cpp.obj",
+			"SoundscapeSettings.gen.cpp.obj",
+			"SoundscapeSubsystem.gen.cpp.obj",
+			"SoundScape.cpp.obj",
+			"SoundscapeColor.cpp.obj",
+			"SoundscapeColorPoint.cpp.obj",
+			"SoundScapeModule.cpp.obj",
+			"SoundScapePalette.cpp.obj",
+			"SoundscapeSettings.cpp.obj",
+			"SoundscapeSubsystem.cpp.obj"
+		]
+	}
+}

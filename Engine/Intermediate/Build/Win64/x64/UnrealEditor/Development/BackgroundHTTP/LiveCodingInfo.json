@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BackgroundHTTP.cpp.obj": [
+			"BackgroundHttpManagerImpl.cpp.obj",
+			"BackgroundHttpModule.cpp.obj",
+			"BackgroundHttpNotificationObject.cpp.obj",
+			"BackgroundHttpRequestImpl.cpp.obj",
+			"BackgroundHttpResponseImpl.cpp.obj",
+			"GenericPlatformBackgroundHttp.cpp.obj",
+			"GenericPlatformBackgroundHttpManager.cpp.obj",
+			"GenericPlatformBackgroundHttpRequest.cpp.obj",
+			"GenericPlatformBackgroundHttpResponse.cpp.obj",
+			"ModularFeaturePlatformBackgroundHttp.cpp.obj"
+		]
+	}
+}

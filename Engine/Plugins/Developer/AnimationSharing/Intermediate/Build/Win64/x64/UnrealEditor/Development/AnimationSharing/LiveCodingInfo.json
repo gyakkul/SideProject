@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationSharing.cpp.obj": [
+			"AnimationSharing.init.gen.cpp.obj",
+			"AnimationSharingTypes.gen.cpp.obj",
+			"AdditiveAnimationInstance.cpp.obj",
+			"AnimationSharingInstances.cpp.obj",
+			"AnimationSharingManager.cpp.obj",
+			"AnimationSharingModule.cpp.obj",
+			"AnimationSharingSetup.cpp.obj",
+			"TransitionBlendInstance.cpp.obj"
+		]
+	}
+}

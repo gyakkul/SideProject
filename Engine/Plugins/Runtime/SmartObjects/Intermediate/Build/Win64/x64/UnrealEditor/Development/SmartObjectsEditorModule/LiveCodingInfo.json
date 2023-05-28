@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SmartObjectsEditorModule.cpp.obj": [
+			"SmartObjectsEditorModule.init.gen.cpp.obj",
+			"SmartObjectDefinitionDetails.cpp.obj",
+			"SmartObjectSlotDefinitionDetails.cpp.obj",
+			"SmartObjectSlotReferenceDetails.cpp.obj",
+			"SmartObjectAssetEditor.cpp.obj",
+			"SmartObjectAssetEditorSettings.cpp.obj",
+			"SmartObjectAssetEditorViewportClient.cpp.obj",
+			"SmartObjectAssetToolkit.cpp.obj",
+			"SmartObjectAssetTypeActions.cpp.obj",
+			"SmartObjectComponentVisualizer.cpp.obj",
+			"SmartObjectDefinitionFactory.cpp.obj",
+			"SmartObjectEditorStyle.cpp.obj",
+			"SmartObjectsEditorModule.cpp.obj",
+			"SSmartObjectViewport.cpp.obj",
+			"SSmartObjectViewportToolbar.cpp.obj",
+			"WorldPartitionSmartObjectCollectionBuilder.cpp.obj"
+		]
+	}
+}

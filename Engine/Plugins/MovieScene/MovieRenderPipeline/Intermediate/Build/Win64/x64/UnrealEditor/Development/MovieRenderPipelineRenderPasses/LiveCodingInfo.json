@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MovieRenderPipelineRenderPasses.cpp.obj": [
+			"MovieRenderPipelineRenderPasses.init.gen.cpp.obj",
+			"MoviePipelineDeferredPasses.cpp.obj",
+			"MoviePipelineEXROutput.cpp.obj",
+			"MoviePipelineImagePassBase.cpp.obj",
+			"MoviePipelineImageSequenceOutput.cpp.obj",
+			"MoviePipelineWaveOutput.cpp.obj",
+			"MovieRenderPipelineRenderPassesModule.cpp.obj"
+		]
+	}
+}

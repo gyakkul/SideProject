@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WinDualShock.cpp.obj": [
+			"WinDualShock.init.gen.cpp.obj",
+			"WinDualShockSettings.gen.cpp.obj",
+			"WinDualShock.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,3225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EpicGames.BuildGraph</name>
+    </assembly>
+    <members>
+        <member name="T:EpicGames.BuildGraph.BgAgentDef">
+            <summary>
+            Stores a list of nodes which can be executed on a single agent
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAgentDef.Name">
+            <summary>
+            Name of this agent. Used for display purposes in a build system.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAgentDef.PossibleTypes">
+            <summary>
+            Array of valid agent types that these nodes may run on. When running in the build system, this determines the class of machine that should
+            be selected to run these nodes. The first defined agent type for this branch will be used.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAgentDef.Nodes">
+            <summary>
+            List of nodes in this agent group.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAgentDef.Diagnostics">
+            <summary>
+            Diagnostics to output if executing this agent
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgAgentDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">Name of this agent group</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgAgentDefSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgAgentDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgAggregateDef">
+            <summary>
+            Defines a agggregate within a graph, which give the combined status of one or more job steps, and allow building several steps at once.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAggregateDef.Name">
+            <summary>
+            Name of this badge
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAggregateDef.RequiredNodes">
+            <summary>
+            Set of nodes that must be run for this label to be shown.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgAggregateDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">Name of this aggregate</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgAggregateDef.ToString">
+            <summary>
+            Get the name of this label
+            </summary>
+            <returns>The name of this label</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgAggregateExpressionDef">
+            <summary>
+            Aggregate that was created from bytecode
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAggregateExpressionDef.Name">
+            <inheritdoc cref="P:EpicGames.BuildGraph.BgAggregateDef.Name"/>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAggregateExpressionDef.RequiredNodes">
+            <inheritdoc cref="P:EpicGames.BuildGraph.BgAggregateDef.RequiredNodes"/>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgAggregateExpressionDef.Label">
+            <summary>
+            Labels to add this aggregate to
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgAggregateExpressionDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgAggregateExpressionDef.ToAggregateDef">
+            <summary>
+            Construct a BgAggregateDef
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgAggregateExpressionDefSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgAggregateExpressionDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgBadgeDef">
+            <summary>
+            Defines a badge which gives an at-a-glance summary of part of the build, and can be displayed in UGS
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBadgeDef.Name">
+            <summary>
+            Name of this badge
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBadgeDef.Project">
+            <summary>
+            Depot path to the project that this badge applies to. Used for filtering in UGS.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBadgeDef.Change">
+            <summary>
+            The changelist to post the badge for
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBadgeDef.Nodes">
+            <summary>
+            Set of nodes that this badge reports the status of
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBadgeDef.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="inName">Name of this report</param>
+            <param name="inProject">Depot path to the project that this badge applies to</param>
+            <param name="inChange">The changelist to post the badge for</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBadgeDef.ToString">
+            <summary>
+            Get the name of this badge
+            </summary>
+            <returns>The name of this badge</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgBytecodeWriter">
+            <summary>
+            Helper class for writing BuildGraph bytecode to a buffer.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteOpcode(EpicGames.BuildGraph.BgOpcode)">
+            <summary>
+            Writes an opcode to the output
+            </summary>
+            <param name="opcode"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteString(System.String)">
+            <summary>
+            Writes a string to the output
+            </summary>
+            <param name="str"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteName(System.String)">
+            <summary>
+            Writes a reference to an interned string to the output
+            </summary>
+            <param name="name">Name to write</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteSignedInteger(System.Int64)">
+            <summary>
+            Writes a signed integer value to the output
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteUnsignedInteger(System.Int32)">
+            <summary>
+            Writes an unsigned integer to the output
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteUnsignedInteger(System.UInt64)">
+            <summary>
+            Writes an unsigned integer to the output
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteExpr(EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Writes an expression to the output buffer
+            </summary>
+            <param name="expr"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteExprAsFragment(EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Writes an expression as a standalone fragment, encoding just the fragment index into the output stream
+            </summary>
+            <param name="expr"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeWriter.WriteThunk(EpicGames.BuildGraph.BgThunkDef)">
+            <summary>
+            Writes a thunk to native code.
+            </summary>
+            <param name="thunk">Method to be called</param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgBytecodeVersion">
+            <summary>
+            Version numbers for bytecode streams
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgCompiler">
+            <summary>
+            Helper class for writing BuildGraph bytecode to a buffer.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteExpr(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteExprAsFragment(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.RegisterFragment(EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Registers an expression for compilation into a new fragment
+            </summary>
+            <param name="expr"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteOpcode(EpicGames.BuildGraph.BgOpcode)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteName(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteString(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteSignedInteger(System.Int64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteUnsignedInteger(System.UInt64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.FragmentCollector.WriteThunk(EpicGames.BuildGraph.BgThunkDef)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteExpr(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteExprAsFragment(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteOpcode(EpicGames.BuildGraph.BgOpcode)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteName(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteString(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteSignedInteger(System.Int64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteUnsignedInteger(System.UInt64)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.ForwardWriter.WriteThunk(EpicGames.BuildGraph.BgThunkDef)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgCompiler.Compile(EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Compiles the given expression into bytecode
+            </summary>
+            <param name="expr">Expression to compile</param>
+            <returns>Compiled bytecode for the expression, suitable for passing to <see cref="T:EpicGames.BuildGraph.BgInterpreter"/></returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgContext">
+            <summary>
+            Context for executing a node method
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgContext.Stream">
+            <summary>
+            The stream executing the current build
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgContext.Change">
+            <summary>
+            Changelist being built
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgContext.CodeChange">
+            <summary>
+            The code changelist currently being built
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgContext.EngineVersion">
+            <summary>
+            Version number for the engine
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgContext.IsBuildMachine">
+            <summary>
+            Whether this machine is a builder
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgContext.BuildProducts">
+            <summary>
+            All outputs for the node
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.#ctor(System.Collections.Generic.Dictionary{System.String,EpicGames.Core.FileSet})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get(EpicGames.BuildGraph.Expressions.BgBool)">
+            <summary>
+            Resolve a boolean expression to a value
+            </summary>
+            <param name="expr">The boolean expression</param>
+            <returns>Value of the expression</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get(EpicGames.BuildGraph.Expressions.BgInt)">
+            <summary>
+            Resolve an integer expression to a value
+            </summary>
+            <param name="expr">The integer expression</param>
+            <returns>Value of the expression</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get(EpicGames.BuildGraph.Expressions.BgString)">
+            <summary>
+            Resolve a string expression to a value
+            </summary>
+            <param name="expr">The string expression</param>
+            <returns>Value of the expression</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get``1(EpicGames.BuildGraph.Expressions.BgEnum{``0})">
+            <summary>
+            Resolves an enum expression to a value
+            </summary>
+            <typeparam name="TEnum">The enum type</typeparam>
+            <param name="expr">Enum expression</param>
+            <returns>The enum value</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get``1(EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgEnum{``0}})">
+            <summary>
+            Resolve a list of enums to a value
+            </summary>
+            <typeparam name="TEnum">The enum type</typeparam>
+            <param name="expr">Enum expression</param>
+            <returns>The enum value</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get(EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgString})">
+            <summary>
+            Resolve a list of strings
+            </summary>
+            <param name="expr">List expression</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get(EpicGames.BuildGraph.Expressions.BgFileSet)">
+            <summary>
+            Resolve a file set
+            </summary>
+            <param name="fileSet">The token expression</param>
+            <returns>Set of files for the token</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgContext.Get(EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgFileSet})">
+            <summary>
+            Resolve a file set
+            </summary>
+            <param name="fileSets">The token expression</param>
+            <returns>Set of files for the token</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgDiagnosticDef">
+            <summary>
+            Diagnostic message from the graph script. These messages are parsed at startup, then culled along with the rest of the graph nodes before output. Doing so
+            allows errors and warnings which are only output if a node is part of the graph being executed.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgDiagnosticDef.File">
+            <summary>
+            File containing the diagnostic
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgDiagnosticDef.Line">
+            <summary>
+            Line number containing the diagnostic
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgDiagnosticDef.Level">
+            <summary>
+            The diagnostic event type
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgDiagnosticDef.Message">
+            <summary>
+            The message to display
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgDiagnosticDef.#ctor(System.String,System.Int32,Microsoft.Extensions.Logging.LogLevel,System.String)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.GraphPrintOptions">
+            <summary>
+            Options for how the graph should be printed
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.GraphPrintOptions.None">
+            <summary>
+            No options specified
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.GraphPrintOptions.ShowCommandLineOptions">
+            <summary>
+            Includes a list of the graph options
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.GraphPrintOptions.ShowDependencies">
+            <summary>
+            Includes the list of dependencies for each node
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.GraphPrintOptions.ShowNotifications">
+            <summary>
+            Includes the list of notifiers for each node
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgGraphDef">
+            <summary>
+            Definition of a graph.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.Options">
+            <summary>
+            List of options, in the order they were specified
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.Agents">
+            <summary>
+            List of agents containing nodes to execute
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.NameToAgent">
+            <summary>
+            Mapping from name to agent
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.NameToNode">
+            <summary>
+            Mapping of names to the corresponding node.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.NameToReport">
+            <summary>
+            Mapping of names to the corresponding report.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.TagNameToNodeOutput">
+            <summary>
+            Mapping of names to their corresponding node output.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.NameToAggregate">
+            <summary>
+            Mapping of aggregate names to their respective nodes
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.Badges">
+            <summary>
+            List of badges that can be displayed for this build
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.Labels">
+            <summary>
+            List of labels that can be displayed for this build
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphDef.Diagnostics">
+            <summary>
+            Diagnostics at graph scope
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.ContainsName(System.String)">
+            <summary>
+            Checks whether a given name already exists
+            </summary>
+            <param name="name">The name to check.</param>
+            <returns>True if the name exists, false otherwise.</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.GetAllDiagnostics">
+            <summary>
+            Gets diagnostics from all graph structures
+            </summary>
+            <returns>List of diagnostics</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.TryResolveReference(System.String,EpicGames.BuildGraph.BgNodeDef[]@)">
+            <summary>
+            Tries to resolve the given name to one or more nodes. Checks for aggregates, and actual nodes.
+            </summary>
+            <param name="name">The name to search for</param>
+            <param name="outNodes">If the name is a match, receives an array of nodes and their output names</param>
+            <returns>True if the name was found, false otherwise.</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.TryResolveInputReference(System.String,EpicGames.BuildGraph.BgNodeOutput[]@)">
+            <summary>
+            Tries to resolve the given name to one or more node outputs. Checks for aggregates, and actual nodes.
+            </summary>
+            <param name="name">The name to search for</param>
+            <param name="outOutputs">If the name is a match, receives an array of nodes and their output names</param>
+            <returns>True if the name was found, false otherwise.</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.Select(System.Collections.Generic.IEnumerable{EpicGames.BuildGraph.BgNodeDef})">
+            <summary>
+            Cull the graph to only include the given nodes and their dependencies
+            </summary>
+            <param name="targetNodes">A set of target nodes to build</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.Export(EpicGames.Core.FileReference,System.Collections.Generic.HashSet{EpicGames.BuildGraph.BgNodeDef})">
+            <summary>
+            Export the build graph to a Json file, for parallel execution by the build system
+            </summary>
+            <param name="file">Output file to write</param>
+            <param name="completedNodes">Set of nodes which have been completed</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.ExportForHorde(EpicGames.Core.FileReference)">
+            <summary>
+            Export the build graph to a Json file for parsing by Horde
+            </summary>
+            <param name="file">Output file to write</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphDef.Print(System.Collections.Generic.HashSet{EpicGames.BuildGraph.BgNodeDef},EpicGames.BuildGraph.GraphPrintOptions,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Print the contents of the graph
+            </summary>
+            <param name="completedNodes">Set of nodes which are already complete</param>
+            <param name="printOptions">Options for how to print the graph</param>
+            <param name="logger"></param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgGraphExpressionDef">
+            <summary>
+            Definition of a graph from bytecode. Can be converted to regular graph definition.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphExpressionDef.Nodes">
+            <summary>
+            Nodes for the graph
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgGraphExpressionDef.Aggregates">
+            <summary>
+            Aggregates for the graph
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgGraphExpressionDef.ToGraphDef">
+            <summary>
+            Creates a graph definition from this template
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgBytecodeException">
+            <summary>
+            Exception thrown by the runtime
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBytecodeException.SourceFile">
+            <summary>
+            Source file that the error was thrown from
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBytecodeException.SourceLine">
+            <summary>
+            Line number that threw the exception
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBytecodeException.Diagnostic">
+            <summary>
+            Message to display
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeException.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="sourceFile"></param>
+            <param name="sourceLine"></param>
+            <param name="diagnostic"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBytecodeException.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgInterpreter">
+            <summary>
+            Interprets compiled buildgraph bytecode
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgInterpreter.OptionDefs">
+            <summary>
+            The option definitions that were parsed during execution
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.#ctor(System.Byte[],EpicGames.BuildGraph.BgThunkDef[],System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="data"></param>
+            <param name="thunks">Thunks to native code</param>
+            <param name="options">Options for evaluating the graph</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.Evaluate">
+            <summary>
+            Evaluates the graph
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.ReadOpcode(EpicGames.BuildGraph.BgInterpreter.Frame)">
+            <summary>
+            Reads an opcode from the input stream
+            </summary>
+            <returns>The opcode that was read</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.ReadName(EpicGames.BuildGraph.BgInterpreter.Frame)">
+            <summary>
+            Reads a name from the input stream
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.ReadString(EpicGames.BuildGraph.BgInterpreter.Frame)">
+            <summary>
+            Reads a string from the input stream
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.ReadSignedInteger(EpicGames.BuildGraph.BgInterpreter.Frame)">
+            <summary>
+            Writes a signed integer value to the output
+            </summary>
+            <returns>the value that was read</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.ReadUnsignedInteger(EpicGames.BuildGraph.BgInterpreter.Frame)">
+            <summary>
+            Read an unsigned integer value from the input
+            </summary>
+            <returns>The value that was read</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.DecodeSignedInteger(System.UInt64)">
+            <summary>
+            Decode a signed integer using the lower bit for the sign flag, allowing us to encode it more efficiently as a <see cref="T:EpicGames.Core.VarInt"/>
+            </summary>
+            <param name="value">Value to be decoded</param>
+            <returns>The decoded value</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgInterpreter.Disassemble(Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Disassemble the current script to a logger
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgLabelChange">
+            <summary>
+            Which changelist to show a UGS badge for
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgLabelChange.Current">
+            <summary>
+            The current changelist being built
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgLabelChange.Code">
+            <summary>
+            The last code changelist
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgLabelDef">
+            <summary>
+            Defines a label within a graph. Labels are similar to badges, and give the combined status of one or more job steps. Unlike badges, they
+            separate the requirements for its status and optional nodes to be included in its status, allowing this to be handled externally.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgLabelDef.DashboardName">
+            <summary>
+            Name of this badge
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgLabelDef.DashboardCategory">
+            <summary>
+            Category for this label
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgLabelDef.UgsBadge">
+            <summary>
+            Name of the badge in UGS
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgLabelDef.UgsProject">
+            <summary>
+            Path to the project folder in UGS
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgLabelDef.Change">
+            <summary>
+            Which change to show the badge for
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgLabelDef.RequiredNodes">
+            <summary>
+            Set of nodes that must be run for this label to be shown.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgLabelDef.IncludedNodes">
+            <summary>
+            Set of nodes that will be included in this label if present.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgLabelDef.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgLabelDef.#ctor(System.String,System.String,System.String,System.String,EpicGames.BuildGraph.BgLabelChange)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="inDashboardName">Name of this label</param>
+            <param name="inDashboardCategory">Type of this label</param>
+            <param name="inUgsBadge">The UGS badge name</param>
+            <param name="inUgsProject">Project to display this badge for</param>
+            <param name="inChange">The change to show this badge on in UGS</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgLabelDef.ToString">
+            <summary>
+            Get the name of this label
+            </summary>
+            <returns>The name of this label</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgNodeOutput">
+            <summary>
+            Reference to an output tag from a particular node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeOutput.ProducingNode">
+            <summary>
+            The node which produces the given output
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeOutput.TagName">
+            <summary>
+            Name of the tag
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeOutput.#ctor(EpicGames.BuildGraph.BgNodeDef,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="inProducingNode">Node which produces the given output</param>
+            <param name="inTagName">Name of the tag</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeOutput.ToString">
+            <summary>
+            Returns a string representation of this output for debugging purposes
+            </summary>
+            <returns>The name of this output</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgNodeOutputExprDef">
+            <summary>
+            Describes a dependency on a node output
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeOutputExprDef.ProducingNode">
+            <summary>
+            The producing node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeOutputExprDef.OutputIndex">
+            <summary>
+            The output index. -1 means all inputs and outputs for the node.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeOutputExprDef.#ctor(EpicGames.BuildGraph.BgNodeExpressionDef,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="producingNode"></param>
+            <param name="outputIndex"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeOutputExprDef.Flatten">
+            <summary>
+            Flattens this expression to a list of outputs
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeOutputExprDefSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgNodeOutputExprDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgNodeDef">
+            <summary>
+            Defines a node, a container for tasks and the smallest unit of execution that can be run as part of a build graph.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.Name">
+            <summary>
+            The node's name
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.Thunk">
+            <summary>
+            Thunk to execute this node.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.Inputs">
+            <summary>
+            Array of inputs which this node requires to run
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.Outputs">
+            <summary>
+            Array of outputs produced by this node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.InputDependencies">
+            <summary>
+            Nodes which this node has input dependencies on
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.OrderDependencies">
+            <summary>
+            Nodes which this node needs to run after
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.RequiredTokens">
+            <summary>
+            Tokens which must be acquired for this node to run
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.NotifyUsers">
+            <summary>
+            List of email addresses to notify if this node fails.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.NotifySubmitters">
+            <summary>
+            If set, anyone that has submitted to one of the given paths will be notified on failure of this node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.RunEarly">
+            <summary>
+            Whether to start this node as soon as its dependencies are satisfied, rather than waiting for all of its agent's dependencies to be met.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.NotifyOnWarnings">
+            <summary>
+            Whether to ignore warnings produced by this node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.Annotations">
+            <summary>
+            Custom annotations for this node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.Diagnostics">
+            <summary>
+            Diagnostics to output if executing this node
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeDef.#ctor(System.String,EpicGames.BuildGraph.BgThunkDef,System.Collections.Generic.IReadOnlyList{System.String})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeDef.#ctor(System.String,System.Collections.Generic.IReadOnlyList{EpicGames.BuildGraph.BgNodeOutput},System.Collections.Generic.IReadOnlyList{System.String},System.Collections.Generic.IReadOnlyList{EpicGames.BuildGraph.BgNodeDef},System.Collections.Generic.IReadOnlyList{EpicGames.BuildGraph.BgNodeDef},System.Collections.Generic.IReadOnlyList{EpicGames.Core.FileReference})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">The name of this node</param>
+            <param name="inputs">Inputs that this node depends on</param>
+            <param name="outputNames">Names of the outputs that this node produces</param>
+            <param name="inputDependencies">Nodes which this node is dependent on for its inputs</param>
+            <param name="orderDependencies">Nodes which this node needs to run after. Should include all input dependencies.</param>
+            <param name="requiredTokens">Optional tokens which must be required for this node to run</param>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeDef.DefaultOutput">
+            <summary>
+            Returns the default output for this node, which includes all build products
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeDef.GetDirectInputDependencies">
+            <summary>
+            Determines the minimal set of direct input dependencies for this node to run
+            </summary>
+            <returns>Sequence of nodes that are direct inputs to this node</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeDef.GetDirectOrderDependencies">
+            <summary>
+            Determines the minimal set of direct order dependencies for this node to run
+            </summary>
+            <returns>Sequence of nodes that are direct order dependencies of this node</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeDef.ToString">
+            <summary>
+            Returns the name of this node
+            </summary>
+            <returns>The name of this node</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgNodeExpressionDef">
+            <summary>
+            Node constructed from a bytecode expression
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeExpressionDef.Agent">
+            <summary>
+            Agent declaring this node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeExpressionDef.Labels">
+            <summary>
+            Labels to add this node to
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeExpressionDef.InputExprs">
+            <summary>
+            Input expressions
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgNodeExpressionDef.OutputCount">
+            <summary>
+            Number of outputs from this node
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeExpressionDef.#ctor(EpicGames.BuildGraph.BgAgentDef,System.String,EpicGames.BuildGraph.BgThunkDef,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgNodeExpressionDefSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgNodeExpressionDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgObjectDef">
+            <summary>
+            Value of an object
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgObjectDef._value">
+            <summary>
+            Deserialized object value
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgObjectDef.Properties">
+            <summary>
+            Properties for the object
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef.#ctor(System.Collections.Immutable.ImmutableDictionary{System.String,System.Object})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef.Set(System.String,System.Object)">
+            <summary>
+            Sets a property value
+            </summary>
+            <param name="name">Name of the property</param>
+            <param name="value">New value for the property</param>
+            <returns>Object definition with the new properties</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef.Get(System.String,System.Object)">
+            <summary>
+            Gets a property value
+            </summary>
+            <param name="name">Name of the property</param>
+            <param name="defaultValue">Default value to return if the property is not set</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef.WithType``1">
+            <summary>
+            Creates a strongly typed object instance
+            </summary>
+            <typeparam name="T">Type of the object</typeparam>
+            <returns></returns>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgObjectDef.s_typeToSerializer">
+            <summary>
+            Cache of serializer instances
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef.Deserialize(System.Type)">
+            <summary>
+            Deserialize an object of the given type, using the default serializer
+            </summary>
+            <param name="type">Type of the object to create</param>
+            <returns>Deserialized instance of the type</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef.Deserialize``1">
+            <summary>
+            Deserialize an object of the given type
+            </summary>
+            <typeparam name="T">Type to deserialize</typeparam>
+            <returns>Deserialized instance of the type</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgObjectDef`1">
+            <summary>
+            Strongly typed instance of <see cref="T:EpicGames.BuildGraph.BgObjectDef"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef`1.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef`1.#ctor(System.Collections.Immutable.ImmutableDictionary{System.String,System.Object})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef`1.Get``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">
+            <summary>
+            Gets a property value
+            </summary>
+            <typeparam name="TValue"></typeparam>
+            <param name="property"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef`1.CopyTo(System.Object)">
+            <summary>
+            Copies properties from the object value to an instance
+            </summary>
+            <param name="instance"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef`1.ConvertValue(System.Object,System.Type)">
+            <summary>
+            Convert a value to a particular type
+            </summary>
+            <param name="value">Value to convert</param>
+            <param name="type">Target type</param>
+            <returns>The converted value</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectDef`1.GetPropertyMap">
+            <summary>
+            Creates a map from name to property info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgPropertyAttribute">
+            <summary>
+            Attribute marking that a property should be serialized to BuildGraph
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgPropertyAttribute.Name">
+            <summary>
+            Name of the property. If unspecified, the property name will be used.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgPropertyAttribute.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgObjectAttribute">
+            <summary>
+            Attribute marking the type of serializer for an object
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgObjectAttribute.SerializerType">
+            <summary>
+            The serailizer to use for this object
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectAttribute.#ctor(System.Type)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="serializerType">The serializer type</param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgObjectSerializer">
+            <summary>
+            Base class for deserializing objects from untyped <see cref="T:EpicGames.BuildGraph.BgObjectDef"/> instances
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef)">
+            <summary>
+            Deserialize an object from the given property bag
+            </summary>
+            <param name="obj">Properties for the object</param>
+            <returns>New object instance</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgObjectSerializer`1">
+            <summary>
+            Strongly typed base class for deserializing objects
+            </summary>
+            <typeparam name="T">The object type</typeparam>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectSerializer`1.Deserialize(EpicGames.BuildGraph.BgObjectDef)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgObjectSerializer`1.Deserialize(EpicGames.BuildGraph.BgObjectDef{`0})">
+            <summary>
+            Typed deserialization method
+            </summary>
+            <param name="obj">Properties for the object</param>
+            <returns>Object instance</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgDefaultObjectSerializer`1">
+            <summary>
+            Default serializer for objects with a default constructor
+            </summary>
+            <typeparam name="T">Object type</typeparam>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgDefaultObjectSerializer`1.Deserialize(EpicGames.BuildGraph.BgObjectDef{`0})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgOpcode">
+            <summary>
+            Opcodes for graph expressions. Each opcode is followed by 1-3 operands
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolFalse">
+            <summary>
+            Pushes a boolean 'false' value onto the stack
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolTrue">
+            <summary>
+            Pushes a boolean 'true' value onto the stack
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolNot">
+            <summary>
+            Logical NOT
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolAnd">
+            <summary>
+            Logical AND
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolOr">
+            <summary>
+            Logical OR
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolXor">
+            <summary>
+            Logical XOR
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolEq">
+            <summary>
+            Tests whether two boolean values are equal
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolOption">
+            <summary>
+            A boolean option
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.BoolToString">
+            <summary>
+            Converts a bool to a string
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntLiteral">
+            <summary>
+            An integer literal. Opcode is followed by a 32-bit little-endian integer.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntEq">
+            <summary>
+            Tests whether two integers are equal
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntLt">
+            <summary>
+            Pops an integer from the stack, tests whether it is less than zero, and pushes a bool onto the stack with the result. 
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntGt">
+            <summary>
+            Pops an integer from the stack, tests whether it is greater than zero, and pushes a bool onto the stack with the result. 
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntAdd">
+            <summary>
+            Adds two integers together
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntMultiply">
+            <summary>
+            Multiplies two integers
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntDivide">
+            <summary>
+            Divides one integer by another
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntModulo">
+            <summary>
+            Computes the modulo of one integer with another
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntNegate">
+            <summary>
+            Negates an integer
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntOption">
+            <summary>
+            An integer option between two values (see <see cref="T:EpicGames.BuildGraph.Expressions.BgIntOption"/>)
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.IntToString">
+            <summary>
+            Converts a bool to a string
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrEmpty">
+            <summary>
+            An empty string literal
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrLiteral">
+            <summary>
+            A string literal. Opcode is followed by a UTF-8 encoded string with length.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrCompare">
+            <summary>
+            Compares two strings for equality, using a <see cref="T:System.StringComparison"/> value encoded into the byte stream as an unsigned <see cref="T:EpicGames.Core.VarInt"/>.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrConcat">
+            <summary>
+            Concatenates two strings and returns the result
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrFormat">
+            <summary>
+            Format a string, similar to <see cref="M:System.String.Format(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrJoin">
+            <summary>
+            Joins a list of strings (first argument) with a separator (second argument)
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrSplit">
+            <summary>
+            Splits a string by a delimiter
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrMatch">
+            <summary>
+            Tests whether a string (first argument) matches a regular expression (second argument)
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrReplace">
+            <summary>
+            Returns a string with all ocurrences of the second argument in the first argument replaced with the third argument
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.StrOption">
+            <summary>
+            A string option (see <see cref="T:EpicGames.BuildGraph.Expressions.BgStringOption"/>)
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.EnumConstant">
+            <summary>
+            Literal enum value, as an integer.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.EnumParse">
+            <summary>
+            Parses a string as an enum
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.EnumToString">
+            <summary>
+            Converts an enum to a string
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListEmpty">
+            <summary>
+            Creates an empty list
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListPush">
+            <summary>
+            Adds an item to a list
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListPushLazy">
+            <summary>
+            Adds a lazily evaluated item to a list
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListCount">
+            <summary>
+            Gets the length of a list
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListElement">
+            <summary>
+            Gets the element of a list at an index. Second argument is an integer expression.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListConcat">
+            <summary>
+            Concatenates two lists
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListUnion">
+            <summary>
+            Creates the union of two lists
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListExcept">
+            <summary>
+            Creates the set excluding another set of items
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListSelect">
+            <summary>
+            Call a function on each element of a list, returning the transformed list
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListWhere">
+            <summary>
+            Select elements from a list using a predicate
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListDistinct">
+            <summary>
+            Selects all the unique entries in the list. The comparer for the list type is determined by the type of the first element.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListContains">
+            <summary>
+            Determines whether a list contains a particular item
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListLazy">
+            <summary>
+            Indicates that the list should only be evaluated when the first item is enumerated from it.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ListOption">
+            <summary>
+            An option providing a list of strings (see <see cref="T:EpicGames.BuildGraph.Expressions.BgListOption"/>
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ObjEmpty">
+            <summary>
+            An empty object
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ObjGet">
+            <summary>
+            Gets the value of a property
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.ObjSet">
+            <summary>
+            Sets the value of a property
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.Call">
+            <summary>
+            Takes an operand indicating the number of arguments, and offset of the function to call. Pops the arguments from the evaluation stack, pushes them onto the function stack, and jumps to the given offset.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.Argument">
+            <summary>
+            Fetches a numbered argument from the functions stack frame.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.Jump">
+            <summary>
+            Jumps to another fragment without creating a new stack frame
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.Choose">
+            <summary>
+            Chooses between two operands based on a boolean parameter.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.Throw">
+            <summary>
+            Throws an exception
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.Null">
+            <summary>
+            Null value for an optional expression
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgOpcode.Thunk">
+            <summary>
+            A native method invocation, represented as an index into the method table
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgOptionDef">
+            <summary>
+            Represents a graph option. These are expanded during preprocessing, but are retained in order to display help messages.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgOptionDef.Name">
+            <summary>
+            Name of this option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgOptionDef.Label">
+            <summary>
+            Label for the option in the dashboard
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgOptionDef.Description">
+            <summary>
+            Description for this option
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgOptionDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">The name of this option</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgOptionDef.GetDefaultArgument">
+            <summary>
+            Returns the default argument value
+            </summary>
+            <returns>Default argument value</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgOptionDef.ToString">
+            <summary>
+            Returns a name of this option for debugging
+            </summary>
+            <returns>Name of the option</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgBoolOptionDef">
+            <summary>
+            Definition of a boolean option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgBoolOptionDef.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBoolOptionDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">The name of this option</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBoolOptionDef.GetDefaultArgument">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgBoolOptionSerializer">
+            <summary>
+            Serializer for bool options
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgBoolOptionSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgBoolOptionDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgIntOptionDef">
+            <summary>
+            Definition of an integer option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgIntOptionDef.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgIntOptionDef.MinValue">
+            <summary>
+            Minimum allowed value
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgIntOptionDef.MaxValue">
+            <summary>
+            Maximum allowed value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgIntOptionDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">The name of this option</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgIntOptionDef.GetDefaultArgument">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgIntOptionSerializer">
+            <summary>
+            Serializer for int options
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgIntOptionSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgIntOptionDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgStringOptionStyle">
+            <summary>
+            Style for a string option
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgStringOptionStyle.Text">
+            <summary>
+            Free-form text entry
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgStringOptionStyle.DropList">
+            <summary>
+            List of options
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgStringOptionDef">
+            <summary>
+            Definition of a string option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgStringOptionDef.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgStringOptionDef.Style">
+            <summary>
+            Style for this option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgStringOptionDef.Pattern">
+            <summary>
+            Regex for validating values for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgStringOptionDef.PatternFailed">
+            <summary>
+            Message to display if validation fails
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgStringOptionDef.Values">
+            <summary>
+            List of values to choose from
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgStringOptionDef.ValueDescriptions">
+            <summary>
+            Matching list of descriptions for each value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgStringOptionDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">Name of the option</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgStringOptionDef.GetDefaultArgument">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgStringOptionSerializer">
+            <summary>
+            Serializer for string options
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgStringOptionSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgStringOptionDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgListOptionStyle">
+            <summary>
+            Style for a list option
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgListOptionStyle.CheckList">
+            <summary>
+            List of checkboxes
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgListOptionStyle.TagPicker">
+            <summary>
+            Tag picker
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgListOptionDef">
+            <summary>
+            A list option definition
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgListOptionDef.Style">
+            <summary>
+            Style for this list box
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgListOptionDef.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgListOptionDef.Values">
+            <summary>
+            List of values to choose from
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgListOptionDef.ValueDescriptions">
+            <summary>
+            Matching list of descriptions for each value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgListOptionDef.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">Name of the option</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgListOptionDef.GetDefaultArgument">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgListOptionSerializer">
+            <summary>
+            Serializer for string options
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgListOptionSerializer.Deserialize(EpicGames.BuildGraph.BgObjectDef{EpicGames.BuildGraph.BgListOptionDef})">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgReport">
+            <summary>
+            Defines a report to be generated as part of the build.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgReport.Name">
+            <summary>
+            Name of this trigger
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgReport.Nodes">
+            <summary>
+            Set of nodes to include in the report
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgReport.NotifyUsers">
+            <summary>
+            List of users to notify with this report
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgReport.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="inName">Name of this report</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgReport.ToString">
+            <summary>
+            Get the name of this report
+            </summary>
+            <returns>The name of this report</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgThunkDef">
+            <summary>
+            Information about the method bound to execute a node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgThunkDef.Method">
+            <summary>
+            Method to call
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgThunkDef.Arguments">
+            <summary>
+            Arguments to the method
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgThunkDef.#ctor(System.Reflection.MethodInfo,System.Collections.Generic.IReadOnlyList{System.Object})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgThunkOutputDef">
+            <summary>
+            Outputs from a thunk
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgThunkOutputDef.Thunk">
+            <summary>
+            The thunk definition
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgThunkOutputDef.Index">
+            <summary>
+            Output index from the thunk
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgThunkOutputDef.#ctor(EpicGames.BuildGraph.BgThunkDef,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="thunk"></param>
+            <param name="index"></param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgAgent">
+            <summary>
+            Describes an agent that can execute execute build steps
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgAgent.Name">
+            <summary>
+            Name of the agent
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgAgent.Types">
+            <summary>
+            List of agent types to select from, in order of preference. The first agent type supported by a stream will be used.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAgent.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAgent.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgString})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAgent.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAgent.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgAggregate">
+            <summary>
+            Specification for an aggregate target in the graph
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgAggregate.Name">
+            <summary>
+            Name of the aggregate
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgAggregate.Requires">
+            <summary>
+            Outputs required for the aggregate
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgAggregate.Label">
+            <summary>
+            Label to apply to this aggregate
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAggregate.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgNode[])">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAggregate.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgNode}[])">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAggregate.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgNode},System.String)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAggregate.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgNode},EpicGames.BuildGraph.Expressions.BgLabel)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAggregate.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgAggregate.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgBool">
+            <summary>
+            Abstract base class for expressions returning a boolean value 
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgBool.False">
+            <summary>
+            Constant value for false
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgBool.True">
+            <summary>
+            Constant value for true
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="flags">Flags for this expression</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.op_Implicit(System.Boolean)~EpicGames.BuildGraph.Expressions.BgBool">
+            <summary>
+            Implict conversion operator from a boolean literal
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.op_LogicalNot(EpicGames.BuildGraph.Expressions.BgBool)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.op_BitwiseAnd(EpicGames.BuildGraph.Expressions.BgBool,EpicGames.BuildGraph.Expressions.BgBool)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.op_BitwiseOr(EpicGames.BuildGraph.Expressions.BgBool,EpicGames.BuildGraph.Expressions.BgBool)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.op_ExclusiveOr(EpicGames.BuildGraph.Expressions.BgBool,EpicGames.BuildGraph.Expressions.BgBool)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.op_Equality(EpicGames.BuildGraph.Expressions.BgBool,EpicGames.BuildGraph.Expressions.BgBool)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.op_Inequality(EpicGames.BuildGraph.Expressions.BgBool,EpicGames.BuildGraph.Expressions.BgBool)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBool.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgBoolType">
+            <summary>
+            Type traits for a <see cref="T:EpicGames.BuildGraph.Expressions.BgBool"/>
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBoolType.Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBoolType.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgBoolOption">
+            <summary>
+            A boolean option expression
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgBoolOption.Name">
+            <summary>
+            Name of the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgBoolOption.Label">
+            <summary>
+            Label to display next to the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgBoolOption.Description">
+            <summary>
+            Help text to display for the user
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgBoolOption.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBoolOption.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgBool)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBoolOption.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgBool)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgBoolOption.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgEnum`1">
+            <summary>
+            Abstract base class for expressions returning a string value 
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgEnum`1.EnumType">
+            <inheritdoc/>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgEnum`1.Names">
+            <summary>
+            Names of this enum
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgEnum`1.Values">
+            <summary>
+            Values of this enum
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgEnum`1.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgEnum`1.op_Implicit(`0)~EpicGames.BuildGraph.Expressions.BgEnum{`0}">
+            <summary>
+            Implicit conversion from a regular enum type
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgEnum`1.Parse(EpicGames.BuildGraph.Expressions.BgString)">
+            <summary>
+            Explicit conversion from a string value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgEnum`1.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgEnumType`1">
+            <summary>
+            Type traits for a <see cref="T:EpicGames.BuildGraph.Expressions.BgEnum`1"/>
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgEnumType`1.Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgEnumType`1.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgFileSet">
+            <summary>
+            Represents a placeholder for the output from a node, which can be exchanged for the artifacts produced by a node at runtime
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgFileSet.Empty">
+            <summary>
+            Constant empty fileset
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFileSet.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="flags"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFileSet.op_Implicit(EpicGames.Core.FileSet)~EpicGames.BuildGraph.Expressions.BgFileSet">
+            <summary>
+            Implicit conversion from a regular fileset
+            </summary>
+            <param name="fileSet"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFileSet.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgFileSetType">
+            <summary>
+            Traits for a <see cref="T:EpicGames.BuildGraph.Expressions.BgFileSet"/>
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFileSetType.Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFileSetType.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgFileSetOutputExpr">
+            <summary>
+            /
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgFileSetOutputExpr.Value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFileSetOutputExpr.#ctor(EpicGames.Core.FileSet)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFileSetOutputExpr.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgFunc">
+            <summary>
+            Abstract base class for function expressions
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgFunc.Body">
+            <summary>
+            The function expression.
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc.#ctor(EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="body">Expression to be evaluated</param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgFunc`1">
+            <summary>
+            A function taking no arguments
+            </summary>
+            <typeparam name="TResult">Result type</typeparam>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`1.#ctor(System.Func{`0})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="func">Function to construct from</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`1.op_Implicit(System.Func{`0})~EpicGames.BuildGraph.Expressions.BgFunc{`0}">
+            <summary>
+            Implicit conversion from a regular C# function
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`1.Call">
+            <summary>
+            Call the function with the given arguments
+            </summary>
+            <returns>Result from the function</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgFunc`2">
+            <summary>
+            A function taking a single argument
+            </summary>
+            <typeparam name="TArg">Type of the function argument</typeparam>
+            <typeparam name="TResult">Result type</typeparam>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`2.#ctor(System.Func{`0,`1})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="func">Function to construct from</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`2.op_Implicit(System.Func{`0,`1})~EpicGames.BuildGraph.Expressions.BgFunc{`0,`1}">
+            <summary>
+            Implicit conversion from a regular C# function
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`2.Call(`0)">
+            <summary>
+            Call the function with the given arguments
+            </summary>
+            <param name="arg">Argument to pass to the function</param>
+            <returns>Result from the function</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgFunc`3">
+            <summary>
+            A function taking two arguments
+            </summary>
+            <typeparam name="TArg1">Type of the first function argument</typeparam>
+            <typeparam name="TArg2">Type of the second function argument</typeparam>
+            <typeparam name="TResult">Result type</typeparam>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`3.#ctor(System.Func{`0,`1,`2})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="func">Function to construct from</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`3.op_Implicit(System.Func{`0,`1,`2})~EpicGames.BuildGraph.Expressions.BgFunc{`0,`1,`2}">
+            <summary>
+            Implicit conversion from a regular C# function
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgFunc`3.Call(`0,`1)">
+            <summary>
+            Call the function with the given arguments
+            </summary>
+            <param name="arg1">First argument to the function</param>
+            <param name="arg2">Second argument to the function</param>
+            <returns>Result from the function</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgGraph">
+            <summary>
+            Specification for a graph in fluent syntax
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgGraph.Nodes">
+            <summary>
+            Nodes for the graph
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgGraph.Aggregates">
+            <summary>
+            Aggregates for the graph
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgGraph.#ctor(EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgNode},EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgAggregate})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgGraph.op_Implicit(EpicGames.BuildGraph.Expressions.BgNode)~EpicGames.BuildGraph.Expressions.BgGraph">
+            <summary>
+            Implicit conversion from a node spec
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgGraph.op_Implicit(EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgNode})~EpicGames.BuildGraph.Expressions.BgGraph">
+            <summary>
+            Implicit conversion from a list of node specs
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgGraph.op_Implicit(EpicGames.BuildGraph.Expressions.BgAggregate)~EpicGames.BuildGraph.Expressions.BgGraph">
+            <summary>
+            Implicit conversion from an aggregate spec
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgGraph.op_Implicit(EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgAggregate})~EpicGames.BuildGraph.Expressions.BgGraph">
+            <summary>
+            Implicit conversion from a list of node specs
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgGraph.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgGraph.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgInt">
+            <summary>
+            Abstract base class for expressions returning a 32-bit integer value 
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Implicit(System.Int32)~EpicGames.BuildGraph.Expressions.BgInt">
+            <summary>
+            Implicit conversion from an integer value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="flags">Flags for this expression</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_UnaryNegation(EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Addition(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Subtraction(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Multiply(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Division(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Modulus(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_LessThan(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_GreaterThan(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Equality(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_Inequality(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_LessThanOrEqual(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.op_GreaterThanOrEqual(EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgInt.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgIntType">
+            <summary>
+            Traits for a <see cref="T:EpicGames.BuildGraph.Expressions.BgInt"/>
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgIntType.Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgIntType.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgIntOption">
+            <summary>
+            An integer option expression
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgIntOption.Name">
+            <summary>
+            Name of the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgIntOption.Label">
+            <summary>
+            Label to display next to the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgIntOption.Description">
+            <summary>
+            Help text to display for the user
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgIntOption.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgIntOption.MinValue">
+            <summary>
+            Minimum allowed value
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgIntOption.MaxValue">
+            <summary>
+            Maximum allowed value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgIntOption.#ctor(System.String,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgInt,EpicGames.BuildGraph.Expressions.BgString)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgIntOption.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgLabel">
+            <summary>
+            Specification for a label
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgLabel.DashboardName">
+            <summary>
+            Name of this badge
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgLabel.DashboardCategory">
+            <summary>
+            Category for this label
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgLabel.UgsBadge">
+            <summary>
+            Name of the badge in UGS
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgLabel.UgsProject">
+            <summary>
+            Path to the project folder in UGS
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgLabel.Change">
+            <summary>
+            Which change to show the badge for
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgLabel.#ctor(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgEnum{EpicGames.BuildGraph.BgLabelChange})">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgLabel.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgLabel.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgList">
+            <summary>
+            Utility methods for lists
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList.Empty``1">
+            <summary>
+            Gets an empty list of the given type
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList.Create(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Crates a list from an array of values
+            </summary>
+            <param name="items">Sequence to construct from</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList.Create(System.String[])">
+            <summary>
+            Crates a list from an array of values
+            </summary>
+            <param name="items">Sequence to construct from</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList.Create``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Crates a list from an array of values
+            </summary>
+            <param name="items">Sequence to construct from</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList.Create``1(``0[])">
+            <summary>
+            Crates a list from an array of values
+            </summary>
+            <param name="items">Sequence to construct from</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList.Concat``1(EpicGames.BuildGraph.Expressions.BgList{``0},EpicGames.BuildGraph.Expressions.BgList{``0})">
+            <summary>
+            Concatenates two lists together
+            </summary>
+            <param name="lhs"></param>
+            <param name="rhs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList.Concat``1(EpicGames.BuildGraph.Expressions.BgList{``0}[])">
+            <summary>
+            Concatenates two lists together
+            </summary>
+            <param name="others"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgList`1">
+            <summary>
+            Abstract base class for expressions returning an immutable list of values
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgList`1.ElementType">
+            <inheritdoc/>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgList`1.Empty">
+            <summary>
+            Constant representation of an empty list
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="flags">Flags for this expression</param>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgList`1.Item(EpicGames.BuildGraph.Expressions.BgInt)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.op_Implicit(`0)~EpicGames.BuildGraph.Expressions.BgList{`0}">
+            <summary>
+            Implicit conversion operator from a single value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.op_Implicit(`0[])~EpicGames.BuildGraph.Expressions.BgList{`0}">
+            <summary>
+            Implicit conversion operator from an array of values
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.op_Implicit(System.Collections.Generic.List{`0})~EpicGames.BuildGraph.Expressions.BgList{`0}">
+            <summary>
+            Implicit conversion operator from a list of values
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Create(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Crates a list from an array of values
+            </summary>
+            <param name="items">Sequence to construct from</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Create(`0[])">
+            <summary>
+            Crates a list from an array of values
+            </summary>
+            <param name="items">Sequence to construct from</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Concat(EpicGames.BuildGraph.Expressions.BgList{`0},EpicGames.BuildGraph.Expressions.BgList{`0})">
+            <summary>
+            Concatenates two lists together
+            </summary>
+            <param name="lhs"></param>
+            <param name="rhs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Concat(EpicGames.BuildGraph.Expressions.BgList{`0}[])">
+            <summary>
+            Concatenates two lists together
+            </summary>
+            <param name="others"></param>
+            <returns></returns>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgList`1.Count">
+            <summary>
+            Gets the length of this list
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Add(`0)">
+            <summary>
+            Adds an item to the end of the list, returning the new list
+            </summary>
+            <param name="item">Items to add</param>
+            <returns>New list containing the given items</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Add(`0[])">
+            <summary>
+            Adds items to the end of the list, returning the new list
+            </summary>
+            <param name="items">Items to add</param>
+            <returns>New list containing the given items</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Add(EpicGames.BuildGraph.Expressions.BgList{`0})">
+            <inheritdoc cref="M:EpicGames.BuildGraph.Expressions.BgList`1.Add(`0[])"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Add(System.Collections.Generic.IEnumerable{`0})">
+            <inheritdoc cref="M:EpicGames.BuildGraph.Expressions.BgList`1.Add(`0[])"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Union(`0[])">
+            <inheritdoc cref="M:EpicGames.BuildGraph.Expressions.BgList`1.Union(EpicGames.BuildGraph.Expressions.BgList{`0})"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Union(System.Collections.Generic.IEnumerable{`0})">
+            <inheritdoc cref="M:EpicGames.BuildGraph.Expressions.BgList`1.Union(EpicGames.BuildGraph.Expressions.BgList{`0})"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Union(EpicGames.BuildGraph.Expressions.BgList{`0})">
+            <summary>
+            Creates the union of this list with another
+            </summary>
+            <param name="items">Items to add</param>
+            <returns>Union with the given items</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Except(EpicGames.BuildGraph.Expressions.BgList{`0})">
+            <summary>
+            Removes the given items from this list
+            </summary>
+            <param name="items">Items to remove</param>
+            <returns>New list without the given items</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Distinct">
+            <summary>
+            Removes any duplicate items from the list. The first item in the list is retained in its original order.
+            </summary>
+            <returns>New list containing the distinct items.</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Select``1(System.Func{`0,``0})">
+            <inheritdoc cref="M:System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Select``1(EpicGames.BuildGraph.Expressions.BgFunc{`0,``0})">
+            <inheritdoc cref="M:System.Linq.Enumerable.Select``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Where(System.Func{`0,EpicGames.BuildGraph.Expressions.BgBool})">
+            <inheritdoc cref="M:System.Linq.Enumerable.Where``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Contains(`0)">
+            <inheritdoc cref="M:System.Linq.Enumerable.Contains``1(System.Collections.Generic.IEnumerable{``0},``0)"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.Lazy">
+            <summary>
+            Creates a lazily evaluated copy of this list, if it's not constant
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgList`1.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgListType`1">
+            <summary>
+            Traits for a <see cref="T:EpicGames.BuildGraph.Expressions.BgList`1"/>
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgListType`1.Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgListType`1.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgListOption">
+            <summary>
+            A list option expression
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgListOption.Name">
+            <summary>
+            Name of the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgListOption.Label">
+            <summary>
+            Label to display next to the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgListOption.Description">
+            <summary>
+            Help text to display for the user
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgListOption.Style">
+            <summary>
+            Style for this list box
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgListOption.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgListOption.Values">
+            <summary>
+            List of values to choose from
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgListOption.ValueDescriptions">
+            <summary>
+            Matching list of descriptions for each value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgListOption.#ctor(System.String,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.BgListOptionStyle,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgString},EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgString},EpicGames.BuildGraph.Expressions.BgString)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgListOption.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgNodeException">
+            <summary>
+            Exception for constructing nodes
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeException.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgNodeNameAttribute">
+            <summary>
+            Speecifies the node name for a method. Parameters from the method may be embedded in the name using the {ParamName} syntax.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNodeNameAttribute.Template">
+            <summary>
+            The format string
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeNameAttribute.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="template">Format string for the name</param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgNode">
+            <summary>
+            Specification for a node to execute
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.Name">
+            <summary>
+            Name of the node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.Thunk">
+            <summary>
+            Thunk to native code to execute the node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.OutputCount">
+            <summary>
+            Number of outputs from this node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.DefaultOutput">
+            <summary>
+            The default output of this node. Includes all other outputs. 
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.Agent">
+            <summary>
+            Agent for the node to be run on
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.Inputs">
+            <summary>
+            Tokens for inputs of this node
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.Fences">
+            <summary>
+            Weak dependency on outputs that must be generated for the node to run, without making those dependencies inputs.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.RunEarly">
+            <summary>
+            Whether this node should start running as soon as its dependencies are ready, even if other nodes in the same agent are not.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode.Labels">
+            <summary>
+            Labels that this node contributes to
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.#ctor(EpicGames.BuildGraph.Expressions.BgThunk,EpicGames.BuildGraph.Expressions.BgAgent)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.#ctor(EpicGames.BuildGraph.Expressions.BgNode)">
+            <summary>
+            Copy constructor
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.Modify(EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgFileSet},EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgNode},EpicGames.BuildGraph.Expressions.BgBool,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgLabel})">
+            <summary>
+            Creates a copy of this node and updates the given parameters
+            </summary>
+            <param name="inputs"></param>
+            <param name="fences"></param>
+            <param name="runEarly"></param>
+            <param name="labels"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.Clone">
+            <summary>
+            Clone this node
+            </summary>
+            <returns>Clone of this node</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.GetDefaultTagName(System.String,System.Int32)">
+            <summary>
+            Gets the default tag name for the numbered output index
+            </summary>
+            <param name="name">Name of the node</param>
+            <param name="index">Index of the output. Index zero is the default, others are explicit.</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.GetNodeNameFromMethodName(System.String)">
+            <summary>
+            Inserts spaces into a PascalCase method name to create a node name
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.op_Implicit(EpicGames.BuildGraph.Expressions.BgNode)~EpicGames.BuildGraph.Expressions.BgFileSet">
+            <summary>
+            Implicit conversion to a fileset
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.op_Implicit(EpicGames.BuildGraph.Expressions.BgNode)~EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgFileSet}">
+            <summary>
+            Implicit conversion to a fileset
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgNode`1">
+            <summary>
+            Nodespec with a typed return value
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgNode`1.Output">
+            <summary>
+            Output from this node
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode`1.#ctor(EpicGames.BuildGraph.Expressions.BgThunk{`0},EpicGames.BuildGraph.Expressions.BgAgent)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode`1.#ctor(EpicGames.BuildGraph.Expressions.BgNode{`0})">
+            <summary>
+            Copy constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNode`1.Clone">
+            <summary>
+            Clone this node
+            </summary>
+            <returns>Clone of this node</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgNodeExtensions">
+            <summary>
+            Extension methods for BgNode types
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeExtensions.AddNode(EpicGames.BuildGraph.Expressions.BgAgent,System.Linq.Expressions.Expression{System.Func{EpicGames.BuildGraph.BgContext,System.Threading.Tasks.Task}})">
+            <summary>
+            Creates a node builder for the given agent
+            </summary>
+            <param name="agent">Agent to run the node</param>
+            <param name="func">Function to execute</param>
+            <returns>Node builder</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeExtensions.AddNode``1(EpicGames.BuildGraph.Expressions.BgAgent,System.Linq.Expressions.Expression{System.Func{EpicGames.BuildGraph.BgContext,System.Threading.Tasks.Task{``0}}})">
+            <summary>
+            Creates a node builder for the given agent
+            </summary>
+            <param name="agent">Agent to run the node</param>
+            <param name="func">Function to execute</param>
+            <returns>Node builder</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeExtensions.Requires``1(``0,EpicGames.BuildGraph.Expressions.BgNode[])">
+            <summary>
+            Add dependencies onto other nodes or outputs. Outputs from the given tokens will be copied to the current machine before execution of the node.
+            </summary>
+            <param name="node">The node to modify</param>
+            <param name="inputs">Files to add as inputs</param>
+            <returns>The current node spec, to allow chaining calls</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeExtensions.Requires``1(``0,EpicGames.BuildGraph.Expressions.BgFileSet[])">
+            <summary>
+            Add dependencies onto other nodes or outputs. Outputs from the given tokens will be copied to the current machine before execution of the node.
+            </summary>
+            <param name="node">The node to modify</param>
+            <param name="inputs">Files to add as inputs</param>
+            <returns>The current node spec, to allow chaining calls</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeExtensions.Requires``1(``0,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgFileSet})">
+            <summary>
+            Add dependencies onto other nodes or outputs. Outputs from the given tokens will be copied to the current machine before execution of the node.
+            </summary>
+            <param name="node">The node to modify</param>
+            <param name="inputs">Files to add as inputs</param>
+            <returns>The current node spec, to allow chaining calls</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgNodeExtensions.After``1(``0,EpicGames.BuildGraph.Expressions.BgNode[])">
+            <summary>
+            Add weak dependencies onto other nodes or outputs. The producing nodes must complete successfully if they are part of the graph, but outputs from them will not be 
+            transferred to the machine running this node.
+            </summary>
+            <param name="node">The node to modify</param>
+            <param name="inputs">Files to add as inputs</param>
+            <returns>The current node spec, to allow chaining calls</returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgObject`1">
+            <summary>
+            Abstract base class for expressions returning an object
+            </summary>
+            <typeparam name="T">The native type which mirrors this object</typeparam>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgObject`1.Empty">
+            <summary>
+            Constant representation of an empty object
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObject`1.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="flags">Flags for this expression</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObject`1.Set(System.String,EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Sets the value of a property in the object
+            </summary>
+            <param name="name">Name of the field</param>
+            <param name="value">Value for the field</param>
+            <returns>New object with the field set</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObject`1.Set``2(System.Linq.Expressions.Expression{System.Func{`0,``1}},``0)">
+            <summary>
+            Sets the value of a property in the object
+            </summary>
+            <param name="property">Name of the field</param>
+            <param name="value">Value for the field</param>
+            <returns>New object with the field set</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObject`1.Get``1(System.String,``0)">
+            <summary>
+            Gets the value of a field in the object
+            </summary>
+            <param name="name">Name of the field</param>
+            <param name="defaultValue">Default value for the field, if it's not defined</param>
+            <returns>Value of the field</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObject`1.Get``2(System.Linq.Expressions.Expression{System.Func{`0,``1}},``0)">
+            <summary>
+            Gets the value of a field in the object
+            </summary>
+            <param name="property">Expression indicating the property to retrieve</param>
+            <param name="defaultValue">Default value for the property</param>
+            <returns>Value of the field</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObject`1.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgObjectType`1">
+            <summary>
+            Traits for a <see cref="T:EpicGames.BuildGraph.Expressions.BgList`1"/>
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObjectType`1.Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgObjectType`1.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgString">
+            <summary>
+            Abstract base class for expressions returning a string value 
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgString.Empty">
+            <summary>
+            Constant value for an empty string
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="flags">Flags for this expression</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.op_Implicit(System.String)~EpicGames.BuildGraph.Expressions.BgString">
+            <summary>
+            Implicit conversion from a regular string type
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Equals(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,System.StringComparison)">
+            <inheritdoc cref="M:System.String.Equals(System.String,System.String,System.StringComparison)"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Compare(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,System.StringComparison)">
+            <inheritdoc cref="M:System.String.Compare(System.String,System.String,System.StringComparison)"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Join(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgString})">
+            <inheritdoc cref="M:System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0})"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Split(EpicGames.BuildGraph.Expressions.BgString)">
+            <inheritdoc cref="M:System.String.Split(System.String,System.StringSplitOptions)"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Format(System.String,EpicGames.BuildGraph.BgExpr[])">
+            <inheritdoc cref="M:System.String.Format(System.String,System.Object[])"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.op_Addition(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.op_Equality(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.op_Inequality(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Append(EpicGames.BuildGraph.Expressions.BgString)">
+            <summary>
+            Appens another string to this one
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Match(EpicGames.BuildGraph.Expressions.BgString)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Replace(EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgString.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgStringType">
+            <summary>
+            Traits implementation for <see cref="T:EpicGames.BuildGraph.Expressions.BgString"/>
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgStringType.Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgStringType.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgStringOptionStyle">
+            <summary>
+            Style for a string option
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.Expressions.BgStringOptionStyle.Text">
+            <summary>
+            Free-form text entry
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.Expressions.BgStringOptionStyle.DropList">
+            <summary>
+            List of options
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgStringOption">
+            <summary>
+            A string option expression
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.Name">
+            <summary>
+            Name of the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.Label">
+            <summary>
+            Label to display next to the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.Description">
+            <summary>
+            Help text to display for the user
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.DefaultValue">
+            <summary>
+            Default value for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.Style">
+            <summary>
+            Style for this option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.Pattern">
+            <summary>
+            Regex for validating values for the option
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.PatternFailed">
+            <summary>
+            Message to display if validation fails
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.Values">
+            <summary>
+            List of values to choose from
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgStringOption.ValueDescriptions">
+            <summary>
+            Matching list of descriptions for each value
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgStringOption.#ctor(System.String,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgEnum{EpicGames.BuildGraph.Expressions.BgStringOptionStyle},EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgString,EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgString},EpicGames.BuildGraph.Expressions.BgList{EpicGames.BuildGraph.Expressions.BgString},EpicGames.BuildGraph.Expressions.BgString)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgStringOption.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgThunk">
+            <summary>
+            Thunks to a native method from within an expression. These objects contain an index into a thunk table that is not persisted to the bytecode.
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgThunk.Method">
+            <summary>
+            Method to call
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgThunk.Arguments">
+            <summary>
+            Arguments for the method
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk.Create(System.Linq.Expressions.Expression{System.Func{System.Threading.Tasks.Task}})">
+            <summary>
+            Creates a method closure from the given expression
+            </summary>
+            <param name="expr">Method call expression</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk.Create``1(System.Linq.Expressions.Expression{System.Func{System.Threading.Tasks.Task{``0}}})">
+            <summary>
+            Creates a method closure from the given expression
+            </summary>
+            <typeparam name="TRet">Type of the return value</typeparam>
+            <param name="expr">Method call expression</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk.Create``1(System.Linq.Expressions.Expression{System.Func{``0,System.Threading.Tasks.Task}})">
+            <summary>
+            Creates a method closure from the given expression
+            </summary>
+            <typeparam name="TArg">Parameter to the method</typeparam>
+            <param name="expr">Method call expression</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk.Create``2(System.Linq.Expressions.Expression{System.Func{``0,System.Threading.Tasks.Task{``1}}})">
+            <summary>
+            Creates a method closure from the given expression
+            </summary>
+            <typeparam name="TArg">Parameter to the method</typeparam>
+            <typeparam name="TRet">Type of the return value</typeparam>
+            <param name="expr">Method call expression</param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk.#ctor(System.Linq.Expressions.MethodCallExpression)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="call">Call expression</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk.ToBgString">
+            <inheritdoc/>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgThunk`1">
+            <summary>
+            Wraps a native method that returns a value
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgThunk`1.#ctor(System.Linq.Expressions.MethodCallExpression)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="expr"></param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.IBgType">
+            <summary>
+            Interface for type traits
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.IBgType.Constant(System.Object)">
+            <summary>
+            Creates a constant expression wrapping the given value
+            </summary>
+            <param name="value">Value to wrap</param>
+            <returns></returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgType`1">
+            <summary>
+            Base class for type functions
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType`1.EpicGames#BuildGraph#Expressions#IBgType#Constant(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType`1.Constant(System.Object)">
+            <inheritdoc cref="M:EpicGames.BuildGraph.Expressions.IBgType.Constant(System.Object)"/>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType`1.Wrap(EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Wraps an untyped expression as a strongly typed value
+            </summary>
+            <param name="expr">Expression to wrap</param>
+            <returns></returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgTypeAttribute">
+            <summary>
+            Attribute used to specify the converter class to use for a type
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.Expressions.BgTypeAttribute.Type">
+            <summary>
+            The converter type
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgTypeAttribute.#ctor(System.Type)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="T:EpicGames.BuildGraph.Expressions.BgType">
+            <summary>
+            Utility methods for type traits
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType.CreateInstance(System.Type)">
+            <summary>
+            Create a converter instance for the given type
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType.Get(System.Type)">
+            <summary>
+            Gets the type interface for a type
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType.Get``1">
+            <summary>
+            Create a traits instance for the given type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType.Wrap``1(EpicGames.BuildGraph.BgExpr)">
+            <summary>
+            Wraps an expression as a different type
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="expr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType.Constant``1(System.Object)">
+            <summary>
+            Creates a constant of the given type
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.Expressions.BgType.Constant(System.Type,System.Object)">
+            <summary>
+            Creates a constant of the given type
+            </summary>
+            <param name="type"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgExprFlags">
+            <summary>
+            Flags for an expression
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgExprFlags.None">
+            <summary>
+            No flags set
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgExprFlags.NotInterned">
+            <summary>
+            Indicates that the expression should never be interned (ie. encoded to a separate fragment), and will always be duplicated in the bytecode. 
+            Trivial constants with short encodings typically have this flag set.
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgExprFlags.Eager">
+            <summary>
+            Always eagerly evaluate this expression
+            </summary>
+        </member>
+        <member name="F:EpicGames.BuildGraph.BgExprFlags.ForceFragment">
+            <summary>
+            Force this expression to be stored in a separate fragment. Can help improves readability of the disassembly output.
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgExpr">
+            <summary>
+            Base class for computable expressions
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgExpr.Null">
+            <summary>
+            Null value
+            </summary>
+        </member>
+        <member name="P:EpicGames.BuildGraph.BgExpr.Flags">
+            <summary>
+            Flags for this expression
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgExpr.#ctor(EpicGames.BuildGraph.BgExprFlags)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="flags"></param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgExpr.Throw``1(EpicGames.BuildGraph.Expressions.BgString,System.String,System.Int32)">
+            <summary>
+            Throws an exception
+            </summary>
+            <typeparam name="T">Type of the expression to masquerade as</typeparam>
+            <param name="message">Message to display</param>
+            <param name="sourcePath">Path to the source file declaring this diagnostic. Automatically set by the runtime.</param>
+            <param name="sourceLine">Line number in the source file declaring this diagnostic. Automatically set by the runtime.</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgExpr.Choose``1(EpicGames.BuildGraph.Expressions.BgBool,``0,``0)">
+            <summary>
+            Chooses between two values based on a condition
+            </summary>
+            <typeparam name="T">Type of the expression to choose between</typeparam>
+            <param name="condition">Condition to check</param>
+            <param name="valueIfTrue">Value to return if the condition is true</param>
+            <param name="valueIfFalse">Value to return if the condition is false</param>
+            <returns>The chosen value</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgExpr.Write(EpicGames.BuildGraph.BgBytecodeWriter)">
+            <summary>
+            Serialize the expression to an output stream
+            </summary>
+            <param name="writer">Writer for output data</param>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgExpr.ToBgString">
+            <summary>
+            Convert the value of the expression to a string
+            </summary>
+        </member>
+        <member name="T:EpicGames.BuildGraph.BgExprExtensions">
+            <summary>
+            Extension methods for expressions
+            </summary>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgExprExtensions.If``1(``0,EpicGames.BuildGraph.Expressions.BgBool,``0)">
+            <summary>
+            Chose an expression if a condition evaluates to true
+            </summary>
+            <typeparam name="T">Type of the expression</typeparam>
+            <param name="expr">The expression value</param>
+            <param name="condition">Condition to test</param>
+            <param name="value">Value to return if the condition is true</param>
+            <returns>New expression</returns>
+        </member>
+        <member name="M:EpicGames.BuildGraph.BgExprExtensions.If``1(``0,EpicGames.BuildGraph.Expressions.BgBool,System.Func{``0,``0})">
+            <summary>
+            Chose an expression if a condition evaluates to true
+            </summary>
+            <typeparam name="T">Type of the expression</typeparam>
+            <param name="expr">The expression value</param>
+            <param name="condition">Condition to test</param>
+            <param name="func">Function to apply to the expression if the condition is true</param>
+            <returns>New expression</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TakeRecorder.cpp.obj": [
+			"TakeRecorder.init.gen.cpp.obj",
+			"TakeRecorder.cpp.obj",
+			"TakeRecorderBlueprintLibrary.cpp.obj",
+			"TakeRecorderPanel.cpp.obj",
+			"TakeRecorderParameters.cpp.obj",
+			"ScopedSequencerPanel.cpp.obj",
+			"SerializedRecorder.cpp.obj",
+			"TakePresetActions.cpp.obj",
+			"TakePresetToolkit.cpp.obj",
+			"TakeRecorderCommands.cpp.obj",
+			"TakeRecorderModule.cpp.obj",
+			"TakeRecorderOverlayWidget.cpp.obj",
+			"TakeRecorderSettings.cpp.obj",
+			"TakeRecorderStyle.cpp.obj",
+			"SLevelSequenceTakeEditor.cpp.obj",
+			"STakePresetAssetEditor.cpp.obj",
+			"STakeRecorderCockpit.cpp.obj",
+			"STakeRecorderPanel.cpp.obj",
+			"STakeRecorderSources.cpp.obj",
+			"STakeRecorderTabContent.cpp.obj"
+		]
+	}
+}

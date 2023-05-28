@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PluginBrowser.cpp.obj": [
+			"PluginBrowser.init.gen.cpp.obj",
+			"DefaultPluginWizardDefinition.cpp.obj",
+			"NewPluginDescriptorData.cpp.obj",
+			"PluginBrowserModule.cpp.obj",
+			"PluginDescriptorEditor.cpp.obj",
+			"PluginMetadataObject.cpp.obj",
+			"PluginStyle.cpp.obj",
+			"SFilePathBlock.cpp.obj",
+			"SNewPluginWizard.cpp.obj",
+			"SPluginBrowser.cpp.obj",
+			"SPluginCategory.cpp.obj",
+			"SPluginCategoryTree.cpp.obj",
+			"SPluginTile.cpp.obj",
+			"SPluginTileList.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,217 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "NetworkPredictionExtrasCharacter.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UMockCharacterAbilityComponent;
+#ifdef NETWORKPREDICTIONEXTRAS_NetworkPredictionExtrasCharacter_generated_h
+#error "NetworkPredictionExtrasCharacter.generated.h already included, missing '#pragma once' in NetworkPredictionExtrasCharacter.h"
+#endif
+#define NETWORKPREDICTIONEXTRAS_NetworkPredictionExtrasCharacter_generated_h
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAddMaxMoveSpeed); \
+	DECLARE_FUNCTION(execSetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execGetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execPrintDebug);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAddMaxMoveSpeed); \
+	DECLARE_FUNCTION(execSetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execGetMaxMoveSpeed); \
+	DECLARE_FUNCTION(execPrintDebug);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasCharacter(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasCharacter_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasCharacter, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasCharacter)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_INCLASS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasCharacter(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasCharacter_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasCharacter, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasCharacter)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ANetworkPredictionExtrasCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasCharacter) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasCharacter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasCharacter); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasCharacter(ANetworkPredictionExtrasCharacter&&); \
+	NO_API ANetworkPredictionExtrasCharacter(const ANetworkPredictionExtrasCharacter&); \
+public: \
+	NO_API virtual ~ANetworkPredictionExtrasCharacter();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasCharacter(ANetworkPredictionExtrasCharacter&&); \
+	NO_API ANetworkPredictionExtrasCharacter(const ANetworkPredictionExtrasCharacter&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasCharacter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasCharacter); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasCharacter) \
+	NO_API virtual ~ANetworkPredictionExtrasCharacter();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_46_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_49_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class ANetworkPredictionExtrasCharacter>();
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMaxStamina); \
+	DECLARE_FUNCTION(execGetStamina); \
+	DECLARE_FUNCTION(execGetMockCharacterAbilityComponent);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMaxStamina); \
+	DECLARE_FUNCTION(execGetStamina); \
+	DECLARE_FUNCTION(execGetMockCharacterAbilityComponent);
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasCharacter_MockAbility(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasCharacter_MockAbility_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasCharacter_MockAbility, ANetworkPredictionExtrasCharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasCharacter_MockAbility)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_INCLASS \
+private: \
+	static void StaticRegisterNativesANetworkPredictionExtrasCharacter_MockAbility(); \
+	friend struct Z_Construct_UClass_ANetworkPredictionExtrasCharacter_MockAbility_Statics; \
+public: \
+	DECLARE_CLASS(ANetworkPredictionExtrasCharacter_MockAbility, ANetworkPredictionExtrasCharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtras"), NO_API) \
+	DECLARE_SERIALIZER(ANetworkPredictionExtrasCharacter_MockAbility)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ANetworkPredictionExtrasCharacter_MockAbility(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasCharacter_MockAbility) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasCharacter_MockAbility); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasCharacter_MockAbility); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasCharacter_MockAbility(ANetworkPredictionExtrasCharacter_MockAbility&&); \
+	NO_API ANetworkPredictionExtrasCharacter_MockAbility(const ANetworkPredictionExtrasCharacter_MockAbility&); \
+public: \
+	NO_API virtual ~ANetworkPredictionExtrasCharacter_MockAbility();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ANetworkPredictionExtrasCharacter_MockAbility(ANetworkPredictionExtrasCharacter_MockAbility&&); \
+	NO_API ANetworkPredictionExtrasCharacter_MockAbility(const ANetworkPredictionExtrasCharacter_MockAbility&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANetworkPredictionExtrasCharacter_MockAbility); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANetworkPredictionExtrasCharacter_MockAbility); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANetworkPredictionExtrasCharacter_MockAbility) \
+	NO_API virtual ~ANetworkPredictionExtrasCharacter_MockAbility();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_118_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h_121_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRAS_API UClass* StaticClass<class ANetworkPredictionExtrasCharacter_MockAbility>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtras_Public_NetworkPredictionExtrasCharacter_h
+
+
+#define FOREACH_ENUM_ENETWORKPREDICTIONEXTRASCHARACTERINPUTPRESET(op) \
+	op(ENetworkPredictionExtrasCharacterInputPreset::None) \
+	op(ENetworkPredictionExtrasCharacterInputPreset::Forward) 
+
+enum class ENetworkPredictionExtrasCharacterInputPreset : uint8;
+template<> struct TIsUEnumClass<ENetworkPredictionExtrasCharacterInputPreset> { enum { Value = true }; };
+template<> NETWORKPREDICTIONEXTRAS_API UEnum* StaticEnum<ENetworkPredictionExtrasCharacterInputPreset>();
+
+#define FOREACH_ENUM_ENETWORKPREDICTIONEXTRASMOCKCHARACTERABILITYINPUTPRESET(op) \
+	op(ENetworkPredictionExtrasMockCharacterAbilityInputPreset::None) \
+	op(ENetworkPredictionExtrasMockCharacterAbilityInputPreset::Sprint) \
+	op(ENetworkPredictionExtrasMockCharacterAbilityInputPreset::Dash) \
+	op(ENetworkPredictionExtrasMockCharacterAbilityInputPreset::Blink) \
+	op(ENetworkPredictionExtrasMockCharacterAbilityInputPreset::Jump) 
+
+enum class ENetworkPredictionExtrasMockCharacterAbilityInputPreset : uint8;
+template<> struct TIsUEnumClass<ENetworkPredictionExtrasMockCharacterAbilityInputPreset> { enum { Value = true }; };
+template<> NETWORKPREDICTIONEXTRAS_API UEnum* StaticEnum<ENetworkPredictionExtrasMockCharacterAbilityInputPreset>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

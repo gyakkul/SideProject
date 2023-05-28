@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebMMediaEditor.cpp.obj": [
+			"WebMFileMediaSourceFactory.gen.cpp.obj",
+			"WebMMediaEditor.init.gen.cpp.obj",
+			"WebMFileMediaSourceFactory.cpp.obj",
+			"WebMMediaEditorModule.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SQLiteCore.cpp.obj": [
+			"SQLiteCore.cpp.obj",
+			"SQLiteDatabase.cpp.obj",
+			"SQLiteEmbeddedPlatform.cpp.obj",
+			"SQLitePreparedStatement.cpp.obj",
+			"SQLiteTest.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MLDeformerFramework.cpp.obj": [
+			"MLDeformerAsset.gen.cpp.obj",
+			"MLDeformerCurveReference.gen.cpp.obj",
+			"MLDeformerFramework.init.gen.cpp.obj",
+			"MLDeformerGeomCacheVizSettings.gen.cpp.obj",
+			"MLDeformerMorphModelQualityLevel.gen.cpp.obj",
+			"MLDeformerMorphModelVizSettings.gen.cpp.obj",
+			"MLDeformerVizSettings.gen.cpp.obj",
+			"MLDeformerAsset.cpp.obj",
+			"MLDeformerComponent.cpp.obj",
+			"MLDeformerComponentSource.cpp.obj",
+			"MLDeformerGeomCacheHelpers.cpp.obj",
+			"MLDeformerGeomCacheModel.cpp.obj",
+			"MLDeformerGraphDebugDataInterface.cpp.obj",
+			"MLDeformerInputInfo.cpp.obj",
+			"MLDeformerModel.cpp.obj",
+			"MLDeformerModelInstance.cpp.obj",
+			"MLDeformerModule.cpp.obj",
+			"MLDeformerMorphModel.cpp.obj",
+			"MLDeformerMorphModelInstance.cpp.obj",
+			"MLDeformerObjectVersion.cpp.obj",
+			"MLDeformerPerfCounter.cpp.obj",
+			"MLDeformerTestModel.cpp.obj",
+			"ModelTests.cpp.obj"
+		]
+	}
+}

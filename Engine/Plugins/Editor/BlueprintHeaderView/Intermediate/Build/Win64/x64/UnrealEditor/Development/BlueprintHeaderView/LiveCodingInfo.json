@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueprintHeaderView.cpp.obj": [
+			"BlueprintHeaderView.init.gen.cpp.obj",
+			"BlueprintHeaderView.cpp.obj",
+			"BlueprintHeaderViewSettings.cpp.obj",
+			"HeaderViewClassListItem.cpp.obj",
+			"HeaderViewFunctionListItem.cpp.obj",
+			"HeaderViewStructListItem.cpp.obj",
+			"HeaderViewVariableListItem.cpp.obj",
+			"SBlueprintHeaderView.cpp.obj"
+		]
+	}
+}

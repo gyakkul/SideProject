@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PlasticSourceControl.cpp.obj": [
+			"PlasticSourceControl.init.gen.cpp.obj",
+			"PlasticSourceControlProjectSettings.gen.cpp.obj",
+			"PackageUtils.cpp.obj",
+			"PlasticSourceControlChangelist.cpp.obj",
+			"PlasticSourceControlChangelistState.cpp.obj",
+			"PlasticSourceControlCommand.cpp.obj",
+			"PlasticSourceControlConsole.cpp.obj",
+			"PlasticSourceControlMenu.cpp.obj",
+			"PlasticSourceControlModule.cpp.obj",
+			"PlasticSourceControlOperations.cpp.obj",
+			"PlasticSourceControlProvider.cpp.obj",
+			"PlasticSourceControlRevision.cpp.obj",
+			"PlasticSourceControlSettings.cpp.obj",
+			"PlasticSourceControlShell.cpp.obj",
+			"PlasticSourceControlState.cpp.obj",
+			"PlasticSourceControlUtils.cpp.obj",
+			"ScopedTempFile.cpp.obj",
+			"SoftwareVersion.cpp.obj",
+			"SPlasticSourceControlSettings.cpp.obj"
+		]
+	}
+}

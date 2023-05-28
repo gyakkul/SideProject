@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CSVtoSVG.cpp.obj": [
+			"CSVtoSVG.init.gen.cpp.obj",
+			"CSVtoSVGArguments.gen.cpp.obj",
+			"CSVtoSVGArguments.cpp.obj",
+			"CSVtoSVGModule.cpp.obj",
+			"SCSVtoSVG.cpp.obj",
+			"SStatList.cpp.obj"
+		]
+	}
+}

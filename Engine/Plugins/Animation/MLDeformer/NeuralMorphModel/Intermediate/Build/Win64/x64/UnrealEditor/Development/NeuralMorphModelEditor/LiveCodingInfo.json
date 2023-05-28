@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NeuralMorphModelEditor.cpp.obj": [
+			"NeuralMorphModelEditor.init.gen.cpp.obj",
+			"NeuralMorphTrainingModel.gen.cpp.obj",
+			"NeuralMorphEditorModel.cpp.obj",
+			"NeuralMorphModelDetails.cpp.obj",
+			"NeuralMorphModelEditorModule.cpp.obj",
+			"NeuralMorphTrainingModel.cpp.obj"
+		]
+	}
+}

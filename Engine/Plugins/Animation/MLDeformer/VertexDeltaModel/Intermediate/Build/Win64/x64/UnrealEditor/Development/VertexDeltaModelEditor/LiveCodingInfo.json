@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VertexDeltaModelEditor.cpp.obj": [
+			"VertexDeltaModelEditor.init.gen.cpp.obj",
+			"VertexDeltaTrainingModel.gen.cpp.obj",
+			"VertexDeltaEditorModel.cpp.obj",
+			"VertexDeltaModelDetails.cpp.obj",
+			"VertexDeltaModelEditorModule.cpp.obj"
+		]
+	}
+}

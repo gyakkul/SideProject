@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXFixtures.cpp.obj": [
+			"DMXFixtureActor.gen.cpp.obj",
+			"DMXFixtureActorBase.gen.cpp.obj",
+			"DMXFixtureActorMatrix.gen.cpp.obj",
+			"DMXFixtureComponent.gen.cpp.obj",
+			"DMXFixtureComponentColor.gen.cpp.obj",
+			"DMXFixtureComponentDouble.gen.cpp.obj",
+			"DMXFixtureComponentSingle.gen.cpp.obj",
+			"DMXFixtures.init.gen.cpp.obj",
+			"DMXFixtureActor.cpp.obj",
+			"DMXFixtureActorBase.cpp.obj",
+			"DMXFixtureActorMatrix.cpp.obj",
+			"DMXFixtureComponent.cpp.obj",
+			"DMXFixtureComponentColor.cpp.obj",
+			"DMXFixtureComponentDouble.cpp.obj",
+			"DMXFixtureComponentSingle.cpp.obj",
+			"DMXFixturesModule.cpp.obj"
+		]
+	}
+}

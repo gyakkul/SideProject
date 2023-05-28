@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationModifierLibrary.cpp.obj": [
+			"AnimationModifierLibrary.init.gen.cpp.obj",
+			"CopyBonesModifier.gen.cpp.obj",
+			"MotionExtractorTypes.gen.cpp.obj",
+			"MotionExtractorUtilities.gen.cpp.obj",
+			"ReOrientRootBoneModifier.gen.cpp.obj",
+			"AnimationModifierLibrary.cpp.obj",
+			"CopyBonesModifier.cpp.obj",
+			"MotionExtractorModifier.cpp.obj",
+			"MotionExtractorUtilities.cpp.obj",
+			"ReOrientRootBoneModifier.cpp.obj"
+		]
+	}
+}

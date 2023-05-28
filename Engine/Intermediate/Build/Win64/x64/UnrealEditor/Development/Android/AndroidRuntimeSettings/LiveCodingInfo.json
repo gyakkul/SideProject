@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidRuntimeSettings.cpp.obj": [
+			"AndroidRuntimeSettings.init.gen.cpp.obj",
+			"AndroidRuntimeSettings.cpp.obj",
+			"AndroidRuntimeSettingsModule.cpp.obj"
+		]
+	}
+}

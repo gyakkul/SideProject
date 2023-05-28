@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PerfCounters.cpp.obj": [
+			"PerfCounters.cpp.obj",
+			"PerfCountersModule.cpp.obj",
+			"ZeroLoad.cpp.obj"
+		]
+	}
+}

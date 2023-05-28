@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElectraCDM.cpp.obj": [
+			"aes.cpp.obj",
+			"ClearKeyCDM.cpp.obj",
+			"StreamCryptoAES128.cpp.obj",
+			"ElectraCDM.cpp.obj",
+			"ElectraCDMModule.cpp.obj"
+		]
+	}
+}

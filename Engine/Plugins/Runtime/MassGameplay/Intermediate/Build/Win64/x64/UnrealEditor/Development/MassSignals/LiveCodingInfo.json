@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassSignals.cpp.obj": [
+			"MassSignalProcessorBase.gen.cpp.obj",
+			"MassSignals.init.gen.cpp.obj",
+			"MassSignalSubsystem.gen.cpp.obj",
+			"MassSignalProcessorBase.cpp.obj",
+			"MassSignalsModule.cpp.obj",
+			"MassSignalSubsystem.cpp.obj",
+			"MassSignalTypes.cpp.obj"
+		]
+	}
+}

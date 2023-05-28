@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VPRoles.cpp.obj": [
+			"VPRoles.init.gen.cpp.obj",
+			"VPRolesSettings.gen.cpp.obj",
+			"VPRolesSubsystem.gen.cpp.obj",
+			"VPRolesModule.cpp.obj",
+			"VPRolesSubsystem.cpp.obj"
+		]
+	}
+}

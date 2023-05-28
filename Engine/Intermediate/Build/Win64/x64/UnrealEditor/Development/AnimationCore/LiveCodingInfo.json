@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationCore.cpp.obj": [
+			"AnimationCore.init.gen.cpp.obj",
+			"CommonAnimTypes.gen.cpp.obj",
+			"NodeChain.gen.cpp.obj",
+			"NodeHierarchy.gen.cpp.obj",
+			"AngularLimit.cpp.obj",
+			"AnimationCore.cpp.obj",
+			"AnimationCoreLibrary.cpp.obj",
+			"AnimationDataSource.cpp.obj",
+			"BoneWeights.cpp.obj",
+			"CCDIK.cpp.obj",
+			"Constraint.cpp.obj",
+			"EulerTransform.cpp.obj",
+			"FABRIK.cpp.obj",
+			"SplineIK.cpp.obj",
+			"BoneWeightsTests.cpp.obj",
+			"TransformNoScale.cpp.obj",
+			"TwoBoneIK.cpp.obj"
+		]
+	}
+}

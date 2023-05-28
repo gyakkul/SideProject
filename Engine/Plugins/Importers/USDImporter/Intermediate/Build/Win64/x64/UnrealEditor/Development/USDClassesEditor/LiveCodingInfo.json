@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.USDClassesEditor.cpp.obj": [
+			"USDAssetCacheFactory.gen.cpp.obj",
+			"USDClassesEditor.init.gen.cpp.obj",
+			"USDAssetCacheAssetActions.cpp.obj",
+			"USDAssetCacheAssetEditorToolkit.cpp.obj",
+			"USDAssetCacheFactory.cpp.obj",
+			"USDClassesEditorModule.cpp.obj",
+			"USDDefaultAssetCacheDialog.cpp.obj"
+		]
+	}
+}

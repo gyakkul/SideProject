@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelingEditorUI.cpp.obj": [
+			"ModelingEditorUIModule.cpp.obj",
+			"ModelingCustomizationUtil.cpp.obj",
+			"SComboPanel.cpp.obj",
+			"SDraggableBox.cpp.obj",
+			"SDynamicNumericEntry.cpp.obj",
+			"STickDelegateWidget.cpp.obj",
+			"SToolInputAssetComboPanel.cpp.obj",
+			"SToolInputAssetPicker.cpp.obj",
+			"STransformGizmoNumericalUIOverlay.cpp.obj"
+		]
+	}
+}

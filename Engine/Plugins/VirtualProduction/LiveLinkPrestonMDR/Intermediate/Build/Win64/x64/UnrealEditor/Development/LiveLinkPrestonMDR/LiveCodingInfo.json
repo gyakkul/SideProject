@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkPrestonMDR.cpp.obj": [
+			"LiveLinkPrestonMDR.init.gen.cpp.obj",
+			"LiveLinkPrestonMDRConnectionSettings.gen.cpp.obj",
+			"LiveLinkPrestonMDRFactory.gen.cpp.obj",
+			"LiveLinkPrestonMDRRole.gen.cpp.obj",
+			"LiveLinkPrestonMDRSourceSettings.gen.cpp.obj",
+			"LiveLinkPrestonMDRTypes.gen.cpp.obj",
+			"LiveLinkPrestonMDR.cpp.obj",
+			"LiveLinkPrestonMDRFactory.cpp.obj",
+			"LiveLinkPrestonMDRRole.cpp.obj",
+			"LiveLinkPrestonMDRSource.cpp.obj",
+			"PrestonMDRMessageThread.cpp.obj"
+		]
+	}
+}

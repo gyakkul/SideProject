@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ZoneGraph.cpp.obj": [
+			"ZoneGraph.init.gen.cpp.obj",
+			"ZoneGraphBuilder.gen.cpp.obj",
+			"ZoneGraphBVTree.gen.cpp.obj",
+			"ZoneGraphData.gen.cpp.obj",
+			"ZoneGraphRenderingComponent.gen.cpp.obj",
+			"ZoneGraphSettings.gen.cpp.obj",
+			"ZoneGraphSubsystem.gen.cpp.obj",
+			"ZoneGraphTypes.gen.cpp.obj",
+			"ZoneShapeActor.gen.cpp.obj",
+			"ZoneShapeComponent.gen.cpp.obj",
+			"ZoneShapeUtilities.gen.cpp.obj",
+			"BezierUtilities.cpp.obj",
+			"ZoneGraphAStar.cpp.obj",
+			"ZoneGraphBuilder.cpp.obj",
+			"ZoneGraphBVTree.cpp.obj",
+			"ZoneGraphData.cpp.obj",
+			"ZoneGraphDelegates.cpp.obj",
+			"ZoneGraphModule.cpp.obj",
+			"ZoneGraphQuery.cpp.obj",
+			"ZoneGraphRenderingComponent.cpp.obj",
+			"ZoneGraphRenderingUtilities.cpp.obj",
+			"ZoneGraphSettings.cpp.obj",
+			"ZoneGraphSubsystem.cpp.obj",
+			"ZoneGraphTypes.cpp.obj",
+			"ZoneShapeActor.cpp.obj",
+			"ZoneShapeComponent.cpp.obj",
+			"ZoneShapeUtilities.cpp.obj"
+		]
+	}
+}

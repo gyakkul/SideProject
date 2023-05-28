@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ElectraHTTPStream.cpp.obj": [
+			"CurlElectraHTTPStream.cpp.obj",
+			"CurlLogError.cpp.obj",
+			"ElectraHTTPStream.cpp.obj",
+			"ElectraHTTPStreamModule.cpp.obj",
+			"DefaultHttpUserAgent.cpp.obj",
+			"WinHttpElectraHTTPStream.cpp.obj",
+			"WinHttpLogError.cpp.obj"
+		]
+	}
+}

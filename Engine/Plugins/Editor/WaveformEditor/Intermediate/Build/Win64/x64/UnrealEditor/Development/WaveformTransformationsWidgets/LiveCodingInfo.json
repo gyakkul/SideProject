@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WaveformTransformationsWidgets.cpp.obj": [
+			"WaveformTransformationRendererBase.cpp.obj",
+			"WaveformTransformationsRenderManager.cpp.obj",
+			"WaveformTransformationsWidgetsModule.cpp.obj",
+			"WaveformTransformationTrimFadeRenderer.cpp.obj"
+		]
+	}
+}

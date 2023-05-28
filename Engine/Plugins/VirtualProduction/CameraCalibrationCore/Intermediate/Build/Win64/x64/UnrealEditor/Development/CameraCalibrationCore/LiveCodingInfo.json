@@ -1,0 +1,65 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CameraCalibrationCore.1_of_3.cpp.obj": [
+			"AnamorphicLensDistortionModelHandler.gen.cpp.obj",
+			"AnamorphicLensModel.gen.cpp.obj",
+			"BaseLensTable.gen.cpp.obj",
+			"CalibratedMapFormat.gen.cpp.obj",
+			"CalibrationPointComponent.gen.cpp.obj",
+			"CameraCalibrationCheckerboard.gen.cpp.obj",
+			"CameraCalibrationCore.init.gen.cpp.obj",
+			"CameraCalibrationSettings.gen.cpp.obj",
+			"CameraCalibrationStep.gen.cpp.obj",
+			"CameraCalibrationSubsystem.gen.cpp.obj",
+			"CameraCalibrationTypes.gen.cpp.obj",
+			"CameraImageCenterAlgo.gen.cpp.obj",
+			"CameraLensDistortionAlgo.gen.cpp.obj",
+			"CameraNodalOffsetAlgo.gen.cpp.obj",
+			"DistortionParametersTable.gen.cpp.obj",
+			"EncodersTable.gen.cpp.obj",
+			"FocalLengthTable.gen.cpp.obj",
+			"ImageCenterTable.gen.cpp.obj",
+			"LensComponent.gen.cpp.obj"
+		],
+		"Module.CameraCalibrationCore.2_of_3.cpp.obj": [
+			"LensData.gen.cpp.obj",
+			"LensDistortionModelHandlerBase.gen.cpp.obj",
+			"LensFile.gen.cpp.obj",
+			"LensModel.gen.cpp.obj",
+			"NodalOffsetTable.gen.cpp.obj",
+			"SphericalLensDistortionModelHandler.gen.cpp.obj",
+			"SphericalLensModel.gen.cpp.obj",
+			"STMapTable.gen.cpp.obj"
+		],
+		"Module.CameraCalibrationCore.3_of_3.cpp.obj": [
+			"AnamorphicLensDistortionModelHandler.cpp.obj",
+			"CalibratedMapProcessor.cpp.obj",
+			"CalibrationPointComponent.cpp.obj",
+			"CameraCalibrationCheckerboard.cpp.obj",
+			"CameraCalibrationCoreModule.cpp.obj",
+			"CameraCalibrationSettings.cpp.obj",
+			"CameraCalibrationSubsystem.cpp.obj",
+			"CameraCalibrationUtils.cpp.obj",
+			"DistortionRenderingUtils.cpp.obj",
+			"LensComponent.cpp.obj",
+			"LensDistortionModelHandlerBase.cpp.obj",
+			"LensFile.cpp.obj",
+			"LensFileRendering.cpp.obj",
+			"LensInterpolationUtils.cpp.obj",
+			"AnamorphicLensModel.cpp.obj",
+			"LensModel.cpp.obj",
+			"SphericalLensModel.cpp.obj",
+			"OverlayRendering.cpp.obj",
+			"SphericalLensDistortionModelHandler.cpp.obj",
+			"BaseLensTable.cpp.obj",
+			"DistortionParametersTable.cpp.obj",
+			"EncodersTable.cpp.obj",
+			"FocalLengthTable.cpp.obj",
+			"ImageCenterTable.cpp.obj",
+			"NodalOffsetTable.cpp.obj",
+			"STMapTable.cpp.obj",
+			"TestDistortionMapping.cpp.obj"
+		]
+	}
+}

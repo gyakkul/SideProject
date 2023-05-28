@@ -1,0 +1,648 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "MeshVertexPaintingTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHPAINTINGTOOLSET_MeshVertexPaintingTool_generated_h
+#error "MeshVertexPaintingTool.generated.h already included, missing '#pragma once' in MeshVertexPaintingTool.h"
+#endif
+#define MESHPAINTINGTOOLSET_MeshVertexPaintingTool_generated_h
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshColorPaintingToolBuilder(); \
+	friend struct Z_Construct_UClass_UMeshColorPaintingToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMeshColorPaintingToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshColorPaintingToolBuilder)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshColorPaintingToolBuilder(); \
+	friend struct Z_Construct_UClass_UMeshColorPaintingToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMeshColorPaintingToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshColorPaintingToolBuilder)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshColorPaintingToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshColorPaintingToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshColorPaintingToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshColorPaintingToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshColorPaintingToolBuilder(UMeshColorPaintingToolBuilder&&); \
+	NO_API UMeshColorPaintingToolBuilder(const UMeshColorPaintingToolBuilder&); \
+public: \
+	NO_API virtual ~UMeshColorPaintingToolBuilder();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshColorPaintingToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshColorPaintingToolBuilder(UMeshColorPaintingToolBuilder&&); \
+	NO_API UMeshColorPaintingToolBuilder(const UMeshColorPaintingToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshColorPaintingToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshColorPaintingToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshColorPaintingToolBuilder) \
+	NO_API virtual ~UMeshColorPaintingToolBuilder();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_54_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshColorPaintingToolBuilder>();
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshWeightPaintingToolBuilder(); \
+	friend struct Z_Construct_UClass_UMeshWeightPaintingToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMeshWeightPaintingToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshWeightPaintingToolBuilder)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshWeightPaintingToolBuilder(); \
+	friend struct Z_Construct_UClass_UMeshWeightPaintingToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UMeshWeightPaintingToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshWeightPaintingToolBuilder)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshWeightPaintingToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshWeightPaintingToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshWeightPaintingToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshWeightPaintingToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshWeightPaintingToolBuilder(UMeshWeightPaintingToolBuilder&&); \
+	NO_API UMeshWeightPaintingToolBuilder(const UMeshWeightPaintingToolBuilder&); \
+public: \
+	NO_API virtual ~UMeshWeightPaintingToolBuilder();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshWeightPaintingToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshWeightPaintingToolBuilder(UMeshWeightPaintingToolBuilder&&); \
+	NO_API UMeshWeightPaintingToolBuilder(const UMeshWeightPaintingToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshWeightPaintingToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshWeightPaintingToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshWeightPaintingToolBuilder) \
+	NO_API virtual ~UMeshWeightPaintingToolBuilder();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_64_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_67_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshWeightPaintingToolBuilder>();
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshVertexPaintingToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshVertexPaintingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshVertexPaintingToolProperties, UBrushBaseProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshVertexPaintingToolProperties)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshVertexPaintingToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshVertexPaintingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshVertexPaintingToolProperties, UBrushBaseProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshVertexPaintingToolProperties)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshVertexPaintingToolProperties(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshVertexPaintingToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshVertexPaintingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshVertexPaintingToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshVertexPaintingToolProperties(UMeshVertexPaintingToolProperties&&); \
+	NO_API UMeshVertexPaintingToolProperties(const UMeshVertexPaintingToolProperties&); \
+public: \
+	NO_API virtual ~UMeshVertexPaintingToolProperties();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshVertexPaintingToolProperties(UMeshVertexPaintingToolProperties&&); \
+	NO_API UMeshVertexPaintingToolProperties(const UMeshVertexPaintingToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshVertexPaintingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshVertexPaintingToolProperties); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMeshVertexPaintingToolProperties) \
+	NO_API virtual ~UMeshVertexPaintingToolProperties();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_76_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_79_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshVertexPaintingToolProperties>();
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshColorPaintingToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshColorPaintingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshColorPaintingToolProperties, UMeshVertexPaintingToolProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshColorPaintingToolProperties)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshColorPaintingToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshColorPaintingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshColorPaintingToolProperties, UMeshVertexPaintingToolProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshColorPaintingToolProperties)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshColorPaintingToolProperties(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshColorPaintingToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshColorPaintingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshColorPaintingToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshColorPaintingToolProperties(UMeshColorPaintingToolProperties&&); \
+	NO_API UMeshColorPaintingToolProperties(const UMeshColorPaintingToolProperties&); \
+public: \
+	NO_API virtual ~UMeshColorPaintingToolProperties();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshColorPaintingToolProperties(UMeshColorPaintingToolProperties&&); \
+	NO_API UMeshColorPaintingToolProperties(const UMeshColorPaintingToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshColorPaintingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshColorPaintingToolProperties); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMeshColorPaintingToolProperties) \
+	NO_API virtual ~UMeshColorPaintingToolProperties();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_106_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_109_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshColorPaintingToolProperties>();
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshWeightPaintingToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshWeightPaintingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshWeightPaintingToolProperties, UMeshVertexPaintingToolProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshWeightPaintingToolProperties)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshWeightPaintingToolProperties(); \
+	friend struct Z_Construct_UClass_UMeshWeightPaintingToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UMeshWeightPaintingToolProperties, UMeshVertexPaintingToolProperties, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshWeightPaintingToolProperties)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshWeightPaintingToolProperties(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshWeightPaintingToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshWeightPaintingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshWeightPaintingToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshWeightPaintingToolProperties(UMeshWeightPaintingToolProperties&&); \
+	NO_API UMeshWeightPaintingToolProperties(const UMeshWeightPaintingToolProperties&); \
+public: \
+	NO_API virtual ~UMeshWeightPaintingToolProperties();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshWeightPaintingToolProperties(UMeshWeightPaintingToolProperties&&); \
+	NO_API UMeshWeightPaintingToolProperties(const UMeshWeightPaintingToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshWeightPaintingToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshWeightPaintingToolProperties); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMeshWeightPaintingToolProperties) \
+	NO_API virtual ~UMeshWeightPaintingToolProperties();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_140_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_143_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshWeightPaintingToolProperties>();
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshVertexPaintingTool(); \
+	friend struct Z_Construct_UClass_UMeshVertexPaintingTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshVertexPaintingTool, UBaseBrushTool, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshVertexPaintingTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UMeshVertexPaintingTool*>(this); }
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshVertexPaintingTool(); \
+	friend struct Z_Construct_UClass_UMeshVertexPaintingTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshVertexPaintingTool, UBaseBrushTool, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshVertexPaintingTool) \
+	virtual UObject* _getUObject() const override { return const_cast<UMeshVertexPaintingTool*>(this); }
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshVertexPaintingTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshVertexPaintingTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshVertexPaintingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshVertexPaintingTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshVertexPaintingTool(UMeshVertexPaintingTool&&); \
+	NO_API UMeshVertexPaintingTool(const UMeshVertexPaintingTool&); \
+public: \
+	NO_API virtual ~UMeshVertexPaintingTool();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshVertexPaintingTool(UMeshVertexPaintingTool&&); \
+	NO_API UMeshVertexPaintingTool(const UMeshVertexPaintingTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshVertexPaintingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshVertexPaintingTool); \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(UMeshVertexPaintingTool) \
+	NO_API virtual ~UMeshVertexPaintingTool();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_161_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_164_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshVertexPaintingTool>();
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshColorPaintingTool(); \
+	friend struct Z_Construct_UClass_UMeshColorPaintingTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshColorPaintingTool, UMeshVertexPaintingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshColorPaintingTool)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshColorPaintingTool(); \
+	friend struct Z_Construct_UClass_UMeshColorPaintingTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshColorPaintingTool, UMeshVertexPaintingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshColorPaintingTool)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshColorPaintingTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshColorPaintingTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshColorPaintingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshColorPaintingTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshColorPaintingTool(UMeshColorPaintingTool&&); \
+	NO_API UMeshColorPaintingTool(const UMeshColorPaintingTool&); \
+public: \
+	NO_API virtual ~UMeshColorPaintingTool();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshColorPaintingTool(UMeshColorPaintingTool&&); \
+	NO_API UMeshColorPaintingTool(const UMeshColorPaintingTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshColorPaintingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshColorPaintingTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMeshColorPaintingTool) \
+	NO_API virtual ~UMeshColorPaintingTool();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_242_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_245_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshColorPaintingTool>();
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_SPARSE_DATA
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_RPC_WRAPPERS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_ACCESSORS
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMeshWeightPaintingTool(); \
+	friend struct Z_Construct_UClass_UMeshWeightPaintingTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshWeightPaintingTool, UMeshVertexPaintingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshWeightPaintingTool)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_INCLASS \
+private: \
+	static void StaticRegisterNativesUMeshWeightPaintingTool(); \
+	friend struct Z_Construct_UClass_UMeshWeightPaintingTool_Statics; \
+public: \
+	DECLARE_CLASS(UMeshWeightPaintingTool, UMeshVertexPaintingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshPaintingToolset"), NO_API) \
+	DECLARE_SERIALIZER(UMeshWeightPaintingTool)
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMeshWeightPaintingTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMeshWeightPaintingTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshWeightPaintingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshWeightPaintingTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshWeightPaintingTool(UMeshWeightPaintingTool&&); \
+	NO_API UMeshWeightPaintingTool(const UMeshWeightPaintingTool&); \
+public: \
+	NO_API virtual ~UMeshWeightPaintingTool();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMeshWeightPaintingTool(UMeshWeightPaintingTool&&); \
+	NO_API UMeshWeightPaintingTool(const UMeshWeightPaintingTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMeshWeightPaintingTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMeshWeightPaintingTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UMeshWeightPaintingTool) \
+	NO_API virtual ~UMeshWeightPaintingTool();
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_276_PROLOG
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_RPC_WRAPPERS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_INCLASS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_SPARSE_DATA \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_ACCESSORS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h_279_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHPAINTINGTOOLSET_API UClass* StaticClass<class UMeshWeightPaintingTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_MeshPainting_Source_MeshPaintingToolset_Public_MeshVertexPaintingTool_h
+
+
+#define FOREACH_ENUM_EMESHPAINTWEIGHTTYPES(op) \
+	op(EMeshPaintWeightTypes::AlphaLerp) \
+	op(EMeshPaintWeightTypes::RGB) \
+	op(EMeshPaintWeightTypes::ARGB) \
+	op(EMeshPaintWeightTypes::OneMinusARGB) 
+
+enum class EMeshPaintWeightTypes : uint8;
+template<> struct TIsUEnumClass<EMeshPaintWeightTypes> { enum { Value = true }; };
+template<> MESHPAINTINGTOOLSET_API UEnum* StaticEnum<EMeshPaintWeightTypes>();
+
+#define FOREACH_ENUM_EMESHPAINTTEXTUREINDEX(op) \
+	op(EMeshPaintTextureIndex::TextureOne) \
+	op(EMeshPaintTextureIndex::TextureTwo) \
+	op(EMeshPaintTextureIndex::TextureThree) \
+	op(EMeshPaintTextureIndex::TextureFour) \
+	op(EMeshPaintTextureIndex::TextureFive) 
+
+enum class EMeshPaintTextureIndex : uint8;
+template<> struct TIsUEnumClass<EMeshPaintTextureIndex> { enum { Value = true }; };
+template<> MESHPAINTINGTOOLSET_API UEnum* StaticEnum<EMeshPaintTextureIndex>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

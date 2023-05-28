@@ -1,0 +1,43 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelingOperators.cpp.obj": [
+			"ModelingOperators.init.gen.cpp.obj",
+			"RecomputeUVsProperties.gen.cpp.obj",
+			"UVLayoutProperties.gen.cpp.obj",
+			"SimpleMeshProcessingBaseOp.cpp.obj",
+			"VoxelBaseOp.cpp.obj",
+			"EditNormalsOp.cpp.obj",
+			"HoleFillOp.cpp.obj",
+			"RemeshMeshOp.cpp.obj",
+			"RemoveOccludedTrianglesOp.cpp.obj",
+			"BooleanMeshesOp.cpp.obj",
+			"CubeGridBooleanOp.cpp.obj",
+			"CurveSweepOp.cpp.obj",
+			"MirrorOp.cpp.obj",
+			"SelfUnionMeshesOp.cpp.obj",
+			"VoxelBlendMeshesOp.cpp.obj",
+			"VoxelMorphologyMeshesOp.cpp.obj",
+			"VoxelSolidifyMeshesOp.cpp.obj",
+			"EdgeLoopInsertionOp.cpp.obj",
+			"GroupEdgeInsertionOp.cpp.obj",
+			"PlaneCutOp.cpp.obj",
+			"ExtrudeOp.cpp.obj",
+			"LatticeDeformerOp.cpp.obj",
+			"BendMeshOp.cpp.obj",
+			"FlareMeshOp.cpp.obj",
+			"MeshSpaceDeformerOp.cpp.obj",
+			"TwistMeshOp.cpp.obj",
+			"ModelingOperatorsModule.cpp.obj",
+			"RecomputeUVsOp.cpp.obj",
+			"UVLayoutOp.cpp.obj",
+			"UVProjectionOp.cpp.obj",
+			"LinearExtrusionOp.cpp.obj",
+			"RegionOffsetOp.cpp.obj",
+			"SkinBindingOp.cpp.obj",
+			"CotanSmoothingOp.cpp.obj",
+			"IterativeSmoothingOp.cpp.obj",
+			"SmoothingOpBase.cpp.obj"
+		]
+	}
+}

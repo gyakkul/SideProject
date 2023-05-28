@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StaticMeshDescription.cpp.obj": [
+			"StaticMeshDescription.init.gen.cpp.obj",
+			"UVMapSettings.gen.cpp.obj",
+			"StaticMeshAttributes.cpp.obj",
+			"StaticMeshDescription.cpp.obj",
+			"StaticMeshDescriptionModule.cpp.obj",
+			"StaticMeshOperations.cpp.obj"
+		]
+	}
+}

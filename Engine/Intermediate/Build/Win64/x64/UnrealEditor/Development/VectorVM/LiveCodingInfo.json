@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VectorVM.cpp.obj": [
+			"VectorVM.init.gen.cpp.obj",
+			"VectorVMCommon.gen.cpp.obj",
+			"VectorVMTests.cpp.obj",
+			"VectorVM.cpp.obj"
+		]
+	}
+}

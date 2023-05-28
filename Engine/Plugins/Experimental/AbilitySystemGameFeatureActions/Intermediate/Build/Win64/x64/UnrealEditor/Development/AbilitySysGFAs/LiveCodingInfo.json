@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AbilitySysGFAs.cpp.obj": [
+			"AbilitySystemGameFeatureActions.init.gen.cpp.obj",
+			"AbilitySystemGameFeatureActionsModule.cpp.obj",
+			"GameFeatureAction_AddAttributeDefaults.cpp.obj"
+		]
+	}
+}

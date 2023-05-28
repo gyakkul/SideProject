@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebBrowserTexture.cpp.obj": [
+			"WebBrowserTexture.gen.cpp.obj",
+			"WebBrowserTexture.init.gen.cpp.obj",
+			"WebBrowserTexture.cpp.obj",
+			"WebBrowserTextureModule.cpp.obj",
+			"WebBrowserTextureResource.cpp.obj"
+		]
+	}
+}

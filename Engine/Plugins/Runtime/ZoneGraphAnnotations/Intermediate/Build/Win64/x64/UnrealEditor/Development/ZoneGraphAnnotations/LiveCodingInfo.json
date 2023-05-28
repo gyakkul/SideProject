@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ZoneGraphAnnotations.cpp.obj": [
+			"ZoneGraphAnnotationComponent.gen.cpp.obj",
+			"ZoneGraphAnnotations.init.gen.cpp.obj",
+			"ZoneGraphAnnotationSubsystem.gen.cpp.obj",
+			"ZoneGraphAnnotationTestingActor.gen.cpp.obj",
+			"ZoneGraphAnnotationTypes.gen.cpp.obj",
+			"ZoneGraphDisturbanceAnnotation.gen.cpp.obj",
+			"ZoneGraphDisturbanceAnnotationBPLibrary.gen.cpp.obj",
+			"ZoneGraphDisturbanceAnnotation.cpp.obj",
+			"ZoneGraphDisturbanceAnnotationBPLibrary.cpp.obj",
+			"ZoneGraphAnnotationComponent.cpp.obj",
+			"ZoneGraphAnnotationsModule.cpp.obj",
+			"ZoneGraphAnnotationSubsystem.cpp.obj",
+			"ZoneGraphAnnotationTestingActor.cpp.obj",
+			"ZoneGraphAnnotationTypes.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnalyticsVisualEditing.cpp.obj": [
+			"AnalyticsSettings.gen.cpp.obj",
+			"AnalyticsVisualEditing.init.gen.cpp.obj",
+			"AnalyticsVisualEditing.cpp.obj"
+		]
+	}
+}

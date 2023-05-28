@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AutomationUtils.cpp.obj": [
+			"AutomationUtils.init.gen.cpp.obj",
+			"AutomationUtils.cpp.obj",
+			"AutomationUtilsBlueprintLibrary.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,252 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ViewModels/Stack/NiagaraStackSystemSettingsGroup.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef NIAGARAEDITOR_NiagaraStackSystemSettingsGroup_generated_h
+#error "NiagaraStackSystemSettingsGroup.generated.h already included, missing '#pragma once' in NiagaraStackSystemSettingsGroup.h"
+#endif
+#define NIAGARAEDITOR_NiagaraStackSystemSettingsGroup_generated_h
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraStackSystemPropertiesGroup(); \
+	friend struct Z_Construct_UClass_UNiagaraStackSystemPropertiesGroup_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraStackSystemPropertiesGroup, UNiagaraStackItemGroup, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraStackSystemPropertiesGroup)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraStackSystemPropertiesGroup(); \
+	friend struct Z_Construct_UClass_UNiagaraStackSystemPropertiesGroup_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraStackSystemPropertiesGroup, UNiagaraStackItemGroup, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraStackSystemPropertiesGroup)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraStackSystemPropertiesGroup(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraStackSystemPropertiesGroup) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraStackSystemPropertiesGroup); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraStackSystemPropertiesGroup); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraStackSystemPropertiesGroup(UNiagaraStackSystemPropertiesGroup&&); \
+	NO_API UNiagaraStackSystemPropertiesGroup(const UNiagaraStackSystemPropertiesGroup&); \
+public: \
+	NO_API virtual ~UNiagaraStackSystemPropertiesGroup();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraStackSystemPropertiesGroup(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraStackSystemPropertiesGroup(UNiagaraStackSystemPropertiesGroup&&); \
+	NO_API UNiagaraStackSystemPropertiesGroup(const UNiagaraStackSystemPropertiesGroup&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraStackSystemPropertiesGroup); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraStackSystemPropertiesGroup); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraStackSystemPropertiesGroup) \
+	NO_API virtual ~UNiagaraStackSystemPropertiesGroup();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_14_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraStackSystemPropertiesGroup>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraStackSystemUserParametersGroup(); \
+	friend struct Z_Construct_UClass_UNiagaraStackSystemUserParametersGroup_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraStackSystemUserParametersGroup, UNiagaraStackItemGroup, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraStackSystemUserParametersGroup)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraStackSystemUserParametersGroup(); \
+	friend struct Z_Construct_UClass_UNiagaraStackSystemUserParametersGroup_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraStackSystemUserParametersGroup, UNiagaraStackItemGroup, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraStackSystemUserParametersGroup)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraStackSystemUserParametersGroup(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraStackSystemUserParametersGroup) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraStackSystemUserParametersGroup); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraStackSystemUserParametersGroup); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraStackSystemUserParametersGroup(UNiagaraStackSystemUserParametersGroup&&); \
+	NO_API UNiagaraStackSystemUserParametersGroup(const UNiagaraStackSystemUserParametersGroup&); \
+public: \
+	NO_API virtual ~UNiagaraStackSystemUserParametersGroup();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraStackSystemUserParametersGroup(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraStackSystemUserParametersGroup(UNiagaraStackSystemUserParametersGroup&&); \
+	NO_API UNiagaraStackSystemUserParametersGroup(const UNiagaraStackSystemUserParametersGroup&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraStackSystemUserParametersGroup); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraStackSystemUserParametersGroup); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraStackSystemUserParametersGroup) \
+	NO_API virtual ~UNiagaraStackSystemUserParametersGroup();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_31_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraStackSystemUserParametersGroup>();
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_SPARSE_DATA
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_RPC_WRAPPERS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_ACCESSORS
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNiagaraStackParameterStoreItem(); \
+	friend struct Z_Construct_UClass_UNiagaraStackParameterStoreItem_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraStackParameterStoreItem, UNiagaraStackItem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraStackParameterStoreItem)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_INCLASS \
+private: \
+	static void StaticRegisterNativesUNiagaraStackParameterStoreItem(); \
+	friend struct Z_Construct_UClass_UNiagaraStackParameterStoreItem_Statics; \
+public: \
+	DECLARE_CLASS(UNiagaraStackParameterStoreItem, UNiagaraStackItem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NiagaraEditor"), NO_API) \
+	DECLARE_SERIALIZER(UNiagaraStackParameterStoreItem)
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraStackParameterStoreItem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNiagaraStackParameterStoreItem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraStackParameterStoreItem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraStackParameterStoreItem); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraStackParameterStoreItem(UNiagaraStackParameterStoreItem&&); \
+	NO_API UNiagaraStackParameterStoreItem(const UNiagaraStackParameterStoreItem&); \
+public: \
+	NO_API virtual ~UNiagaraStackParameterStoreItem();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNiagaraStackParameterStoreItem(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNiagaraStackParameterStoreItem(UNiagaraStackParameterStoreItem&&); \
+	NO_API UNiagaraStackParameterStoreItem(const UNiagaraStackParameterStoreItem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNiagaraStackParameterStoreItem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNiagaraStackParameterStoreItem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNiagaraStackParameterStoreItem) \
+	NO_API virtual ~UNiagaraStackParameterStoreItem();
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_48_PROLOG
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_RPC_WRAPPERS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_INCLASS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_SPARSE_DATA \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_ACCESSORS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h_51_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NIAGARAEDITOR_API UClass* StaticClass<class UNiagaraStackParameterStoreItem>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_FX_Niagara_Source_NiagaraEditor_Public_ViewModels_Stack_NiagaraStackSystemSettingsGroup_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

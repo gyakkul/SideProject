@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BackgroundHTTPFileHash.cpp.obj": [
+			"BackgroundHttpFileHashHelper.cpp.obj",
+			"BackgroundHttpFileHashModule.cpp.obj"
+		]
+	}
+}

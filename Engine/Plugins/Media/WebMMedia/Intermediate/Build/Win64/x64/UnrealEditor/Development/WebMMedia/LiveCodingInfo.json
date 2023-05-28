@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebMMedia.cpp.obj": [
+			"MkvFileReader.cpp.obj",
+			"WebMAudioDecoder.cpp.obj",
+			"WebMMediaPlayer.cpp.obj",
+			"WebMMediaTextureSample.cpp.obj",
+			"WebMVideoDecoder.cpp.obj",
+			"WebMContainer.cpp.obj",
+			"WebMMediaModule.cpp.obj"
+		]
+	}
+}

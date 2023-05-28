@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimToTextureEditor.cpp.obj": [
+			"AnimToTextureBPLibrary.gen.cpp.obj",
+			"AnimToTextureEditor.init.gen.cpp.obj",
+			"AnimToTextureBPLibrary.cpp.obj",
+			"AnimToTextureEditor.cpp.obj",
+			"AnimToTextureMeshMapping.cpp.obj",
+			"AnimToTextureSkeletalMesh.cpp.obj",
+			"AnimToTextureUtils.cpp.obj"
+		]
+	}
+}

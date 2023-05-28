@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCache.cpp.obj": [
+			"GeometryCache.init.gen.cpp.obj",
+			"CodecV1.cpp.obj",
+			"FloatCompression.cpp.obj",
+			"GeometryCache.cpp.obj",
+			"GeometryCacheActor.cpp.obj",
+			"GeometryCacheCodecBase.cpp.obj",
+			"GeometryCacheCodecRaw.cpp.obj",
+			"GeometryCacheCodecV1.cpp.obj",
+			"GeometryCacheComponent.cpp.obj",
+			"GeometryCacheMeshData.cpp.obj",
+			"GeometryCacheModule.cpp.obj",
+			"GeometryCachePreprocessor.cpp.obj",
+			"GeometryCacheSceneProxy.cpp.obj",
+			"GeometryCacheStreamingManager.cpp.obj",
+			"GeometryCacheTrack.cpp.obj",
+			"GeometryCacheTrackFlipbookAnimation.cpp.obj",
+			"GeometryCacheTrackStreamable.cpp.obj",
+			"GeometryCacheTrackTransformAnimation.cpp.obj",
+			"GeometryCacheTrackTransformGroupAnimation.cpp.obj",
+			"HuffmanTable.cpp.obj",
+			"NiagaraGeometryCacheRendererProperties.cpp.obj",
+			"NiagaraRendererGeometryCache.cpp.obj",
+			"NormalCompression.cpp.obj",
+			"StreamingGeometryCacheData.cpp.obj"
+		]
+	}
+}

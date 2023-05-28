@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderGridDeveloper.cpp.obj": [
+			"RenderGridBlueprint.gen.cpp.obj",
+			"RenderGridDeveloper.init.gen.cpp.obj",
+			"RenderGridDeveloperLibrary.gen.cpp.obj",
+			"RenderGridBlueprint.cpp.obj",
+			"RenderGridBlueprintCompiler.cpp.obj",
+			"RenderGridDeveloperLibrary.cpp.obj",
+			"RenderGridDeveloperModule.cpp.obj"
+		]
+	}
+}

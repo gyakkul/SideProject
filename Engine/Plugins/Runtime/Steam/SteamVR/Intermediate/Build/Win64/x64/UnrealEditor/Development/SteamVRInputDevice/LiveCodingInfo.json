@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SteamVRInputDevice.cpp.obj": [
+			"AnimNode_SteamVRInputAnimPose.gen.cpp.obj",
+			"AnimNode_SteamVRSetWristTransform.gen.cpp.obj",
+			"SteamVRInputDevice.init.gen.cpp.obj",
+			"SteamVRInputDeviceFunctionLibrary.gen.cpp.obj",
+			"SteamVRTrackingRefComponent.gen.cpp.obj",
+			"AnimNode_SteamVRInputAnimPose.cpp.obj",
+			"AnimNode_SteamVRSetWristTransform.cpp.obj",
+			"SteamVRInputDevice.cpp.obj",
+			"SteamVRInputDeviceFunctionLibrary.cpp.obj",
+			"SteamVRInputDeviceModule.cpp.obj",
+			"SteamVRSkeletonDefinition.cpp.obj",
+			"SteamVRTrackingRefComponent.cpp.obj",
+			"UE4HandSkeletonDefinition.cpp.obj"
+		]
+	}
+}

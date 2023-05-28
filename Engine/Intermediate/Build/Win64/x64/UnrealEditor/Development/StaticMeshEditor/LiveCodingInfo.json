@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StaticMeshEditor.cpp.obj": [
+			"StaticMeshEditor.init.gen.cpp.obj",
+			"StaticMeshEditorModeUILayer.gen.cpp.obj",
+			"StaticMeshEditorSubsystemHelpers.gen.cpp.obj",
+			"SStaticMeshEditorViewport.cpp.obj",
+			"SStaticMeshEditorViewportToolBar.cpp.obj",
+			"StaticMeshAutomationTests.cpp.obj",
+			"StaticMeshEditor.cpp.obj",
+			"StaticMeshEditorActions.cpp.obj",
+			"StaticMeshEditorModeUILayer.cpp.obj",
+			"StaticMeshEditorModule.cpp.obj",
+			"StaticMeshEditorSubsystem.cpp.obj",
+			"StaticMeshEditorTools.cpp.obj",
+			"StaticMeshEditorViewportClient.cpp.obj",
+			"StaticMeshViewportLODCommands.cpp.obj"
+		]
+	}
+}

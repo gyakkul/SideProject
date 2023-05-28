@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataChartsEditor.cpp.obj": [
+			"DataChartsEditor.cpp.obj",
+			"DataChartsPlacement.cpp.obj",
+			"DataChartsStyle.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PhysicsControlVisualizer.cpp.obj": [
+			"PhysicsControlComponentVisualizer.cpp.obj",
+			"PhysicsControlVisualizerModule.cpp.obj"
+		]
+	}
+}

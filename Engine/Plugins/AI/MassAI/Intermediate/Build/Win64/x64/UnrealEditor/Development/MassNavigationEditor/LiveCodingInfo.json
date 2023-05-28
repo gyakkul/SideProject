@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassNavigationEditor.cpp.obj": [
+			"MassNavigationEditor.init.gen.cpp.obj",
+			"MassNavigationTestingActor.gen.cpp.obj",
+			"MassNavigationEditorModule.cpp.obj",
+			"MassNavigationTestingActor.cpp.obj"
+		]
+	}
+}

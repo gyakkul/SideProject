@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlendSpaceMotionAnalysis.cpp.obj": [
+			"BlendSpaceMotionAnalysis.init.gen.cpp.obj",
+			"BlendSpaceMotionAnalysis.cpp.obj",
+			"LocomotionAnalysis.cpp.obj",
+			"RootMotionAnalysis.cpp.obj"
+		]
+	}
+}

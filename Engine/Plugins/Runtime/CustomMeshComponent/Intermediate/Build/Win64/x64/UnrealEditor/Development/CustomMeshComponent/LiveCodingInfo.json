@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CustomMeshComponent.cpp.obj": [
+			"CustomMeshComponent.gen.cpp.obj",
+			"CustomMeshComponent.init.gen.cpp.obj",
+			"CustomMeshComponent.cpp.obj",
+			"CustomMeshComponentPlugin.cpp.obj"
+		]
+	}
+}

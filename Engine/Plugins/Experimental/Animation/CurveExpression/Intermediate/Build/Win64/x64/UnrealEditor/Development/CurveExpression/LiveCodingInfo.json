@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CurveExpression.cpp.obj": [
+			"CurveExpression.init.gen.cpp.obj",
+			"AnimNode_RemapCurvesFromMesh.cpp.obj",
+			"CurveExpressionModule.cpp.obj",
+			"ExpressionEvaluator.cpp.obj"
+		]
+	}
+}

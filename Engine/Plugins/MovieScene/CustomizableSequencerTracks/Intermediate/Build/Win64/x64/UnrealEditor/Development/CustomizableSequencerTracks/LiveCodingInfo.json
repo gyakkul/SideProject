@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CustomizableSequencerTracks.cpp.obj": [
+			"CustomizableSequencerTracks.init.gen.cpp.obj",
+			"SequencerSectionBP.gen.cpp.obj",
+			"SequencerTrackBP.gen.cpp.obj",
+			"SequencerTrackInstanceBP.gen.cpp.obj",
+			"SequencerSectionBP.cpp.obj",
+			"SequencerTrackBP.cpp.obj",
+			"SequencerTrackInstanceBP.cpp.obj"
+		]
+	}
+}

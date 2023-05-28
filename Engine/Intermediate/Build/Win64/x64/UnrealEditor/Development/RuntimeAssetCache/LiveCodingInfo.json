@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RuntimeAssetCache.cpp.obj": [
+			"RuntimeAssetCache.init.gen.cpp.obj",
+			"RuntimeAssetCacheBPHooks.gen.cpp.obj",
+			"RuntimeAssetCacheBuilders.gen.cpp.obj",
+			"RuntimeAssetCacheInterface.gen.cpp.obj",
+			"RuntimeAssetCachePluginInterface.gen.cpp.obj",
+			"RuntimeAssetCache.cpp.obj",
+			"RuntimeAssetCacheAsyncWorker.cpp.obj",
+			"RuntimeAssetCacheBackend.cpp.obj",
+			"RuntimeAssetCacheBPHooks.cpp.obj",
+			"RuntimeAssetCacheBucket.cpp.obj",
+			"RuntimeAssetCacheBuilders.cpp.obj",
+			"RuntimeAssetCacheFilesystemBackend.cpp.obj",
+			"RuntimeAssetCacheModule.cpp.obj"
+		]
+	}
+}

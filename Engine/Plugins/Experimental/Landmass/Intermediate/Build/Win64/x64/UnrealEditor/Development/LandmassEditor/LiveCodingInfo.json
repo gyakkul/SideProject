@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LandmassEditor.cpp.obj": [
+			"LandmassEditor.init.gen.cpp.obj",
+			"LandmassActor.cpp.obj",
+			"LandmassBPEditorExtension.cpp.obj",
+			"LandmassEditorModule.cpp.obj"
+		]
+	}
+}

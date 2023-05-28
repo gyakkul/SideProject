@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SequencerScriptingEditor.cpp.obj": [
+			"SequencerScriptingEditor.init.gen.cpp.obj",
+			"SequencerScriptingEditor.cpp.obj",
+			"SequencerTools.cpp.obj"
+		]
+	}
+}

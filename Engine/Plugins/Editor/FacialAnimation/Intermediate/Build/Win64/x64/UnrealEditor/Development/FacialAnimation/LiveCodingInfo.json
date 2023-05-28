@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FacialAnimation.cpp.obj": [
+			"AudioCurveSourceComponent.gen.cpp.obj",
+			"FacialAnimation.init.gen.cpp.obj",
+			"AudioCurveSourceComponent.cpp.obj",
+			"FacialAnimationModule.cpp.obj"
+		]
+	}
+}

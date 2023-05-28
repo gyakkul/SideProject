@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AzureSpatialAnchors.cpp.obj": [
+			"AzureCloudSpatialAnchor.gen.cpp.obj",
+			"AzureSpatialAnchors.init.gen.cpp.obj",
+			"AzureSpatialAnchorsEventComponent.gen.cpp.obj",
+			"AzureSpatialAnchorsFunctionLibrary.gen.cpp.obj",
+			"AzureSpatialAnchorsTypes.gen.cpp.obj",
+			"AzureCloudSpatialAnchor.cpp.obj",
+			"AzureSpatialAnchors.cpp.obj",
+			"AzureSpatialAnchorsBase.cpp.obj",
+			"AzureSpatialAnchorsEventComponent.cpp.obj",
+			"AzureSpatialAnchorsFunctionLibrary.cpp.obj",
+			"AzureSpatialAnchorsTypes.cpp.obj",
+			"IAzureSpatialAnchors.cpp.obj"
+		]
+	}
+}

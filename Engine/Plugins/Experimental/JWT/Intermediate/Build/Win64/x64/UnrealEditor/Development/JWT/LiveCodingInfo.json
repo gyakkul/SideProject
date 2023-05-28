@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.JWT.cpp.obj": [
+			"IJwt.cpp.obj",
+			"JsonWebToken.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,622 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "BakeMeshAttributeToolCommon.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_BakeMeshAttributeToolCommon_generated_h
+#error "BakeMeshAttributeToolCommon.generated.h already included, missing '#pragma once' in BakeMeshAttributeToolCommon.h"
+#endif
+#define MESHMODELINGTOOLSEXP_BakeMeshAttributeToolCommon_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetSourceUVLayerNamesFunc); \
+	DECLARE_FUNCTION(execGetTargetUVLayerNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetSourceUVLayerNamesFunc); \
+	DECLARE_FUNCTION(execGetTargetUVLayerNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeInputMeshProperties(); \
+	friend struct Z_Construct_UClass_UBakeInputMeshProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeInputMeshProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeInputMeshProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeInputMeshProperties(); \
+	friend struct Z_Construct_UClass_UBakeInputMeshProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeInputMeshProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeInputMeshProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeInputMeshProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeInputMeshProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeInputMeshProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeInputMeshProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeInputMeshProperties(UBakeInputMeshProperties&&); \
+	NO_API UBakeInputMeshProperties(const UBakeInputMeshProperties&); \
+public: \
+	NO_API virtual ~UBakeInputMeshProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeInputMeshProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeInputMeshProperties(UBakeInputMeshProperties&&); \
+	NO_API UBakeInputMeshProperties(const UBakeInputMeshProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeInputMeshProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeInputMeshProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeInputMeshProperties) \
+	NO_API virtual ~UBakeInputMeshProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_34_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_37_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeInputMeshProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeNormalMapToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeNormalMapToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeNormalMapToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeNormalMapToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeNormalMapToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeNormalMapToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeNormalMapToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeNormalMapToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeNormalMapToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeNormalMapToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeNormalMapToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeNormalMapToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeNormalMapToolProperties(UBakeNormalMapToolProperties&&); \
+	NO_API UBakeNormalMapToolProperties(const UBakeNormalMapToolProperties&); \
+public: \
+	NO_API virtual ~UBakeNormalMapToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeNormalMapToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeNormalMapToolProperties(UBakeNormalMapToolProperties&&); \
+	NO_API UBakeNormalMapToolProperties(const UBakeNormalMapToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeNormalMapToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeNormalMapToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeNormalMapToolProperties) \
+	NO_API virtual ~UBakeNormalMapToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_136_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_139_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeNormalMapToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeOcclusionMapToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeOcclusionMapToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeOcclusionMapToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeOcclusionMapToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeOcclusionMapToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeOcclusionMapToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeOcclusionMapToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeOcclusionMapToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeOcclusionMapToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeOcclusionMapToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeOcclusionMapToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeOcclusionMapToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeOcclusionMapToolProperties(UBakeOcclusionMapToolProperties&&); \
+	NO_API UBakeOcclusionMapToolProperties(const UBakeOcclusionMapToolProperties&); \
+public: \
+	NO_API virtual ~UBakeOcclusionMapToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeOcclusionMapToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeOcclusionMapToolProperties(UBakeOcclusionMapToolProperties&&); \
+	NO_API UBakeOcclusionMapToolProperties(const UBakeOcclusionMapToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeOcclusionMapToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeOcclusionMapToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeOcclusionMapToolProperties) \
+	NO_API virtual ~UBakeOcclusionMapToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_145_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_148_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeOcclusionMapToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeCurvatureMapToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeCurvatureMapToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeCurvatureMapToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeCurvatureMapToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeCurvatureMapToolProperties(); \
+	friend struct Z_Construct_UClass_UBakeCurvatureMapToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeCurvatureMapToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeCurvatureMapToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeCurvatureMapToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeCurvatureMapToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeCurvatureMapToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeCurvatureMapToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeCurvatureMapToolProperties(UBakeCurvatureMapToolProperties&&); \
+	NO_API UBakeCurvatureMapToolProperties(const UBakeCurvatureMapToolProperties&); \
+public: \
+	NO_API virtual ~UBakeCurvatureMapToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeCurvatureMapToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeCurvatureMapToolProperties(UBakeCurvatureMapToolProperties&&); \
+	NO_API UBakeCurvatureMapToolProperties(const UBakeCurvatureMapToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeCurvatureMapToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeCurvatureMapToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeCurvatureMapToolProperties) \
+	NO_API virtual ~UBakeCurvatureMapToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_206_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_209_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeCurvatureMapToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetUVLayerNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetUVLayerNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeTexture2DProperties(); \
+	friend struct Z_Construct_UClass_UBakeTexture2DProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeTexture2DProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeTexture2DProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeTexture2DProperties(); \
+	friend struct Z_Construct_UClass_UBakeTexture2DProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeTexture2DProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeTexture2DProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeTexture2DProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeTexture2DProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeTexture2DProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeTexture2DProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeTexture2DProperties(UBakeTexture2DProperties&&); \
+	NO_API UBakeTexture2DProperties(const UBakeTexture2DProperties&); \
+public: \
+	NO_API virtual ~UBakeTexture2DProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeTexture2DProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeTexture2DProperties(UBakeTexture2DProperties&&); \
+	NO_API UBakeTexture2DProperties(const UBakeTexture2DProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeTexture2DProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeTexture2DProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeTexture2DProperties) \
+	NO_API virtual ~UBakeTexture2DProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_233_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_236_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeTexture2DProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetUVLayerNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetUVLayerNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeMultiTexture2DProperties(); \
+	friend struct Z_Construct_UClass_UBakeMultiTexture2DProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeMultiTexture2DProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeMultiTexture2DProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeMultiTexture2DProperties(); \
+	friend struct Z_Construct_UClass_UBakeMultiTexture2DProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeMultiTexture2DProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeMultiTexture2DProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeMultiTexture2DProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeMultiTexture2DProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeMultiTexture2DProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeMultiTexture2DProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeMultiTexture2DProperties(UBakeMultiTexture2DProperties&&); \
+	NO_API UBakeMultiTexture2DProperties(const UBakeMultiTexture2DProperties&); \
+public: \
+	NO_API virtual ~UBakeMultiTexture2DProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeMultiTexture2DProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeMultiTexture2DProperties(UBakeMultiTexture2DProperties&&); \
+	NO_API UBakeMultiTexture2DProperties(const UBakeMultiTexture2DProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeMultiTexture2DProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeMultiTexture2DProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeMultiTexture2DProperties) \
+	NO_API virtual ~UBakeMultiTexture2DProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_258_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_261_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeMultiTexture2DProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUBakeVisualizationProperties(); \
+	friend struct Z_Construct_UClass_UBakeVisualizationProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeVisualizationProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeVisualizationProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_INCLASS \
+private: \
+	static void StaticRegisterNativesUBakeVisualizationProperties(); \
+	friend struct Z_Construct_UClass_UBakeVisualizationProperties_Statics; \
+public: \
+	DECLARE_CLASS(UBakeVisualizationProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UBakeVisualizationProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeVisualizationProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeVisualizationProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeVisualizationProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeVisualizationProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeVisualizationProperties(UBakeVisualizationProperties&&); \
+	NO_API UBakeVisualizationProperties(const UBakeVisualizationProperties&); \
+public: \
+	NO_API virtual ~UBakeVisualizationProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UBakeVisualizationProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UBakeVisualizationProperties(UBakeVisualizationProperties&&); \
+	NO_API UBakeVisualizationProperties(const UBakeVisualizationProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UBakeVisualizationProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBakeVisualizationProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBakeVisualizationProperties) \
+	NO_API virtual ~UBakeVisualizationProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_291_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h_294_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UBakeVisualizationProperties>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_BakeMeshAttributeToolCommon_h
+
+
+#define FOREACH_ENUM_EBAKENORMALSPACE(op) \
+	op(EBakeNormalSpace::Tangent) \
+	op(EBakeNormalSpace::Object) 
+
+enum class EBakeNormalSpace;
+template<> struct TIsUEnumClass<EBakeNormalSpace> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EBakeNormalSpace>();
+
+#define FOREACH_ENUM_EBAKECURVATURETYPEMODE(op) \
+	op(EBakeCurvatureTypeMode::MeanAverage) \
+	op(EBakeCurvatureTypeMode::Max) \
+	op(EBakeCurvatureTypeMode::Min) \
+	op(EBakeCurvatureTypeMode::Gaussian) 
+
+enum class EBakeCurvatureTypeMode;
+template<> struct TIsUEnumClass<EBakeCurvatureTypeMode> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EBakeCurvatureTypeMode>();
+
+#define FOREACH_ENUM_EBAKECURVATURECOLORMODE(op) \
+	op(EBakeCurvatureColorMode::Grayscale) \
+	op(EBakeCurvatureColorMode::RedBlue) \
+	op(EBakeCurvatureColorMode::RedGreenBlue) 
+
+enum class EBakeCurvatureColorMode;
+template<> struct TIsUEnumClass<EBakeCurvatureColorMode> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EBakeCurvatureColorMode>();
+
+#define FOREACH_ENUM_EBAKECURVATURECLAMPMODE(op) \
+	op(EBakeCurvatureClampMode::None) \
+	op(EBakeCurvatureClampMode::OnlyPositive) \
+	op(EBakeCurvatureClampMode::OnlyNegative) 
+
+enum class EBakeCurvatureClampMode;
+template<> struct TIsUEnumClass<EBakeCurvatureClampMode> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EBakeCurvatureClampMode>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

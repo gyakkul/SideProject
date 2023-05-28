@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeFbxParser.cpp.obj": [
+			"FbxAnimation.cpp.obj",
+			"FbxAPI.cpp.obj",
+			"FbxCamera.cpp.obj",
+			"FbxConvert.cpp.obj",
+			"FbxHelper.cpp.obj",
+			"FbxLight.cpp.obj",
+			"FbxMaterial.cpp.obj",
+			"FbxMesh.cpp.obj",
+			"FbxScene.cpp.obj",
+			"InterchangeFbxParser.cpp.obj",
+			"InterchangeFbxParserModule.cpp.obj"
+		]
+	}
+}

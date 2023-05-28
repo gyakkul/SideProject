@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AMFCodecs.cpp.obj": [
+			"AMF.cpp.obj",
+			"AMFCodecsModule.cpp.obj",
+			"VideoDecoderConfigAMF.cpp.obj",
+			"VideoDecoderAMF.cpp.obj",
+			"VideoEncoderConfigAMF.cpp.obj",
+			"VideoEncoderAMF.cpp.obj"
+		]
+	}
+}

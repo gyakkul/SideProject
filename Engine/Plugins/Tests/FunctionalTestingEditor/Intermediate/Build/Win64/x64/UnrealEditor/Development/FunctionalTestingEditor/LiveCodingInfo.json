@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FunctionalTestingEditor.cpp.obj": [
+			"EditorFunctionalTest.gen.cpp.obj",
+			"FunctionalTestingEditor.init.gen.cpp.obj",
+			"AssetTypeActions_GroundTruthData.cpp.obj",
+			"FunctionalTestingEditorModule.cpp.obj",
+			"GroundTruthDataFactory.cpp.obj"
+		]
+	}
+}

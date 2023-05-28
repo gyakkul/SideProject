@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueprintMaterialTextureNodes.cpp.obj": [
+			"BlueprintMaterialTextureNodes.init.gen.cpp.obj",
+			"BlueprintMaterialTextureNodes.cpp.obj",
+			"BlueprintMaterialTextureNodesBPLibrary.cpp.obj"
+		]
+	}
+}

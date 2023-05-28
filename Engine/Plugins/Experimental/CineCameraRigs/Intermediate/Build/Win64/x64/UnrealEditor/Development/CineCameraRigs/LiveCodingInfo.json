@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CineCameraRigs.cpp.obj": [
+			"CineCameraRigRail.gen.cpp.obj",
+			"CineCameraRigRailHelpers.gen.cpp.obj",
+			"CineCameraRigs.init.gen.cpp.obj",
+			"CineCameraRigsSettings.gen.cpp.obj",
+			"CineSplineComponent.gen.cpp.obj",
+			"CineSplineMetadata.gen.cpp.obj",
+			"CineSplinePointData.gen.cpp.obj",
+			"CineCameraRigRail.cpp.obj",
+			"CineCameraRigRailHelpers.cpp.obj",
+			"CineCameraRigs.cpp.obj",
+			"CineSplineComponent.cpp.obj",
+			"CineSplineMetadata.cpp.obj"
+		]
+	}
+}

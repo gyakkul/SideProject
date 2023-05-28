@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HoloLensTargetPlatform.cpp.obj": [
+			"HoloLensDeviceDetector.cpp.obj",
+			"HoloLensTargetDevice.cpp.obj",
+			"HoloLensTargetPlatform.cpp.obj",
+			"HoloLensTargetPlatformModule.cpp.obj"
+		]
+	}
+}

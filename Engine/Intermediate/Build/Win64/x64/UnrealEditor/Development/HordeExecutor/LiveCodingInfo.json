@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HordeExecutor.cpp.obj": [
+			"HordeExecutor.init.gen.cpp.obj",
+			"HordeExecutorSettings.gen.cpp.obj",
+			"ContentAddressableStorage.cpp.obj",
+			"Execution.cpp.obj",
+			"HordeExecutor.cpp.obj",
+			"HordeExecutorModule.cpp.obj",
+			"HordeExecutorSettings.cpp.obj",
+			"HordeMessages.cpp.obj"
+		]
+	}
+}

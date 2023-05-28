@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosClothEditor.cpp.obj": [
+			"ChaosClothEditorModule.cpp.obj",
+			"ChaosClothWeightedValueCustomization.cpp.obj",
+			"ChaosSimulationEditorExtender.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RHI.cpp.obj": [
+			"BoundShaderStateCache.cpp.obj",
+			"DataDrivenShaderPlatformInfo.cpp.obj",
+			"DynamicRHI.cpp.obj",
+			"GPUDefragAllocator.cpp.obj",
+			"GPUProfiler.cpp.obj",
+			"GpuProfilerTrace.cpp.obj",
+			"MultiGPU.cpp.obj",
+			"PipelineFileCache.cpp.obj",
+			"PipelineStateCache.cpp.obj",
+			"RHI.cpp.obj",
+			"RHIBreadcrumbs.cpp.obj",
+			"RHICommandList.cpp.obj",
+			"RHIContext.cpp.obj",
+			"RHIGPUReadback.cpp.obj",
+			"RHIResources.cpp.obj",
+			"RHIResourceUpdates.cpp.obj",
+			"RHIStats.cpp.obj",
+			"RHIStrings.cpp.obj",
+			"RHITextureReference.cpp.obj",
+			"RHITransition.cpp.obj",
+			"RHIUtilities.cpp.obj",
+			"RHIValidation.cpp.obj",
+			"TextureProfiler.cpp.obj",
+			"WindowsDynamicRHI.cpp.obj"
+		]
+	}
+}

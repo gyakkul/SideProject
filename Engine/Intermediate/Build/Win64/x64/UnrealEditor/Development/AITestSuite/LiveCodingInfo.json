@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AITestSuite.cpp.obj": [
+			"AITestSuite.init.gen.cpp.obj",
+			"TestBTStopAction.gen.cpp.obj",
+			"AITestSuite.cpp.obj",
+			"TestBTDecorator_Blackboard.cpp.obj",
+			"TestBTDecorator_Blueprint.cpp.obj",
+			"TestBTDecorator_CantExecute.cpp.obj",
+			"TestBTDecorator_DelayedAbort.cpp.obj",
+			"TestBTService_BTStopAction.cpp.obj",
+			"TestBTService_Log.cpp.obj",
+			"TestBTTask_BTStopAction.cpp.obj",
+			"TestBTTask_LatentWithFlags.cpp.obj",
+			"TestBTTask_Log.cpp.obj",
+			"TestBTTask_SetFlag.cpp.obj",
+			"TestBTTask_SetValue.cpp.obj",
+			"TestBTTask_ToggleFlag.cpp.obj",
+			"MockAI.cpp.obj",
+			"MockAI_BT.cpp.obj",
+			"MockGameplayTasks.cpp.obj",
+			"TestLogger.cpp.obj",
+			"AITestsCommon.cpp.obj",
+			"BBTest.cpp.obj",
+			"BTTest.cpp.obj",
+			"GameplayTasksTest.cpp.obj",
+			"ResourceIdTest.cpp.obj"
+		]
+	}
+}

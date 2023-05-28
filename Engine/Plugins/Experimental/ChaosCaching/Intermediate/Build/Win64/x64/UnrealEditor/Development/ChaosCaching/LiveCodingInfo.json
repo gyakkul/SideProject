@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosCaching.cpp.obj": [
+			"ChaosCaching.init.gen.cpp.obj",
+			"CacheAdapter.cpp.obj",
+			"GeometryCollectionComponentCacheAdapter.cpp.obj",
+			"StaticMeshComponentCacheAdapter.cpp.obj",
+			"CacheCollection.cpp.obj",
+			"CacheEvents.cpp.obj",
+			"CacheManagerActor.cpp.obj",
+			"ChaosCache.cpp.obj",
+			"ChaosCachingPlugin.cpp.obj",
+			"ChaosCacheObjectSpawner.cpp.obj",
+			"MovieSceneChaosCacheSection.cpp.obj",
+			"MovieSceneChaosCacheTemplate.cpp.obj",
+			"MovieSceneChaosCacheTrack.cpp.obj"
+		]
+	}
+}

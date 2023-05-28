@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NiagaraVertexFactories.cpp.obj": [
+			"NiagaraCutoutVertexBuffer.cpp.obj",
+			"NiagaraDispatchIndirect.cpp.obj",
+			"NiagaraDrawIndirect.cpp.obj",
+			"NiagaraGPURayTracingTransformsShader.cpp.obj",
+			"NiagaraMeshVertexFactory.cpp.obj",
+			"NiagaraRibbonVertexFactory.cpp.obj",
+			"NiagaraSortingGPU.cpp.obj",
+			"NiagaraSpriteVertexFactory.cpp.obj",
+			"NiagaraVertexFactoriesModule.cpp.obj",
+			"NiagaraVertexFactory.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OculusInput.cpp.obj": [
+			"OculusHandComponent.gen.cpp.obj",
+			"OculusInput.init.gen.cpp.obj",
+			"OculusInputFunctionLibrary.gen.cpp.obj",
+			"OculusHandComponent.cpp.obj",
+			"OculusHandTracking.cpp.obj",
+			"OculusInput.cpp.obj",
+			"OculusInputFunctionLibrary.cpp.obj",
+			"OculusInputModule.cpp.obj"
+		]
+	}
+}

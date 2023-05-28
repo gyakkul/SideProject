@@ -1,0 +1,62 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NavigationSystem.1_of_3.cpp.obj": [
+			"CrowdManagerBase.gen.cpp.obj",
+			"NavigationGraphNode.gen.cpp.obj",
+			"NavigationGraphNodeComponent.gen.cpp.obj",
+			"NavigationPathGenerator.gen.cpp.obj",
+			"NavigationSystem.init.gen.cpp.obj",
+			"NavLinkCustomInterface.gen.cpp.obj",
+			"NavLinkHostInterface.gen.cpp.obj",
+			"NavLinkTrivial.gen.cpp.obj",
+			"NavNodeInterface.gen.cpp.obj",
+			"AbstractNavData.cpp.obj",
+			"NavArea.cpp.obj",
+			"NavAreaMeta.cpp.obj",
+			"NavAreaMeta_SwitchByAgent.cpp.obj",
+			"NavArea_Default.cpp.obj",
+			"NavArea_LowHeight.cpp.obj",
+			"NavArea_Null.cpp.obj",
+			"NavArea_Obstacle.cpp.obj",
+			"NavCollision.cpp.obj",
+			"NavigationQueryFilter.cpp.obj",
+			"RecastFilter_UseDefaultArea.cpp.obj",
+			"NavGraphGenerator.cpp.obj",
+			"NavigationGraph.cpp.obj",
+			"NavigationData.cpp.obj",
+			"NavigationDataHandler.cpp.obj",
+			"NavigationDirtyAreasController.cpp.obj",
+			"NavigationInterfaces.cpp.obj",
+			"NavigationInvokerComponent.cpp.obj",
+			"NavigationOctree.cpp.obj",
+			"NavigationOctreeController.cpp.obj",
+			"NavigationPath.cpp.obj",
+			"NavigationSystem.cpp.obj",
+			"NavigationSystemModule.cpp.obj",
+			"NavigationSystemTypes.cpp.obj",
+			"NavigationTestingActor.cpp.obj",
+			"NavLinkComponent.cpp.obj",
+			"NavLinkCustomComponent.cpp.obj",
+			"NavLinkRenderingComponent.cpp.obj"
+		],
+		"Module.NavigationSystem.2_of_3.cpp.obj": [
+			"NavMeshBoundsVolume.cpp.obj",
+			"NavMeshPath.cpp.obj",
+			"NavMeshRenderingComponent.cpp.obj",
+			"NavTestRenderingComponent.cpp.obj",
+			"PImplRecastNavMesh.cpp.obj",
+			"RecastHelpers.cpp.obj",
+			"RecastNavMesh.cpp.obj",
+			"RecastNavMeshDataChunk.cpp.obj",
+			"RecastNavMeshGenerator.cpp.obj"
+		],
+		"Module.NavigationSystem.3_of_3.cpp.obj": [
+			"NavModifierComponent.cpp.obj",
+			"NavModifierVolume.cpp.obj",
+			"NavRelevantComponent.cpp.obj",
+			"NavSystemConfigOverride.cpp.obj",
+			"RecastInternalDebugData.cpp.obj"
+		]
+	}
+}

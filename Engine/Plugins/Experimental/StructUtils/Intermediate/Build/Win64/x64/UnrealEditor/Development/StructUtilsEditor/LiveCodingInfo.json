@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StructUtilsEditor.cpp.obj": [
+			"StructUtilsEditor.init.gen.cpp.obj",
+			"InstancedStructDetails.cpp.obj",
+			"PropertyBagDetails.cpp.obj",
+			"StructUtilsEditorModule.cpp.obj"
+		]
+	}
+}

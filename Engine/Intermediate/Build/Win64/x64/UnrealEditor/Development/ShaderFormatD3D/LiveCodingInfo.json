@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ShaderFormatD3D.cpp.obj": [
+			"D3DShaderCompiler.cpp.obj",
+			"D3DShaderCompilerDXC.cpp.obj",
+			"ShaderFormatD3D.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\googlepad\\module.googlepad.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\googlepad\\definitions.googlepad.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\intermediate\\build\\win64\\unrealeditor\\inc\\googlepad\\uht\\googlepad.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\intermediate\\build\\win64\\unrealeditor\\inc\\googlepad\\uht\\googlepadfunctionlibrary.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\source\\googlepad\\classes\\googlepadfunctionlibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\intermediate\\build\\win64\\unrealeditor\\inc\\googlepad\\uht\\googlepadfunctionlibrary.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\source\\googlepad\\private\\googlepad.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\source\\googlepad\\public\\googlepad.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\googlepad\\source\\googlepad\\private\\googlepadfunctionlibrary.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

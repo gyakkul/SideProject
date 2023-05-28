@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioCapture.cpp.obj": [
+			"AudioCapture.gen.cpp.obj",
+			"AudioCapture.init.gen.cpp.obj",
+			"AudioCaptureBlueprintLibrary.gen.cpp.obj",
+			"AudioCaptureComponent.gen.cpp.obj",
+			"AudioCapture.cpp.obj",
+			"AudioCaptureBlueprintLibrary.cpp.obj",
+			"AudioCaptureComponent.cpp.obj"
+		]
+	}
+}

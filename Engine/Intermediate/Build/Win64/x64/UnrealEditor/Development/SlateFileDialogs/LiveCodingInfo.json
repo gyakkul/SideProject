@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SlateFileDialogs.cpp.obj": [
+			"SlateFileDialogsModule.cpp.obj",
+			"SlateFileDialogsStyles.cpp.obj",
+			"SlateFileDlgWindow.cpp.obj"
+		]
+	}
+}

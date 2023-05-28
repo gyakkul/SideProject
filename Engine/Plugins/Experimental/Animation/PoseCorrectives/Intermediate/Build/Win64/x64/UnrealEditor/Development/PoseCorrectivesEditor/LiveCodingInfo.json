@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PoseCorrectivesEditor.cpp.obj": [
+			"AnimGraphNode_CorrectPose.gen.cpp.obj",
+			"AnimNode_ControlRig_CorrectivesSource.gen.cpp.obj",
+			"AnimNode_CorrectivesSource.gen.cpp.obj",
+			"PoseCorrectivesAnimInstance.gen.cpp.obj",
+			"PoseCorrectivesAnimInstanceProxy.gen.cpp.obj",
+			"PoseCorrectivesEditor.init.gen.cpp.obj",
+			"PoseCorrectivesFactory.gen.cpp.obj",
+			"AnimGraphNode_CorrectPose.cpp.obj",
+			"AnimNode_ControlRig_CorrectivesSource.cpp.obj",
+			"AnimNode_CorrectivesSource.cpp.obj",
+			"AssetTypeActions_PoseCorrectives.cpp.obj",
+			"CorrectivesEditMode.cpp.obj",
+			"CorrectivesEditorTabSummoner.cpp.obj",
+			"PoseCorrectivesAnimInstance.cpp.obj",
+			"PoseCorrectivesAnimInstanceProxy.cpp.obj",
+			"PoseCorrectivesCommands.cpp.obj",
+			"PoseCorrectivesEditor.cpp.obj",
+			"PoseCorrectivesEditorController.cpp.obj",
+			"PoseCorrectivesEditorToolkit.cpp.obj",
+			"PoseCorrectivesFactory.cpp.obj",
+			"PoseCorrectivesGroupTabSummoner.cpp.obj",
+			"PoseCorrectivesMode.cpp.obj",
+			"SCorrectivesViewer.cpp.obj",
+			"SPoseCorrectivesGroups.cpp.obj"
+		]
+	}
+}

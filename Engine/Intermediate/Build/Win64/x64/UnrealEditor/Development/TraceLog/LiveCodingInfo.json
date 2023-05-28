@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TraceLog.cpp.obj": [
+			"BlockPool.cpp.obj",
+			"Channel.cpp.obj",
+			"Codec.cpp.obj",
+			"Control.cpp.obj",
+			"WindowsTrace.cpp.obj",
+			"EventNode.cpp.obj",
+			"Field.cpp.obj",
+			"Cache.cpp.obj",
+			"SharedBuffer.cpp.obj",
+			"Tail.cpp.obj",
+			"TlsBuffer.cpp.obj",
+			"Trace.cpp.obj",
+			"Writer.cpp.obj"
+		]
+	}
+}

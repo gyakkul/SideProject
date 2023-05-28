@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ShaderFormatOpenGL.cpp.obj": [
+			"GlslBackend.cpp.obj",
+			"OpenGLShaderCompiler.cpp.obj",
+			"ShaderFormatOpenGL.cpp.obj"
+		]
+	}
+}

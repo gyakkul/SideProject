@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkXR.cpp.obj": [
+			"LiveLinkXR.init.gen.cpp.obj",
+			"LiveLinkXRConnectionSettings.gen.cpp.obj",
+			"LiveLinkXRSourceFactory.gen.cpp.obj",
+			"LiveLinkXRSourceSettings.gen.cpp.obj",
+			"LiveLinkXR.cpp.obj",
+			"LiveLinkXRSource.cpp.obj",
+			"LiveLinkXRSourceFactory.cpp.obj",
+			"SLiveLinkXRSourceFactory.cpp.obj"
+		]
+	}
+}

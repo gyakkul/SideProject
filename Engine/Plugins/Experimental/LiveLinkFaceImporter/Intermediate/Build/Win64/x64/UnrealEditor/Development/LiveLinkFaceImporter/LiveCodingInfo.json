@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkFaceImporter.cpp.obj": [
+			"LiveLinkFaceImporter.init.gen.cpp.obj",
+			"LiveLinkFaceImporterFactory.gen.cpp.obj",
+			"LiveLinkFaceImporterFactory.cpp.obj",
+			"LiveLinkFaceImporterModule.cpp.obj"
+		]
+	}
+}

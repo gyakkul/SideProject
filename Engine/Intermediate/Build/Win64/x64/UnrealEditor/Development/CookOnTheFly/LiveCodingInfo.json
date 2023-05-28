@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CookOnTheFly.cpp.obj": [
+			"CookOnTheFly.cpp.obj",
+			"CookOnTheFlyMessages.cpp.obj",
+			"CookOnTheFlyModule.cpp.obj",
+			"CookOnTheFlyServerConnection.cpp.obj",
+			"PlatformTransport.cpp.obj",
+			"TCPTransport.cpp.obj"
+		]
+	}
+}

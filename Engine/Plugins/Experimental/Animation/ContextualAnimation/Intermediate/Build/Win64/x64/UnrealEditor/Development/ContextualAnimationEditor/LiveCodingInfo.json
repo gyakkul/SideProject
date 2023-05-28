@@ -1,0 +1,32 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ContextualAnimationEditor.cpp.obj": [
+			"ContextualAnimationEditor.init.gen.cpp.obj",
+			"ContextualAnimAssetEditorCommands.cpp.obj",
+			"ContextualAnimAssetEditorToolkit.cpp.obj",
+			"ContextualAnimationEditor.cpp.obj",
+			"ContextualAnimEditorStyle.cpp.obj",
+			"ContextualAnimEditorTypes.cpp.obj",
+			"ContextualAnimEdMode.cpp.obj",
+			"ContextualAnimFactory.cpp.obj",
+			"ContextualAnimMovieSceneNotifySection.cpp.obj",
+			"ContextualAnimMovieSceneNotifyTrack.cpp.obj",
+			"ContextualAnimMovieSceneNotifyTrackEditor.cpp.obj",
+			"ContextualAnimMovieSceneSection.cpp.obj",
+			"ContextualAnimMovieSceneSequence.cpp.obj",
+			"ContextualAnimMovieSceneTrack.cpp.obj",
+			"ContextualAnimMovieSceneTrackEditor.cpp.obj",
+			"ContextualAnimPreviewScene.cpp.obj",
+			"ContextualAnimTypeActions.cpp.obj",
+			"ContextualAnimViewModel.cpp.obj",
+			"ContextualAnimViewportClient.cpp.obj",
+			"ContextualAnimNotifySectionDetailCustom.cpp.obj",
+			"ContextualAnimSceneAssetDetailCustom.cpp.obj",
+			"SContextualAnimAssetBrowser.cpp.obj",
+			"SContextualAnimNewAnimSetDialog.cpp.obj",
+			"SContextualAnimViewport.cpp.obj",
+			"SContextualAnimViewportToolbar.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ClassViewer.cpp.obj": [
+			"ClassViewer.init.gen.cpp.obj",
+			"ClassViewerProjectSettings.gen.cpp.obj",
+			"ClassViewerFilter.cpp.obj",
+			"ClassViewerModule.cpp.obj",
+			"ClassViewerNode.cpp.obj",
+			"ClassViewerProjectSettings.cpp.obj",
+			"SClassViewer.cpp.obj",
+			"UnloadedBlueprintData.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.QuadricMeshReduction.cpp.obj": [
+			"MeshSimplify.cpp.obj",
+			"Quadric.cpp.obj",
+			"QuadricMeshReduction.cpp.obj"
+		]
+	}
+}

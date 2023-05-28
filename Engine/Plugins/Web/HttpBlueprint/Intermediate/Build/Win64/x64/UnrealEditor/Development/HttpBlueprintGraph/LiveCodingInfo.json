@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HttpBlueprintGraph.cpp.obj": [
+			"HttpBlueprintGraph.init.gen.cpp.obj",
+			"HttpRequestProxyObject.gen.cpp.obj",
+			"K2Node_AsyncMakeRequestHeader.gen.cpp.obj",
+			"K2Node_HttpRequest.gen.cpp.obj",
+			"K2Node_MakeRequestHeader.gen.cpp.obj",
+			"HttpBlueprintGraphLog.cpp.obj",
+			"HttpBlueprintGraphModule.cpp.obj",
+			"HttpRequestProxyObject.cpp.obj",
+			"K2Node_AsyncMakeRequestHeader.cpp.obj",
+			"K2Node_HttpRequest.cpp.obj",
+			"K2Node_MakeRequestHeader.cpp.obj"
+		]
+	}
+}

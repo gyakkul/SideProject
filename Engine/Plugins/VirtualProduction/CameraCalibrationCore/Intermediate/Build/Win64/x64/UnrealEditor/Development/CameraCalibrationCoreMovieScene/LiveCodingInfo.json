@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CameraCalibrationCoreMovieScene.cpp.obj": [
+			"CameraCalibrationCoreMovieScene.init.gen.cpp.obj",
+			"MovieSceneLensComponentSection.gen.cpp.obj",
+			"MovieSceneLensComponentTrack.gen.cpp.obj",
+			"CameraCalibrationCoreMovieScene.cpp.obj",
+			"MovieSceneLensComponentSection.cpp.obj",
+			"MovieSceneLensComponentTrack.cpp.obj"
+		]
+	}
+}

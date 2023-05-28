@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MetasoundEngine.cpp.obj": [
+			"MetasoundEngine.init.gen.cpp.obj",
+			"MetasoundGeneratorHandle.gen.cpp.obj",
+			"MetasoundSettings.gen.cpp.obj",
+			"Metasound.cpp.obj",
+			"MetasoundAssetSubsystem.cpp.obj",
+			"MetasoundAudioBus.cpp.obj",
+			"MetasoundAudioBusReaderNode.cpp.obj",
+			"MetasoundAudioBusWriterNode.cpp.obj",
+			"MetasoundEngineArchetypes.cpp.obj",
+			"MetasoundEngineEnvironment.cpp.obj",
+			"MetasoundEngineModule.cpp.obj",
+			"MetasoundEngineNodesNames.cpp.obj",
+			"MetasoundGeneratorHandle.cpp.obj",
+			"MetasoundInterface.cpp.obj",
+			"MetasoundSource.cpp.obj",
+			"MetasoundUObjectRegistry.cpp.obj",
+			"MetasoundWave.cpp.obj",
+			"MetasoundWaveInfoNode.cpp.obj",
+			"MetasoundWavePlayerNode.cpp.obj",
+			"MetasoundWaveProxyReader.cpp.obj",
+			"MetasoundWaveTableEnvelopeNode.cpp.obj",
+			"MetasoundWaveTableEvaluateNode.cpp.obj",
+			"MetasoundWaveTableGetNode.cpp.obj",
+			"MetasoundWaveTableOscillatorNode.cpp.obj"
+		]
+	}
+}

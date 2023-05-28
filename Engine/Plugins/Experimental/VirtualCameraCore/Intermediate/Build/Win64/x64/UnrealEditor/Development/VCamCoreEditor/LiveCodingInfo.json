@@ -1,0 +1,47 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VCamCoreEditor.cpp.obj": [
+			"ConnectionContainerDummy.gen.cpp.obj",
+			"EditorOnlyVCamModifier.gen.cpp.obj",
+			"ModifierCompilationBlueprintExtension.gen.cpp.obj",
+			"VCamCoreEditor.init.gen.cpp.obj",
+			"VCamEditorLibrary.gen.cpp.obj",
+			"VCamModifierFactory.gen.cpp.obj",
+			"VCamObjectWithInputFactory.gen.cpp.obj",
+			"VCamStateSwitcherWidgetFactory.gen.cpp.obj",
+			"VCamWidgetFactory.gen.cpp.obj",
+			"CompilationExtensionManager.cpp.obj",
+			"ModifierCompilationBlueprintExtension.cpp.obj",
+			"InputDeviceDetectionProcessor.cpp.obj",
+			"SInputDeviceSelector.cpp.obj",
+			"VCamInputDeviceIDTypeCustomization.cpp.obj",
+			"ConnectionRemapCustomization_StateSwitcher.cpp.obj",
+			"ConnectionRemapCustomization_VCamWidget.cpp.obj",
+			"ConnectionRemapUtilsImpl.cpp.obj",
+			"OutputProviderLayoutCustomization.cpp.obj",
+			"OutputProviderTypeCustomization.cpp.obj",
+			"ConnectionTargetNodeBuilder.cpp.obj",
+			"SStringSelectionComboBox.cpp.obj",
+			"VCamStateSwitcherWidgetCustomization.cpp.obj",
+			"WidgetConnectionConfigTypeCustomization.cpp.obj",
+			"ConnectionTargetSettingsTypeCustomization.cpp.obj",
+			"InsideVCamConnectionContextFinder.cpp.obj",
+			"ListOfContextFinders.cpp.obj",
+			"StateSwitcherContextFinder.cpp.obj",
+			"VCamBaseActorCustomization.cpp.obj",
+			"VCamInputProfileCustomization.cpp.obj",
+			"VCamViewportLockerTypeCustomization.cpp.obj",
+			"ChildWidgetReferenceCustomization.cpp.obj",
+			"VCamChildWidgetReferenceCustomization.cpp.obj",
+			"VCamModifierFactory.cpp.obj",
+			"VCamObjectWithInputFactory.cpp.obj",
+			"VCamStateSwitcherWidgetFactory.cpp.obj",
+			"VCamWidgetFactory.cpp.obj",
+			"LogVCamEditor.cpp.obj",
+			"SharedPropertyCustomizationUtils.cpp.obj",
+			"VCamCoreEditorModule.cpp.obj",
+			"VCamEditorLibrary.cpp.obj"
+		]
+	}
+}

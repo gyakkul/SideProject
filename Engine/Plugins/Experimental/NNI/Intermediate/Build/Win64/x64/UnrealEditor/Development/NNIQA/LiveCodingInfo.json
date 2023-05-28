@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNIQA.cpp.obj": [
+			"NeuralNetworkInferenceQA.init.gen.cpp.obj",
+			"ModelProtoFileReaderTester.cpp.obj",
+			"ModelUnitTester.cpp.obj",
+			"Module.cpp.obj",
+			"NeuralNetworkInferenceQA.cpp.obj",
+			"NeuralNetworkInferenceQAAsset.cpp.obj",
+			"NeuralNetworkInferenceQAUtils.cpp.obj",
+			"OperatorTester.cpp.obj",
+			"OperatorUnitTester.cpp.obj",
+			"UnitTester.cpp.obj"
+		]
+	}
+}

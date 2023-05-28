@@ -1,0 +1,40 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterProjection.cpp.obj": [
+			"DisplayClusterProjection.init.gen.cpp.obj",
+			"DisplayClusterProjectionBlueprintAPIImpl.gen.cpp.obj",
+			"DisplayClusterProjectionBlueprintLib.gen.cpp.obj",
+			"IDisplayClusterProjectionBlueprintAPI.gen.cpp.obj",
+			"DisplayClusterProjectionBlueprintAPIImpl.cpp.obj",
+			"DisplayClusterProjectionBlueprintLib.cpp.obj",
+			"DisplayClusterProjectionLog.cpp.obj",
+			"DisplayClusterProjectionModule.cpp.obj",
+			"DisplayClusterProjectionCameraPolicy.cpp.obj",
+			"DisplayClusterProjectionCameraPolicyFactory.cpp.obj",
+			"DisplayClusterProjectionPolicyBase.cpp.obj",
+			"DisplayClusterProjectionDomeprojectionPolicyBase.cpp.obj",
+			"DisplayClusterProjectionDomeprojectionPolicyFactory.cpp.obj",
+			"DisplayClusterProjectionDomeprojectionLibraryDX11.cpp.obj",
+			"DisplayClusterProjectionDomeprojectionViewAdapterDX11.cpp.obj",
+			"DisplayClusterProjectionEasyBlendPolicyBase.cpp.obj",
+			"DisplayClusterProjectionEasyBlendPolicyFactory.cpp.obj",
+			"DisplayClusterProjectionEasyBlendLibraryDX11.cpp.obj",
+			"DisplayClusterProjectionEasyBlendViewAdapterDX11.cpp.obj",
+			"DisplayClusterProjectionLinkPolicy.cpp.obj",
+			"DisplayClusterProjectionLinkPolicyFactory.cpp.obj",
+			"DisplayClusterProjectionManualPolicy.cpp.obj",
+			"DisplayClusterProjectionManualPolicyFactory.cpp.obj",
+			"DisplayClusterProjectionMeshPolicy.cpp.obj",
+			"DisplayClusterProjectionMPCDIPolicy.cpp.obj",
+			"DisplayClusterProjectionMPCDIPolicyFactory.cpp.obj",
+			"DisplayClusterProjectionSimplePolicy.cpp.obj",
+			"DisplayClusterProjectionSimplePolicyFactory.cpp.obj",
+			"DisplayClusterProjectionVIOSOPolicyFactory.cpp.obj",
+			"ViosoPolicyConfiguration.cpp.obj",
+			"DisplayClusterProjectionVIOSOLibrary.cpp.obj",
+			"DisplayClusterProjectionVIOSOPolicy.cpp.obj",
+			"DisplayClusterProjectionVIOSOWarper.cpp.obj"
+		]
+	}
+}

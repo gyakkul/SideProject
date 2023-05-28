@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorLayerUtilitiesEditor.cpp.obj": [
+			"ActorLayerPropertyTypeCustomization.cpp.obj",
+			"ActorLayerUtilitiesEditor.cpp.obj"
+		]
+	}
+}

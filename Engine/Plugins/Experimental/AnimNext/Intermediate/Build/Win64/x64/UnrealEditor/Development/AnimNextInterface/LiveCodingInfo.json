@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimNextInterface.cpp.obj": [
+			"AnimNextInterface.init.gen.cpp.obj",
+			"IAnimNextInterface.gen.cpp.obj",
+			"IAnimNextInterfaceParameters.gen.cpp.obj",
+			"AnimNextInterface.cpp.obj",
+			"AnimNextInterfaceContext.cpp.obj",
+			"AnimNextInterfaceModule.cpp.obj",
+			"AnimNextInterfaceParam.cpp.obj",
+			"AnimNextInterfaceParamStorage.cpp.obj",
+			"AnimNextInterfaceState.cpp.obj",
+			"AnimNextInterfaceTypes.cpp.obj"
+		]
+	}
+}

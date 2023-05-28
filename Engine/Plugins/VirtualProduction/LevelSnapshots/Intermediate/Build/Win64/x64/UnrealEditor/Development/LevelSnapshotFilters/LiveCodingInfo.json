@@ -1,0 +1,45 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LevelSnapshotFilters.cpp.obj": [
+			"ActorChangedTransformFilter.gen.cpp.obj",
+			"ActorDependentPropertyFilter.gen.cpp.obj",
+			"ActorHasTagFilter.gen.cpp.obj",
+			"ActorInMapFilter.gen.cpp.obj",
+			"ActorSelectorFilter.gen.cpp.obj",
+			"AndFilter.gen.cpp.obj",
+			"ConstantFilter.gen.cpp.obj",
+			"FilterBlueprintFunctionLibrary.gen.cpp.obj",
+			"LambdaFilter.gen.cpp.obj",
+			"LevelSnapshotFilterParams.gen.cpp.obj",
+			"LevelSnapshotFilters.gen.cpp.obj",
+			"LevelSnapshotFilters.init.gen.cpp.obj",
+			"NegationFilter.gen.cpp.obj",
+			"OrFilter.gen.cpp.obj",
+			"ParentFilter.gen.cpp.obj",
+			"PropertyBlueprintFunctionLibrary.gen.cpp.obj",
+			"PropertyContainerHandle.gen.cpp.obj",
+			"PropertyHasNameFilter.gen.cpp.obj",
+			"PropertySelectorFilter.gen.cpp.obj",
+			"PropertyTypeFilter.gen.cpp.obj",
+			"TransformPropertyFilter.gen.cpp.obj",
+			"ActorChangedTransformFilter.cpp.obj",
+			"ActorDependentPropertyFilter.cpp.obj",
+			"ActorHasTagFilter.cpp.obj",
+			"ActorInMapFilter.cpp.obj",
+			"ActorSelectorFilter.cpp.obj",
+			"AndFilter.cpp.obj",
+			"NegationFilter.cpp.obj",
+			"OrFilter.cpp.obj",
+			"ParentFilter.cpp.obj",
+			"PropertyHasNameFilter.cpp.obj",
+			"PropertySelectorFilter.cpp.obj",
+			"TransformPropertyFilter.cpp.obj",
+			"PropertyTypeFilter.cpp.obj",
+			"FilterBlueprintFunctionLibrary.cpp.obj",
+			"LevelSnapshotFilters.cpp.obj",
+			"LevelSnapshotFiltersModule.cpp.obj",
+			"PropertyBlueprintFunctionLibrary.cpp.obj"
+		]
+	}
+}

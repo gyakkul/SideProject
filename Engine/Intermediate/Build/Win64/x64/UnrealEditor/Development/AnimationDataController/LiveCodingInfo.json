@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationDataController.cpp.obj": [
+			"AnimationDataController.init.gen.cpp.obj",
+			"AnimationDataControllerModule.cpp.obj",
+			"AnimDataController.cpp.obj",
+			"AnimDataControllerActions.cpp.obj"
+		]
+	}
+}

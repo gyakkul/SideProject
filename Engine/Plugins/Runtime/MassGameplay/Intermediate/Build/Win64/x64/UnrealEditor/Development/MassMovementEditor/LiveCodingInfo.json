@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassMovementEditor.cpp.obj": [
+			"MassMovementEditorModule.cpp.obj",
+			"MassMovementStyleRefDetails.cpp.obj"
+		]
+	}
+}

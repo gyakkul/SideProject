@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\androiddps\\module.androiddps.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\androiddps\\definitions.androiddeviceprofileselector.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\intermediate\\build\\win64\\unrealeditor\\inc\\androiddps\\uht\\androiddeviceprofilematchingrules.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\source\\androiddeviceprofileselector\\private\\androiddeviceprofilematchingrules.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\intermediate\\build\\win64\\unrealeditor\\inc\\androiddps\\uht\\androiddeviceprofilematchingrules.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\intermediate\\build\\win64\\unrealeditor\\inc\\androiddps\\uht\\androiddeviceprofileselector.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\intermediate\\build\\win64\\unrealeditor\\inc\\androiddps\\uht\\androidjavasurfaceviewdevices.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\source\\androiddeviceprofileselector\\public\\androidjavasurfaceviewdevices.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\intermediate\\build\\win64\\unrealeditor\\inc\\androiddps\\uht\\androidjavasurfaceviewdevices.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\source\\androiddeviceprofileselector\\private\\androiddeviceprofileselector.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\source\\androiddeviceprofileselector\\public\\androiddeviceprofileselector.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\source\\androiddeviceprofileselector\\private\\androiddeviceprofileselectormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\androiddeviceprofileselector\\source\\androiddeviceprofileselector\\private\\androiddeviceprofileselectormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\ideviceprofileselectormodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

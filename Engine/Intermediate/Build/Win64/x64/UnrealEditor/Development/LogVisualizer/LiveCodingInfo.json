@@ -1,0 +1,34 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LogVisualizer.cpp.obj": [
+			"LogVisualizer.init.gen.cpp.obj",
+			"VisualLoggerRenderingComponent.gen.cpp.obj",
+			"LogVisualizer.cpp.obj",
+			"LogVisualizerModule.cpp.obj",
+			"LogVisualizerSessionSettings.cpp.obj",
+			"LogVisualizerSettings.cpp.obj",
+			"LogVisualizerStyle.cpp.obj",
+			"SVisualLogger.cpp.obj",
+			"SVisualLoggerFilters.cpp.obj",
+			"SVisualLoggerFilterWidget.cpp.obj",
+			"SVisualLoggerLogsList.cpp.obj",
+			"SVisualLoggerReport.cpp.obj",
+			"SVisualLoggerSectionOverlay.cpp.obj",
+			"SVisualLoggerStatusView.cpp.obj",
+			"SVisualLoggerTimeline.cpp.obj",
+			"SVisualLoggerTimelineBar.cpp.obj",
+			"SVisualLoggerTimelinesContainer.cpp.obj",
+			"SVisualLoggerTimeSlider.cpp.obj",
+			"SVisualLoggerToolbar.cpp.obj",
+			"SVisualLoggerView.cpp.obj",
+			"VisualLoggerCameraController.cpp.obj",
+			"VisualLoggerCanvasRenderer.cpp.obj",
+			"VisualLoggerDatabase.cpp.obj",
+			"VisualLoggerHUD.cpp.obj",
+			"VisualLoggerRenderingActor.cpp.obj",
+			"VisualLoggerRenderingActorBase.cpp.obj",
+			"VisualLoggerTimeSliderController.cpp.obj"
+		]
+	}
+}

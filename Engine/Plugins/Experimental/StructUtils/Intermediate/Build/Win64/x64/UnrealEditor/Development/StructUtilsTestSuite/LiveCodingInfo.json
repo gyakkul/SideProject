@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.StructUtilsTestSuite.cpp.obj": [
+			"StructUtilsTestSuite.init.gen.cpp.obj",
+			"InstancedStructContainerTest.cpp.obj",
+			"PropertyBagTest.cpp.obj",
+			"ScriptStructTypeBitSetTest.cpp.obj",
+			"StructArrayViewTest.cpp.obj",
+			"StructUtilsTestSuiteModule.cpp.obj",
+			"StructUtilsTestTypes.cpp.obj"
+		]
+	}
+}

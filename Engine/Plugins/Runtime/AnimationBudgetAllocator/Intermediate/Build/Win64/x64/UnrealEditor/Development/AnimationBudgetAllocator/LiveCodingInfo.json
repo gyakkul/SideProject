@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationBudgetAllocator.cpp.obj": [
+			"AnimationBudgetAllocator.init.gen.cpp.obj",
+			"AnimationBudgetAllocatorParameters.gen.cpp.obj",
+			"AnimationBudgetAllocator.cpp.obj",
+			"AnimationBudgetAllocatorCVars.cpp.obj",
+			"AnimationBudgetAllocatorModule.cpp.obj",
+			"AnimationBudgetBlueprintLibrary.cpp.obj",
+			"SkeletalMeshComponentBudgeted.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeoReferencingEditor.cpp.obj": [
+			"GeoReferencingEditor.init.gen.cpp.obj",
+			"GeoReferencingEditorBPLibrary.gen.cpp.obj",
+			"GeoReferencingEditor.cpp.obj",
+			"GeoReferencingEditorBPLibrary.cpp.obj"
+		]
+	}
+}

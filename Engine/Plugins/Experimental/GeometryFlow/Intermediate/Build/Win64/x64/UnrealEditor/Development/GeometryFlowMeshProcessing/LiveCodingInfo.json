@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryFlowMeshProcessing.cpp.obj": [
+			"MeshImageBakingData.cpp.obj",
+			"GeometryFlowMeshProcessingModule.cpp.obj",
+			"BakeMeshMultiTextureNode.cpp.obj",
+			"BakeMeshNormalMapNode.cpp.obj",
+			"BakeMeshTextureImageNode.cpp.obj",
+			"GenerateConvexHullMeshNode.cpp.obj",
+			"MeshMakeCleanGeometryNode.cpp.obj",
+			"MeshNormalFlowNode.cpp.obj",
+			"MeshRecalculateUVsNode.cpp.obj",
+			"MeshRepackUVsNode.cpp.obj",
+			"MeshThickenNode.cpp.obj",
+			"GenerateSimpleCollisionNode.cpp.obj"
+		]
+	}
+}

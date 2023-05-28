@@ -1,0 +1,406 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "AbilitySystemDebugHUD.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef GAMEPLAYABILITIES_AbilitySystemDebugHUD_generated_h
+#error "AbilitySystemDebugHUD.generated.h already included, missing '#pragma once' in AbilitySystemDebugHUD.h"
+#endif
+#define GAMEPLAYABILITIES_AbilitySystemDebugHUD_generated_h
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_ACCESSORS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_INCLASS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension(UAbilitySystemDebugHUDExtension&&); \
+	NO_API UAbilitySystemDebugHUDExtension(const UAbilitySystemDebugHUDExtension&); \
+public: \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension(UAbilitySystemDebugHUDExtension&&); \
+	NO_API UAbilitySystemDebugHUDExtension(const UAbilitySystemDebugHUDExtension&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension) \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_40_PROLOG
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_INCLASS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_43_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GAMEPLAYABILITIES_API UClass* StaticClass<class UAbilitySystemDebugHUDExtension>();
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_ACCESSORS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension_Tags(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_Tags_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension_Tags, UAbilitySystemDebugHUDExtension, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension_Tags)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_INCLASS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension_Tags(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_Tags_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension_Tags, UAbilitySystemDebugHUDExtension, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension_Tags)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension_Tags(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension_Tags) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension_Tags); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension_Tags); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension_Tags(UAbilitySystemDebugHUDExtension_Tags&&); \
+	NO_API UAbilitySystemDebugHUDExtension_Tags(const UAbilitySystemDebugHUDExtension_Tags&); \
+public: \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension_Tags();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension_Tags(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension_Tags(UAbilitySystemDebugHUDExtension_Tags&&); \
+	NO_API UAbilitySystemDebugHUDExtension_Tags(const UAbilitySystemDebugHUDExtension_Tags&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension_Tags); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension_Tags); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension_Tags) \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension_Tags();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_63_PROLOG
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_INCLASS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_66_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GAMEPLAYABILITIES_API UClass* StaticClass<class UAbilitySystemDebugHUDExtension_Tags>();
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_ACCESSORS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension_Attributes(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_Attributes_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension_Attributes, UAbilitySystemDebugHUDExtension, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension_Attributes)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_INCLASS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension_Attributes(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_Attributes_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension_Attributes, UAbilitySystemDebugHUDExtension, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension_Attributes)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension_Attributes(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension_Attributes) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension_Attributes); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension_Attributes); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension_Attributes(UAbilitySystemDebugHUDExtension_Attributes&&); \
+	NO_API UAbilitySystemDebugHUDExtension_Attributes(const UAbilitySystemDebugHUDExtension_Attributes&); \
+public: \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension_Attributes();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension_Attributes(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension_Attributes(UAbilitySystemDebugHUDExtension_Attributes&&); \
+	NO_API UAbilitySystemDebugHUDExtension_Attributes(const UAbilitySystemDebugHUDExtension_Attributes&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension_Attributes); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension_Attributes); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension_Attributes) \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension_Attributes();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_86_PROLOG
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_INCLASS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_89_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GAMEPLAYABILITIES_API UClass* StaticClass<class UAbilitySystemDebugHUDExtension_Attributes>();
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_ACCESSORS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension_BlockedAbilityTags(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_BlockedAbilityTags_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension_BlockedAbilityTags, UAbilitySystemDebugHUDExtension, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension_BlockedAbilityTags)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_INCLASS \
+private: \
+	static void StaticRegisterNativesUAbilitySystemDebugHUDExtension_BlockedAbilityTags(); \
+	friend struct Z_Construct_UClass_UAbilitySystemDebugHUDExtension_BlockedAbilityTags_Statics; \
+public: \
+	DECLARE_CLASS(UAbilitySystemDebugHUDExtension_BlockedAbilityTags, UAbilitySystemDebugHUDExtension, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(UAbilitySystemDebugHUDExtension_BlockedAbilityTags)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension_BlockedAbilityTags(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension_BlockedAbilityTags) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension_BlockedAbilityTags); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension_BlockedAbilityTags); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension_BlockedAbilityTags(UAbilitySystemDebugHUDExtension_BlockedAbilityTags&&); \
+	NO_API UAbilitySystemDebugHUDExtension_BlockedAbilityTags(const UAbilitySystemDebugHUDExtension_BlockedAbilityTags&); \
+public: \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension_BlockedAbilityTags();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UAbilitySystemDebugHUDExtension_BlockedAbilityTags(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UAbilitySystemDebugHUDExtension_BlockedAbilityTags(UAbilitySystemDebugHUDExtension_BlockedAbilityTags&&); \
+	NO_API UAbilitySystemDebugHUDExtension_BlockedAbilityTags(const UAbilitySystemDebugHUDExtension_BlockedAbilityTags&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAbilitySystemDebugHUDExtension_BlockedAbilityTags); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAbilitySystemDebugHUDExtension_BlockedAbilityTags); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAbilitySystemDebugHUDExtension_BlockedAbilityTags) \
+	NO_API virtual ~UAbilitySystemDebugHUDExtension_BlockedAbilityTags();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_111_PROLOG
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_INCLASS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_114_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GAMEPLAYABILITIES_API UClass* StaticClass<class UAbilitySystemDebugHUDExtension_BlockedAbilityTags>();
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_ACCESSORS
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAAbilitySystemDebugHUD(); \
+	friend struct Z_Construct_UClass_AAbilitySystemDebugHUD_Statics; \
+public: \
+	DECLARE_CLASS(AAbilitySystemDebugHUD, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(AAbilitySystemDebugHUD)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_INCLASS \
+private: \
+	static void StaticRegisterNativesAAbilitySystemDebugHUD(); \
+	friend struct Z_Construct_UClass_AAbilitySystemDebugHUD_Statics; \
+public: \
+	DECLARE_CLASS(AAbilitySystemDebugHUD, AHUD, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/GameplayAbilities"), NO_API) \
+	DECLARE_SERIALIZER(AAbilitySystemDebugHUD)
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AAbilitySystemDebugHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAbilitySystemDebugHUD) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAbilitySystemDebugHUD); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAbilitySystemDebugHUD); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AAbilitySystemDebugHUD(AAbilitySystemDebugHUD&&); \
+	NO_API AAbilitySystemDebugHUD(const AAbilitySystemDebugHUD&); \
+public: \
+	NO_API virtual ~AAbilitySystemDebugHUD();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AAbilitySystemDebugHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AAbilitySystemDebugHUD(AAbilitySystemDebugHUD&&); \
+	NO_API AAbilitySystemDebugHUD(const AAbilitySystemDebugHUD&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAbilitySystemDebugHUD); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAbilitySystemDebugHUD); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAbilitySystemDebugHUD) \
+	NO_API virtual ~AAbilitySystemDebugHUD();
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_131_PROLOG
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_INCLASS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_ACCESSORS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h_134_ENHANCED_CONSTRUCTORS \
+static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class AbilitySystemDebugHUD."); \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> GAMEPLAYABILITIES_API UClass* StaticClass<class AAbilitySystemDebugHUD>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_GameplayAbilities_Source_GameplayAbilities_Public_AbilitySystemDebugHUD_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

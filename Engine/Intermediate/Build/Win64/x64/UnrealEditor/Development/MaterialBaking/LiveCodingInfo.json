@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MaterialBaking.cpp.obj": [
+			"MaterialBaking.init.gen.cpp.obj",
+			"MaterialOptions.gen.cpp.obj",
+			"MaterialBakingHelpers.cpp.obj",
+			"MaterialBakingModule.cpp.obj",
+			"MaterialOptionsCustomization.cpp.obj",
+			"MaterialOptionsWindow.cpp.obj",
+			"MaterialPropertyEx.cpp.obj",
+			"MaterialRenderItem.cpp.obj",
+			"MaterialRenderItemData.cpp.obj"
+		]
+	}
+}

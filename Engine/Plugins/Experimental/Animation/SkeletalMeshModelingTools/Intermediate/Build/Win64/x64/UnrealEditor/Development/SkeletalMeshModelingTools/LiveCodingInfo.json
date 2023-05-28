@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SkeletalMeshModelingTools.cpp.obj": [
+			"SkeletalMeshModelingTools.init.gen.cpp.obj",
+			"SkeletalMeshModelingToolsEditorMode.gen.cpp.obj",
+			"SkeletalMeshModelingToolsMeshConverter.gen.cpp.obj",
+			"SkeletalMeshModelingToolsCommands.cpp.obj",
+			"SkeletalMeshModelingToolsEditorMode.cpp.obj",
+			"SkeletalMeshModelingToolsEditorModeToolkit.cpp.obj",
+			"SkeletalMeshModelingToolsMeshConverter.cpp.obj",
+			"SkeletalMeshModelingToolsModule.cpp.obj",
+			"SkeletalMeshModelingToolsStyle.cpp.obj"
+		]
+	}
+}

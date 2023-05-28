@@ -1,0 +1,35 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\vpbookmark\\module.vpbookmark.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\vpbookmark\\definitions.vpbookmark.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\ivpbookmarkprovider.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\public\\ivpbookmarkprovider.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\ivpbookmarkprovider.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\vpbookmark.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\public\\vpbookmark.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\engine\\bookmarkbase.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\bookmarkbase.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\public\\vpbookmarkcontext.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\vpbookmarkcontext.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\vpbookmark.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\vpbookmark.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\vpbookmarkblueprintlibrary.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\public\\vpbookmarkblueprintlibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\vpbookmarkblueprintlibrary.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\intermediate\\build\\win64\\unrealeditor\\inc\\vpbookmark\\uht\\vpbookmarkcontext.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\private\\vpbookmark.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\public\\vpbookmarklifecycledelegates.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\private\\vpbookmarkblueprintlibrary.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\private\\vpbookmarkmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\engineutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\private\\vpbookmarklifecycledelegates.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualproductionutilities\\source\\vpbookmark\\private\\vpbookmarkmodule.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

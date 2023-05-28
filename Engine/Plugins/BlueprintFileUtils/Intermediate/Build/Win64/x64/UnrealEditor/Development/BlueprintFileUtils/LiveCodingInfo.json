@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueprintFileUtils.cpp.obj": [
+			"BlueprintFileUtils.init.gen.cpp.obj",
+			"BlueprintFileUtilsBPLibrary.gen.cpp.obj",
+			"BlueprintFileUtils.cpp.obj",
+			"BlueprintFileUtilsBPLibrary.cpp.obj"
+		]
+	}
+}

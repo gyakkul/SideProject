@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.IOSReplayKit.cpp.obj": [
+			"IOSReplayKit.init.gen.cpp.obj",
+			"IOSReplayKitControl.gen.cpp.obj",
+			"IOSReplayKit.cpp.obj",
+			"IOSReplayKitControl.cpp.obj",
+			"ReplayKitRecorder.cpp.obj"
+		]
+	}
+}

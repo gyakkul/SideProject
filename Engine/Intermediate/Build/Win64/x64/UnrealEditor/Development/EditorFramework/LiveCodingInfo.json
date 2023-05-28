@@ -1,0 +1,27 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorFramework.cpp.obj": [
+			"AssetEditorContextInterface.gen.cpp.obj",
+			"AssetEditorModeUILayer.gen.cpp.obj",
+			"AssetFactoryInterface.gen.cpp.obj",
+			"EditorElementSubsystem.gen.cpp.obj",
+			"EditorFramework.init.gen.cpp.obj",
+			"PlacementSubsystem.gen.cpp.obj",
+			"TypedElementDetailsInterface.gen.cpp.obj",
+			"TypedElementViewportInteraction.gen.cpp.obj",
+			"EditorFrameworkModule.cpp.obj",
+			"EditorModes.cpp.obj",
+			"EditorViewportLayout.cpp.obj",
+			"TypedElementViewportInteraction.cpp.obj",
+			"AssetFactoryInterface.cpp.obj",
+			"EditorElementSubsystem.cpp.obj",
+			"PlacementSubsystem.cpp.obj",
+			"AssetEditorModeUILayer.cpp.obj",
+			"ToolkitManager.cpp.obj",
+			"Modes.cpp.obj",
+			"InViewportUIDragOperation.cpp.obj",
+			"ViewportTabContent.cpp.obj"
+		]
+	}
+}

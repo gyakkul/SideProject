@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataflowEditor.cpp.obj": [
+			"DataflowEditor.init.gen.cpp.obj",
+			"DataflowSCommentNode.gen.cpp.obj",
+			"CollectionSpreadSheetWidget.cpp.obj",
+			"DataflowAssetActions.cpp.obj",
+			"DataflowAssetFactory.cpp.obj",
+			"DataflowCollectionSpreadSheet.cpp.obj",
+			"DataflowEditorCommands.cpp.obj",
+			"DataflowEditorPlugin.cpp.obj",
+			"DataflowEditorToolkit.cpp.obj",
+			"DataflowEditorViewport.cpp.obj",
+			"DataflowEditorViewportClient.cpp.obj",
+			"DataflowEditorViewportToolbar.cpp.obj",
+			"DataflowGraphEditor.cpp.obj",
+			"DataflowSchema.cpp.obj",
+			"DataflowSCommentNode.cpp.obj",
+			"DataflowSelectionView.cpp.obj",
+			"DataflowSNode.cpp.obj",
+			"DataflowSNodeFactories.cpp.obj",
+			"DataflowView.cpp.obj",
+			"DataflowXml.cpp.obj",
+			"SelectionViewWidget.cpp.obj"
+		]
+	}
+}

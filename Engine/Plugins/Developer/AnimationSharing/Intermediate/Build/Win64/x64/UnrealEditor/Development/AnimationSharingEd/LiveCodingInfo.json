@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationSharingEd.cpp.obj": [
+			"AnimationSharingEd.init.gen.cpp.obj",
+			"AnimationSharingEdModule.cpp.obj",
+			"AnimationSharingSetupFactory.cpp.obj",
+			"SetupDetailsViewCustomizations.cpp.obj"
+		]
+	}
+}

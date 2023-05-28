@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorPalette.cpp.obj": [
+			"ActorPalette.init.gen.cpp.obj",
+			"ActorPaletteSettings.gen.cpp.obj",
+			"ActorPalette.cpp.obj",
+			"ActorPaletteCommands.cpp.obj",
+			"ActorPaletteModule.cpp.obj",
+			"ActorPaletteSettings.cpp.obj",
+			"ActorPaletteStyle.cpp.obj",
+			"ActorPaletteViewport.cpp.obj",
+			"ActorPaletteViewportClient.cpp.obj"
+		]
+	}
+}

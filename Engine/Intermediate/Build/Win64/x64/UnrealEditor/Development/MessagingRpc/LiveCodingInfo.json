@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MessagingRpc.cpp.obj": [
+			"MessageRpcMessages.gen.cpp.obj",
+			"MessagingRpc.init.gen.cpp.obj",
+			"RpcMessage.gen.cpp.obj",
+			"MessageRpcClient.cpp.obj",
+			"MessageRpcServer.cpp.obj",
+			"MessagingRpcModule.cpp.obj"
+		]
+	}
+}

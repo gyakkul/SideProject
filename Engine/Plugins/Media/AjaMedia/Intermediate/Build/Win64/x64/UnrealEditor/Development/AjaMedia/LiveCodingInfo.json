@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AjaMedia.cpp.obj": [
+			"AjaCustomTimeStep.gen.cpp.obj",
+			"AjaDeviceProvider.gen.cpp.obj",
+			"AjaMedia.init.gen.cpp.obj",
+			"AjaMediaSettings.gen.cpp.obj",
+			"AjaMediaSource.gen.cpp.obj",
+			"AjaTimecodeProvider.gen.cpp.obj",
+			"AjaMediaModule.cpp.obj",
+			"Aja.cpp.obj",
+			"AjaDeviceProvider.cpp.obj",
+			"AjaCustomTimeStep.cpp.obj",
+			"AjaMediaSettings.cpp.obj",
+			"AjaMediaSource.cpp.obj",
+			"AjaTimecodeProvider.cpp.obj",
+			"AjaMediaPlayer.cpp.obj"
+		]
+	}
+}

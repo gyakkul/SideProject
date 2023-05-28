@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GPUTextureTransfer.cpp.obj": [
+			"D3D11TextureTransfer.cpp.obj",
+			"D3D12TextureTransfer.cpp.obj",
+			"GPUTextureTransferModule.cpp.obj",
+			"TextureTransferBase.cpp.obj",
+			"VulkanTextureTransfer.cpp.obj"
+		]
+	}
+}

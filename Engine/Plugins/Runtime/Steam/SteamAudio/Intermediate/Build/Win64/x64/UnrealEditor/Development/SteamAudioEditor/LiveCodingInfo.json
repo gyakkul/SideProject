@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SteamAudioEditor.cpp.obj": [
+			"PhononOcclusionSettingsFactory.gen.cpp.obj",
+			"PhononReverbSettingsFactory.gen.cpp.obj",
+			"PhononSpatializationSettingsFactory.gen.cpp.obj",
+			"SteamAudioEditor.init.gen.cpp.obj",
+			"BakeIndirectWindow.cpp.obj",
+			"IndirectBaker.cpp.obj",
+			"PhononOcclusionSettingsFactory.cpp.obj",
+			"PhononProbeComponentVisualizer.cpp.obj",
+			"PhononProbeVolumeDetails.cpp.obj",
+			"PhononReverbSettingsFactory.cpp.obj",
+			"PhononSourceComponentDetails.cpp.obj",
+			"PhononSourceComponentVisualizer.cpp.obj",
+			"PhononSpatializationSettingsFactory.cpp.obj",
+			"SteamAudioEditorModule.cpp.obj",
+			"SteamAudioEdMode.cpp.obj",
+			"SteamAudioEdModeToolkit.cpp.obj",
+			"TickableNotification.cpp.obj"
+		]
+	}
+}

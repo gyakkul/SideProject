@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DrawPrimitiveDebugger.cpp.obj": [
+			"DrawPrimitiveDebugger.init.gen.cpp.obj",
+			"DrawPrimitiveDebuggerConfig.cpp.obj",
+			"DrawPrimitiveDebuggerModule.cpp.obj",
+			"SDrawPrimitiveDebugger.cpp.obj"
+		]
+	}
+}

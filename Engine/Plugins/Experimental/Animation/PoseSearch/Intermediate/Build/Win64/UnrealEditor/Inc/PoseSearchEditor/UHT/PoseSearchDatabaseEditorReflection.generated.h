@@ -1,0 +1,413 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "PoseSearchDatabaseEditorReflection.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef POSESEARCHEDITOR_PoseSearchDatabaseEditorReflection_generated_h
+#error "PoseSearchDatabaseEditorReflection.generated.h already included, missing '#pragma once' in PoseSearchDatabaseEditorReflection.h"
+#endif
+#define POSESEARCHEDITOR_PoseSearchDatabaseEditorReflection_generated_h
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseReflectionBase(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseReflectionBase_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseReflectionBase, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseReflectionBase)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_INCLASS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseReflectionBase(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseReflectionBase_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseReflectionBase, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseReflectionBase)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseReflectionBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseReflectionBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseReflectionBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseReflectionBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseReflectionBase(UPoseSearchDatabaseReflectionBase&&); \
+	NO_API UPoseSearchDatabaseReflectionBase(const UPoseSearchDatabaseReflectionBase&); \
+public: \
+	NO_API virtual ~UPoseSearchDatabaseReflectionBase();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseReflectionBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseReflectionBase(UPoseSearchDatabaseReflectionBase&&); \
+	NO_API UPoseSearchDatabaseReflectionBase(const UPoseSearchDatabaseReflectionBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseReflectionBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseReflectionBase); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseReflectionBase) \
+	NO_API virtual ~UPoseSearchDatabaseReflectionBase();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_17_PROLOG
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_INCLASS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_20_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> POSESEARCHEDITOR_API UClass* StaticClass<class UPoseSearchDatabaseReflectionBase>();
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseSequenceReflection(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseSequenceReflection_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseSequenceReflection, UPoseSearchDatabaseReflectionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseSequenceReflection)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_INCLASS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseSequenceReflection(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseSequenceReflection_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseSequenceReflection, UPoseSearchDatabaseReflectionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseSequenceReflection)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseSequenceReflection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseSequenceReflection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseSequenceReflection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseSequenceReflection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseSequenceReflection(UPoseSearchDatabaseSequenceReflection&&); \
+	NO_API UPoseSearchDatabaseSequenceReflection(const UPoseSearchDatabaseSequenceReflection&); \
+public: \
+	NO_API virtual ~UPoseSearchDatabaseSequenceReflection();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseSequenceReflection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseSequenceReflection(UPoseSearchDatabaseSequenceReflection&&); \
+	NO_API UPoseSearchDatabaseSequenceReflection(const UPoseSearchDatabaseSequenceReflection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseSequenceReflection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseSequenceReflection); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseSequenceReflection) \
+	NO_API virtual ~UPoseSearchDatabaseSequenceReflection();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_32_PROLOG
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_INCLASS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> POSESEARCHEDITOR_API UClass* StaticClass<class UPoseSearchDatabaseSequenceReflection>();
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseBlendSpaceReflection(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseBlendSpaceReflection_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseBlendSpaceReflection, UPoseSearchDatabaseReflectionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseBlendSpaceReflection)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_INCLASS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseBlendSpaceReflection(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseBlendSpaceReflection_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseBlendSpaceReflection, UPoseSearchDatabaseReflectionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseBlendSpaceReflection)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseBlendSpaceReflection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseBlendSpaceReflection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseBlendSpaceReflection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseBlendSpaceReflection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseBlendSpaceReflection(UPoseSearchDatabaseBlendSpaceReflection&&); \
+	NO_API UPoseSearchDatabaseBlendSpaceReflection(const UPoseSearchDatabaseBlendSpaceReflection&); \
+public: \
+	NO_API virtual ~UPoseSearchDatabaseBlendSpaceReflection();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseBlendSpaceReflection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseBlendSpaceReflection(UPoseSearchDatabaseBlendSpaceReflection&&); \
+	NO_API UPoseSearchDatabaseBlendSpaceReflection(const UPoseSearchDatabaseBlendSpaceReflection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseBlendSpaceReflection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseBlendSpaceReflection); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseBlendSpaceReflection) \
+	NO_API virtual ~UPoseSearchDatabaseBlendSpaceReflection();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_46_PROLOG
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_INCLASS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_49_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> POSESEARCHEDITOR_API UClass* StaticClass<class UPoseSearchDatabaseBlendSpaceReflection>();
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseAnimCompositeReflection(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseAnimCompositeReflection_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseAnimCompositeReflection, UPoseSearchDatabaseReflectionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseAnimCompositeReflection)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_INCLASS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseAnimCompositeReflection(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseAnimCompositeReflection_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseAnimCompositeReflection, UPoseSearchDatabaseReflectionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseAnimCompositeReflection)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseAnimCompositeReflection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseAnimCompositeReflection) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseAnimCompositeReflection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseAnimCompositeReflection); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseAnimCompositeReflection(UPoseSearchDatabaseAnimCompositeReflection&&); \
+	NO_API UPoseSearchDatabaseAnimCompositeReflection(const UPoseSearchDatabaseAnimCompositeReflection&); \
+public: \
+	NO_API virtual ~UPoseSearchDatabaseAnimCompositeReflection();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseAnimCompositeReflection(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseAnimCompositeReflection(UPoseSearchDatabaseAnimCompositeReflection&&); \
+	NO_API UPoseSearchDatabaseAnimCompositeReflection(const UPoseSearchDatabaseAnimCompositeReflection&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseAnimCompositeReflection); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseAnimCompositeReflection); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseAnimCompositeReflection) \
+	NO_API virtual ~UPoseSearchDatabaseAnimCompositeReflection();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_60_PROLOG
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_INCLASS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_63_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> POSESEARCHEDITOR_API UClass* StaticClass<class UPoseSearchDatabaseAnimCompositeReflection>();
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_77_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FPoseSearchDatabaseMemoryStats_Statics; \
+	POSESEARCHEDITOR_API static class UScriptStruct* StaticStruct();
+
+
+template<> POSESEARCHEDITOR_API UScriptStruct* StaticStruct<struct FPoseSearchDatabaseMemoryStats>();
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_ACCESSORS
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseStatistics(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseStatistics_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseStatistics, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseStatistics)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_INCLASS \
+private: \
+	static void StaticRegisterNativesUPoseSearchDatabaseStatistics(); \
+	friend struct Z_Construct_UClass_UPoseSearchDatabaseStatistics_Statics; \
+public: \
+	DECLARE_CLASS(UPoseSearchDatabaseStatistics, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/PoseSearchEditor"), NO_API) \
+	DECLARE_SERIALIZER(UPoseSearchDatabaseStatistics)
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseStatistics(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseStatistics) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseStatistics); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseStatistics); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseStatistics(UPoseSearchDatabaseStatistics&&); \
+	NO_API UPoseSearchDatabaseStatistics(const UPoseSearchDatabaseStatistics&); \
+public: \
+	NO_API virtual ~UPoseSearchDatabaseStatistics();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UPoseSearchDatabaseStatistics(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UPoseSearchDatabaseStatistics(UPoseSearchDatabaseStatistics&&); \
+	NO_API UPoseSearchDatabaseStatistics(const UPoseSearchDatabaseStatistics&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPoseSearchDatabaseStatistics); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPoseSearchDatabaseStatistics); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPoseSearchDatabaseStatistics) \
+	NO_API virtual ~UPoseSearchDatabaseStatistics();
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_101_PROLOG
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_INCLASS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_ACCESSORS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h_104_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> POSESEARCHEDITOR_API UClass* StaticClass<class UPoseSearchDatabaseStatistics>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_Animation_PoseSearch_Source_Editor_Public_PoseSearchDatabaseEditorReflection_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

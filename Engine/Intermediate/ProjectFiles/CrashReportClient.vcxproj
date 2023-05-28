@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{337481E9-E310-39F2-96BE-80623B32EAA0}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>CrashReportClient</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>..\Build\Unused\</OutDir>
+    <IntDir>..\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat CrashReportClient Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\CrashReportClient-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat CrashReportClient Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\CrashReportClient-Win64-Development.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat CrashReportClient Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\CrashReportClient.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);..\..\Source;..\..\Source\Runtime\Launch\Private;..\..\Source\Programs\CrashReportClient\Private;..\Build\Win64\CrashReportClient\Inc\Core\UHT;..\Build\Win64\CrashReportClient\Inc\Core\VNI;..\..\Source\Runtime\TraceLog\Public;..\..\Source\Runtime\Core\Public;..\..\Source\Runtime;..\Build\Win64\CrashReportClient\Inc\TraceLog\UHT;..\Build\Win64\CrashReportClient\Inc\TraceLog\VNI;..\Build\Win64\CrashReportClient\Inc\CoreUObject\UHT;..\Build\Win64\CrashReportClient\Inc\CoreUObject\VNI;..\..\Source\Runtime\CoreUObject\Public;..\Build\Win64\CrashReportClient\Inc\ApplicationCore\UHT;..\Build\Win64\CrashReportClient\Inc\ApplicationCore\VNI;..\..\Source\Runtime\ApplicationCore\Public;..\Build\Win64\CrashReportClient\Inc\RHI\UHT;..\Build\Win64\CrashReportClient\Inc\RHI\VNI;..\..\Source\Runtime\RHI\Public;..\Build\Win64\CrashReportClient\Inc\CrashReportCore\UHT;..\Build\Win64\CrashReportClient\Inc\CrashReportCore\VNI;..\..\Source\Runtime\CrashReportCore\Public;..\Build\Win64\CrashReportClient\Inc\XmlParser\UHT;..\Build\Win64\CrashReportClient\Inc\XmlParser\VNI;..\..\Source\Runtime\XmlParser\Public;..\Build\Win64\CrashReportClient\Inc\Analytics\UHT;..\Build\Win64\CrashReportClient\Inc\Analytics\VNI;..\..\Source\Runtime\Analytics\Analytics\Public;..\..\Source\Runtime\Analytics;..\Build\Win64\CrashReportClient\Inc\AnalyticsET\UHT;..\Build\Win64\CrashReportClient\Inc\AnalyticsET\VNI;..\..\Source\Runtime\Analytics\AnalyticsET\Public;..\Build\Win64\CrashReportClient\Inc\HTTP\UHT;..\Build\Win64\CrashReportClient\Inc\HTTP\VNI;..\..\Source\Runtime\Online\HTTP\Public;..\..\Source\Runtime\Online;..\Build\Win64\CrashReportClient\Inc\Json\UHT;..\Build\Win64\CrashReportClient\Inc\Json\VNI;..\..\Source\Runtime\Json\Public;..\Build\Win64\CrashReportClient\Inc\CrashDebugHelper\UHT;..\Build\Win64\CrashReportClient\Inc\CrashDebugHelper\VNI;..\..\Source\Developer\CrashDebugHelper\Public;..\..\Source\Developer;..\Build\Win64\CrashReportClient\Inc\Projects\UHT;..\Build\Win64\CrashReportClient\Inc\Projects\VNI;..\..\Source\Runtime\Projects\Public;..\Build\Win64\CrashReportClient\Inc\PakFile\UHT;..\Build\Win64\CrashReportClient\Inc\PakFile\VNI;..\..\Source\Runtime\PakFile\Public;..\Build\Win64\CrashReportClient\Inc\RSA\UHT;..\Build\Win64\CrashReportClient\Inc\RSA\VNI;..\..\Source\Runtime\RSA\Public;..\Build\Win64\CrashReportClient\Inc\DesktopPlatform\UHT;..\Build\Win64\CrashReportClient\Inc\DesktopPlatform\VNI;..\..\Source\Developer\DesktopPlatform\Public;..\Build\Win64\CrashReportClient\Inc\LauncherPlatform\UHT;..\Build\Win64\CrashReportClient\Inc\LauncherPlatform\VNI;..\..\Source\Runtime\Portal\LauncherPlatform\Public;..\..\Source\Runtime\Portal;..\Build\Win64\CrashReportClient\Inc\InputCore\UHT;..\Build\Win64\CrashReportClient\Inc\InputCore\VNI;..\..\Source\Runtime\InputCore\Classes;..\..\Source\Runtime\InputCore\Public;..\Build\Win64\CrashReportClient\Inc\Slate\UHT;..\Build\Win64\CrashReportClient\Inc\Slate\VNI;..\..\Source\Runtime\Slate\Public;..\Build\Win64\CrashReportClient\Inc\SlateCore\UHT;..\Build\Win64\CrashReportClient\Inc\SlateCore\VNI;..\..\Source\Runtime\SlateCore\Public;..\Build\Win64\CrashReportClient\Inc\ImageWrapper\UHT;..\Build\Win64\CrashReportClient\Inc\ImageWrapper\VNI;..\..\Source\Runtime\ImageWrapper\Public;..\..\Source\ThirdParty;..\Build\Win64\CrashReportClient\Inc\ImageCore\UHT;..\Build\Win64\CrashReportClient\Inc\ImageCore\VNI;..\..\Source\Runtime\ImageCore\Public;..\Build\Win64\CrashReportClient\Inc\StandaloneRenderer\UHT;..\Build\Win64\CrashReportClient\Inc\StandaloneRenderer\VNI;..\..\Source\Developer\StandaloneRenderer\Public;..\Build\Win64\CrashReportClient\Inc\MessageLog\UHT;..\Build\Win64\CrashReportClient\Inc\MessageLog\VNI;..\..\Source\Developer\MessageLog\Public;..\Build\Win64\CrashReportClient\Inc\SlateReflector\UHT;..\Build\Win64\CrashReportClient\Inc\SlateReflector\VNI;..\..\Source\Developer\SlateReflector\Public;..\Build\Win64\CrashReportClient\Inc\CrashReportClient\UHT;..\Build\Win64\CrashReportClient\Inc\CrashReportClient\VNI;..\..\Source\Runtime\Launch\Public;..\..\Source\Programs\CrashReportClient\Public;..\..\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\Programs\CrashReportClient\CrashReportClient.Target.cs"/>
+    <None Include="..\..\Programs\CrashReportClient\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Source\Programs\CrashReportClient\CrashReportClient.Build.cs"/>
+    <None Include="..\..\Source\Programs\CrashReportClient\CrashReportClientEditor.Build.cs"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportAnalyticsSessionSummary.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportAnalyticsSessionSummary.h"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportClient.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportClient.h"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportClientApp.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportClientDefines.h"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.h"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\MainLoopTiming.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Private\MainLoopTiming.h"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\RecoveryService.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Private\RecoveryService.h"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\SCrashReportClient.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Private\SCrashReportClient.h"/>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h"/>
+    <None Include="..\..\Source\Programs\CrashReportClient\Resources\Mac\Info.plist"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

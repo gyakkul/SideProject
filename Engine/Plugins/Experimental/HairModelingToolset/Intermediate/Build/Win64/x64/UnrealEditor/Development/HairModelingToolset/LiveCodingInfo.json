@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HairModelingToolset.cpp.obj": [
+			"GenerateLODMeshesTool.gen.cpp.obj",
+			"GroomCardsEditorTool.gen.cpp.obj",
+			"GroomToMeshTool.gen.cpp.obj",
+			"HairModelingToolset.init.gen.cpp.obj",
+			"GenerateLODMeshesTool.cpp.obj",
+			"GroomCardsEditorTool.cpp.obj",
+			"GroomQueryUtil.cpp.obj",
+			"GroomToMeshTool.cpp.obj",
+			"HairModelingToolCommands.cpp.obj",
+			"HairModelingToolsetModule.cpp.obj",
+			"HairModelingToolsStyle.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DerivedDataCache.1_of_2.cpp.obj": [
+			"DerivedDataBackends.cpp.obj",
+			"DerivedDataBuild.cpp.obj",
+			"DerivedDataBuildAction.cpp.obj",
+			"DerivedDataBuildDefinition.cpp.obj",
+			"DerivedDataBuildFunctionRegistry.cpp.obj",
+			"DerivedDataBuildInputs.cpp.obj",
+			"DerivedDataBuildJob.cpp.obj",
+			"DerivedDataBuildJobContext.cpp.obj",
+			"DerivedDataBuildOutput.cpp.obj",
+			"DerivedDataBuildScheduler.cpp.obj",
+			"DerivedDataBuildSession.cpp.obj",
+			"DerivedDataBuildWorkerRegistry.cpp.obj",
+			"DerivedDataCache.cpp.obj",
+			"DerivedDataCacheKey.cpp.obj",
+			"DerivedDataCacheKeyFilter.cpp.obj",
+			"DerivedDataCacheMethod.cpp.obj",
+			"DerivedDataCacheModule.cpp.obj",
+			"DerivedDataCachePolicy.cpp.obj",
+			"DerivedDataCacheRecord.cpp.obj",
+			"DerivedDataCacheReplay.cpp.obj",
+			"DerivedDataCacheStoreAsync.cpp.obj",
+			"DerivedDataCacheStoreHierarchy.cpp.obj",
+			"DerivedDataCacheStoreThrottle.cpp.obj",
+			"DerivedDataCacheStoreVerify.cpp.obj",
+			"DerivedDataCacheUsageStats.cpp.obj",
+			"DerivedDataLegacyCacheStore.cpp.obj",
+			"DerivedDataRequestOwner.cpp.obj",
+			"DerivedDataRequestTypes.cpp.obj",
+			"DerivedDataSharedString.cpp.obj",
+			"DerivedDataThreadPoolTask.cpp.obj",
+			"DerivedDataValue.cpp.obj",
+			"FileSystemCacheStore.cpp.obj"
+		],
+		"Module.DerivedDataCache.2_of_2.cpp.obj": [
+			"HttpCacheStore.cpp.obj",
+			"CurlHttpClient.cpp.obj",
+			"HttpClient.cpp.obj",
+			"MemoryCacheStore.cpp.obj",
+			"PakFileCacheStore.cpp.obj",
+			"S3CacheStore.cpp.obj",
+			"CacheStoreTest.cpp.obj",
+			"HttpCacheStoreTest.cpp.obj",
+			"ZenCacheStore.cpp.obj",
+			"DerivedDataCacheStoreHierarchyTest.cpp.obj",
+			"TestCacheStore.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterLightCardEditorShaders.cpp.obj": [
+			"DisplayClusterLightCardEditorShadersModule.cpp.obj",
+			"DisplayClusterMeshProjectionRenderer.cpp.obj"
+		]
+	}
+}

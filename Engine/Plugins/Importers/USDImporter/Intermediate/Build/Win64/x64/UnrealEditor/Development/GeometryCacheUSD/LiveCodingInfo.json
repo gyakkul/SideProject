@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GeometryCacheUSD.cpp.obj": [
+			"GeometryCacheTrackUSD.gen.cpp.obj",
+			"GeometryCacheUSD.init.gen.cpp.obj",
+			"GeometryCacheUSDComponent.gen.cpp.obj",
+			"GeometryCacheTrackUSD.cpp.obj",
+			"GeometryCacheUSDComponent.cpp.obj",
+			"GeometryCacheUSDModule.cpp.obj",
+			"GeometryCacheUSDSceneProxy.cpp.obj",
+			"GeometryCacheUSDStream.cpp.obj"
+		]
+	}
+}

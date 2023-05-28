@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SmartSnapping.cpp.obj": [
+			"PlanarConstraintSnapPolicy.cpp.obj",
+			"SmartSnappingModule.cpp.obj"
+		]
+	}
+}

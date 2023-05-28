@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkAnimationCore.cpp.obj": [
+			"LiveLinkAnimationCore.init.gen.cpp.obj",
+			"AnimNode_LiveLinkPose.cpp.obj",
+			"LiveLinkAnimationCoreModule.cpp.obj",
+			"LiveLinkInstance.cpp.obj",
+			"LiveLinkRemapAsset.cpp.obj",
+			"LiveLinkRetargetAsset.cpp.obj"
+		]
+	}
+}

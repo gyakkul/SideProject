@@ -1,0 +1,175 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Tools/PlacementEraseTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef ASSETPLACEMENTEDMODE_PlacementEraseTool_generated_h
+#error "PlacementEraseTool.generated.h already included, missing '#pragma once' in PlacementEraseTool.h"
+#endif
+#define ASSETPLACEMENTEDMODE_PlacementEraseTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPlacementModeEraseToolBuilder(); \
+	friend struct Z_Construct_UClass_UPlacementModeEraseToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UPlacementModeEraseToolBuilder, UPlacementToolBuilderBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/AssetPlacementEdMode"), ASSETPLACEMENTEDMODE_API) \
+	DECLARE_SERIALIZER(UPlacementModeEraseToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_INCLASS \
+private: \
+	static void StaticRegisterNativesUPlacementModeEraseToolBuilder(); \
+	friend struct Z_Construct_UClass_UPlacementModeEraseToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UPlacementModeEraseToolBuilder, UPlacementToolBuilderBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/AssetPlacementEdMode"), ASSETPLACEMENTEDMODE_API) \
+	DECLARE_SERIALIZER(UPlacementModeEraseToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlacementModeEraseToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(ASSETPLACEMENTEDMODE_API, UPlacementModeEraseToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlacementModeEraseToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseToolBuilder(UPlacementModeEraseToolBuilder&&); \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseToolBuilder(const UPlacementModeEraseToolBuilder&); \
+public: \
+	ASSETPLACEMENTEDMODE_API virtual ~UPlacementModeEraseToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseToolBuilder(UPlacementModeEraseToolBuilder&&); \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseToolBuilder(const UPlacementModeEraseToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(ASSETPLACEMENTEDMODE_API, UPlacementModeEraseToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlacementModeEraseToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlacementModeEraseToolBuilder) \
+	ASSETPLACEMENTEDMODE_API virtual ~UPlacementModeEraseToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_10_PROLOG
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_INCLASS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_13_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ASSETPLACEMENTEDMODE_API UClass* StaticClass<class UPlacementModeEraseToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_ACCESSORS
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUPlacementModeEraseTool(); \
+	friend struct Z_Construct_UClass_UPlacementModeEraseTool_Statics; \
+public: \
+	DECLARE_CLASS(UPlacementModeEraseTool, UPlacementBrushToolBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/AssetPlacementEdMode"), ASSETPLACEMENTEDMODE_API) \
+	DECLARE_SERIALIZER(UPlacementModeEraseTool)
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_INCLASS \
+private: \
+	static void StaticRegisterNativesUPlacementModeEraseTool(); \
+	friend struct Z_Construct_UClass_UPlacementModeEraseTool_Statics; \
+public: \
+	DECLARE_CLASS(UPlacementModeEraseTool, UPlacementBrushToolBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/AssetPlacementEdMode"), ASSETPLACEMENTEDMODE_API) \
+	DECLARE_SERIALIZER(UPlacementModeEraseTool)
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlacementModeEraseTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(ASSETPLACEMENTEDMODE_API, UPlacementModeEraseTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlacementModeEraseTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseTool(UPlacementModeEraseTool&&); \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseTool(const UPlacementModeEraseTool&); \
+public: \
+	ASSETPLACEMENTEDMODE_API virtual ~UPlacementModeEraseTool();
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseTool(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseTool(UPlacementModeEraseTool&&); \
+	ASSETPLACEMENTEDMODE_API UPlacementModeEraseTool(const UPlacementModeEraseTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(ASSETPLACEMENTEDMODE_API, UPlacementModeEraseTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlacementModeEraseTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPlacementModeEraseTool) \
+	ASSETPLACEMENTEDMODE_API virtual ~UPlacementModeEraseTool();
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_19_PROLOG
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_INCLASS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_ACCESSORS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ASSETPLACEMENTEDMODE_API UClass* StaticClass<class UPlacementModeEraseTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_AssetPlacementEdMode_Source_AssetPlacementEdMode_Private_Tools_PlacementEraseTool_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

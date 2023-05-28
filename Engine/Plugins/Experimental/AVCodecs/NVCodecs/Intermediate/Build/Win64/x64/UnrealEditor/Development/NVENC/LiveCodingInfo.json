@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NVENC.cpp.obj": [
+			"NVENC.cpp.obj",
+			"NVENCModule.cpp.obj",
+			"VideoEncoderConfigNVENC.cpp.obj",
+			"VideoEncoderNVENC.cpp.obj"
+		]
+	}
+}

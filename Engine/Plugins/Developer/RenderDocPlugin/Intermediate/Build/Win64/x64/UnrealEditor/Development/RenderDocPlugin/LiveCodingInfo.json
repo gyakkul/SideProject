@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderDocPlugin.cpp.obj": [
+			"RenderDocPlugin.init.gen.cpp.obj",
+			"RenderDocPluginSettings.gen.cpp.obj",
+			"RenderDocPluginCommands.cpp.obj",
+			"RenderDocPluginLoader.cpp.obj",
+			"RenderDocPluginModule.cpp.obj",
+			"RenderDocPluginNotification.cpp.obj",
+			"RenderDocPluginSettings.cpp.obj",
+			"RenderDocPluginStyle.cpp.obj",
+			"SRenderDocPluginEditorExtension.cpp.obj",
+			"SRenderDocPluginHelpWindow.cpp.obj"
+		]
+	}
+}

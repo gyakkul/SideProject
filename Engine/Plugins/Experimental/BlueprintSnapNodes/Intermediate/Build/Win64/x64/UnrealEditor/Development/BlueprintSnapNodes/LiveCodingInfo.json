@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueprintSnapNodes.cpp.obj": [
+			"BlueprintSnapNodes.init.gen.cpp.obj",
+			"K2Node_SnapContainer.gen.cpp.obj",
+			"BlueprintSnapNodes.cpp.obj",
+			"K2Node_SnapContainer.cpp.obj",
+			"SGraphNodeSnapContainer.cpp.obj",
+			"SGraphSnapContainerRow.cpp.obj"
+		]
+	}
+}

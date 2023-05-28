@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ClientPilot.cpp.obj": [
+			"ClientPilot.init.gen.cpp.obj",
+			"ClientPilotBlackboard.cpp.obj",
+			"ClientPilotBlackboardManager.cpp.obj",
+			"ClientPilotComponent.cpp.obj"
+		]
+	}
+}

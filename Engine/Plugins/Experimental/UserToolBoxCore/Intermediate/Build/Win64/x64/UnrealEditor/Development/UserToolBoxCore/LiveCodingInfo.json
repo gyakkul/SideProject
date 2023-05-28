@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UserToolBoxCore.cpp.obj": [
+			"IconsTracker.gen.cpp.obj",
+			"UserToolBoxBaseBlueprint.gen.cpp.obj",
+			"UserToolBoxCore.init.gen.cpp.obj",
+			"UserToolBoxFunctionLibrary.gen.cpp.obj",
+			"UserToolBoxSubsystem.gen.cpp.obj",
+			"UTBBaseCommand.gen.cpp.obj",
+			"UTBBaseTab.gen.cpp.obj",
+			"UTBBaseUICommand.gen.cpp.obj",
+			"UTBBaseUICommandInterface.gen.cpp.obj",
+			"UTBBaseUITab.gen.cpp.obj",
+			"UTBEditorBlueprint.gen.cpp.obj",
+			"UTBFactory.gen.cpp.obj",
+			"AssetTypeActions_UTBEditorUtilityBlueprint.cpp.obj",
+			"BaseCommandCustomization.cpp.obj",
+			"SCommandPickMenu.cpp.obj",
+			"SCommandWithOptionsDetailsView.cpp.obj",
+			"SCommandWithOptionsWidget.cpp.obj",
+			"UTBEditorCommands.cpp.obj",
+			"UTBTabEditor.cpp.obj",
+			"IconsTracker.cpp.obj",
+			"SVerticalTextBlock.cpp.obj",
+			"UserToolBoxBaseBlueprint.cpp.obj",
+			"UserToolBoxCore.cpp.obj",
+			"UserToolBoxFunctionLibrary.cpp.obj",
+			"UserToolBoxStyle.cpp.obj",
+			"UserToolBoxSubsystem.cpp.obj",
+			"UTBBaseCommand.cpp.obj",
+			"UTBBaseTab.cpp.obj",
+			"UTBBaseUICommand.cpp.obj",
+			"UTBBaseUITab.cpp.obj",
+			"UTBEditorBlueprint.cpp.obj",
+			"UTBFactory.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VirtualHeightfieldMesh.cpp.obj": [
+			"VirtualHeightfieldMesh.init.gen.cpp.obj",
+			"HeightfieldMinMaxRender.cpp.obj",
+			"HeightfieldMinMaxTexture.cpp.obj",
+			"HeightfieldMinMaxTextureMaterialExpression.cpp.obj",
+			"HeightfieldMinMaxTextureNotify.cpp.obj",
+			"VirtualHeightfieldMeshActor.cpp.obj",
+			"VirtualHeightfieldMeshComponent.cpp.obj",
+			"VirtualHeightfieldMeshEnable.cpp.obj",
+			"VirtualHeightfieldMeshModule.cpp.obj",
+			"VirtualHeightfieldMeshSceneProxy.cpp.obj",
+			"VirtualHeightfieldMeshVertexFactory.cpp.obj"
+		]
+	}
+}

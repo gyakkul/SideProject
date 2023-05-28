@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NNEHlslShaders.cpp.obj": [
+			"NNEHlslShadersBatchNormalizationCS.cpp.obj",
+			"NNEHlslShadersConvCS.cpp.obj",
+			"NNEHlslShadersConvMatmulCS.cpp.obj",
+			"NNEHlslShadersConvTransposeCS.cpp.obj",
+			"NNEHlslShadersElementWiseBinaryCS.cpp.obj",
+			"NNEHlslShadersElementWiseUnaryCS.cpp.obj",
+			"NNEHlslShadersElementWiseVariadicCS.cpp.obj",
+			"NNEHlslShadersGatherCS.cpp.obj",
+			"NNEHlslShadersGemmCS.cpp.obj",
+			"NNEHlslShadersInstanceNormalizationCS.cpp.obj",
+			"NNEHlslShadersModule.cpp.obj",
+			"NNEHlslShadersNeuralPostProcessingCS.cpp.obj",
+			"NNEHlslShadersPadCS.cpp.obj",
+			"NNEHlslShadersUpsampleCS.cpp.obj"
+		]
+	}
+}

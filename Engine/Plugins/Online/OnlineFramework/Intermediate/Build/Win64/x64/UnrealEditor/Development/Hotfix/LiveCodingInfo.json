@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Hotfix.cpp.obj": [
+			"Hotfix.init.gen.cpp.obj",
+			"HotfixModule.cpp.obj",
+			"OnlineHotfixManager.cpp.obj",
+			"UpdateManager.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXControlConsole.cpp.obj": [
+			"DMXControlConsole.gen.cpp.obj",
+			"DMXControlConsole.init.gen.cpp.obj",
+			"DMXControlConsoleActor.gen.cpp.obj",
+			"DMXControlConsoleData.gen.cpp.obj",
+			"DMXControlConsoleFaderBase.gen.cpp.obj",
+			"DMXControlConsoleFaderGroup.gen.cpp.obj",
+			"DMXControlConsoleFaderGroupRow.gen.cpp.obj",
+			"DMXControlConsoleFixturePatchCellAttributeFader.gen.cpp.obj",
+			"DMXControlConsoleFixturePatchFunctionFader.gen.cpp.obj",
+			"DMXControlConsoleFixturePatchMatrixCell.gen.cpp.obj",
+			"DMXControlConsoleFloatOscillator.gen.cpp.obj",
+			"DMXControlConsoleFloatOscillator_Sine.gen.cpp.obj",
+			"DMXControlConsoleFloatOscillator_Square.gen.cpp.obj",
+			"DMXControlConsoleRawFader.gen.cpp.obj",
+			"IDMXControlConsoleFaderGroupElement.gen.cpp.obj",
+			"DMXControlConsole.cpp.obj",
+			"DMXControlConsoleActor.cpp.obj",
+			"DMXControlConsoleData.cpp.obj",
+			"DMXControlConsoleFaderBase.cpp.obj",
+			"DMXControlConsoleFaderGroup.cpp.obj",
+			"DMXControlConsoleFaderGroupRow.cpp.obj",
+			"DMXControlConsoleFixturePatchCellAttributeFader.cpp.obj",
+			"DMXControlConsoleFixturePatchFunctionFader.cpp.obj",
+			"DMXControlConsoleFixturePatchMatrixCell.cpp.obj",
+			"DMXControlConsoleModule.cpp.obj",
+			"DMXControlConsoleRawFader.cpp.obj",
+			"DMXControlConsoleFloatOscillator_Sine.cpp.obj",
+			"DMXControlConsoleFloatOscillator_Square.cpp.obj"
+		]
+	}
+}

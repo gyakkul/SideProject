@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ZoneGraphDebug.cpp.obj": [
+			"ZoneGraphDebug.init.gen.cpp.obj",
+			"ZoneGraphTestingActor.gen.cpp.obj",
+			"ZoneGraphDebug.cpp.obj",
+			"ZoneGraphTestingActor.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayBehaviorsEditorModule.cpp.obj": [
+			"GameplayBehaviorsEditorModule.cpp.obj",
+			"GameplayBehaviorsEditorStyle.cpp.obj"
+		]
+	}
+}

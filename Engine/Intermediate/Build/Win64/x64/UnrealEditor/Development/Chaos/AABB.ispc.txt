@@ -1,0 +1,8 @@
+Runtime/Core/Public\\Math/Aossoa.isph
+Runtime/Core/Public\\Math/Matrix.isph
+Runtime/Core/Public\\Math/Quat.isph
+Runtime/Core/Public\\Math/Scalar.isph
+Runtime/Core/Public\\Math/Soaaos.isph
+Runtime/Core/Public\\Math/Transform.isph
+Runtime/Core/Public\\Math/Vector.isph
+Runtime/Experimental/Chaos/Private/Chaos/AABB.ispc

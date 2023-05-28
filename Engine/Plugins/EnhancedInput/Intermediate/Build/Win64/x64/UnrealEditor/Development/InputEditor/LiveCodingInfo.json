@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InputEditor.cpp.obj": [
+			"InputEditor.init.gen.cpp.obj",
+			"ActionMappingDetails.cpp.obj",
+			"EnhancedInputEditorProcessor.cpp.obj",
+			"EnhancedInputEditorSettings.cpp.obj",
+			"EnhancedInputEditorSubsystem.cpp.obj",
+			"InputCustomizations.cpp.obj",
+			"InputEditorModule.cpp.obj",
+			"InputBindingTest.cpp.obj",
+			"InputIntegrationTest.cpp.obj",
+			"InputModifierTest.cpp.obj",
+			"InputSystemTest.cpp.obj",
+			"InputTestFramework.cpp.obj",
+			"InputTriggerTest.cpp.obj"
+		]
+	}
+}

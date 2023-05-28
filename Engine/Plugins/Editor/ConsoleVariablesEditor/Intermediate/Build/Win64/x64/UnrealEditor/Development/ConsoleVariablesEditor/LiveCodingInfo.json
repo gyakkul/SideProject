@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConsoleVariablesEditor.cpp.obj": [
+			"ConsoleVariablesEditor.init.gen.cpp.obj",
+			"ConsoleVariablesEditorFactory.gen.cpp.obj",
+			"ConsoleVariablesEditorFunctionLibrary.gen.cpp.obj",
+			"ConsoleVariablesEditorProjectSettings.gen.cpp.obj",
+			"ConsoleVariableSyncData.gen.cpp.obj",
+			"AssetTypeActions_ConsoleVariables.cpp.obj",
+			"ConsoleVariablesEditorCommandInfo.cpp.obj",
+			"ConsoleVariablesEditorFunctionLibrary.cpp.obj",
+			"ConsoleVariablesEditorModule.cpp.obj",
+			"ConsoleVariablesEditorStyle.cpp.obj",
+			"ConsoleVariablesEditorFactory.cpp.obj",
+			"ConcertConsoleVariableSessionCustomization.cpp.obj",
+			"ConsoleVariableSync.cpp.obj",
+			"ConsoleVariablesEditorList.cpp.obj",
+			"ConsoleVariablesEditorListRow.cpp.obj",
+			"SConsoleVariablesEditorList.cpp.obj",
+			"SConsoleVariablesEditorListRow.cpp.obj",
+			"SConsoleVariablesEditorListValueInput.cpp.obj",
+			"ConsoleVariablesEditorMainPanel.cpp.obj",
+			"SConsoleVariablesEditorMainPanel.cpp.obj",
+			"SConsoleVariablesEditorGlobalSearchToggle.cpp.obj",
+			"SConsoleVariablesEditorCustomConsoleInputBox.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,184 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DataInterfaces/OptimusDataInterfaceSkinnedMeshExec.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef OPTIMUSCORE_OptimusDataInterfaceSkinnedMeshExec_generated_h
+#error "OptimusDataInterfaceSkinnedMeshExec.generated.h already included, missing '#pragma once' in OptimusDataInterfaceSkinnedMeshExec.h"
+#endif
+#define OPTIMUSCORE_OptimusDataInterfaceSkinnedMeshExec_generated_h
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusSkinnedMeshExecDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusSkinnedMeshExecDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusSkinnedMeshExecDataInterface, UOptimusComputeDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusSkinnedMeshExecDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusSkinnedMeshExecDataInterface(); \
+	friend struct Z_Construct_UClass_UOptimusSkinnedMeshExecDataInterface_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusSkinnedMeshExecDataInterface, UOptimusComputeDataInterface, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusSkinnedMeshExecDataInterface)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusSkinnedMeshExecDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusSkinnedMeshExecDataInterface) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusSkinnedMeshExecDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusSkinnedMeshExecDataInterface); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusSkinnedMeshExecDataInterface(UOptimusSkinnedMeshExecDataInterface&&); \
+	NO_API UOptimusSkinnedMeshExecDataInterface(const UOptimusSkinnedMeshExecDataInterface&); \
+public: \
+	NO_API virtual ~UOptimusSkinnedMeshExecDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusSkinnedMeshExecDataInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusSkinnedMeshExecDataInterface(UOptimusSkinnedMeshExecDataInterface&&); \
+	NO_API UOptimusSkinnedMeshExecDataInterface(const UOptimusSkinnedMeshExecDataInterface&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusSkinnedMeshExecDataInterface); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusSkinnedMeshExecDataInterface); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusSkinnedMeshExecDataInterface) \
+	NO_API virtual ~UOptimusSkinnedMeshExecDataInterface();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_27_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_30_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusSkinnedMeshExecDataInterface>();
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_SPARSE_DATA
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_RPC_WRAPPERS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_ACCESSORS
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOptimusSkinnedMeshExecDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusSkinnedMeshExecDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusSkinnedMeshExecDataProvider, UComputeDataProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusSkinnedMeshExecDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_INCLASS \
+private: \
+	static void StaticRegisterNativesUOptimusSkinnedMeshExecDataProvider(); \
+	friend struct Z_Construct_UClass_UOptimusSkinnedMeshExecDataProvider_Statics; \
+public: \
+	DECLARE_CLASS(UOptimusSkinnedMeshExecDataProvider, UComputeDataProvider, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OptimusCore"), NO_API) \
+	DECLARE_SERIALIZER(UOptimusSkinnedMeshExecDataProvider)
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusSkinnedMeshExecDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusSkinnedMeshExecDataProvider) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusSkinnedMeshExecDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusSkinnedMeshExecDataProvider); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusSkinnedMeshExecDataProvider(UOptimusSkinnedMeshExecDataProvider&&); \
+	NO_API UOptimusSkinnedMeshExecDataProvider(const UOptimusSkinnedMeshExecDataProvider&); \
+public: \
+	NO_API virtual ~UOptimusSkinnedMeshExecDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOptimusSkinnedMeshExecDataProvider(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOptimusSkinnedMeshExecDataProvider(UOptimusSkinnedMeshExecDataProvider&&); \
+	NO_API UOptimusSkinnedMeshExecDataProvider(const UOptimusSkinnedMeshExecDataProvider&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOptimusSkinnedMeshExecDataProvider); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOptimusSkinnedMeshExecDataProvider); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOptimusSkinnedMeshExecDataProvider) \
+	NO_API virtual ~UOptimusSkinnedMeshExecDataProvider();
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_60_PROLOG
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_RPC_WRAPPERS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_INCLASS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_SPARSE_DATA \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_ACCESSORS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h_63_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> OPTIMUSCORE_API UClass* StaticClass<class UOptimusSkinnedMeshExecDataProvider>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Animation_DeformerGraph_Source_OptimusCore_Private_DataInterfaces_OptimusDataInterfaceSkinnedMeshExec_h
+
+
+#define FOREACH_ENUM_EOPTIMUSSKINNEDMESHEXECDOMAIN(op) \
+	op(EOptimusSkinnedMeshExecDomain::None) \
+	op(EOptimusSkinnedMeshExecDomain::Vertex) \
+	op(EOptimusSkinnedMeshExecDomain::Triangle) 
+
+enum class EOptimusSkinnedMeshExecDomain : uint8;
+template<> struct TIsUEnumClass<EOptimusSkinnedMeshExecDomain> { enum { Value = true }; };
+template<> OPTIMUSCORE_API UEnum* StaticEnum<EOptimusSkinnedMeshExecDomain>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

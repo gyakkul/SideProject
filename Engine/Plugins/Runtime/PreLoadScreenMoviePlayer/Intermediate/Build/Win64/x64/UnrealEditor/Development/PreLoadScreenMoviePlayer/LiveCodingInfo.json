@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PreLoadScreenMoviePlayer.cpp.obj": [
+			"MoviePlayerAttributes.gen.cpp.obj",
+			"PreLoadScreenMoviePlayer.init.gen.cpp.obj",
+			"PreLoadMoviePlayerModuleBase.cpp.obj",
+			"PreLoadMoviePlayerScreenBase.cpp.obj"
+		]
+	}
+}

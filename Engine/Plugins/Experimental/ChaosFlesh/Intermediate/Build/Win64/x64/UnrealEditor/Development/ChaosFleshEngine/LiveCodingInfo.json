@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosFleshEngine.cpp.obj": [
+			"ChaosDeformableCollisionsComponent.gen.cpp.obj",
+			"ChaosDeformablePhysicsComponent.gen.cpp.obj",
+			"ChaosDeformableSolverActor.gen.cpp.obj",
+			"ChaosDeformableSolverComponent.gen.cpp.obj",
+			"ChaosDeformableSolverThreading.gen.cpp.obj",
+			"ChaosDeformableTypes.gen.cpp.obj",
+			"ChaosFleshEngine.init.gen.cpp.obj",
+			"DIFleshDeformer.gen.cpp.obj",
+			"FleshComponentCacheAdapter.cpp.obj",
+			"ChaosDeformableCollisionsActor.cpp.obj",
+			"ChaosDeformableCollisionsComponent.cpp.obj",
+			"ChaosDeformableGameplayComponent.cpp.obj",
+			"ChaosDeformablePhysicsComponent.cpp.obj",
+			"ChaosDeformableSolverActor.cpp.obj",
+			"ChaosDeformableSolverComponent.cpp.obj",
+			"ChaosDeformableSolverThreading.cpp.obj",
+			"ChaosDeformableTetrahedralComponent.cpp.obj",
+			"ChaosFleshEnginePlugin.cpp.obj",
+			"FleshActor.cpp.obj",
+			"FleshAsset.cpp.obj",
+			"FleshComponent.cpp.obj",
+			"FleshDynamicAsset.cpp.obj",
+			"SimulationAsset.cpp.obj",
+			"DIFleshDeformer.cpp.obj"
+		]
+	}
+}

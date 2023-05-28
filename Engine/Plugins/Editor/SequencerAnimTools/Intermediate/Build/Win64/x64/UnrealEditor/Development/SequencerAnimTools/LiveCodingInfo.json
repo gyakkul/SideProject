@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SequencerAnimTools.cpp.obj": [
+			"SequencerAnimTools.init.gen.cpp.obj",
+			"BaseSequencerAnimTool.cpp.obj",
+			"MotionTrailTool.cpp.obj",
+			"SequencerAnimEditPivotTool.cpp.obj",
+			"SequencerAnimToolsModule.cpp.obj",
+			"SequencerToolsEditMode.cpp.obj",
+			"AnimationBoneTrail.cpp.obj",
+			"MotionTrailMovieSceneKey.cpp.obj",
+			"MovieSceneTransformTrail.cpp.obj",
+			"SequencerTrailHierarchy.cpp.obj",
+			"Trail.cpp.obj",
+			"TrailHierarchy.cpp.obj",
+			"TrajectoryCache.cpp.obj",
+			"TrajectoryDrawInfo.cpp.obj"
+		]
+	}
+}

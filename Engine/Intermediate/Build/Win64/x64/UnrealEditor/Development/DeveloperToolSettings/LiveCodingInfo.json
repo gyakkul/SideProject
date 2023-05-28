@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DeveloperToolSettings.cpp.obj": [
+			"DeveloperToolSettings.init.gen.cpp.obj",
+			"CookerSettings.cpp.obj",
+			"DeveloperToolSettingsModule.cpp.obj",
+			"PlatformsMenuSettings.cpp.obj",
+			"ProjectPackagingSettings.cpp.obj"
+		]
+	}
+}

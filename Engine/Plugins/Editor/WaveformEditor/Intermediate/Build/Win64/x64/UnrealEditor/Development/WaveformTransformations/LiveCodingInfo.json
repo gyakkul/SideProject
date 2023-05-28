@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WaveformTransformations.cpp.obj": [
+			"WaveformTransformationEffectChain.gen.cpp.obj",
+			"WaveformTransformationNormalize.gen.cpp.obj",
+			"WaveformTransformations.init.gen.cpp.obj",
+			"WaveformTransformationTrimFade.gen.cpp.obj",
+			"WaveformTransformationEffectChain.cpp.obj",
+			"WaveformTransformationNormalize.cpp.obj",
+			"WaveformTransformationsModule.cpp.obj",
+			"WaveformTransformationTrimFade.cpp.obj"
+		]
+	}
+}

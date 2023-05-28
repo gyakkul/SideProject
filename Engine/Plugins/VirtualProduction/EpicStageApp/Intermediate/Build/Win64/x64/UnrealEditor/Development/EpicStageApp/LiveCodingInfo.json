@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EpicStageApp.cpp.obj": [
+			"EpicStageApp.init.gen.cpp.obj",
+			"StageAppBeaconReceiver.gen.cpp.obj",
+			"StageAppLibrary.gen.cpp.obj",
+			"StageAppRequest.gen.cpp.obj",
+			"StageAppResponse.gen.cpp.obj",
+			"StageAppSettings.gen.cpp.obj",
+			"EpicStageApp.cpp.obj",
+			"StageAppBeaconReceiver.cpp.obj",
+			"StageAppLibrary.cpp.obj",
+			"StageAppRouteHandler.cpp.obj"
+		]
+	}
+}

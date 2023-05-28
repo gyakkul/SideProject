@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SlackIntegrations.cpp.obj": [
+			"SlackIncomingWebhookInterface.cpp.obj",
+			"SlackIntegrationsModule.cpp.obj"
+		]
+	}
+}

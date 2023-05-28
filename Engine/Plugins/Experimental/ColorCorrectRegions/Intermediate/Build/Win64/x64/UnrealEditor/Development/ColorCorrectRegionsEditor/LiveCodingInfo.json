@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ColorCorrectRegionsEditor.cpp.obj": [
+			"ColorCorrectRegionCustomization.cpp.obj",
+			"ColorCorrectRegionsEditorModule.cpp.obj",
+			"ColorCorrectRegionsStyle.cpp.obj"
+		]
+	}
+}

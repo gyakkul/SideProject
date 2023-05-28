@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MDLImporter.cpp.obj": [
+			"MDLImporter.init.gen.cpp.obj",
+			"MDLImporterFactory.gen.cpp.obj",
+			"MDLImporterOptions.gen.cpp.obj",
+			"ImageUtils.cpp.obj",
+			"Logging.cpp.obj",
+			"ConstantExpressionFactory.cpp.obj",
+			"FunctionLoader.cpp.obj",
+			"GeneratorMaterialExpressions.cpp.obj",
+			"MaterialExpressionFactory.cpp.obj",
+			"MaterialTextureFactory.cpp.obj",
+			"ParameterExpressionFactory.cpp.obj",
+			"BakedMaterialFactory.cpp.obj",
+			"CarpaintMaterialFactory.cpp.obj",
+			"TranslucentMaterialFactory.cpp.obj",
+			"MdlFileImporter.cpp.obj",
+			"MDLImporter.cpp.obj",
+			"MDLImporterFactory.cpp.obj",
+			"MDLImporterModule.cpp.obj",
+			"MDLImporterOptions.cpp.obj",
+			"MDLMapHandler.cpp.obj",
+			"MDLMaterialFactory.cpp.obj",
+			"MDLMaterialImporter.cpp.obj",
+			"MDLMaterialPropertyFactory.cpp.obj",
+			"MDLMaterialSelector.cpp.obj",
+			"ApiContext.cpp.obj",
+			"BakeParam.cpp.obj",
+			"MaterialDistiller.cpp.obj",
+			"MaterialPrinter.cpp.obj",
+			"MaterialTraverser.cpp.obj",
+			"MdlCommon.cpp.obj",
+			"Utility.cpp.obj",
+			"MDLOptionsWindow.cpp.obj"
+		]
+	}
+}

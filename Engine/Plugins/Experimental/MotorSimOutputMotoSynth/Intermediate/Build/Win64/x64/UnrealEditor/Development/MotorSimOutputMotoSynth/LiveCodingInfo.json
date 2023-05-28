@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MotorSimOutputMotoSynth.cpp.obj": [
+			"MotorSimOutputMotoSynth.init.gen.cpp.obj",
+			"MotorSimOutputMotoSynth.cpp.obj",
+			"MotorSimOutputMotoSynthModule.cpp.obj"
+		]
+	}
+}

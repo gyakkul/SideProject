@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimationEditMode.cpp.obj": [
+			"AnimationEditContext.gen.cpp.obj",
+			"AnimationEditMode.gen.cpp.obj",
+			"AnimationEditMode.init.gen.cpp.obj",
+			"AnimationEditMode.cpp.obj"
+		]
+	}
+}

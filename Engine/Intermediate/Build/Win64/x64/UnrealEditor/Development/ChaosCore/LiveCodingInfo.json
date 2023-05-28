@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChaosCore.cpp.obj": [
+			"ChaosCoreModule.cpp.obj",
+			"Rotation.cpp.obj",
+			"Transform.cpp.obj"
+		]
+	}
+}

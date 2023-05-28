@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataprepLibraries.cpp.obj": [
+			"DataprepBoolFetcherLibrary.gen.cpp.obj",
+			"DataprepEditingOperations.gen.cpp.obj",
+			"DataprepFilterLibrary.gen.cpp.obj",
+			"DataprepFloatFetcherLibrary.gen.cpp.obj",
+			"DataprepIntegerFetcherLibrary.gen.cpp.obj",
+			"DataprepLibraries.init.gen.cpp.obj",
+			"DataprepOperations.gen.cpp.obj",
+			"DataprepOperationsLibrary.gen.cpp.obj",
+			"DataprepSelectionTransforms.gen.cpp.obj",
+			"DataprepStringFetcherLibrary.gen.cpp.obj",
+			"DataprepStringsArrayFetcherLibrary.gen.cpp.obj",
+			"DataprepEditingOperations.cpp.obj",
+			"DataprepFilterLibrary.cpp.obj",
+			"DataprepLibrariesModule.cpp.obj",
+			"DataprepOperations.cpp.obj",
+			"DataprepOperationsLibrary.cpp.obj",
+			"DataprepOperationsLibraryUtil.cpp.obj",
+			"DataprepSelectionTransforms.cpp.obj",
+			"DataprepBoolFetcherLibrary.cpp.obj",
+			"DataprepFloatFetcherLibrary.cpp.obj",
+			"DataprepIntegerFetcherLibrary.cpp.obj",
+			"DataprepStringFetcherLibrary.cpp.obj",
+			"DataprepStringsArrayFetcherLibrary.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterStageMonitoring.cpp.obj": [
+			"DisplayClusterStageMonitoring.init.gen.cpp.obj",
+			"DisplayClusterStageMonitoringSettings.gen.cpp.obj",
+			"DWMSyncWatchdog.gen.cpp.obj",
+			"NvidiaSyncWatchdog.gen.cpp.obj",
+			"DisplayClusterStageMonitoringModule.cpp.obj",
+			"DisplayClusterStageMonitoringSettings.cpp.obj",
+			"DWMSyncWatchdog.cpp.obj",
+			"NvidiaSyncWatchdog.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlackmagicCore.cpp.obj": [
+			"BlackmagicCoreModule.cpp.obj",
+			"BlackmagicDevice.cpp.obj",
+			"BlackmagicDeviceScanner.cpp.obj",
+			"BlackmagicHelper.cpp.obj",
+			"BlackmagicInputChannel.cpp.obj",
+			"BlackmagicLib.cpp.obj",
+			"BlackmagicOutputChannel.cpp.obj",
+			"BlackmagicVideoFormats.cpp.obj",
+			"WinPlatform.cpp.obj",
+			"SSE2MemCpy.cpp.obj"
+		]
+	}
+}

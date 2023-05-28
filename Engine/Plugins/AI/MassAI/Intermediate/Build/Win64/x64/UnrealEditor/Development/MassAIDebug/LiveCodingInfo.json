@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassAIDebug.cpp.obj": [
+			"MassAIDebug.init.gen.cpp.obj",
+			"MassDebugStateTreeProcessor.gen.cpp.obj",
+			"GameplayDebuggerCategory_Mass.cpp.obj",
+			"MassAIDebugModule.cpp.obj",
+			"MassDebugStateTreeProcessor.cpp.obj"
+		]
+	}
+}

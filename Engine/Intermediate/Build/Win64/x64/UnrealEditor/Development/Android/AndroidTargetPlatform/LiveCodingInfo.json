@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidTargetPlatform.cpp.obj": [
+			"AndroidTargetPlatform.cpp.obj",
+			"AndroidTargetPlatformModule.cpp.obj"
+		]
+	}
+}

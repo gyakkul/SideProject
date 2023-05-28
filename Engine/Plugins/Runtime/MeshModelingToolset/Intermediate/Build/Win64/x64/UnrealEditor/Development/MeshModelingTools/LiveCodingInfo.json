@@ -1,0 +1,35 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshModelingTools.cpp.obj": [
+			"MeshModelingTools.init.gen.cpp.obj",
+			"PolyEditActivityContext.gen.cpp.obj",
+			"AddPrimitiveTool.cpp.obj",
+			"CombineMeshesTool.cpp.obj",
+			"DeleteGeometrySelectionCommand.cpp.obj",
+			"DisconnectGeometrySelectionCommand.cpp.obj",
+			"ModifyGeometrySelectionCommand.cpp.obj",
+			"RetriangulateGeometrySelectionCommand.cpp.obj",
+			"CSGMeshesTool.cpp.obj",
+			"CutMeshWithMeshTool.cpp.obj",
+			"DrawAndRevolveTool.cpp.obj",
+			"DrawPolygonTool.cpp.obj",
+			"EditMeshPolygonsTool.cpp.obj",
+			"MeshModelingTools.cpp.obj",
+			"MeshMaterialProperties.cpp.obj",
+			"MeshUVChannelProperties.cpp.obj",
+			"RevolveProperties.cpp.obj",
+			"RecomputeUVsTool.cpp.obj",
+			"PolyEditActivityUtil.cpp.obj",
+			"PolyEditBevelEdgeActivity.cpp.obj",
+			"PolyEditCutFacesActivity.cpp.obj",
+			"PolyEditExtrudeActivity.cpp.obj",
+			"PolyEditInsertEdgeActivity.cpp.obj",
+			"PolyEditInsertEdgeLoopActivity.cpp.obj",
+			"PolyEditInsetOutsetActivity.cpp.obj",
+			"PolyEditPlanarProjectionUVActivity.cpp.obj",
+			"UVLayoutTool.cpp.obj",
+			"UVProjectionTool.cpp.obj"
+		]
+	}
+}

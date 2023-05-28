@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioMotorSim.cpp.obj": [
+			"AudioMotorSim.init.gen.cpp.obj",
+			"AudioMotorSimTypes.gen.cpp.obj",
+			"AudioMotorModelComponent.cpp.obj",
+			"AudioMotorSimModule.cpp.obj",
+			"IAudioMotorSim.cpp.obj",
+			"IAudioMotorSimOutput.cpp.obj"
+		]
+	}
+}

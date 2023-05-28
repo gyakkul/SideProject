@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TraceAnalysis.cpp.obj": [
+			"Context.cpp.obj",
+			"Engine.cpp.obj",
+			"EventToCbor.cpp.obj",
+			"Processor.cpp.obj",
+			"StreamReader.cpp.obj",
+			"PacketTransport.cpp.obj",
+			"TidPacketTransport.cpp.obj",
+			"Asio.cpp.obj",
+			"ControlClient.cpp.obj",
+			"DataStream.cpp.obj",
+			"AsioContext.cpp.obj",
+			"AsioFile.cpp.obj",
+			"AsioIoable.cpp.obj",
+			"AsioRecorder.cpp.obj",
+			"AsioSocket.cpp.obj",
+			"AsioStore.cpp.obj",
+			"AsioStoreCborServer.cpp.obj",
+			"AsioTcpServer.cpp.obj",
+			"AsioTickable.cpp.obj",
+			"AsioTraceRelay.cpp.obj",
+			"StoreClient.cpp.obj",
+			"StoreService.cpp.obj",
+			"TraceAnalysisModule.cpp.obj"
+		]
+	}
+}

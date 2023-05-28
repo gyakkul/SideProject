@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameplayBehaviorsModule.cpp.obj": [
+			"GameplayBehaviorsModule.init.gen.cpp.obj",
+			"BTDecorator_GameplayTagQuery.cpp.obj",
+			"BTTask_StopGameplayBehavior.cpp.obj",
+			"GameplayBehaviorConfig_BehaviorTree.cpp.obj",
+			"GameplayBehavior_BehaviorTree.cpp.obj",
+			"BlackboardKeyType_GameplayTag.cpp.obj",
+			"GameplayBehavior.cpp.obj",
+			"GameplayBehaviorConfig.cpp.obj",
+			"GameplayBehaviorConfig_Animation.cpp.obj",
+			"GameplayBehaviorsBlueprintFunctionLibrary.cpp.obj",
+			"GameplayBehaviorsModule.cpp.obj",
+			"GameplayBehaviorSubsystem.cpp.obj",
+			"GameplayBehavior_AnimationBased.cpp.obj"
+		]
+	}
+}

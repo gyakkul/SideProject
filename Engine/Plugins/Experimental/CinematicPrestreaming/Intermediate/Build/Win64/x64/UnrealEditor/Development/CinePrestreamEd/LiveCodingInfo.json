@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CinePrestreamEd.cpp.obj": [
+			"CinematicPrestreamingEditor.init.gen.cpp.obj",
+			"CinePrestreamingDebugRender.gen.cpp.obj",
+			"CinePrestreamingEditorSubsystem.gen.cpp.obj",
+			"CinePrestreamingRecorderSetting.gen.cpp.obj",
+			"CinePrestreamingEditorModule.cpp.obj",
+			"CinePrestreamingEditorSubsystem.cpp.obj",
+			"CinePrestreamingRecorderSetting.cpp.obj",
+			"CinePrestreamingEditorStyle.cpp.obj",
+			"CinePrestreamingTrackEditor.cpp.obj"
+		]
+	}
+}

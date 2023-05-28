@@ -1,0 +1,22 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RivermaxCore.cpp.obj": [
+			"RivermaxCore.init.gen.cpp.obj",
+			"RivermaxSettings.gen.cpp.obj",
+			"RivermaxCoreModule.cpp.obj",
+			"RivermaxDeviceFinder.cpp.obj",
+			"RivermaxFormats.cpp.obj",
+			"RivermaxInputStream.cpp.obj",
+			"RivermaxLog.cpp.obj",
+			"RivermaxManager.cpp.obj",
+			"RivermaxOutputFrame.cpp.obj",
+			"RivermaxOutputStream.cpp.obj",
+			"RivermaxPTPUtils.cpp.obj",
+			"RivermaxSettings.cpp.obj",
+			"RivermaxUtils.cpp.obj",
+			"RTPHeader.cpp.obj",
+			"PTPTest.cpp.obj"
+		]
+	}
+}

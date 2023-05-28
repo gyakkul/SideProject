@@ -1,0 +1,425 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "ConvertToPolygonsTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEXP_ConvertToPolygonsTool_generated_h
+#error "ConvertToPolygonsTool.generated.h already included, missing '#pragma once' in ConvertToPolygonsTool.h"
+#endif
+#define MESHMODELINGTOOLSEXP_ConvertToPolygonsTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsToolBuilder(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_INCLASS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsToolBuilder(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsToolBuilder, USingleSelectionMeshEditingToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UConvertToPolygonsToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UConvertToPolygonsToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsToolBuilder(UConvertToPolygonsToolBuilder&&); \
+	NO_API UConvertToPolygonsToolBuilder(const UConvertToPolygonsToolBuilder&); \
+public: \
+	NO_API virtual ~UConvertToPolygonsToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UConvertToPolygonsToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsToolBuilder(UConvertToPolygonsToolBuilder&&); \
+	NO_API UConvertToPolygonsToolBuilder(const UConvertToPolygonsToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UConvertToPolygonsToolBuilder) \
+	NO_API virtual ~UConvertToPolygonsToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_22_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_25_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UConvertToPolygonsToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsToolProperties(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_INCLASS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsToolProperties(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UConvertToPolygonsToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UConvertToPolygonsToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsToolProperties(UConvertToPolygonsToolProperties&&); \
+	NO_API UConvertToPolygonsToolProperties(const UConvertToPolygonsToolProperties&); \
+public: \
+	NO_API virtual ~UConvertToPolygonsToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UConvertToPolygonsToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsToolProperties(UConvertToPolygonsToolProperties&&); \
+	NO_API UConvertToPolygonsToolProperties(const UConvertToPolygonsToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UConvertToPolygonsToolProperties) \
+	NO_API virtual ~UConvertToPolygonsToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_54_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_57_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UConvertToPolygonsToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetGroupOptionsList);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetGroupOptionsList);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUOutputPolygroupLayerProperties(); \
+	friend struct Z_Construct_UClass_UOutputPolygroupLayerProperties_Statics; \
+public: \
+	DECLARE_CLASS(UOutputPolygroupLayerProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UOutputPolygroupLayerProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_INCLASS \
+private: \
+	static void StaticRegisterNativesUOutputPolygroupLayerProperties(); \
+	friend struct Z_Construct_UClass_UOutputPolygroupLayerProperties_Statics; \
+public: \
+	DECLARE_CLASS(UOutputPolygroupLayerProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UOutputPolygroupLayerProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOutputPolygroupLayerProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOutputPolygroupLayerProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOutputPolygroupLayerProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOutputPolygroupLayerProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOutputPolygroupLayerProperties(UOutputPolygroupLayerProperties&&); \
+	NO_API UOutputPolygroupLayerProperties(const UOutputPolygroupLayerProperties&); \
+public: \
+	NO_API virtual ~UOutputPolygroupLayerProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UOutputPolygroupLayerProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UOutputPolygroupLayerProperties(UOutputPolygroupLayerProperties&&); \
+	NO_API UOutputPolygroupLayerProperties(const UOutputPolygroupLayerProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UOutputPolygroupLayerProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOutputPolygroupLayerProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOutputPolygroupLayerProperties) \
+	NO_API virtual ~UOutputPolygroupLayerProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_126_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_129_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UOutputPolygroupLayerProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsOperatorFactory(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_INCLASS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsOperatorFactory(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsOperatorFactory_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsOperatorFactory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsOperatorFactory)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UConvertToPolygonsOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UConvertToPolygonsOperatorFactory) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsOperatorFactory); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsOperatorFactory(UConvertToPolygonsOperatorFactory&&); \
+	NO_API UConvertToPolygonsOperatorFactory(const UConvertToPolygonsOperatorFactory&); \
+public: \
+	NO_API virtual ~UConvertToPolygonsOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UConvertToPolygonsOperatorFactory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsOperatorFactory(UConvertToPolygonsOperatorFactory&&); \
+	NO_API UConvertToPolygonsOperatorFactory(const UConvertToPolygonsOperatorFactory&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsOperatorFactory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsOperatorFactory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UConvertToPolygonsOperatorFactory) \
+	NO_API virtual ~UConvertToPolygonsOperatorFactory();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_156_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_159_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UConvertToPolygonsOperatorFactory>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsTool(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsTool_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsTool, USingleSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_INCLASS \
+private: \
+	static void StaticRegisterNativesUConvertToPolygonsTool(); \
+	friend struct Z_Construct_UClass_UConvertToPolygonsTool_Statics; \
+public: \
+	DECLARE_CLASS(UConvertToPolygonsTool, USingleSelectionMeshEditingTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsExp"), NO_API) \
+	DECLARE_SERIALIZER(UConvertToPolygonsTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UConvertToPolygonsTool(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UConvertToPolygonsTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsTool(UConvertToPolygonsTool&&); \
+	NO_API UConvertToPolygonsTool(const UConvertToPolygonsTool&); \
+public: \
+	NO_API virtual ~UConvertToPolygonsTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UConvertToPolygonsTool(UConvertToPolygonsTool&&); \
+	NO_API UConvertToPolygonsTool(const UConvertToPolygonsTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UConvertToPolygonsTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UConvertToPolygonsTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UConvertToPolygonsTool) \
+	NO_API virtual ~UConvertToPolygonsTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_172_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h_175_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEXP_API UClass* StaticClass<class UConvertToPolygonsTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsExp_Public_ConvertToPolygonsTool_h
+
+
+#define FOREACH_ENUM_ECONVERTTOPOLYGONSMODE(op) \
+	op(EConvertToPolygonsMode::FaceNormalDeviation) \
+	op(EConvertToPolygonsMode::FindPolygons) \
+	op(EConvertToPolygonsMode::FromUVIslands) \
+	op(EConvertToPolygonsMode::FromNormalSeams) \
+	op(EConvertToPolygonsMode::FromConnectedTris) \
+	op(EConvertToPolygonsMode::FromFurthestPointSampling) \
+	op(EConvertToPolygonsMode::CopyFromLayer) 
+
+enum class EConvertToPolygonsMode;
+template<> struct TIsUEnumClass<EConvertToPolygonsMode> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEXP_API UEnum* StaticEnum<EConvertToPolygonsMode>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

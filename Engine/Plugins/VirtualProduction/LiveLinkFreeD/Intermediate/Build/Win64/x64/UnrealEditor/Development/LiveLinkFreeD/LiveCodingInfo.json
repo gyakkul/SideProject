@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkFreeD.cpp.obj": [
+			"LiveLinkFreeD.init.gen.cpp.obj",
+			"LiveLinkFreeDConnectionSettings.gen.cpp.obj",
+			"LiveLinkFreeDSourceFactory.gen.cpp.obj",
+			"LiveLinkFreeDSourceSettings.gen.cpp.obj",
+			"LiveLinkFreeD.cpp.obj",
+			"LiveLinkFreeDSource.cpp.obj",
+			"LiveLinkFreeDSourceFactory.cpp.obj",
+			"SLiveLinkFreeDSourceFactory.cpp.obj"
+		]
+	}
+}

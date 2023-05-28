@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DirectLink.cpp.obj": [
+			"DirectLink.init.gen.cpp.obj",
+			"DirectLinkMessages.gen.cpp.obj",
+			"DirectLinkElementSnapshot.cpp.obj",
+			"DirectLinkEndpoint.cpp.obj",
+			"DirectLinkLog.cpp.obj",
+			"DirectLinkMisc.cpp.obj",
+			"DirectLinkModule.cpp.obj",
+			"DirectLinkParameterStore.cpp.obj",
+			"DirectLinkSceneGraphNode.cpp.obj",
+			"DirectLinkScenePipe.cpp.obj",
+			"DirectLinkSceneSnapshot.cpp.obj",
+			"DirectLinkStreamReceiver.cpp.obj",
+			"DirectLinkStreamSender.cpp.obj",
+			"DirectLinkStreamSource.cpp.obj"
+		]
+	}
+}

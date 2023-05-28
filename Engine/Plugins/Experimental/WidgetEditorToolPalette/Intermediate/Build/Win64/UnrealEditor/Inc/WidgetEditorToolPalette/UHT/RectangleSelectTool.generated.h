@@ -1,0 +1,252 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "DefaultTools/RectangleSelectTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef WIDGETEDITORTOOLPALETTE_RectangleSelectTool_generated_h
+#error "RectangleSelectTool.generated.h already included, missing '#pragma once' in RectangleSelectTool.h"
+#endif
+#define WIDGETEDITORTOOLPALETTE_RectangleSelectTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_ACCESSORS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURectangleSelectToolBuilder(); \
+	friend struct Z_Construct_UClass_URectangleSelectToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(URectangleSelectToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(URectangleSelectToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesURectangleSelectToolBuilder(); \
+	friend struct Z_Construct_UClass_URectangleSelectToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(URectangleSelectToolBuilder, UInteractiveToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(URectangleSelectToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URectangleSelectToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URectangleSelectToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URectangleSelectToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URectangleSelectToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URectangleSelectToolBuilder(URectangleSelectToolBuilder&&); \
+	NO_API URectangleSelectToolBuilder(const URectangleSelectToolBuilder&); \
+public: \
+	NO_API virtual ~URectangleSelectToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URectangleSelectToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URectangleSelectToolBuilder(URectangleSelectToolBuilder&&); \
+	NO_API URectangleSelectToolBuilder(const URectangleSelectToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URectangleSelectToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URectangleSelectToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URectangleSelectToolBuilder) \
+	NO_API virtual ~URectangleSelectToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_16_PROLOG
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_INCLASS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> WIDGETEDITORTOOLPALETTE_API UClass* StaticClass<class URectangleSelectToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_ACCESSORS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURectangleSelectProperties(); \
+	friend struct Z_Construct_UClass_URectangleSelectProperties_Statics; \
+public: \
+	DECLARE_CLASS(URectangleSelectProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(URectangleSelectProperties)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesURectangleSelectProperties(); \
+	friend struct Z_Construct_UClass_URectangleSelectProperties_Statics; \
+public: \
+	DECLARE_CLASS(URectangleSelectProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(URectangleSelectProperties)
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URectangleSelectProperties(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URectangleSelectProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URectangleSelectProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URectangleSelectProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URectangleSelectProperties(URectangleSelectProperties&&); \
+	NO_API URectangleSelectProperties(const URectangleSelectProperties&); \
+public: \
+	NO_API virtual ~URectangleSelectProperties();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URectangleSelectProperties(URectangleSelectProperties&&); \
+	NO_API URectangleSelectProperties(const URectangleSelectProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URectangleSelectProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URectangleSelectProperties); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(URectangleSelectProperties) \
+	NO_API virtual ~URectangleSelectProperties();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_31_PROLOG
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_INCLASS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> WIDGETEDITORTOOLPALETTE_API UClass* StaticClass<class URectangleSelectProperties>();
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_ACCESSORS
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesURectangleSelectTool(); \
+	friend struct Z_Construct_UClass_URectangleSelectTool_Statics; \
+public: \
+	DECLARE_CLASS(URectangleSelectTool, UInteractiveTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(URectangleSelectTool) \
+	virtual UObject* _getUObject() const override { return const_cast<URectangleSelectTool*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_INCLASS \
+private: \
+	static void StaticRegisterNativesURectangleSelectTool(); \
+	friend struct Z_Construct_UClass_URectangleSelectTool_Statics; \
+public: \
+	DECLARE_CLASS(URectangleSelectTool, UInteractiveTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/WidgetEditorToolPalette"), NO_API) \
+	DECLARE_SERIALIZER(URectangleSelectTool) \
+	virtual UObject* _getUObject() const override { return const_cast<URectangleSelectTool*>(this); }
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URectangleSelectTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URectangleSelectTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URectangleSelectTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URectangleSelectTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URectangleSelectTool(URectangleSelectTool&&); \
+	NO_API URectangleSelectTool(const URectangleSelectTool&); \
+public: \
+	NO_API virtual ~URectangleSelectTool();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API URectangleSelectTool(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API URectangleSelectTool(URectangleSelectTool&&); \
+	NO_API URectangleSelectTool(const URectangleSelectTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URectangleSelectTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URectangleSelectTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(URectangleSelectTool) \
+	NO_API virtual ~URectangleSelectTool();
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_49_PROLOG
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_INCLASS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_ACCESSORS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h_52_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> WIDGETEDITORTOOLPALETTE_API UClass* StaticClass<class URectangleSelectTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_WidgetEditorToolPalette_Source_WidgetEditorToolPalette_Public_DefaultTools_RectangleSelectTool_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

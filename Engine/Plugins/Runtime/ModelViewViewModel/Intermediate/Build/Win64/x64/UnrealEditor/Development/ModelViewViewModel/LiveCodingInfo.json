@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ModelViewViewModel.cpp.obj": [
+			"ModelViewViewModel.init.gen.cpp.obj",
+			"MVVMAvailableBinding.gen.cpp.obj",
+			"MVVMBindingName.gen.cpp.obj",
+			"MVVMEventField.gen.cpp.obj",
+			"MVVMExecutionMode.gen.cpp.obj",
+			"MVVMViewModelContextInstance.gen.cpp.obj",
+			"MVVMBindingHelper.cpp.obj",
+			"MVVMCompiledBindingLibrary.cpp.obj",
+			"MVVMFieldPathHelper.cpp.obj",
+			"MVVMDebugging.cpp.obj",
+			"ModelViewViewModelModule.cpp.obj",
+			"MVVMMessageLog.cpp.obj",
+			"MVVMSubsystem.cpp.obj",
+			"MVVMViewModelBase.cpp.obj",
+			"MVVMBindingMode.cpp.obj",
+			"MVVMViewModelCollection.cpp.obj",
+			"MVVMViewModelContext.cpp.obj",
+			"MVVMFieldNotificationDelegates.cpp.obj",
+			"MVVMViewModelBlueprintGeneratedClass.cpp.obj",
+			"MVVMView.cpp.obj",
+			"MVVMViewClass.cpp.obj",
+			"MVVMViewWorldSubsystem.cpp.obj"
+		]
+	}
+}

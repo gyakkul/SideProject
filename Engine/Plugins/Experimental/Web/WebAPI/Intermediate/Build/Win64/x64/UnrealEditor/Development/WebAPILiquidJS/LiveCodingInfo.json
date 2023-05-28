@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WebAPILiquidJS.cpp.obj": [
+			"WebAPILiquidJS.init.gen.cpp.obj",
+			"WebAPILiquidJSCodeGenerator.gen.cpp.obj",
+			"WebAPILiquidJSSettings.gen.cpp.obj",
+			"WebAPILiquidJSCodeGenerator.cpp.obj",
+			"WebAPILiquidJSLog.cpp.obj",
+			"WebAPILiquidJSModule.cpp.obj",
+			"WebAPILiquidJSProcess.cpp.obj",
+			"WebAPILiquidJSSettings.cpp.obj",
+			"WebAPILiquidJSStats.cpp.obj"
+		]
+	}
+}

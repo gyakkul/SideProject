@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Lobby.cpp.obj": [
+			"Lobby.init.gen.cpp.obj",
+			"LobbyBeaconClient.cpp.obj",
+			"LobbyBeaconHost.cpp.obj",
+			"LobbyBeaconPlayerState.cpp.obj",
+			"LobbyBeaconState.cpp.obj",
+			"LobbyModule.cpp.obj"
+		]
+	}
+}

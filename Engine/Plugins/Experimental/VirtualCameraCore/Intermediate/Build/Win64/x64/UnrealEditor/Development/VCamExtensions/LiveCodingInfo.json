@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VCamExtensions.cpp.obj": [
+			"BaseModifierGroup.gen.cpp.obj",
+			"ButtonWidgetStyleData.gen.cpp.obj",
+			"ClassBasedWidgetStyleDefinitions.gen.cpp.obj",
+			"ModifierBoundWidgetStyleDefinitions.gen.cpp.obj",
+			"ModifierBoundWidgetStylesAsset.gen.cpp.obj",
+			"ModifierHierarchyAsset.gen.cpp.obj",
+			"ModifierHierarchyRules.gen.cpp.obj",
+			"TargetBasedWidgetStyleDefinitions.gen.cpp.obj",
+			"TargetModifierPerNodeHierarchyRules.gen.cpp.obj",
+			"VCamExtensions.init.gen.cpp.obj",
+			"WidgetStyleData.gen.cpp.obj",
+			"WidgetStyleDataArray.gen.cpp.obj",
+			"BaseModifierGroup.cpp.obj",
+			"ModifierHierarchyAsset.cpp.obj",
+			"ModifierHierarchyRules.cpp.obj",
+			"TargetModifierPerNodeHierarchyRules.cpp.obj",
+			"ClassBasedWidgetStyleDefinitions.cpp.obj",
+			"ModifierBoundWidgetStyleDefinitions.cpp.obj",
+			"ModifierBoundWidgetStylesAsset.cpp.obj",
+			"TargetBasedWidgetStyleDefinitions.cpp.obj",
+			"VCamExtensions.cpp.obj",
+			"VCamExtensionsLog.cpp.obj"
+		]
+	}
+}

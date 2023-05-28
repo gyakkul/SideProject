@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterMessageInterception.cpp.obj": [
+			"DisplayClusterMessageInterception.init.gen.cpp.obj",
+			"DisplayClusterMessageInterceptionSettings.gen.cpp.obj",
+			"DisplayClusterMessageInterceptionModule.cpp.obj",
+			"DisplayClusterMessageInterceptor.cpp.obj"
+		]
+	}
+}

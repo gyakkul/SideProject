@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ARUtilities.cpp.obj": [
+			"ARLiveLinkRetargetAsset.gen.cpp.obj",
+			"ARPassthroughManager.gen.cpp.obj",
+			"ARUtilities.init.gen.cpp.obj",
+			"ARUtilitiesFunctionLibrary.gen.cpp.obj",
+			"PassthroughMaterialUpdateComponent.gen.cpp.obj",
+			"ARLiveLinkRetargetAsset.cpp.obj",
+			"ARPassthroughManager.cpp.obj",
+			"ARUtilities.cpp.obj",
+			"ARUtilitiesFunctionLibrary.cpp.obj",
+			"PassthroughMaterialUpdateComponent.cpp.obj"
+		]
+	}
+}

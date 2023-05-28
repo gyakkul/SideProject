@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnalyticsET.cpp.obj": [
+			"AnalyticsET.cpp.obj",
+			"AnalyticsPerfTracker.cpp.obj",
+			"AnalyticsProviderETEventCache.cpp.obj",
+			"AnalyticsSessionSummaryManager.cpp.obj",
+			"AnalyticsSessionSummarySender.cpp.obj",
+			"IAnalyticsProviderET.cpp.obj",
+			"AnalyticsSessionSummaryManagerTests.cpp.obj"
+		]
+	}
+}

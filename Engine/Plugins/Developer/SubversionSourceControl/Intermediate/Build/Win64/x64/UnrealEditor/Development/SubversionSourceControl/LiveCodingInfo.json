@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SubversionSourceControl.cpp.obj": [
+			"SSubversionSourceControlSettings.cpp.obj",
+			"SubversionSourceControlCommand.cpp.obj",
+			"SubversionSourceControlLabel.cpp.obj",
+			"SubversionSourceControlModule.cpp.obj",
+			"SubversionSourceControlOperations.cpp.obj",
+			"SubversionSourceControlProvider.cpp.obj",
+			"SubversionSourceControlRevision.cpp.obj",
+			"SubversionSourceControlSettings.cpp.obj",
+			"SubversionSourceControlState.cpp.obj",
+			"SubversionSourceControlUtils.cpp.obj"
+		]
+	}
+}

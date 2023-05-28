@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GoogleARCoreServices.cpp.obj": [
+			"GoogleARCoreServices.init.gen.cpp.obj",
+			"GoogleARCoreServicesEditorSettings.gen.cpp.obj",
+			"GoogleARCoreServicesFunctionLibrary.gen.cpp.obj",
+			"GoogleARCoreServicesTypes.gen.cpp.obj",
+			"GoogleARCoreCloudARPinManager.cpp.obj",
+			"GoogleARCoreServicesFunctionLibrary.cpp.obj",
+			"GoogleARCoreServicesManager.cpp.obj",
+			"GoogleARCoreServicesModule.cpp.obj",
+			"GoogleARCoreServicesTypes.cpp.obj"
+		]
+	}
+}

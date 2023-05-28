@@ -1,0 +1,51 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LevelEditor.1_of_3.cpp.obj": [
+			"LevelEditor.init.gen.cpp.obj",
+			"LevelEditorMenuContext.gen.cpp.obj",
+			"LevelEditorSubsystem.gen.cpp.obj",
+			"LightEditorSubsystem.gen.cpp.obj",
+			"SLevelEditorToolBox.gen.cpp.obj",
+			"DlgDeltaTransform.cpp.obj",
+			"ActorElementLevelEditorCommonActionsCustomization.cpp.obj",
+			"ActorElementLevelEditorSelectionCustomization.cpp.obj",
+			"ActorElementLevelEditorViewportInteractionCustomization.cpp.obj",
+			"ComponentElementLevelEditorCommonActionsCustomization.cpp.obj",
+			"ComponentElementLevelEditorSelectionCustomization.cpp.obj",
+			"ComponentElementLevelEditorViewportInteractionCustomization.cpp.obj",
+			"SMInstanceElementLevelEditorSelectionCustomization.cpp.obj",
+			"HighResScreenshotUI.cpp.obj",
+			"LevelEditor.cpp.obj",
+			"LevelEditorActions.cpp.obj"
+		],
+		"Module.LevelEditor.2_of_3.cpp.obj": [
+			"LevelEditorContextMenu.cpp.obj",
+			"LevelEditorCreateActorMenu.cpp.obj",
+			"LevelEditorGenericDetails.cpp.obj",
+			"LevelEditorMenu.cpp.obj",
+			"LevelEditorMenuContext.cpp.obj",
+			"LevelEditorModesActions.cpp.obj",
+			"LevelEditorOutlinerSettings.cpp.obj",
+			"LevelEditorSubsystem.cpp.obj",
+			"LevelEditorToolBar.cpp.obj",
+			"LevelViewportActions.cpp.obj",
+			"LevelViewportLayout.cpp.obj",
+			"LevelViewportLayoutEntity.cpp.obj",
+			"LevelViewportTabContent.cpp.obj",
+			"LightEditorSubsystem.cpp.obj",
+			"LightmapResRatioAdjust.cpp.obj",
+			"SActorDetails.cpp.obj",
+			"SCaptureRegionWidget.cpp.obj",
+			"SInViewportDetails.cpp.obj",
+			"SLevelEditor.cpp.obj"
+		],
+		"Module.LevelEditor.3_of_3.cpp.obj": [
+			"SLevelEditorBuildAndSubmit.cpp.obj",
+			"SLevelEditorToolBox.cpp.obj",
+			"SLevelViewport.cpp.obj",
+			"SLevelViewportToolBar.cpp.obj",
+			"SSurfaceProperties.cpp.obj"
+		]
+	}
+}

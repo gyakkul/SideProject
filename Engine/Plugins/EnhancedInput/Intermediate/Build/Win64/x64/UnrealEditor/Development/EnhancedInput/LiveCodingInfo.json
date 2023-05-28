@@ -1,0 +1,31 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EnhancedInput.cpp.obj": [
+			"EnhancedInput.init.gen.cpp.obj",
+			"InputActionValue.gen.cpp.obj",
+			"InputMappingQuery.gen.cpp.obj",
+			"PlayerMappableKeySlot.gen.cpp.obj",
+			"EnhancedActionKeyMapping.cpp.obj",
+			"EnhancedInputActionDelegateBinding.cpp.obj",
+			"EnhancedInputComponent.cpp.obj",
+			"EnhancedInputDeveloperSettings.cpp.obj",
+			"EnhancedInputLibrary.cpp.obj",
+			"EnhancedInputModule.cpp.obj",
+			"EnhancedInputPlatformSettings.cpp.obj",
+			"EnhancedInputSubsystemInterface.cpp.obj",
+			"EnhancedInputSubsystemInterfaceDebug.cpp.obj",
+			"EnhancedInputSubsystems.cpp.obj",
+			"EnhancedInputWorldProcessor.cpp.obj",
+			"EnhancedPlayerInput.cpp.obj",
+			"InputAction.cpp.obj",
+			"InputDebugKeyDelegateBinding.cpp.obj",
+			"InputMappingContext.cpp.obj",
+			"InputModifiers.cpp.obj",
+			"InputTriggers.cpp.obj",
+			"PlayerMappableInputConfig.cpp.obj",
+			"PlayerMappableKeySettings.cpp.obj",
+			"PlayerMappableKeySlot.cpp.obj"
+		]
+	}
+}

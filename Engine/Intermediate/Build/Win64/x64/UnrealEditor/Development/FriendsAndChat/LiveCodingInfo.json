@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FriendsAndChat.cpp.obj": [
+			"FriendsAndChat.init.gen.cpp.obj",
+			"FriendsAndChatStyle.gen.cpp.obj",
+			"FriendsChatChromeStyle.gen.cpp.obj",
+			"FriendsChatStyle.gen.cpp.obj",
+			"FriendsComboStyle.gen.cpp.obj",
+			"FriendsFontStyle.gen.cpp.obj",
+			"FriendsListStyle.gen.cpp.obj",
+			"FriendsMarkupStyle.gen.cpp.obj",
+			"FriendsAndChatModule.cpp.obj",
+			"FriendsAndChatStyle.cpp.obj",
+			"FriendsChatChromeStyle.cpp.obj",
+			"FriendsChatStyle.cpp.obj",
+			"FriendsComboStyle.cpp.obj",
+			"FriendsFontStyle.cpp.obj",
+			"FriendsListStyle.cpp.obj",
+			"FriendsMarkupStyle.cpp.obj"
+		]
+	}
+}

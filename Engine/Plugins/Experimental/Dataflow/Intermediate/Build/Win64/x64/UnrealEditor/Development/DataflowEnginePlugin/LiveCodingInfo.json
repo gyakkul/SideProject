@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DataflowEnginePlugin.cpp.obj": [
+			"DataflowEnginePlugin.init.gen.cpp.obj",
+			"DataflowActor.cpp.obj",
+			"DataflowComponent.cpp.obj",
+			"DataflowComponentSelectionState.cpp.obj",
+			"DataflowEnginePlugin.cpp.obj",
+			"DataflowEngineRendering.cpp.obj",
+			"DataflowEngineSceneHitProxies.cpp.obj",
+			"DataflowEngineSceneProxy.cpp.obj"
+		]
+	}
+}

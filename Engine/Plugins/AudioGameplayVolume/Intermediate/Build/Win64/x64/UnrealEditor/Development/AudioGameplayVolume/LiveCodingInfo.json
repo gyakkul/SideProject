@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioGameplayVolume.cpp.obj": [
+			"AudioGameplayVolume.init.gen.cpp.obj",
+			"AttenuationVolumeComponent.cpp.obj",
+			"AudioGameplayVolume.cpp.obj",
+			"AudioGameplayVolumeComponent.cpp.obj",
+			"AudioGameplayVolumeListener.cpp.obj",
+			"AudioGameplayVolumeModule.cpp.obj",
+			"AudioGameplayVolumeMutator.cpp.obj",
+			"AudioGameplayVolumeProxy.cpp.obj",
+			"AudioGameplayVolumeSubsystem.cpp.obj",
+			"FilterVolumeComponent.cpp.obj",
+			"ReverbVolumeComponent.cpp.obj",
+			"SubmixOverrideVolumeComponent.cpp.obj",
+			"SubmixSendVolumeComponent.cpp.obj"
+		]
+	}
+}

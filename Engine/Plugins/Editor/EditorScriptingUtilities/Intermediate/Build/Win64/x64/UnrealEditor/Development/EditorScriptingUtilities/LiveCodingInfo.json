@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorScriptingUtilities.cpp.obj": [
+			"EditorScriptingUtilities.init.gen.cpp.obj",
+			"EditorAssetLibrary.cpp.obj",
+			"EditorDialogLibrary.cpp.obj",
+			"EditorFilterLibrary.cpp.obj",
+			"EditorLevelLibrary.cpp.obj",
+			"EditorPythonExecuter.cpp.obj",
+			"EditorPythonScriptingLibrary.cpp.obj",
+			"EditorScriptingUtilitiesModule.cpp.obj",
+			"EditorScriptingUtils.cpp.obj",
+			"EditorSkeletalMeshLibrary.cpp.obj",
+			"EditorStaticMeshLibrary.cpp.obj"
+		]
+	}
+}

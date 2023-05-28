@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConcertSyncTest.cpp.obj": [
+			"ConcertDataStoreTests.gen.cpp.obj",
+			"ConcertSyncTest.init.gen.cpp.obj",
+			"ConcertDatabaseTests.cpp.obj",
+			"ConcertDataStoreTests.cpp.obj",
+			"ConcertSyncTestModule.cpp.obj",
+			"DependencyGraphBuilderTests.cpp.obj",
+			"DependencyGraphTests.cpp.obj",
+			"HistoryBottomUpAnalysisTests.cpp.obj",
+			"HistoryTopDownAnalysisTests.cpp.obj",
+			"RenameEditAndDeleteMapsFlow.cpp.obj"
+		]
+	}
+}

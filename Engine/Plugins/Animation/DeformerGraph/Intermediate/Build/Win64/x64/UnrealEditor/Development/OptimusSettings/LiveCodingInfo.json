@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OptimusSettings.cpp.obj": [
+			"OptimusSettings.gen.cpp.obj",
+			"OptimusSettings.init.gen.cpp.obj",
+			"OptimusSettingsModule.cpp.obj"
+		]
+	}
+}

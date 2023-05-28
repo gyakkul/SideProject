@@ -1,0 +1,31 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\applevisionblueprintsupport\\module.applevisionblueprintsupport.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\applevisionblueprintsupport\\definitions.applevisionblueprintsupport.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\intermediate\\build\\win64\\unrealeditor\\inc\\applevisionblueprintsupport\\uht\\applevisionblueprintsupport.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\source\\applevisionblueprintsupport\\classes\\applevisionblueprintsupport.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\blueprintgraph\\classes\\k2node_baseasynctask.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\blueprintgraph\\classes\\k2node.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\blueprintgraph\\public\\blueprintactionfilter.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\blueprintgraph\\public\\blueprintgraphmodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\blueprintgraph\\classes\\blueprintnodebinder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\weakfieldptr.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\blueprintgraph\\public\\blueprintnodesignature.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintgraph\\uht\\k2node_baseasynctask.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\intermediate\\build\\win64\\unrealeditor\\inc\\applevisionblueprintsupport\\uht\\applevisionblueprintsupport.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\intermediate\\build\\win64\\unrealeditor\\inc\\applevisionblueprintsupport\\uht\\applevisionblueprintsupport.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\source\\applevisionblueprintsupport\\private\\applevisionblueprintsupport.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\source\\applevision\\public\\applevisionblueprintproxy.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\source\\applevision\\public\\applevisiontypes.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\intermediate\\build\\win64\\unrealeditor\\inc\\applevision\\uht\\applevisiontypes.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\applevision\\intermediate\\build\\win64\\unrealeditor\\inc\\applevision\\uht\\applevisionblueprintproxy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXFixtureActorInterface.cpp.obj": [
+			"DMXFixtureActorInterface.init.gen.cpp.obj",
+			"DMXMVRFixtureActorInterface.gen.cpp.obj",
+			"DMXFixtureActorInterfaceModule.cpp.obj"
+		]
+	}
+}

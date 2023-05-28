@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TreeMap.cpp.obj": [
+			"STreeMap.cpp.obj",
+			"TreeMap.cpp.obj",
+			"TreeMapModule.cpp.obj",
+			"TreeMapStyle.cpp.obj"
+		]
+	}
+}

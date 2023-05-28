@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CodeView.cpp.obj": [
+			"CodeViewPlugin.cpp.obj",
+			"SCodeView.cpp.obj"
+		]
+	}
+}

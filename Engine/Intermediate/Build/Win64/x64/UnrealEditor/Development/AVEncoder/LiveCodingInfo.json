@@ -1,0 +1,37 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AVEncoder.cpp.obj": [
+			"AudioEncoder.cpp.obj",
+			"AudioEncoderFactory.cpp.obj",
+			"AVEncoder.cpp.obj",
+			"CodecPacket.cpp.obj",
+			"M4BitstreamParser.cpp.obj",
+			"M4Decoder.cpp.obj",
+			"M4Image.cpp.obj",
+			"M4MemOps_Generic.cpp.obj",
+			"M4MotionVectorMgr.cpp.obj",
+			"M4Prediction.cpp.obj",
+			"M4Vid.cpp.obj",
+			"M4VlcDecoder.cpp.obj",
+			"M4XCmdSingleThread.cpp.obj",
+			"VideoDecoder.cpp.obj",
+			"VideoDecoderH264_Dummy.cpp.obj",
+			"VideoDecoderH264_Impl.cpp.obj",
+			"VideoDecoderMpeg4.cpp.obj",
+			"VideoDecoderVP8.cpp.obj",
+			"VideoDecoderH264_Windows.cpp.obj",
+			"VideoEncoderH264_Dummy.cpp.obj",
+			"WmfAudioEncoder.cpp.obj",
+			"IMFSampleWrapper.cpp.obj",
+			"MicrosoftCommon.cpp.obj",
+			"VideoCommon.cpp.obj",
+			"VideoDecoderFactory.cpp.obj",
+			"VideoDecoderInput.cpp.obj",
+			"VideoEncoder.cpp.obj",
+			"VideoEncoderFactory.cpp.obj",
+			"VideoEncoderInput.cpp.obj",
+			"VideoEncoderModule.cpp.obj"
+		]
+	}
+}

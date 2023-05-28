@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|arm64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|arm64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|arm64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|arm64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|arm64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E6197E4-5681-3E17-A88C-806160107C65}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>ReplicationSystemTest</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <MinimumVisualStudioVersion>16.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>..\Build\Unused\</OutDir>
+    <IntDir>..\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>..\Build\Unused\</OutDir>
+    <IntDir>..\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\ReplicationSystemTest-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\ReplicationSystemTest-HoloLens-Debugx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\ReplicationSystemTest-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\ReplicationSystemTest-HoloLens-DebugGamex64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\ReplicationSystemTest.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\ReplicationSystemTestx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\ReplicationSystemTest-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\ReplicationSystemTest-HoloLens-Testx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\ReplicationSystemTest-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>..\..\Build\BatchFiles\Build.bat ReplicationSystemTest HoloLens Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>..\..\Build\BatchFiles\Rebuild.bat ReplicationSystemTest HoloLens Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>..\..\Build\BatchFiles\Clean.bat ReplicationSystemTest HoloLens Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\ReplicationSystemTest-HoloLens-Shippingx64.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);..\..\Source;..\..\Source\Runtime\Launch\Private;..\..\Source\Programs\ReplicationSystemTest\Private;..\Build\Win64\ReplicationSystemTest\Inc\ApplicationCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ApplicationCore\VNI;..\..\Source\Runtime\ApplicationCore\Public;..\..\Source\Runtime;..\Build\Win64\ReplicationSystemTest\Inc\Core\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Core\VNI;..\..\Source\Runtime\TraceLog\Public;..\..\Source\Runtime\Core\Public;..\Build\Win64\ReplicationSystemTest\Inc\TraceLog\UHT;..\Build\Win64\ReplicationSystemTest\Inc\TraceLog\VNI;..\Build\Win64\ReplicationSystemTest\Inc\RHI\UHT;..\Build\Win64\ReplicationSystemTest\Inc\RHI\VNI;..\..\Source\Runtime\RHI\Public;..\Build\Win64\ReplicationSystemTest\Inc\AutomationController\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AutomationController\VNI;..\..\Source\Developer\AutomationController\Public;..\..\Source\Developer;..\Build\Win64\ReplicationSystemTest\Inc\CoreUObject\UHT;..\Build\Win64\ReplicationSystemTest\Inc\CoreUObject\VNI;..\..\Source\Runtime\CoreUObject\Public;..\Build\Win64\ReplicationSystemTest\Inc\AutomationTest\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AutomationTest\VNI;..\..\Source\Runtime\AutomationTest\Public;..\Build\Win64\ReplicationSystemTest\Inc\AutomationWorker\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AutomationWorker\VNI;..\..\Source\Runtime\AutomationWorker\Public;..\Build\Win64\ReplicationSystemTest\Inc\Projects\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Projects\VNI;..\..\Source\Runtime\Projects\Public;..\Build\Win64\ReplicationSystemTest\Inc\Json\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Json\VNI;..\..\Source\Runtime\Json\Public;..\Build\Win64\ReplicationSystemTest\Inc\Engine\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Engine\VNI;..\..\Shaders\Shared;..\..\Source\Runtime\Engine\Classes;..\..\Source\Runtime\Engine\Public;..\Build\Win64\ReplicationSystemTest\Inc\CoreOnline\UHT;..\Build\Win64\ReplicationSystemTest\Inc\CoreOnline\VNI;..\..\Source\Runtime\CoreOnline\Public;..\Build\Win64\ReplicationSystemTest\Inc\NetCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\NetCore\VNI;..\..\Source\Runtime\Net\Core\Classes;..\..\Source\Runtime\Net\Core\Public;..\..\Source\Runtime\Net;..\Build\Win64\ReplicationSystemTest\Inc\NetCommon\UHT;..\Build\Win64\ReplicationSystemTest\Inc\NetCommon\VNI;..\..\Source\Runtime\Net\Common\Public;..\Build\Win64\ReplicationSystemTest\Inc\ImageCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ImageCore\VNI;..\..\Source\Runtime\ImageCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\JsonUtilities\UHT;..\Build\Win64\ReplicationSystemTest\Inc\JsonUtilities\VNI;..\..\Source\Runtime\JsonUtilities\Public;..\Build\Win64\ReplicationSystemTest\Inc\SlateCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\SlateCore\VNI;..\..\Source\Runtime\SlateCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\InputCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\InputCore\VNI;..\..\Source\Runtime\InputCore\Classes;..\..\Source\Runtime\InputCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\Slate\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Slate\VNI;..\..\Source\Runtime\Slate\Public;..\Build\Win64\ReplicationSystemTest\Inc\ImageWrapper\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ImageWrapper\VNI;..\..\Source\Runtime\ImageWrapper\Public;..\..\Source\ThirdParty;..\Build\Win64\ReplicationSystemTest\Inc\Messaging\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Messaging\VNI;..\..\Source\Runtime\Messaging\Public;..\Build\Win64\ReplicationSystemTest\Inc\MessagingCommon\UHT;..\Build\Win64\ReplicationSystemTest\Inc\MessagingCommon\VNI;..\..\Source\Runtime\MessagingCommon\Public;..\Build\Win64\ReplicationSystemTest\Inc\RenderCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\RenderCore\VNI;..\..\Source\Runtime\RenderCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\AnalyticsET\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AnalyticsET\VNI;..\..\Source\Runtime\Analytics\AnalyticsET\Public;..\..\Source\Runtime\Analytics;..\Build\Win64\ReplicationSystemTest\Inc\Analytics\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Analytics\VNI;..\..\Source\Runtime\Analytics\Analytics\Public;..\Build\Win64\ReplicationSystemTest\Inc\Sockets\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Sockets\VNI;..\..\Source\Runtime\Sockets\Public;..\Build\Win64\ReplicationSystemTest\Inc\AssetRegistry\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AssetRegistry\VNI;..\..\Source\Runtime\AssetRegistry\Public;..\Build\Win64\ReplicationSystemTest\Inc\EngineMessages\UHT;..\Build\Win64\ReplicationSystemTest\Inc\EngineMessages\VNI;..\..\Source\Runtime\EngineMessages\Public;..\Build\Win64\ReplicationSystemTest\Inc\EngineSettings\UHT;..\Build\Win64\ReplicationSystemTest\Inc\EngineSettings\VNI;..\..\Source\Runtime\EngineSettings\Classes;..\..\Source\Runtime\EngineSettings\Public;..\Build\Win64\ReplicationSystemTest\Inc\SynthBenchmark\UHT;..\Build\Win64\ReplicationSystemTest\Inc\SynthBenchmark\VNI;..\..\Source\Runtime\SynthBenchmark\Public;..\Build\Win64\ReplicationSystemTest\Inc\Renderer\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Renderer\VNI;..\..\Source\Runtime\Renderer\Public;..\Build\Win64\ReplicationSystemTest\Inc\GameplayTags\UHT;..\Build\Win64\ReplicationSystemTest\Inc\GameplayTags\VNI;..\..\Source\Runtime\GameplayTags\Classes;..\..\Source\Runtime\GameplayTags\Public;..\Build\Win64\ReplicationSystemTest\Inc\DeveloperSettings\UHT;..\Build\Win64\ReplicationSystemTest\Inc\DeveloperSettings\VNI;..\..\Source\Runtime\DeveloperSettings\Public;..\Build\Win64\ReplicationSystemTest\Inc\PacketHandler\UHT;..\Build\Win64\ReplicationSystemTest\Inc\PacketHandler\VNI;..\..\Source\Runtime\PacketHandlers\PacketHandler\Classes;..\..\Source\Runtime\PacketHandlers\PacketHandler\Public;..\..\Source\Runtime\PacketHandlers;..\Build\Win64\ReplicationSystemTest\Inc\ReliableHComp\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ReliableHComp\VNI;..\..\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;..\Build\Win64\ReplicationSystemTest\Inc\AudioPlatformConfiguration\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AudioPlatformConfiguration\VNI;..\..\Source\Runtime\AudioPlatformConfiguration\Public;..\Build\Win64\ReplicationSystemTest\Inc\MeshDescription\UHT;..\Build\Win64\ReplicationSystemTest\Inc\MeshDescription\VNI;..\..\Source\Runtime\MeshDescription\Public;..\Build\Win64\ReplicationSystemTest\Inc\StaticMeshDescription\UHT;..\Build\Win64\ReplicationSystemTest\Inc\StaticMeshDescription\VNI;..\..\Source\Runtime\StaticMeshDescription\Public;..\Build\Win64\ReplicationSystemTest\Inc\SkeletalMeshDescription\UHT;..\Build\Win64\ReplicationSystemTest\Inc\SkeletalMeshDescription\VNI;..\..\Source\Runtime\SkeletalMeshDescription\Public;..\Build\Win64\ReplicationSystemTest\Inc\AnimationCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AnimationCore\VNI;..\..\Source\Runtime\AnimationCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\PakFile\UHT;..\Build\Win64\ReplicationSystemTest\Inc\PakFile\VNI;..\..\Source\Runtime\PakFile\Public;..\Build\Win64\ReplicationSystemTest\Inc\RSA\UHT;..\Build\Win64\ReplicationSystemTest\Inc\RSA\VNI;..\..\Source\Runtime\RSA\Public;..\Build\Win64\ReplicationSystemTest\Inc\NetworkReplayStreaming\UHT;..\Build\Win64\ReplicationSystemTest\Inc\NetworkReplayStreaming\VNI;..\..\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;..\..\Source\Runtime\NetworkReplayStreaming;..\Build\Win64\ReplicationSystemTest\Inc\PhysicsCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\PhysicsCore\VNI;..\..\Source\Runtime\PhysicsCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\ChaosCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ChaosCore\VNI;..\..\Source\Runtime\Experimental\ChaosCore\Public;..\..\Source\Runtime\Experimental;..\..\Source\ThirdParty\Intel;..\Build\Win64\ReplicationSystemTest\Inc\Chaos\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Chaos\VNI;..\..\Source\Runtime\Experimental\Chaos\Public;..\Build\Win64\ReplicationSystemTest\Inc\Voronoi\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Voronoi\VNI;..\..\Source\Runtime\Experimental\Voronoi\Public;..\Build\Win64\ReplicationSystemTest\Inc\GeometryCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\GeometryCore\VNI;..\..\Source\Runtime\GeometryCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\SignalProcessing\UHT;..\Build\Win64\ReplicationSystemTest\Inc\SignalProcessing\VNI;..\..\Source\Runtime\SignalProcessing\Public;..\Build\Win64\ReplicationSystemTest\Inc\AudioExtensions\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AudioExtensions\VNI;..\..\Source\Runtime\AudioExtensions\Public;..\Build\Win64\ReplicationSystemTest\Inc\AudioMixerCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AudioMixerCore\VNI;..\..\Source\Runtime\AudioMixerCore\Public;..\Build\Win64\ReplicationSystemTest\Inc\AudioLinkCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AudioLinkCore\VNI;..\..\Source\Runtime\AudioLink\AudioLinkCore\Public;..\..\Source\Runtime\AudioLink;..\Build\Win64\ReplicationSystemTest\Inc\CookOnTheFly\UHT;..\Build\Win64\ReplicationSystemTest\Inc\CookOnTheFly\VNI;..\Build\Win64\ReplicationSystemTest\Inc\Networking\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Networking\VNI;..\..\Source\Runtime\Networking\Public;..\Build\Win64\ReplicationSystemTest\Inc\ClothSysRuntimeIntrfc\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ClothSysRuntimeIntrfc\VNI;..\..\Source\Runtime\ClothingSystemRuntimeInterface\Public;..\Build\Win64\ReplicationSystemTest\Inc\IrisCore\UHT;..\Build\Win64\ReplicationSystemTest\Inc\IrisCore\VNI;..\..\Source\Runtime\Experimental\Iris\Core\Public;..\..\Source\Runtime\Experimental\Iris;..\Build\Win64\ReplicationSystemTest\Inc\AudioMixer\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AudioMixer\VNI;..\..\Source\Runtime\AudioMixer\Classes;..\..\Source\Runtime\AudioMixer\Public;..\Build\Win64\ReplicationSystemTest\Inc\TargetPlatform\UHT;..\Build\Win64\ReplicationSystemTest\Inc\TargetPlatform\VNI;..\..\Source\Developer\TargetPlatform\Public;..\Build\Win64\ReplicationSystemTest\Inc\TextureFormat\UHT;..\Build\Win64\ReplicationSystemTest\Inc\TextureFormat\VNI;..\..\Source\Developer\TextureFormat\Public;..\Build\Win64\ReplicationSystemTest\Inc\MovieSceneCapture\UHT;..\Build\Win64\ReplicationSystemTest\Inc\MovieSceneCapture\VNI;..\..\Source\Runtime\MovieSceneCapture\Public;..\Build\Win64\ReplicationSystemTest\Inc\TypedElementFramework\UHT;..\Build\Win64\ReplicationSystemTest\Inc\TypedElementFramework\VNI;..\..\Source\Runtime\TypedElementFramework\Public;..\Build\Win64\ReplicationSystemTest\Inc\TypedElementRuntime\UHT;..\Build\Win64\ReplicationSystemTest\Inc\TypedElementRuntime\VNI;..\..\Source\Runtime\TypedElementRuntime\Public;..\Build\Win64\ReplicationSystemTest\Inc\HeadMountedDisplay\UHT;..\Build\Win64\ReplicationSystemTest\Inc\HeadMountedDisplay\VNI;..\..\Source\Runtime\HeadMountedDisplay\Public;..\Build\Win64\ReplicationSystemTest\Inc\AugmentedReality\UHT;..\Build\Win64\ReplicationSystemTest\Inc\AugmentedReality\VNI;..\..\Source\Runtime\AugmentedReality\Public;..\Build\Win64\ReplicationSystemTest\Inc\MRMesh\UHT;..\Build\Win64\ReplicationSystemTest\Inc\MRMesh\VNI;..\..\Source\Runtime\MRMesh\Public;..\Build\Win64\ReplicationSystemTest\Inc\InstallBundleManager\UHT;..\Build\Win64\ReplicationSystemTest\Inc\InstallBundleManager\VNI;..\..\Source\Runtime\InstallBundleManager\Public;..\Build\Win64\ReplicationSystemTest\Inc\MediaUtils\UHT;..\Build\Win64\ReplicationSystemTest\Inc\MediaUtils\VNI;..\..\Source\Runtime\MediaUtils\Public;..\Build\Win64\ReplicationSystemTest\Inc\Media\UHT;..\Build\Win64\ReplicationSystemTest\Inc\Media\VNI;..\..\Source\Runtime\Media\Public;..\Build\Win64\ReplicationSystemTest\Inc\ColorManagement\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ColorManagement\VNI;..\..\Source\Runtime\ColorManagement\Public;..\Build\Win64\ReplicationSystemTest\Inc\MoviePlayer\UHT;..\Build\Win64\ReplicationSystemTest\Inc\MoviePlayer\VNI;..\..\Source\Runtime\MoviePlayer\Public;..\Build\Win64\ReplicationSystemTest\Inc\MoviePlayerProxy\UHT;..\Build\Win64\ReplicationSystemTest\Inc\MoviePlayerProxy\VNI;..\..\Source\Runtime\MoviePlayerProxy\Public;..\Build\Win64\ReplicationSystemTest\Inc\PreLoadScreen\UHT;..\Build\Win64\ReplicationSystemTest\Inc\PreLoadScreen\VNI;..\..\Source\Runtime\PreLoadScreen\Public;..\Build\Win64\ReplicationSystemTest\Inc\ProfilerService\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ProfilerService\VNI;..\..\Source\Developer\ProfilerService\Public;..\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTestPlugin\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTestPlugin\VNI;..\..\Plugins\Runtime\ReplicationSystemTestPlugin\Source\Public;..\..\Plugins\Runtime\ReplicationSystemTestPlugin;..\Build\Win64\ReplicationSystemTest\Inc\SessionServices\UHT;..\Build\Win64\ReplicationSystemTest\Inc\SessionServices\VNI;..\..\Source\Runtime\SessionServices\Public;..\Build\Win64\ReplicationSystemTest\Inc\SlateNullRenderer\UHT;..\Build\Win64\ReplicationSystemTest\Inc\SlateNullRenderer\VNI;..\..\Source\Runtime\SlateNullRenderer\Public;..\Build\Win64\ReplicationSystemTest\Inc\SlateRHIRenderer\UHT;..\Build\Win64\ReplicationSystemTest\Inc\SlateRHIRenderer\VNI;..\..\Source\Runtime\SlateRHIRenderer\Public;..\Build\Win64\ReplicationSystemTest\Inc\ProfileVisualizer\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ProfileVisualizer\VNI;..\..\Source\Developer\ProfileVisualizer\Public;..\Build\Win64\ReplicationSystemTest\Inc\DerivedDataCache\UHT;..\Build\Win64\ReplicationSystemTest\Inc\DerivedDataCache\VNI;..\..\Source\Developer\DerivedDataCache\Public;..\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTest\UHT;..\Build\Win64\ReplicationSystemTest\Inc\ReplicationSystemTest\VNI;..\..\Source\Runtime\Launch\Public;..\..\Source\Programs;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17 </AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\Programs\ReplicationSystemTest\ReplicationSystemTest.Target.cs"/>
+    <None Include="..\..\Source\Programs\ReplicationSystemTest\ReplicationSystemTest.Build.cs"/>
+    <ClCompile Include="..\..\Source\Programs\ReplicationSystemTest\Private\AutomationTestRunner.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\ReplicationSystemTest\Development\ReplicationSystemTest\Definitions.ReplicationSystemTest.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\ReplicationSystemTest\Private\AutomationTestRunner.h"/>
+    <ClInclude Include="..\..\Source\Programs\ReplicationSystemTest\Private\NullTestRunner.h"/>
+    <ClCompile Include="..\..\Source\Programs\ReplicationSystemTest\Private\ReplicationSystemTest.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\ReplicationSystemTest\Development\ReplicationSystemTest\Definitions.ReplicationSystemTest.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\ReplicationSystemTest\Private\ReplicationSystemTest.h"/>
+    <ClCompile Include="..\..\Source\Programs\ReplicationSystemTest\Private\ReplicationSystemTestFileModule.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);..\..\Source\ThirdParty\mimalloc\include;..\..\Source\ThirdParty\LibTiff\Source\Win64;..\..\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Engine\Intermediate\Build\Win64\x64\ReplicationSystemTest\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Engine\Intermediate\Build\Win64\x64\ReplicationSystemTest\Development\ReplicationSystemTest\Definitions.ReplicationSystemTest.h</ForcedIncludeFiles>
+    </ClCompile>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

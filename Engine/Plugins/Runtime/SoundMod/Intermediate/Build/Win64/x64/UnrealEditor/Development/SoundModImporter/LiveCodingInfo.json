@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundModImporter.cpp.obj": [
+			"SoundModImporter.init.gen.cpp.obj",
+			"SoundModImporterFactory.gen.cpp.obj",
+			"AssetTypeActions_SoundMod.cpp.obj",
+			"SoundModImporterFactory.cpp.obj",
+			"SoundModImporterModule.cpp.obj"
+		]
+	}
+}

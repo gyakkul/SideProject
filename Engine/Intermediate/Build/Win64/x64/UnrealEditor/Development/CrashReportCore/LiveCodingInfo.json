@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CrashReportCore.cpp.obj": [
+			"CrashDescription.cpp.obj",
+			"CrashReportAnalytics.cpp.obj",
+			"CrashReportCoreConfig.cpp.obj",
+			"CrashReportCoreModule.cpp.obj",
+			"CrashReportCoreUnattended.cpp.obj",
+			"CrashUpload.cpp.obj",
+			"GenericErrorReport.cpp.obj",
+			"PendingReports.cpp.obj",
+			"WindowsErrorReport.cpp.obj"
+		]
+	}
+}

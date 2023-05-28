@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NearestNeighborModelEditor.cpp.obj": [
+			"NearestNeighborModelEditor.init.gen.cpp.obj",
+			"NearestNeighborTrainingModel.gen.cpp.obj",
+			"NearestNeighborEditorModel.cpp.obj",
+			"NearestNeighborEditorModelActor.cpp.obj",
+			"NearestNeighborGeomCacheSampler.cpp.obj",
+			"NearestNeighborModelDetails.cpp.obj",
+			"NearestNeighborModelEditorModule.cpp.obj",
+			"NearestNeighborModelStyle.cpp.obj",
+			"NearestNeighborModelVizSettingsDetails.cpp.obj",
+			"NearestNeighborTrainingModel.cpp.obj"
+		]
+	}
+}

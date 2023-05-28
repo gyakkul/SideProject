@@ -1,0 +1,26 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MQTTCore.cpp.obj": [
+			"MQTTClientMessage.gen.cpp.obj",
+			"MQTTClientObject.gen.cpp.obj",
+			"MQTTClientSettings.gen.cpp.obj",
+			"MQTTCore.init.gen.cpp.obj",
+			"MQTTProtocol.gen.cpp.obj",
+			"MQTTShared.gen.cpp.obj",
+			"MQTTSubsystem.gen.cpp.obj",
+			"MQTTClient.cpp.obj",
+			"MQTTClientMessage.cpp.obj",
+			"MQTTClientObject.cpp.obj",
+			"MQTTConnection.cpp.obj",
+			"MQTTCoreLog.cpp.obj",
+			"MQTTCoreModule.cpp.obj",
+			"MQTTCoreStats.cpp.obj",
+			"MQTTOperations.cpp.obj",
+			"MQTTProtocol.cpp.obj",
+			"MQTTShared.cpp.obj",
+			"MQTTSharedInternal.cpp.obj",
+			"MQTTSubsystem.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXProtocolEditor.cpp.obj": [
+			"DMXInputPortConfigCustomization.cpp.obj",
+			"DMXInputPortReferenceCustomization.cpp.obj",
+			"DMXOutputPortConfigCustomization.cpp.obj",
+			"DMXOutputPortDestinationAddressCustomization.cpp.obj",
+			"DMXOutputPortReferenceCustomization.cpp.obj",
+			"DMXPortReferenceCustomizationBase.cpp.obj",
+			"DMXProtocolSettingsDetails.cpp.obj",
+			"SDMXCommunicationTypeComboBox.cpp.obj",
+			"SDMXDelayEditWidget.cpp.obj",
+			"SDMXIPAddressEditWidget.cpp.obj",
+			"SDMXProtocolNameComboBox.cpp.obj",
+			"DMXProtocolEditorModule.cpp.obj",
+			"SDMXPortSelector.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LauncherServices.cpp.obj": [
+			"LauncherServicesModule.cpp.obj",
+			"Launcher.cpp.obj",
+			"LauncherProjectPath.cpp.obj",
+			"LauncherWorker.cpp.obj",
+			"LauncherProfile.cpp.obj",
+			"LauncherProfileManager.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithOpenNurbsTranslator.cpp.obj": [
+			"DatasmithOpenNurbsImportOptions.gen.cpp.obj",
+			"DatasmithOpenNurbsTranslator.init.gen.cpp.obj",
+			"DatasmithOpenNurbsImportOptions.cpp.obj",
+			"DatasmithOpenNurbsTranslator.cpp.obj",
+			"DatasmithOpenNurbsTranslatorModule.cpp.obj",
+			"OpenNurbsBRepToCADKernelConverter.cpp.obj",
+			"OpenNurbsBRepToTechSoftConverter.cpp.obj"
+		]
+	}
+}

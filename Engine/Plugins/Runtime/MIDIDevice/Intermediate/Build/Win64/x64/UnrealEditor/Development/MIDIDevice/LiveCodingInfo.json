@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MIDIDevice.cpp.obj": [
+			"MIDIDevice.init.gen.cpp.obj",
+			"MIDIDeviceControllerBase.gen.cpp.obj",
+			"MIDIDeviceController.cpp.obj",
+			"MIDIDeviceInputController.cpp.obj",
+			"MIDIDeviceManager.cpp.obj",
+			"MIDIDeviceModule.cpp.obj",
+			"MIDIDeviceOutputController.cpp.obj"
+		]
+	}
+}

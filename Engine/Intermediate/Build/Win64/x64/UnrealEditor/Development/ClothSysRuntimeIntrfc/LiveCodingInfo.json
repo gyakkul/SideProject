@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ClothSysRuntimeIntrfc.cpp.obj": [
+			"ClothCollisionPrim.gen.cpp.obj",
+			"ClothingAssetBase.gen.cpp.obj",
+			"ClothingSystemRuntimeInterface.init.gen.cpp.obj",
+			"ClothVertBoneData.gen.cpp.obj",
+			"ClothCollisionData.cpp.obj",
+			"ClothConfigBase.cpp.obj",
+			"ClothingSimulationFactory.cpp.obj",
+			"ClothingSimulationInteractor.cpp.obj",
+			"ClothingSimulationInterface.cpp.obj",
+			"ClothingSystemRuntimeInterfaceModule.cpp.obj",
+			"ClothingSystemRuntimeTypes.cpp.obj",
+			"ClothPhysicalMeshDataBase_Legacy.cpp.obj"
+		]
+	}
+}

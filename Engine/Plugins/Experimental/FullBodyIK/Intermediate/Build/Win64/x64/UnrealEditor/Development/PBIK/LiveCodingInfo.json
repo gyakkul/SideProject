@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PBIK.cpp.obj": [
+			"PBIK.init.gen.cpp.obj",
+			"PBIK_Shared.gen.cpp.obj",
+			"PBIKBody.cpp.obj",
+			"PBIKConstraint.cpp.obj",
+			"PBIKDebug.cpp.obj",
+			"PBIKSolver.cpp.obj",
+			"PBIK.cpp.obj",
+			"RigUnit_PBIK.cpp.obj"
+		]
+	}
+}

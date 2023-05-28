@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EOSVoiceChat.cpp.obj": [
+			"EOSAudioDevicePool.cpp.obj",
+			"EOSVoiceChat.cpp.obj",
+			"EOSVoiceChatErrors.cpp.obj",
+			"EOSVoiceChatFactory.cpp.obj",
+			"EOSVoiceChatModule.cpp.obj",
+			"EOSVoiceChatUser.cpp.obj",
+			"WindowsEOSVoiceChat.cpp.obj"
+		]
+	}
+}

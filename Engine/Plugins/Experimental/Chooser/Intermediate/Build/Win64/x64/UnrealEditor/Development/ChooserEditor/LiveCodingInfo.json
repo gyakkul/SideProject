@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ChooserEditor.cpp.obj": [
+			"AssetDefinition_ChooserTable.gen.cpp.obj",
+			"ChooserEditor.init.gen.cpp.obj",
+			"ChooserFactory.gen.cpp.obj",
+			"ChooserTableEditor.gen.cpp.obj",
+			"AssetDefinition_ChooserTable.cpp.obj",
+			"BoolColumnEditor.cpp.obj",
+			"ChooserEditorModule.cpp.obj",
+			"ChooserFactory.cpp.obj",
+			"ChooserTableEditor.cpp.obj",
+			"EnumColumnEditor.cpp.obj",
+			"FloatRangeColumnEditor.cpp.obj",
+			"GameplayTagColumnEditor.cpp.obj",
+			"ObjectChooserWidgetFactories.cpp.obj"
+		]
+	}
+}

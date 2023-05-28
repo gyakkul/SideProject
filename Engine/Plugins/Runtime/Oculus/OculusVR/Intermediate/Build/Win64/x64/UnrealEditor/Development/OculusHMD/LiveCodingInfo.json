@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OculusHMD.cpp.obj": [
+			"OculusEventComponent.gen.cpp.obj",
+			"OculusFunctionLibrary.gen.cpp.obj",
+			"OculusHMD.init.gen.cpp.obj",
+			"OculusHMDRuntimeSettings.gen.cpp.obj",
+			"OculusHMDTypes.gen.cpp.obj",
+			"OculusResourceHolder.gen.cpp.obj",
+			"OculusSceneCaptureCubemap.gen.cpp.obj",
+			"OculusAssetManager.cpp.obj",
+			"OculusDelegates.cpp.obj",
+			"OculusEventComponent.cpp.obj",
+			"OculusFunctionLibrary.cpp.obj",
+			"OculusHMD.cpp.obj",
+			"OculusHMDModule.cpp.obj",
+			"OculusHMDPrivate.cpp.obj",
+			"OculusHMDRuntimeSettings.cpp.obj",
+			"OculusHMD_ConsoleCommands.cpp.obj",
+			"OculusHMD_CustomPresent.cpp.obj",
+			"OculusHMD_CustomPresent_D3D11.cpp.obj",
+			"OculusHMD_CustomPresent_D3D12.cpp.obj",
+			"OculusHMD_CustomPresent_OpenGL.cpp.obj",
+			"OculusHMD_CustomPresent_Vulkan.cpp.obj",
+			"OculusHMD_DynamicResolutionState.cpp.obj",
+			"OculusHMD_GameFrame.cpp.obj",
+			"OculusHMD_Layer.cpp.obj",
+			"OculusHMD_Settings.cpp.obj",
+			"OculusHMD_SpectatorScreenController.cpp.obj",
+			"OculusHMD_Splash.cpp.obj",
+			"OculusHMD_StressTester.cpp.obj",
+			"OculusHMD_VulkanExtensions.cpp.obj",
+			"OculusPluginWrapper.cpp.obj",
+			"OculusResourceHolder.cpp.obj",
+			"OculusSceneCaptureCubemap.cpp.obj"
+		]
+	}
+}

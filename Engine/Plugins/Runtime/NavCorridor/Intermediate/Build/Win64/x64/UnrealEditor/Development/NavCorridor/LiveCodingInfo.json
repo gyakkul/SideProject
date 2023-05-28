@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NavCorridor.cpp.obj": [
+			"NavCorridor.init.gen.cpp.obj",
+			"NavCorridor.cpp.obj",
+			"NavCorridorModule.cpp.obj",
+			"NavCorridorTestingComponent.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LiveLinkLens.cpp.obj": [
+			"LiveLinkLens.init.gen.cpp.obj",
+			"LiveLinkLensController.gen.cpp.obj",
+			"LiveLinkLensRole.gen.cpp.obj",
+			"LiveLinkLensTypes.gen.cpp.obj",
+			"MovieSceneLiveLinkSubSectionLensRole.gen.cpp.obj",
+			"LiveLinkLens.cpp.obj",
+			"LiveLinkLensController.cpp.obj",
+			"LiveLinkLensRole.cpp.obj",
+			"MovieSceneLiveLinkSubSectionLensRole.cpp.obj"
+		]
+	}
+}

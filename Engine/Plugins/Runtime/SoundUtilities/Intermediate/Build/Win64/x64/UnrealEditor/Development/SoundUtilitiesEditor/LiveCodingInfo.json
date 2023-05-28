@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundUtilitiesEditor.cpp.obj": [
+			"SoundSimpleFactory.gen.cpp.obj",
+			"SoundUtilitiesEditor.init.gen.cpp.obj",
+			"AssetTypeActions_SoundSimple.cpp.obj",
+			"SoundSimpleFactory.cpp.obj",
+			"SoundUtilitiesEditorModule.cpp.obj",
+			"SoundWaveAssetActionExtender.cpp.obj"
+		]
+	}
+}

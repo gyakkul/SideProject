@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PointCloud.cpp.obj": [
+			"PointCloud.init.gen.cpp.obj",
+			"PointCloudComponent.gen.cpp.obj",
+			"PointCloudComponent.cpp.obj",
+			"PointCloudModule.cpp.obj",
+			"PointCloudSceneProxy.cpp.obj",
+			"PointCloudVertexFactory.cpp.obj"
+		]
+	}
+}

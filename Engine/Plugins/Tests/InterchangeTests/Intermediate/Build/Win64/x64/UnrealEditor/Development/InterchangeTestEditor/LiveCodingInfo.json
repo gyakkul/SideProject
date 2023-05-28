@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangeTestEditor.cpp.obj": [
+			"InterchangeTestEditor.init.gen.cpp.obj",
+			"AssetTypeActions_InterchangeImportTestPlan.cpp.obj",
+			"InterchangeImportTestPlanFactory.cpp.obj",
+			"InterchangeTestEditorModule.cpp.obj",
+			"InterchangeTestFunctionLayout.cpp.obj"
+		]
+	}
+}

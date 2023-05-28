@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DefaultInstallBundleManager.cpp.obj": [
+			"DefaultInstallBundleManager.cpp.obj",
+			"InstallBundleManagerUtil.cpp.obj",
+			"InstallBundleSourceBulk.cpp.obj",
+			"InstallBundleSourcePlatformBase.cpp.obj"
+		]
+	}
+}

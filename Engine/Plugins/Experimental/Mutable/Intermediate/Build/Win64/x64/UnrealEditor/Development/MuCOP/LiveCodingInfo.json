@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MuCOP.cpp.obj": [
+			"CustomizableObjectPopulation.init.gen.cpp.obj",
+			"CustomizableObjectPopulation.cpp.obj",
+			"CustomizableObjectPopulationCharacteristic.cpp.obj",
+			"CustomizableObjectPopulationClass.cpp.obj",
+			"CustomizableObjectPopulationConstraint.cpp.obj",
+			"CustomizableObjectPopulationCustomVersion.cpp.obj",
+			"CustomizableObjectPopulationGenerator.cpp.obj",
+			"CustomizableObjectPopulationModule.cpp.obj",
+			"CustomizableObjectPopulationSamplers.cpp.obj"
+		]
+	}
+}

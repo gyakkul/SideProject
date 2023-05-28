@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SoundMod.cpp.obj": [
+			"SoundMod.gen.cpp.obj",
+			"SoundMod.init.gen.cpp.obj",
+			"SoundModWave.gen.cpp.obj",
+			"SoundNodeModPlayer.gen.cpp.obj",
+			"SoundMod.cpp.obj",
+			"SoundModPlugin.cpp.obj",
+			"SoundModWave.cpp.obj",
+			"SoundNodeModPlayer.cpp.obj"
+		]
+	}
+}

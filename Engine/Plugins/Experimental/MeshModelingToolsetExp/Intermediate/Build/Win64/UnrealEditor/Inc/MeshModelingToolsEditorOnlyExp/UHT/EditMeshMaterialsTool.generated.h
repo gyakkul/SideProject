@@ -1,0 +1,353 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "EditMeshMaterialsTool.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef MESHMODELINGTOOLSEDITORONLYEXP_EditMeshMaterialsTool_generated_h
+#error "EditMeshMaterialsTool.generated.h already included, missing '#pragma once' in EditMeshMaterialsTool.h"
+#endif
+#define MESHMODELINGTOOLSEDITORONLYEXP_EditMeshMaterialsTool_generated_h
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsToolBuilder, UMeshSelectionToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsToolBuilder(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsToolBuilder_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsToolBuilder, UMeshSelectionToolBuilder, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsToolBuilder)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshMaterialsToolBuilder) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsToolBuilder); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsToolBuilder(UEditMeshMaterialsToolBuilder&&); \
+	NO_API UEditMeshMaterialsToolBuilder(const UEditMeshMaterialsToolBuilder&); \
+public: \
+	NO_API virtual ~UEditMeshMaterialsToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsToolBuilder(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsToolBuilder(UEditMeshMaterialsToolBuilder&&); \
+	NO_API UEditMeshMaterialsToolBuilder(const UEditMeshMaterialsToolBuilder&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsToolBuilder); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsToolBuilder); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshMaterialsToolBuilder) \
+	NO_API virtual ~UEditMeshMaterialsToolBuilder();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_12_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_15_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UClass* StaticClass<class UEditMeshMaterialsToolBuilder>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMaterialNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMaterialNamesFunc);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsToolProperties(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsToolProperties(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsToolProperties_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsToolProperties, UInteractiveToolPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsToolProperties)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshMaterialsToolProperties) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsToolProperties); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsToolProperties(UEditMeshMaterialsToolProperties&&); \
+	NO_API UEditMeshMaterialsToolProperties(const UEditMeshMaterialsToolProperties&); \
+public: \
+	NO_API virtual ~UEditMeshMaterialsToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsToolProperties(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsToolProperties(UEditMeshMaterialsToolProperties&&); \
+	NO_API UEditMeshMaterialsToolProperties(const UEditMeshMaterialsToolProperties&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsToolProperties); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsToolProperties); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshMaterialsToolProperties) \
+	NO_API virtual ~UEditMeshMaterialsToolProperties();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_26_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_29_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UClass* StaticClass<class UEditMeshMaterialsToolProperties>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execAssignActiveMaterial);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execAssignActiveMaterial);
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsEditActions(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsEditActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsEditActions, UMeshSelectionToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsEditActions)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsEditActions(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsEditActions_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsEditActions, UMeshSelectionToolActionPropertySet, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsEditActions)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsEditActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshMaterialsEditActions) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsEditActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsEditActions); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsEditActions(UEditMeshMaterialsEditActions&&); \
+	NO_API UEditMeshMaterialsEditActions(const UEditMeshMaterialsEditActions&); \
+public: \
+	NO_API virtual ~UEditMeshMaterialsEditActions();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsEditActions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsEditActions(UEditMeshMaterialsEditActions&&); \
+	NO_API UEditMeshMaterialsEditActions(const UEditMeshMaterialsEditActions&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsEditActions); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsEditActions); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshMaterialsEditActions) \
+	NO_API virtual ~UEditMeshMaterialsEditActions();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_61_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_64_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UClass* StaticClass<class UEditMeshMaterialsEditActions>();
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_SPARSE_DATA
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_RPC_WRAPPERS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_ACCESSORS
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsTool(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsTool_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsTool, UMeshSelectionTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_INCLASS \
+private: \
+	static void StaticRegisterNativesUEditMeshMaterialsTool(); \
+	friend struct Z_Construct_UClass_UEditMeshMaterialsTool_Statics; \
+public: \
+	DECLARE_CLASS(UEditMeshMaterialsTool, UMeshSelectionTool, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Script/MeshModelingToolsEditorOnlyExp"), NO_API) \
+	DECLARE_SERIALIZER(UEditMeshMaterialsTool)
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEditMeshMaterialsTool) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsTool); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsTool(UEditMeshMaterialsTool&&); \
+	NO_API UEditMeshMaterialsTool(const UEditMeshMaterialsTool&); \
+public: \
+	NO_API virtual ~UEditMeshMaterialsTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEditMeshMaterialsTool(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UEditMeshMaterialsTool(UEditMeshMaterialsTool&&); \
+	NO_API UEditMeshMaterialsTool(const UEditMeshMaterialsTool&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEditMeshMaterialsTool); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEditMeshMaterialsTool); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEditMeshMaterialsTool) \
+	NO_API virtual ~UEditMeshMaterialsTool();
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_84_PROLOG
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_RPC_WRAPPERS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_INCLASS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_SPARSE_DATA \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_ACCESSORS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h_87_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UClass* StaticClass<class UEditMeshMaterialsTool>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Experimental_MeshModelingToolsetExp_Source_MeshModelingToolsEditorOnlyExp_Public_EditMeshMaterialsTool_h
+
+
+#define FOREACH_ENUM_EEDITMESHMATERIALSTOOLACTIONS(op) \
+	op(EEditMeshMaterialsToolActions::NoAction) \
+	op(EEditMeshMaterialsToolActions::AssignMaterial) 
+
+enum class EEditMeshMaterialsToolActions;
+template<> struct TIsUEnumClass<EEditMeshMaterialsToolActions> { enum { Value = true }; };
+template<> MESHMODELINGTOOLSEDITORONLYEXP_API UEnum* StaticEnum<EEditMeshMaterialsToolActions>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

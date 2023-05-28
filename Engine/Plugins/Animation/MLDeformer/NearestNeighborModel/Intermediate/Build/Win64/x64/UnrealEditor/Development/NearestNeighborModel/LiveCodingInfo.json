@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NearestNeighborModel.cpp.obj": [
+			"NearestNeighborModel.init.gen.cpp.obj",
+			"NearestNeighborModelVizSettings.gen.cpp.obj",
+			"NearestNeighborOptimizedNetwork.gen.cpp.obj",
+			"NearestNeighborOptimizedNetworkLoader.gen.cpp.obj",
+			"NearestNeighborModel.cpp.obj",
+			"NearestNeighborModelInputInfo.cpp.obj",
+			"NearestNeighborModelInstance.cpp.obj",
+			"NearestNeighborOptimizedNetwork.cpp.obj",
+			"NearestNeighborOptimizedNetworkLoader.cpp.obj",
+			"OptimusDataInterfaceSkeletonWithQuats.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OculusAudio.cpp.obj": [
+			"OculusAmbisonicsSettings.gen.cpp.obj",
+			"OculusAudio.init.gen.cpp.obj",
+			"OculusAudioGeometryBSP.gen.cpp.obj",
+			"OculusAudioGeometryComponent.gen.cpp.obj",
+			"OculusAudioGeometryLandscape.gen.cpp.obj",
+			"OculusAudioMaterialComponent.gen.cpp.obj",
+			"OculusAudioReverb.gen.cpp.obj",
+			"OculusAudioSettings.gen.cpp.obj",
+			"OculusAudioSourceSettings.gen.cpp.obj",
+			"IOculusAudioPlugin.cpp.obj",
+			"OculusAmbisonicSpatializer.cpp.obj",
+			"OculusAudio.cpp.obj",
+			"OculusAudioContextManager.cpp.obj",
+			"OculusAudioDllManager.cpp.obj",
+			"OculusAudioGeometryBSP.cpp.obj",
+			"OculusAudioGeometryComponent.cpp.obj",
+			"OculusAudioGeometryLandscape.cpp.obj",
+			"OculusAudioMaterialComponent.cpp.obj",
+			"OculusAudioMixer.cpp.obj",
+			"OculusAudioReverb.cpp.obj",
+			"OculusAudioSettings.cpp.obj",
+			"OculusAudioSourceSettings.cpp.obj"
+		]
+	}
+}

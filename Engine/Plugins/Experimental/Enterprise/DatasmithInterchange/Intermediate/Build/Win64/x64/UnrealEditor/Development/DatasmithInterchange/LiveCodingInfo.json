@@ -1,0 +1,45 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithInterchange.cpp.obj": [
+			"DatasmithInterchange.init.gen.cpp.obj",
+			"InterchangeDatasmithAreaLightFactory.gen.cpp.obj",
+			"InterchangeDatasmithAreaLightFactoryNode.gen.cpp.obj",
+			"InterchangeDatasmithAreaLightNode.gen.cpp.obj",
+			"InterchangeDatasmithLevelPipeline.gen.cpp.obj",
+			"InterchangeDatasmithMaterialNode.gen.cpp.obj",
+			"InterchangeDatasmithMaterialPipeline.gen.cpp.obj",
+			"InterchangeDatasmithPipeline.gen.cpp.obj",
+			"InterchangeDatasmithSceneFactory.gen.cpp.obj",
+			"InterchangeDatasmithSceneFactoryNode.gen.cpp.obj",
+			"InterchangeDatasmithSceneNode.gen.cpp.obj",
+			"InterchangeDatasmithStaticMeshPipeline.gen.cpp.obj",
+			"InterchangeDatasmithTexturePipeline.gen.cpp.obj",
+			"InterchangeDatasmithTranslator.gen.cpp.obj",
+			"DatasmithInterchangeModule.cpp.obj",
+			"InterchangeDatasmithAnimationUtils.cpp.obj",
+			"InterchangeDatasmithAreaLightFactory.cpp.obj",
+			"InterchangeDatasmithAreaLightFactoryNode.cpp.obj",
+			"InterchangeDatasmithAreaLightNode.cpp.obj",
+			"InterchangeDatasmithLevelPipeline.cpp.obj",
+			"InterchangeDatasmithMaterialNode.cpp.obj",
+			"InterchangeDatasmithMaterialPipeline.cpp.obj",
+			"InterchangeDatasmithPipeline.cpp.obj",
+			"InterchangeDatasmithSceneFactory.cpp.obj",
+			"InterchangeDatasmithSceneFactoryNode.cpp.obj",
+			"InterchangeDatasmithSceneNode.cpp.obj",
+			"InterchangeDatasmithStaticMeshPipeline.cpp.obj",
+			"InterchangeDatasmithTextureData.cpp.obj",
+			"InterchangeDatasmithTexturePipeline.cpp.obj",
+			"InterchangeDatasmithTranslator.cpp.obj",
+			"InterchangeDatasmithUtils.cpp.obj",
+			"DatasmithC4DMaterialSelector.cpp.obj",
+			"DatasmithCityEngineMaterialSelector.cpp.obj",
+			"DatasmithReferenceMaterialManager.cpp.obj",
+			"DatasmithReferenceMaterialSelector.cpp.obj",
+			"DatasmithRevitMaterialSelector.cpp.obj",
+			"DatasmithSketchupMaterialSelector.cpp.obj",
+			"DatasmithStdMaterialSelector.cpp.obj"
+		]
+	}
+}

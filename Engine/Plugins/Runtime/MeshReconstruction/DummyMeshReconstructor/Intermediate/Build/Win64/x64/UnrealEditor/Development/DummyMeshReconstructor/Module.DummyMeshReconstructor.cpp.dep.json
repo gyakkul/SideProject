@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dummymeshreconstructor\\module.dummymeshreconstructor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dummymeshreconstructor\\definitions.dummymeshreconstructor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\intermediate\\build\\win64\\unrealeditor\\inc\\dummymeshreconstructor\\uht\\dummymeshreconstructor.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\source\\dummymeshreconstructor\\public\\dummymeshreconstructor.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\mrmesh\\public\\meshreconstructorbase.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\mrmesh\\uht\\meshreconstructorbase.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\intermediate\\build\\win64\\unrealeditor\\inc\\dummymeshreconstructor\\uht\\dummymeshreconstructor.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\intermediate\\build\\win64\\unrealeditor\\inc\\dummymeshreconstructor\\uht\\dummymeshreconstructor.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\source\\dummymeshreconstructor\\private\\dummymeshreconstructor.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\mrmesh\\public\\mrmeshcomponent.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\mrmesh\\public\\mrmeshbufferdefines.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\mrmesh\\uht\\mrmeshcomponent.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\dynamicmeshbuilder.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\source\\dummymeshreconstructor\\private\\dummymeshreconstructormodule.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\meshreconstruction\\dummymeshreconstructor\\source\\dummymeshreconstructor\\public\\dummymeshreconstructormodule.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\mrmesh\\public\\basemeshreconstructormodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

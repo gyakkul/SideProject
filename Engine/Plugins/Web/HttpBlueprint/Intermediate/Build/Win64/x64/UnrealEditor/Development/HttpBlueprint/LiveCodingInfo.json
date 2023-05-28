@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.HttpBlueprint.cpp.obj": [
+			"HttpBlueprint.init.gen.cpp.obj",
+			"HttpBlueprintFunctionLibrary.gen.cpp.obj",
+			"HttpBlueprintTypes.gen.cpp.obj",
+			"HttpHeader.gen.cpp.obj",
+			"HttpBlueprintFunctionLibrary.cpp.obj",
+			"HttpBlueprintModule.cpp.obj",
+			"HttpHeader.cpp.obj"
+		]
+	}
+}

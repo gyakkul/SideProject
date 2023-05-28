@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SourceFilteringTrace.cpp.obj": [
+			"EmptySourceFilter.gen.cpp.obj",
+			"SourceFilteringTrace.init.gen.cpp.obj",
+			"TraceSourceFilteringProjectSettings.gen.cpp.obj",
+			"DataSourceFilterSet.cpp.obj",
+			"ResultCache.cpp.obj",
+			"SourceFilterCollection.cpp.obj",
+			"SourceFilteringAsyncTasks.cpp.obj",
+			"SourceFilteringTickFunction.cpp.obj",
+			"SourceFilteringTraceModule.cpp.obj",
+			"SourceFilterManager.cpp.obj",
+			"SourceFilterPresets.cpp.obj",
+			"SourceFilterSetup.cpp.obj",
+			"SourceFilterTrace.cpp.obj",
+			"TraceSourceFiltering.cpp.obj",
+			"TraceSourceFilteringTestBase.cpp.obj",
+			"TraceWorldFiltering.cpp.obj",
+			"DataSourceFilter.cpp.obj"
+		]
+	}
+}

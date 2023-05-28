@@ -1,0 +1,24 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MassSmartObjects.cpp.obj": [
+			"MassSmartObjectBehaviorDefinition.gen.cpp.obj",
+			"MassSmartObjectFragments.gen.cpp.obj",
+			"MassSmartObjectProcessor.gen.cpp.obj",
+			"MassSmartObjectRequest.gen.cpp.obj",
+			"MassSmartObjects.init.gen.cpp.obj",
+			"MassSmartObjectSettings.gen.cpp.obj",
+			"MassSmartObjectTypes.gen.cpp.obj",
+			"MassSmartObjectUserTrait.gen.cpp.obj",
+			"SmartObjectZoneAnnotations.gen.cpp.obj",
+			"MassSmartObjectBehaviorDefinition.cpp.obj",
+			"MassSmartObjectHandler.cpp.obj",
+			"MassSmartObjectProcessor.cpp.obj",
+			"MassSmartObjectSettings.cpp.obj",
+			"MassSmartObjectsModule.cpp.obj",
+			"MassSmartObjectTypes.cpp.obj",
+			"MassSmartObjectUserTrait.cpp.obj",
+			"SmartObjectZoneAnnotations.cpp.obj"
+		]
+	}
+}

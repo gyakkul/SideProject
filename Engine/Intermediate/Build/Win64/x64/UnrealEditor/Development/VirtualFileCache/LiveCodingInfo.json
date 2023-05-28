@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VirtualFileCache.cpp.obj": [
+			"VirtualFileCache.cpp.obj",
+			"VirtualFileCacheInternal.cpp.obj"
+		]
+	}
+}

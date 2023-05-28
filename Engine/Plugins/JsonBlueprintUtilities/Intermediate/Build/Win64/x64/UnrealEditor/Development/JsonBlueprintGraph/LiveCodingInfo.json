@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.JsonBlueprintGraph.cpp.obj": [
+			"JsonBlueprintGraph.init.gen.cpp.obj",
+			"K2Node_GetJsonField.gen.cpp.obj",
+			"K2Node_SetJsonField.gen.cpp.obj",
+			"K2Node_StructToJsonString.gen.cpp.obj",
+			"JsonBlueprintGraphLog.cpp.obj",
+			"JsonBlueprintGraphModule.cpp.obj",
+			"K2Node_GetJsonField.cpp.obj",
+			"K2Node_SetJsonField.cpp.obj",
+			"K2Node_StructToJsonString.cpp.obj"
+		]
+	}
+}

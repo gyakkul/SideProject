@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DisplayClusterMoviePipelineEditor.cpp.obj": [
+			"DisplayClusterMoviePipelineEditorBaseTypeCustomization.cpp.obj",
+			"DisplayClusterMoviePipelineEditorNodeSelection.cpp.obj",
+			"DisplayClusterMoviePipelineEditorSettingsCustomization.cpp.obj",
+			"DisplayClusterMoviePipelineEditorLog.cpp.obj",
+			"DisplayClusterMoviePipelineEditorModule.cpp.obj",
+			"SDisplayClusterMoviePipelineEditorSearchableComboBox.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Source\Programs\SwitchboardListenerHelper\SwitchboardListenerHelper.Target.cs" />
+    <None Include="..\..\Source\Programs\SwitchboardListenerHelper\SwitchboardListenerHelper.Build.cs" />
+    <Filter Include="NvmlWrapper">
+      <UniqueIdentifier>{29CB48B0-BCFE-374E-B037-C8273203B6A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NvmlWrapper\Lib">
+      <UniqueIdentifier>{A49BBCDD-3DE2-3D65-9889-16FBF151F6E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NvmlWrapper\Lib\Linux">
+      <UniqueIdentifier>{D85A0996-A4BF-3892-B879-8357D4530B25}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Programs\SwitchboardListenerHelper\NvmlWrapper\Lib\Linux\libNvmlWrapper.a">
+      <Filter>NvmlWrapper\Lib\Linux</Filter>
+    </None>
+    <Filter Include="NvmlWrapper\Lib\Windows">
+      <UniqueIdentifier>{5120B88D-1ED2-3262-B5E4-D09704997378}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Programs\SwitchboardListenerHelper\NvmlWrapper\Lib\Windows\NvmlWrapper.lib">
+      <Filter>NvmlWrapper\Lib\Windows</Filter>
+    </None>
+    <Filter Include="NvmlWrapper\Public">
+      <UniqueIdentifier>{2BD3FE0A-2F57-3952-B4B7-515E0CE99242}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Programs\SwitchboardListenerHelper\NvmlWrapper\Public\GpuClocker.h">
+      <Filter>NvmlWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Programs\SwitchboardListenerHelper\NvmlWrapper\Public\NvmlWrapperPublic.h">
+      <Filter>NvmlWrapper\Public</Filter>
+    </ClInclude>
+    <Filter Include="Private">
+      <UniqueIdentifier>{47F9082F-C380-3A62-9531-096AA1D110F1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Programs\SwitchboardListenerHelper\Private\SBLHelperService.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\SwitchboardListenerHelper\Private\SBLHelperService.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Programs\SwitchboardListenerHelper\Private\SwitchboardListenerHelper.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Programs\SwitchboardListenerHelper\Private\SwitchboardListenerHelper.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{DDCF50C2-9294-3441-8F3F-7C1BBC892CB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Windows">
+      <UniqueIdentifier>{46AD4DD0-FE4C-3C35-90F2-9E8DC868BC67}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Programs\SwitchboardListenerHelper\Resources\Windows\SBLHelper.manifest.xml">
+      <Filter>Resources\Windows</Filter>
+    </None>
+  </ItemGroup>
+</Project>

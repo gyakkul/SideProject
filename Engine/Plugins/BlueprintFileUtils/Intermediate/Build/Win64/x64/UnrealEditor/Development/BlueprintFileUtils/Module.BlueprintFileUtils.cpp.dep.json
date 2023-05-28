@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blueprintfileutils\\module.blueprintfileutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blueprintfileutils\\definitions.blueprintfileutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintfileutils\\uht\\blueprintfileutils.init.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintfileutils\\uht\\blueprintfileutilsbplibrary.gen.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\source\\blueprintfileutils\\public\\blueprintfileutilsbplibrary.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprintfileutils\\uht\\blueprintfileutilsbplibrary.generated.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\source\\blueprintfileutils\\private\\blueprintfileutils.cpp",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\source\\blueprintfileutils\\public\\blueprintfileutils.h",
+            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\blueprintfileutils\\source\\blueprintfileutils\\private\\blueprintfileutilsbplibrary.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

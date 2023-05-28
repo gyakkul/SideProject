@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DummyMeshReconstructor.cpp.obj": [
+			"DummyMeshReconstructor.gen.cpp.obj",
+			"DummyMeshReconstructor.init.gen.cpp.obj",
+			"DummyMeshReconstructor.cpp.obj",
+			"DummyMeshReconstructorModule.cpp.obj"
+		]
+	}
+}

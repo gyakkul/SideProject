@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXProtocolArtNet.cpp.obj": [
+			"DMXProtocolArtNet.cpp.obj",
+			"DMXProtocolArtNetModule.cpp.obj",
+			"DMXProtocolArtNetReceiver.cpp.obj",
+			"DMXProtocolArtNetSender.cpp.obj",
+			"DMXProtocolArtNetPackets.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VPMaterialsEditor.cpp.obj": [
+			"SMaterialDynamicParametersPanelWidget.cpp.obj",
+			"SMaterialDynamicWidgets.cpp.obj",
+			"VPMaterialsEditorModule.cpp.obj"
+		]
+	}
+}

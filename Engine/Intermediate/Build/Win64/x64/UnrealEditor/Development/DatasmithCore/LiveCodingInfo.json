@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DatasmithCore.cpp.obj": [
+			"DatasmithCore.init.gen.cpp.obj",
+			"DatasmithDefinitions.gen.cpp.obj",
+			"DatasmithMeshUObject.gen.cpp.obj",
+			"DatasmithAnimationElementsImpl.cpp.obj",
+			"DatasmithAnimationSerializer.cpp.obj",
+			"DatasmithCloth.cpp.obj",
+			"DatasmithCore.cpp.obj",
+			"DatasmithLocaleScope.cpp.obj",
+			"DatasmithMaterialElementsImpl.cpp.obj",
+			"DatasmithMaterialsUtils.cpp.obj",
+			"DatasmithMesh.cpp.obj",
+			"DatasmithMeshSerialization.cpp.obj",
+			"DatasmithMeshUObject.cpp.obj",
+			"DatasmithSceneElementsImpl.cpp.obj",
+			"DatasmithSceneFactory.cpp.obj",
+			"DatasmithSceneXmlReader.cpp.obj",
+			"DatasmithSceneXmlWriter.cpp.obj",
+			"DatasmithTypes.cpp.obj",
+			"DatasmithUtils.cpp.obj",
+			"DatasmithDirectLinkTools.cpp.obj",
+			"DatasmithSceneReceiver.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BCFXEd.cpp.obj": [
+			"BaseCharacterFXEditor.gen.cpp.obj",
+			"BaseCharacterFXEditor.init.gen.cpp.obj",
+			"BaseCharacterFXEditorMode.gen.cpp.obj",
+			"BaseCharacterFXEditorModeUILayer.gen.cpp.obj",
+			"BaseCharacterFXEditor.cpp.obj",
+			"BaseCharacterFXEditorMode.cpp.obj",
+			"BaseCharacterFXEditorModeToolkit.cpp.obj",
+			"BaseCharacterFXEditorModeUILayer.cpp.obj",
+			"BaseCharacterFXEditorModule.cpp.obj",
+			"BaseCharacterFXEditorToolkit.cpp.obj",
+			"SBaseCharacterFXEditorViewport.cpp.obj"
+		]
+	}
+}

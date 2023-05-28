@@ -1,0 +1,96 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "NetworkPredictionExtrasLatentLoadModule.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef NETWORKPREDICTIONEXTRASLATENTLOAD_NetworkPredictionExtrasLatentLoadModule_generated_h
+#error "NetworkPredictionExtrasLatentLoadModule.generated.h already included, missing '#pragma once' in NetworkPredictionExtrasLatentLoadModule.h"
+#endif
+#define NETWORKPREDICTIONEXTRASLATENTLOAD_NetworkPredictionExtrasLatentLoadModule_generated_h
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_SPARSE_DATA
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_RPC_WRAPPERS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_ACCESSORS
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUNetworkPredictionExtrasLatentLoadStubObject(); \
+	friend struct Z_Construct_UClass_UNetworkPredictionExtrasLatentLoadStubObject_Statics; \
+public: \
+	DECLARE_CLASS(UNetworkPredictionExtrasLatentLoadStubObject, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtrasLatentLoad"), NO_API) \
+	DECLARE_SERIALIZER(UNetworkPredictionExtrasLatentLoadStubObject)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_INCLASS \
+private: \
+	static void StaticRegisterNativesUNetworkPredictionExtrasLatentLoadStubObject(); \
+	friend struct Z_Construct_UClass_UNetworkPredictionExtrasLatentLoadStubObject_Statics; \
+public: \
+	DECLARE_CLASS(UNetworkPredictionExtrasLatentLoadStubObject, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NetworkPredictionExtrasLatentLoad"), NO_API) \
+	DECLARE_SERIALIZER(UNetworkPredictionExtrasLatentLoadStubObject)
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UNetworkPredictionExtrasLatentLoadStubObject(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNetworkPredictionExtrasLatentLoadStubObject) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNetworkPredictionExtrasLatentLoadStubObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNetworkPredictionExtrasLatentLoadStubObject); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNetworkPredictionExtrasLatentLoadStubObject(UNetworkPredictionExtrasLatentLoadStubObject&&); \
+	NO_API UNetworkPredictionExtrasLatentLoadStubObject(const UNetworkPredictionExtrasLatentLoadStubObject&); \
+public: \
+	NO_API virtual ~UNetworkPredictionExtrasLatentLoadStubObject();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UNetworkPredictionExtrasLatentLoadStubObject(UNetworkPredictionExtrasLatentLoadStubObject&&); \
+	NO_API UNetworkPredictionExtrasLatentLoadStubObject(const UNetworkPredictionExtrasLatentLoadStubObject&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UNetworkPredictionExtrasLatentLoadStubObject); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNetworkPredictionExtrasLatentLoadStubObject); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNetworkPredictionExtrasLatentLoadStubObject) \
+	NO_API virtual ~UNetworkPredictionExtrasLatentLoadStubObject();
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_31_PROLOG
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_RPC_WRAPPERS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_INCLASS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_SPARSE_DATA \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_ACCESSORS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h_34_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NETWORKPREDICTIONEXTRASLATENTLOAD_API UClass* StaticClass<class UNetworkPredictionExtrasLatentLoadStubObject>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Engine_Plugins_Runtime_NetworkPredictionExtras_Source_NetworkPredictionExtrasLatentLoad_Public_NetworkPredictionExtrasLatentLoadModule_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

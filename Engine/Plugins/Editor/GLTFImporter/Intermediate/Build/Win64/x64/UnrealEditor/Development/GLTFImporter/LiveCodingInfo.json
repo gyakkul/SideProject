@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GLTFImporter.cpp.obj": [
+			"GLTFImporter.init.gen.cpp.obj",
+			"GLTFImporterContext.cpp.obj",
+			"GLTFImporterModule.cpp.obj",
+			"GLTFImportFactory.cpp.obj",
+			"GLTFImportOptions.cpp.obj",
+			"GLTFMaterialElement.cpp.obj",
+			"GLTFStaticMeshFactory.cpp.obj",
+			"GLTFTextureFactory.cpp.obj",
+			"GLTFOptionsWindow.cpp.obj"
+		]
+	}
+}

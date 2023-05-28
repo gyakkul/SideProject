@@ -1,0 +1,23 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MeshPaintingToolset.cpp.obj": [
+			"MeshPaintingToolset.init.gen.cpp.obj",
+			"MeshPaintingToolsetTypes.gen.cpp.obj",
+			"BaseMeshPaintComponentAdapter.cpp.obj",
+			"IMeshPaintComponentAdapter.cpp.obj",
+			"MeshPaintAdapterFactory.cpp.obj",
+			"MeshPaintGeometryCollectionAdapter.cpp.obj",
+			"MeshPaintHelpers.cpp.obj",
+			"MeshPaintingToolset.cpp.obj",
+			"MeshPaintInteractions.cpp.obj",
+			"MeshPaintSkeletalMeshAdapter.cpp.obj",
+			"MeshPaintSplineMeshAdapter.cpp.obj",
+			"MeshPaintStaticMeshAdapter.cpp.obj",
+			"MeshSelect.cpp.obj",
+			"MeshTexturePaintingTool.cpp.obj",
+			"MeshVertexPaintingTool.cpp.obj",
+			"TexturePaintToolset.cpp.obj"
+		]
+	}
+}

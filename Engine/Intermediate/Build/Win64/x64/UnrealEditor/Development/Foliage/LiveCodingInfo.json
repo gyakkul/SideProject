@@ -1,0 +1,32 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Foliage.cpp.obj": [
+			"Foliage.init.gen.cpp.obj",
+			"FoliageInstancedStaticMeshComponent.gen.cpp.obj",
+			"FoliageType.gen.cpp.obj",
+			"FoliageType_Actor.gen.cpp.obj",
+			"FoliageType_InstancedStaticMesh.gen.cpp.obj",
+			"InstancedFoliageActor.gen.cpp.obj",
+			"InteractiveFoliageComponent.gen.cpp.obj",
+			"FoliageActor.cpp.obj",
+			"FoliageComponent.cpp.obj",
+			"FoliageInstanceBase.cpp.obj",
+			"FoliageISMActor.cpp.obj",
+			"FoliageModule.cpp.obj",
+			"FoliageStatistics.cpp.obj",
+			"FoliageTypeObject.cpp.obj",
+			"GrassInstancedStaticMeshComponent.cpp.obj",
+			"InstancedFoliage.cpp.obj",
+			"InstancedGrass.cpp.obj",
+			"InteractiveFoliageActor.cpp.obj",
+			"ProceduralFoliageBlockingVolume.cpp.obj",
+			"ProceduralFoliageBroadphase.cpp.obj",
+			"ProceduralFoliageComponent.cpp.obj",
+			"ProceduralFoliageInstance.cpp.obj",
+			"ProceduralFoliageSpawner.cpp.obj",
+			"ProceduralFoliageTile.cpp.obj",
+			"ProceduralFoliageVolume.cpp.obj"
+		]
+	}
+}

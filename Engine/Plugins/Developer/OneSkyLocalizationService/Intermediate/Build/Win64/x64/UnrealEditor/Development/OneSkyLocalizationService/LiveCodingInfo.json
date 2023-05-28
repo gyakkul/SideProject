@@ -1,0 +1,18 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OneSkyLocalizationService.cpp.obj": [
+			"OneSkyLocalizationService.init.gen.cpp.obj",
+			"OneSkyLocalizationServiceResponseTypes.gen.cpp.obj",
+			"OneSkyLocalizationServiceSettings.gen.cpp.obj",
+			"OneSkyConnection.cpp.obj",
+			"OneSkyLocalizationServiceCommand.cpp.obj",
+			"OneSkyLocalizationServiceModule.cpp.obj",
+			"OneSkyLocalizationServiceOperations.cpp.obj",
+			"OneSkyLocalizationServiceProvider.cpp.obj",
+			"OneSkyLocalizationServiceRevision.cpp.obj",
+			"OneSkyLocalizationServiceSettings.cpp.obj",
+			"OneSkyLocalizationServiceState.cpp.obj"
+		]
+	}
+}

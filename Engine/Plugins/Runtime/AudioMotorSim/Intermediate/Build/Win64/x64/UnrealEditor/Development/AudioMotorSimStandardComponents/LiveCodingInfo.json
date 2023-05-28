@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AudioMotorSimStandardComponents.cpp.obj": [
+			"AudioMotorSimStandardComponents.init.gen.cpp.obj",
+			"AudioMotorSimStandardComponentsModule.cpp.obj",
+			"BoostMotorSimComponent.cpp.obj",
+			"MotorPhysicsSimComponent.cpp.obj",
+			"ResistanceMotorSimComponent.cpp.obj",
+			"ReverseMotorSimComponent.cpp.obj",
+			"RevLimiterMotorSimComponent.cpp.obj",
+			"RpmCurveMotorSimComponent.cpp.obj",
+			"ThrottleStateMotorSimComponent.cpp.obj",
+			"VelocitySyncMotorSimComponent.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DMXDisplayCluster.cpp.obj": [
+			"DMXDisplayClusterModule.cpp.obj",
+			"DMXDisplayClusterReplicator.cpp.obj"
+		]
+	}
+}

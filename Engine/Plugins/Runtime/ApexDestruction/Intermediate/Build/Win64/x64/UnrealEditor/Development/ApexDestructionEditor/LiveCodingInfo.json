@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ApexDestructionEditor.cpp.obj": [
+			"ActorFactoryDestructible.gen.cpp.obj",
+			"ApexDestructionEditor.init.gen.cpp.obj",
+			"DestructibleMeshThumbnailRenderer.gen.cpp.obj",
+			"ActorFactoryDestructible.cpp.obj",
+			"ApexDestructionEditorModule.cpp.obj",
+			"AssetTypeActions_DestructibleMesh.cpp.obj",
+			"DestructibleMeshThumbnailRenderer.cpp.obj",
+			"DestructibleMeshThumbnailScene.cpp.obj"
+		]
+	}
+}

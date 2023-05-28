@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CBFileDataSource.cpp.obj": [
+			"ContentBrowserFileDataSource.init.gen.cpp.obj",
+			"ContentBrowserFileDataCore.cpp.obj",
+			"ContentBrowserFileDataPayload.cpp.obj",
+			"ContentBrowserFileDataSource.cpp.obj",
+			"ContentBrowserFileDataSourceModule.cpp.obj"
+		]
+	}
+}

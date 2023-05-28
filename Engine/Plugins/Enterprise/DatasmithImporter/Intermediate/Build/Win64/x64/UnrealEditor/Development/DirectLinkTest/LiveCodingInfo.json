@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DirectLinkTest.cpp.obj": [
+			"DirectLinkTest.init.gen.cpp.obj",
+			"DirectLinkTestLibrary.gen.cpp.obj",
+			"DirectLinkTestLibrary.cpp.obj",
+			"DirectLinkTestModule.cpp.obj",
+			"TestSceneProvider.cpp.obj"
+		]
+	}
+}

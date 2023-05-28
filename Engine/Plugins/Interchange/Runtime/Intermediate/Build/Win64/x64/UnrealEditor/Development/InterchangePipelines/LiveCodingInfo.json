@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.InterchangePipelines.cpp.obj": [
+			"InterchangeGenericAssetsPipelineSharedSettings.gen.cpp.obj",
+			"InterchangePipelines.init.gen.cpp.obj",
+			"InterchangeGenericAnimationPipeline.cpp.obj",
+			"InterchangeGenericAssetsPipeline.cpp.obj",
+			"InterchangeGenericMaterialPipeline.cpp.obj",
+			"InterchangeGenericMeshPipeline.cpp.obj",
+			"InterchangeGenericScenesPipeline.cpp.obj",
+			"InterchangeGenericSkeletalMeshPipeline.cpp.obj",
+			"InterchangeGenericStaticMeshPipeline.cpp.obj",
+			"InterchangeGenericTexturePipeline.cpp.obj",
+			"InterchangePipelineMeshesUtilities.cpp.obj",
+			"InterchangePipelinesModule.cpp.obj"
+		]
+	}
+}

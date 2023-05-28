@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PaperSpriteSheetImporter.cpp.obj": [
+			"PaperSpriteSheetImporter.init.gen.cpp.obj",
+			"PaperJsonSpriteSheetImporter.cpp.obj",
+			"PaperSpriteSheet.cpp.obj",
+			"PaperSpriteSheetAssetTypeActions.cpp.obj",
+			"PaperSpriteSheetImporterModule.cpp.obj",
+			"PaperSpriteSheetImportFactory.cpp.obj",
+			"PaperSpriteSheetReimportFactory.cpp.obj"
+		]
+	}
+}

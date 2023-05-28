@@ -1,0 +1,30 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ConcertSharedSlate.cpp.obj": [
+			"ConcertFrontendUtils.gen.cpp.obj",
+			"ConcertHeaderRowUtils.gen.cpp.obj",
+			"ConcertSessionBrowserSettings.gen.cpp.obj",
+			"ConcertSharedSlate.init.gen.cpp.obj",
+			"ConcertFrontendStyle.cpp.obj",
+			"ConcertHeaderRowUtils.cpp.obj",
+			"ConcertSharedSlateModule.cpp.obj",
+			"SConcertScrollBox.cpp.obj",
+			"SConcertSessionRecovery.cpp.obj",
+			"ActivityColumn.cpp.obj",
+			"PredefinedActivityColumns.cpp.obj",
+			"SConcertSessionActivities.cpp.obj",
+			"SessionActivityUtils.cpp.obj",
+			"SConcertSessionBrowser.cpp.obj",
+			"SNewSessionRow.cpp.obj",
+			"SSaveRestoreSessionRow.cpp.obj",
+			"SSessionGroupRow.cpp.obj",
+			"SSessionRow.cpp.obj",
+			"AbstractSessionHistoryController.cpp.obj",
+			"SEditableSessionHistory.cpp.obj",
+			"SSessionHistory.cpp.obj",
+			"SSessionHistoryWrapper.cpp.obj",
+			"SPackageDetails.cpp.obj"
+		]
+	}
+}

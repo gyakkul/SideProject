@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DirectLinkExtensionEditor.cpp.obj": [
+			"DirectLinkExtensionEditor.init.gen.cpp.obj",
+			"DirectLinkSourceSearchFilter.gen.cpp.obj",
+			"DirectLinkExtensionEditorModule.cpp.obj",
+			"DirectLinkExtensionStyle.cpp.obj",
+			"DirectLinkSourceSearchFilter.cpp.obj",
+			"SDirectLinkAssetThumbnailIndicator.cpp.obj",
+			"SDirectLinkAvailableSource.cpp.obj"
+		]
+	}
+}

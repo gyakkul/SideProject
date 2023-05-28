@@ -1,0 +1,38 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SteamAudio.cpp.obj": [
+			"PhononCommon.gen.cpp.obj",
+			"PhononGeometryComponent.gen.cpp.obj",
+			"PhononMaterial.gen.cpp.obj",
+			"PhononMaterialComponent.gen.cpp.obj",
+			"PhononOcclusionSourceSettings.gen.cpp.obj",
+			"PhononProbeComponent.gen.cpp.obj",
+			"PhononProbeVolume.gen.cpp.obj",
+			"PhononReverb.gen.cpp.obj",
+			"PhononReverbSourceSettings.gen.cpp.obj",
+			"PhononSourceComponent.gen.cpp.obj",
+			"PhononSpatializationSourceSettings.gen.cpp.obj",
+			"SteamAudio.init.gen.cpp.obj",
+			"SteamAudioSettings.gen.cpp.obj",
+			"PhononCommon.cpp.obj",
+			"PhononGeometryComponent.cpp.obj",
+			"PhononMaterial.cpp.obj",
+			"PhononMaterialComponent.cpp.obj",
+			"PhononOcclusion.cpp.obj",
+			"PhononOcclusionSourceSettings.cpp.obj",
+			"PhononPluginManager.cpp.obj",
+			"PhononProbeComponent.cpp.obj",
+			"PhononProbeVolume.cpp.obj",
+			"PhononReverb.cpp.obj",
+			"PhononReverbSourceSettings.cpp.obj",
+			"PhononScene.cpp.obj",
+			"PhononSourceComponent.cpp.obj",
+			"PhononSpatialization.cpp.obj",
+			"PhononSpatializationSourceSettings.cpp.obj",
+			"SteamAudioEnvironment.cpp.obj",
+			"SteamAudioModule.cpp.obj",
+			"SteamAudioSettings.cpp.obj"
+		]
+	}
+}
