@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+	<!-- Include version -->
+	<?include ..\..\DatasmithInstallerCommon\ExporterVersion.wxi?>
+
+	<?define ProductVersion="$(var.MajorVersion).$(var.MinorVersion).$(var.PatchVersion).$(var.BuildVersion)"?>
+
+	<!-- NOTE: Language codes can be found here(LCID Decimal column): http://www.science.co.il/Language/Locale-codes.asp -->
+	<!-- en-US:1033, de-de:1031, ko-kr:1042, es-es:1034, fr-fr:1036, ja-jp:1041, pt-pt:2070, zh-cn:2052 -->
+	<?define Languages = "1033,1031,1042,1034,1036,1041,2070,2052"?>
+
+	<!-- Identify the specific product release. Using an asterisk rather than a GUID recreates a new product code each time the installer is rebuilt. -->
+	<?define ProductCode="*"?>
+
+	<!-- The Upgrade Code. Never changes. This is the true "Unreal Engine Launcher" aplication ID, and keeping it the same allows us to recognise existing installations. -->
+	<?define UpgradeCode="{4F9BD12B-2DDE-41BA-8C5F-E05B43275FAB}"?>
+
+	<!-- Defines a relative path to the main Engine directory -->
+	<?define EngineDir="..\..\..\..\..\..\..\Engine"?>
+
+	<!-- Defines a relative path to our resources directory -->
+	<?define ResourcesDir="./Resources"?>
+
+	<!-- Defines a relative path to Prereq installer's vcredist resources directory -->
+	<?define VCRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\Resources\VCRedist"?>
+
+	<!-- Defines a relative path to directory of DirectX redist resources -->
+	<?define DirectXRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\CustomAction\Resources\DirectXRedist"?>
+
+	<!-- Defines a relative path to directory where SketchUp plugins are stored -->
+	<?define BinaryDir="$(var.EngineDir)\Binaries\Win64\SketchUpRuby"?>
+
+	<!-- Defines a relative path to the ThirdParty libraries -->
+	<?define ThirdPartyDir="$(var.EngineDir)\Source\ThirdParty"?>
+
+	<Product Id="$(var.ProductCode)" Name="Unreal Datasmith Exporter for SketchUp Pro" Language="1033" Version="$(var.ProductVersion)" Manufacturer="Epic Games, Inc." UpgradeCode="$(var.UpgradeCode)">
+
+		<Package 
+			Platform="x64" 
+			InstallerVersion="405" 
+			Languages="$(var.Languages)"
+			Compressed="yes" 
+			InstallScope="perMachine" />
+
+		<!-- Find other installed versions when the product (with this product code) is first installed, but not during maintenance mode or uninstallation. -->
+		<Upgrade Id="$(var.UpgradeCode)">
+			<!-- NEWPRODUCTFOUND will be set if there is a newer product already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				IncludeMinimum="no"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="NEWPRODUCTFOUND" />
+
+			<!-- UPGRADEFOUND will be set if there is an older or same product already installed -->
+			<UpgradeVersion
+				Minimum="0.0.0"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="no"
+				Language="$(var.Languages)"
+				Property="UPGRADEFOUND" />
+
+			<!-- ANOTHERBUILDINSTALLED will be set if the same product version is already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="yes"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="ANOTHERBUILDINSTALLED" />
+		</Upgrade>
+
+		<!-- Simple Dialog to inform user that installation has aborted because no supported version of SketchUp has been found -->
+		<UI>
+			<UIRef Id="CustomWixUI_InstallDir"/>
+			<UIRef Id="WixUI_ErrorProgressText"/>
+
+			<!--These dialog references are required for util:CloseApplication to work properly -->
+			<DialogRef Id="FilesInUse" />
+			<DialogRef Id="MsiRMFilesInUse" />
+		</UI>
+
+		<!-- Create the icon for our shortcuts -->
+		<!-- NOTE: ARPPRODUCTICON is a special property recognized by Windows Installer, which sets up this icon for us -->
+		<Icon Id="UnrealEngine.ico" SourceFile="$(var.ResourcesDir)/UnrealEngine.ico" />
+		<Property Id="ARPPRODUCTICON" Value="UnrealEngine.ico" />
+
+		<!-- Customize artwork -->
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ResourcesDir)/default_small_banner.bmp" />
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ResourcesDir)/Dialog.bmp"/>
+
+		<!-- Declaration of properties SKETCHUP20xxDIR, used to store installation directory for supported versions of SketchUp -->
+		<!-- @note: Windows Installer is setting those properties to C:\ if registry key is not found -->
+		<Property Id="SKETCHUP2023DIR">
+			<RegistrySearch Id="SKETCHUP2023Search" Root="HKLM" Key="SOFTWARE\SketchUp\SketchUp 2023\InstallLocation" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="SKETCHUP2022DIR">
+			<RegistrySearch Id="SKETCHUP2022Search" Root="HKLM" Key="SOFTWARE\SketchUp\SketchUp 2022\InstallLocation" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="SKETCHUP2021DIR">
+			<RegistrySearch Id="SKETCHUP2021Search" Root="HKLM" Key="SOFTWARE\SketchUp\SketchUp 2021\InstallLocation" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="SKETCHUP2020DIR">
+			<RegistrySearch Id="SKETCHUP2020Search" Root="HKLM" Key="SOFTWARE\SketchUp\SketchUp 2020\InstallLocation" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="SKETCHUP2019DIR">
+			<RegistrySearch Id="SKETCHUP2019Search" Root="HKLM" Key="SOFTWARE\SketchUp\SketchUp 2019\InstallLocation" Type="raw" Win64="yes" />
+		</Property>
+
+		<Property Id="DATASMITHUIDIR" Value="C:\ProgramData\Epic\Exporter\"/>
+
+		<!-- Declaration of properties SKETCHUP20xxVALID used to check if the corresponding install directory of SketchUp is valid -->
+		<Property Id="SKETCHUP2023VALID">
+			<DirectorySearch Id="CheckSketchUp2023Dir" Path="[SKETCHUP2023DIR]" Depth="0">
+				<FileSearch Id="CheckSketchUp2023File" Name="SketchUp.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="SKETCHUP2022VALID">
+			<DirectorySearch Id="CheckSketchUp2022Dir" Path="[SKETCHUP2022DIR]" Depth="0">
+				<FileSearch Id="CheckSketchUp2022File" Name="SketchUp.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="SKETCHUP2021VALID">
+			<DirectorySearch Id="CheckSketchUp2021Dir" Path="[SKETCHUP2021DIR]" Depth="0">
+				<FileSearch Id="CheckSketchUp2021File" Name="SketchUp.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="SKETCHUP2020VALID">
+			<DirectorySearch Id="CheckSketchUp2020Dir" Path="[SKETCHUP2020DIR]" Depth="0">
+				<FileSearch Id="CheckSketchUp2020File" Name="SketchUp.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="SKETCHUP2019VALID">
+			<DirectorySearch Id="CheckSketchUp2019Dir" Path="[SKETCHUP2019DIR]" Depth="0">
+				<FileSearch Id="CheckSketchUp2019File" Name="SketchUp.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<Property Id="WIXUI_INSTALLDIR" Value="SketchUp2020UserPlugins" />
+		<Property Id="WIXUI_FINALINSTALLDIR" Value="SketchUp2020UserPlugins" />
+
+		<!-- Common action to declare type of content in msi -->
+		<Media Id="1" Cabinet="DatasmithSketchUpExporter.cab" EmbedCab="yes" />
+
+		<DirectoryRef Id="TARGETDIR">
+			<Component Id="RegistryEntries" Guid="{119D54A2-F207-42B4-9EB8-0B84844159D1}">
+				<RegistryKey Root="HKLM" Key="Software\EpicGames\Unreal Engine" ForceCreateOnInstall="yes">
+					<Permission User="[WIX_ACCOUNT_USERS]" GenericAll="yes" />
+					<RegistryValue Type="string" Name="SketchUpEngineDir" Value="[ENGINEFOLDER]" />
+				</RegistryKey>
+			</Component>
+		</DirectoryRef>
+
+		<!-- Group of features to install. Each one if conditional to the existence of SketchUp.exe in install folder -->
+		<!-- @note: Each sub-feature is disabled ('Level = 0') at creation. The feature is enabled, if SketchUp.exe has been found in the corresponding installation folder. -->
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<Feature Id="Feature2023" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2023" />
+				<ComponentRef Id="EXPORTER2023CODE" />
+				<ComponentRef Id="EXPORTER2023RESOURCES" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_EN_US" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_PT_BR" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_ZH_CN" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[SKETCHUP2023CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2022" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2022" />
+				<ComponentRef Id="EXPORTER2022CODE" />
+				<ComponentRef Id="EXPORTER2022RESOURCES" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_EN_US" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_PT_BR" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_ZH_CN" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[SKETCHUP2022CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2021" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2021" />
+				<ComponentRef Id="EXPORTER2021CODE" />
+				<ComponentRef Id="EXPORTER2021RESOURCES" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_EN_US" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_PT_BR" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_ZH_CN" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[SKETCHUP2021CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2020" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2020" />
+				<ComponentRef Id="EXPORTER2020CODE" />
+				<ComponentRef Id="EXPORTER2020RESOURCES" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_EN_US" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_PT_BR" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_ZH_CN" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[SKETCHUP2020CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2019" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2019" />
+				<ComponentRef Id="EXPORTER2019CODE" />
+				<ComponentRef Id="EXPORTER2019RESOURCES" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_EN_US" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_PT_BR" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_ZH_CN" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[SKETCHUP2019CHECKED = 1]]></Condition>
+			</Feature>
+		</Feature>
+
+		<!-- Adding merge modules to install VC runtimes for VC10, VC11 VC12 and VC14 -->
+		<DirectoryRef Id="TempFolder">
+			<Merge Id="Microsoft_VC100_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC100_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC120_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC120_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC142_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC142_CRT_x64.msm" DiskId="1" Language="0"/>
+		</DirectoryRef>
+
+		<!-- Adding installation of VC runtimes for VC10, VC11 VC12 and VC14 to the installation process -->
+		<Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="yes" Display="expand" Level="1">
+			<MergeRef Id="Microsoft_VC100_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC100_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC120_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC142_CRT_x64.msm" />
+		</Feature>
+
+		<!-- Adding installation modules for DirectX -->
+		<DirectoryRef Id="TempFolder">
+			<Directory Id="DirectXRedistDirectory" Name="DirectXPrereq">
+				<Component Id="DirectXRedist" Guid="{D9FBAD53-79F0-40C8-A75F-980AD8A4997A}">
+					<File Id="DXSETUPEXE" Source="$(var.DirectXRedistDir)\dxsetup.exe" KeyPath="yes" Checksum="yes">
+						<util:PermissionEx User="Everyone" GenericAll="yes" ChangePermission="yes" />
+					</File>
+					<File Id="dxupdate.cab" Source="$(var.DirectXRedistDir)\dxupdate.cab"/>
+					<File Id="dxdllreg_x86.cab" Source="$(var.DirectXRedistDir)\dxdllreg_x86.cab"/>
+					<File Id="dsetup32.dll" Source="$(var.DirectXRedistDir)\dsetup32.dll"/>
+					<File Id="dsetup.dll" Source="$(var.DirectXRedistDir)\dsetup.dll"/>
+					<File Id="APR2007_xinput_x64.cab" Source="$(var.DirectXRedistDir)\APR2007_xinput_x64.cab"/>
+					<File Id="Feb2010_X3DAudio_x64.cab" Source="$(var.DirectXRedistDir)\Feb2010_X3DAudio_x64.cab"/>
+					<File Id="Jun2010_D3DCompiler_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_D3DCompiler_43_x64.cab"/>
+					<File Id="Jun2010_d3dcsx_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dcsx_43_x64.cab"/>
+					<File Id="Jun2010_d3dx10_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx10_43_x64.cab"/>
+					<File Id="Jun2010_d3dx11_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx11_43_x64.cab"/>
+					<File Id="Jun2010_d3dx9_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx9_43_x64.cab"/>
+					<File Id="Jun2010_XAudio_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_XAudio_x64.cab"/>
+				</Component>
+			</Directory>
+		</DirectoryRef>
+
+		<!-- Adding installation of DirectX to the installation process -->
+		<Feature Id="DirectXRedist" Title="Installing DirectX" AllowAdvertise="yes" Display="expand" Level="1">
+			<ComponentRef Id="DirectXRedist"/>
+		</Feature>
+
+		<SetProperty Id="SKETCHUP2023CHECKED" After="AppSearch" Value="1">SKETCHUP2023DIR</SetProperty>
+		<SetProperty Id="SKETCHUP2022CHECKED" After="AppSearch" Value="1">SKETCHUP2022DIR</SetProperty>
+		<SetProperty Id="SKETCHUP2021CHECKED" After="AppSearch" Value="1">SKETCHUP2021DIR</SetProperty>
+		<SetProperty Id="SKETCHUP2020CHECKED" After="AppSearch" Value="1">SKETCHUP2020DIR</SetProperty>
+		<SetProperty Id="SKETCHUP2019CHECKED" After="AppSearch" Value="1">SKETCHUP2019DIR</SetProperty>
+		<SetProperty Id="NOTFOUNDSKETCHUP" After="AppSearch" Value="1">NOT SKETCHUP2023VALID AND NOT SKETCHUP2022VALID AND NOT SKETCHUP2021VALID AND NOT SKETCHUP2020VALID AND NOT SKETCHUP2019VALID</SetProperty>
+
+		<InstallExecuteSequence>
+
+			<!-- Stop the user from installing an older product version -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- Stop the user from installing the same product version -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+			<!-- Force evaluation of properties SKETCHUP201xDIR before anything else -->
+			<!-- @todo: Check if this is still required. -->
+			<Custom Action="SETSKETCHUP2023DIR" Before="AppSearch" />
+			<Custom Action="SETSKETCHUP2022DIR" Before="AppSearch" />
+			<Custom Action="SETSKETCHUP2021DIR" Before="AppSearch" />
+			<Custom Action="SETSKETCHUP2020DIR" Before="AppSearch" />
+			<Custom Action="SETSKETCHUP2019DIR" Before="AppSearch" />
+
+			<!-- Remove the old product before installing in case this is the same MSI build with isntallation to the same location. -->
+			<RemoveExistingProducts Before="InstallInitialize" />
+
+			<Custom Action="InstallDirectX" Before="InstallFinalize">
+				<![CDATA[NOT REMOVE]]>
+			</Custom>
+
+		</InstallExecuteSequence>
+
+		<!-- Setup install UI sequence -->
+		<InstallUISequence>
+
+			<!-- Abort install if no version of the exporter is selected -->
+			<Custom Action="WixExitEarlyWithSuccess" Before="ProgressDlg">NOT SKETCHUP2023CHECKED AND NOT SKETCHUP2022CHECKED AND NOT SKETCHUP2021CHECKED AND NOT SKETCHUP2020CHECKED AND NOT SKETCHUP2019CHECKED</Custom>
+
+			<!-- Abort install if no supported version of SketchUp is installed -->
+			<Custom Action="NoSketchUpInstaller" Before="ValidateProductID">NOTFOUNDSKETCHUP</Custom>
+
+			<!-- After searching for previously installed products, prevent downgrading -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- After searching for previously installed products, prevent overwriting -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+		</InstallUISequence>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+
+			<Directory Id="DATASMITHUIDIR" ComponentGuidGenerationSeed="{5A65BEC7-26B7-4094-8DCF-8DD3C5EE86C3}">
+				<Directory Id="ENGINEFOLDER" Name="SketchUpEngine">
+					<Directory Id="BINARIESFOLDER" Name="Binaries" />
+					<Directory Id="CONTENTFOLDER" Name="Content">
+						<Directory Id="CoreStyleFolder" />
+					</Directory>
+					<Directory Id="SHADERSFOLDER" Name="Shaders">
+						<Directory Id="STANDALONERENDERERFOLDER" Name="StandaloneRenderer">
+							<Directory Id="D3DShadersFolder" />
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+
+
+			<!-- Install SketchUp plugin into C:\ProgramData\SketchUp\SketchUp 2020\SketchUp\Plugins -->
+			<Directory Id="CommonAppDataFolder">
+				<Directory Id="SketchUpUserFolder" Name="SketchUp">
+					<Directory Id="SketchUp2019UserFolder" Name="SketchUp 2019">
+						<Directory Id="SketchUp2019UserSketchUpFolder" Name="SketchUp">
+							<Directory Id="SketchUp2019UserPlugins" Name="Plugins">
+								<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp" Name="UnrealDatasmithSketchUp">
+									<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources" Name="Resources">
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_de" Name="de">
+										</Directory>
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Name="en-US">
+										</Directory>
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_es" Name="es">
+										</Directory>
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Name="fr">
+										</Directory>
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Name="ja">
+										</Directory>
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Name="ko">
+										</Directory>
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Name="pt-BR">
+										</Directory>
+										<Directory Id="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Name="zh-CN">
+										</Directory>
+									</Directory>
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+					<Directory Id="SketchUp2020UserFolder" Name="SketchUp 2020">
+						<Directory Id="SketchUp2020UserSketchUpFolder" Name="SketchUp">
+							<Directory Id="SketchUp2020UserPlugins" Name="Plugins">
+								<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp" Name="UnrealDatasmithSketchUp">
+									<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources" Name="Resources">
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_de" Name="de">
+										</Directory>
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Name="en-US">
+										</Directory>
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_es" Name="es">
+										</Directory>
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Name="fr">
+										</Directory>
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Name="ja">
+										</Directory>
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Name="ko">
+										</Directory>
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Name="pt-BR">
+										</Directory>
+										<Directory Id="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Name="zh-CN">
+										</Directory>
+									</Directory>
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+					<Directory Id="SketchUp2021UserFolder" Name="SketchUp 2021">
+						<Directory Id="SketchUp2021UserSketchUpFolder" Name="SketchUp">
+							<Directory Id="SketchUp2021UserPlugins" Name="Plugins">
+								<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp" Name="UnrealDatasmithSketchUp">
+									<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources" Name="Resources">
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_de" Name="de">
+										</Directory>
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Name="en-US">
+										</Directory>
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_es" Name="es">
+										</Directory>
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Name="fr">
+										</Directory>
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Name="ja">
+										</Directory>
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Name="ko">
+										</Directory>
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Name="pt-BR">
+										</Directory>
+										<Directory Id="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Name="zh-CN">
+										</Directory>
+									</Directory>
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+					<Directory Id="SketchUp2022UserFolder" Name="SketchUp 2022">
+						<Directory Id="SketchUp2022UserSketchUpFolder" Name="SketchUp">
+							<Directory Id="SketchUp2022UserPlugins" Name="Plugins">
+								<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp" Name="UnrealDatasmithSketchUp">
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources" Name="Resources">
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_de" Name="de">
+									</Directory>
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Name="en-US">
+									</Directory>
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_es" Name="es">
+									</Directory>
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Name="fr">
+									</Directory>
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Name="ja">
+									</Directory>
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Name="ko">
+									</Directory>
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Name="pt-BR">
+									</Directory>
+									<Directory Id="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Name="zh-CN">
+									</Directory>
+									</Directory>
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+					<Directory Id="SketchUp2023UserFolder" Name="SketchUp 2023">
+						<Directory Id="SketchUp2023UserSketchUpFolder" Name="SketchUp">
+							<Directory Id="SketchUp2023UserPlugins" Name="Plugins">
+								<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp" Name="UnrealDatasmithSketchUp">
+									<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources" Name="Resources">
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_de" Name="de">
+										</Directory>
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Name="en-US">
+										</Directory>
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_es" Name="es">
+										</Directory>
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Name="fr">
+										</Directory>
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Name="ja">
+										</Directory>
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Name="ko">
+										</Directory>
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Name="pt-BR">
+										</Directory>
+										<Directory Id="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Name="zh-CN">
+										</Directory>
+									</Directory>
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="TempFolder" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+
+		<!-- Declaration of a empty binaries folder so that the engine accept our remote location for the engine dir -->
+		<Component Id="EMPTYENGINEBINARIESDIR" Directory="BINARIESFOLDER" Guid="{647E713D-A8C5-4A2A-AA8A-A3244B49EEC5}">
+			<CreateFolder/>
+		</Component>
+
+		<Component Id="EXPORTER2019" Directory="SketchUp2019UserPlugins" Guid="{AE9233C2-906B-4AC1-83CF-EE439B6AE460}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\SketchUpPlugin\2019">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2019_UnrealDatasmithSketchUp.rb" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp.rb"/>
+		</Component>
+
+		<Component Id="EXPORTER2019CODE" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp" Guid="{EBC7AE6B-DEBC-4A65-9D18-0BB8C0D84CAB}">
+			<File Id="EXPORTER2019CODE_connections_dialog.rb" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\connections_dialog.rb"/>
+			<File Id="EXPORTER2019CODE_DatasmithSketchUp.so" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\DatasmithSketchUp.so"/>
+			<File Id="EXPORTER2019CODE_logging.rb" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\logging.rb"/>
+			<File Id="EXPORTER2019CODE_messages_dialog.rb" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\messages_dialog.rb"/>
+			<File Id="EXPORTER2019CODE_plugin_main.rb" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\plugin_main.rb"/>
+			<File Id="EXPORTER2019CODE_tbb.dll" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\tbb.dll"/>
+			<File Id="EXPORTER2019CODE_utils.rb" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\utils.rb"/>
+			<File Id="EXPORTER2019CODE_version" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\version"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RESOURCES" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources" Guid="{D48E9D6F-F777-45B3-9843-999BC6C8FA7D}">
+			<File Id="EXPORTER2019RESOURCES_DatasmithAutoSyncIcon16.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon16.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithAutoSyncIcon32.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon32.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithAutoSyncIconOn16.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn16.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithAutoSyncIconOn32.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithIcon16.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon16.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithIcon32.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithLogIcon16.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon16.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithLogIcon32.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithManageConnectionsIcon16.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon16.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithManageConnectionsIcon32.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithSyncIcon16.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon16.png"/>
+			<File Id="EXPORTER2019RESOURCES_DatasmithSyncIcon32.png" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_DE" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_de" Guid="{ACF8A320-3115-438E-A6C6-339D25A4E682}">
+			<File Id="EXPORTER2019LOCALIZATION_DE_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\de\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_EN_US" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Guid="{BD199A3C-8282-4C89-AD1A-BB5D81084BA7}">
+			<File Id="EXPORTER2019LOCALIZATION_EN_US_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\en-US\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_ES" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_es" Guid="{D2DAD777-E47C-40E0-B6CE-79FC6DBB35C5}">
+			<File Id="EXPORTER2019LOCALIZATION_ES_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\es\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_FR" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Guid="{1D09D746-18BF-4D2C-BFF9-0E9BE69AF25B}">
+			<File Id="EXPORTER2019LOCALIZATION_FR_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\fr\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_JA" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Guid="{5B39E391-5F84-4D69-8C25-A99991069843}">
+			<File Id="EXPORTER2019LOCALIZATION_JA_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\ja\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_KO" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Guid="{F8FD7854-A8F9-42A8-BBC1-8FABD942C1E8}">
+			<File Id="EXPORTER2019LOCALIZATION_KO_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\ko\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_PT_BR" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Guid="{E2DFEFF6-40AF-4A7A-AB77-D33F677663B1}">
+			<File Id="EXPORTER2019LOCALIZATION_PT_BR_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\pt-BR\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LOCALIZATION_ZH_CN" Directory="SketchUp2019UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Guid="{FF4B27A0-9D65-45CB-9B4A-84155F941B30}">
+			<File Id="EXPORTER2019LOCALIZATION_ZH_CN_Plugin.strings" Source="$(var.BinaryDir)\2019\Plugin\UnrealDatasmithSketchUp\Resources\zh-CN\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020" Directory="SketchUp2020UserPlugins" Guid="{0307FBD1-A608-4CC0-BE6B-8430A61BE891}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\SketchUpPlugin\2020">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2020_UnrealDatasmithSketchUp.rb" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp.rb"/>
+		</Component>
+
+		<Component Id="EXPORTER2020CODE" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp" Guid="{05B5280A-4803-468C-B70B-03D2B2A3C82E}">
+			<File Id="EXPORTER2020CODE_connections_dialog.rb" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\connections_dialog.rb"/>
+			<File Id="EXPORTER2020CODE_DatasmithSketchUp.so" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\DatasmithSketchUp.so"/>
+			<File Id="EXPORTER2020CODE_logging.rb" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\logging.rb"/>
+			<File Id="EXPORTER2020CODE_messages_dialog.rb" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\messages_dialog.rb"/>
+			<File Id="EXPORTER2020CODE_plugin_main.rb" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\plugin_main.rb"/>
+			<File Id="EXPORTER2020CODE_tbb.dll" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\tbb.dll"/>
+			<File Id="EXPORTER2020CODE_utils.rb" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\utils.rb"/>
+			<File Id="EXPORTER2020CODE_version" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\version"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RESOURCES" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources" Guid="{5BE8249E-4CAF-4A50-98B2-3C02386AF13A}">
+			<File Id="EXPORTER2020RESOURCES_DatasmithAutoSyncIcon16.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon16.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithAutoSyncIcon32.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon32.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithAutoSyncIconOn16.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn16.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithAutoSyncIconOn32.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithIcon16.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon16.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithIcon32.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithLogIcon16.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon16.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithLogIcon32.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithManageConnectionsIcon16.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon16.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithManageConnectionsIcon32.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithSyncIcon16.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon16.png"/>
+			<File Id="EXPORTER2020RESOURCES_DatasmithSyncIcon32.png" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_DE" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_de" Guid="{0EB67820-32E8-40B7-B994-29B5CE8DD96D}">
+			<File Id="EXPORTER2020LOCALIZATION_DE_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\de\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_EN_US" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Guid="{42FF8A94-604E-4B79-B2EE-58A6EF7CC4B5}">
+			<File Id="EXPORTER2020LOCALIZATION_EN_US_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\en-US\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_ES" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_es" Guid="{5DF13F88-F70B-491B-B29E-41E023A6E00B}">
+			<File Id="EXPORTER2020LOCALIZATION_ES_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\es\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_FR" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Guid="{3B5F6FC2-96F0-4B49-86FA-80FF24830831}">
+			<File Id="EXPORTER2020LOCALIZATION_FR_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\fr\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_JA" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Guid="{392EDB06-6B1A-4F54-AE92-1DFF6F1D168B}">
+			<File Id="EXPORTER2020LOCALIZATION_JA_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\ja\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_KO" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Guid="{BE1077E4-1607-42FE-9059-CCDC34FE8955}">
+			<File Id="EXPORTER2020LOCALIZATION_KO_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\ko\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_PT_BR" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Guid="{198129F2-41DE-4B05-BA5B-612D9DD03266}">
+			<File Id="EXPORTER2020LOCALIZATION_PT_BR_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\pt-BR\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LOCALIZATION_ZH_CN" Directory="SketchUp2020UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Guid="{A1211B3A-042C-415B-80D9-6F7175610844}">
+			<File Id="EXPORTER2020LOCALIZATION_ZH_CN_Plugin.strings" Source="$(var.BinaryDir)\2020\Plugin\UnrealDatasmithSketchUp\Resources\zh-CN\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021" Directory="SketchUp2021UserPlugins" Guid="{E13C39B7-C5AB-4019-9CFC-67DF9F2C072E}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\SketchUpPlugin\2021">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2021_UnrealDatasmithSketchUp.rb" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp.rb"/>
+		</Component>
+
+		<Component Id="EXPORTER2021CODE" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp" Guid="{D2495127-9118-4F04-9F20-0FBCE83B3893}">
+			<File Id="EXPORTER2021CODE_connections_dialog.rb" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\connections_dialog.rb"/>
+			<File Id="EXPORTER2021CODE_DatasmithSketchUp.so" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\DatasmithSketchUp.so"/>
+			<File Id="EXPORTER2021CODE_logging.rb" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\logging.rb"/>
+			<File Id="EXPORTER2021CODE_messages_dialog.rb" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\messages_dialog.rb"/>
+			<File Id="EXPORTER2021CODE_plugin_main.rb" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\plugin_main.rb"/>
+			<File Id="EXPORTER2021CODE_tbb.dll" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\tbb.dll"/>
+			<File Id="EXPORTER2021CODE_utils.rb" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\utils.rb"/>
+			<File Id="EXPORTER2021CODE_version" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\version"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RESOURCES" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources" Guid="{2E2DF020-C204-47EE-93E2-1E0846D0C7F4}">
+			<File Id="EXPORTER2021RESOURCES_DatasmithAutoSyncIcon16.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon16.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithAutoSyncIcon32.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon32.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithAutoSyncIconOn16.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn16.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithAutoSyncIconOn32.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithIcon16.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon16.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithIcon32.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithLogIcon16.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon16.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithLogIcon32.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithManageConnectionsIcon16.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon16.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithManageConnectionsIcon32.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithSyncIcon16.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon16.png"/>
+			<File Id="EXPORTER2021RESOURCES_DatasmithSyncIcon32.png" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_DE" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_de" Guid="{EC940E22-7AB2-4C42-84C8-F8470E82E2A4}">
+			<File Id="EXPORTER2021LOCALIZATION_DE_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\de\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_EN_US" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Guid="{99FE3B76-19CE-473F-8CD5-531A3C638BE5}">
+			<File Id="EXPORTER2021LOCALIZATION_EN_US_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\en-US\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_ES" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_es" Guid="{04472A11-02BC-48EE-B0CF-128B5A55BD65}">
+			<File Id="EXPORTER2021LOCALIZATION_ES_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\es\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_FR" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Guid="{8966C625-05E4-4536-95D5-24120E7C9594}">
+			<File Id="EXPORTER2021LOCALIZATION_FR_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\fr\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_JA" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Guid="{159FAF3E-EB83-4ED6-8B0A-0C0D77C551D9}">
+			<File Id="EXPORTER2021LOCALIZATION_JA_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\ja\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_KO" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Guid="{2688880D-BB7F-4800-81E2-7621D6FFEFCF}">
+			<File Id="EXPORTER2021LOCALIZATION_KO_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\ko\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_PT_BR" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Guid="{BF8BD8AB-C59A-48F9-BBCA-DF556C7B9002}">
+			<File Id="EXPORTER2021LOCALIZATION_PT_BR_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\pt-BR\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LOCALIZATION_ZH_CN" Directory="SketchUp2021UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Guid="{05D8DEF8-79AF-4635-92B5-A65D87530C84}">
+			<File Id="EXPORTER2021LOCALIZATION_ZH_CN_Plugin.strings" Source="$(var.BinaryDir)\2021\Plugin\UnrealDatasmithSketchUp\Resources\zh-CN\Plugin.strings"/>
+		</Component>
+		
+		<Component Id="EXPORTER2022" Directory="SketchUp2022UserPlugins" Guid="{BD7E5B1A-E3B7-4A2C-BE95-A0BA901AA16A}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\SketchUpPlugin\2022">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2022_UnrealDatasmithSketchUp.rb" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp.rb"/>
+		</Component>
+
+		<Component Id="EXPORTER2022CODE" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp" Guid="{AA594B3B-3C97-4F48-8619-4214A0ECE96C}">
+			<File Id="EXPORTER2022CODE_connections_dialog.rb" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\connections_dialog.rb"/>
+			<File Id="EXPORTER2022CODE_DatasmithSketchUp.so" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\DatasmithSketchUp.so"/>
+			<File Id="EXPORTER2022CODE_logging.rb" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\logging.rb"/>
+			<File Id="EXPORTER2022CODE_messages_dialog.rb" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\messages_dialog.rb"/>
+			<File Id="EXPORTER2022CODE_plugin_main.rb" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\plugin_main.rb"/>
+			<File Id="EXPORTER2022CODE_tbb.dll" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\tbb.dll"/>
+			<File Id="EXPORTER2022CODE_utils.rb" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\utils.rb"/>
+			<File Id="EXPORTER2022CODE_version" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\version"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RESOURCES" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources" Guid="{27768352-C9A7-423B-9565-39BEC8413970}">
+			<File Id="EXPORTER2022RESOURCES_DatasmithAutoSyncIcon16.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon16.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithAutoSyncIcon32.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon32.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithAutoSyncIconOn16.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn16.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithAutoSyncIconOn32.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithIcon16.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon16.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithIcon32.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithLogIcon16.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon16.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithLogIcon32.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithManageConnectionsIcon16.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon16.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithManageConnectionsIcon32.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithSyncIcon16.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon16.png"/>
+			<File Id="EXPORTER2022RESOURCES_DatasmithSyncIcon32.png" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_DE" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_de" Guid="{C713D26E-3398-4841-BDBA-FDFE342A6C77}">
+			<File Id="EXPORTER2022LOCALIZATION_DE_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\de\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_EN_US" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Guid="{78CC0ED9-ADFC-47A8-9D00-55C0DAC55F02}">
+			<File Id="EXPORTER2022LOCALIZATION_EN_US_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\en-US\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_ES" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_es" Guid="{B8E5B42A-13F2-4AC1-B3E8-E04753D51BB1}">
+			<File Id="EXPORTER2022LOCALIZATION_ES_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\es\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_FR" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Guid="{A385BF3C-9536-4156-9C34-29E41C2237C7}">
+			<File Id="EXPORTER2022LOCALIZATION_FR_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\fr\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_JA" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Guid="{3358D321-7E4B-4E22-B3AA-E0BD3B6CAFF7}">
+			<File Id="EXPORTER2022LOCALIZATION_JA_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\ja\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_KO" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Guid="{A1D81804-2655-483F-84C1-A6F14419D158}">
+			<File Id="EXPORTER2022LOCALIZATION_KO_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\ko\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_PT_BR" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Guid="{D9DC85F9-1267-4597-881D-4AD225CD3B37}">
+			<File Id="EXPORTER2022LOCALIZATION_PT_BR_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\pt-BR\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LOCALIZATION_ZH_CN" Directory="SketchUp2022UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Guid="{2719ED2F-F65D-4E78-8E5B-2EA358D48B9E}">
+			<File Id="EXPORTER2022LOCALIZATION_ZH_CN_Plugin.strings" Source="$(var.BinaryDir)\2022\Plugin\UnrealDatasmithSketchUp\Resources\zh-CN\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023" Directory="SketchUp2023UserPlugins" Guid="{241623D0-873F-4DD3-B48A-561A98619BBD}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\SketchUpPlugin\2023">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2023_UnrealDatasmithSketchUp.rb" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp.rb"/>
+		</Component>
+
+		<Component Id="EXPORTER2023CODE" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp" Guid="{E0EEF905-519A-4906-8128-A42A420F9AE6}">
+			<File Id="EXPORTER2023CODE_connections_dialog.rb" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\connections_dialog.rb"/>
+			<File Id="EXPORTER2023CODE_DatasmithSketchUp.so" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\DatasmithSketchUp.so"/>
+			<File Id="EXPORTER2023CODE_logging.rb" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\logging.rb"/>
+			<File Id="EXPORTER2023CODE_messages_dialog.rb" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\messages_dialog.rb"/>
+			<File Id="EXPORTER2023CODE_plugin_main.rb" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\plugin_main.rb"/>
+			<File Id="EXPORTER2023CODE_tbb.dll" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\tbb.dll"/>
+			<File Id="EXPORTER2023CODE_utils.rb" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\utils.rb"/>
+			<File Id="EXPORTER2023CODE_version" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\version"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RESOURCES" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources" Guid="{9824DB95-B36B-4AC5-9AF1-053DD19B5654}">
+			<File Id="EXPORTER2023RESOURCES_DatasmithAutoSyncIcon16.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon16.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithAutoSyncIcon32.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIcon32.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithAutoSyncIconOn16.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn16.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithAutoSyncIconOn32.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithIcon16.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon16.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithIcon32.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithLogIcon16.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon16.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithLogIcon32.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithManageConnectionsIcon16.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon16.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithManageConnectionsIcon32.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithSyncIcon16.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon16.png"/>
+			<File Id="EXPORTER2023RESOURCES_DatasmithSyncIcon32.png" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\DatasmithSyncIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_DE" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_de" Guid="{53B05335-C4F1-46D2-BD20-1204EFF5F918}">
+			<File Id="EXPORTER2023LOCALIZATION_DE_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\de\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_EN_US" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_en_US" Guid="{7136C454-537A-4977-8F0E-3ECE533209CF}">
+			<File Id="EXPORTER2023LOCALIZATION_EN_US_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\en-US\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_ES" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_es" Guid="{E4D73D26-0E8A-40D5-A4F4-A7656B0C26A5}">
+			<File Id="EXPORTER2023LOCALIZATION_ES_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\es\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_FR" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_fr" Guid="{2837D069-E56B-4BC6-A990-58FD3346189B}">
+			<File Id="EXPORTER2023LOCALIZATION_FR_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\fr\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_JA" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_ja" Guid="{6013C681-753D-4E41-9F1B-2CA11CF2188A}">
+			<File Id="EXPORTER2023LOCALIZATION_JA_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\ja\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_KO" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_ko" Guid="{CDD4EDD9-377E-4167-831E-ACE0CC9F5082}">
+			<File Id="EXPORTER2023LOCALIZATION_KO_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\ko\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_PT_BR" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_pt_BR" Guid="{459A838A-1D8A-4143-9856-31A7C4365660}">
+			<File Id="EXPORTER2023LOCALIZATION_PT_BR_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\pt-BR\Plugin.strings"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LOCALIZATION_ZH_CN" Directory="SketchUp2023UserPlugins_UnrealDatasmithSketchUp_Resources_zh_CN" Guid="{1D84F3D9-336D-4F73-959B-01319ED10EF9}">
+			<File Id="EXPORTER2023LOCALIZATION_ZH_CN_Plugin.strings" Source="$(var.BinaryDir)\2023\Plugin\UnrealDatasmithSketchUp\Resources\zh-CN\Plugin.strings"/>
+		</Component>
+	</Fragment>
+</Wix>

@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+	<!-- Include version -->
+	<?include ..\..\DatasmithInstallerCommon\ExporterVersion.wxi?>
+
+	<?define ProductVersion="$(var.MajorVersion).$(var.MinorVersion).$(var.PatchVersion).$(var.BuildVersion)"?>
+
+	<!-- NOTE: Language codes can be found here(LCID Decimal column): http://www.science.co.il/Language/Locale-codes.asp -->
+	<!-- en-US:1033, de-de:1031, ko-kr:1042, es-es:1034, fr-fr:1036, ja-jp:1041, pt-pt:2070, zh-cn:2052 -->
+	<?define Languages = "1033"?>
+
+	<!-- Identify the specific product release. Using an asterisk rather than a GUID recreates a new product code each time the installer is rebuilt. -->
+	<?define ProductCode="*"?>
+
+	<!-- The Upgrade Code. Never changes. This is the true "Unreal Engine Launcher" aplication ID, and keeping it the same allows us to recognise existing installations. -->
+	<?define UpgradeCode="{AC65B10D-82C7-4492-8525-B0129219871F}"?>
+
+	<!-- Defines a relative path to the main Engine directory -->
+	<?define EngineDir="..\..\..\..\..\..\..\Engine"?>
+
+	<!-- Defines a relative path to our resources directory -->
+	<?define ResourcesDir="./Resources"?>
+
+	<!-- Defines a relative path to Prereq installer's vcredist resources directory -->
+	<?define VCRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\Resources\VCRedist"?>
+
+	<!-- Defines a relative path to directory of DirectX redist resources -->
+	<?define DirectXRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\CustomAction\Resources\DirectXRedist"?>
+
+	<!-- Defines a relative path to directory where Max plugins are stored -->
+	<?define BinaryDir="$(var.EngineDir)\Binaries\Win64\3DSMax"?>
+
+	<!-- Defines a relative path to directory where Max scripts are stored -->
+	<?define ScriptDir="..\Extras\3dsMaxScripts"?>
+
+	<!-- Defines a relative path to the ThirdParty libraries -->
+	<?define ThirdPartyDir="$(var.EngineDir)\Source\ThirdParty"?>
+
+	<Product Id="$(var.ProductCode)" Name="Unreal Datasmith Exporter for 3ds Max" Language="1033" Version="$(var.ProductVersion)" Manufacturer="Epic Games, Inc." UpgradeCode="$(var.UpgradeCode)">
+
+		<Package Platform="x64" InstallerVersion="405" Compressed="yes" InstallScope="perMachine" />
+
+		<!-- Find other installed versions when the product (with this product code) is first installed, but not during maintenance mode or uninstallation. -->
+		<Upgrade Id="$(var.UpgradeCode)">
+			<!-- NEWPRODUCTFOUND will be set if there is a newer product already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				IncludeMinimum="no"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="NEWPRODUCTFOUND" />
+
+			<!-- UPGRADEFOUND will be set if there is an older or same product already installed -->
+			<UpgradeVersion
+				Minimum="0.0.0"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="no"
+				Language="$(var.Languages)"
+				Property="UPGRADEFOUND" />
+
+			<!-- ANOTHERBUILDINSTALLED will be set if the same product version is already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="yes"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="ANOTHERBUILDINSTALLED" />
+		</Upgrade>
+
+		<!-- Simple Dialog to inform user that installation has aborted because no supported version of 3ds Max has been found -->
+		<UI>
+			<UIRef Id="CustomWixUI_InstallDir"/>
+			<UIRef Id="WixUI_ErrorProgressText"/>
+
+			<!--These dialog references are required for util:CloseApplication to work properly -->
+			<DialogRef Id="FilesInUse" />
+			<DialogRef Id="MsiRMFilesInUse" />
+		</UI>
+
+		<!-- Create the icon for our shortcuts -->
+		<!-- NOTE: ARPPRODUCTICON is a special property recognized by Windows Installer, which sets up this icon for us -->
+		<Icon Id="UnrealEngine.ico" SourceFile="$(var.ResourcesDir)/UnrealEngine.ico" />
+		<Property Id="ARPPRODUCTICON" Value="UnrealEngine.ico" />
+
+		<!-- Customize artwork -->
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ResourcesDir)/default_small_banner.bmp" />
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ResourcesDir)/Dialog.bmp"/>
+
+		<!-- Declaration of properties MAX20xxDIR, used to store installation directory for supported versions of 3ds Max -->
+		<!-- @note: Windows Installer is setting those properties to C:\ if registry key is not found -->
+		<Property Id="MAX2023DIR">
+			<RegistrySearch Id="MAX2023Search" Root="HKLM" Key="SOFTWARE\Autodesk\3dsMax\25.0" Name="Installdir" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="MAX2022DIR">
+			<RegistrySearch Id="MAX2022Search" Root="HKLM" Key="SOFTWARE\Autodesk\3dsMax\24.0" Name="Installdir" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="MAX2021DIR">
+			<RegistrySearch Id="MAX2021Search" Root="HKLM" Key="SOFTWARE\Autodesk\3dsMax\23.0" Name="Installdir" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="MAX2020DIR">
+			<RegistrySearch Id="MAX2020Search" Root="HKLM" Key="SOFTWARE\Autodesk\3dsMax\22.0" Name="Installdir" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="MAX2019DIR">
+			<RegistrySearch Id="MAX2019Search" Root="HKLM" Key="SOFTWARE\Autodesk\3dsMax\21.0" Name="Installdir" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="MAX2018DIR">
+			<RegistrySearch Id="MAX2018Search" Root="HKLM" Key="SOFTWARE\Autodesk\3dsMax\20.0" Name="Installdir" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="MAX2017DIR">
+			<RegistrySearch Id="MAX2017Search" Root="HKLM" Key="SOFTWARE\Autodesk\3dsMax\19.0" Name="Installdir" Type="raw" Win64="yes" />
+		</Property>
+
+		<Property Id="DATASMITHUIDIR" Value="C:\ProgramData\Epic\Exporter\"/>
+		
+		<!-- Declaration of properties MAX20xxVALID used to check if the corresponding install directory of 3ds Max is valid -->
+		<Property Id="MAX2023VALID">
+			<DirectorySearch Id="CheckMax2023Dir" Path="[MAX2023DIR]" Depth="0">
+				<FileSearch Id="CheckMax2023File" Name="3dsmax.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="MAX2022VALID">
+			<DirectorySearch Id="CheckMax2022Dir" Path="[MAX2022DIR]" Depth="0">
+				<FileSearch Id="CheckMax2022File" Name="3dsmax.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="MAX2021VALID">
+			<DirectorySearch Id="CheckMax2021Dir" Path="[MAX2021DIR]" Depth="0">
+				<FileSearch Id="CheckMax2021File" Name="3dsmax.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="MAX2020VALID">
+			<DirectorySearch Id="CheckMax2020Dir" Path="[MAX2020DIR]" Depth="0">
+				<FileSearch Id="CheckMax2020File" Name="3dsmax.exe" />
+			</DirectorySearch>
+		</Property>
+	    <Property Id="MAX2019VALID">
+			<DirectorySearch Id="CheckMax2019Dir" Path="[MAX2019DIR]" Depth="0">
+				<FileSearch Id="CheckMax2019File" Name="3dsmax.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="MAX2018VALID">
+			<DirectorySearch Id="CheckMax2018Dir" Path="[MAX2018DIR]" Depth="0">
+				<FileSearch Id="CheckMax2018File" Name="3dsmax.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="MAX2017VALID">
+			<DirectorySearch Id="CheckMax2017Dir" Path="[MAX2017DIR]" Depth="0">
+				<FileSearch Id="CheckMax2017File" Name="3dsmax.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<Property Id="WIXUI_INSTALLDIR" Value="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax" />
+		<Property Id="WIXUI_FINALINSTALLDIR" Value="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax" />
+
+		<!-- Common action to declare type of content in msi -->
+		<Media Id="1" Cabinet="Datasmith3dsmaxExporter.cab" EmbedCab="yes" />
+
+		<DirectoryRef Id="TARGETDIR">
+			<Component Id="RegistryEntries" Guid="{E65D9DC1-71C2-4D07-92B8-6330DB563E4D}">
+				<RegistryKey Root="HKLM" Key="Software\EpicGames\Unreal Engine" ForceCreateOnInstall="yes">
+					<Permission User="[WIX_ACCOUNT_USERS]" GenericAll="yes" />
+					<RegistryValue Type="string" Name="3dsMaxEngineDir" Value="[ENGINEFOLDER]" />
+				</RegistryKey>
+			</Component>
+		</DirectoryRef>
+
+		<!-- Group of features to install. Each one if conditional to the existence of 3dsmax.exe in install folder -->
+		<!-- @note: Each sub-feature is disabled ('Level = 0') at creation. The feature is enabled, if 3dsmax.exe has been found in the corresponding installation folder. -->
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<Feature Id="FeatureCommon" Title="Installer" Level="1">
+				<ComponentRef Id="EXPORTERCOMMON" />
+				<ComponentRef Id="EXPORTERCOMMONUI" />
+				<ComponentRef Id="EXPORTERCOMMONUI_EN_US" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+			</Feature>
+
+			<Feature Id="Feature2017" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2017" />
+				<ComponentRef Id="EXPORTER2017RIBBON_de_DE" />
+				<ComponentRef Id="EXPORTER2017RIBBON_en_US" />
+				<ComponentRef Id="EXPORTER2017RIBBON_fr_FR" />
+				<ComponentRef Id="EXPORTER2017RIBBON_ja_JP" />
+				<ComponentRef Id="EXPORTER2017RIBBON_ko_KR" />
+				<ComponentRef Id="EXPORTER2017RIBBON_pt_BR" />
+				<ComponentRef Id="EXPORTER2017RIBBON_zh_CN" />
+				<ComponentRef Id="EXPORTER2017DARKICONS" />
+				<ComponentRef Id="EXPORTER2017LIGHTICONS" />
+				<Condition Level="1"><![CDATA[MAX2017CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2018" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2018" />
+				<ComponentRef Id="EXPORTER2018RIBBON_de_DE" />
+				<ComponentRef Id="EXPORTER2018RIBBON_en_US" />
+				<ComponentRef Id="EXPORTER2018RIBBON_fr_FR" />
+				<ComponentRef Id="EXPORTER2018RIBBON_ja_JP" />
+				<ComponentRef Id="EXPORTER2018RIBBON_ko_KR" />
+				<ComponentRef Id="EXPORTER2018RIBBON_pt_BR" />
+				<ComponentRef Id="EXPORTER2018RIBBON_zh_CN" />
+				<ComponentRef Id="EXPORTER2018DARKICONS" />
+				<ComponentRef Id="EXPORTER2018LIGHTICONS" />
+				<Condition Level="1"><![CDATA[MAX2018CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2019" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2019" />
+				<ComponentRef Id="EXPORTER2019RIBBON_de_DE" />
+				<ComponentRef Id="EXPORTER2019RIBBON_en_US" />
+				<ComponentRef Id="EXPORTER2019RIBBON_fr_FR" />
+				<ComponentRef Id="EXPORTER2019RIBBON_ja_JP" />
+				<ComponentRef Id="EXPORTER2019RIBBON_ko_KR" />
+				<ComponentRef Id="EXPORTER2019RIBBON_pt_BR" />
+				<ComponentRef Id="EXPORTER2019RIBBON_zh_CN" />
+				<ComponentRef Id="EXPORTER2019DARKICONS" />
+				<ComponentRef Id="EXPORTER2019LIGHTICONS" />
+				<Condition Level="1"><![CDATA[MAX2019CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2020" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2020" />
+				<ComponentRef Id="EXPORTER2020RIBBON_de_DE" />
+				<ComponentRef Id="EXPORTER2020RIBBON_en_US" />
+				<ComponentRef Id="EXPORTER2020RIBBON_fr_FR" />
+				<ComponentRef Id="EXPORTER2020RIBBON_ja_JP" />
+				<ComponentRef Id="EXPORTER2020RIBBON_ko_KR" />
+				<ComponentRef Id="EXPORTER2020RIBBON_pt_BR" />
+				<ComponentRef Id="EXPORTER2020RIBBON_zh_CN" />
+				<ComponentRef Id="EXPORTER2020DARKICONS" />
+				<ComponentRef Id="EXPORTER2020LIGHTICONS" />
+				<Condition Level="1"><![CDATA[MAX2020CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2021" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2021" />
+				<ComponentRef Id="EXPORTER2021RIBBON_de_DE" />
+				<ComponentRef Id="EXPORTER2021RIBBON_en_US" />
+				<ComponentRef Id="EXPORTER2021RIBBON_fr_FR" />
+				<ComponentRef Id="EXPORTER2021RIBBON_ja_JP" />
+				<ComponentRef Id="EXPORTER2021RIBBON_ko_KR" />
+				<ComponentRef Id="EXPORTER2021RIBBON_pt_BR" />
+				<ComponentRef Id="EXPORTER2021RIBBON_zh_CN" />
+				<ComponentRef Id="EXPORTER2021DARKICONS" />
+				<ComponentRef Id="EXPORTER2021LIGHTICONS" />
+				<Condition Level="1"><![CDATA[MAX2021CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2022" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2022" />
+				<ComponentRef Id="EXPORTER2022RIBBON_de_DE" />
+				<ComponentRef Id="EXPORTER2022RIBBON_en_US" />
+				<ComponentRef Id="EXPORTER2022RIBBON_fr_FR" />
+				<ComponentRef Id="EXPORTER2022RIBBON_ja_JP" />
+				<ComponentRef Id="EXPORTER2022RIBBON_ko_KR" />
+				<ComponentRef Id="EXPORTER2022RIBBON_pt_BR" />
+				<ComponentRef Id="EXPORTER2022RIBBON_zh_CN" />
+				<ComponentRef Id="EXPORTER2022DARKICONS" />
+				<ComponentRef Id="EXPORTER2022LIGHTICONS" />
+				<Condition Level="1"><![CDATA[MAX2022CHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature2023" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2023" />
+				<ComponentRef Id="EXPORTER2023RIBBON_de_DE" />
+				<ComponentRef Id="EXPORTER2023RIBBON_en_US" />
+				<ComponentRef Id="EXPORTER2023RIBBON_fr_FR" />
+				<ComponentRef Id="EXPORTER2023RIBBON_ja_JP" />
+				<ComponentRef Id="EXPORTER2023RIBBON_ko_KR" />
+				<ComponentRef Id="EXPORTER2023RIBBON_pt_BR" />
+				<ComponentRef Id="EXPORTER2023RIBBON_zh_CN" />
+				<ComponentRef Id="EXPORTER2023DARKICONS" />
+				<ComponentRef Id="EXPORTER2023LIGHTICONS" />
+				<Condition Level="1"><![CDATA[MAX2023CHECKED = 1]]></Condition>
+			</Feature>
+		</Feature>
+
+		<!-- Adding merge modules to install VC runtimes for VC10, VC11 VC12 and VC14 -->
+		<DirectoryRef Id="TempFolder">
+			<Merge Id="Microsoft_VC100_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC100_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC120_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC120_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC142_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC142_CRT_x64.msm" DiskId="1" Language="0"/>
+		</DirectoryRef>
+
+		<!-- Adding installation of VC runtimes for VC10, VC11 VC12 and VC14 to the installation process -->
+		<Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="yes" Display="expand" Level="1">
+			<MergeRef Id="Microsoft_VC100_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC100_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC120_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC142_CRT_x64.msm" />
+		</Feature>
+
+		<!-- Adding installation modules for DirectX -->
+		<DirectoryRef Id="TempFolder">
+			<Directory Id="DirectXRedistDirectory" Name="DirectXPrereq">
+				<Component Id="DirectXRedist" Guid="{D9FBAD53-79F0-40C8-A75F-980AD8A4997A}">
+					<File Id="DXSETUPEXE" Source="$(var.DirectXRedistDir)\dxsetup.exe" KeyPath="yes" Checksum="yes">
+						<util:PermissionEx User="Everyone" GenericAll="yes" ChangePermission="yes" />
+					</File>
+					<File Id="dxupdate.cab" Source="$(var.DirectXRedistDir)\dxupdate.cab"/>
+					<File Id="dxdllreg_x86.cab" Source="$(var.DirectXRedistDir)\dxdllreg_x86.cab"/>
+					<File Id="dsetup32.dll" Source="$(var.DirectXRedistDir)\dsetup32.dll"/>
+					<File Id="dsetup.dll" Source="$(var.DirectXRedistDir)\dsetup.dll"/>
+					<File Id="APR2007_xinput_x64.cab" Source="$(var.DirectXRedistDir)\APR2007_xinput_x64.cab"/>
+					<File Id="Feb2010_X3DAudio_x64.cab" Source="$(var.DirectXRedistDir)\Feb2010_X3DAudio_x64.cab"/>
+					<File Id="Jun2010_D3DCompiler_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_D3DCompiler_43_x64.cab"/>
+					<File Id="Jun2010_d3dcsx_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dcsx_43_x64.cab"/>
+					<File Id="Jun2010_d3dx10_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx10_43_x64.cab"/>
+					<File Id="Jun2010_d3dx11_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx11_43_x64.cab"/>
+					<File Id="Jun2010_d3dx9_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx9_43_x64.cab"/>
+					<File Id="Jun2010_XAudio_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_XAudio_x64.cab"/>
+				</Component>
+			</Directory>
+		</DirectoryRef>
+
+		<!-- Adding installation of DirectX to the installation process -->
+		<Feature Id="DirectXRedist" Title="Installing DirectX" AllowAdvertise="yes" Display="expand" Level="1">
+			<ComponentRef Id="DirectXRedist"/>
+		</Feature>
+
+		<SetProperty Id="MAX2023CHECKED" After="AppSearch" Value="1">MAX2023VALID</SetProperty>
+		<SetProperty Id="MAX2022CHECKED" After="AppSearch" Value="1">MAX2022VALID</SetProperty>
+		<SetProperty Id="MAX2021CHECKED" After="AppSearch" Value="1">MAX2021VALID</SetProperty>
+		<SetProperty Id="MAX2020CHECKED" After="AppSearch" Value="1">MAX2020VALID</SetProperty>
+		<SetProperty Id="MAX2019CHECKED" After="AppSearch" Value="1">MAX2019VALID</SetProperty>
+		<SetProperty Id="MAX2018CHECKED" After="AppSearch" Value="1">MAX2018VALID</SetProperty>
+		<SetProperty Id="MAX2017CHECKED" After="AppSearch" Value="1">MAX2017VALID</SetProperty>
+		
+		<SetProperty Id="NOTFOUND3DSMAX" After="AppSearch" Value="1">NOT MAX2023VALID AND NOT MAX2022VALID AND NOT MAX2021VALID AND NOT MAX2020VALID AND NOT MAX2019VALID AND NOT MAX2018VALID AND NOT MAX2017VALID</SetProperty>
+
+		<InstallExecuteSequence>
+
+			<!-- Stop the user from installing an older product version -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- Stop the user from installing the same product version -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+			<!-- Remove the old product before installing in case this is the same MSI build with isntallation to the same location. -->
+			<RemoveExistingProducts Before="InstallInitialize" />
+
+			<Custom Action="InstallDirectX" Before="InstallFinalize">
+				<![CDATA[NOT REMOVE]]>
+			</Custom>
+
+		</InstallExecuteSequence>
+
+		<!-- Setup install UI sequence -->
+		<InstallUISequence>
+
+			<!-- Abort install if no version of the exporter is selected -->
+			<Custom Action="WixExitEarlyWithSuccess" Before="ProgressDlg">NOT MAX2023CHECKED AND NOT MAX2022CHECKED AND NOT MAX2021CHECKED AND NOT MAX2020CHECKED AND NOT MAX2019CHECKED AND NOT MAX2018CHECKED AND NOT MAX2017CHECKED</Custom>
+
+			<!-- Abort install if no supported version of 3ds Max is installed -->
+			<Custom Action="No3dsMaxInstaller" Before="ValidateProductID">NOTFOUND3DSMAX</Custom>
+
+			<!-- After searching for previously installed products, prevent downgrading -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- After searching for previously installed products, prevent overwriting -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+		</InstallUISequence>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+
+			<Directory Id="DATASMITHUIDIR" ComponentGuidGenerationSeed="{7DD763D6-5B8B-4FD5-A7D0-ABABE318FFC8}">
+				<Directory Id="ENGINEFOLDER" Name="3dsMaxEngine">
+					<Directory Id="BINARIESFOLDER" Name="Binaries" />
+					<Directory Id="CONTENTFOLDER" Name="Content">
+						<Directory Id="CoreStyleFolder" />
+					</Directory>
+					<Directory Id="SHADERSFOLDER" Name="Shaders">
+						<Directory Id="STANDALONERENDERERFOLDER" Name="StandaloneRenderer">
+							<Directory Id="D3DShadersFolder" />
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+
+
+			<!-- Install 3ds Max plugin into C:\ProgramData\Autodesk\ApplicationPlugins -->
+			<Directory Id="CommonAppDataFolder">
+				<Directory Id="AutodeskUserFolder" Name="Autodesk">
+					<Directory Id="AutodeskApplicationPluginsUserFolder" Name="ApplicationPlugins">
+						<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax" Name="UnrealDatasmithMax">
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_UI" Name="UI">
+								<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_UI_en_Us" Name="en-Us">
+								</Directory>
+							</Directory>
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2017" Name="2017">
+							</Directory>
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2018" Name="2018">
+							</Directory>
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2019" Name="2019">
+							</Directory>
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2020" Name="2020">
+							</Directory>
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2021" Name="2021">
+							</Directory>
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2022" Name="2022">
+							</Directory>
+							<Directory Id="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2023" Name="2023">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="MAX2017DIR">
+				<Directory Id="INSTALLYYY2017DIR_UI_ln" Name="UI_ln">
+					<Directory Id="INSTALLYYY2017DIR_UI_ln_Resources" Name="Resources">
+						<Directory Id="INSTALLYYY2017DIR_UI_ln_Resources_Dark" Name="Dark">
+							<Directory Id="INSTALLYYY2017DIR_UI_ln_Resources_Dark_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2017DIR_UI_ln_Resources_Dark_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="INSTALLYYY2017DIR_UI_ln_Resources_Light" Name="Light">
+							<Directory Id="INSTALLYYY2017DIR_UI_ln_Resources_Light_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2017DIR_UI_ln_Resources_Light_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2017DIR_de_DE" Name="de-DE">
+					<Directory Id="INSTALLXXX2017DIR_de_DE_UI" Name="UI">
+						<Directory Id="INSTALLXXX2017DIR_de_DE_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2017DIR_de_DE_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2017DIR_en_US" Name="en-US">
+					<Directory Id="INSTALLXXX2017DIR_en_US_UI" Name="UI">
+						<Directory Id="INSTALLXXX2017DIR_en_US_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2017DIR_en_US_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2017DIR_fr_FR" Name="fr-FR">
+					<Directory Id="INSTALLXXX2017DIR_fr_FR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2017DIR_fr_FR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2017DIR_fr_FR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2017DIR_ja_JP" Name="ja-JP">
+					<Directory Id="INSTALLXXX2017DIR_ja_JP_UI" Name="UI">
+						<Directory Id="INSTALLXXX2017DIR_ja_JP_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2017DIR_ja_JP_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2017DIR_ko_KR" Name="ko-KR">
+					<Directory Id="INSTALLXXX2017DIR_ko_KR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2017DIR_ko_KR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2017DIR_ko_KR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2017DIR_pt_BR" Name="pt-BR">
+					<Directory Id="INSTALLXXX2017DIR_pt_BR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2017DIR_pt_BR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2017DIR_pt_BR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2017DIR_zh_CN" Name="zh-CN">
+					<Directory Id="INSTALLXXX2017DIR_zh_CN_UI" Name="UI">
+						<Directory Id="INSTALLXXX2017DIR_zh_CN_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2017DIR_zh_CN_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="MAX2018DIR">
+				<Directory Id="INSTALLYYY2018DIR_UI_ln" Name="UI_ln">
+					<Directory Id="INSTALLYYY2018DIR_UI_ln_Resources" Name="Resources">
+						<Directory Id="INSTALLYYY2018DIR_UI_ln_Resources_Dark" Name="Dark">
+							<Directory Id="INSTALLYYY2018DIR_UI_ln_Resources_Dark_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2018DIR_UI_ln_Resources_Dark_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="INSTALLYYY2018DIR_UI_ln_Resources_Light" Name="Light">
+							<Directory Id="INSTALLYYY2018DIR_UI_ln_Resources_Light_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2018DIR_UI_ln_Resources_Light_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2018DIR_de_DE" Name="de-DE">
+					<Directory Id="INSTALLXXX2018DIR_de_DE_UI" Name="UI">
+						<Directory Id="INSTALLXXX2018DIR_de_DE_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2018DIR_de_DE_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2018DIR_en_US" Name="en-US">
+					<Directory Id="INSTALLXXX2018DIR_en_US_UI" Name="UI">
+						<Directory Id="INSTALLXXX2018DIR_en_US_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2018DIR_en_US_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2018DIR_fr_FR" Name="fr-FR">
+					<Directory Id="INSTALLXXX2018DIR_fr_FR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2018DIR_fr_FR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2018DIR_fr_FR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2018DIR_ja_JP" Name="ja-JP">
+					<Directory Id="INSTALLXXX2018DIR_ja_JP_UI" Name="UI">
+						<Directory Id="INSTALLXXX2018DIR_ja_JP_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2018DIR_ja_JP_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2018DIR_ko_KR" Name="ko-KR">
+					<Directory Id="INSTALLXXX2018DIR_ko_KR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2018DIR_ko_KR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2018DIR_ko_KR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2018DIR_pt_BR" Name="pt-BR">
+					<Directory Id="INSTALLXXX2018DIR_pt_BR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2018DIR_pt_BR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2018DIR_pt_BR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2018DIR_zh_CN" Name="zh-CN">
+					<Directory Id="INSTALLXXX2018DIR_zh_CN_UI" Name="UI">
+						<Directory Id="INSTALLXXX2018DIR_zh_CN_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2018DIR_zh_CN_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="MAX2019DIR">
+				<Directory Id="INSTALLYYY2019DIR_UI_ln" Name="UI_ln">
+					<Directory Id="INSTALLYYY2019DIR_UI_ln_Resources" Name="Resources">
+						<Directory Id="INSTALLYYY2019DIR_UI_ln_Resources_Dark" Name="Dark">
+							<Directory Id="INSTALLYYY2019DIR_UI_ln_Resources_Dark_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2019DIR_UI_ln_Resources_Dark_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="INSTALLYYY2019DIR_UI_ln_Resources_Light" Name="Light">
+							<Directory Id="INSTALLYYY2019DIR_UI_ln_Resources_Light_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2019DIR_UI_ln_Resources_Light_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2019DIR_de_DE" Name="de-DE">
+					<Directory Id="INSTALLXXX2019DIR_de_DE_UI" Name="UI">
+						<Directory Id="INSTALLXXX2019DIR_de_DE_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2019DIR_de_DE_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2019DIR_en_US" Name="en-US">
+					<Directory Id="INSTALLXXX2019DIR_en_US_UI" Name="UI">
+						<Directory Id="INSTALLXXX2019DIR_en_US_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2019DIR_en_US_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2019DIR_fr_FR" Name="fr-FR">
+					<Directory Id="INSTALLXXX2019DIR_fr_FR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2019DIR_fr_FR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2019DIR_fr_FR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2019DIR_ja_JP" Name="ja-JP">
+					<Directory Id="INSTALLXXX2019DIR_ja_JP_UI" Name="UI">
+						<Directory Id="INSTALLXXX2019DIR_ja_JP_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2019DIR_ja_JP_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2019DIR_ko_KR" Name="ko-KR">
+					<Directory Id="INSTALLXXX2019DIR_ko_KR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2019DIR_ko_KR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2019DIR_ko_KR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2019DIR_pt_BR" Name="pt-BR">
+					<Directory Id="INSTALLXXX2019DIR_pt_BR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2019DIR_pt_BR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2019DIR_pt_BR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2019DIR_zh_CN" Name="zh-CN">
+					<Directory Id="INSTALLXXX2019DIR_zh_CN_UI" Name="UI">
+						<Directory Id="INSTALLXXX2019DIR_zh_CN_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2019DIR_zh_CN_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="MAX2020DIR">
+				<Directory Id="INSTALLYYY2020DIR_UI_ln" Name="UI_ln">
+					<Directory Id="INSTALLYYY2020DIR_UI_ln_Resources" Name="Resources">
+						<Directory Id="INSTALLYYY2020DIR_UI_ln_Resources_Dark" Name="Dark">
+							<Directory Id="INSTALLYYY2020DIR_UI_ln_Resources_Dark_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2020DIR_UI_ln_Resources_Dark_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="INSTALLYYY2020DIR_UI_ln_Resources_Light" Name="Light">
+							<Directory Id="INSTALLYYY2020DIR_UI_ln_Resources_Light_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2020DIR_UI_ln_Resources_Light_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2020DIR_de_DE" Name="de-DE">
+					<Directory Id="INSTALLXXX2020DIR_de_DE_UI" Name="UI">
+						<Directory Id="INSTALLXXX2020DIR_de_DE_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2020DIR_de_DE_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2020DIR_en_US" Name="en-US">
+					<Directory Id="INSTALLXXX2020DIR_en_US_UI" Name="UI">
+						<Directory Id="INSTALLXXX2020DIR_en_US_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2020DIR_en_US_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2020DIR_fr_FR" Name="fr-FR">
+					<Directory Id="INSTALLXXX2020DIR_fr_FR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2020DIR_fr_FR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2020DIR_fr_FR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2020DIR_ja_JP" Name="ja-JP">
+					<Directory Id="INSTALLXXX2020DIR_ja_JP_UI" Name="UI">
+						<Directory Id="INSTALLXXX2020DIR_ja_JP_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2020DIR_ja_JP_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2020DIR_ko_KR" Name="ko-KR">
+					<Directory Id="INSTALLXXX2020DIR_ko_KR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2020DIR_ko_KR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2020DIR_ko_KR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2020DIR_pt_BR" Name="pt-BR">
+					<Directory Id="INSTALLXXX2020DIR_pt_BR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2020DIR_pt_BR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2020DIR_pt_BR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2020DIR_zh_CN" Name="zh-CN">
+					<Directory Id="INSTALLXXX2020DIR_zh_CN_UI" Name="UI">
+						<Directory Id="INSTALLXXX2020DIR_zh_CN_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2020DIR_zh_CN_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="MAX2021DIR">
+				<Directory Id="INSTALLYYY2021DIR_UI_ln" Name="UI_ln">
+					<Directory Id="INSTALLYYY2021DIR_UI_ln_Resources" Name="Resources">
+						<Directory Id="INSTALLYYY2021DIR_UI_ln_Resources_Dark" Name="Dark">
+							<Directory Id="INSTALLYYY2021DIR_UI_ln_Resources_Dark_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2021DIR_UI_ln_Resources_Dark_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="INSTALLYYY2021DIR_UI_ln_Resources_Light" Name="Light">
+							<Directory Id="INSTALLYYY2021DIR_UI_ln_Resources_Light_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2021DIR_UI_ln_Resources_Light_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2021DIR_de_DE" Name="de-DE">
+					<Directory Id="INSTALLXXX2021DIR_de_DE_UI" Name="UI">
+						<Directory Id="INSTALLXXX2021DIR_de_DE_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2021DIR_de_DE_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2021DIR_en_US" Name="en-US">
+					<Directory Id="INSTALLXXX2021DIR_en_US_UI" Name="UI">
+						<Directory Id="INSTALLXXX2021DIR_en_US_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2021DIR_en_US_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2021DIR_fr_FR" Name="fr-FR">
+					<Directory Id="INSTALLXXX2021DIR_fr_FR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2021DIR_fr_FR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2021DIR_fr_FR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2021DIR_ja_JP" Name="ja-JP">
+					<Directory Id="INSTALLXXX2021DIR_ja_JP_UI" Name="UI">
+						<Directory Id="INSTALLXXX2021DIR_ja_JP_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2021DIR_ja_JP_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2021DIR_ko_KR" Name="ko-KR">
+					<Directory Id="INSTALLXXX2021DIR_ko_KR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2021DIR_ko_KR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2021DIR_ko_KR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2021DIR_pt_BR" Name="pt-BR">
+					<Directory Id="INSTALLXXX2021DIR_pt_BR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2021DIR_pt_BR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2021DIR_pt_BR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2021DIR_zh_CN" Name="zh-CN">
+					<Directory Id="INSTALLXXX2021DIR_zh_CN_UI" Name="UI">
+						<Directory Id="INSTALLXXX2021DIR_zh_CN_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2021DIR_zh_CN_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="MAX2022DIR">
+				<Directory Id="INSTALLYYY2022DIR_UI_ln" Name="UI_ln">
+					<Directory Id="INSTALLYYY2022DIR_UI_ln_Resources" Name="Resources">
+						<Directory Id="INSTALLYYY2022DIR_UI_ln_Resources_Dark" Name="Dark">
+							<Directory Id="INSTALLYYY2022DIR_UI_ln_Resources_Dark_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2022DIR_UI_ln_Resources_Dark_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="INSTALLYYY2022DIR_UI_ln_Resources_Light" Name="Light">
+							<Directory Id="INSTALLYYY2022DIR_UI_ln_Resources_Light_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2022DIR_UI_ln_Resources_Light_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2022DIR_de_DE" Name="de-DE">
+					<Directory Id="INSTALLXXX2022DIR_de_DE_UI" Name="UI">
+						<Directory Id="INSTALLXXX2022DIR_de_DE_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2022DIR_de_DE_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2022DIR_en_US" Name="en-US">
+					<Directory Id="INSTALLXXX2022DIR_en_US_UI" Name="UI">
+						<Directory Id="INSTALLXXX2022DIR_en_US_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2022DIR_en_US_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2022DIR_fr_FR" Name="fr-FR">
+					<Directory Id="INSTALLXXX2022DIR_fr_FR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2022DIR_fr_FR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2022DIR_fr_FR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2022DIR_ja_JP" Name="ja-JP">
+					<Directory Id="INSTALLXXX2022DIR_ja_JP_UI" Name="UI">
+						<Directory Id="INSTALLXXX2022DIR_ja_JP_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2022DIR_ja_JP_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2022DIR_ko_KR" Name="ko-KR">
+					<Directory Id="INSTALLXXX2022DIR_ko_KR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2022DIR_ko_KR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2022DIR_ko_KR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2022DIR_pt_BR" Name="pt-BR">
+					<Directory Id="INSTALLXXX2022DIR_pt_BR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2022DIR_pt_BR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2022DIR_pt_BR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2022DIR_zh_CN" Name="zh-CN">
+					<Directory Id="INSTALLXXX2022DIR_zh_CN_UI" Name="UI">
+						<Directory Id="INSTALLXXX2022DIR_zh_CN_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2022DIR_zh_CN_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="MAX2023DIR">
+				<Directory Id="INSTALLYYY2023DIR_UI_ln" Name="UI_ln">
+					<Directory Id="INSTALLYYY2023DIR_UI_ln_Resources" Name="Resources">
+						<Directory Id="INSTALLYYY2023DIR_UI_ln_Resources_Dark" Name="Dark">
+							<Directory Id="INSTALLYYY2023DIR_UI_ln_Resources_Dark_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2023DIR_UI_ln_Resources_Dark_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="INSTALLYYY2023DIR_UI_ln_Resources_Light" Name="Light">
+							<Directory Id="INSTALLYYY2023DIR_UI_ln_Resources_Light_Icons" Name="Icons">
+								<Directory Id="INSTALLYYY2023DIR_UI_ln_Resources_Light_Icons_Datasmith" Name="Datasmith">
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2023DIR_de_DE" Name="de-DE">
+					<Directory Id="INSTALLXXX2023DIR_de_DE_UI" Name="UI">
+						<Directory Id="INSTALLXXX2023DIR_de_DE_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2023DIR_de_DE_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2023DIR_en_US" Name="en-US">
+					<Directory Id="INSTALLXXX2023DIR_en_US_UI" Name="UI">
+						<Directory Id="INSTALLXXX2023DIR_en_US_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2023DIR_en_US_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2023DIR_fr_FR" Name="fr-FR">
+					<Directory Id="INSTALLXXX2023DIR_fr_FR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2023DIR_fr_FR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2023DIR_fr_FR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2023DIR_ja_JP" Name="ja-JP">
+					<Directory Id="INSTALLXXX2023DIR_ja_JP_UI" Name="UI">
+						<Directory Id="INSTALLXXX2023DIR_ja_JP_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2023DIR_ja_JP_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2023DIR_ko_KR" Name="ko-KR">
+					<Directory Id="INSTALLXXX2023DIR_ko_KR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2023DIR_ko_KR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2023DIR_ko_KR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2023DIR_pt_BR" Name="pt-BR">
+					<Directory Id="INSTALLXXX2023DIR_pt_BR_UI" Name="UI">
+						<Directory Id="INSTALLXXX2023DIR_pt_BR_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2023DIR_pt_BR_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+				<Directory Id="INSTALLXXX2023DIR_zh_CN" Name="zh-CN">
+					<Directory Id="INSTALLXXX2023DIR_zh_CN_UI" Name="UI">
+						<Directory Id="INSTALLXXX2023DIR_zh_CN_UI_Ribbon" Name="Ribbon">
+							<Directory Id="INSTALLXXX2023DIR_zh_CN_UI_Ribbon_Extensions" Name="Extensions">
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+
+			<Directory Id="TempFolder" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+
+		<!-- Declaration of a empty binaries folder so that the engine accept our remote location for the engine dir -->
+		<Component Id="EMPTYENGINEBINARIESDIR" Directory="BINARIESFOLDER" Guid="{9EE7B75B-AD08-46F6-B149-0F061982985E}">
+			<CreateFolder/>
+		</Component>
+
+		<Component Id="EXPORTERCOMMON" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax" Guid="{48435313-DE64-46EB-9264-D67353E57DFE}">
+			<File Id="EXPORTERCOMMON_PackageContents.xml" Source="..\Plugin\PackageContents.xml"/>
+		</Component>
+
+		<Component Id="EXPORTERCOMMONUI" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_UI" Guid="{6146B792-3F5E-400B-8ECA-58E9662DFA00}">
+			<File Id="EXPORTERCOMMONUI_datasmith_icons.rcc" Source="..\Extras\3dsMaxScripts\UI\datasmith_icons.rcc"/>
+			<File Id="EXPORTERCOMMONUI_DatasmithDialog.ms" Source="..\Extras\3dsMaxScripts\UI\DatasmithPostStartUp.ms"/>
+			<File Id="EXPORTERCOMMONUI_DatasmithMacros.mcr" Source="..\Extras\3dsMaxScripts\UI\DatasmithMacros.mcr"/>
+			<File Id="EXPORTERCOMMONUI_pre_start_up.ms" Source="..\Extras\3dsMaxScripts\UI\DatasmithPreStartUp.ms"/>
+			<File Id="EXPORTERCOMMONUI_UnrealStudio_Datasmith_Attributes_Holder_Modifier.ms" Source="..\Extras\3dsMaxScripts\UnrealStudio_Datasmith_Attributes_Holder_Modifier.ms"/>
+		</Component>
+		
+		<Component Id="EXPORTERCOMMONUI_EN_US" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_UI_en_Us" Guid="{22E83604-4064-468F-89F1-103517CDE9C7}">
+			<File Id="EXPORTERCOMMONUI_EN_US_DatasmithMacros.mcr.res" Source="..\Extras\3dsMaxScripts\UI\en-Us\DatasmithMacros.mcr.res"/>
+		</Component>
+		
+		<Component Id="EXPORTER2017" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2017" Guid="{EBEF3FAA-A315-42BB-ADFA-FBE85CFBFE24}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\DatasmithMaxPlugin\2017">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2017_DatasmithMax2017.gup" Source="$(var.BinaryDir)\2017\DatasmithMax2017.gup"/>
+			<File Id="EXPORTER2017_tbb.dll" Source="$(var.BinaryDir)\2017\tbb.dll"/>
+		</Component>
+
+		<Component Id="EXPORTER2017RIBBON_de_DE" Directory="INSTALLXXX2017DIR_de_DE_UI_Ribbon_Extensions" Guid="{FA4F4010-4F65-4CDB-B8B2-909258FC4E3F}">
+			<File Id="EXPORTER2017RIBBON_de_DE_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2017RIBBON_en_US" Directory="INSTALLXXX2017DIR_en_US_UI_Ribbon_Extensions" Guid="{B946BDE5-3C2E-42C8-818A-AC288B875F53}">
+			<File Id="EXPORTER2017RIBBON_en_US_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2017RIBBON_fr_FR" Directory="INSTALLXXX2017DIR_fr_FR_UI_Ribbon_Extensions" Guid="{96C6A4A2-EBD5-449C-878B-437380F074F9}">
+			<File Id="EXPORTER2017RIBBON_fr_FR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2017RIBBON_ja_JP" Directory="INSTALLXXX2017DIR_ja_JP_UI_Ribbon_Extensions" Guid="{8EA9837D-F1C1-409D-88A5-14ACE35A9905}">
+			<File Id="EXPORTER2017RIBBON_ja_JP_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2017RIBBON_ko_KR" Directory="INSTALLXXX2017DIR_ko_KR_UI_Ribbon_Extensions" Guid="{6F35F88D-4853-47EA-9A89-333EB5D831CC}">
+			<File Id="EXPORTER2017RIBBON_ko_KR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2017RIBBON_pt_BR" Directory="INSTALLXXX2017DIR_pt_BR_UI_Ribbon_Extensions" Guid="{22AFC1E4-4BA9-43E2-9DEE-BA3870F1381D}">
+			<File Id="EXPORTER2017RIBBON_pt_BR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2017RIBBON_zh_CN" Directory="INSTALLXXX2017DIR_zh_CN_UI_Ribbon_Extensions" Guid="{33992462-E796-4651-AEB4-7DC4F59DB023}">
+			<File Id="EXPORTER2017RIBBON_zh_CN_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2017DARKICONS" Directory="INSTALLYYY2017DIR_UI_ln_Resources_Dark_Icons_Datasmith" Guid="{5A289C9D-D344-433F-A687-548A5FE36BD4}">
+			<File Id="EXPORTER2017DARKICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2017DARKICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2017DARKICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2017DARKICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2017DARKICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2017DARKICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2017DARKICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2017DARKICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2017LIGHTICONS" Directory="INSTALLYYY2017DIR_UI_ln_Resources_Light_Icons_Datasmith" Guid="{D7C15345-7779-49E6-8DCC-5AC6AAEB2D07}">
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2017LIGHTICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2018" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2018" Guid="{3C1EF575-81D2-4B8C-B64F-5626FCDF69B3}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\DatasmithMaxPlugin\2018">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2018_DatasmithMax2018.gup" Source="$(var.BinaryDir)\2018\DatasmithMax2018.gup"/>
+			<File Id="EXPORTER2018_tbb.dll" Source="$(var.BinaryDir)\2018\tbb.dll"/>
+		</Component>
+
+		<Component Id="EXPORTER2018RIBBON_de_DE" Directory="INSTALLXXX2018DIR_de_DE_UI_Ribbon_Extensions" Guid="{8C282502-5A75-4545-969E-AD8A0D1510CB}">
+			<File Id="EXPORTER2018RIBBON_de_DE_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2018RIBBON_en_US" Directory="INSTALLXXX2018DIR_en_US_UI_Ribbon_Extensions" Guid="{0B97D40D-8195-4D58-A360-7144650FE38C}">
+			<File Id="EXPORTER2018RIBBON_en_US_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2018RIBBON_fr_FR" Directory="INSTALLXXX2018DIR_fr_FR_UI_Ribbon_Extensions" Guid="{B3E30068-C642-4D3A-9F11-205B07D52175}">
+			<File Id="EXPORTER2018RIBBON_fr_FR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2018RIBBON_ja_JP" Directory="INSTALLXXX2018DIR_ja_JP_UI_Ribbon_Extensions" Guid="{D45274AD-C854-4B41-B1BA-07F7F2053718}">
+			<File Id="EXPORTER2018RIBBON_ja_JP_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2018RIBBON_ko_KR" Directory="INSTALLXXX2018DIR_ko_KR_UI_Ribbon_Extensions" Guid="{61444ED3-D93A-41E9-BC66-7C985DB23580}">
+			<File Id="EXPORTER2018RIBBON_ko_KR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2018RIBBON_pt_BR" Directory="INSTALLXXX2018DIR_pt_BR_UI_Ribbon_Extensions" Guid="{575FBC4A-8B1B-4137-9742-A91485C6251C}">
+			<File Id="EXPORTER2018RIBBON_pt_BR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2018RIBBON_zh_CN" Directory="INSTALLXXX2018DIR_zh_CN_UI_Ribbon_Extensions" Guid="{A01A0090-8398-459A-A27D-AE15A9CEE1AE}">
+			<File Id="EXPORTER2018RIBBON_zh_CN_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2018DARKICONS" Directory="INSTALLYYY2018DIR_UI_ln_Resources_Dark_Icons_Datasmith" Guid="{40E13E86-1434-4C17-A59A-65ABAA2BF52E}">
+			<File Id="EXPORTER2018DARKICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2018DARKICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2018DARKICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2018DARKICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2018DARKICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2018DARKICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2018DARKICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2018DARKICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2018LIGHTICONS" Directory="INSTALLYYY2018DIR_UI_ln_Resources_Light_Icons_Datasmith" Guid="{B0A4DD51-D627-44E9-B4FF-DDEB277C03DA}">
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2018LIGHTICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2019" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2019" Guid="{E535CEB2-924F-43DD-BC1D-D58986BB93F0}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\DatasmithMaxPlugin\2019">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2019_DatasmithMax2019.gup" Source="$(var.BinaryDir)\2019\DatasmithMax2019.gup"/>
+			<File Id="EXPORTER2019_tbb.dll" Source="$(var.BinaryDir)\2019\tbb.dll"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RIBBON_de_DE" Directory="INSTALLXXX2019DIR_de_DE_UI_Ribbon_Extensions" Guid="{E73F35EF-84BC-44AF-90A0-05BCEE3F1EE9}">
+			<File Id="EXPORTER2019RIBBON_de_DE_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RIBBON_en_US" Directory="INSTALLXXX2019DIR_en_US_UI_Ribbon_Extensions" Guid="{8AAFC344-0ABF-4043-8D89-6D9BAD719CFB}">
+			<File Id="EXPORTER2019RIBBON_en_US_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RIBBON_fr_FR" Directory="INSTALLXXX2019DIR_fr_FR_UI_Ribbon_Extensions" Guid="{A1F8E37F-E8A1-4F36-AEA2-08DDF8F62D5A}">
+			<File Id="EXPORTER2019RIBBON_fr_FR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RIBBON_ja_JP" Directory="INSTALLXXX2019DIR_ja_JP_UI_Ribbon_Extensions" Guid="{42B25FDC-9437-4E34-ADF7-9AE736AF6179}">
+			<File Id="EXPORTER2019RIBBON_ja_JP_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RIBBON_ko_KR" Directory="INSTALLXXX2019DIR_ko_KR_UI_Ribbon_Extensions" Guid="{103E735F-88F0-4F84-8AAA-99B047ADA443}">
+			<File Id="EXPORTER2019RIBBON_ko_KR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RIBBON_pt_BR" Directory="INSTALLXXX2019DIR_pt_BR_UI_Ribbon_Extensions" Guid="{A976B642-FB38-484D-A8E6-5F28C1CAD054}">
+			<File Id="EXPORTER2019RIBBON_pt_BR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2019RIBBON_zh_CN" Directory="INSTALLXXX2019DIR_zh_CN_UI_Ribbon_Extensions" Guid="{72BE13A0-5439-478B-BFC4-67672455978F}">
+			<File Id="EXPORTER2019RIBBON_zh_CN_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2019DARKICONS" Directory="INSTALLYYY2019DIR_UI_ln_Resources_Dark_Icons_Datasmith" Guid="{6DFD1AB9-7DF2-4CE4-9CBB-62FC91B8EFC8}">
+			<File Id="EXPORTER2019DARKICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2019DARKICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2019DARKICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2019DARKICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2019DARKICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2019DARKICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2019DARKICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2019DARKICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2019LIGHTICONS" Directory="INSTALLYYY2019DIR_UI_ln_Resources_Light_Icons_Datasmith" Guid="{229B084F-DBE2-4A27-AF1C-42EB12DB6D7F}">
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2019LIGHTICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2020" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2020" Guid="{A6B17FF0-2747-4189-B2A3-07F66E377120}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\DatasmithMaxPlugin\2020">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2020_DatasmithMax2020.gup" Source="$(var.BinaryDir)\2020\DatasmithMax2020.gup"/>
+			<File Id="EXPORTER2020_tbb.dll" Source="$(var.BinaryDir)\2020\tbb.dll"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RIBBON_de_DE" Directory="INSTALLXXX2020DIR_de_DE_UI_Ribbon_Extensions" Guid="{C285F7C7-6C15-44A2-9796-4E4CDF19102D}">
+			<File Id="EXPORTER2020RIBBON_de_DE_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RIBBON_en_US" Directory="INSTALLXXX2020DIR_en_US_UI_Ribbon_Extensions" Guid="{F1012BE8-7EA4-4C65-A89F-C3D6A3B82868}">
+			<File Id="EXPORTER2020RIBBON_en_US_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RIBBON_fr_FR" Directory="INSTALLXXX2020DIR_fr_FR_UI_Ribbon_Extensions" Guid="{AF5D691D-3552-4E14-91B4-98A59E8B82FF}">
+			<File Id="EXPORTER2020RIBBON_fr_FR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RIBBON_ja_JP" Directory="INSTALLXXX2020DIR_ja_JP_UI_Ribbon_Extensions" Guid="{4893D1A6-AE8F-41EF-9916-F519FCA3F55A}">
+			<File Id="EXPORTER2020RIBBON_ja_JP_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RIBBON_ko_KR" Directory="INSTALLXXX2020DIR_ko_KR_UI_Ribbon_Extensions" Guid="{8F9D636C-A873-4DDD-A694-083071943E20}">
+			<File Id="EXPORTER2020RIBBON_ko_KR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RIBBON_pt_BR" Directory="INSTALLXXX2020DIR_pt_BR_UI_Ribbon_Extensions" Guid="{86890ED3-A43E-49D6-B81E-59BD59DEDA4C}">
+			<File Id="EXPORTER2020RIBBON_pt_BR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2020RIBBON_zh_CN" Directory="INSTALLXXX2020DIR_zh_CN_UI_Ribbon_Extensions" Guid="{376271B8-4022-4FD7-B854-D47E40C7D594}">
+			<File Id="EXPORTER2020RIBBON_zh_CN_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2020DARKICONS" Directory="INSTALLYYY2020DIR_UI_ln_Resources_Dark_Icons_Datasmith" Guid="{D8D8B4D6-E4DA-4EA0-8F78-F75C242A23F1}">
+			<File Id="EXPORTER2020DARKICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2020DARKICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2020DARKICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2020DARKICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2020DARKICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2020DARKICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2020DARKICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2020DARKICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2020LIGHTICONS" Directory="INSTALLYYY2020DIR_UI_ln_Resources_Light_Icons_Datasmith" Guid="{612C1EC0-FEB9-4199-9D5F-7A0B907FCC55}">
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2020LIGHTICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2021" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2021" Guid="{14EB3600-EE43-4B7A-968F-9B115A6FD306}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\DatasmithMaxPlugin\2021">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2021_DatasmithMax2021.gup" Source="$(var.BinaryDir)\2021\DatasmithMax2021.gup"/>
+			<File Id="EXPORTER2021_tbb.dll" Source="$(var.BinaryDir)\2021\tbb.dll"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RIBBON_de_DE" Directory="INSTALLXXX2021DIR_de_DE_UI_Ribbon_Extensions" Guid="{C06DBADC-9D59-48D4-8DB5-5B6427B75A24}">
+			<File Id="EXPORTER2021RIBBON_de_DE_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RIBBON_en_US" Directory="INSTALLXXX2021DIR_en_US_UI_Ribbon_Extensions" Guid="{7DC63B70-B920-40E0-A764-8489652702F2}">
+			<File Id="EXPORTER2021RIBBON_en_US_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RIBBON_fr_FR" Directory="INSTALLXXX2021DIR_fr_FR_UI_Ribbon_Extensions" Guid="{49FCE3CD-DB87-4426-8A27-5556FACD7E9A}">
+			<File Id="EXPORTER2021RIBBON_fr_FR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RIBBON_ja_JP" Directory="INSTALLXXX2021DIR_ja_JP_UI_Ribbon_Extensions" Guid="{E8CE76BF-43A3-438A-BFAE-067DA8943AFC}">
+			<File Id="EXPORTER2021RIBBON_ja_JP_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RIBBON_ko_KR" Directory="INSTALLXXX2021DIR_ko_KR_UI_Ribbon_Extensions" Guid="{7B6B3996-5947-430F-A4A2-1DFCEB327149}">
+			<File Id="EXPORTER2021RIBBON_ko_KR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RIBBON_pt_BR" Directory="INSTALLXXX2021DIR_pt_BR_UI_Ribbon_Extensions" Guid="{D0FF2BD2-CBF6-4F1B-B5F8-608AC90FC49C}">
+			<File Id="EXPORTER2021RIBBON_pt_BR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2021RIBBON_zh_CN" Directory="INSTALLXXX2021DIR_zh_CN_UI_Ribbon_Extensions" Guid="{9628F501-EEF4-4EFF-987C-260E27CBEE94}">
+			<File Id="EXPORTER2021RIBBON_zh_CN_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2021DARKICONS" Directory="INSTALLYYY2021DIR_UI_ln_Resources_Dark_Icons_Datasmith" Guid="{58430BEF-281B-444D-9F1F-C4A34973A227}">
+			<File Id="EXPORTER2021DARKICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2021DARKICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2021DARKICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2021DARKICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2021DARKICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2021DARKICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2021DARKICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2021DARKICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2021LIGHTICONS" Directory="INSTALLYYY2021DIR_UI_ln_Resources_Light_Icons_Datasmith" Guid="{D6E4D14C-7AC0-4ADB-81A0-E23B0294EFBF}">
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2021LIGHTICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2022" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2022" Guid="{2F3CB956-A564-4F66-85C3-74ED435B9FA9}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\DatasmithMaxPlugin\2022">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2022_DatasmithMax2022.gup" Source="$(var.BinaryDir)\2022\DatasmithMax2022.gup"/>
+			<File Id="EXPORTER2022_tbb.dll" Source="$(var.BinaryDir)\2022\tbb.dll"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RIBBON_de_DE" Directory="INSTALLXXX2022DIR_de_DE_UI_Ribbon_Extensions" Guid="{7E4F3A7B-2D58-4DA7-A834-7E23A169DC75}">
+			<File Id="EXPORTER2022RIBBON_de_DE_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RIBBON_en_US" Directory="INSTALLXXX2022DIR_en_US_UI_Ribbon_Extensions" Guid="{CB534292-9CBE-4A55-B36D-64BA750A8B2E}">
+			<File Id="EXPORTER2022RIBBON_en_US_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RIBBON_fr_FR" Directory="INSTALLXXX2022DIR_fr_FR_UI_Ribbon_Extensions" Guid="{8BBD62D2-7014-42C8-89E8-370FFDC6E4B3}">
+			<File Id="EXPORTER2022RIBBON_fr_FR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RIBBON_ja_JP" Directory="INSTALLXXX2022DIR_ja_JP_UI_Ribbon_Extensions" Guid="{A73543EF-75EE-4E0F-81E3-CD39774B9CD0}">
+			<File Id="EXPORTER2022RIBBON_ja_JP_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RIBBON_ko_KR" Directory="INSTALLXXX2022DIR_ko_KR_UI_Ribbon_Extensions" Guid="{99249CD7-F437-4203-AAAE-13FDC267BC3D}">
+			<File Id="EXPORTER2022RIBBON_ko_KR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RIBBON_pt_BR" Directory="INSTALLXXX2022DIR_pt_BR_UI_Ribbon_Extensions" Guid="{C545FA77-DF66-46BE-9F06-560D7068AF52}">
+			<File Id="EXPORTER2022RIBBON_pt_BR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2022RIBBON_zh_CN" Directory="INSTALLXXX2022DIR_zh_CN_UI_Ribbon_Extensions" Guid="{179DA6CA-4256-4294-9E76-15024F4A77F7}">
+			<File Id="EXPORTER2022RIBBON_zh_CN_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2022DARKICONS" Directory="INSTALLYYY2022DIR_UI_ln_Resources_Dark_Icons_Datasmith" Guid="{E6A15909-3170-4651-99B0-E43FF2083919}">
+			<File Id="EXPORTER2022DARKICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2022DARKICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2022DARKICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2022DARKICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2022DARKICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2022DARKICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2022DARKICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2022DARKICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2022LIGHTICONS" Directory="INSTALLYYY2022DIR_UI_ln_Resources_Light_Icons_Datasmith" Guid="{F9BA2F7C-C808-4C8F-BF42-2D5EE4958A0C}">
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2022LIGHTICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2023" Directory="AutodeskApplicationPluginsUserFolder_UnrealDatasmithMax_2023" Guid="{73DDE815-C9A6-467F-A35A-83AC7C43A375}">
+			<RegistryKey Root="HKCU" Key="Software\Epic Games\DatasmithMaxPlugin\2023">
+				<RegistryValue Name="Installed" Value="1" KeyPath="yes" Type="integer" />
+			</RegistryKey>
+			<File Id="EXPORTER2023_DatasmithMax2023.gup" Source="$(var.BinaryDir)\2023\DatasmithMax2023.gup"/>
+			<File Id="EXPORTER2023_tbb.dll" Source="$(var.BinaryDir)\2023\tbb.dll"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RIBBON_de_DE" Directory="INSTALLXXX2023DIR_de_DE_UI_Ribbon_Extensions" Guid="{BCD3AF4B-8033-4678-BB0E-12E2CA0EA571}">
+			<File Id="EXPORTER2023RIBBON_de_DE_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RIBBON_en_US" Directory="INSTALLXXX2023DIR_en_US_UI_Ribbon_Extensions" Guid="{069DEC47-025A-48D8-970C-F49EAB66B5A5}">
+			<File Id="EXPORTER2023RIBBON_en_US_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RIBBON_fr_FR" Directory="INSTALLXXX2023DIR_fr_FR_UI_Ribbon_Extensions" Guid="{09DC582E-1F8E-41D8-8A0B-7B21BBCBC225}">
+			<File Id="EXPORTER2023RIBBON_fr_FR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RIBBON_ja_JP" Directory="INSTALLXXX2023DIR_ja_JP_UI_Ribbon_Extensions" Guid="{A63BAA04-2780-415E-A407-99CC2958F93D}">
+			<File Id="EXPORTER2023RIBBON_ja_JP_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RIBBON_ko_KR" Directory="INSTALLXXX2023DIR_ko_KR_UI_Ribbon_Extensions" Guid="{E7912ECE-AA59-4A10-BC1C-68D6698B3A35}">
+			<File Id="EXPORTER2023RIBBON_ko_KR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RIBBON_pt_BR" Directory="INSTALLXXX2023DIR_pt_BR_UI_Ribbon_Extensions" Guid="{EDA63F2C-053D-4DE5-8086-0B62D02BE795}">
+			<File Id="EXPORTER2023RIBBON_pt_BR_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2023RIBBON_zh_CN" Directory="INSTALLXXX2023DIR_zh_CN_UI_Ribbon_Extensions" Guid="{9925B720-65DF-4526-8BD4-7C55F1B8ACA4}">
+			<File Id="EXPORTER2023RIBBON_zh_CN_DatasmithUI.xaml" Source="..\Extras\3dsMaxScripts\UI\DatasmithUI.xaml"/>
+		</Component>
+
+		<Component Id="EXPORTER2023DARKICONS" Directory="INSTALLYYY2023DIR_UI_ln_Resources_Dark_Icons_Datasmith" Guid="{A73D6A77-F86C-4742-A5D1-7CBC0873EA68}">
+			<File Id="EXPORTER2023DARKICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2023DARKICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2023DARKICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2023DARKICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2023DARKICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2023DARKICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2023DARKICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2023DARKICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+		<Component Id="EXPORTER2023LIGHTICONS" Directory="INSTALLYYY2023DIR_UI_ln_Resources_Light_Icons_Datasmith" Guid="{238024F4-D311-473E-8FF9-D1EC4BCAE11C}">
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithAutoSyncIconOff32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOff32.png"/>
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithAutoSyncIconOn32.png" Source="..\Extras\Icons\DatasmithAutoSyncIconOn32.png"/>
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithIcon32.png" Source="..\Extras\Icons\DatasmithIcon32.png"/>
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithLogIcon32.png" Source="..\Extras\Icons\DatasmithLogIcon32.png"/>
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithManageConnectionsIcon32.png" Source="..\Extras\Icons\DatasmithManageConnectionsIcon32.png"/>
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithSettingsIcon32.png" Source="..\Extras\Icons\DatasmithSettingsIcon32.png"/>
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithSyncIcon32.png" Source="..\Extras\Icons\DatasmithSyncIcon32.png"/>
+			<File Id="EXPORTER2023LIGHTICONS_DatasmithToolsIcon32.png" Source="..\Extras\Icons\DatasmithToolsIcon32.png"/>
+		</Component>
+
+	</Fragment>
+</Wix>

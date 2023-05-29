@@ -1,0 +1,47 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+import "horde/horde_rpc_messages.proto";
+
+package Horde;
+
+option csharp_namespace = "HordeCommon.Rpc";
+
+service HordeRpc {
+	rpc QueryServerState(stream QueryServerStateRequest) returns (stream QueryServerStateResponse);
+	rpc QueryServerStateV2(stream QueryServerStateRequest) returns (stream QueryServerStateResponse);
+
+	rpc UpdateAgentWorkspaces(UpdateAgentWorkspacesRequest) returns (UpdateAgentWorkspacesResponse);
+
+	rpc CreateSession(CreateSessionRequest) returns (CreateSessionResponse);
+	rpc UpdateSession(stream UpdateSessionRequest) returns (stream UpdateSessionResponse); // Not actually a streaming RPC, but streams are used to cancel the connection from either end
+
+	rpc GetStream(GetStreamRequest) returns (GetStreamResponse);
+
+	rpc GetJob(GetJobRequest) returns (GetJobResponse);
+	rpc UpdateJob(UpdateJobRequest) returns (google.protobuf.Empty);
+
+	rpc BeginBatch(BeginBatchRequest) returns (BeginBatchResponse);
+	rpc FinishBatch(FinishBatchRequest) returns (google.protobuf.Empty);
+
+	rpc BeginStep(BeginStepRequest) returns (BeginStepResponse);
+	rpc UpdateStep(UpdateStepRequest) returns (google.protobuf.Empty);
+	rpc GetStep(GetStepRequest) returns (GetStepResponse);
+
+	rpc UpdateGraph(UpdateGraphRequest) returns (UpdateGraphResponse);
+	rpc CreateEvents(CreateEventsRequest) returns (google.protobuf.Empty);
+
+	rpc WriteOutput(WriteOutputRequest) returns (google.protobuf.Empty);
+
+	rpc UploadSoftware(UploadSoftwareRequest) returns (UploadSoftwareResponse);
+	rpc DownloadSoftware(DownloadSoftwareRequest) returns (stream DownloadSoftwareResponse);
+
+	rpc UploadArtifact(stream UploadArtifactRequest) returns (UploadArtifactResponse);
+	rpc UploadTestData(stream UploadTestDataRequest) returns (UploadTestDataResponse);
+
+	rpc CreateReport(CreateReportRequest) returns (CreateReportResponse);
+}
+

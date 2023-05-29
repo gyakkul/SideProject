@@ -1,0 +1,251 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "ResourcesIDs.h"
+
+'STR#' ResIdLoc(kLangSpanish, kStrLanguageName) "Language name" {
+/* [  1] */		"Español"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListSyncPlugInDescription) "Add-on Name and Description" {
+/* [  1] */		"Datasmith para ARCHICAD"
+/* [  2] */		"Sincronizar geometría de ARCHICAD con Datasmith"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListFileTypes) "File type strings" {
+/* [  1] */		"Archivo de Datasmith"
+/* [  2] */		"ue/udatasmith"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuDatasmith) "Palettes menu item" {
+/* [  1] */		"Datasmith^E3^ES^EE^EI^ED^EL^EW^ET^32600" /* kIconDS */
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuDatasmithHelp) "Palettes menu item help" {
+/* [  1] */		"Show Datasmith Palette"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemSnapshot) "Menu item snapshot" {
+ADDON_MENU_TITLE
+/* [  1] */		"Synchronize^E3^D2^32510"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemSnapshotHelp) "Menu item snapshot help" {
+ADDON_MENU_TITLE
+/* [  1] */		"Sync an active 3D View with Direct Link"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemConnections) "Menu item connections" {
+ADDON_MENU_TITLE
+/* [  2] */		"Connections...^E3^ES^EE^EI^ED^EL^EW^ET^32511"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemConnectionsHelp) "Menu item connections help" {
+ADDON_MENU_TITLE
+/* [  2] */		"Manage connections"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemExport) "Menu item export" {
+ADDON_MENU_TITLE
+/* [  3] */		"Export 3D View...^E3^D2^32512"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemExportHelp) "Menu item export help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Export an active 3D view to Unreal Datasmith"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemMessages) "Menu item messages" {
+ADDON_MENU_TITLE
+/* [  3] */		"Messages...^E3^ES^EE^EI^ED^EL^EW^ET^32513"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemMessagesHelp) "Menu item messages help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Show messages"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemPalette) "Menu item palette" {
+ADDON_MENU_TITLE
+/* [  4] */		"Show Toolbar^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemPaletteHelp) "Menu item palette help" {
+ADDON_MENU_TITLE
+/* [  4] */		"Show or hide the Datasmith Toolbar"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemAbout) "Menu item about" {
+ADDON_MENU_TITLE
+/* [  6] */		"About...^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemAboutHelp) "Menu item about help" {
+ADDON_MENU_TITLE
+/* [  6] */		"Information about this Plug-In"
+}
+
+#if AUTO_SYNC
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemAutoSync) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Auto Sync^E3^D2^32514"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListMenuItemAutoSyncHelp) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Enable or disable Auto Sync"
+}
+#endif
+
+'STR#' ResIdLoc(kLangSpanish, kStrListProgression) "Progression strings" {
+/* [ kCommonProjectInfos              ] */      "Recopilar información de proyecto"
+/* [ kCommonCollectElements           ] */		"Recopilar elementos modificados"
+/* [ kCommonConvertElements           ] */		"Convertir elementos"
+/* [ kCommonCollectMetaDatas          ] */      "Recopilar metadatos"
+/* [ kCommonSetUpMaterials            ] */		"Recopilar materiales"
+/* [ kCommonSetUpLights               ] */		"Crear luces"
+/* [ kCommonSetUpCameras              ] */		"Crear cámaras"
+/* [ kSyncWaitPreviousSync            ] */		"Esperar a completar sincronización previa"
+
+/* [ kDebugSaveScene                  ] */		"Guardar escena"
+
+/* [ kSyncSnapshot                    ] */		"Instantánea de Direct Link"
+/* [ kExportSaving                    ] */		"Guardar archivo"
+
+/* [ kSyncTitle                       ] */		"Sincronización de enlace directo"
+/* [ kExportTitle                     ] */		"Exportar a archivo de Datasmith"
+}
+
+'STR#' ResIdLoc(kLangSpanish, kStrListENames) "Names" {
+/* [  kName_TextureExtension] */        ".tiff"
+/* [  kName_TextureMime] */             "image/tiff"
+/* [  kName_ShowPalette] */             "Show palette"
+/* [  kName_HidePalette] */             "Hide palette"
+/* [  kName_DatasmithFileTypeName] */ 	"Archivo de Datasmith"
+/* [  kName_ExportToDatasmithFile] */ 	"Exportar a archivo de Datasmith"
+/* [  kName_StartAutoSync] */ 			"Iniciar sincronización automática"
+/* [  kName_PauseAutoSync] */		 	"Pausar sincronización automática"
+/* [  kName_Undefined] */               "Sin definir"
+/* [  kName_CacheDirectory] */          "Directorio caché: "
+/* [  kName_Source] */                  "Source" /* SourceolumnLabel */
+/* [  kName_Destination] */             "Destination" /* DestinationColumnLabel */
+/* [  kName_FmtTooltip] */              "User : %T\nComputer Name : %T\nProgram Name: %T\nEndpoint Name : %T" /* EndpointTooltip */
+}
+
+'GDLG' ResIdLoc(kLangSpanish, kDlgPalette) Palette | leftCaption | close    0    0 kPaletteHSize  34  "" {
+/* [  1] */ IconButton          2    2   30   30    kIconSnapshot      noFrame     /* Synchronize with Direct Link */
+#if AUTO_SYNC
+/* [  2] */ IconPushCheck      32    2   30   30    kIconAutoSync	   noFrame     /* Toggle Auto Sync */
+#endif
+/* [  3] */ IconButton         X3    2   30   30    kIconConnections   noFrame     /* Manage Connections */
+/* [  4] */ IconButton         X4    2   30   30    kIconExport3D      noFrame     /* Export to Datasmith file */
+/* [  5] */ IconButton         X5    2   30   30    kIconMessages      noFrame     /* Show Messages */
+#if kPaletteDevTools
+/* [  6] */ IconButton         X6    2   30   30    InfoIcon           noFrame     /* Selection to clipboard */
+/* [  7] */ IconButton         X7    2   30   30    ErrorIcon          noFrame     /* Zap database */
+#endif
+}
+
+'DLGH' ResIdLocAnchor(kLangSpanish, kDlgPalette, DLG_Palette_INTERFACE_FUNCTIONS) {
+1	"Sincronizar con Direct Link"		IconButton_1
+#if AUTO_SYNC
+2	"Alternar sincronización automática de enlace directo"	IconButton_2
+#endif
+H3	"Gestionar conexiones"			IconButton_4
+H4	"Exportar a archivo de Datasmith"					IconButton_5
+H5	"Mostrar mensajes"				IconButton_6
+H6	"Information on selected elements"   IconButton_7
+H7	"Delete synchronization's memory"   IconButton_8
+}
+
+/* Dialog about... */
+'GDLG' ResIdLoc(kLangSpanish, kDlgAboutOf) Modal	40   40  668  363 "About Datasmith Direct Link"
+{
+/* [  1] */ Button		598	336	55	20	LargePlain	"Ok"
+/* [  2] */ Icon		0	0	668	329 kPictureSplashScreen
+/* [  3] */ LeftText	20	338	400	16	SmallPlain	"" /* Versions strings */
+}
+
+'DLGH' ResIdLocAnchor(kLangSpanish, kDlgAboutOf, DLG_About_INTERFACE_FUNCTIONS) {
+1	"Close Window"		PushButton_1
+}
+
+/* Dialog report... */
+'GDLG' ResIdLoc(kLangSpanish, kDlgReport) Palette | thickFrame | grow | topCaption | close 	40   40  640  440 "Mensajes de Datasmith"
+{
+/* [  1] */ Button		560	410	60	20	LargePlain	"Cerrar"
+/* [  2] */ Button		20	410	60	20	LargePlain	"Borrar"
+/* [  3] */ MultiLineEdit	3	3	634	394	SmallPlain readOnly	HVScroll
+/* [  4] */ Button		100	410	100	20	LargePlain	"Copiar todo"
+/* [  5] */ Button		220	410	100	20	LargePlain	"Copiar selección"
+}
+
+'DLGH' ResIdLocAnchor(kLangSpanish, kDlgReport, DLG_Report_INTERFACE_FUNCTIONS) {
+1	"Cerrar ventana"	PushButton_1
+2	"Borrar contenido"	PushButton_2
+3	"Informar sobre mensajes" TextEdit_1
+4	"Copiar todos los mensajes a portapapeles"	PushButton_3
+5	"Copiar mensajes seleccionados a portapapeles"	PushButton_4
+}
+
+/* Dialog connections... */
+'GDLG' ResIdLoc(kLangSpanish, kDlgConnections) Palette | thickFrame | grow | topCaption | close 	40   40  440  440 "Estado de conexión de enlace directo de Datasmith"
+{
+/* [  1] */ SingleSelList	3	3	434	394	LargePlain PartialItems kDlgConnectionsRowHeight HasHeader 21
+/* [  2] */ CenterText		3	3	434	394 SmallPlain vCenter "No connection found.\n\nWaiting for a Datasmith Direct Link connection to be established.\n\nPlease start an application supporting Datasmith Direct Link such as Twinmotion or Unreal Engine."
+/* [  3] */ LeftText		6	410	378	20	SmallPlain vCenter	"Cache Directory : "
+/* [  4] */ IconButton		390	410	20	20	kIconArrowGoto
+/* [  5] */ IconButton		415	410	20	20  kIconFolder
+}
+
+'DLGH' ResIdLocAnchor(kLangSpanish, kDlgConnections, DLG_Connections_INTERFACE_FUNCTIONS) {
+1	"Actives connections"	SingleSelList_1
+2	"Actives connections"	LeftText_2
+3	"Direct Link will use this directory to store temporary files"	LeftText_1
+4	"Open cache folder"	PushButton_3
+5	"Browse for another folder"	PushButton_4
+}
+
+/* Happen if I add error case and forgot to add it's message/alert */
+'GALR' ResIdLoc(kLangSpanish, kAlertUnhandledError) Error "¡Error!" {
+/* largeText */		"Error de E/S desconocido."
+/* smallText */		"Si el problema persiste, informa del error a Epic Games."
+/* button1   */     "Aceptar"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if ARCHICAD throw an exception when traversing it's BD */
+'GALR' ResIdLoc(kLangSpanish, kAlertACDBError) Error "¡Error!" {
+/* largeText */		"Se ha producido un error al analizar el modelo 3D."
+/* smallText */		"Si el problema persiste, informa del error a Epic Games."
+/* button1   */     "Aceptar"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if an invariant isn't satisfied */
+'GALR' ResIdLoc(kLangSpanish, kAlertPlugInError) Error "¡Error!" {
+/* largeText */		"Se ha producido un error."
+/* smallText */		"Si el problema persiste, informa del error a Epic Games."
+/* button1   */     "Aceptar"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if current view isn't in 3D */
+'GALR' ResIdLoc(kLangSpanish, kAlertNot3DViewError) Error "¡Error!" {
+/* largeText */		"La vista actual no es en 3D."
+/* smallText */		"Por favor seleccione una vista 3D y vuelva a intentarlo."
+/* button1   */     "Aceptar"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if user cancel an operation */
+'GALR' ResIdLoc(kLangSpanish, kAlertUserCancelledError) Error "¡Error!" {
+/* largeText */		"Se ha cancelado el procesamiento."
+/* smallText */		""
+/* button1   */     "Aceptar"
+/* button2   */		""
+/* button3   */		""
+}

@@ -1,0 +1,113 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h
+#include "SourceFile.generated.h"
+
+UCLASS(Config="inherit")
+class UBaseless
+{
+    GENERATED_BODY()
+};
+
+UCLASS(Config="inherit")
+class UNoSuperConfig : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS(Within="bobby")
+class UWithinTest : public UObject
+{
+    GENERATED_BODY()
+};
+
+UINTERFACE()
+class USomeInterface : public UInterface
+{
+    GENERATED_BODY()
+};
+
+class ISomeInterface
+{
+    GENERATED_BODY()
+};
+
+UCLASS(Within="SomeInterface")
+class USomeInterfaceWithinTest : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS()
+class UExpectedWithin : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS()
+class UWrongWithin : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS(Within="ExpectedWithin")
+class USuperWithinTest : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS(Within="WrongWithin")
+class UChildWithinTest : public USuperWithinTest
+{
+    GENERATED_BODY()
+};
+
+UCLASS()
+class UWrongBaseClass : public USuperWithinTest, public UChildWithinTest
+{
+    GENERATED_BODY()
+};
+
+UCLASS()
+class UTestNoConfig
+{
+    GENERATED_BODY()
+
+	UPROPERTY(Config)
+	int Property;
+};
+
+!console
+4_resolve_base_phase_non_fatal_errors.uhttest(32)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Cannot inherit config filename for class 'UBaseless' when it has no super class
+4_resolve_base_phase_non_fatal_errors.uhttest(38)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Cannot inherit config filename for class 'UNoSuperConfig' when parent class 'UObject' has no config filename
+4_resolve_base_phase_non_fatal_errors.uhttest(44)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Within class 'bobby' not found
+4_resolve_base_phase_non_fatal_errors.uhttest(61)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Classes cannot be 'within' interfaces
+4_resolve_base_phase_non_fatal_errors.uhttest(85)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Cannot override within class with 'UWrongWithin' since it isn't a child of parent class's expected within 'UExpectedWithin'
+4_resolve_base_phase_non_fatal_errors.uhttest(91)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Class 'UChildWithinTest' is not an interface; Can only inherit from non-UObjects or UInterface derived interfaces
+4_resolve_base_phase_non_fatal_errors.uhttest(97)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Classes with config / globalconfig member variables need to specify config file.

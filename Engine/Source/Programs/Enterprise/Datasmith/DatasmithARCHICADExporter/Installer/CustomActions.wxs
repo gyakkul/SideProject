@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    
+    <!-- Abort install if Archicad is not installed -->
+    <CustomAction Id="NoArchicadInstaller" Error="!(loc.ErrorNotInstalled)" />
+    
+    <!-- Prevent downgrading -->
+    <CustomAction Id="PreventDowngrading" Error="!(loc.ErrorOlderVersionInstall)" />
+
+    <!-- Prevent overwriting -->
+    <CustomAction Id="PreventSameVersionInstall" Error="!(loc.ErrorSameVersionInstall)" />
+	  
+	<!-- Search paths of installed ArchiCAD applications -->
+	<CustomAction Id='SearchInstallationPaths' BinaryKey='CABinaryManaged' DllEntry='SearchInstallationPaths' Return="ignore" Execute="immediate" />
+
+	  <!-- Declaration of custom actions to evaluate the properties ARCHICAD201xDIR -->
+    <!-- See 'InstallExecuteSequence' section for their usage -->
+    <CustomActionRef Id="WixExitEarlyWithSuccess" />
+
+	<!-- Adding DXDEBUG options -->
+	<Property Id="DXDEBUG" Value="/silent"/>
+    <CustomAction Id="InstallDirectX" FileKey="DXSETUPEXE" ExeCommand="[DXDEBUG]" Execute="deferred" Impersonate="no" Return="check"/>
+
+  </Fragment>
+	
+	<Fragment Id='UnrealEngineCustomActionBinaries'>
+		<!--The source file should be the CustomActionManaged.CA.dll -->
+		<Binary Id='CABinaryManaged' SourceFile='$(var.CustomActionManaged.TargetDir)$(var.CustomActionManaged.TargetName).CA.dll' />
+	</Fragment>
+</Wix>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+	<?include ..\..\DatasmithInstallerCommon\ExporterVersion.wxi?>
+	
+	<?define ProductVersion="$(var.MajorVersion).$(var.MinorVersion).$(var.PatchVersion).$(var.BuildVersion)"?>
+	
+	<!-- NOTE: Language codes can be found here(LCID Decimal column): http://www.science.co.il/Language/Locale-codes.asp -->
+	<?define Languages = "1033,1031,1034,1036,1041,1042,2070,2052"?>
+	
+	<!-- Identify the specific product release. Using an asterisk rather than a GUID recreates a new product code each time the installer is rebuilt. -->
+	<?define ProductCode="*"?>
+
+	<!-- The Upgrade Code. Never changes. This is the true "Unreal Engine Launcher" aplication ID, and keeping it the same allows us to recognise existing installations. -->
+	<?define UpgradeCode="{18BA8654-CB06-40D7-BC81-D19E3EB40585}"?>
+
+	<!-- Defines a relative path to the main Engine directory -->
+	<?define EngineDir="$ENGINE_DIR$"?>
+	
+	<!-- Defines a relative path to our resources directory -->
+	<?define ResourcesDir="$(var.EngineDir)\Source\Programs\Enterprise\Datasmith\DatasmithSolidworksExporter\Installer\Resources"?>
+	
+	<!-- Defines a relative path to Prereq installer's vcredist resources directory -->
+	<?define VCRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\Resources\VCRedist"?>
+	
+	<!-- Defines relative paths to directories where the Solidworks plugin files are stored -->
+	<?define FacadeBinDir="$(var.EngineDir)\Binaries\Win64\DatasmithFacadeCSharp"?>
+	
+	<?define SolidworksBinDir="$PRODUCT_BIN_DIR$"?>
+	
+	<!-- Defines a relative path to the ThirdParty libraries -->
+	<?define ThirdPartyDir="$(var.EngineDir)\Source\ThirdParty"?>
+  
+	<Product Id="$(var.ProductCode)" Name="Unreal Datasmith Exporter for Solidworks" Language="1033" Version="$(var.ProductVersion)" Manufacturer="Epic Games, Inc." UpgradeCode="$(var.UpgradeCode)">
+
+		<Package
+			Platform="x64"
+			InstallerVersion="405"
+			Languages="$(var.Languages)"
+			Compressed="yes"
+			InstallScope="perMachine" />
+
+		<Upgrade Id="$(var.UpgradeCode)">
+			<!-- NEWPRODUCTFOUND will be set if there is a newer product already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				IncludeMinimum="no"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="NEWPRODUCTFOUND" />
+
+			<!-- UPGRADEFOUND will be set if there is an older or same product already installed -->
+			<UpgradeVersion
+				Minimum="0.0.0"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="no"
+				Language="$(var.Languages)"
+				Property="UPGRADEFOUND" />
+
+			<!-- ANOTHERBUILDINSTALLED will be set if the same product version is already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="yes"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="ANOTHERBUILDINSTALLED" />
+		</Upgrade>
+
+		<Property Id="WIXUI_INSTALLDIR" Value="INSTALLPRODUCTDIR" />
+		<Property Id="WIXUI_FINALINSTALLDIR" Value="INSTALLPRODUCTDIR" />
+
+		<UI>
+			<UIRef Id="CustomWixUI_InstallDir"/>
+			<UIRef Id="WixUI_ErrorProgressText"/>
+
+			<!--These dialog references are required for util:CloseApplication to work properly -->
+			<DialogRef Id="FilesInUse" />
+			<DialogRef Id="MsiRMFilesInUse" />
+		</UI>
+
+		<!-- Customize artwork -->
+		<!-- NOTE: ARPPRODUCTICON is a special property recognized by Windows Installer, which sets up this icon for us -->
+		<Icon Id="UnrealEngine.ico" SourceFile="$(var.ResourcesDir)/UnrealEngine.ico" />
+		<Property Id="ARPPRODUCTICON" Value="UnrealEngine.ico" />
+
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ResourcesDir)\default_small_banner.bmp" />
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ResourcesDir)\Dialog.bmp"/>
+		
+		<!-- Common action to declare type of content in msi -->
+		<Media Id="1" Cabinet="SolidworksUnrealExporter.cab" EmbedCab="yes" />
+		
+		<Feature Id="ProductFeature" Title="Install" Level="1">
+		  <ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+
+		<InstallExecuteSequence>
+			<!-- Stop the user from installing an older product version -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- Stop the user from installing the same product version -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+			<!-- Remove the old product before installing in case this is the same MSI build with installation to the same location. -->
+			<RemoveExistingProducts Before="InstallInitialize" />
+		</InstallExecuteSequence>
+
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFiles64Folder">
+				<Directory Id="INSTALLPRODUCTDIR" Name="Epic Games">
+					<Directory Id="INSTALLFOLDER" Name="Solidworks Exporter" />
+				</Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+  
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      
+		<!--
+		  <Component Id='HelperLibrary' Guid='422F0273-D0E2-49C8-8CCC-9A4322E3C3F7' Win64='yes' KeyPath='yes'>
+			<CopyFile Id='HelperLibraryCopy' DestinationProperty='INSTALLFOLDER' DestinationName='solidworkstools.dll' SourceProperty='SOLIDWORKSTOOLSPATH'/>
+			<RemoveFile Id='HelperLibraryRemove' Name='solidworkstools.dll' On='uninstall'/>
+		  </Component>
+		-->
+      
+			<Component Id='DatasmithLibrary' Guid='05BEE0AF-505D-425E-A0CE-CA4595F3AEC4' Win64='yes'>
+				<File Id='datasmithfacade' Name='DatasmithFacadeCSharp.dll' DiskId='1' Source='$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll' KeyPath='yes' />
+				<File Id='tbb' Name='tbb.dll' DiskId='1' Source='$(var.FacadeBinDir)\tbb.dll' />
+			</Component>
+
+			$ASM_COMPONENT$
+      
+			$TLB_COMPONENT$
+      
+		</ComponentGroup>
+	</Fragment>
+</Wix>

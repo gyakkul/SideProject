@@ -1,0 +1,14 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+import "horde/common/io_hash.proto";
+
+package Horde;
+
+option csharp_namespace = "HordeCommon.Wrapper";
+
+message RefId
+{
+	IoHash Data = 1;
+}

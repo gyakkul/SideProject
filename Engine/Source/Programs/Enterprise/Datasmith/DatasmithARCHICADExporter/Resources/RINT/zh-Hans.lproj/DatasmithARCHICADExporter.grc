@@ -1,0 +1,251 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "ResourcesIDs.h"
+
+'STR#' ResIdLoc(kLangChinese, kStrLanguageName) "Language name" {
+/* [  1] */		"中文"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListSyncPlugInDescription) "Add-on Name and Description" {
+/* [  1] */		"面向ARCHICAD的Datasmith"
+/* [  2] */		"使用Datasmith同步ARCHICAD几何体"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListFileTypes) "File type strings" {
+/* [  1] */		"Datasmith文件"
+/* [  2] */		"ue/udatasmith"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuDatasmith) "Palettes menu item" {
+/* [  1] */		"Datasmith^E3^ES^EE^EI^ED^EL^EW^ET^32600" /* kIconDS */
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuDatasmithHelp) "Palettes menu item help" {
+/* [  1] */		"Show Datasmith Palette"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemSnapshot) "Menu item snapshot" {
+ADDON_MENU_TITLE
+/* [  1] */		"Synchronize^E3^D2^32510"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemSnapshotHelp) "Menu item snapshot help" {
+ADDON_MENU_TITLE
+/* [  1] */		"Sync an active 3D View with Direct Link"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemConnections) "Menu item connections" {
+ADDON_MENU_TITLE
+/* [  2] */		"Connections...^E3^ES^EE^EI^ED^EL^EW^ET^32511"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemConnectionsHelp) "Menu item connections help" {
+ADDON_MENU_TITLE
+/* [  2] */		"Manage connections"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemExport) "Menu item export" {
+ADDON_MENU_TITLE
+/* [  3] */		"Export 3D View...^E3^D2^32512"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemExportHelp) "Menu item export help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Export an active 3D view to Unreal Datasmith"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemMessages) "Menu item messages" {
+ADDON_MENU_TITLE
+/* [  3] */		"Messages...^E3^ES^EE^EI^ED^EL^EW^ET^32513"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemMessagesHelp) "Menu item messages help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Show messages"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemPalette) "Menu item palette" {
+ADDON_MENU_TITLE
+/* [  4] */		"Show Toolbar^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemPaletteHelp) "Menu item palette help" {
+ADDON_MENU_TITLE
+/* [  4] */		"Show or hide the Datasmith Toolbar"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemAbout) "Menu item about" {
+ADDON_MENU_TITLE
+/* [  6] */		"About...^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemAboutHelp) "Menu item about help" {
+ADDON_MENU_TITLE
+/* [  6] */		"Information about this Plug-In"
+}
+
+#if AUTO_SYNC
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemAutoSync) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Auto Sync^E3^D2^32514"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListMenuItemAutoSyncHelp) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Enable or disable Auto Sync"
+}
+#endif
+
+'STR#' ResIdLoc(kLangChinese, kStrListProgression) "Progression strings" {
+/* [ kCommonProjectInfos              ] */      "正在收集项目信息"
+/* [ kCommonCollectElements           ] */		"正在收集修改过的元素"
+/* [ kCommonConvertElements           ] */		"正在转换元素"
+/* [ kCommonCollectMetaDatas          ] */      "正在收集元数据"
+/* [ kCommonSetUpMaterials            ] */		"正在收集材质"
+/* [ kCommonSetUpLights               ] */		"创建光源"
+/* [ kCommonSetUpCameras              ] */		"创建摄像机"
+/* [ kSyncWaitPreviousSync            ] */		"等待上一次同步完成"
+
+/* [ kDebugSaveScene                  ] */		"正在保存场景Scene"
+
+/* [ kSyncSnapshot                    ] */		"Direct Link快照"
+/* [ kExportSaving                    ] */		"正在保存文件"
+
+/* [ kSyncTitle                       ] */		"Direct Link同步"
+/* [ kExportTitle                     ] */		"正在导出到Datasmith文件"
+}
+
+'STR#' ResIdLoc(kLangChinese, kStrListENames) "Names" {
+/* [  kName_TextureExtension] */        ".tiff"
+/* [  kName_TextureMime] */             "image/tiff"
+/* [  kName_ShowPalette] */             "Show palette"
+/* [  kName_HidePalette] */             "Hide palette"
+/* [  kName_DatasmithFileTypeName] */ 	"Datasmit文件"
+/* [  kName_ExportToDatasmithFile] */ 	"导出到Datasmith文件"
+/* [  kName_StartAutoSync] */ 			"开始自动同步"
+/* [  kName_PauseAutoSync] */		 	"暂停自动同步"
+/* [  kName_Undefined] */               "未定义"
+/* [  kName_CacheDirectory] */          "存储目录："
+/* [  kName_Source] */                  "源" /* SourceolumnLabel */
+/* [  kName_Destination] */             "目标" /* DestinationColumnLabel */
+/* [  kName_FmtTooltip] */              "用户：%T\n计算机名：%T\n程序名：%T\n端点名：%T" /* EndpointTooltip */
+}
+
+'GDLG' ResIdLoc(kLangChinese, kDlgPalette) Palette | leftCaption | close    0    0 kPaletteHSize  34  "" {
+/* [  1] */ IconButton          2    2   30   30    kIconSnapshot      noFrame     /* Synchronize with Direct Link */
+#if AUTO_SYNC
+/* [  2] */ IconPushCheck      32    2   30   30    kIconAutoSync	   noFrame     /* Toggle Direct Link Auto Sync */
+#endif
+/* [  3] */ IconButton         X3    2   30   30    kIconConnections   noFrame     /* Manage Connections */
+/* [  4] */ IconButton         X4    2   30   30    kIconExport3D      noFrame     /* Export to Datasmith file */
+/* [  5] */ IconButton         X5    2   30   30    kIconMessages      noFrame     /* Show Messages */
+#if kPaletteDevTools
+/* [  6] */ IconButton         X6    2   30   30    InfoIcon           noFrame     /* Selection to clipboard */
+/* [  7] */ IconButton         X7    2   30   30    ErrorIcon          noFrame     /* Zap database */
+#endif
+}
+
+'DLGH' ResIdLocAnchor(kLangChinese, kDlgPalette, DLG_Palette_INTERFACE_FUNCTIONS) {
+1	"使用Direct Link同步"		IconButton_1
+#if AUTO_SYNC
+2	"使用Direct Link同步"	IconButton_2
+#endif
+H3	"管理连接"			IconButton_4
+H4	"导出到Datasmith文件"					IconButton_5
+H5	"显示信息"				IconButton_6
+H6	"Information on selected elements"   IconButton_7
+H7	"Delete synchronization's memory"   IconButton_8
+}
+
+/* Dialog about... */
+'GDLG' ResIdLoc(kLangChinese, kDlgAboutOf) Modal	40   40  668  363 "About Datasmith Direct Link"
+{
+/* [  1] */ Button		598	336	55	20	LargePlain	"Ok"
+/* [  2] */ Icon		0	0	668	329 kPictureSplashScreen
+/* [  3] */ LeftText	20	338	400	16	SmallPlain	"" /* Versions strings */
+}
+
+'DLGH' ResIdLocAnchor(kLangChinese, kDlgAboutOf, DLG_About_INTERFACE_FUNCTIONS) {
+1	"Close Window"		PushButton_1
+}
+
+/* Dialog report... */
+'GDLG' ResIdLoc(kLangChinese, kDlgReport) Palette | thickFrame | grow | topCaption | close 	40   40  640  440 "Datasmith信息"
+{
+/* [  1] */ Button		560	410	60	20	LargePlain	"关闭"
+/* [  2] */ Button		20	410	60	20	LargePlain	"清除"
+/* [  3] */ MultiLineEdit	3	3	634	394	SmallPlain readOnly	HVScroll
+/* [  4] */ Button		100	410	100	20	LargePlain	"全部复制"
+/* [  5] */ Button		220	410	100	20	LargePlain	"复制选中项"
+}
+
+'DLGH' ResIdLocAnchor(kLangChinese, kDlgReport, DLG_Report_INTERFACE_FUNCTIONS) {
+1	"关闭窗口"	PushButton_1
+2	"清除内容"	PushButton_2
+3	"报告信息" TextEdit_1
+4	"将所有信息复制到剪贴板"	PushButton_3
+5	"将选中的信息复制到剪贴板"	PushButton_4
+}
+
+/* Dialog connections... */
+'GDLG' ResIdLoc(kLangChinese, kDlgConnections) Palette | thickFrame | grow | topCaption | close 	40   40  440  440 "Datasmith Direct Link连接状态"
+{
+/* [  1] */ SingleSelList	3	3	434	394	LargePlain PartialItems kDlgConnectionsRowHeight HasHeader 21
+/* [  2] */ CenterText		3	3	434	394 SmallPlain vCenter "未找到连接。\n\n正在等候建立Datasmith Direct Link连接。\n\n请打开支持Datasmith Direct Link的引用程序，例如Twinmotion或虚幻引擎。"
+/* [  3] */ LeftText		6	410	378	20	SmallPlain vCenter	"存储目录："
+/* [  4] */ IconButton		390	410	20	20	kIconArrowGoto
+/* [  5] */ IconButton		415	410	20	20  kIconFolder
+}
+
+'DLGH' ResIdLocAnchor(kLangChinese, kDlgConnections, DLG_Connections_INTERFACE_FUNCTIONS) {
+1	"Actives connections"	SingleSelList_1
+2	"Actives connections"	LeftText_2
+3	"Direct Link将使用此目录来保存临时文件"	LeftText_1
+4	"Open cache folder"	PushButton_3
+5	"浏览另一个文件夹"	PushButton_4
+}
+
+/* Happen if I add error case and forgot to add it's message/alert */
+'GALR' ResIdLoc(kLangChinese, kAlertUnhandledError) Error "错误！" {
+/* largeText */		"未知IO错误。"
+/* smallText */		"如果问题依然存在，请将此错误报告给Epic Games。"
+/* button1   */     "确认"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if ARCHICAD throw an exception when traversing it's BD */
+'GALR' ResIdLoc(kLangChinese, kAlertACDBError) Error "错误！" {
+/* largeText */		"解析3D模型时发生错误。"
+/* smallText */		"如果问题依然存在，请将此错误报告给Epic Games。"
+/* button1   */     "确认"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if an invariant isn't satisfied */
+'GALR' ResIdLoc(kLangChinese, kAlertPlugInError) Error "错误！" {
+/* largeText */		"发生错误。"
+/* smallText */		"如果问题依然存在，请将此错误报告给Epic Games。"
+/* button1   */     "确认"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if current view isn't in 3D */
+'GALR' ResIdLoc(kLangChinese, kAlertNot3DViewError) Error "错误！" {
+/* largeText */		"当前视图不是3D视图。"
+/* smallText */		"请选择一个3D视图并重试。"
+/* button1   */     "确认"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if user cancel an operation */
+'GALR' ResIdLoc(kLangChinese, kAlertUserCancelledError) Error "错误！" {
+/* largeText */		"进程已被取消。"
+/* smallText */		""
+/* button1   */     "确认"
+/* button2   */		""
+/* button3   */		""
+}

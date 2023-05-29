@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+    <!-- TDynamicVector<Type> visualizer -->
+    <Type Name="UE::Geometry::TDynamicVector&lt;*&gt;">
+        <DisplayString Condition="Blocks.Elements.ArrayNum &lt; 0 || Blocks.Elements.ArrayMax &lt; Blocks.Elements.ArrayNum">Invalid</DisplayString>
+        <DisplayString Condition="Blocks.Elements.ArrayNum == 0">Empty</DisplayString>
+        <DisplayString>{{Num={CurBlock * BlockSize + CurBlockUsed}, Capacity={Blocks.Elements.ArrayNum * UE::Geometry::TDynamicVector&lt;$T1&gt;::BlockSize}}}</DisplayString>
+        <Expand>
+            <Item Name="[Bytes Allocated]"
+                  Condition="!(Blocks.Elements.ArrayNum &lt; 0 || Blocks.Elements.ArrayMax &lt; Blocks.Elements.ArrayNum)">
+                (size_t)(Blocks.Elements.ArrayMax * sizeof(void*) + Blocks.Elements.ArrayNum * sizeof(UE::Geometry::TDynamicVector&lt;$T1&gt;::BlockType))
+            </Item>
+            <Item Name="Blocks"
+                  Condition="!(Blocks.Elements.ArrayNum &lt; 0 || Blocks.Elements.ArrayMax &lt; Blocks.Elements.ArrayNum)">
+                Blocks.Elements,na
+            </Item>
+        </Expand>
+    </Type>
+
+    <!-- FRefCountVector visualizer -->
+    <Type Name="UE::Geometry::FRefCountVector">
+        <DisplayString Condition="RefCounts.Blocks.Elements.ArrayNum &lt; 0 || RefCounts.Blocks.Elements.ArrayMax &lt; RefCounts.Blocks.Elements.ArrayNum">Invalid</DisplayString>
+        <DisplayString Condition="RefCounts.Blocks.Elements.ArrayNum == 0">Empty</DisplayString>
+        <DisplayString>{{Used={UsedCount}, Free={FreeIndices.CurBlock * FreeIndices.BlockSize + FreeIndices.CurBlockUsed}, MaxIndex={RefCounts.CurBlock * RefCounts.BlockSize + RefCounts.CurBlockUsed}}}</DisplayString>
+        <Expand>
+            <Item Name="RefCounts"
+                  Condition="!(RefCounts.Blocks.Elements.ArrayNum &lt; 0 || RefCounts.Blocks.Elements.ArrayMax &lt; RefCounts.Blocks.Elements.ArrayNum)">
+                RefCounts
+            </Item>
+            <Item Name="FreeIndices"
+                  Condition="!(RefCounts.Blocks.Elements.ArrayNum &lt; 0 || RefCounts.Blocks.Elements.ArrayMax &lt; RefCounts.Blocks.Elements.ArrayNum)">
+                FreeIndices
+            </Item>
+        </Expand>
+    </Type>
+
+</AutoVisualizer>

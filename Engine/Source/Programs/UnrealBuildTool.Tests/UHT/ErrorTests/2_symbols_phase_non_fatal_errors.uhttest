@@ -1,0 +1,76 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h
+#include "SourceFile01.generated.h"
+USTRUCT()
+struct FBobby : public Sam
+{
+    GENERATED_USTRUCT_BODY(VLatest)
+
+    UPROPERTY()
+    int AProperty;
+
+    UPROPERTY()
+    int BProperty;
+};
+
+UCLASS(ShowCategories=Bob, ShowCategories=(Frank, Tim))
+class UBobby : public USam
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    int AProperty;
+
+    UPROPERTY()
+    int BProperty;
+};
+
+UINTERFACE(BlueprintType)
+class UTest2Interface : public UInterface
+{
+    GENERATED_BODY()
+
+public:
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Reinstancing")
+    bool TestEvent99();
+};
+
+class ITest2Interface
+{
+    GENERATED_BODY()
+
+public:
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Reinstancing")
+    int32 TestEvent(int billy, int bob, int c);
+
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Reinstancing")
+    bool TestEvent2();
+};
+
+!console
+2_symbols_phase_non_fatal_errors.uhttest(41)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Class 'UBobby' shares engine name 'Bobby' with struct 'FBobby' in Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h(2)

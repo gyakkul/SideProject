@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <AC_VERSION>23</AC_VERSION>
+    <AC_SDK>3008</AC_SDK>
+    <ACSDKPATH>$(UE_SDKS_ROOT)\HostWin64\Win64\Archicad\$(AC_VERSION)</ACSDKPATH>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile />
+    <ClCompile>
+      <PreprocessorDefinitions>AC_VERSION=$(AC_VERSION);AC_SDK=$(AC_SDK);ACExtension;WINDOWS;_WINDOWS;_USRDLL;_STLP_DONT_FORCE_MSVC_LIB_NAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ACSDKPATH)\Support\Inc;$(ACSDKPATH)\Support\Modules\GSRoot;$(ACSDKPATH)\Support\Modules\GSRoot\STL\imp;$(ACSDKPATH)\Support\Modules\GSUtils;$(ACSDKPATH)\Support\Modules\DGLib;$(ACSDKPATH)\Support\Modules\GX;$(ACSDKPATH)\Support\Modules\GXImage;$(ACSDKPATH)\Support\Modules\GXImageBase;$(ACSDKPATH)\Support\Modules\DGGraphix;$(ACSDKPATH)\Support\Modules\Graphix;$(ACSDKPATH)\Support\Modules\TextEngine;$(ACSDKPATH)\Support\Modules\InputOutput;$(ACSDKPATH)\Support\Modules\UCLib;$(ACSDKPATH)\Support\Modules\UDLib;$(ACSDKPATH)\Support\Modules\Pattern;$(ACSDKPATH)\Support\Modules\VBAttrDialogs;$(ACSDKPATH)\Support\Modules\GSModeler;$(ACSDKPATH)\Support\Modules\Geometry;$(ACSDKPATH)\Support\Modules\Model3D;$(ACSDKPATH)\Support\Modules\GDL;$(ACSDKPATH)\Support\Modules\Brep;$(ACSDKPATH)\Support\Modules\PointCloudManager;$(ACSDKPATH)\Support\Modules\PointCloud;$(ACSDKPATH)\Support\Modules\VBAttributes;$(ACSDKPATH)\Support\Modules\GSModeler2D;$(ACSDKPATH)\Support\Modules\ObjectDatabase;$(ACSDKPATH)\Support\Modules\GSModelDevLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ObjectDatabase\Win\ObjectDatabaseImp.lib;VBAttributes\Win\VBAttributesImp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="AC_VERSION">
+      <Value>$(AC_VERSION)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="AC_SDK">
+      <Value>$(AC_SDK)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ACSDKPATH">
+      <Value>$(ACSDKPATH)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

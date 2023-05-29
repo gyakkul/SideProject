@@ -1,0 +1,18 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde;
+
+import "horde/common/namespace_id.proto";
+import "horde/common/bucket_id.proto";
+import "horde/common/ref_id.proto";
+
+option csharp_namespace = "HordeCommon.Wrapper";
+
+message QualifiedRefId
+{
+	NamespaceId NamespaceId = 1;
+	BucketId BucketId = 2;
+	RefId RefId = 3;
+}

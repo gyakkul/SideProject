@@ -1,0 +1,41 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde;
+
+option csharp_namespace = "Horde.Common.Rpc";
+
+message UpdateLogRequest {
+
+	// The unique log id
+	string LogId = 1;
+
+	// RefTarget for the latest flushed node
+	string Target = 2;
+
+	// Number of lines that have been flushed
+	int32 LineCount = 3;
+}
+
+message UpdateLogResponse {
+
+}
+
+message UpdateLogTailRequest {
+
+	// The unique log id
+	string LogId = 1;
+
+	// Starting line index of the new tail data
+	int32 TailNext = 2;
+
+	// New tail data to append (from LineCount backwards)
+	bytes TailData = 3;
+}
+
+message UpdateLogTailResponse {
+
+	// Index of the next requested tail line, or -1 if tailing is not desired.
+	int32 TailNext = 1;
+}

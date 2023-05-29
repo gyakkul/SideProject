@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <EnginePath>..\..\..\..\..\..\..\..\Engine</EnginePath>
+    <UERuntime>$(EnginePath)\Source\Runtime</UERuntime>
+    <ADDON_VERSION>1.0</ADDON_VERSION>
+    <AUTO_SYNC>1</AUTO_SYNC>
+    <ACMODULESPATH>$(ACSDKPATH)\Support\Modules</ACMODULESPATH>
+    <UEIntermediateDir>$(EnginePath)\Intermediate\Build\Win64</UEIntermediateDir>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>UE_BUILD_DEVELOPMENT=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_EDITORONLY_DATA=1;WITH_SERVER_CODE=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_PLUGIN_SUPPORT=0;IS_MONOLITHIC=1;IS_PROGRAM=1;PLATFORM_WINDOWS=1;CORE_API=DLLIMPORT;DATASMITHEXPORTER_API=DLLIMPORT;DATASMITHCORE_API=DLLIMPORT;DIRECTLINK_API=DLLIMPORT;DATASMITHEXPORTERUI_API=DLLIMPORT;DATASMITHVALIDATOR_API=DLLIMPORT;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;UNICODE;_UNICODE;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UBT_COMPILED_PLATFORM=Windows;ADDON_VERSION=$(ADDON_VERSION);AUTO_SYNC=$(AUTO_SYNC);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(EnginePath)\Source\Runtime\Datasmith\DatasmithCore\Public;$(EnginePath)\Source\Runtime\Datasmith\DirectLink\Public;$(EnginePath)\Source\Developer\Datasmith\DatasmithExporter\Public;$(EnginePath)\Source\Developer\Datasmith\DatasmithExporterUI\Public;$(UERuntime)\Messaging\Public;$(UERuntime)\CoreUObject\Public;$(UERuntime)\Core\Public;$(UERuntime)\Core\Public\Internationalization;$(UERuntime)\Core\Public\Async;$(UERuntime)\Core\Public\Concurrency;$(UERuntime)\Core\Public\Containers;$(UERuntime)\Core\Public\Delegates;$(UERuntime)\Core\Public\GenericPlatform;$(UERuntime)\Core\Public\HAL;$(UERuntime)\Core\Public\Logging;$(UERuntime)\Core\Public\Math;$(UERuntime)\Core\Public\Misc;$(UERuntime)\Core\Public\Modules;$(UERuntime)\Core\Public\Modules\Boilerplate;$(UERuntime)\Core\Public\ProfilingDebugging;$(UERuntime)\Core\Public\Serialization;$(UERuntime)\Core\Public\Serialization\Csv;$(UERuntime)\Core\Public\Stats;$(UERuntime)\Core\Public\Templates;$(UERuntime)\Core\Public\UObject;$(UERuntime)\Core\Public\Windows;$(UERuntime)\Core;$(UERuntime)\Projects\Public;$(UERuntime)\Projects\Public\Interfaces;$(UERuntime)\TraceLog\Public;$(UERuntime)\Launch\Resources;..\..\DatasmithValidator\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(EnginePath)\Binaries\Win64\DatasmithUE4ArchiCAD;$(ACMODULESPATH);$(ACSDKPATH)\Support\Lib\Win;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>DGLib\Win\DGImp.lib;Geometry\Win\GeometryImp.lib;GSModeler\Win\GSModelerImp.lib;GSRoot\Win\GSRootImp.lib;GSUtils\Win\GSUtilsImp.lib;GXImageBase\Win\GXImageBaseImp.lib;GXImage\Win\GXImageImp.lib;GX\Win\GXImp.lib;InputOutput\Win\InputOutputImp.lib;TextEngine\Win\TextEngineImp.lib;UCLib\Win\UCImp.lib;UDLib\Win\UDImp.lib;VectorImage\Win\VectorImageImp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>DatasmithUE4ArchiCAD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(EnginePath)\Binaries\Win64\DatasmithUE4ArchiCAD;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="EnginePath">
+      <Value>$(EnginePath)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="UERuntime">
+      <Value>$(UERuntime)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="ADDON_VERSION">
+      <Value>$(ADDON_VERSION)</Value>
+    </BuildMacro>
+    <BuildMacro Include="AUTO_SYNC">
+      <Value>$(AUTO_SYNC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ACMODULESPATH">
+      <Value>$(ACMODULESPATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="UEIntermediateDir">
+      <Value>$(UEIntermediateDir)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

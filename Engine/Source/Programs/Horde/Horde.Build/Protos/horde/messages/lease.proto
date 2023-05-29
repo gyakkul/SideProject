@@ -1,0 +1,46 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+//
+// Derived from the Remote Workers API:
+// https://github.com/googleapis/googleapis/blob/master/google/devtools/remoteworkers/v1test2/worker.proto
+//
+
+// Copyright 2019 Google LLC.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+syntax = "proto3";
+
+import "horde/common/lease_outcome.proto";
+import "horde/common/lease_state.proto";
+import "google/protobuf/any.proto";
+
+option csharp_namespace = "HordeCommon.Rpc.Messages";
+
+message Lease {
+
+	// Unique id of this lease
+	string Id = 1;
+	
+	// The current state of the lease
+	Horde.LeaseStateType.LeaseState State = 2;
+
+	// The work to be performed. Specified by the server when the lease state is pending.
+	google.protobuf.Any Payload = 3;
+
+	// Outcome of this lease. Note that this corresponds to the agent's *execution* of the lease, not the result of the actual work done.
+	Horde.LeaseOutcomeType.LeaseOutcome Outcome = 4;
+
+	// Output from executing the lease. This is typically empty or a protobuf-encoded object of a type understood by the task source.
+	bytes Output = 5;
+}

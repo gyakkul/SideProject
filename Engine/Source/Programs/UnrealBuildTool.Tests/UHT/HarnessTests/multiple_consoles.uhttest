@@ -1,0 +1,6 @@
+!manifest test.uhtmanifest
+Blank Manifest
+!console
+multiple_consoles.uhttest(5): Error: There can be only one console section in a test script
+!console
+This is a duplicate console section and will be ignored

@@ -1,0 +1,9 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+option csharp_namespace = "HordeCommon.Rpc.Tasks";
+
+// Used for tests, a no-op task
+message TestTask {
+}

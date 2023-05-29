@@ -1,0 +1,21 @@
+﻿# This file uses UTF8 encoding. Lines starting with # or $, or ending with =
+# do NOT need translating.
+$utf8
+
+DisplayName=
+Unreal Datasmith
+
+Tooltip=
+Export scene to Datasmith format
+
+ID_DatasmithTab.DisplayName=
+Unreal Datasmith
+
+ID_Button_Export.DisplayName=
+Datasmith Export
+
+ID_Button_Export.ToolTip=
+Export scene to .datasmith file
+
+ID_Button_Export.ExtendedToolTip=
+Export Navisworks scene to Datasmith file

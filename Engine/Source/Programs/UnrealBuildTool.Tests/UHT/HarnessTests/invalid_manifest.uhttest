@@ -1,0 +1,4 @@
+!manifest test.uhtmanifest
+Bogus Manifest
+!console
+invalid_manifest.uhttest(2)[test.uhtmanifest]: Error: 'B' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.

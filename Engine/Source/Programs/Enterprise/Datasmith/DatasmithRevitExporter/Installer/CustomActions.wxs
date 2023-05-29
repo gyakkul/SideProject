@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    
+    <!-- Abort install if Revit is not installed -->
+    <CustomAction Id="NoRevitInstaller" Error="!(loc.ErrorNotInstalled)" />
+    
+    <!-- Prevent downgrading -->
+    <CustomAction Id="PreventDowngrading" Error="!(loc.ErrorOlderVersionInstall)" />
+
+    <!-- Prevent overwriting -->
+    <CustomAction Id="PreventSameVersionInstall" Error="!(loc.ErrorSameVersionInstall)" />
+    
+    <!-- Declaration of custom actions to evaluate the properties REVIT201xDIR -->
+    <!-- See 'InstallExecuteSequence' section for their usage -->
+	<CustomAction Id="SETREVIT2023DIR" Property="REVIT2023DIR" Value="" />
+	<CustomAction Id="SETREVIT2022DIR" Property="REVIT2022DIR" Value="" />
+    <CustomAction Id="SETREVIT2021DIR" Property="REVIT2021DIR" Value="" />
+    <CustomAction Id="SETREVIT2020DIR" Property="REVIT2020DIR" Value="" />
+    <CustomAction Id="SETREVIT2019DIR" Property="REVIT2019DIR" Value="" />
+    <CustomAction Id="SETREVIT2018DIR" Property="REVIT2018DIR" Value="" />
+    
+    <CustomActionRef Id="WixExitEarlyWithSuccess" />
+    
+    <CustomAction Id="InstallDirectX" FileKey="DXSETUPEXE" ExeCommand="/silent" Execute="deferred" Impersonate="no" Return="check"/>
+    
+  </Fragment>
+</Wix>

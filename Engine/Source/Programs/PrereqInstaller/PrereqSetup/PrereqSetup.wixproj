@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>3.8</ProductVersion>
+    <ProjectGuid>c753ef93-888a-46b5-999d-c8f4e539e043</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>UEPrereqSetup_$(Platform)</OutputName>
+    <OutputType>Package</OutputType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <WixToolPath>..\..\..\..\..\Engine\Source\ThirdParty\WiX\3.8\</WixToolPath>
+    <WixTargetsPath>$(WixToolPath)Wix.targets</WixTargetsPath>
+    <WixTasksPath>wixtasks.dll</WixTasksPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>..\..\..\..\Extras\Redist\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>Debug</DefineConstants>
+    <CompilerAdditionalOptions>-arch x86</CompilerAdditionalOptions>
+    <SuppressIces>ICE61;ICE82</SuppressIces>
+    <SuppressPdbOutput>False</SuppressPdbOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\..\..\Extras\Redist\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <CompilerAdditionalOptions>-arch x86</CompilerAdditionalOptions>
+    <SuppressPdbOutput>True</SuppressPdbOutput>
+    <SuppressIces>ICE61;ICE82</SuppressIces>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DefineConstants>Debug</DefineConstants>
+    <CompilerAdditionalOptions>-arch x64</CompilerAdditionalOptions>
+    <SuppressIces>ICE61;ICE82</SuppressIces>
+    <SuppressPdbOutput>False</SuppressPdbOutput>
+    <OutputPath>..\..\..\..\Extras\Redist\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <CompilerAdditionalOptions>-arch x64</CompilerAdditionalOptions>
+    <SuppressPdbOutput>True</SuppressPdbOutput>
+    <SuppressIces>ICE61;ICE82</SuppressIces>
+    <OutputPath>..\..\..\..\Extras\Redist\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>  
+  <ItemGroup>
+    <Compile Include="CustomActions.wxs" />
+    <Compile Include="Product.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WixExtension Include="WixUtilExtension">
+      <HintPath>$(WixToolPath)WixUtilExtension.dll</HintPath>
+      <Name>WixUtilExtension</Name>
+    </WixExtension>
+    <WixExtension Include="WixUIExtension">
+      <HintPath>$(WixToolPath)WixUIExtension.dll</HintPath>
+      <Name>WixUIExtension</Name>
+    </WixExtension>
+    <WixExtension Include="WixNetFxExtension">
+      <HintPath>$(WixToolPath)WixNetFxExtension.dll</HintPath>
+      <Name>WixNetFxExtension</Name>
+    </WixExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="en-us.wxl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomAction\CustomAction.csproj">
+      <Name>CustomAction</Name>
+      <Project>{a9d0a7f5-00bf-40bb-a22b-71d99f860e17}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(WixTargetsPath)" />
+  <Import Project="..\Sign.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+  </PropertyGroup>
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Wix.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

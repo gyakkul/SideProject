@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <!-- Adapter Specific sections -->
+    <Catch2Adapter disabled="false">
+        <FilenameFilter>Test</FilenameFilter>
+		<DiscoverTimeout>60000</DiscoverTimeout>
+		<DiscoverCommandLine>--list-tests --verbosity high</DiscoverCommandLine>
+		<Logging>Verbose</Logging>
+		<ForceListContent>true</ForceListContent>
+    </Catch2Adapter>
+</RunSettings>

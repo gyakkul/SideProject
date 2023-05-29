@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+
+		<!-- Abort install if Rhino is not installed -->
+		<CustomAction Id="NoRhinoInstaller" Error="!(loc.ErrorNoRhinoInstalled)" />
+
+		<!-- Prevent downgrading -->
+		<CustomAction Id="PreventDowngrading" Error="!(loc.ErrorOlderVersionInstall)" />
+
+		<!-- Prevent install if the user already has the same version installed that was built at a different time.  This is a scenario only internal testers will encounter.
+				End users will never see this as we bump the installer version number before release.  This will also not prevent install if the user has an older version installed.-->
+		<CustomAction Id="PreventSameVersionInstall" Error="!(loc.ErrorSameVersionInstall)" />
+
+		<!-- Declaration of custom actions to evaluate the properties RHINO6DIR and RHINO5DIR -->
+		<!-- See  'InstallExecuteSequence' section for their usage -->
+		<CustomAction Id="SETRHINO6DIR" Property="RHINO6DIR" Value="" />
+		<CustomAction Id="SETRHINO7DIR" Property="RHINO7DIR" Value="" />
+
+		<!-- Adding DXDEBUG options -->
+		<CustomActionRef Id="WixExitEarlyWithSuccess" />
+		<CustomAction Id="InstallDirectX"	FileKey="DXSETUPEXE" ExeCommand="/silent" Execute="deferred" Impersonate="no" Return="check"/>
+
+	</Fragment>
+</Wix>

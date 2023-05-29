@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+	<!-- fil067A42F9208D0B6E086D4C5CFC1F1C9C is the component name of the UnrealGameSyncLauncher.exe file in the generated UGSLauncher.wxs-->
+	<Product Id="*" Name="UnrealGameSync" Language="1033" Version="!(bind.FileVersion.fil067A42F9208D0B6E086D4C5CFC1F1C9C)" Manufacturer="Epic Games, Inc." UpgradeCode="770e2608-c9b0-4a4e-9802-45f9ca696ec6">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of UnrealGameSync is already installed." />
+		<Media Id="1" Cabinet="Cab1.cab" EmbedCab="yes" />
+
+		<!-- TODO: DETECT NET CORE -->
+
+		<Icon Id="Installed.ico" SourceFile="Icon.ico"/>
+
+		<Property Id="ARPPRODUCTICON" Value="Installed.ico" />
+
+		<Feature Id="ProductFeature" Title="UnrealGameSync" Level="1">
+			<ComponentRef Id="ShortcutComponent" />
+			<ComponentGroupRef Id="UGSLauncher_Project" />
+		</Feature>
+
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="UnrealGameSync" />
+			</Directory>
+			<Directory Id="ProgramMenuFolder"/>
+			<Directory Id="WindowsFolder" Name="WINDOWS"/>
+		</Directory>
+
+		<util:CloseApplication Id="CloseUnrealGameSync" Target="UnrealGameSync.exe" CloseMessage="yes" RebootPrompt="no"/>
+		<util:CloseApplication Id="CloseUnrealGameSyncLauncher" Target="UnrealGameSyncLauncher.exe" CloseMessage="yes" RebootPrompt="no"/>
+
+		<Property Id="WixShellExecTarget" Value="[#fil067A42F9208D0B6E086D4C5CFC1F1C9C]" />
+		<CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
+
+		<InstallExecuteSequence>
+			<Custom Action='LaunchApplication' After='InstallFinalize'>NOT Installed AND NOT REMOVE</Custom>
+		</InstallExecuteSequence>
+
+		<DirectoryRef Id="ProgramMenuFolder">
+			<Component Id="ShortcutComponent" Guid="{BE12432C-5E4B-4E44-973E-84C680FCFFB7}">
+				<Shortcut Id="ApplicationStartMenuShortcut" Name="UnrealGameSync" Description="Utility to help syncing and compiling UnrealEngine games" Target="[#fil067A42F9208D0B6E086D4C5CFC1F1C9C]" WorkingDirectory="INSTALLFOLDER"/>
+				<RegistryValue Root="HKCU" Key="Software\Epic Games\UnrealGameSync" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+			</Component>
+		</DirectoryRef>
+	</Product>
+</Wix>

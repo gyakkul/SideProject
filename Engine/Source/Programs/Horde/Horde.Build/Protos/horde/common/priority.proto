@@ -1,0 +1,31 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde.PriorityType;
+
+option csharp_namespace = "HordeCommon";
+
+enum Priority {
+
+	// Not specified
+	Unspecified = 0;
+
+	// Lowest priority
+	Lowest = 1;
+
+	// Below normal priority
+	BelowNormal = 2;
+
+	// Normal priority
+	Normal = 3;
+
+	// Above normal priority
+	AboveNormal = 4;
+
+	// High priority
+	High = 5;
+
+	// Highest priority
+	Highest = 6;
+}

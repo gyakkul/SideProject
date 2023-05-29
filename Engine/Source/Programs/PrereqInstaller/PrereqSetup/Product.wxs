@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+
+  <!-- This is the current version of the product.  Note that anything beyond the first three numbers will be ignored when considering upgrades. -->
+  <?define ProductVersion="1.0.18.0" ?>
+
+  <!-- This represents the first/minimum product version.  For Prereq, this is the first version that we ever released to users and can expect
+       to have to deal with existing installations when we go to install newer versions. -->
+  <?define FirstProductVersion="1.0.0.0" ?>
+  <?define ProductCode="*"?>
+  <?define Manufacturer="Epic Games, Inc."?>
+  
+  <?if $(var.Platform) = x64 ?>
+    <?define ProductName = "UE Prerequisites (x64)" ?>
+    <!--DO NOT EDIT--><?define UpgradeCode="{C3A06160-2613-2214-9A17-31B50A6DE064}"?>
+  <?else ?>
+    <?define ProductName = "UE Prerequisites (x86)" ?>
+    <!--DO NOT EDIT--><?define UpgradeCode="{B4B06110-2215-2281-4F11-51A52FFD1032}"?>
+  <?endif ?>
+  
+  <Product Name="$(var.ProductName)"
+           Id="$(var.ProductCode)"
+           Version="$(var.ProductVersion)"
+           Manufacturer="$(var.Manufacturer)"
+           UpgradeCode="$(var.UpgradeCode)"
+           Language="1033" >
+
+    <!-- NOTE: Currently we require elevated priviledges to install.  That's set by "perMachine" here instead of "perUser".  There is also a separate InstallPriviledges field that is automatically set by WiX. -->
+    <!-- NOTE: InstallerVersion 405 means we requires Windows Installer 4.5. For more released versions of windows installer: http://msdn.microsoft.com/en-us/library/aa371185(v=vs.85).aspx-->
+    <Package InstallerVersion="405"
+             Compressed="yes"
+             InstallScope="perMachine"
+             InstallPrivileges="elevated"/>
+
+
+    <!-- NOTE: EmbedCab means to embed everything inside the .msi installer file -->
+    <Media Id="1"
+           Cabinet="Prereq.cab"
+           CompressionLevel="mszip"
+           EmbedCab="yes" />
+
+    <!-- If the user is using Windows XP, check they have SP3 or greater.  Windows version info can be found here: http://msdn.microsoft.com/en-us/library/aa370556(v=vs.85).aspx -->
+    <Condition Message="!(loc.LaunchCondMissingWinXPSP3)">
+      Installed OR (NOT VersionNT = 501) OR ((VersionNT = 501) AND ServicePackLevel >= 3)
+    </Condition>
+
+    <!-- If the user is using Windows Vista, check they have SP2 or greater. -->
+    <Condition Message="!(loc.LaunchCondMissingWinVistaSP2)">
+      Installed OR (NOT VersionNT = 600) OR ((VersionNT = 600) AND ServicePackLevel >= 2)
+    </Condition>
+
+    <MajorUpgrade AllowDowngrades="yes" />
+
+    <!-- This will fill in the InstallLocation field in our uninstall registry entry. -->
+    <SetProperty Id="ARPINSTALLLOCATION" Value="[APPLICATIONFOLDER]" After="CostFinalize" />
+
+    <!-- This allows our app to be installed into Program Files -->
+    <Directory Id="TARGETDIR" Name="SourceDir" />
+
+    <UI>
+      <UIRef Id="WixUI_Minimal"/>
+
+      <!-- This allows for localized default installation error messages -->
+      <UIRef Id="WixUI_ErrorProgressText" />
+     
+    </UI>
+
+    <!-- Point WiX to our custom EULA content (can be .rtf format) -->
+    <WixVariable Id="WixUILicenseRtf" Value="..\Resources\Prereq EULA.rtf" />
+
+    <!-- Customize artwork -->
+    <WixVariable Id="WixUIBannerBmp" Value="..\Resources\BannerMSI.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="..\Resources\Dialog.bmp" />
+    
+    <!-- Turn off support for per-user installs.  We always want to install per-machine.  We require elevated priviledges in order to install third party prerequisites. -->
+    <!-- NOTE: This is needed by WixUI_Advanced dialog set -->
+    <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
+    <WixVariable Id="WixUISupportPerUser" Value="0" />
+
+    <!-- Include Visual C++ Runtime files in our installer.  These are actually included as 'merge modules'.  -->
+    <DirectoryRef Id="TARGETDIR">
+      <Merge Id="Microsoft_VC100_CRT_x86.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC100_CRT_x86.msm" DiskId="1" Language="0"/>
+      <Merge Id="Microsoft_VC110_CRT_x86.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC110_CRT_x86.msm" DiskId="1" Language="0"/>
+      <Merge Id="Microsoft_VC120_CRT_x86.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC120_CRT_x86.msm" DiskId="1" Language="0"/>
+
+      <?if $(var.Platform) = x64 ?>
+        <Merge Id="Microsoft_VC100_CRT_x64.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC100_CRT_x64.msm" DiskId="1" Language="0"/>
+        <Merge Id="Microsoft_VC100_OpenMP_x64.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC100_OpenMP_x64.msm" DiskId="1" Language="0"/>
+        <Merge Id="Microsoft_VC110_CRT_x64.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC110_CRT_x64.msm" DiskId="1" Language="0"/>
+        <Merge Id="Microsoft_VC110_OpenMP_x64.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC110_OpenMP_x64.msm" DiskId="1" Language="0"/>
+        <Merge Id="Microsoft_VC120_CRT_x64.msm" SourceFile="..\Resources\VCRedist\Microsoft_VC120_CRT_x64.msm" DiskId="1" Language="0"/>
+      <?endif ?>
+      
+    </DirectoryRef>
+    <Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="no" Display="hidden" Level="1">
+      <MergeRef Id="Microsoft_VC100_CRT_x86.msm" />
+      <MergeRef Id="Microsoft_VC110_CRT_x86.msm" />
+      <MergeRef Id="Microsoft_VC120_CRT_x86.msm" />
+      
+      <?if $(var.Platform) = x64 ?>
+        <MergeRef Id="Microsoft_VC100_CRT_x64.msm" />
+        <MergeRef Id="Microsoft_VC100_OpenMP_x64.msm" />
+        <MergeRef Id="Microsoft_VC110_CRT_x64.msm" />
+        <MergeRef Id="Microsoft_VC110_OpenMP_x64.msm" />
+        <MergeRef Id="Microsoft_VC120_CRT_x64.msm" />
+      <?endif ?>
+    </Feature>  
+    
+    <InstallExecuteSequence>
+
+      <Custom Action="CAInstallDirectX" Before="InstallFinalize">
+        <![CDATA[NOT REMOVE]]>
+      </Custom>
+    </InstallExecuteSequence>
+
+    <UI>
+      <ProgressText Action="CAInstallDirectX">Installing DirectX</ProgressText>
+    </UI>
+
+    <Icon Id="Setup.ico" SourceFile="..\Resources\Setup.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="Setup.ico" />
+    
+  </Product>
+
+
+</Wix>

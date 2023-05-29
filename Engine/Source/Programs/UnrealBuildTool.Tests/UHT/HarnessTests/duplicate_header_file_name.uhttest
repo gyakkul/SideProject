@@ -1,0 +1,31 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\CoreNetTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [
+                "Source\\Runtime\\CoreUObject\\Private\\UObject\\CoreNetTypes.h"
+            ],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!console
+duplicate_header_file_name.uhttest(2)[test.uhtmanifest]: Error: Two headers with the same name is not allowed. 'Source\Runtime\CoreUObject\Private\UObject\CoreNetTypes.h' conflicts with 'Source\Runtime\CoreUObject\Public\UObject\CoreNetTypes.h'

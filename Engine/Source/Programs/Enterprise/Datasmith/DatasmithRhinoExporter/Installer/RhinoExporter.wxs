@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+	<!-- Include version -->
+	<?include ..\..\DatasmithInstallerCommon\ExporterVersion.wxi?>
+
+	<?define ProductVersion="$(var.MajorVersion).$(var.MinorVersion).$(var.PatchVersion).$(var.BuildVersion)"?>
+
+	<!-- NOTE: Language codes can be found here(LCID Decimal column): http://www.science.co.il/Language/Locale-codes.asp -->
+	<!-- en-US:1033, de-de:1031, ko-kr:1042, es-es:1034, fr-fr:1036, ja-jp:1041, pt-br:1046, zh-cn:2052 -->
+	<?define Languages = "1033,1031,1042,1034,1036,1041,1046,2052"?>
+
+	<!-- Identify the specific product release. Using an asterisk rather than a GUID recreates a new product code each time the installer is rebuilt. -->
+	<?define ProductCode="*"?>
+
+	<!-- The Upgrade Code. Never changes. This is the true "Unreal Engine Launcher" aplication ID, and keeping it the same allows us to recognise existing installations. -->
+	<?define UpgradeCode="{5B9D5A15-721C-47BA-AD75-5987EB1CE164}"?>
+
+	<!-- Defines a relative path to the main Engine directory -->
+	<?define EngineDir="..\..\..\..\..\..\..\Engine"?>
+
+	<!-- Defines a relative path to our resources directory -->
+	<?define ResourcesDir="./Resources"?>
+
+	<!-- Defines a relative path to Prereq installer's vcredist resources directory -->
+	<?define VCRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\Resources\VCRedist"?>
+
+	<!-- Defines a relative path to directory of DirectX redist resources -->
+	<?define DirectXRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\CustomAction\Resources\DirectXRedist"?>
+
+	<!-- Defines a relative path to directory where Rhino plugins are stored -->
+	<?define WinBinaryDir="$(var.EngineDir)\Binaries\Win64\Rhino"?>
+
+	<!-- Defines a relative path to directory where the DatasmithFacade is stored -->
+	<?define FacadeBinDir="$(var.EngineDir)\Binaries\Win64\DatasmithFacadeCSharp"?>
+
+	<!-- Defines a relative path to the ThirdParty libraries -->
+	<?define ThirdPartyDir="$(var.EngineDir)\Source\ThirdParty"?>
+
+	<Product Id="$(var.ProductCode)" Name="Unreal Datasmith Exporter for Rhino" Language="1033" Version="$(var.ProductVersion)" Manufacturer="Epic Games, Inc." UpgradeCode="$(var.UpgradeCode)">
+
+		<Package Platform="x64" InstallerVersion="405" Languages="$(var.Languages)" Compressed="yes" InstallScope="perMachine" />
+
+		<!-- Find other installed versions when the product (with this product code) is first installed, but not during maintenance mode or uninstallation. -->
+		<Upgrade Id="$(var.UpgradeCode)">
+			<!-- NEWPRODUCTFOUND will be set if there is a newer product already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				IncludeMinimum="no"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="NEWPRODUCTFOUND" />
+
+			<!-- UPGRADEFOUND will be set if there is an older or same product already installed -->
+			<UpgradeVersion
+				Minimum="0.0.0"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="no"
+				Language="$(var.Languages)"
+				Property="UPGRADEFOUND" />
+
+			<!-- ANOTHERBUILDINSTALLED will be set if the same product version is already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="yes"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="ANOTHERBUILDINSTALLED" />
+		</Upgrade>
+
+		<!-- Simple Dialog to inform user that installation has aborted because no supported version of Rhino has been found -->
+		<UI>
+			<UIRef Id="CustomWixUI_InstallDir"/>
+			<UIRef Id="WixUI_ErrorProgressText"/>
+
+			<!--These dialog references are required for util:CloseApplication to work properly -->
+			<DialogRef Id="FilesInUse" />
+			<DialogRef Id="MsiRMFilesInUse" />
+		</UI>
+
+		<!-- Create the icon for our shortcuts -->
+		<!-- NOTE: ARPPRODUCTICON is a special property recognized by Windows Installer, which sets up this icon for us -->
+		<Icon Id="UnrealEngine.ico" SourceFile="$(var.ResourcesDir)/UnrealEngine.ico" />
+		<Property Id="ARPPRODUCTICON" Value="UnrealEngine.ico" />
+
+		<!-- Customize artwork -->
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ResourcesDir)/default_small_banner.bmp" />
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ResourcesDir)/Dialog.bmp"/>
+
+		<!-- Declaration of properties RHINOxDIR, used to store installation directory for supported versions of Rhino -->
+		<!-- @note: Windows Installer is setting those properties to C:\ if registry key is not found -->
+		<Property Id="RHINO6EXEDIR">
+			<RegistrySearch Id="Rhino6ExeSearch" Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\6.0\Install" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="RHINO7EXEDIR">
+			<RegistrySearch Id="Rhino7ExeSearch" Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\7.0\Install" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="RHINO6DIR">
+			<RegistrySearch Id="Rhino6Search" Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\6.0\Install" Name="InstallPath" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="RHINO7DIR">
+			<RegistrySearch Id="Rhino7Search" Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\7.0\Install" Name="InstallPath" Type="raw" Win64="yes" />
+		</Property>
+
+		<Property Id="DATASMITHUIDIR" Value="C:\ProgramData\Epic\Exporter\"/>
+
+		<!-- For some reason, Rhino7 creates registry entries for Rhino6 pointing to the Rhino7 directory, we must check that the Version value exists to know if this is a real Rhino6 installation -->
+		<Property Id="RHINO6VERSIONEXIST">
+			<RegistrySearch Id="Rhino6VersionSearch" Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\6.0\Install" Name="Version" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="RHINO6EXEEXIST">
+			<DirectorySearch Id="CheckRhino6Dir" Path="[RHINO6EXEDIR]" Depth="0">
+				<FileSearch Id="CheckRhino6File" Name="Rhino.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="RHINO7VERSIONEXIST">
+			<RegistrySearch Id="Rhino7VersionSearch" Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\7.0\Install" Name="Version" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="RHINO7EXEEXIST">
+			<DirectorySearch Id="CheckRhino7Dir" Path="[RHINO7EXEDIR]" Depth="0">
+				<FileSearch Id="CheckRhino7File" Name="Rhino.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<!-- Declaration of properties RHINOxVALID used to check if the corresponding install directory of Rhino is valid -->
+		<SetProperty Id="RHINO6VALID" After="AppSearch" Value="1">RHINO6EXEEXIST AND RHINO6VERSIONEXIST</SetProperty>
+		<SetProperty Id="RHINO7VALID" After="AppSearch" Value="1">RHINO7EXEEXIST AND RHINO7VERSIONEXIST</SetProperty>
+		
+		<!-- This doesn't do anything, it's a leftover variable required for the disabled "CurstomInstallDirDlg" action -->
+		<Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER6" />
+		<Property Id="WIXUI_FINALINSTALLDIR" Value="INSTALLFOLDER6" />
+		
+		<!-- Common action to declare type of content in msi -->
+		<Media Id="1" Cabinet="DatasmithRhinoExporter.cab" EmbedCab="yes" />
+
+		<DirectoryRef Id="TARGETDIR">
+			<Component Id="EngineRegistryEntries" Guid="16E6CBB2-DE45-4EDC-B835-AF810770726A">
+				<RegistryKey Root="HKLM" Key="Software\EpicGames\Unreal Engine" ForceCreateOnInstall="yes">
+					<Permission User="[WIX_ACCOUNT_USERS]" GenericAll="yes" />
+					<RegistryValue Type="string" Name="RhinoEngineDir" Value="[ENGINEFOLDER]" />
+				</RegistryKey>
+			</Component>
+		</DirectoryRef>
+
+		<!-- Group of features to install. Each one if conditional to the existence of Rhino.exe in install folder -->
+		<!-- @note: Each sub-feature is disabled ('Level = 0') at creation. The feature is enabled, if Rhino.exe has been found in the corresponding installation folder. -->
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<Feature Id="Feature6" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER6" />
+				<ComponentRef Id="EXPORTER6RESDE" />
+				<ComponentRef Id="EXPORTER6RESES" />
+				<ComponentRef Id="EXPORTER6RESFR" />
+				<ComponentRef Id="EXPORTER6RESJA" />
+				<ComponentRef Id="EXPORTER6RESKO" />
+				<ComponentRef Id="EXPORTER6RESPT" />
+				<ComponentRef Id="EXPORTER6RESZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1">RHINO6CHECKED</Condition>
+			</Feature>
+			<Feature Id="Feature7" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER7" />
+				<ComponentRef Id="EXPORTER7RESDE" />
+				<ComponentRef Id="EXPORTER7RESES" />
+				<ComponentRef Id="EXPORTER7RESFR" />
+				<ComponentRef Id="EXPORTER7RESJA" />
+				<ComponentRef Id="EXPORTER7RESKO" />
+				<ComponentRef Id="EXPORTER7RESPT" />
+				<ComponentRef Id="EXPORTER7RESZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1">RHINO7CHECKED</Condition>
+			</Feature>
+		</Feature>
+
+		<!-- Adding merge modules to install VC runtimes for VC10, VC11 VC12 and VC14 -->
+		<DirectoryRef Id="TempFolder">
+			<Merge Id="Microsoft_VC100_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC100_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC120_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC120_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC142_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC142_CRT_x64.msm" DiskId="1" Language="0"/>
+		</DirectoryRef>
+
+		<!-- Adding installation of VC runtimes for VC10, VC11 VC12 and VC14 to the installation process -->
+		<Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="yes" Display="expand" Level="1">
+			<MergeRef Id="Microsoft_VC100_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC100_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC120_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC142_CRT_x64.msm" />
+		</Feature>
+
+		<!-- Adding installation modules for DirectX -->
+		<DirectoryRef Id="TempFolder">
+			<Directory Id="DirectXRedistDirectory" Name="DirectXPrereq">
+				<Component Id="DirectXRedist" Guid="{D9FBAD53-79F0-40C8-A75F-980AD8A4997A}">
+					<File Id="DXSETUPEXE" Source="$(var.DirectXRedistDir)\dxsetup.exe" KeyPath="yes" Checksum="yes">
+						<util:PermissionEx User="Everyone" GenericAll="yes" ChangePermission="yes" />
+					</File>
+					<File Id="dxupdate.cab" Source="$(var.DirectXRedistDir)\dxupdate.cab"/>
+					<File Id="dxdllreg_x86.cab" Source="$(var.DirectXRedistDir)\dxdllreg_x86.cab"/>
+					<File Id="dsetup32.dll" Source="$(var.DirectXRedistDir)\dsetup32.dll"/>
+					<File Id="dsetup.dll" Source="$(var.DirectXRedistDir)\dsetup.dll"/>
+					<File Id="APR2007_xinput_x64.cab" Source="$(var.DirectXRedistDir)\APR2007_xinput_x64.cab"/>
+					<File Id="Feb2010_X3DAudio_x64.cab" Source="$(var.DirectXRedistDir)\Feb2010_X3DAudio_x64.cab"/>
+					<File Id="Jun2010_D3DCompiler_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_D3DCompiler_43_x64.cab"/>
+					<File Id="Jun2010_d3dcsx_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dcsx_43_x64.cab"/>
+					<File Id="Jun2010_d3dx10_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx10_43_x64.cab"/>
+					<File Id="Jun2010_d3dx11_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx11_43_x64.cab"/>
+					<File Id="Jun2010_d3dx9_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx9_43_x64.cab"/>
+					<File Id="Jun2010_XAudio_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_XAudio_x64.cab"/>
+				</Component>
+			</Directory>
+		</DirectoryRef>
+
+		<!-- Adding installation of DirectX to the installation process -->
+		<Feature Id="DirectXRedist" Title="Installing DirectX" AllowAdvertise="yes" Display="expand" Level="1">
+			<ComponentRef Id="DirectXRedist"/>
+		</Feature>
+
+		<SetProperty Id="RHINO6CHECKED" Before="LaunchConditions" Sequence="first" Value="0">RHINO6VALID</SetProperty>
+		<SetProperty Id="RHINO7CHECKED" Before="LaunchConditions" Sequence="first" Value="0">RHINO7VALID</SetProperty>
+
+		<SetProperty Id="NOTFOUNDRHINO" Before="LaunchConditions" Value="1">NOT RHINO6VALID AND NOT RHINO7VALID</SetProperty>
+
+		<CustomAction Id="Cleanup_StagedToolbar6" Directory="INSTALLFOLDER6"
+			ExeCommand="cmd /C &quot;del %AppData%\McNeel\Rhinoceros\6.0\UI\Plug-ins\DatasmithRhino6.rui&quot;"
+			Execute="deferred" Return="ignore" HideTarget="no" Impersonate="no" />
+		
+		<CustomAction Id="Cleanup_StagedToolbar7" Directory="INSTALLFOLDER7"
+			ExeCommand="cmd /C &quot;del %AppData%\McNeel\Rhinoceros\7.0\UI\Plug-ins\DatasmithRhino7.rui&quot;"
+			Execute="deferred" Return="ignore" HideTarget="no" Impersonate="no" />
+
+		<InstallExecuteSequence>
+
+			<!-- Stop the user from installing an older product version -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- Stop the user from installing the same product version -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+			<!-- Force evaluation of properties RHINOxDIR before anything else -->
+			<!-- @todo: Check if this is still required. -->
+			<Custom Action="SETRHINO6DIR" Before="AppSearch" />
+			<Custom Action="SETRHINO7DIR" Before="AppSearch" />
+
+			<!-- Remove the old product before installing in case this is the same version msi and we isntall to the same location -->
+			<RemoveExistingProducts Before="InstallInitialize" />
+
+			<!-- Remove the staged toolbar file when installing and installing, that way Rhino create a new stage file with the one provided with this install. -->
+			<Custom Action="Cleanup_StagedToolbar6" Before="InstallFinalize"/>
+			<Custom Action="Cleanup_StagedToolbar7" Before="InstallFinalize"/>
+
+			<Custom Action="InstallDirectX" Before="InstallFinalize">
+				<![CDATA[NOT REMOVE]]>
+			</Custom>
+
+		</InstallExecuteSequence>
+
+		<!-- Setup install UI sequence -->
+		<InstallUISequence>
+
+			<!-- Abort install if no version of the exporter is selected -->
+			<Custom Action="WixExitEarlyWithSuccess" Before="ProgressDlg">NOT RHINO6CHECKED AND NOT RHINO7CHECKED</Custom>
+
+			<!-- Abort install if no supported version of Rhino is installed -->
+			<Custom Action="NoRhinoInstaller" Before="ValidateProductID">NOTFOUNDRHINO</Custom>
+
+			<!-- After searching for previously installed products, prevent downgrading -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- After searching for previously installed products, prevent overwriting -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+		</InstallUISequence>
+	</Product>
+
+	<Fragment>
+		<!-- Declaration of installation directory according to the version of Rhino -->
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="DATASMITHUIDIR" ComponentGuidGenerationSeed="{E2CAA9A7-62F8-4FB0-9BB6-5643C1AE8F04}">
+				<Directory Id="ENGINEFOLDER" Name="RhinoEngine">
+					<Directory Id="BINARIESFOLDER" Name="Binaries" />
+					<Directory Id="CONTENTFOLDER" Name="Content">
+						<Directory Id="CoreStyleFolder" />
+					</Directory>
+					<Directory Id="SHADERSFOLDER" Name="Shaders">
+						<Directory Id="STANDALONERENDERERFOLDER" Name="StandaloneRenderer">
+							<Directory Id="D3DShadersFolder" />
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="CommonAppDataFolder">
+				<Directory Id="PDMCNEEL" Name="McNeel">
+					<Directory Id="PDRHINODIR" Name="Rhinoceros">
+						<Directory Id="PDRHINO6DIR" Name="6.0">
+							<Directory Id="RHINO6PLUGINSDIR" Name="Plug-ins">
+								<Directory Id="INSTALLFOLDER6" Name="Datasmith Rhino Exporter (d1fdc795-b334-4933-b680-088119cdc6bb)">
+									<Directory Id="EXPORTER6RESDE" Name="de"/>
+									<Directory Id="EXPORTER6RESES" Name="es"/>
+									<Directory Id="EXPORTER6RESFR" Name="fr"/>
+									<Directory Id="EXPORTER6RESJA" Name="ja"/>
+									<Directory Id="EXPORTER6RESKO" Name="ko"/>
+									<Directory Id="EXPORTER6RESPT" Name="pt"/>
+									<Directory Id="EXPORTER6RESZH" Name="zh"/>
+								</Directory>
+							</Directory>
+						</Directory>
+						<Directory Id="PDRHINO7DIR" Name="7.0">
+							<Directory Id="RHINO7PLUGINSDIR" Name="Plug-ins">
+								<Directory Id="INSTALLFOLDER7" Name="Datasmith Rhino Exporter (d1fdc795-b334-4933-b680-088119cdc6bb)">
+									<Directory Id="EXPORTER7RESDE" Name="de"/>
+									<Directory Id="EXPORTER7RESES" Name="es"/>
+									<Directory Id="EXPORTER7RESFR" Name="fr"/>
+									<Directory Id="EXPORTER7RESJA" Name="ja"/>
+									<Directory Id="EXPORTER7RESKO" Name="ko"/>
+									<Directory Id="EXPORTER7RESPT" Name="pt"/>
+									<Directory Id="EXPORTER7RESZH" Name="zh"/>
+								</Directory>
+							</Directory>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="TempFolder" />
+		</Directory>
+	</Fragment>
+
+
+	<Fragment>
+		<!-- Declaration of a empty binaries folder so that the engine accept our remote location for the engine dir -->
+		<Component Id="EMPTYENGINEBINARIESDIR" Directory="BINARIESFOLDER" Guid="{7E4FC7C3-B9C8-4A39-A1A8-02D78B8402CD}">
+			<CreateFolder/>
+		</Component>
+
+		<!-- Declaration of installation file for each supported version of Rhino -->
+		<Component Id="EXPORTER6" Directory="INSTALLFOLDER6" Guid="{D1FDC795-B334-4933-B680-088119CDC6BB}" Win64="yes">
+			<File Id="DatasmithRhino6.rhp" Source="$(var.WinBinaryDir)\6\DatasmithRhino6.rhp" />
+			<File Id="FacadeDLL6.dll" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL6" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithRhino6.rui" Source="$(var.WinBinaryDir)\6\DatasmithRhino6.rui" />
+
+			<RegistryKey Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\6.0\Plug-ins\D1FDC795-B334-4933-B680-088119CDC6BB" ForceCreateOnInstall="yes" ForceDeleteOnUninstall="yes">
+				<RegistryValue Type="string" Name="Description" Value="Export a Rhino 3D View to Unreal Datasmith"/>
+				<RegistryValue Type="string" Name="Name" Value="Datasmith Exporter"/>
+				<RegistryValue Type="string" Name="Organization" Value="Epic Games, Inc."/>
+				<RegistryValue Type="string" Name="FileName" Value="[INSTALLFOLDER6]DatasmithRhino6.rhp"/>
+			</RegistryKey>
+		</Component>
+		<Component Id="EXPORTER6RESDE" Directory="EXPORTER6RESDE" Guid="{7F6C6AF7-7AAF-45A7-A2F7-CB35414C6F62}" Win64="yes">
+			<File Id="RHINO6RESOURCEDE" Source="$(var.WinBinaryDir)\6\de\DatasmithRhino6.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER6RESES" Directory="EXPORTER6RESES" Guid="{A2EB2BEA-D9DE-49AE-B747-429C023C646C}" Win64="yes">
+			<File Id="RHINO6RESOURCEES" Source="$(var.WinBinaryDir)\6\es\DatasmithRhino6.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER6RESFR" Directory="EXPORTER6RESFR" Guid="{B7593B29-4629-4027-9945-CA1BB27A0865}" Win64="yes">
+			<File Id="RHINO6RESOURCEFR" Source="$(var.WinBinaryDir)\6\fr\DatasmithRhino6.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER6RESJA" Directory="EXPORTER6RESJA" Guid="{20221EFB-7FD7-4293-BADF-A815E1852C93}" Win64="yes">
+			<File Id="RHINO6RESOURCEJA" Source="$(var.WinBinaryDir)\6\ja\DatasmithRhino6.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER6RESKO" Directory="EXPORTER6RESKO" Guid="{34546AE3-A9F4-4676-B0BF-E9B415286FEB}" Win64="yes">
+			<File Id="RHINO6RESOURCEKO" Source="$(var.WinBinaryDir)\6\ko\DatasmithRhino6.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER6RESPT" Directory="EXPORTER6RESPT" Guid="{A678D504-7320-477E-B527-EE7A909E69B9}" Win64="yes">
+			<File Id="RHINO6RESOURCEPT" Source="$(var.WinBinaryDir)\6\pt\DatasmithRhino6.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER6RESZH" Directory="EXPORTER6RESZH" Guid="{C65AAD32-56D5-41C6-A7D7-E03706571AF7}" Win64="yes">
+			<File Id="RHINO6RESOURCEZH" Source="$(var.WinBinaryDir)\6\zh\DatasmithRhino6.resources.dll" />
+		</Component>
+	
+		<Component Id="EXPORTER7" Directory="INSTALLFOLDER7" Guid="{F6EED50B-6A65-4DF7-87E3-739C4DEB7F8D}" Win64="yes">
+			<File Id="DatasmithRhino7.rhp" Source="$(var.WinBinaryDir)\7\DatasmithRhino7.rhp" />
+			<File Id="FacadeDLL7.dll" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL7" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithRhino7.rui" Source="$(var.WinBinaryDir)\7\DatasmithRhino7.rui" />
+
+			<RegistryKey Root="HKLM" Key="SOFTWARE\McNeel\Rhinoceros\7.0\Plug-ins\D1FDC795-B334-4933-B680-088119CDC6BB" ForceCreateOnInstall="yes" ForceDeleteOnUninstall="yes">
+				<RegistryValue Type="string" Name="Description" Value="Export a Rhino 3D View to Unreal Datasmith"/>
+				<RegistryValue Type="string" Name="Name" Value="Datasmith Exporter"/>
+				<RegistryValue Type="string" Name="Organization" Value="Epic Games, Inc."/>
+				<RegistryValue Type="string" Name="FileName" Value="[INSTALLFOLDER7]DatasmithRhino7.rhp"/>
+			</RegistryKey>
+		</Component>
+		<Component Id="EXPORTER7RESDE" Directory="EXPORTER7RESDE" Guid="{98D70D91-8161-43FC-ACA5-2ABF04AB1C06}" Win64="yes">
+			<File Id="RHINO7RESOURCEDE" Source="$(var.WinBinaryDir)\7\de\DatasmithRhino7.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER7RESES" Directory="EXPORTER7RESES" Guid="{F7377B8A-1127-4FB6-95D3-39EA90C28490}" Win64="yes">
+			<File Id="RHINO7RESOURCEES" Source="$(var.WinBinaryDir)\7\es\DatasmithRhino7.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER7RESFR" Directory="EXPORTER7RESFR" Guid="{0D39662D-FE58-4F62-872F-ED7FBFEB15EE}" Win64="yes">
+			<File Id="RHINO7RESOURCEFR" Source="$(var.WinBinaryDir)\7\fr\DatasmithRhino7.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER7RESJA" Directory="EXPORTER7RESJA" Guid="{D915D132-E1B4-4FD2-97F9-DCE65F026341}" Win64="yes">
+			<File Id="RHINO7RESOURCEJA" Source="$(var.WinBinaryDir)\7\ja\DatasmithRhino7.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER7RESKO" Directory="EXPORTER7RESKO" Guid="{6F089E5E-F8B1-4DB0-9435-B82D201929FF}" Win64="yes">
+			<File Id="RHINO7RESOURCEKO" Source="$(var.WinBinaryDir)\7\ko\DatasmithRhino7.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER7RESPT" Directory="EXPORTER7RESPT" Guid="{4FFFA5CC-C2E6-4448-AA9B-B680877D0EE4}" Win64="yes">
+			<File Id="RHINO7RESOURCEPT" Source="$(var.WinBinaryDir)\7\pt\DatasmithRhino7.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER7RESZH" Directory="EXPORTER7RESZH" Guid="{6880CDD8-4DA5-45D3-BAD0-55418582437A}" Win64="yes">
+			<File Id="RHINO7RESOURCEZH" Source="$(var.WinBinaryDir)\7\zh\DatasmithRhino7.resources.dll" />
+		</Component>
+	</Fragment>
+</Wix>

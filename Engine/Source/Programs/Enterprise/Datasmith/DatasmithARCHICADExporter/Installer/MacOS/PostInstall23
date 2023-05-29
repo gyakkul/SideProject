@@ -1,0 +1,4 @@
+#!/bin/bash
+# Copyright Epic Games, Inc. All Rights Reserved.
+
+source "`dirname "$0"`"/InstallACAddons.sh 23 "Datasmith Exporter"

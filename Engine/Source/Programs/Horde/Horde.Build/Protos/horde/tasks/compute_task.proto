@@ -1,0 +1,78 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+import "horde/common/io_hash.proto";
+import "horde/common/ref_id.proto";
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "HordeCommon.Rpc.Tasks";
+
+message ComputeTaskMessage {
+
+	// The cluster id
+	string ClusterId = 7;
+
+	// Channel to send notifications for
+	string ChannelId = 1;
+
+	// Namespace for retrieving data from the CAS
+	string NamespaceId = 2;
+
+	// Bucket containing the input references for the CAS
+	string InputBucketId = 6;
+
+	// Bucket containing the output data for the CAS
+	string OutputBucketId = 8;
+
+	// The requirements object
+	Horde.IoHash RequirementsHash = 9;
+
+	// Hash of the action to execute
+	Horde.RefId TaskRefId = 4;
+
+	// Time that the task was queued
+	google.protobuf.Timestamp QueuedAt = 5;
+
+	// Time that the task was queued before being dispatched to an agent
+	int32 DispatchedMs = 10;
+}
+
+message ComputeTaskResultMessage
+{
+	// The outcome of the task (instance of EpicGames.Horde.Compute.ComputeTaskOutcome)
+	int32 Outcome = 2;
+
+	// The result hash
+	Horde.RefId ResultRefId = 1;
+
+	// Additional context for the completed task. May include additional details on error.
+	string Detail = 3;
+
+	// Stats for the execution
+	ComputeTaskExecutionStatsMessage ExecutionStats = 4;
+}
+
+message ComputeTaskExecutionStatsMessage
+{
+	// Absolute time that execution started on the agent
+	google.protobuf.Timestamp StartTime = 1;
+
+	// Time taken to download the job specification
+	int32 DownloadRefMs = 2;
+
+	// Time taken to download and unpack the sandbox
+	int32 DownloadInputMs = 3;
+
+	// Time taken to execute the task
+	int32 ExecMs = 4;
+
+	// Time taken to upload log data
+	int32 UploadLogMs = 5;
+
+	// Time taken to upload output data
+	int32 UploadOutputMs = 6;
+
+	// Time taken to upload the output ref
+	int32 UploadRefMs = 7;
+}

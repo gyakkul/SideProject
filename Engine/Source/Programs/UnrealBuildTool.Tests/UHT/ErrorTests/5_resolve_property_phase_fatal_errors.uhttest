@@ -1,0 +1,67 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile02.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile03.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h
+#include "SourceFile01.generated.h"
+
+UCLASS()
+class UPropertyTest
+{
+    GENERATED_BODY()
+public:
+    UPROPERTY()
+    TArray<int, SomeStrangeAllocator> Property1;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile02.h
+#include "SourceFile02.generated.h"
+
+UCLASS()
+class UPropertyTest2
+{
+    GENERATED_BODY()
+public:
+    UPROPERTY()
+    TSet<int, SomeKeyFunc> Property10;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile03.h
+#include "SourceFile03.generated.h"
+
+UCLASS()
+class UPropertyTest3
+{
+    GENERATED_BODY()
+public:
+    UPROPERTY()
+    TMap<int, int, SomeKeyFunc> Property10;
+};
+!console
+5_resolve_property_phase_fatal_errors.uhttest(40)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found 'SomeStrangeAllocator' - explicit allocators are not supported in TArray properties.
+5_resolve_property_phase_fatal_errors.uhttest(51)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: Found 'SomeKeyFunc' - explicit KeyFuncs are not supported in TSet properties.
+5_resolve_property_phase_fatal_errors.uhttest(62)[Source\Runtime\CoreUObject\Public\UObject\SourceFile03.h]: Error: Found 'SomeKeyFunc' - explicit allocators are not supported in TMap properties.

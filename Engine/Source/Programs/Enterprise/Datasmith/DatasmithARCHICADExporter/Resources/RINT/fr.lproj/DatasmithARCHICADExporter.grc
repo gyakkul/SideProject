@@ -1,0 +1,251 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "ResourcesIDs.h"
+
+'STR#' ResIdLoc(kLangFrench, kStrLanguageName) "Language name" {
+/* [  1] */		"Français"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListSyncPlugInDescription) "Add-on Name and Description" {
+/* [  1] */		"Datasmith pour ARCHICAD"
+/* [  2] */		"Synchroniser la géométrie ARCHICAD avec Datasmith"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListFileTypes) "File type strings" {
+/* [  1] */		"Fichier Datasmith"
+/* [  2] */		"ue/udatasmith"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuDatasmith) "Palettes menu item" {
+/* [  1] */		"Datasmith^E3^ES^EE^EI^ED^EL^EW^ET^32600" /* kIconDS */
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuDatasmithHelp) "Palettes menu item help" {
+/* [  1] */		"Afficher la palette Datasmith"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemSnapshot) "Menu item snapshot" {
+ADDON_MENU_TITLE
+/* [  1] */		"Synchroniser^E3^D2^32510"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemSnapshotHelp) "Menu item snapshot help" {
+ADDON_MENU_TITLE
+/* [  1] */		"Synchroniser la vue 3D active avec Direct Link"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemConnections) "Menu item connections" {
+ADDON_MENU_TITLE
+/* [  2] */		"Connections...^E3^ES^EE^EI^ED^EL^EW^ET^32511"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemConnectionsHelp) "Menu item connections help" {
+ADDON_MENU_TITLE
+/* [  2] */		"Gérer connections"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemExport) "Menu item export" {
+ADDON_MENU_TITLE
+/* [  3] */		"Exporter vers Datasmith...^E3^D2^32512"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemExportHelp) "Menu item export help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Exporter la vue 3D active vers Datasmith"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemMessages) "Menu item messages" {
+ADDON_MENU_TITLE
+/* [  3] */		"Messages...^E3^ES^EE^EI^ED^EL^EW^ET^32513"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemMessagesHelp) "Menu item messages help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Afficher messages"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemPalette) "Menu item palette" {
+ADDON_MENU_TITLE
+/* [  4] */		"Afficher barre d'outils Datasmith^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemPaletteHelp) "Menu item palette help" {
+ADDON_MENU_TITLE
+/* [  4] */		"Montrer ou cacher la barre d'outils Datasmith"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemAbout) "Menu item about" {
+ADDON_MENU_TITLE
+/* [  6] */		"A propos de...^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemAboutHelp) "Menu item about help" {
+ADDON_MENU_TITLE
+/* [  6] */		"Informations au sujet de cette extension"
+}
+
+#if AUTO_SYNC
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemAutoSync) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Auto Sync^E3^D2^32514"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListMenuItemAutoSyncHelp) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Activer or désactiver Direct Link Auto Sync"
+}
+#endif
+
+'STR#' ResIdLoc(kLangFrench, kStrListProgression) "Progression strings" {
+/* [ kCommonProjectInfos              ] */      "Collecte des informations sur le projet"
+/* [ kCommonCollectElements           ] */		"Collecte des éléments modifiés"
+/* [ kCommonConvertElements           ] */		"Conversion des éléments"
+/* [ kCommonCollectMetaDatas          ] */      "Collecte des métadonnées"
+/* [ kCommonSetUpMaterials            ] */		"Collecte des matériaux"
+/* [ kCommonSetUpLights               ] */		"Création de lumières"
+/* [ kCommonSetUpCameras              ] */		"Création de caméras"
+/* [ kSyncWaitPreviousSync            ] */		"Attendre la fin de la synchronisation précédente"
+
+/* [ kDebugSaveScene                  ] */		"Sauvegarde de la scène"
+
+/* [ kSyncSnapshot                    ] */		"Instantané Direct Link"
+/* [ kExportSaving                    ] */		"Sauvegarde du fichier"
+
+/* [ kSyncTitle                       ] */		"Synchronisation par Direct Link"
+/* [ kExportTitle                     ] */		"Exportation vers un fichier Datasmith"
+}
+
+'STR#' ResIdLoc(kLangFrench, kStrListENames) "Names" {
+/* [  kName_TextureExtension] */        ".tiff"
+/* [  kName_TextureMime] */             "image/tiff"
+/* [  kName_ShowPalette] */             "Monter palette"
+/* [  kName_HidePalette] */             "Cacher palette"
+/* [  kName_DatasmithFileTypeName] */ 	"Fichier Datasmith"
+/* [  kName_ExportToDatasmithFile] */ 	"Exportation vers le fichier Datasmith"
+/* [  kName_StartAutoSync] */ 			"Lancer la synchronisation automatique"
+/* [  kName_PauseAutoSync] */		 	"Suspendre la synchronisation automatique"
+/* [  kName_Undefined] */               "Non défini"
+/* [  kName_CacheDirectory] */          "Répertoire du cache : "
+/* [  kName_Source] */                  "Source" /* SourceolumnLabel */
+/* [  kName_Destination] */             "Destination" /* DestinationColumnLabel */
+/* [  kName_FmtTooltip] */              "Utilisateur : %T\nNom d'ordinateur : %T\nNom de l'application : %T\nNom du point d'arrivé : %T" /* EndpointTooltip */
+}
+
+'GDLG' ResIdLoc(kLangFrench, kDlgPalette) Palette | leftCaption | close    0    0 kPaletteHSize  34  "" {
+/* [  1] */ IconButton          2    2   30   30    kIconSnapshot      noFrame     /* Synchronize with Direct Link */
+#if AUTO_SYNC
+/* [  2] */ IconPushCheck      32    2   30   30    kIconAutoSync	   noFrame     /* Toggle Auto Sync */
+#endif
+/* [  3] */ IconButton         X3    2   30   30    kIconConnections   noFrame     /* Manage Connections */
+/* [  4] */ IconButton         X4    2   30   30    kIconExport3D      noFrame     /* Export to Datasmith file */
+/* [  5] */ IconButton         X5    2   30   30    kIconMessages      noFrame     /* Show Messages */
+#if kPaletteDevTools
+/* [  6] */ IconButton         X6    2   30   30    InfoIcon           noFrame     /* Selection to clipboard */
+/* [  7] */ IconButton         X7    2   30   30    ErrorIcon          noFrame     /* Zap database */
+#endif
+}
+
+'DLGH' ResIdLocAnchor(kLangFrench, kDlgPalette, DLG_Palette_INTERFACE_FUNCTIONS) {
+1	"Synchroniser avec Direct Link"		IconButton_1
+#if AUTO_SYNC
+2	"Activer la synchronisation automatique de Direct Link"	IconButton_2
+#endif
+H3	"Gérer les connexions"			IconButton_4
+H4	"Exporter vers le fichier Datasmith"					IconButton_5
+H5	"Afficher les messages"				IconButton_6
+H6	"Copier des informations sur les éléments sélectionnés vers le presse-papier"   IconButton_7
+H7	"Effacer la mémoire de synchronisation"   IconButton_8
+}
+
+/* Dialog about... */
+'GDLG' ResIdLoc(kLangFrench, kDlgAboutOf) Modal	40   40  668  363 "About Datasmith Direct Link"
+{
+/* [  1] */ Button		598	336	55	20	LargePlain	"Ok"
+/* [  2] */ Icon		0	0	668	329 kPictureSplashScreen
+/* [  3] */ LeftText	20	338	400	16	SmallPlain	"" /* Versions strings */
+}
+
+'DLGH' ResIdLocAnchor(kLangFrench, kDlgAboutOf, DLG_About_INTERFACE_FUNCTIONS) {
+1	"Close Window"		PushButton_1
+}
+
+/* Dialog report... */
+'GDLG' ResIdLoc(kLangFrench, kDlgReport) Palette | thickFrame | grow | topCaption | close 	40   40  640  440 "Messages Datasmith"
+{
+/* [  1] */ Button		560	410	60	20	LargePlain	"Fermer"
+/* [  2] */ Button		20	410	60	20	LargePlain	"Effacer"
+/* [  3] */ MultiLineEdit	3	3	634	394	SmallPlain readOnly	HVScroll
+/* [  4] */ Button		100	410	100	20	LargePlain	"Copier tout"
+/* [  5] */ Button		220	410	150	20	LargePlain	"Copier la sélection"
+}
+
+'DLGH' ResIdLocAnchor(kLangFrench, kDlgReport, DLG_Report_INTERFACE_FUNCTIONS) {
+1	"Fermer la fenêtre"	PushButton_1
+2	"Effacer le contenu"	PushButton_2
+3	"Messages recueillis" TextEdit_1
+4	"Copier tous les messages dans le presse-papiers"	PushButton_3
+5	"Copier les messages sélectionnés dans le presse-papiers"	PushButton_4
+}
+
+/* Dialog connections... */
+'GDLG' ResIdLoc(kLangFrench, kDlgConnections) Palette | thickFrame | grow | topCaption | close 	40   40  440  440 "État de la connexion à la liaison directe de Datasmith"
+{
+/* [  1] */ SingleSelList	3	3	434	394	LargePlain PartialItems kDlgConnectionsRowHeight HasHeader 21
+/* [  2] */ CenterText		3	3	434	394 SmallPlain vCenter "Aucune connection active.\n\nAttente de l'établissement d'une connection Direct Link.\n\nVeuillez lancer une application supportant Datasmith Direct Link tel que Twinmotion ou Unreal Engine."
+/* [  3] */ LeftText		6	410	378	20	SmallPlain vCenter	"Répertoire du cache : "
+/* [  4] */ IconButton		390	410	20	20	kIconArrowGoto
+/* [  5] */ IconButton		415	410	20	20  kIconFolder
+}
+
+'DLGH' ResIdLocAnchor(kLangFrench, kDlgConnections, DLG_Connections_INTERFACE_FUNCTIONS) {
+1	"Connections actives"	SingleSelList_1
+2	"Connections actives"	LeftText_2
+3	"Dossier cache pour les ressources"	LeftText_1
+4	"Ouvrir le dossier cache"	PushButton_3
+5	"Choisir un dossier cache"	PushButton_4
+}
+
+/* Happen if I add error case and forgot to add it's message/alert */
+'GALR' ResIdLoc(kLangFrench, kAlertUnhandledError) Error "Erreur !" {
+/* largeText */		"Erreur E/S inconnue."
+/* smallText */		"Si le problème persiste, veuillez signaler cette erreur à Epic Games."
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if ARCHICAD throw an exception when traversing it's BD */
+'GALR' ResIdLoc(kLangFrench, kAlertACDBError) Error "Erreur !" {
+/* largeText */		"Une erreur s’est produite lors de l’analyse du modèle 3D."
+/* smallText */		"Si le problème persiste, veuillez signaler cette erreur à Epic Games."
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if an invariant isn't satisfied */
+'GALR' ResIdLoc(kLangFrench, kAlertPlugInError) Error "Erreur !" {
+/* largeText */		"Une erreur s’est produite."
+/* smallText */		"Si le problème persiste, veuillez signaler cette erreur à Epic Games."
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if current view isn't in 3D */
+'GALR' ResIdLoc(kLangFrench, kAlertNot3DViewError) Error "Erreur !" {
+/* largeText */		"La vue actuelle n’est pas une vue 3D."
+/* smallText */		"Veuillez sélectionner une vue 3D et réessayer."
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if user cancel an operation */
+'GALR' ResIdLoc(kLangFrench, kAlertUserCancelledError) Error "Erreur !" {
+/* largeText */		"Le traitement a été annulé."
+/* smallText */		""
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}

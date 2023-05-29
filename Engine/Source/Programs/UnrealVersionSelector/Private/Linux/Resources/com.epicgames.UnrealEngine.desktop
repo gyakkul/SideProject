@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=*ENGINEDIR*Binaries/Linux/UnrealVersionSelector-Linux-Shipping -projectfiles %f
+Path=*ENGINEDIR*Binaries/Linux
+Name=Unreal Engine Generate Project Files
+Icon=ubinary
+Terminal=false
+StartupWMClass=UnrealVersionSelector-Linux-Shipping
+MimeType=application/uproject
+Comment=Created By Unreal Engine

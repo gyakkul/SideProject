@@ -1,0 +1,178 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h
+#include "SourceFile.generated.h"
+USTRUCT()
+struct FRigVMTestStruct
+{
+	GENERATED_BODY();
+	
+	RIGVM_METHOD()
+	virtual void Execute();
+
+#if WITH_EDITORONLY_DATA
+	UPROPERTY()
+	int Value;
+#endif
+
+	UPROPERTY()
+	TSet<int> AnotherValue;
+};
+
+USTRUCT()
+struct FRigVMTestStructNoMembers
+{
+	GENERATED_BODY();
+	
+	RIGVM_METHOD()
+	virtual void Execute();
+};
+
+
+USTRUCT()
+struct FRigVMTestStructTooManyMembers
+{
+	GENERATED_BODY();
+	
+	RIGVM_METHOD()
+	virtual void Execute();
+
+	UPROPERTY() int Value00;
+	UPROPERTY() int Value01;
+	UPROPERTY() int Value02;
+	UPROPERTY() int Value03;
+	UPROPERTY() int Value04;
+	UPROPERTY() int Value05;
+	UPROPERTY() int Value06;
+	UPROPERTY() int Value07;
+	UPROPERTY() int Value08;
+	UPROPERTY() int Value09;
+	UPROPERTY() int Value10;
+	UPROPERTY() int Value11;
+	UPROPERTY() int Value12;
+	UPROPERTY() int Value13;
+	UPROPERTY() int Value14;
+	UPROPERTY() int Value15;
+	UPROPERTY() int Value16;
+	UPROPERTY() int Value17;
+	UPROPERTY() int Value18;
+	UPROPERTY() int Value19;
+	UPROPERTY() int Value20;
+	UPROPERTY() int Value21;
+	UPROPERTY() int Value22;
+	UPROPERTY() int Value23;
+	UPROPERTY() int Value24;
+	UPROPERTY() int Value25;
+	UPROPERTY() int Value26;
+	UPROPERTY() int Value27;
+	UPROPERTY() int Value28;
+	UPROPERTY() int Value29;
+	UPROPERTY() int Value30;
+	UPROPERTY() int Value31;
+	UPROPERTY() int Value32;
+	UPROPERTY() int Value33;
+	UPROPERTY() int Value34;
+	UPROPERTY() int Value35;
+	UPROPERTY() int Value36;
+	UPROPERTY() int Value37;
+	UPROPERTY() int Value38;
+	UPROPERTY() int Value39;
+	UPROPERTY() int Value40;
+	UPROPERTY() int Value41;
+	UPROPERTY() int Value42;
+	UPROPERTY() int Value43;
+	UPROPERTY() int Value44;
+	UPROPERTY() int Value45;
+	UPROPERTY() int Value46;
+	UPROPERTY() int Value47;
+	UPROPERTY() int Value48;
+	UPROPERTY() int Value49;
+	UPROPERTY() int Value50;
+	UPROPERTY() int Value51;
+	UPROPERTY() int Value52;
+	UPROPERTY() int Value53;
+	UPROPERTY() int Value54;
+	UPROPERTY() int Value55;
+	UPROPERTY() int Value56;
+	UPROPERTY() int Value57;
+	UPROPERTY() int Value58;
+	UPROPERTY() int Value59;
+	UPROPERTY() int Value60;
+	UPROPERTY() int Value61;
+	UPROPERTY() int Value62;
+	UPROPERTY() int Value63;
+	UPROPERTY() int Value64;
+	UPROPERTY() int Value65;
+	UPROPERTY() int Value66;
+	UPROPERTY() int Value67;
+	UPROPERTY() int Value68;
+	UPROPERTY() int Value69;
+};
+
+UCLASS()
+class UGetterSetterTest : public UObject
+{
+	GENERATED_BODY()
+public:
+
+	UPROPERTY(Getter, Setter)
+	int32 IntValueGS;
+
+#if WITH_EDITOR
+	int32 GetIntValueGS() const
+	{
+		return 0;
+	}
+#endif
+
+#if WITH_EDITORONLY_DATA
+	void SetIntValueGS(int32 Value) const
+	{
+		return;
+	}
+#endif
+
+	UPROPERTY(Getter, Setter)
+	int32 IntGS2;
+
+	UFUNCTION(BlueprintImplementableEvent)
+	int32 GetIntGS2() const;
+
+	UFUNCTION()
+	void SetIntGS2(int32 Value);
+};
+!console
+6_resolve_final_phase_non_fatal_errors.uhttest(40)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: RigVM Struct 'FRigVMTestStruct' - Member 'Value' is editor only - WITH_EDITORONLY_DATA not allowed on structs with RIGVM_METHOD.
+6_resolve_final_phase_non_fatal_errors.uhttest(44)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: RigVM Struct 'FRigVMTestStruct' - Member 'AnotherValue' type 'TSet<int32>' not supported by RigVM.
+6_resolve_final_phase_non_fatal_errors.uhttest(48)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: RigVM Struct 'FRigVMTestStructNoMembers' - has zero members - invalid RIGVM_METHOD.
+6_resolve_final_phase_non_fatal_errors.uhttest(58)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: RigVM Struct 'FRigVMTestStructTooManyMembers' - has 70 members (64 is the limit).
+6_resolve_final_phase_non_fatal_errors.uhttest(148)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Property IntValueGS getter function GetIntValueGS cannot be declared within WITH_EDITOR block. Use WITH_EDITORONLY_DATA instead.
+6_resolve_final_phase_non_fatal_errors.uhttest(155)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Property IntValueGS is not editor-only but its setter function 'SetIntValueGS' is
+6_resolve_final_phase_non_fatal_errors.uhttest(165)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Property IntGS2 getter function 'GetIntGS2' has to be native
+6_resolve_final_phase_non_fatal_errors.uhttest(165)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Property IntGS2 getter function 'GetIntGS2' cannot be a net or an event

@@ -1,0 +1,1 @@
+C:\Qt\5.15.1\msvc2019_64\bin\rcc.exe -binary datasmith_icons.qrc --format-version 1 -o datasmith_icons.rcc

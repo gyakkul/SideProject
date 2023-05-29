@@ -1,0 +1,15 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+option csharp_namespace = "HordeCommon.Rpc.Tasks";
+
+// Task to update the agent software. Passed as a payload in a new lease.
+message UpgradeTask {
+
+	// Specifies the new software id
+	string SoftwareId = 1;
+	
+	// Log id to use for this lease
+	string LogId = 2;
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+NoDisplay=true
+Exec=*ENGINEDIR*Binaries/Linux/UnrealVersionSelector-Linux-Shipping -switchversion %f
+Path=*ENGINEDIR*Binaries/Linux
+Name=Unreal Version Selector
+Icon=ubinary
+Terminal=false
+StartupWMClass=UnrealVersionSelector-Linux-Shipping
+MimeType=application/uproject
+Comment=Created By Unreal Engine

@@ -1,0 +1,245 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile02.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile03.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile04.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile05.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile06.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile07.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile08.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile09.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile10.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile11.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile12.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile13.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile14.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile15.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile16.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile17.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile18.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile19.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile20.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile21.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile22.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile23.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile24.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile25.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile26.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile27.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile28.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile29.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile30.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile31.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile32.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile33.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile34.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h
+UCLASS()
+class UE_DEPRECATED("BadText") UTestClass
+{};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile02.h
+UCLASS()
+class UE_DEPRECATED(5.23) UTestClass
+{};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile03.h
+UENUM()
+namespace UEnumName
+{
+    enum 
+    {
+    }
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile04.h
+UENUM()
+enum UEnumName
+{
+    Value = 
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile05.h
+USTRUCT()
+struct USomeStruct
+{
+private:
+    GENERATED_BODY();
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile06.h
+USTRUCT()
+struct USomeStruct
+{
+    GENERATED_BODY();
+    GENERATED_BODY();
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile07.h
+USTRUCT()
+struct USomeStruct
+{
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile08.h
+USTRUCT()
+struct USomeStruct
+{
+    UPROPERTY()
+    ;;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile09.h
+USTRUCT()
+struct USomeStruct
+{
+    GENERATED_BODY();
+public:
+    UPROPERTY()
+    const int;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile10.h
+USTRUCT()
+struct USomeStruct
+{
+    GENERATED_BODY();
+public:
+    UPROPERTY()
+    int;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile11.h
+UDELEGATE()
+DECLARE_DYNAMIC_SPARSE_MULTICAST_DELEGATE_OneParam(FSimpleBoolDelegate, bool, bBoolean);
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile12.h
+UDELEGATE()
+DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_RetVal_OneParam(FSimpleBoolDelegate, bool, bool, bBoolean);
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile13.h
+UDELEGATE()
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSimpleBoolDelegate, bool, bBoolean, bool, bTooMany);
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile14.h
+UCLASS()
+class TestClass : public UObject
+{
+	GENERATED_BODY();
+public:
+	UFUNCTION()
+	void BadAbstract() = Wrong;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile15.h
+UCLASS()
+class TestClass : public UObject
+{
+	GENERATED_BODY();
+public:
+	UPROPERTY()
+	int BadBitfield : 2;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile16.h
+UCLASS()
+class TestClass : public UObject
+{
+	GENERATED_BODY();
+public:
+	UPROPERTY()
+	int Prop1, Prop2;
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile17.h
+#error
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile18.h
+// This block should be ok
+#if WITH_HOT_RELOAD
+#else
+#endif
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile19.h
+#if
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile20.h
+// This block should be ok
+#if WITH_EDITOR
+#elif WITH_EDITORONLY_DATA
+#endif
+// This block should fail on the elif
+#if 0
+#elif WITH_EDITORONLY_DATA
+#endif
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile21.h
+#linenumber BOB
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile22.h
+#
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile23.h
+#if 0
+BOB #endif
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile24.h
+# BOB
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile25.h
+#if 0
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile26.h
+THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile27.h
+12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile28.h
+"LIAR_THIS_IS_A_STRING___THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_THIS_IS_A_LONG_IDENTIFIER_"
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile29.h
+'\
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile30.h
+/*
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile31.h
+// NOTE: "void Bob());" and "class Bob { }};" does not cause an error
+class Bob };
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile32.h
+class Bob {} VariableName, ;
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile33.h
+UENUM(
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile34.h
+UENUM
+!console
+1_parse_phase_fatal_errors.uhttest(64)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found string constant when expecting constant float while parsing version in deprecation macro in class
+1_parse_phase_fatal_errors.uhttest(68)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: Found ')' when expecting ',' while parsing deprecation macro in class
+1_parse_phase_fatal_errors.uhttest(75)[Source\Runtime\CoreUObject\Public\UObject\SourceFile03.h]: Error: Found '{' when expecting enumeration type name while parsing UENUM
+1_parse_phase_fatal_errors.uhttest(83)[Source\Runtime\CoreUObject\Public\UObject\SourceFile04.h]: Error: Found '}' when expecting enumerator initializer while parsing UENUM UEnumName
+1_parse_phase_fatal_errors.uhttest(89)[Source\Runtime\CoreUObject\Public\UObject\SourceFile05.h]: Error: GENERATED_BODY must be in the public scope of 'USomeStruct', not private or protected.
+1_parse_phase_fatal_errors.uhttest(96)[Source\Runtime\CoreUObject\Public\UObject\SourceFile06.h]: Error: Multiple GENERATED_BODY declarations found in 'USomeStruct'
+1_parse_phase_fatal_errors.uhttest(102)[Source\Runtime\CoreUObject\Public\UObject\SourceFile07.h]: Error: Expected a GENERATED_BODY() at the start of the struct
+1_parse_phase_fatal_errors.uhttest(108)[Source\Runtime\CoreUObject\Public\UObject\SourceFile08.h]: Error: Member variable declaration: Missing variable type or name
+1_parse_phase_fatal_errors.uhttest(126)[Source\Runtime\CoreUObject\Public\UObject\SourceFile10.h]: Error: Member variable declaration: Expected name
+1_parse_phase_fatal_errors.uhttest(130)[Source\Runtime\CoreUObject\Public\UObject\SourceFile11.h]: Error: Unable to parse delegate declaration; expected 'DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_OneParam' but found 'DECLARE_DYNAMIC_SPARSE_MULTICAST_DELEGATE_OneParam'.
+1_parse_phase_fatal_errors.uhttest(133)[Source\Runtime\CoreUObject\Public\UObject\SourceFile12.h]: Error: Multi-cast delegates function signatures must not return a value
+1_parse_phase_fatal_errors.uhttest(136)[Source\Runtime\CoreUObject\Public\UObject\SourceFile13.h]: Error: Expected 1 parameters but found 2 parameters
+1_parse_phase_fatal_errors.uhttest(144)[Source\Runtime\CoreUObject\Public\UObject\SourceFile14.h]: Error: Expected 0 to indicate function is abstract
+1_parse_phase_fatal_errors.uhttest(153)[Source\Runtime\CoreUObject\Public\UObject\SourceFile15.h]: Error: Bad or missing bit field size for 'BadBitfield', must be 1.
+1_parse_phase_fatal_errors.uhttest(162)[Source\Runtime\CoreUObject\Public\UObject\SourceFile16.h]: Error: Comma delimited properties cannot be converted
+1_parse_phase_fatal_errors.uhttest(165)[Source\Runtime\CoreUObject\Public\UObject\SourceFile17.h]: Error: #error directive encountered
+1_parse_phase_fatal_errors.uhttest(169)[Source\Runtime\CoreUObject\Public\UObject\SourceFile18.h]: Error: Can not use WITH_HOT_RELOAD with an #else clause
+1_parse_phase_fatal_errors.uhttest(172)[Source\Runtime\CoreUObject\Public\UObject\SourceFile19.h]: Error: #if with no expression
+1_parse_phase_fatal_errors.uhttest(180)[Source\Runtime\CoreUObject\Public\UObject\SourceFile20.h]: Error: Mixing 0 with WITH_EDITOR_DATA in an #elif preprocessor block is not supported
+1_parse_phase_fatal_errors.uhttest(183)[Source\Runtime\CoreUObject\Public\UObject\SourceFile21.h]: Error: Missing line number in line number directive
+1_parse_phase_fatal_errors.uhttest(184)[Source\Runtime\CoreUObject\Public\UObject\SourceFile22.h]: Error: Missing compiler directive after '#'
+1_parse_phase_fatal_errors.uhttest(189)[Source\Runtime\CoreUObject\Public\UObject\SourceFile23.h]: Error: Missing #endif
+1_parse_phase_fatal_errors.uhttest(190)[Source\Runtime\CoreUObject\Public\UObject\SourceFile24.h]: Error: Unrecognized compiler directive BOB
+1_parse_phase_fatal_errors.uhttest(193)[Source\Runtime\CoreUObject\Public\UObject\SourceFile25.h]: Error: Missing #endif
+1_parse_phase_fatal_errors.uhttest(194)[Source\Runtime\CoreUObject\Public\UObject\SourceFile26.h]: Error: Identifier length exceeds maximum of 1024
+1_parse_phase_fatal_errors.uhttest(196)[Source\Runtime\CoreUObject\Public\UObject\SourceFile27.h]: Error: Number length exceeds maximum of 1024
+1_parse_phase_fatal_errors.uhttest(198)[Source\Runtime\CoreUObject\Public\UObject\SourceFile28.h]: Error: String constant exceeds maximum of 1024 characters
+1_parse_phase_fatal_errors.uhttest(200)[Source\Runtime\CoreUObject\Public\UObject\SourceFile29.h]: Error: Unterminated character constant
+1_parse_phase_fatal_errors.uhttest(203)[Source\Runtime\CoreUObject\Public\UObject\SourceFile30.h]: Error: End of header encountered inside comment
+1_parse_phase_fatal_errors.uhttest(205)[Source\Runtime\CoreUObject\Public\UObject\SourceFile31.h]: Error: Unexpected '}'. Did you miss a semi-colon?
+1_parse_phase_fatal_errors.uhttest(207)[Source\Runtime\CoreUObject\Public\UObject\SourceFile32.h]: Error: Found ',' when expecting ';'
+1_parse_phase_fatal_errors.uhttest(210)[Source\Runtime\CoreUObject\Public\UObject\SourceFile33.h]: Error: Found EOF when expecting an identifier while parsing UENUM specifiers in UENUM
+1_parse_phase_fatal_errors.uhttest(212)[Source\Runtime\CoreUObject\Public\UObject\SourceFile34.h]: Error: Found EOF when expecting '(' while parsing UENUM specifiers in UENUM

@@ -1,0 +1,6 @@
+﻿<Project>
+ <PropertyGroup>
+ 	 <Navisworks_API>$(Navisworks_2023_API)</Navisworks_API>
+ 	 <Navisworks_Version>2023</Navisworks_Version>
+ </PropertyGroup>
+</Project>

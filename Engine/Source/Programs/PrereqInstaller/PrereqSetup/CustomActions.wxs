@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment Id='PrereqCustomActionBinaries'>
+    <!--The source file should be the CustomAction.CA.dll file, that's why it's constructed this way-->
+    <Binary Id='CustomActionBinary' SourceFile='$(var.CustomAction.TargetDir)$(var.CustomAction.TargetName).CA.dll' />
+  </Fragment>
+
+  <Fragment>
+    <CustomAction Id='CAInstallDirectX' BinaryKey='CustomActionBinary' DllEntry='InstallDirectX' Execute='deferred' Return='check' Impersonate='no'/>
+  </Fragment>
+  
+</Wix>

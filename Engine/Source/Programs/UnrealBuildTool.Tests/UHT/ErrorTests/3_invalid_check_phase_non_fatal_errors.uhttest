@@ -1,0 +1,56 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h
+#include "SourceFile.generated.h"
+
+UINTERFACE()
+class UAnInterface
+{
+    GENERATED_BODY()
+};
+
+class IOtherInterface
+{
+    GENERATED_BODY()
+};
+
+UINTERFACE()
+class UOtherInterfaceNoGeneratedBody
+{
+    GENERATED_BODY()
+};
+
+class IOtherInterfaceNoGeneratedBody
+{
+};
+
+!console
+3_invalid_check_phase_non_fatal_errors.uhttest(32)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: UInterface 'UAnInterface' parsed without a corresponding 'IAnInterface'
+3_invalid_check_phase_non_fatal_errors.uhttest(38)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Native interface 'IOtherInterface' parsed without a corresponding 'UOtherInterface'
+3_invalid_check_phase_non_fatal_errors.uhttest(49)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Expected a GENERATED_BODY() at the start of the native interface

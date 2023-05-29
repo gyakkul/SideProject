@@ -1,0 +1,6 @@
+!manifest test.uhtmanifest
+Blank Manifest
+!manifest test.uhtmanifest
+Duplicate Manifest
+!console
+multiple_manifests.uhttest(3): Error: There can be only one manifest section in a test script

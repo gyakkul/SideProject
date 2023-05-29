@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+	<!-- Include version -->
+	<?include ..\..\DatasmithInstallerCommon\ExporterVersion.wxi?>
+
+	<?define ProductVersion="$(var.MajorVersion).$(var.MinorVersion).$(var.PatchVersion).$(var.BuildVersion)"?>
+
+	<!-- NOTE: Language codes can be found here(LCID Decimal column): http://www.science.co.il/Language/Locale-codes.asp -->
+	<?define Languages = "1033,1031,1034,1036,1041,1042,2070,2052"?>
+
+	<!-- Identify the specific product release. Using an asterisk rather than a GUID recreates a new product code each time the installer is rebuilt. -->
+	<?define ProductCode="*"?>
+
+	<!-- The Upgrade Code. Never changes. This is the true "Unreal Engine Launcher" aplication ID, and keeping it the same allows us to recognise existing installations. -->
+	<?define UpgradeCode="{81E18EAF-F5B5-4FDC-8AB8-97EE233A67B8}"?>
+
+	<!-- Defines a relative path to the main Engine directory -->
+	<?define EngineDir="..\..\..\..\..\..\..\Engine"?>
+
+	<!-- Defines a relative path to our resources directory -->
+	<?define ResourcesDir="./Resources"?>
+
+	<!-- Defines a relative path to Prereq installer's vcredist resources directory -->
+	<?define VCRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\Resources\VCRedist"?>
+
+	<!-- Defines a relative path to directory of DirectX redist resources -->
+	<?define DirectXRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\CustomAction\Resources\DirectXRedist"?>
+
+	<!-- Defines relative paths to directories where the Revit plugin files are stored -->
+	<?define RevitBinDir="$(var.EngineDir)\Binaries\Win64\Revit"?>
+	<?define FacadeBinDir="$(var.EngineDir)\Binaries\Win64\DatasmithFacadeCSharp"?>
+
+	<!-- Defines a relative path to the ThirdParty libraries -->
+	<?define ThirdPartyDir="$(var.EngineDir)\Source\ThirdParty"?>
+
+	<Product Id="$(var.ProductCode)" Name="!(loc.ProductName)" Language="1033" Version="$(var.ProductVersion)" Manufacturer="Epic Games, Inc." UpgradeCode="$(var.UpgradeCode)">
+		<Package 
+			Platform="x64" 
+			InstallerVersion="405" 
+			Languages="$(var.Languages)"
+			Compressed="yes" 
+			InstallScope="perMachine" />
+
+		<!-- Find other installed versions when the product (with this product code) is first installed, but not during maintenance mode or uninstallation. -->
+		<Upgrade Id="$(var.UpgradeCode)">
+			<!-- NEWPRODUCTFOUND will be set if there is a newer product already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				IncludeMinimum="no"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="NEWPRODUCTFOUND" />
+
+			<!-- UPGRADEFOUND will be set if there is an older or same product already installed -->
+			<UpgradeVersion
+				Minimum="0.0.0"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="no"
+				Language="$(var.Languages)"
+				Property="UPGRADEFOUND" />
+
+			<!-- ANOTHERBUILDINSTALLED will be set if the same product version is already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="yes"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="ANOTHERBUILDINSTALLED" />
+		</Upgrade>
+
+		<!-- Simple Dialog to inform user that installation has aborted because no supported version of Revit has been found -->
+		<UI>
+			<UIRef Id="CustomWixUI_InstallDir"/>
+			<UIRef Id="WixUI_ErrorProgressText"/>
+
+			<!--These dialog references are required for util:CloseApplication to work properly -->
+			<DialogRef Id="FilesInUse" />
+			<DialogRef Id="MsiRMFilesInUse" />
+		</UI>
+
+		<!-- Create the icon for our shortcuts -->
+		<!-- NOTE: ARPPRODUCTICON is a special property recognized by Windows Installer, which sets up this icon for us -->
+		<Icon Id="UnrealEngine.ico" SourceFile="$(var.ResourcesDir)/UnrealEngine.ico" />
+		<Property Id="ARPPRODUCTICON" Value="UnrealEngine.ico" />
+
+		<!-- Customize artwork -->
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ResourcesDir)/default_small_banner.bmp" />
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ResourcesDir)/Dialog.bmp"/>
+
+		<!-- Declaration of properties REVIT20xxDIR, used to store installation directory for supported versions of Revit -->
+		<!-- @note: Windows Installer is setting those properties to C:\ if registry key is not found -->
+		<Property Id="REVIT2023DIR" Value="C:\ProgramData\Autodesk\Revit\Addins\"/>
+		<Property Id="REVIT2022DIR" Value="C:\ProgramData\Autodesk\Revit\Addins\"/>
+		<Property Id="REVIT2021DIR" Value="C:\ProgramData\Autodesk\Revit\Addins\"/>
+		<Property Id="REVIT2020DIR" Value="C:\ProgramData\Autodesk\Revit\Addins\"/>
+		<Property Id="REVIT2019DIR" Value="C:\ProgramData\Autodesk\Revit\Addins\"/>
+		<Property Id="REVIT2018DIR" Value="C:\ProgramData\Autodesk\Revit\Addins\"/>
+		<Property Id="DATASMITHUIDIR" Value="C:\ProgramData\Epic\Exporter\"/>
+
+		<!-- Declaration of properties REVIT20xxVALID used to check if the corresponding install directory of Revit is valid -->
+		<Property Id="REVIT2023VALID">
+			<DirectorySearch Id="CheckREVIT2023DIR" Path="[REVIT2023DIR]\2023" Depth="0"/>
+		</Property>
+		<Property Id="REVIT2022VALID">
+			<DirectorySearch Id="CheckREVIT2022DIR" Path="[REVIT2022DIR]\2022" Depth="0"/>
+		</Property>
+		<Property Id="REVIT2021VALID">
+			<DirectorySearch Id="CheckREVIT2021DIR" Path="[REVIT2021DIR]\2021" Depth="0"/>
+		</Property>
+		<Property Id="REVIT2020VALID">
+			<DirectorySearch Id="CheckREVIT2020DIR" Path="[REVIT2020DIR]\2020" Depth="0"/>
+		</Property>
+		<Property Id="REVIT2019VALID">
+			<DirectorySearch Id="CheckREVIT2019DIR" Path="[REVIT2019DIR]\2019" Depth="0"/>
+		</Property>
+		<Property Id="REVIT2018VALID">
+			<DirectorySearch Id="CheckREVIT2018DIR" Path="[REVIT2018DIR]\2018" Depth="0"/>
+		</Property>
+
+		<Property Id="WIXUI_INSTALLDIR" Value="INSTALL2018ADDIN" />
+		<Property Id="WIXUI_FINALINSTALLDIR" Value="INSTALL2018ADDIN" />
+
+		<!-- Common action to declare type of content in msi -->
+		<Media Id="1" Cabinet="DatasmithRevitExporter.cab" EmbedCab="yes" />
+
+		<!-- Setup registry value for the minimal engine install dir -->
+		<DirectoryRef Id="TARGETDIR">
+			<Component Id="RegistryEntries" Guid="E927E0B0-AE9D-4CA8-9F4E-B5DB72593CE7">
+				<RegistryKey Root="HKLM" Key="Software\EpicGames\Unreal Engine" ForceCreateOnInstall="yes">
+					<Permission User="[WIX_ACCOUNT_USERS]" GenericAll="yes" />
+					<RegistryValue Type="string" Name="RevitEngineDir" Value="[ENGINEFOLDER]" />
+				</RegistryKey>
+			</Component>
+		</DirectoryRef>
+
+		<!-- Group of features to install. Each one if conditional to the existence of Revit in install folder -->
+		<!-- @note: Each sub-feature is disabled ('Level = 0') at creation. The feature is enabled, if Revit has been found in the corresponding installation folder. -->
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<Feature Id="Feature2023" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2023ADDIN" />
+				<ComponentRef Id="EXPORTER2023FOLDER" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_PT" />
+				<ComponentRef Id="EXPORTER2023LOCALIZATION_ZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[REVIT2023CHECKED = "true"]]></Condition>
+			</Feature>
+			<Feature Id="Feature2022" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2022ADDIN" />
+				<ComponentRef Id="EXPORTER2022FOLDER" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_PT" />
+				<ComponentRef Id="EXPORTER2022LOCALIZATION_ZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[REVIT2022CHECKED = "true"]]></Condition>
+			</Feature>
+			<Feature Id="Feature2021" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2021ADDIN" />
+				<ComponentRef Id="EXPORTER2021FOLDER" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_PT" />
+				<ComponentRef Id="EXPORTER2021LOCALIZATION_ZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[REVIT2021CHECKED = "true"]]></Condition>
+			</Feature>
+			<Feature Id="Feature2020" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2020ADDIN" />
+				<ComponentRef Id="EXPORTER2020FOLDER" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_PT" />
+				<ComponentRef Id="EXPORTER2020LOCALIZATION_ZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[REVIT2020CHECKED = "true"]]></Condition>
+			</Feature>
+			<Feature Id="Feature2019" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2019ADDIN" />
+				<ComponentRef Id="EXPORTER2019FOLDER" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_PT" />
+				<ComponentRef Id="EXPORTER2019LOCALIZATION_ZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[REVIT2019CHECKED = "true"]]></Condition>
+			</Feature>
+			<Feature Id="Feature2018" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER2018ADDIN" />
+				<ComponentRef Id="EXPORTER2018FOLDER" />
+				<ComponentRef Id="EXPORTER2018LOCALIZATION_DE" />
+				<ComponentRef Id="EXPORTER2018LOCALIZATION_ES" />
+				<ComponentRef Id="EXPORTER2018LOCALIZATION_FR" />
+				<ComponentRef Id="EXPORTER2018LOCALIZATION_JA" />
+				<ComponentRef Id="EXPORTER2018LOCALIZATION_KO" />
+				<ComponentRef Id="EXPORTER2018LOCALIZATION_PT" />
+				<ComponentRef Id="EXPORTER2018LOCALIZATION_ZH" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="RegistryEntries" />
+				<Condition Level="1"><![CDATA[REVIT2018CHECKED = "true"]]></Condition>
+			</Feature>
+		</Feature>
+
+		<!-- Adding merge modules to install VC runtimes for VC10, VC11 VC12 and VC14 -->
+		<DirectoryRef Id="TempFolder">
+			<Merge Id="Microsoft_VC100_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC100_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC120_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC120_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC142_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC142_CRT_x64.msm" DiskId="1" Language="0"/>
+		</DirectoryRef>
+
+		<!-- Adding installation of VC runtimes for VC10, VC11 VC12 and VC14 to the installation process -->
+		<Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="yes" Display="expand" Level="1">
+			<MergeRef Id="Microsoft_VC100_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC100_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC120_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC142_CRT_x64.msm" />
+		</Feature>
+
+		<!-- Adding installation modules for DirectX -->
+		<DirectoryRef Id="TempFolder">
+			<Directory Id="DirectXRedistDirectory" Name="DirectXPrereq">
+				<Component Id="DirectXRedist" Guid="{D9FBAD53-79F0-40C8-A75F-980AD8A4997A}">
+					<File Id="DXSETUPEXE" Source="$(var.DirectXRedistDir)\dxsetup.exe" KeyPath="yes" Checksum="yes">
+						<util:PermissionEx User="Everyone" GenericAll="yes" ChangePermission="yes" />
+					</File>
+					<File Id="dxupdate.cab" Source="$(var.DirectXRedistDir)\dxupdate.cab"/>
+					<File Id="dxdllreg_x86.cab" Source="$(var.DirectXRedistDir)\dxdllreg_x86.cab"/>
+					<File Id="dsetup32.dll" Source="$(var.DirectXRedistDir)\dsetup32.dll"/>
+					<File Id="dsetup.dll" Source="$(var.DirectXRedistDir)\dsetup.dll"/>
+					<File Id="APR2007_xinput_x64.cab" Source="$(var.DirectXRedistDir)\APR2007_xinput_x64.cab"/>
+					<File Id="Feb2010_X3DAudio_x64.cab" Source="$(var.DirectXRedistDir)\Feb2010_X3DAudio_x64.cab"/>
+					<File Id="Jun2010_D3DCompiler_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_D3DCompiler_43_x64.cab"/>
+					<File Id="Jun2010_d3dcsx_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dcsx_43_x64.cab"/>
+					<File Id="Jun2010_d3dx10_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx10_43_x64.cab"/>
+					<File Id="Jun2010_d3dx11_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx11_43_x64.cab"/>
+					<File Id="Jun2010_d3dx9_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx9_43_x64.cab"/>
+					<File Id="Jun2010_XAudio_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_XAudio_x64.cab"/>
+				</Component>
+			</Directory>
+		</DirectoryRef>
+
+		<!-- Adding installation of DirectX to the installation process -->
+		<Feature Id="DirectXRedist" Title="Installing DirectX" AllowAdvertise="yes" Display="expand" Level="1">
+			<ComponentRef Id="DirectXRedist"/>
+		</Feature>
+
+		<SetProperty Id="REVIT2023CHECKED" Sequence="first" After="AppSearch" Value="true">REVIT2023VALID</SetProperty>
+		<SetProperty Id="REVIT2022CHECKED" Sequence="first" After="AppSearch" Value="true">REVIT2022VALID</SetProperty>
+		<SetProperty Id="REVIT2021CHECKED" Sequence="first" After="AppSearch" Value="true">REVIT2021VALID</SetProperty>
+		<SetProperty Id="REVIT2020CHECKED" Sequence="first" After="AppSearch" Value="true">REVIT2020VALID</SetProperty>
+		<SetProperty Id="REVIT2019CHECKED" Sequence="first" After="AppSearch" Value="true">REVIT2019VALID</SetProperty>
+		<SetProperty Id="REVIT2018CHECKED" Sequence="first" After="AppSearch" Value="true">REVIT2018VALID</SetProperty>
+		<SetProperty Id="NOTFOUNDHOSTAPP" After="AppSearch" Value="1">NOT REVIT2023VALID AND NOT REVIT2022VALID AND NOT REVIT2021VALID AND NOT REVIT2020VALID AND NOT REVIT2019VALID AND NOT REVIT2018VALID</SetProperty>
+
+		<InstallExecuteSequence>
+
+			<!-- Stop the user from installing an older product version -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- Stop the user from installing the same product version -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+			<!-- Remove the old product before installing in case this is the same MSI build with isntallation to the same location. -->
+			<RemoveExistingProducts Before="InstallInitialize" />
+
+			<Custom Action="InstallDirectX" Before="InstallFinalize">
+				<![CDATA[NOT REMOVE]]>
+			</Custom>
+
+		</InstallExecuteSequence>
+
+		<!-- Setup install UI sequence -->
+		<InstallUISequence>
+
+			<!-- Abort install if no version of the exporter is selected -->
+			<Custom Action="WixExitEarlyWithSuccess" Before="ProgressDlg">NOT REVIT2023CHECKED AND NOT REVIT2022CHECKED AND NOT REVIT2021CHECKED AND NOT REVIT2020CHECKED AND NOT REVIT2019CHECKED AND NOT REVIT2018CHECKED</Custom>
+
+			<!-- Abort install if no supported version of Revit is installed -->
+			<Custom Action="NoHostAppInstaller" Before="ValidateProductID">NOTFOUNDHOSTAPP</Custom>
+
+			<!-- After searching for previously installed products, prevent downgrading -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- After searching for previously installed products, prevent overwriting -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+		</InstallUISequence>
+	</Product>
+
+	<Fragment>
+		<Property Id="HostApp">!(loc.HostApp)</Property>
+		<Property Id="HostAppSupportedVersions">!(loc.HostAppSupportedVersions)</Property>
+		
+		<!-- Declaration of custom actions to evaluate the properties REVIT201xDIR -->
+		<!-- See 'InstallExecuteSequence' section for their usage -->
+		<CustomAction Id="SETREVIT2023DIR" Property="REVIT2023DIR" Value="" />
+		<CustomAction Id="SETREVIT2022DIR" Property="REVIT2022DIR" Value="" />
+		<CustomAction Id="SETREVIT2021DIR" Property="REVIT2021DIR" Value="" />
+		<CustomAction Id="SETREVIT2020DIR" Property="REVIT2020DIR" Value="" />
+		<CustomAction Id="SETREVIT2019DIR" Property="REVIT2019DIR" Value="" />
+		<CustomAction Id="SETREVIT2018DIR" Property="REVIT2018DIR" Value="" />
+
+		<!-- Declaration of installation directory according to the version of Revit -->
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="DATASMITHUIDIR" ComponentGuidGenerationSeed="{814CD475-9F22-4802-BDFB-A2B678089DB9}">
+				<Directory Id="ENGINEFOLDER" Name="RevitEngine">
+					<Directory Id="BINARIESFOLDER" Name="Binaries" />
+					<Directory Id="CONTENTFOLDER" Name="Content">
+						<Directory Id="CoreStyleFolder" />
+					</Directory>
+					<Directory Id="SHADERSFOLDER" Name="Shaders">
+						<Directory Id="STANDALONERENDERERFOLDER" Name="StandaloneRenderer">
+							<Directory Id="D3DShadersFolder" />
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="REVIT2023DIR">
+				<Directory Id="INSTALL2023ADDIN" Name="2023">
+					<Directory Id="INSTALL2023FOLDER" Name="DatasmithRevit2023">
+						<Directory Id="LOCALIZATION_DE_2023FOLDER" Name="de" />
+						<Directory Id="LOCALIZATION_ES_2023FOLDER" Name="es" />
+						<Directory Id="LOCALIZATION_FR_2023FOLDER" Name="fr" />
+						<Directory Id="LOCALIZATION_JA_2023FOLDER" Name="ja" />
+						<Directory Id="LOCALIZATION_KO_2023FOLDER" Name="ko" />
+						<Directory Id="LOCALIZATION_PT_2023FOLDER" Name="pt" />
+						<Directory Id="LOCALIZATION_ZH_2023FOLDER" Name="zh" />
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="REVIT2022DIR">
+				<Directory Id="INSTALL2022ADDIN" Name="2022">
+					<Directory Id="INSTALL2022FOLDER" Name="DatasmithRevit2022">
+						<Directory Id="LOCALIZATION_DE_2022FOLDER" Name="de" />
+						<Directory Id="LOCALIZATION_ES_2022FOLDER" Name="es" />
+						<Directory Id="LOCALIZATION_FR_2022FOLDER" Name="fr" />
+						<Directory Id="LOCALIZATION_JA_2022FOLDER" Name="ja" />
+						<Directory Id="LOCALIZATION_KO_2022FOLDER" Name="ko" />
+						<Directory Id="LOCALIZATION_PT_2022FOLDER" Name="pt" />
+						<Directory Id="LOCALIZATION_ZH_2022FOLDER" Name="zh" />
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="REVIT2021DIR">
+				<Directory Id="INSTALL2021ADDIN" Name="2021">
+					<Directory Id="INSTALL2021FOLDER" Name="DatasmithRevit2021">
+						<Directory Id="LOCALIZATION_DE_2021FOLDER" Name="de" />
+						<Directory Id="LOCALIZATION_ES_2021FOLDER" Name="es" />
+						<Directory Id="LOCALIZATION_FR_2021FOLDER" Name="fr" />
+						<Directory Id="LOCALIZATION_JA_2021FOLDER" Name="ja" />
+						<Directory Id="LOCALIZATION_KO_2021FOLDER" Name="ko" />
+						<Directory Id="LOCALIZATION_PT_2021FOLDER" Name="pt" />
+						<Directory Id="LOCALIZATION_ZH_2021FOLDER" Name="zh" />
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="REVIT2020DIR">
+				<Directory Id="INSTALL2020ADDIN" Name="2020">
+					<Directory Id="INSTALL2020FOLDER" Name="DatasmithRevit2020">
+						<Directory Id="LOCALIZATION_DE_2020FOLDER" Name="de" />
+						<Directory Id="LOCALIZATION_ES_2020FOLDER" Name="es" />
+						<Directory Id="LOCALIZATION_FR_2020FOLDER" Name="fr" />
+						<Directory Id="LOCALIZATION_JA_2020FOLDER" Name="ja" />
+						<Directory Id="LOCALIZATION_KO_2020FOLDER" Name="ko" />
+						<Directory Id="LOCALIZATION_PT_2020FOLDER" Name="pt" />
+						<Directory Id="LOCALIZATION_ZH_2020FOLDER" Name="zh" />
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="REVIT2019DIR">
+				<Directory Id="INSTALL2019ADDIN" Name="2019">
+					<Directory Id="INSTALL2019FOLDER" Name="DatasmithRevit2019">
+						<Directory Id="LOCALIZATION_DE_2019FOLDER" Name="de" />
+						<Directory Id="LOCALIZATION_ES_2019FOLDER" Name="es" />
+						<Directory Id="LOCALIZATION_FR_2019FOLDER" Name="fr" />
+						<Directory Id="LOCALIZATION_JA_2019FOLDER" Name="ja" />
+						<Directory Id="LOCALIZATION_KO_2019FOLDER" Name="ko" />
+						<Directory Id="LOCALIZATION_PT_2019FOLDER" Name="pt" />
+						<Directory Id="LOCALIZATION_ZH_2019FOLDER" Name="zh" />
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="REVIT2018DIR">
+				<Directory Id="INSTALL2018ADDIN" Name="2018">
+					<Directory Id="INSTALL2018FOLDER" Name="DatasmithRevit2018">
+						<Directory Id="LOCALIZATION_DE_2018FOLDER" Name="de" />
+						<Directory Id="LOCALIZATION_ES_2018FOLDER" Name="es" />
+						<Directory Id="LOCALIZATION_FR_2018FOLDER" Name="fr" />
+						<Directory Id="LOCALIZATION_JA_2018FOLDER" Name="ja" />
+						<Directory Id="LOCALIZATION_KO_2018FOLDER" Name="ko" />
+						<Directory Id="LOCALIZATION_PT_2018FOLDER" Name="pt" />
+						<Directory Id="LOCALIZATION_ZH_2018FOLDER" Name="zh" />
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="TempFolder" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<!-- Declaration of a empty binaries folder so that the engine accept our remote location for the engine dir -->
+		<Component Id="EMPTYENGINEBINARIESDIR" Directory="BINARIESFOLDER" Guid="{7E4FC7C3-B9C8-4A39-A1A8-02D78B8402CD}">
+			<CreateFolder/>
+		</Component>
+
+		<!-- Declaration of installation file for each supported version of Revit -->
+
+		<Component Id="EXPORTER2023ADDIN" Directory="INSTALL2023ADDIN" Guid="{5F474AC5-56A5-4BB5-AEC9-73C6E363E691}">
+			<File Id="RevitAddin2023" Source="$(var.RevitBinDir)\2023\DatasmithRevit2023.addin" />
+		</Component>
+		<Component Id="EXPORTER2023LOCALIZATION_DE" Directory="LOCALIZATION_DE_2023FOLDER" Guid="{79DF7AD7-75D5-4576-BA54-376C0A5BDC8E}">
+			<File Id="Localization2023_DE" Source="$(var.RevitBinDir)\Localization\de\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2023LOCALIZATION_ES" Directory="LOCALIZATION_ES_2023FOLDER" Guid="{413BDE98-02E9-4AC0-A244-568513F96E6D}">
+			<File Id="Localization2023_ES" Source="$(var.RevitBinDir)\Localization\es\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2023LOCALIZATION_FR" Directory="LOCALIZATION_FR_2023FOLDER" Guid="{EE6BFE6D-B193-4CE6-AE02-A4631E73AD0E}">
+			<File Id="Localization2023_FR" Source="$(var.RevitBinDir)\Localization\fr\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2023LOCALIZATION_JA" Directory="LOCALIZATION_JA_2023FOLDER" Guid="{47500C25-9AF2-43B2-A141-2DB4139FF8F4}">
+			<File Id="Localization2023_JA" Source="$(var.RevitBinDir)\Localization\ja\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2023LOCALIZATION_KO" Directory="LOCALIZATION_KO_2023FOLDER" Guid="{8E4F0E12-A11C-4F4D-8490-16DDDDC96FCF}">
+			<File Id="Localization2023_KO" Source="$(var.RevitBinDir)\Localization\ko\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2023LOCALIZATION_PT" Directory="LOCALIZATION_PT_2023FOLDER" Guid="{EF5512E0-0E3B-46CD-9DCB-806C9B26A12D}">
+			<File Id="Localization2023_PT" Source="$(var.RevitBinDir)\Localization\pt\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2023LOCALIZATION_ZH" Directory="LOCALIZATION_ZH_2023FOLDER" Guid="{81D48F97-49BD-446B-AF3C-DBBE921C9E6B}">
+			<File Id="Localization2023_ZH" Source="$(var.RevitBinDir)\Localization\zh\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2023FOLDER" Directory="INSTALL2023FOLDER" Guid="{C7B095E8-0473-4144-8FE8-78A2630D3463}">
+			<File Id="RevitDLL2023" Source="$(var.RevitBinDir)\2023\DatasmithRevit2023.dll" />
+			<File Id="DynamoNode2023" Source="$(var.RevitBinDir)\2023\DatasmithDynamoNode.dll" />
+			<File Id="RevitResources2023" Source="$(var.RevitBinDir)\2023\DatasmithRevitResources.dll" />
+			<File Id="DatasmithIcon2023_16" Source="$(var.RevitBinDir)\2023\DatasmithIcon16.png" />
+			<File Id="DatasmithIcon2023_32" Source="$(var.RevitBinDir)\2023\DatasmithIcon32.png" />
+			<File Id="DatasmithSyncIcon2023_16" Source="$(var.RevitBinDir)\2023\DatasmithSyncIcon16.png" />
+			<File Id="DatasmithSyncIcon2023_32" Source="$(var.RevitBinDir)\2023\DatasmithSyncIcon32.png" />
+			<File Id="DatasmithAutoSyncIconOn2023_16" Source="$(var.RevitBinDir)\2023\DatasmithAutoSyncIconOn16.png" />
+			<File Id="DatasmithAutoSyncIconOn2023_32" Source="$(var.RevitBinDir)\2023\DatasmithAutoSyncIconOn32.png" />
+			<File Id="DatasmithAutoSyncIconOff2023_16" Source="$(var.RevitBinDir)\2023\DatasmithAutoSyncIconOff16.png" />
+			<File Id="DatasmithAutoSyncIconOff2023_32" Source="$(var.RevitBinDir)\2023\DatasmithAutoSyncIconOff32.png" />
+			<File Id="DatasmithManageConnectionsIcon2023_16" Source="$(var.RevitBinDir)\2023\DatasmithManageConnectionsIcon16.png" />
+			<File Id="DatasmithManageConnectionsIcon2023_32" Source="$(var.RevitBinDir)\2023\DatasmithManageConnectionsIcon32.png" />
+			<File Id="DatasmithSettingsIcon2023_16" Source="$(var.RevitBinDir)\2023\DatasmithSettingsIcon16.png" />
+			<File Id="DatasmithSettingsIcon2023_32" Source="$(var.RevitBinDir)\2023\DatasmithSettingsIcon32.png" />
+			<File Id="DatasmithLogIcon2023_16" Source="$(var.RevitBinDir)\2023\DatasmithLogIcon16.png" />
+			<File Id="DatasmithLogIcon2023_32" Source="$(var.RevitBinDir)\2023\DatasmithLogIcon32.png" />
+			<File Id="FacadeDLL2023" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL2023" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithDynamoExport2023" Source="$(var.RevitBinDir)\2023\DatasmithBatchExporter.dyn" />
+		</Component>
+
+		<Component Id="EXPORTER2022ADDIN" Directory="INSTALL2022ADDIN" Guid="{C356E138-1A15-4787-83D9-5D59892EFAC6}">
+			<File Id="RevitAddin2022" Source="$(var.RevitBinDir)\2022\DatasmithRevit2022.addin" />
+		</Component>
+		<Component Id="EXPORTER2022LOCALIZATION_DE" Directory="LOCALIZATION_DE_2022FOLDER" Guid="{C53E3528-58E6-4AEB-ACD1-BC9888BB59DC}">
+			<File Id="Localization2022_DE" Source="$(var.RevitBinDir)\Localization\de\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2022LOCALIZATION_ES" Directory="LOCALIZATION_ES_2022FOLDER" Guid="{9E66AA26-9492-4A4D-8CB9-E7D710B9E96E}">
+			<File Id="Localization2022_ES" Source="$(var.RevitBinDir)\Localization\es\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2022LOCALIZATION_FR" Directory="LOCALIZATION_FR_2022FOLDER" Guid="{A944671E-34D7-47C1-A3AC-C53D0FAF9886}">
+			<File Id="Localization2022_FR" Source="$(var.RevitBinDir)\Localization\fr\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2022LOCALIZATION_JA" Directory="LOCALIZATION_JA_2022FOLDER" Guid="{5DDC09FE-F44C-48F4-961D-F79C7AA2CCA0}">
+			<File Id="Localization2022_JA" Source="$(var.RevitBinDir)\Localization\ja\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2022LOCALIZATION_KO" Directory="LOCALIZATION_KO_2022FOLDER" Guid="{5B711CF9-E59E-4259-B8D6-3AFB9F448A50}">
+			<File Id="Localization2022_KO" Source="$(var.RevitBinDir)\Localization\ko\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2022LOCALIZATION_PT" Directory="LOCALIZATION_PT_2022FOLDER" Guid="{8841C2E4-D654-495E-9068-8DE20E978632}">
+			<File Id="Localization2022_PT" Source="$(var.RevitBinDir)\Localization\pt\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2022LOCALIZATION_ZH" Directory="LOCALIZATION_ZH_2022FOLDER" Guid="{890C552E-3E10-4DB2-B980-B34C3F520876}">
+			<File Id="Localization2022_ZH" Source="$(var.RevitBinDir)\Localization\zh\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2022FOLDER" Directory="INSTALL2022FOLDER" Guid="{4803FEAB-4613-4DC3-ADC2-8B35A8CEB511}">
+			<File Id="RevitDLL2022" Source="$(var.RevitBinDir)\2022\DatasmithRevit2022.dll" />
+			<File Id="DynamoNode2022" Source="$(var.RevitBinDir)\2022\DatasmithDynamoNode.dll" />
+			<File Id="RevitResources2022" Source="$(var.RevitBinDir)\2022\DatasmithRevitResources.dll" />
+			<File Id="DatasmithIcon2022_16" Source="$(var.RevitBinDir)\2022\DatasmithIcon16.png" />
+			<File Id="DatasmithIcon2022_32" Source="$(var.RevitBinDir)\2022\DatasmithIcon32.png" />
+			<File Id="DatasmithSyncIcon2022_16" Source="$(var.RevitBinDir)\2022\DatasmithSyncIcon16.png" />
+			<File Id="DatasmithSyncIcon2022_32" Source="$(var.RevitBinDir)\2022\DatasmithSyncIcon32.png" />
+			<File Id="DatasmithAutoSyncIconOn2022_16" Source="$(var.RevitBinDir)\2022\DatasmithAutoSyncIconOn16.png" />
+			<File Id="DatasmithAutoSyncIconOn2022_32" Source="$(var.RevitBinDir)\2022\DatasmithAutoSyncIconOn32.png" />
+			<File Id="DatasmithAutoSyncIconOff2022_16" Source="$(var.RevitBinDir)\2022\DatasmithAutoSyncIconOff16.png" />
+			<File Id="DatasmithAutoSyncIconOff2022_32" Source="$(var.RevitBinDir)\2022\DatasmithAutoSyncIconOff32.png" />
+			<File Id="DatasmithManageConnectionsIcon2022_16" Source="$(var.RevitBinDir)\2022\DatasmithManageConnectionsIcon16.png" />
+			<File Id="DatasmithManageConnectionsIcon2022_32" Source="$(var.RevitBinDir)\2022\DatasmithManageConnectionsIcon32.png" />
+			<File Id="DatasmithSettingsIcon2022_16" Source="$(var.RevitBinDir)\2022\DatasmithSettingsIcon16.png" />
+			<File Id="DatasmithSettingsIcon2022_32" Source="$(var.RevitBinDir)\2022\DatasmithSettingsIcon32.png" />
+			<File Id="DatasmithLogIcon2022_16" Source="$(var.RevitBinDir)\2022\DatasmithLogIcon16.png" />
+			<File Id="DatasmithLogIcon2022_32" Source="$(var.RevitBinDir)\2022\DatasmithLogIcon32.png" />
+			<File Id="FacadeDLL2022" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL2022" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithDynamoExport2022" Source="$(var.RevitBinDir)\2022\DatasmithBatchExporter.dyn" />
+		</Component>
+
+		<Component Id="EXPORTER2021ADDIN" Directory="INSTALL2021ADDIN" Guid="{F3601837-5765-45BA-B84E-A55030716435}">
+			<File Id="RevitAddin2021" Source="$(var.RevitBinDir)\2021\DatasmithRevit2021.addin" />
+		</Component>
+		<Component Id="EXPORTER2021LOCALIZATION_DE" Directory="LOCALIZATION_DE_2021FOLDER" Guid="{4215CE2D-C457-422F-BAD5-3B283D343351}">
+			<File Id="Localization2021_DE" Source="$(var.RevitBinDir)\Localization\de\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2021LOCALIZATION_ES" Directory="LOCALIZATION_ES_2021FOLDER" Guid="{2728DADD-90B9-4DD3-932E-86B63094810D}">
+			<File Id="Localization2021_ES" Source="$(var.RevitBinDir)\Localization\es\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2021LOCALIZATION_FR" Directory="LOCALIZATION_FR_2021FOLDER" Guid="{25BD1061-1CA0-415D-B16B-B294D9E71AE8}">
+			<File Id="Localization2021_FR" Source="$(var.RevitBinDir)\Localization\fr\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2021LOCALIZATION_JA" Directory="LOCALIZATION_JA_2021FOLDER" Guid="{B48E44FE-47B8-4066-B577-D42748F90E7A}">
+			<File Id="Localization2021_JA" Source="$(var.RevitBinDir)\Localization\ja\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2021LOCALIZATION_KO" Directory="LOCALIZATION_KO_2021FOLDER" Guid="{0928155D-06F4-457C-92C7-20D5B17075B5}">
+			<File Id="Localization2021_KO" Source="$(var.RevitBinDir)\Localization\ko\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2021LOCALIZATION_PT" Directory="LOCALIZATION_PT_2021FOLDER" Guid="{B2CF39B5-3F32-4398-AED5-C03E72891307}">
+			<File Id="Localization2021_PT" Source="$(var.RevitBinDir)\Localization\pt\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2021LOCALIZATION_ZH" Directory="LOCALIZATION_ZH_2021FOLDER" Guid="{14069744-71F3-4C85-BF6C-2F9308E39D5B}">
+			<File Id="Localization2021_ZH" Source="$(var.RevitBinDir)\Localization\zh\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2021FOLDER" Directory="INSTALL2021FOLDER" Guid="{B7BD6DC9-0215-45DF-9191-4AD36C1FB7F9}">
+			<File Id="RevitDLL2021" Source="$(var.RevitBinDir)\2021\DatasmithRevit2021.dll" />
+			<File Id="DynamoNode2021" Source="$(var.RevitBinDir)\2021\DatasmithDynamoNode.dll" />
+			<File Id="RevitResources2021" Source="$(var.RevitBinDir)\2021\DatasmithRevitResources.dll" />
+			<File Id="DatasmithIcon2021_16" Source="$(var.RevitBinDir)\2021\DatasmithIcon16.png" />
+			<File Id="DatasmithIcon2021_32" Source="$(var.RevitBinDir)\2021\DatasmithIcon32.png" />
+			<File Id="DatasmithSyncIcon2021_16" Source="$(var.RevitBinDir)\2021\DatasmithSyncIcon16.png" />
+			<File Id="DatasmithSyncIcon2021_32" Source="$(var.RevitBinDir)\2021\DatasmithSyncIcon32.png" />
+			<File Id="DatasmithAutoSyncIconOn2021_16" Source="$(var.RevitBinDir)\2021\DatasmithAutoSyncIconOn16.png" />
+			<File Id="DatasmithAutoSyncIconOn2021_32" Source="$(var.RevitBinDir)\2021\DatasmithAutoSyncIconOn32.png" />
+			<File Id="DatasmithAutoSyncIconOff2021_16" Source="$(var.RevitBinDir)\2021\DatasmithAutoSyncIconOff16.png" />
+			<File Id="DatasmithAutoSyncIconOff2021_32" Source="$(var.RevitBinDir)\2021\DatasmithAutoSyncIconOff32.png" />
+			<File Id="DatasmithManageConnectionsIcon2021_16" Source="$(var.RevitBinDir)\2021\DatasmithManageConnectionsIcon16.png" />
+			<File Id="DatasmithManageConnectionsIcon2021_32" Source="$(var.RevitBinDir)\2021\DatasmithManageConnectionsIcon32.png" />
+			<File Id="DatasmithSettingsIcon2021_16" Source="$(var.RevitBinDir)\2021\DatasmithSettingsIcon16.png" />
+			<File Id="DatasmithSettingsIcon2021_32" Source="$(var.RevitBinDir)\2021\DatasmithSettingsIcon32.png" />
+			<File Id="DatasmithLogIcon2021_16" Source="$(var.RevitBinDir)\2021\DatasmithLogIcon16.png" />
+			<File Id="DatasmithLogIcon2021_32" Source="$(var.RevitBinDir)\2021\DatasmithLogIcon32.png" />
+			<File Id="FacadeDLL2021" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL2021" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithDynamoExport2021" Source="$(var.RevitBinDir)\2021\DatasmithBatchExporter.dyn" />
+		</Component>
+		<Component Id="EXPORTER2020ADDIN" Directory="INSTALL2020ADDIN" Guid="{7AF3C500-08A1-41EE-8174-AA3697369820}">
+			<File Id="RevitAddin2020" Source="$(var.RevitBinDir)\2020\DatasmithRevit2020.addin" />
+		</Component>
+		<Component Id="EXPORTER2020LOCALIZATION_DE" Directory="LOCALIZATION_DE_2020FOLDER" Guid="{D5DFC8B1-3903-4531-BFE6-EA8F272E6EC8}">
+			<File Id="Localization2020_DE" Source="$(var.RevitBinDir)\Localization\de\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2020LOCALIZATION_ES" Directory="LOCALIZATION_ES_2020FOLDER" Guid="{C5E459EC-F4C0-4143-8B8B-22DF414A9076}">
+			<File Id="Localization2020_ES" Source="$(var.RevitBinDir)\Localization\es\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2020LOCALIZATION_FR" Directory="LOCALIZATION_FR_2020FOLDER" Guid="{2C784106-0F1A-4FCB-8691-B31197030645}">
+			<File Id="Localization2020_FR" Source="$(var.RevitBinDir)\Localization\fr\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2020LOCALIZATION_JA" Directory="LOCALIZATION_JA_2020FOLDER" Guid="{C092302E-E7D8-4E06-AC81-DFA7A4D9E16E}">
+			<File Id="Localization2020_JA" Source="$(var.RevitBinDir)\Localization\ja\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2020LOCALIZATION_KO" Directory="LOCALIZATION_KO_2020FOLDER" Guid="{8523A08C-434F-4950-A6CF-EC9D6D9DC555}">
+			<File Id="Localization2020_KO" Source="$(var.RevitBinDir)\Localization\ko\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2020LOCALIZATION_PT" Directory="LOCALIZATION_PT_2020FOLDER" Guid="{4E55E503-9F2C-40FE-86BF-7C54B7698727}">
+			<File Id="Localization2020_PT" Source="$(var.RevitBinDir)\Localization\pt\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2020LOCALIZATION_ZH" Directory="LOCALIZATION_ZH_2020FOLDER" Guid="{46666B4A-0785-4CB0-B914-73ED4C41713C}">
+			<File Id="Localization2020_ZH" Source="$(var.RevitBinDir)\Localization\zh\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2020FOLDER" Directory="INSTALL2020FOLDER" Guid="{4208CD65-3B73-4337-968A-F344B9ADFE8A}">
+			<File Id="RevitDLL2020" Source="$(var.RevitBinDir)\2020\DatasmithRevit2020.dll" />
+			<File Id="DynamoNode2020" Source="$(var.RevitBinDir)\2020\DatasmithDynamoNode.dll" />
+			<File Id="RevitResources2020" Source="$(var.RevitBinDir)\2020\DatasmithRevitResources.dll" />
+			<File Id="DatasmithIcon2020_16" Source="$(var.RevitBinDir)\2020\DatasmithIcon16.png" />
+			<File Id="DatasmithIcon2020_32" Source="$(var.RevitBinDir)\2020\DatasmithIcon32.png" />
+			<File Id="DatasmithSyncIcon2020_16" Source="$(var.RevitBinDir)\2020\DatasmithSyncIcon16.png" />
+			<File Id="DatasmithSyncIcon2020_32" Source="$(var.RevitBinDir)\2020\DatasmithSyncIcon32.png" />
+			<File Id="DatasmithAutoSyncIconOn2020_16" Source="$(var.RevitBinDir)\2020\DatasmithAutoSyncIconOn16.png" />
+			<File Id="DatasmithAutoSyncIconOn2020_32" Source="$(var.RevitBinDir)\2020\DatasmithAutoSyncIconOn32.png" />
+			<File Id="DatasmithAutoSyncIconOff2020_16" Source="$(var.RevitBinDir)\2020\DatasmithAutoSyncIconOff16.png" />
+			<File Id="DatasmithAutoSyncIconOff2020_32" Source="$(var.RevitBinDir)\2020\DatasmithAutoSyncIconOff32.png" />
+			<File Id="DatasmithManageConnectionsIcon2020_16" Source="$(var.RevitBinDir)\2020\DatasmithManageConnectionsIcon16.png" />
+			<File Id="DatasmithManageConnectionsIcon2020_32" Source="$(var.RevitBinDir)\2020\DatasmithManageConnectionsIcon32.png" />
+			<File Id="DatasmithSettingsIcon2020_16" Source="$(var.RevitBinDir)\2020\DatasmithSettingsIcon16.png" />
+			<File Id="DatasmithSettingsIcon2020_32" Source="$(var.RevitBinDir)\2020\DatasmithSettingsIcon32.png" />
+			<File Id="DatasmithLogIcon2020_16" Source="$(var.RevitBinDir)\2020\DatasmithLogIcon16.png" />
+			<File Id="DatasmithLogIcon2020_32" Source="$(var.RevitBinDir)\2020\DatasmithLogIcon32.png" />
+			<File Id="FacadeDLL2020" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL2020" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithDynamoExport2020" Source="$(var.RevitBinDir)\2020\DatasmithBatchExporter.dyn" />
+		</Component>
+		<Component Id="EXPORTER2019ADDIN" Directory="INSTALL2019ADDIN" Guid="{3E518AE8-CA7B-4FA4-A249-E91544DDA165}">
+			<File Id="RevitAddin2019" Source="$(var.RevitBinDir)\2019\DatasmithRevit2019.addin" />
+		</Component>
+		<Component Id="EXPORTER2019LOCALIZATION_DE" Directory="LOCALIZATION_DE_2019FOLDER" Guid="{CC4A2201-EFD0-4EB6-8BA4-06A564A73327}">
+			<File Id="Localization2019_DE" Source="$(var.RevitBinDir)\Localization\de\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2019LOCALIZATION_ES" Directory="LOCALIZATION_ES_2019FOLDER" Guid="{5258CC91-488B-44CF-AAA8-DE28372468E6}">
+			<File Id="Localization2019_ES" Source="$(var.RevitBinDir)\Localization\es\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2019LOCALIZATION_FR" Directory="LOCALIZATION_FR_2019FOLDER" Guid="{1015DE0C-5677-4924-AC0B-85495BD5DF53}">
+			<File Id="Localization2019_FR" Source="$(var.RevitBinDir)\Localization\fr\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2019LOCALIZATION_JA" Directory="LOCALIZATION_JA_2019FOLDER" Guid="{46FBF4BF-FA1A-4328-8976-B1D5BB89E054}">
+			<File Id="Localization2019_JA" Source="$(var.RevitBinDir)\Localization\ja\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2019LOCALIZATION_KO" Directory="LOCALIZATION_KO_2019FOLDER" Guid="{B4468ADA-235C-4CC3-ABCF-1BBB46C111E2}">
+			<File Id="Localization2019_KO" Source="$(var.RevitBinDir)\Localization\ko\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2019LOCALIZATION_PT" Directory="LOCALIZATION_PT_2019FOLDER" Guid="{18FB885E-6777-4D61-A1F1-721E5B82D32A}">
+			<File Id="Localization2019_PT" Source="$(var.RevitBinDir)\Localization\pt\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2019LOCALIZATION_ZH" Directory="LOCALIZATION_ZH_2019FOLDER" Guid="{684E3162-D6E6-49BB-827A-F4A81B09DA1F}">
+			<File Id="Localization2019_ZH" Source="$(var.RevitBinDir)\Localization\zh\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2019FOLDER" Directory="INSTALL2019FOLDER" Guid="{B0CD0148-B636-4AF8-A03F-A3C439C4880D}">
+			<File Id="RevitDLL2019" Source="$(var.RevitBinDir)\2019\DatasmithRevit2019.dll" />
+			<File Id="DynamoNode2019" Source="$(var.RevitBinDir)\2019\DatasmithDynamoNode.dll" />
+			<File Id="RevitResources2019" Source="$(var.RevitBinDir)\2019\DatasmithRevitResources.dll" />
+			<File Id="DatasmithIcon2019_16" Source="$(var.RevitBinDir)\2019\DatasmithIcon16.png" />
+			<File Id="DatasmithIcon2019_32" Source="$(var.RevitBinDir)\2019\DatasmithIcon32.png" />
+			<File Id="DatasmithSyncIcon2019_16" Source="$(var.RevitBinDir)\2019\DatasmithSyncIcon16.png" />
+			<File Id="DatasmithSyncIcon2019_32" Source="$(var.RevitBinDir)\2019\DatasmithSyncIcon32.png" />
+			<File Id="DatasmithAutoSyncIconOn2019_16" Source="$(var.RevitBinDir)\2019\DatasmithAutoSyncIconOn16.png" />
+			<File Id="DatasmithAutoSyncIconOn2019_32" Source="$(var.RevitBinDir)\2019\DatasmithAutoSyncIconOn32.png" />
+			<File Id="DatasmithAutoSyncIconOff2019_16" Source="$(var.RevitBinDir)\2019\DatasmithAutoSyncIconOff16.png" />
+			<File Id="DatasmithAutoSyncIconOff2019_32" Source="$(var.RevitBinDir)\2019\DatasmithAutoSyncIconOff32.png" />
+			<File Id="DatasmithManageConnectionsIcon2019_16" Source="$(var.RevitBinDir)\2019\DatasmithManageConnectionsIcon16.png" />
+			<File Id="DatasmithManageConnectionsIcon2019_32" Source="$(var.RevitBinDir)\2019\DatasmithManageConnectionsIcon32.png" />
+			<File Id="DatasmithSettingsIcon2019_16" Source="$(var.RevitBinDir)\2019\DatasmithSettingsIcon16.png" />
+			<File Id="DatasmithSettingsIcon2019_32" Source="$(var.RevitBinDir)\2019\DatasmithSettingsIcon32.png" />
+			<File Id="DatasmithLogIcon2019_16" Source="$(var.RevitBinDir)\2019\DatasmithLogIcon16.png" />
+			<File Id="DatasmithLogIcon2019_32" Source="$(var.RevitBinDir)\2019\DatasmithLogIcon32.png" />
+			<File Id="FacadeDLL2019" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL2019" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithDynamoExport2019" Source="$(var.RevitBinDir)\2019\DatasmithBatchExporter.dyn" />
+		</Component>
+		<Component Id="EXPORTER2018ADDIN" Directory="INSTALL2018ADDIN" Guid="{854933F1-B49F-44AC-9FD5-0EF5728B42AB}">
+			<File Id="RevitAddin2018" Source="$(var.RevitBinDir)\2018\DatasmithRevit2018.addin" />
+		</Component>
+		<Component Id="EXPORTER2018LOCALIZATION_DE" Directory="LOCALIZATION_DE_2018FOLDER" Guid="{FDC73118-4B95-447C-8354-92B0B2576D38}">
+			<File Id="Localization2018_DE" Source="$(var.RevitBinDir)\Localization\de\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2018LOCALIZATION_ES" Directory="LOCALIZATION_ES_2018FOLDER" Guid="{ABC4CC1C-D6F4-433B-8D17-1837E0C97EB9}">
+			<File Id="Localization2018_ES" Source="$(var.RevitBinDir)\Localization\es\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2018LOCALIZATION_FR" Directory="LOCALIZATION_FR_2018FOLDER" Guid="{90D05AC0-DCE0-4C77-88CB-A86B989D669A}">
+			<File Id="Localization2018_FR" Source="$(var.RevitBinDir)\Localization\fr\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2018LOCALIZATION_JA" Directory="LOCALIZATION_JA_2018FOLDER" Guid="{0EA6FD53-8249-4486-80C2-70914A4DBE3D}">
+			<File Id="Localization2018_JA" Source="$(var.RevitBinDir)\Localization\ja\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2018LOCALIZATION_KO" Directory="LOCALIZATION_KO_2018FOLDER" Guid="{B96F20D2-9520-4C86-915B-8942F5C4BCC3}">
+			<File Id="Localization2018_KO" Source="$(var.RevitBinDir)\Localization\ko\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2018LOCALIZATION_PT" Directory="LOCALIZATION_PT_2018FOLDER" Guid="{50DB3C2F-5167-46C3-8A5F-4EFB3C66EA4C}">
+			<File Id="Localization2018_PT" Source="$(var.RevitBinDir)\Localization\pt\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2018LOCALIZATION_ZH" Directory="LOCALIZATION_ZH_2018FOLDER" Guid="{07093BDC-3FD4-42D2-AA21-FF0EBFC09FE7}">
+			<File Id="Localization2018_ZH" Source="$(var.RevitBinDir)\Localization\zh\DatasmithRevitResources.resources.dll" />
+		</Component>
+		<Component Id="EXPORTER2018FOLDER" Directory="INSTALL2018FOLDER" Guid="{B89AC79C-469C-43E4-86EA-FF351FEA1193}">
+			<File Id="RevitDLL2018" Source="$(var.RevitBinDir)\2018\DatasmithRevit2018.dll" />
+			<File Id="DynamoNode2018" Source="$(var.RevitBinDir)\2018\DatasmithDynamoNode.dll" />
+			<File Id="RevitResources2018" Source="$(var.RevitBinDir)\2018\DatasmithRevitResources.dll" />
+			<File Id="DatasmithIcon2018_16" Source="$(var.RevitBinDir)\2018\DatasmithIcon16.png" />
+			<File Id="DatasmithIcon2018_32" Source="$(var.RevitBinDir)\2018\DatasmithIcon32.png" />
+			<File Id="DatasmithSyncIcon2018_16" Source="$(var.RevitBinDir)\2018\DatasmithSyncIcon16.png" />
+			<File Id="DatasmithSyncIcon2018_32" Source="$(var.RevitBinDir)\2018\DatasmithSyncIcon32.png" />
+			<File Id="DatasmithAutoSyncIconOn2018_16" Source="$(var.RevitBinDir)\2018\DatasmithAutoSyncIconOn16.png" />
+			<File Id="DatasmithAutoSyncIconOn2018_32" Source="$(var.RevitBinDir)\2018\DatasmithAutoSyncIconOn32.png" />
+			<File Id="DatasmithAutoSyncIconOff2018_16" Source="$(var.RevitBinDir)\2018\DatasmithAutoSyncIconOff16.png" />
+			<File Id="DatasmithAutoSyncIconOff2018_32" Source="$(var.RevitBinDir)\2018\DatasmithAutoSyncIconOff32.png" />
+			<File Id="DatasmithManageConnectionsIcon2018_16" Source="$(var.RevitBinDir)\2018\DatasmithManageConnectionsIcon16.png" />
+			<File Id="DatasmithManageConnectionsIcon2018_32" Source="$(var.RevitBinDir)\2018\DatasmithManageConnectionsIcon32.png" />
+			<File Id="DatasmithSettingsIcon2018_16" Source="$(var.RevitBinDir)\2018\DatasmithSettingsIcon16.png" />
+			<File Id="DatasmithSettingsIcon2018_32" Source="$(var.RevitBinDir)\2018\DatasmithSettingsIcon32.png" />
+			<File Id="DatasmithLogIcon2018_16" Source="$(var.RevitBinDir)\2018\DatasmithLogIcon16.png" />
+			<File Id="DatasmithLogIcon2018_32" Source="$(var.RevitBinDir)\2018\DatasmithLogIcon32.png" />
+			<File Id="FacadeDLL2018" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="TbbDLL2018" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithDynamoExport2018" Source="$(var.RevitBinDir)\2018\DatasmithBatchExporter.dyn" />
+		</Component>
+	</Fragment>
+</Wix>

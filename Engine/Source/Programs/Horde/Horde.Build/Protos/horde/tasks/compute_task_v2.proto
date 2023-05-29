@@ -1,0 +1,23 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+option csharp_namespace = "HordeCommon.Rpc.Tasks";
+
+message ComputeTaskMessageV2 {
+
+	// The remote machine IP
+	string RemoteIp = 1;
+
+	// Port to connect to on the remote
+	int32 RemotePort = 2;
+
+	// Cyptographic nonce to identify the request
+	bytes Nonce = 3;
+
+	// The AES key for communicating with the remote
+	bytes AesKey = 4;
+
+	// The AES initialization vector for communicating with the remote
+	bytes AesIv = 5;
+}

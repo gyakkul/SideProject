@@ -1,0 +1,13 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde;
+
+option csharp_namespace = "HordeCommon";
+
+message CbObjectWrapper
+{
+	// Data for the object
+	bytes Data = 1;
+}

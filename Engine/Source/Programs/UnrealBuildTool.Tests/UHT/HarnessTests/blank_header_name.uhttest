@@ -1,0 +1,6 @@
+!manifest test.uhtmanifest
+Manifest Text
+!header
+Blank header name
+!console
+blank_header_name.uhttest(3): Error: Header name can not be blank

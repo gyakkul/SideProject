@@ -1,0 +1,1893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		02C87C64260B94FA00C14720 /* BuildAllAddOns */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02C87C65260B94FA00C14720 /* Build configuration list for PBXAggregateTarget "BuildAllAddOns" */;
+			buildPhases = (
+			);
+			dependencies = (
+				DF6072CD2991907500BB1CDD /* PBXTargetDependency */,
+				02C87C6C260B950D00C14720 /* PBXTargetDependency */,
+				02C87C6E260B950D00C14720 /* PBXTargetDependency */,
+				02C87D29260BD0AF00C14720 /* PBXTargetDependency */,
+			);
+			name = BuildAllAddOns;
+			productName = BuildAllAddOns;
+		};
+		02C87C93260BA07700C14720 /* BuildSetup */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 02C87C94260BA07700C14720 /* Build configuration list for PBXAggregateTarget "BuildSetup" */;
+			buildPhases = (
+				02C87C9F260BA09700C14720 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = BuildSetup;
+			productName = BuildSetup;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02183023264187530029C563 /* LibPartInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02183022264187530029C563 /* LibPartInfo.cpp */; };
+		02183024264187530029C563 /* LibPartInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02183022264187530029C563 /* LibPartInfo.cpp */; };
+		02183025264187530029C563 /* LibPartInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02183022264187530029C563 /* LibPartInfo.cpp */; };
+		0240078726270FC9001FE872 /* ViewState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0240078526270FC9001FE872 /* ViewState.cpp */; };
+		0240078826270FC9001FE872 /* ViewState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0240078526270FC9001FE872 /* ViewState.cpp */; };
+		0240078926270FC9001FE872 /* ViewState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0240078526270FC9001FE872 /* ViewState.cpp */; };
+		0242B1A02661CDF1000201AC /* ConnectionWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0242B19F2661CDF1000201AC /* ConnectionWindow.cpp */; };
+		0242B1A12661CDF1000201AC /* ConnectionWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0242B19F2661CDF1000201AC /* ConnectionWindow.cpp */; };
+		0242B1A22661CDF1000201AC /* ConnectionWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0242B19F2661CDF1000201AC /* ConnectionWindow.cpp */; };
+		0256766625CC71DF00711A5A /* DebugTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765025CC71DE00711A5A /* DebugTools.cpp */; };
+		0256766725CC71DF00711A5A /* MacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0256765325CC71DE00711A5A /* MacOS.mm */; };
+		0256766825CC71DF00711A5A /* AddOn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765525CC71DE00711A5A /* AddOn.cpp */; };
+		0256766A25CC71DF00711A5A /* AddonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765725CC71DF00711A5A /* AddonTools.cpp */; };
+		0256766B25CC71DF00711A5A /* LoadDatasmithDlls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765A25CC71DF00711A5A /* LoadDatasmithDlls.cpp */; };
+		0256766C25CC71DF00711A5A /* TAssValueName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765B25CC71DF00711A5A /* TAssValueName.cpp */; };
+		0256766D25CC71DF00711A5A /* AutoChangeDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766025CC71DF00711A5A /* AutoChangeDatabase.cpp */; };
+		0256766E25CC71DF00711A5A /* LocalizeTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766325CC71DF00711A5A /* LocalizeTools.cpp */; };
+		026A5D9E261BC7E1000DCB6F /* ReportWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5D9C261BC7CD000DCB6F /* ReportWindow.cpp */; };
+		026A5DA4261BC7E1000DCB6F /* ReportWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5D9C261BC7CD000DCB6F /* ReportWindow.cpp */; };
+		026A5DAA261BC7E2000DCB6F /* ReportWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5D9C261BC7CD000DCB6F /* ReportWindow.cpp */; };
+		026A5DB7261C1885000DCB6F /* TimeStat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5DB6261C1885000DCB6F /* TimeStat.cpp */; };
+		026A5DB8261C1885000DCB6F /* TimeStat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5DB6261C1885000DCB6F /* TimeStat.cpp */; };
+		026A5DB9261C1885000DCB6F /* TimeStat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5DB6261C1885000DCB6F /* TimeStat.cpp */; };
+		026E999425CC29DB002283B3 /* ArchiCADPlugin.icns in Resources */ = {isa = PBXBuildFile; fileRef = 026E999325CC29DB002283B3 /* ArchiCADPlugin.icns */; };
+		026E999A25CC29DB002283B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026E999925CC29DB002283B3 /* Cocoa.framework */; };
+		0270827625F3DB69009412CC /* DatasmithHashTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0270827525F3DB69009412CC /* DatasmithHashTools.cpp */; };
+		0281AF2C25F0189000EEB1C8 /* SyncDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2A25F0189000EEB1C8 /* SyncDatabase.cpp */; };
+		0281AF3025F01B4D00EEB1C8 /* SyncData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2F25F01B4D00EEB1C8 /* SyncData.cpp */; };
+		0281AF3425F0201C00EEB1C8 /* ElementID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF3225F0201C00EEB1C8 /* ElementID.cpp */; };
+		0284303325CE3C2800E57A46 /* Element2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303225CE3C2800E57A46 /* Element2String.cpp */; };
+		0284303825CE3E8D00E57A46 /* ElementTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303625CE3E8D00E57A46 /* ElementTools.cpp */; };
+		0284304525CF573400E57A46 /* Export.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304225CF566D00E57A46 /* Export.cpp */; };
+		0284304725CF573800E57A46 /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303F25CF3E6800E57A46 /* Exporter.cpp */; };
+		0284304E25CF7CCE00E57A46 /* ElementEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304C25CF7CCD00E57A46 /* ElementEvent.cpp */; };
+		028796DD25F810D500216C53 /* MetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 028796DB25F810D500216C53 /* MetaData.cpp */; };
+		02AC0C2326161CB800F5A557 /* 3DElement2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02AC0C2126161CB800F5A557 /* 3DElement2String.cpp */; };
+		02AC0C2426161CB800F5A557 /* 3DElement2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02AC0C2126161CB800F5A557 /* 3DElement2String.cpp */; };
+		02AC0C2526161CB800F5A557 /* 3DElement2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02AC0C2126161CB800F5A557 /* 3DElement2String.cpp */; };
+		02BD1E3025FB02AA0025836E /* GeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BD1E2D25FB00D20025836E /* GeometryUtil.cpp */; };
+		02BFD85B263C38AA00C55C52 /* TaskMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD859263C38AA00C55C52 /* TaskMgr.cpp */; };
+		02BFD85C263C38AA00C55C52 /* TaskMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD859263C38AA00C55C52 /* TaskMgr.cpp */; };
+		02BFD85D263C38AA00C55C52 /* TaskMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD859263C38AA00C55C52 /* TaskMgr.cpp */; };
+		02BFD865263C38B600C55C52 /* Progression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD863263C38B500C55C52 /* Progression.cpp */; };
+		02BFD866263C38B600C55C52 /* Progression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD863263C38B500C55C52 /* Progression.cpp */; };
+		02BFD867263C38B600C55C52 /* Progression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD863263C38B500C55C52 /* Progression.cpp */; };
+		02C345B5267E306900856CCC /* TaskCalledFromEventLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD92526234E0F00739633 /* TaskCalledFromEventLoop.cpp */; };
+		02C345B6267E306A00856CCC /* TaskCalledFromEventLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD92526234E0F00739633 /* TaskCalledFromEventLoop.cpp */; };
+		02C345B7267E306A00856CCC /* TaskCalledFromEventLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD92526234E0F00739633 /* TaskCalledFromEventLoop.cpp */; };
+		02C4BFCE25E425480057A6E3 /* TexturesCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFCC25E425430057A6E3 /* TexturesCache.cpp */; };
+		02C4BFD225E5601B0057A6E3 /* SyncContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFD125E5601B0057A6E3 /* SyncContext.cpp */; };
+		02C87C30260B902D00C14720 /* SyncDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2A25F0189000EEB1C8 /* SyncDatabase.cpp */; };
+		02C87C31260B902D00C14720 /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303F25CF3E6800E57A46 /* Exporter.cpp */; };
+		02C87C32260B902D00C14720 /* LocalizeTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766325CC71DF00711A5A /* LocalizeTools.cpp */; };
+		02C87C33260B902D00C14720 /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C925CE2C410083B595 /* Palette.cpp */; };
+		02C87C34260B902D00C14720 /* AutoChangeDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766025CC71DF00711A5A /* AutoChangeDatabase.cpp */; };
+		02C87C35260B902D00C14720 /* TexturesCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFCC25E425430057A6E3 /* TexturesCache.cpp */; };
+		02C87C36260B902D00C14720 /* TAssValueName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765B25CC71DF00711A5A /* TAssValueName.cpp */; };
+		02C87C37260B902D00C14720 /* ElementEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304C25CF7CCD00E57A46 /* ElementEvent.cpp */; };
+		02C87C39260B902D00C14720 /* Menus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D725CE31E70083B595 /* Menus.cpp */; };
+		02C87C3A260B902D00C14720 /* DatasmithHashTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0270827525F3DB69009412CC /* DatasmithHashTools.cpp */; };
+		02C87C3B260B902D00C14720 /* ShellOpenDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D225CE2EB20083B595 /* ShellOpenDocument.cpp */; };
+		02C87C3C260B902D00C14720 /* Export.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304225CF566D00E57A46 /* Export.cpp */; };
+		02C87C3D260B902D00C14720 /* ProjectEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C325CE26520083B595 /* ProjectEvent.cpp */; };
+		02C87C3E260B902D00C14720 /* AddOn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765525CC71DE00711A5A /* AddOn.cpp */; };
+		02C87C3F260B902D00C14720 /* Element2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303225CE3C2800E57A46 /* Element2String.cpp */; };
+		02C87C40260B902D00C14720 /* ElementTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303625CE3E8D00E57A46 /* ElementTools.cpp */; };
+		02C87C41260B902D00C14720 /* MacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0256765325CC71DE00711A5A /* MacOS.mm */; };
+		02C87C42260B902D00C14720 /* DebugTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765025CC71DE00711A5A /* DebugTools.cpp */; };
+		02C87C43260B902D00C14720 /* SyncData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2F25F01B4D00EEB1C8 /* SyncData.cpp */; };
+		02C87C44260B902D00C14720 /* MaterialsDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762B25DC0B9D00DAA19C /* MaterialsDatabase.cpp */; };
+		02C87C45260B902D00C14720 /* MetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 028796DB25F810D500216C53 /* MetaData.cpp */; };
+		02C87C47260B902D00C14720 /* Error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12CD25CE2DB50083B595 /* Error.cpp */; };
+		02C87C48260B902D00C14720 /* Commander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E025CE34960083B595 /* Commander.cpp */; };
+		02C87C49260B902D00C14720 /* AddonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765725CC71DF00711A5A /* AddonTools.cpp */; };
+		02C87C4B260B902D00C14720 /* LoadDatasmithDlls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765A25CC71DF00711A5A /* LoadDatasmithDlls.cpp */; };
+		02C87C4C260B902D00C14720 /* Synchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FB820725D460A7002881B0 /* Synchronizer.cpp */; };
+		02C87C4D260B902D00C14720 /* ElementID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF3225F0201C00EEB1C8 /* ElementID.cpp */; };
+		02C87C4E260B902D00C14720 /* GeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BD1E2D25FB00D20025836E /* GeometryUtil.cpp */; };
+		02C87C4F260B902D00C14720 /* Pasteboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E925CE35A90083B595 /* Pasteboard.cpp */; };
+		02C87C50260B902D00C14720 /* Element2StaticMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762725DB60E000DAA19C /* Element2StaticMesh.cpp */; };
+		02C87C51260B902D00C14720 /* SyncContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFD125E5601B0057A6E3 /* SyncContext.cpp */; };
+		02C87C54260B902D00C14720 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026E999925CC29DB002283B3 /* Cocoa.framework */; };
+		02C87C56260B902D00C14720 /* ArchiCADPlugin.icns in Resources */ = {isa = PBXBuildFile; fileRef = 026E999325CC29DB002283B3 /* ArchiCADPlugin.icns */; };
+		02C87C58260B902D00C14720 /* PkgInfo in Copy PkgInfo */ = {isa = PBXBuildFile; fileRef = 026E999525CC29DB002283B3 /* PkgInfo */; };
+		02C87CDA260BBA9B00C14720 /* SyncDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2A25F0189000EEB1C8 /* SyncDatabase.cpp */; };
+		02C87CDB260BBA9B00C14720 /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303F25CF3E6800E57A46 /* Exporter.cpp */; };
+		02C87CDC260BBA9B00C14720 /* LocalizeTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766325CC71DF00711A5A /* LocalizeTools.cpp */; };
+		02C87CDD260BBA9B00C14720 /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C925CE2C410083B595 /* Palette.cpp */; };
+		02C87CDE260BBA9B00C14720 /* AutoChangeDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766025CC71DF00711A5A /* AutoChangeDatabase.cpp */; };
+		02C87CDF260BBA9B00C14720 /* TexturesCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFCC25E425430057A6E3 /* TexturesCache.cpp */; };
+		02C87CE0260BBA9B00C14720 /* TAssValueName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765B25CC71DF00711A5A /* TAssValueName.cpp */; };
+		02C87CE1260BBA9B00C14720 /* ElementEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304C25CF7CCD00E57A46 /* ElementEvent.cpp */; };
+		02C87CE3260BBA9B00C14720 /* Menus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D725CE31E70083B595 /* Menus.cpp */; };
+		02C87CE4260BBA9B00C14720 /* DatasmithHashTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0270827525F3DB69009412CC /* DatasmithHashTools.cpp */; };
+		02C87CE5260BBA9B00C14720 /* ShellOpenDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D225CE2EB20083B595 /* ShellOpenDocument.cpp */; };
+		02C87CE6260BBA9B00C14720 /* Export.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304225CF566D00E57A46 /* Export.cpp */; };
+		02C87CE7260BBA9B00C14720 /* ProjectEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C325CE26520083B595 /* ProjectEvent.cpp */; };
+		02C87CE8260BBA9B00C14720 /* AddOn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765525CC71DE00711A5A /* AddOn.cpp */; };
+		02C87CE9260BBA9B00C14720 /* Element2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303225CE3C2800E57A46 /* Element2String.cpp */; };
+		02C87CEA260BBA9B00C14720 /* ElementTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303625CE3E8D00E57A46 /* ElementTools.cpp */; };
+		02C87CEB260BBA9B00C14720 /* MacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0256765325CC71DE00711A5A /* MacOS.mm */; };
+		02C87CEC260BBA9B00C14720 /* DebugTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765025CC71DE00711A5A /* DebugTools.cpp */; };
+		02C87CED260BBA9B00C14720 /* SyncData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2F25F01B4D00EEB1C8 /* SyncData.cpp */; };
+		02C87CEE260BBA9B00C14720 /* MaterialsDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762B25DC0B9D00DAA19C /* MaterialsDatabase.cpp */; };
+		02C87CEF260BBA9B00C14720 /* MetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 028796DB25F810D500216C53 /* MetaData.cpp */; };
+		02C87CF1260BBA9B00C14720 /* Error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12CD25CE2DB50083B595 /* Error.cpp */; };
+		02C87CF2260BBA9B00C14720 /* Commander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E025CE34960083B595 /* Commander.cpp */; };
+		02C87CF3260BBA9B00C14720 /* AddonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765725CC71DF00711A5A /* AddonTools.cpp */; };
+		02C87CF5260BBA9B00C14720 /* LoadDatasmithDlls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765A25CC71DF00711A5A /* LoadDatasmithDlls.cpp */; };
+		02C87CF6260BBA9B00C14720 /* Synchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FB820725D460A7002881B0 /* Synchronizer.cpp */; };
+		02C87CF7260BBA9B00C14720 /* ElementID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF3225F0201C00EEB1C8 /* ElementID.cpp */; };
+		02C87CF8260BBA9B00C14720 /* GeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BD1E2D25FB00D20025836E /* GeometryUtil.cpp */; };
+		02C87CF9260BBA9B00C14720 /* Pasteboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E925CE35A90083B595 /* Pasteboard.cpp */; };
+		02C87CFA260BBA9B00C14720 /* Element2StaticMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762725DB60E000DAA19C /* Element2StaticMesh.cpp */; };
+		02C87CFB260BBA9B00C14720 /* SyncContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFD125E5601B0057A6E3 /* SyncContext.cpp */; };
+		02C87CFE260BBA9B00C14720 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026E999925CC29DB002283B3 /* Cocoa.framework */; };
+		02C87D00260BBA9B00C14720 /* ArchiCADPlugin.icns in Resources */ = {isa = PBXBuildFile; fileRef = 026E999325CC29DB002283B3 /* ArchiCADPlugin.icns */; };
+		02C87D02260BBA9B00C14720 /* PkgInfo in Copy PkgInfo */ = {isa = PBXBuildFile; fileRef = 026E999525CC29DB002283B3 /* PkgInfo */; };
+		02D7762825DB60E000DAA19C /* Element2StaticMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762725DB60E000DAA19C /* Element2StaticMesh.cpp */; };
+		02D7762D25DC0B9E00DAA19C /* MaterialsDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762B25DC0B9D00DAA19C /* MaterialsDatabase.cpp */; };
+		02EA12C625CE2A6F0083B595 /* ProjectEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C325CE26520083B595 /* ProjectEvent.cpp */; };
+		02EA12CA25CE2C410083B595 /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C925CE2C410083B595 /* Palette.cpp */; };
+		02EA12CF25CE2DB50083B595 /* Error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12CD25CE2DB50083B595 /* Error.cpp */; };
+		02EA12D325CE2EB20083B595 /* ShellOpenDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D225CE2EB20083B595 /* ShellOpenDocument.cpp */; };
+		02EA12DA25CE31E80083B595 /* Menus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D725CE31E70083B595 /* Menus.cpp */; };
+		02EA12E225CE34960083B595 /* Commander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E025CE34960083B595 /* Commander.cpp */; };
+		02EA12EA25CE35A90083B595 /* Pasteboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E925CE35A90083B595 /* Pasteboard.cpp */; };
+		02EAFE3D2609114600844092 /* PkgInfo in Copy PkgInfo */ = {isa = PBXBuildFile; fileRef = 026E999525CC29DB002283B3 /* PkgInfo */; };
+		02FB820925D460A7002881B0 /* Synchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FB820725D460A7002881B0 /* Synchronizer.cpp */; };
+		02FFD91D26234D0C00739633 /* ViewEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD91C26234D0C00739633 /* ViewEvent.cpp */; };
+		02FFD91E26234D0C00739633 /* ViewEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD91C26234D0C00739633 /* ViewEvent.cpp */; };
+		02FFD91F26234D0C00739633 /* ViewEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD91C26234D0C00739633 /* ViewEvent.cpp */; };
+		DFCAF6F328E799260071EF9D /* SyncDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2A25F0189000EEB1C8 /* SyncDatabase.cpp */; };
+		DFCAF6F428E799260071EF9D /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303F25CF3E6800E57A46 /* Exporter.cpp */; };
+		DFCAF6F528E799260071EF9D /* LocalizeTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766325CC71DF00711A5A /* LocalizeTools.cpp */; };
+		DFCAF6F628E799260071EF9D /* Palette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C925CE2C410083B595 /* Palette.cpp */; };
+		DFCAF6F728E799260071EF9D /* AutoChangeDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256766025CC71DF00711A5A /* AutoChangeDatabase.cpp */; };
+		DFCAF6F828E799260071EF9D /* TexturesCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFCC25E425430057A6E3 /* TexturesCache.cpp */; };
+		DFCAF6F928E799260071EF9D /* TAssValueName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765B25CC71DF00711A5A /* TAssValueName.cpp */; };
+		DFCAF6FA28E799260071EF9D /* ElementEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304C25CF7CCD00E57A46 /* ElementEvent.cpp */; };
+		DFCAF6FB28E799260071EF9D /* ConnectionWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0242B19F2661CDF1000201AC /* ConnectionWindow.cpp */; };
+		DFCAF6FC28E799260071EF9D /* TaskMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD859263C38AA00C55C52 /* TaskMgr.cpp */; };
+		DFCAF6FD28E799260071EF9D /* TimeStat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5DB6261C1885000DCB6F /* TimeStat.cpp */; };
+		DFCAF6FE28E799260071EF9D /* Menus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D725CE31E70083B595 /* Menus.cpp */; };
+		DFCAF6FF28E799260071EF9D /* DatasmithHashTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0270827525F3DB69009412CC /* DatasmithHashTools.cpp */; };
+		DFCAF70028E799260071EF9D /* 3DElement2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02AC0C2126161CB800F5A557 /* 3DElement2String.cpp */; };
+		DFCAF70128E799260071EF9D /* ShellOpenDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12D225CE2EB20083B595 /* ShellOpenDocument.cpp */; };
+		DFCAF70228E799260071EF9D /* Export.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284304225CF566D00E57A46 /* Export.cpp */; };
+		DFCAF70328E799260071EF9D /* ProjectEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12C325CE26520083B595 /* ProjectEvent.cpp */; };
+		DFCAF70428E799260071EF9D /* AddOn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765525CC71DE00711A5A /* AddOn.cpp */; };
+		DFCAF70528E799260071EF9D /* Element2String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303225CE3C2800E57A46 /* Element2String.cpp */; };
+		DFCAF70628E799260071EF9D /* ReportWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 026A5D9C261BC7CD000DCB6F /* ReportWindow.cpp */; };
+		DFCAF70728E799260071EF9D /* ElementTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0284303625CE3E8D00E57A46 /* ElementTools.cpp */; };
+		DFCAF70828E799260071EF9D /* MacOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0256765325CC71DE00711A5A /* MacOS.mm */; };
+		DFCAF70928E799260071EF9D /* DebugTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765025CC71DE00711A5A /* DebugTools.cpp */; };
+		DFCAF70A28E799260071EF9D /* SyncData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF2F25F01B4D00EEB1C8 /* SyncData.cpp */; };
+		DFCAF70B28E799260071EF9D /* TaskCalledFromEventLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD92526234E0F00739633 /* TaskCalledFromEventLoop.cpp */; };
+		DFCAF70C28E799260071EF9D /* MaterialsDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762B25DC0B9D00DAA19C /* MaterialsDatabase.cpp */; };
+		DFCAF70D28E799260071EF9D /* MetaData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 028796DB25F810D500216C53 /* MetaData.cpp */; };
+		DFCAF70E28E799260071EF9D /* Progression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BFD863263C38B500C55C52 /* Progression.cpp */; };
+		DFCAF70F28E799260071EF9D /* ViewEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FFD91C26234D0C00739633 /* ViewEvent.cpp */; };
+		DFCAF71028E799260071EF9D /* Error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12CD25CE2DB50083B595 /* Error.cpp */; };
+		DFCAF71128E799260071EF9D /* LibPartInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02183022264187530029C563 /* LibPartInfo.cpp */; };
+		DFCAF71228E799260071EF9D /* Commander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E025CE34960083B595 /* Commander.cpp */; };
+		DFCAF71328E799260071EF9D /* AddonTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765725CC71DF00711A5A /* AddonTools.cpp */; };
+		DFCAF71428E799260071EF9D /* LoadDatasmithDlls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0256765A25CC71DF00711A5A /* LoadDatasmithDlls.cpp */; };
+		DFCAF71528E799260071EF9D /* Synchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FB820725D460A7002881B0 /* Synchronizer.cpp */; };
+		DFCAF71628E799260071EF9D /* ElementID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0281AF3225F0201C00EEB1C8 /* ElementID.cpp */; };
+		DFCAF71728E799260071EF9D /* GeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02BD1E2D25FB00D20025836E /* GeometryUtil.cpp */; };
+		DFCAF71828E799260071EF9D /* Pasteboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02EA12E925CE35A90083B595 /* Pasteboard.cpp */; };
+		DFCAF71928E799260071EF9D /* ViewState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0240078526270FC9001FE872 /* ViewState.cpp */; };
+		DFCAF71A28E799260071EF9D /* Element2StaticMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D7762725DB60E000DAA19C /* Element2StaticMesh.cpp */; };
+		DFCAF71B28E799260071EF9D /* SyncContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C4BFD125E5601B0057A6E3 /* SyncContext.cpp */; };
+		DFCAF71D28E799260071EF9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026E999925CC29DB002283B3 /* Cocoa.framework */; };
+		DFCAF71F28E799260071EF9D /* ArchiCADPlugin.icns in Resources */ = {isa = PBXBuildFile; fileRef = 026E999325CC29DB002283B3 /* ArchiCADPlugin.icns */; };
+		DFCAF72128E799260071EF9D /* PkgInfo in Copy PkgInfo */ = {isa = PBXBuildFile; fileRef = 026E999525CC29DB002283B3 /* PkgInfo */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C87C6B260B950D00C14720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026E998025CC29DB002283B3;
+			remoteInfo = DatasmithARCHICAD23Exporter;
+		};
+		02C87C6D260B950D00C14720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C87C2D260B902D00C14720;
+			remoteInfo = DatasmithARCHICAD24Exporter;
+		};
+		02C87CA8260BA0E000C14720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C87C93260BA07700C14720;
+			remoteInfo = BuildSetup;
+		};
+		02C87CAA260BA0EE00C14720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C87C93260BA07700C14720;
+			remoteInfo = BuildSetup;
+		};
+		02C87CD7260BBA9B00C14720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C87C93260BA07700C14720;
+			remoteInfo = BuildSetup;
+		};
+		02C87D28260BD0AF00C14720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C87CD5260BBA9B00C14720;
+			remoteInfo = DatasmithARCHICAD25Exporter;
+		};
+		DF6072CC2991907500BB1CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCAF6EE28E799260071EF9D;
+			remoteInfo = DatasmithARCHICAD26Exporter;
+		};
+		DFCAF6F028E799260071EF9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026E997725CC29DB002283B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C87C93260BA07700C14720;
+			remoteInfo = BuildSetup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02C87C57260B902D00C14720 /* Copy PkgInfo */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+				02C87C58260B902D00C14720 /* PkgInfo in Copy PkgInfo */,
+			);
+			name = "Copy PkgInfo";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C87D01260BBA9B00C14720 /* Copy PkgInfo */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+				02C87D02260BBA9B00C14720 /* PkgInfo in Copy PkgInfo */,
+			);
+			name = "Copy PkgInfo";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02EAFE3B2609112D00844092 /* Copy PkgInfo */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+				02EAFE3D2609114600844092 /* PkgInfo in Copy PkgInfo */,
+			);
+			name = "Copy PkgInfo";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCAF72028E799260071EF9D /* Copy PkgInfo */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+				DFCAF72128E799260071EF9D /* PkgInfo in Copy PkgInfo */,
+			);
+			name = "Copy PkgInfo";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02183021264187530029C563 /* LibPartInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibPartInfo.h; sourceTree = "<group>"; };
+		02183022264187530029C563 /* LibPartInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LibPartInfo.cpp; sourceTree = "<group>"; };
+		022F090725D6514800D81360 /* DatasmithSDK-Mac-Debug.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "DatasmithSDK-Mac-Debug.dylib"; sourceTree = "<group>"; };
+		0232B0AA26445AF000518F21 /* ElementTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElementTools.h; sourceTree = "<group>"; };
+		0240078526270FC9001FE872 /* ViewState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewState.cpp; sourceTree = "<group>"; };
+		0240078626270FC9001FE872 /* ViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewState.h; sourceTree = "<group>"; };
+		0242B19E2661CDE3000201AC /* ConnectionWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionWindow.h; sourceTree = "<group>"; };
+		0242B19F2661CDF1000201AC /* ConnectionWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConnectionWindow.cpp; sourceTree = "<group>"; };
+		0242B1A82662AFEA000201AC /* Public */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Public; path = ../../../../Runtime/Datasmith/DatasmithCore/Public; sourceTree = "<group>"; };
+		0242B1A92662AFF8000201AC /* Public */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Public; path = ../../../../Runtime/Datasmith/DirectLink/Public; sourceTree = "<group>"; };
+		0242B1AA2662B045000201AC /* Public */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Public; path = ../../../../Developer/Datasmith/DatasmithExporter/Public; sourceTree = "<group>"; };
+		024556E7260A183500EC62C6 /* MakeInstaller.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = MakeInstaller.sh; sourceTree = "<group>"; };
+		0256765025CC71DE00711A5A /* DebugTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DebugTools.cpp; sourceTree = "<group>"; };
+		0256765125CC71DE00711A5A /* DebugTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugTools.h; sourceTree = "<group>"; };
+		0256765225CC71DE00711A5A /* LocalizeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizeTools.h; sourceTree = "<group>"; };
+		0256765325CC71DE00711A5A /* MacOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MacOS.mm; sourceTree = "<group>"; };
+		0256765525CC71DE00711A5A /* AddOn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddOn.cpp; sourceTree = "<group>"; };
+		0256765725CC71DF00711A5A /* AddonTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddonTools.cpp; sourceTree = "<group>"; };
+		0256765825CC71DF00711A5A /* APIEnvir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIEnvir.h; sourceTree = "<group>"; };
+		0256765A25CC71DF00711A5A /* LoadDatasmithDlls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadDatasmithDlls.cpp; sourceTree = "<group>"; };
+		0256765B25CC71DF00711A5A /* TAssValueName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TAssValueName.cpp; sourceTree = "<group>"; };
+		0256765C25CC71DF00711A5A /* TAssValueName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAssValueName.h; sourceTree = "<group>"; };
+		0256765D25CC71DF00711A5A /* AddonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddonTools.h; sourceTree = "<group>"; };
+		0256765E25CC71DF00711A5A /* AutoChangeDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoChangeDatabase.h; sourceTree = "<group>"; };
+		0256765F25CC71DF00711A5A /* WarningsDisabler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningsDisabler.h; sourceTree = "<group>"; };
+		0256766025CC71DF00711A5A /* AutoChangeDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AutoChangeDatabase.cpp; sourceTree = "<group>"; };
+		0256766125CC71DF00711A5A /* LoadDatasmithDlls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDatasmithDlls.h; sourceTree = "<group>"; };
+		0256766225CC71DF00711A5A /* CurrentOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentOS.h; sourceTree = "<group>"; };
+		0256766325CC71DF00711A5A /* LocalizeTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalizeTools.cpp; sourceTree = "<group>"; };
+		0256766425CC71DF00711A5A /* ResourcesIDs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesIDs.h; sourceTree = "<group>"; };
+		0256766525CC71DF00711A5A /* WinOS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WinOS.cpp; sourceTree = "<group>"; };
+		025857E525CCE0D000FF12BE /* libfreeimage-3.18.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libfreeimage-3.18.0.dylib"; sourceTree = "<group>"; };
+		025857E625CCE0D000FF12BE /* DatasmithSDK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = DatasmithSDK.dylib; sourceTree = "<group>"; };
+		025857F425CCEBE900FF12BE /* VSProj23 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VSProj23; sourceTree = "<group>"; };
+		025857F625CCF2A200FF12BE /* SDKsRoot.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SDKsRoot.xcconfig; sourceTree = "<group>"; };
+		025857F825CCF3E200FF12BE /* setupdylibs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setupdylibs.sh; sourceTree = "<group>"; };
+		0263E7D226111A1000C700DD /* MakeInstaller.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = MakeInstaller.command; sourceTree = "<group>"; };
+		026A5D9C261BC7CD000DCB6F /* ReportWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReportWindow.cpp; sourceTree = "<group>"; };
+		026A5D9D261BC7CD000DCB6F /* ReportWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportWindow.h; sourceTree = "<group>"; };
+		026A5DB5261C1885000DCB6F /* TimeStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStat.h; sourceTree = "<group>"; };
+		026A5DB6261C1885000DCB6F /* TimeStat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeStat.cpp; sourceTree = "<group>"; };
+		026E998125CC29DB002283B3 /* DatasmithARCHICAD23Exporter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatasmithARCHICAD23Exporter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		026E999025CC29DB002283B3 /* DatasmithARCHICADExporterFix.grc */ = {isa = PBXFileReference; lastKnownFileType = text; path = DatasmithARCHICADExporterFix.grc; sourceTree = "<group>"; };
+		026E999125CC29DB002283B3 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		026E999325CC29DB002283B3 /* ArchiCADPlugin.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ArchiCADPlugin.icns; sourceTree = "<group>"; };
+		026E999525CC29DB002283B3 /* PkgInfo */ = {isa = PBXFileReference; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
+		026E999725CC29DB002283B3 /* compileGRCs.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = compileGRCs.pl; sourceTree = "<group>"; };
+		026E999925CC29DB002283B3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		026EAF6C25F27C53000B8A41 /* .clang-format */ = {isa = PBXFileReference; lastKnownFileType = text; name = ".clang-format"; path = "../.clang-format"; sourceTree = "<group>"; };
+		0270827425F3DB69009412CC /* DatasmithHashTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatasmithHashTools.h; sourceTree = "<group>"; };
+		0270827525F3DB69009412CC /* DatasmithHashTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DatasmithHashTools.cpp; sourceTree = "<group>"; };
+		0272F2AF25CC991B00F7E95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028130D52669400100BDA34D /* de */ = {isa = PBXFileReference; lastKnownFileType = text; name = de; path = de.lproj/DatasmithARCHICADExporter.grc; sourceTree = "<group>"; };
+		028130D62669400D00BDA34D /* es */ = {isa = PBXFileReference; lastKnownFileType = text; name = es; path = es.lproj/DatasmithARCHICADExporter.grc; sourceTree = "<group>"; };
+		028130D72669401400BDA34D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text; name = ja; path = ja.lproj/DatasmithARCHICADExporter.grc; sourceTree = "<group>"; };
+		028130D82669401B00BDA34D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text; name = ko; path = ko.lproj/DatasmithARCHICADExporter.grc; sourceTree = "<group>"; };
+		028130D92669402300BDA34D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text; name = "pt-PT"; path = "pt-PT.lproj/DatasmithARCHICADExporter.grc"; sourceTree = "<group>"; };
+		028130DA2669402800BDA34D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text; name = "zh-Hans"; path = "zh-Hans.lproj/DatasmithARCHICADExporter.grc"; sourceTree = "<group>"; };
+		0281AF2A25F0189000EEB1C8 /* SyncDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SyncDatabase.cpp; sourceTree = "<group>"; };
+		0281AF2B25F0189000EEB1C8 /* SyncDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncDatabase.h; sourceTree = "<group>"; };
+		0281AF2E25F01B4D00EEB1C8 /* SyncData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncData.h; sourceTree = "<group>"; };
+		0281AF2F25F01B4D00EEB1C8 /* SyncData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SyncData.cpp; sourceTree = "<group>"; };
+		0281AF3225F0201C00EEB1C8 /* ElementID.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ElementID.cpp; sourceTree = "<group>"; };
+		0281AF3325F0201C00EEB1C8 /* ElementID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementID.h; sourceTree = "<group>"; };
+		0284303125CE3C2800E57A46 /* Element2String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element2String.h; sourceTree = "<group>"; };
+		0284303225CE3C2800E57A46 /* Element2String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Element2String.cpp; sourceTree = "<group>"; };
+		0284303625CE3E8D00E57A46 /* ElementTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ElementTools.cpp; sourceTree = "<group>"; };
+		0284303F25CF3E6800E57A46 /* Exporter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exporter.cpp; sourceTree = "<group>"; };
+		0284304025CF3E6900E57A46 /* Exporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exporter.h; sourceTree = "<group>"; };
+		0284304225CF566D00E57A46 /* Export.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Export.cpp; sourceTree = "<group>"; };
+		0284304325CF566D00E57A46 /* Export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Export.h; sourceTree = "<group>"; };
+		0284304C25CF7CCD00E57A46 /* ElementEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ElementEvent.cpp; sourceTree = "<group>"; };
+		0284304D25CF7CCD00E57A46 /* ElementEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementEvent.h; sourceTree = "<group>"; };
+		0284305525D0AD3900E57A46 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = "<group>"; };
+		028796DB25F810D500216C53 /* MetaData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MetaData.cpp; sourceTree = "<group>"; };
+		028796DC25F810D500216C53 /* MetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaData.h; sourceTree = "<group>"; };
+		028B99112641F6EB00CBFE5A /* Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
+		02A66E5325CC328000942285 /* UE_AC.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = UE_AC.xcconfig; sourceTree = "<group>"; };
+		02AC0C2126161CB800F5A557 /* 3DElement2String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 3DElement2String.cpp; sourceTree = "<group>"; };
+		02AC0C2226161CB800F5A557 /* 3DElement2String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 3DElement2String.h; sourceTree = "<group>"; };
+		02BD1E2D25FB00D20025836E /* GeometryUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryUtil.cpp; sourceTree = "<group>"; };
+		02BD1E2E25FB00D20025836E /* GeometryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryUtil.h; sourceTree = "<group>"; };
+		02BFD859263C38AA00C55C52 /* TaskMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskMgr.cpp; sourceTree = "<group>"; };
+		02BFD85A263C38AA00C55C52 /* TaskMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskMgr.h; sourceTree = "<group>"; };
+		02BFD863263C38B500C55C52 /* Progression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Progression.cpp; sourceTree = "<group>"; };
+		02BFD864263C38B600C55C52 /* Progression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Progression.h; sourceTree = "<group>"; };
+		02C4BFCC25E425430057A6E3 /* TexturesCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TexturesCache.cpp; sourceTree = "<group>"; };
+		02C4BFCD25E425430057A6E3 /* TexturesCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TexturesCache.h; sourceTree = "<group>"; };
+		02C4BFD025E5601B0057A6E3 /* SyncContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncContext.h; sourceTree = "<group>"; };
+		02C4BFD125E5601B0057A6E3 /* SyncContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SyncContext.cpp; sourceTree = "<group>"; };
+		02C87C5E260B902D00C14720 /* DatasmithARCHICAD24Exporter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatasmithARCHICAD24Exporter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C87CD4260BB6F300C14720 /* DatasmithArchiCADExporter */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DatasmithArchiCADExporter; path = ../../../../../../Binaries/Mac/DatasmithArchiCADExporter; sourceTree = "<group>"; };
+		02C87D08260BBA9B00C14720 /* DatasmithARCHICAD25Exporter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatasmithARCHICAD25Exporter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D3F9CE260D104800AC8AFD /* VSProj25 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VSProj25; sourceTree = "<group>"; };
+		02D3F9CF260D104800AC8AFD /* VSProj24 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VSProj24; sourceTree = "<group>"; };
+		02D7762625DB60E000DAA19C /* Element2StaticMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element2StaticMesh.h; sourceTree = "<group>"; };
+		02D7762725DB60E000DAA19C /* Element2StaticMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Element2StaticMesh.cpp; sourceTree = "<group>"; };
+		02D7762B25DC0B9D00DAA19C /* MaterialsDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaterialsDatabase.cpp; sourceTree = "<group>"; };
+		02D7762C25DC0B9D00DAA19C /* MaterialsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialsDatabase.h; sourceTree = "<group>"; };
+		02D94AD625F96E5E00791DA8 /* DatasmithARCHICADExporter.rc2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = DatasmithARCHICADExporter.rc2; sourceTree = "<group>"; };
+		02DC778625D5CA0200C9D2F7 /* clangformat.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = clangformat.command; sourceTree = "<group>"; };
+		02DD2EC0264C76F1001E20A7 /* DatasmithArchicadExporter.props */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DatasmithArchicadExporter.props; sourceTree = "<group>"; };
+		02E04054264B2F46009F89AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/DatasmithARCHICADExporter.grc; sourceTree = "<group>"; };
+		02E04056264B2F5E009F89AB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text; name = fr; path = fr.lproj/DatasmithARCHICADExporter.grc; sourceTree = "<group>"; };
+		02EA12C325CE26520083B595 /* ProjectEvent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectEvent.cpp; sourceTree = "<group>"; };
+		02EA12C425CE26520083B595 /* ProjectEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectEvent.h; sourceTree = "<group>"; };
+		02EA12C825CE2C410083B595 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		02EA12C925CE2C410083B595 /* Palette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Palette.cpp; sourceTree = "<group>"; };
+		02EA12CD25CE2DB50083B595 /* Error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Error.cpp; sourceTree = "<group>"; };
+		02EA12CE25CE2DB50083B595 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		02EA12D125CE2EB20083B595 /* ShellOpenDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellOpenDocument.h; sourceTree = "<group>"; };
+		02EA12D225CE2EB20083B595 /* ShellOpenDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShellOpenDocument.cpp; sourceTree = "<group>"; };
+		02EA12D625CE31E70083B595 /* Menus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menus.h; sourceTree = "<group>"; };
+		02EA12D725CE31E70083B595 /* Menus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menus.cpp; sourceTree = "<group>"; };
+		02EA12E025CE34960083B595 /* Commander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Commander.cpp; sourceTree = "<group>"; };
+		02EA12E125CE34960083B595 /* Commander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commander.h; sourceTree = "<group>"; };
+		02EA12E525CE356B0083B595 /* Pasteboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pasteboard.h; sourceTree = "<group>"; };
+		02EA12E925CE35A90083B595 /* Pasteboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pasteboard.cpp; sourceTree = "<group>"; };
+		02EAFE322606F83300844092 /* SceneValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneValidator.h; sourceTree = "<group>"; };
+		02EAFE332606F83A00844092 /* SceneValidator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneValidator.cpp; sourceTree = "<group>"; };
+		02EAFE382608DA5F00844092 /* Installer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Installer; path = ../Installer; sourceTree = "<group>"; };
+		02FB820725D460A7002881B0 /* Synchronizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Synchronizer.cpp; sourceTree = "<group>"; };
+		02FB820825D460A7002881B0 /* Synchronizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Synchronizer.h; sourceTree = "<group>"; };
+		02FFD91B26234D0C00739633 /* ViewEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEvent.h; sourceTree = "<group>"; };
+		02FFD91C26234D0C00739633 /* ViewEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewEvent.cpp; sourceTree = "<group>"; };
+		02FFD92526234E0F00739633 /* TaskCalledFromEventLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TaskCalledFromEventLoop.cpp; sourceTree = "<group>"; };
+		02FFD92626234E0F00739633 /* TaskCalledFromEventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCalledFromEventLoop.h; sourceTree = "<group>"; };
+		02FFD966262528DE00739633 /* ResourcesUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesUtils.h; sourceTree = "<group>"; };
+		191955B5278F77DC0005B4AE /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtbb.dylib; sourceTree = "<group>"; };
+		191955B6278F77EB0005B4AE /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtbbmalloc.dylib; sourceTree = "<group>"; };
+		DFCAF72728E799260071EF9D /* DatasmithARCHICAD26Exporter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatasmithARCHICAD26Exporter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCAF72828E799260071EF9D /* DatasmithARCHICAD25Exporter copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DatasmithARCHICAD25Exporter copy-Info.plist"; path = "/Users/devqa/Perforce/jeanluc/Release5.1/Engine/Source/Programs/Enterprise/Datasmith/DatasmithARCHICADExporter/Build/DatasmithARCHICAD25Exporter copy-Info.plist"; sourceTree = "<absolute>"; };
+		DFEF4B36291C7271008B8B3E /* UE_AC_ARM.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UE_AC_ARM.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026E997C25CC29DB002283B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026E999A25CC29DB002283B3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C87C53260B902D00C14720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C87C54260B902D00C14720 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C87CFD260BBA9B00C14720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C87CFE260BBA9B00C14720 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCAF71C28E799260071EF9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCAF71D28E799260071EF9D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022F090F25D658CC00D81360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		026E997625CC29DB002283B3 = {
+			isa = PBXGroup;
+			children = (
+				026E998325CC29DB002283B3 /* DatasmithARCHICADExporter */,
+				026E998225CC29DB002283B3 /* Products */,
+				022F090F25D658CC00D81360 /* Frameworks */,
+				02C87CD4260BB6F300C14720 /* DatasmithArchiCADExporter */,
+				DFCAF72828E799260071EF9D /* DatasmithARCHICAD25Exporter copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		026E998225CC29DB002283B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026E998125CC29DB002283B3 /* DatasmithARCHICAD23Exporter.bundle */,
+				02C87C5E260B902D00C14720 /* DatasmithARCHICAD24Exporter.bundle */,
+				02C87D08260BBA9B00C14720 /* DatasmithARCHICAD25Exporter.bundle */,
+				DFCAF72728E799260071EF9D /* DatasmithARCHICAD26Exporter.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026E998325CC29DB002283B3 /* DatasmithARCHICADExporter */ = {
+			isa = PBXGroup;
+			children = (
+				02F5425A25FC5218008FCC35 /* Config */,
+				0284305425D0AD2200E57A46 /* Datasmith */,
+				02F77C1F25CCE0440047E06D /* Dylibs */,
+				026E999825CC29DB002283B3 /* Frameworks */,
+				02D94AD325F96D7900791DA8 /* Resources */,
+				026E998625CC29DB002283B3 /* Private */,
+				02EAFE382608DA5F00844092 /* Installer */,
+				02D3F9CD260D0FE100AC8AFD /* Visual */,
+			);
+			name = DatasmithARCHICADExporter;
+			sourceTree = "<group>";
+		};
+		026E998625CC29DB002283B3 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0256765525CC71DE00711A5A /* AddOn.cpp */,
+				02EA12E025CE34960083B595 /* Commander.cpp */,
+				02EA12E125CE34960083B595 /* Commander.h */,
+				0242B19F2661CDF1000201AC /* ConnectionWindow.cpp */,
+				0242B19E2661CDE3000201AC /* ConnectionWindow.h */,
+				0270827525F3DB69009412CC /* DatasmithHashTools.cpp */,
+				0270827425F3DB69009412CC /* DatasmithHashTools.h */,
+				02D7762725DB60E000DAA19C /* Element2StaticMesh.cpp */,
+				02D7762625DB60E000DAA19C /* Element2StaticMesh.h */,
+				0284304C25CF7CCD00E57A46 /* ElementEvent.cpp */,
+				0284304D25CF7CCD00E57A46 /* ElementEvent.h */,
+				0281AF3225F0201C00EEB1C8 /* ElementID.cpp */,
+				0281AF3325F0201C00EEB1C8 /* ElementID.h */,
+				0284304225CF566D00E57A46 /* Export.cpp */,
+				0284304325CF566D00E57A46 /* Export.h */,
+				0284303F25CF3E6800E57A46 /* Exporter.cpp */,
+				0284304025CF3E6900E57A46 /* Exporter.h */,
+				02BD1E2D25FB00D20025836E /* GeometryUtil.cpp */,
+				02BD1E2E25FB00D20025836E /* GeometryUtil.h */,
+				0256765A25CC71DF00711A5A /* LoadDatasmithDlls.cpp */,
+				0256766125CC71DF00711A5A /* LoadDatasmithDlls.h */,
+				02D7762B25DC0B9D00DAA19C /* MaterialsDatabase.cpp */,
+				02D7762C25DC0B9D00DAA19C /* MaterialsDatabase.h */,
+				02EA12D725CE31E70083B595 /* Menus.cpp */,
+				02EA12D625CE31E70083B595 /* Menus.h */,
+				028796DB25F810D500216C53 /* MetaData.cpp */,
+				028796DC25F810D500216C53 /* MetaData.h */,
+				02EA12C925CE2C410083B595 /* Palette.cpp */,
+				02EA12C825CE2C410083B595 /* Palette.h */,
+				02EA12C325CE26520083B595 /* ProjectEvent.cpp */,
+				02EA12C425CE26520083B595 /* ProjectEvent.h */,
+				026A5D9C261BC7CD000DCB6F /* ReportWindow.cpp */,
+				026A5D9D261BC7CD000DCB6F /* ReportWindow.h */,
+				0256766425CC71DF00711A5A /* ResourcesIDs.h */,
+				02C4BFD125E5601B0057A6E3 /* SyncContext.cpp */,
+				02C4BFD025E5601B0057A6E3 /* SyncContext.h */,
+				0281AF2F25F01B4D00EEB1C8 /* SyncData.cpp */,
+				0281AF2E25F01B4D00EEB1C8 /* SyncData.h */,
+				0281AF2A25F0189000EEB1C8 /* SyncDatabase.cpp */,
+				0281AF2B25F0189000EEB1C8 /* SyncDatabase.h */,
+				02FB820725D460A7002881B0 /* Synchronizer.cpp */,
+				02FB820825D460A7002881B0 /* Synchronizer.h */,
+				02C4BFCC25E425430057A6E3 /* TexturesCache.cpp */,
+				02C4BFCD25E425430057A6E3 /* TexturesCache.h */,
+				02FFD91526234CD900739633 /* Utils */,
+			);
+			name = Private;
+			path = ../Private;
+			sourceTree = "<group>";
+		};
+		026E998D25CC29DB002283B3 /* RINT */ = {
+			isa = PBXGroup;
+			children = (
+				02E04055264B2F46009F89AB /* DatasmithARCHICADExporter.grc */,
+			);
+			path = RINT;
+			sourceTree = "<group>";
+		};
+		026E998F25CC29DB002283B3 /* RFIX */ = {
+			isa = PBXGroup;
+			children = (
+				026E999025CC29DB002283B3 /* DatasmithARCHICADExporterFix.grc */,
+				026E999125CC29DB002283B3 /* Images */,
+			);
+			path = RFIX;
+			sourceTree = "<group>";
+		};
+		026E999225CC29DB002283B3 /* RFIX.mac */ = {
+			isa = PBXGroup;
+			children = (
+				026E999325CC29DB002283B3 /* ArchiCADPlugin.icns */,
+				026E999725CC29DB002283B3 /* compileGRCs.pl */,
+				0272F2AF25CC991B00F7E95D /* Info.plist */,
+				026E999525CC29DB002283B3 /* PkgInfo */,
+			);
+			path = RFIX.mac;
+			sourceTree = "<group>";
+		};
+		026E999825CC29DB002283B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026E999925CC29DB002283B3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			path = /System/Library/Frameworks;
+			sourceTree = "<absolute>";
+		};
+		0284305425D0AD2200E57A46 /* Datasmith */ = {
+			isa = PBXGroup;
+			children = (
+				0242B1A82662AFEA000201AC /* Public */,
+				0242B1A92662AFF8000201AC /* Public */,
+				0242B1AA2662B045000201AC /* Public */,
+				0284305525D0AD3900E57A46 /* Documentation */,
+			);
+			name = Datasmith;
+			path = ../../DatasmithSDK;
+			sourceTree = "<group>";
+		};
+		02D3F9CD260D0FE100AC8AFD /* Visual */ = {
+			isa = PBXGroup;
+			children = (
+				025857F425CCEBE900FF12BE /* VSProj23 */,
+				02D3F9CF260D104800AC8AFD /* VSProj24 */,
+				02D3F9CE260D104800AC8AFD /* VSProj25 */,
+			);
+			name = Visual;
+			sourceTree = "<group>";
+		};
+		02D94AD325F96D7900791DA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				026E998F25CC29DB002283B3 /* RFIX */,
+				026E999225CC29DB002283B3 /* RFIX.mac */,
+				02D94AD525F96E2100791DA8 /* RFIX.WIN */,
+				026E998D25CC29DB002283B3 /* RINT */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		02D94AD525F96E2100791DA8 /* RFIX.WIN */ = {
+			isa = PBXGroup;
+			children = (
+				02D94AD625F96E5E00791DA8 /* DatasmithARCHICADExporter.rc2 */,
+			);
+			path = RFIX.WIN;
+			sourceTree = "<group>";
+		};
+		02F5425A25FC5218008FCC35 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				028B99112641F6EB00CBFE5A /* Notes.txt */,
+				026EAF6C25F27C53000B8A41 /* .clang-format */,
+				02DC778625D5CA0200C9D2F7 /* clangformat.command */,
+				0263E7D226111A1000C700DD /* MakeInstaller.command */,
+				024556E7260A183500EC62C6 /* MakeInstaller.sh */,
+				025857F625CCF2A200FF12BE /* SDKsRoot.xcconfig */,
+				02A66E5325CC328000942285 /* UE_AC.xcconfig */,
+				DFEF4B36291C7271008B8B3E /* UE_AC_ARM.xcconfig */,
+				02DD2EC0264C76F1001E20A7 /* DatasmithArchicadExporter.props */,
+				025857F825CCF3E200FF12BE /* setupdylibs.sh */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		02F77C1F25CCE0440047E06D /* Dylibs */ = {
+			isa = PBXGroup;
+			children = (
+				191955B6278F77EB0005B4AE /* libtbbmalloc.dylib */,
+				191955B5278F77DC0005B4AE /* libtbb.dylib */,
+				025857E625CCE0D000FF12BE /* DatasmithSDK.dylib */,
+				022F090725D6514800D81360 /* DatasmithSDK-Mac-Debug.dylib */,
+				025857E525CCE0D000FF12BE /* libfreeimage-3.18.0.dylib */,
+			);
+			path = Dylibs;
+			sourceTree = "<group>";
+		};
+		02FFD91526234CD900739633 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02AC0C2126161CB800F5A557 /* 3DElement2String.cpp */,
+				02AC0C2226161CB800F5A557 /* 3DElement2String.h */,
+				0256765725CC71DF00711A5A /* AddonTools.cpp */,
+				0256765D25CC71DF00711A5A /* AddonTools.h */,
+				0256765825CC71DF00711A5A /* APIEnvir.h */,
+				0256766025CC71DF00711A5A /* AutoChangeDatabase.cpp */,
+				0256765E25CC71DF00711A5A /* AutoChangeDatabase.h */,
+				0256766225CC71DF00711A5A /* CurrentOS.h */,
+				0256765025CC71DE00711A5A /* DebugTools.cpp */,
+				0256765125CC71DE00711A5A /* DebugTools.h */,
+				0284303225CE3C2800E57A46 /* Element2String.cpp */,
+				0284303125CE3C2800E57A46 /* Element2String.h */,
+				0284303625CE3E8D00E57A46 /* ElementTools.cpp */,
+				0232B0AA26445AF000518F21 /* ElementTools.h */,
+				02EA12CD25CE2DB50083B595 /* Error.cpp */,
+				02EA12CE25CE2DB50083B595 /* Error.h */,
+				02FFD92526234E0F00739633 /* TaskCalledFromEventLoop.cpp */,
+				02FFD92626234E0F00739633 /* TaskCalledFromEventLoop.h */,
+				02183022264187530029C563 /* LibPartInfo.cpp */,
+				02183021264187530029C563 /* LibPartInfo.h */,
+				0256766325CC71DF00711A5A /* LocalizeTools.cpp */,
+				0256765225CC71DE00711A5A /* LocalizeTools.h */,
+				0256765325CC71DE00711A5A /* MacOS.mm */,
+				02EA12E925CE35A90083B595 /* Pasteboard.cpp */,
+				02EA12E525CE356B0083B595 /* Pasteboard.h */,
+				02BFD863263C38B500C55C52 /* Progression.cpp */,
+				02BFD864263C38B600C55C52 /* Progression.h */,
+				02FFD966262528DE00739633 /* ResourcesUtils.h */,
+				02EAFE332606F83A00844092 /* SceneValidator.cpp */,
+				02EAFE322606F83300844092 /* SceneValidator.h */,
+				02EA12D225CE2EB20083B595 /* ShellOpenDocument.cpp */,
+				02EA12D125CE2EB20083B595 /* ShellOpenDocument.h */,
+				02BFD859263C38AA00C55C52 /* TaskMgr.cpp */,
+				02BFD85A263C38AA00C55C52 /* TaskMgr.h */,
+				0256765B25CC71DF00711A5A /* TAssValueName.cpp */,
+				0256765C25CC71DF00711A5A /* TAssValueName.h */,
+				026A5DB6261C1885000DCB6F /* TimeStat.cpp */,
+				026A5DB5261C1885000DCB6F /* TimeStat.h */,
+				02FFD91C26234D0C00739633 /* ViewEvent.cpp */,
+				02FFD91B26234D0C00739633 /* ViewEvent.h */,
+				0240078526270FC9001FE872 /* ViewState.cpp */,
+				0240078626270FC9001FE872 /* ViewState.h */,
+				0256765F25CC71DF00711A5A /* WarningsDisabler.h */,
+				0256766525CC71DF00711A5A /* WinOS.cpp */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		026E998025CC29DB002283B3 /* DatasmithARCHICAD23Exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026E99B725CC29DB002283B3 /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD23Exporter" */;
+			buildPhases = (
+				025857F025CCEA6C00FF12BE /* Copy Dylib */,
+				026E997B25CC29DB002283B3 /* Sources */,
+				026E997C25CC29DB002283B3 /* Frameworks */,
+				026E997D25CC29DB002283B3 /* Resources */,
+				02EAFE3B2609112D00844092 /* Copy PkgInfo */,
+				026E997E25CC29DB002283B3 /* Compile and copy resources */,
+				024556ED260A24BC00EC62C6 /* Copy to Engine */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C87CA9260BA0E000C14720 /* PBXTargetDependency */,
+			);
+			name = DatasmithARCHICAD23Exporter;
+			productName = DatasmithARCHICADExporter;
+			productReference = 026E998125CC29DB002283B3 /* DatasmithARCHICAD23Exporter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		02C87C2D260B902D00C14720 /* DatasmithARCHICAD24Exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C87C5B260B902D00C14720 /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD24Exporter" */;
+			buildPhases = (
+				02C87C2E260B902D00C14720 /* Copy Dylib */,
+				02C87C2F260B902D00C14720 /* Sources */,
+				02C87C53260B902D00C14720 /* Frameworks */,
+				02C87C55260B902D00C14720 /* Resources */,
+				02C87C57260B902D00C14720 /* Copy PkgInfo */,
+				02C87C59260B902D00C14720 /* Compile and copy resources */,
+				02C87C5A260B902D00C14720 /* Copy to Engine */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C87CAB260BA0EE00C14720 /* PBXTargetDependency */,
+			);
+			name = DatasmithARCHICAD24Exporter;
+			productName = DatasmithARCHICADExporter;
+			productReference = 02C87C5E260B902D00C14720 /* DatasmithARCHICAD24Exporter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		02C87CD5260BBA9B00C14720 /* DatasmithARCHICAD25Exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C87D05260BBA9B00C14720 /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD25Exporter" */;
+			buildPhases = (
+				02C87CD8260BBA9B00C14720 /* Copy Dylib */,
+				02C87CD9260BBA9B00C14720 /* Sources */,
+				02C87CFD260BBA9B00C14720 /* Frameworks */,
+				02C87CFF260BBA9B00C14720 /* Resources */,
+				02C87D01260BBA9B00C14720 /* Copy PkgInfo */,
+				02C87D03260BBA9B00C14720 /* Compile and copy resources */,
+				02C87D04260BBA9B00C14720 /* Copy to Engine */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C87CD6260BBA9B00C14720 /* PBXTargetDependency */,
+			);
+			name = DatasmithARCHICAD25Exporter;
+			productName = DatasmithARCHICADExporter;
+			productReference = 02C87D08260BBA9B00C14720 /* DatasmithARCHICAD25Exporter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DFCAF6EE28E799260071EF9D /* DatasmithARCHICAD26Exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCAF72428E799260071EF9D /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD26Exporter" */;
+			buildPhases = (
+				DFCAF6F128E799260071EF9D /* Copy Dylib */,
+				DFCAF6F228E799260071EF9D /* Sources */,
+				DFCAF71C28E799260071EF9D /* Frameworks */,
+				DFCAF71E28E799260071EF9D /* Resources */,
+				DFCAF72028E799260071EF9D /* Copy PkgInfo */,
+				DFCAF72228E799260071EF9D /* Compile and copy resources */,
+				DFCAF72328E799260071EF9D /* Copy to Engine */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFCAF6EF28E799260071EF9D /* PBXTargetDependency */,
+			);
+			name = DatasmithARCHICAD26Exporter;
+			productName = DatasmithARCHICADExporter;
+			productReference = DFCAF72728E799260071EF9D /* DatasmithARCHICAD26Exporter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026E997725CC29DB002283B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					026E998025CC29DB002283B3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					02C87C64260B94FA00C14720 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					02C87C93260BA07700C14720 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 026E997A25CC29DB002283B3 /* Build configuration list for PBXProject "DatasmithARCHICADExporter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				de,
+				es,
+				ja,
+				ko,
+				"pt-PT",
+				"zh-Hans",
+			);
+			mainGroup = 026E997625CC29DB002283B3;
+			productRefGroup = 026E998225CC29DB002283B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C87C93260BA07700C14720 /* BuildSetup */,
+				026E998025CC29DB002283B3 /* DatasmithARCHICAD23Exporter */,
+				02C87C2D260B902D00C14720 /* DatasmithARCHICAD24Exporter */,
+				02C87CD5260BBA9B00C14720 /* DatasmithARCHICAD25Exporter */,
+				DFCAF6EE28E799260071EF9D /* DatasmithARCHICAD26Exporter */,
+				02C87C64260B94FA00C14720 /* BuildAllAddOns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026E997D25CC29DB002283B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026E999425CC29DB002283B3 /* ArchiCADPlugin.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C87C55260B902D00C14720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C87C56260B902D00C14720 /* ArchiCADPlugin.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C87CFF260BBA9B00C14720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C87D00260BBA9B00C14720 /* ArchiCADPlugin.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCAF71E28E799260071EF9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCAF71F28E799260071EF9D /* ArchiCADPlugin.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024556ED260A24BC00EC62C6 /* Copy to Engine */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"",
+			);
+			name = "Copy to Engine";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "INSTALL_DIR=\"${UE_Engine}/Binaries/Mac/DatasmithArchiCADExporter\"\nmkdir -p \"${INSTALL_DIR}\"\nrsync -a --delete \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${INSTALL_DIR}\"\n";
+		};
+		025857F025CCEA6C00FF12BE /* Copy Dylib */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Dylib";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"Dylibs/$DATASMITH_DYLIB\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libfreeimage-3.18.0.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbb.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbbmalloc.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\n";
+		};
+		026E997E25CC29DB002283B3 /* Compile and copy resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile and copy resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/usr/bin/perl \"../Resources/RFIX.mac/compileGRCs.pl\"\n";
+		};
+		02C87C2E260B902D00C14720 /* Copy Dylib */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Dylib";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"Dylibs/$DATASMITH_DYLIB\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libfreeimage-3.18.0.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbb.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbbmalloc.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\n";
+		};
+		02C87C59260B902D00C14720 /* Compile and copy resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile and copy resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/usr/bin/perl \"../Resources/RFIX.mac/compileGRCs.pl\"\n";
+		};
+		02C87C5A260B902D00C14720 /* Copy to Engine */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"",
+			);
+			name = "Copy to Engine";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "INSTALL_DIR=\"${UE_Engine}/Binaries/Mac/DatasmithArchiCADExporter\"\nmkdir -p \"${INSTALL_DIR}\"\nrsync -a --delete \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${INSTALL_DIR}\"\n";
+		};
+		02C87C9F260BA09700C14720 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$CONFIGURATION\" = \"Debug\" ]; then\n\txcodebuild -workspace \"$UE_Engine/../UE5.xcworkspace\" -scheme DatasmithUE4ArchiCAD -configuration Debug build -quiet\nfi\nConfig/setupdylibs.sh\n";
+		};
+		02C87CD8260BBA9B00C14720 /* Copy Dylib */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Dylib";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"Dylibs/$DATASMITH_DYLIB\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libfreeimage-3.18.0.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbb.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbbmalloc.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\n";
+		};
+		02C87D03260BBA9B00C14720 /* Compile and copy resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile and copy resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/usr/bin/perl \"../Resources/RFIX.mac/compileGRCs.pl\"\n";
+		};
+		02C87D04260BBA9B00C14720 /* Copy to Engine */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"",
+			);
+			name = "Copy to Engine";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "INSTALL_DIR=\"${UE_Engine}/Binaries/Mac/DatasmithArchiCADExporter\"\nmkdir -p \"${INSTALL_DIR}\"\nrsync -a --delete \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${INSTALL_DIR}\"\n";
+		};
+		DFCAF6F128E799260071EF9D /* Copy Dylib */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Dylib";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"Dylibs/$DATASMITH_DYLIB\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libfreeimage-3.18.0.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbb.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\ncp \"Dylibs/libtbbmalloc.dylib\" \"$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\"\n";
+		};
+		DFCAF72228E799260071EF9D /* Compile and copy resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile and copy resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/usr/bin/perl \"../Resources/RFIX.mac/compileGRCs.pl\"\n";
+		};
+		DFCAF72328E799260071EF9D /* Copy to Engine */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"",
+			);
+			name = "Copy to Engine";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "INSTALL_DIR=\"${UE_Engine}/Binaries/Mac/DatasmithArchiCADExporter\"\nmkdir -p \"${INSTALL_DIR}\"\nrsync -a --delete \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${INSTALL_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026E997B25CC29DB002283B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0281AF2C25F0189000EEB1C8 /* SyncDatabase.cpp in Sources */,
+				0284304725CF573800E57A46 /* Exporter.cpp in Sources */,
+				0256766E25CC71DF00711A5A /* LocalizeTools.cpp in Sources */,
+				02EA12CA25CE2C410083B595 /* Palette.cpp in Sources */,
+				0256766D25CC71DF00711A5A /* AutoChangeDatabase.cpp in Sources */,
+				02C4BFCE25E425480057A6E3 /* TexturesCache.cpp in Sources */,
+				0256766C25CC71DF00711A5A /* TAssValueName.cpp in Sources */,
+				0284304E25CF7CCE00E57A46 /* ElementEvent.cpp in Sources */,
+				0242B1A02661CDF1000201AC /* ConnectionWindow.cpp in Sources */,
+				02BFD85B263C38AA00C55C52 /* TaskMgr.cpp in Sources */,
+				026A5DB7261C1885000DCB6F /* TimeStat.cpp in Sources */,
+				02EA12DA25CE31E80083B595 /* Menus.cpp in Sources */,
+				0270827625F3DB69009412CC /* DatasmithHashTools.cpp in Sources */,
+				02AC0C2326161CB800F5A557 /* 3DElement2String.cpp in Sources */,
+				02EA12D325CE2EB20083B595 /* ShellOpenDocument.cpp in Sources */,
+				0284304525CF573400E57A46 /* Export.cpp in Sources */,
+				02EA12C625CE2A6F0083B595 /* ProjectEvent.cpp in Sources */,
+				0256766825CC71DF00711A5A /* AddOn.cpp in Sources */,
+				0284303325CE3C2800E57A46 /* Element2String.cpp in Sources */,
+				026A5D9E261BC7E1000DCB6F /* ReportWindow.cpp in Sources */,
+				0284303825CE3E8D00E57A46 /* ElementTools.cpp in Sources */,
+				0256766725CC71DF00711A5A /* MacOS.mm in Sources */,
+				0256766625CC71DF00711A5A /* DebugTools.cpp in Sources */,
+				0281AF3025F01B4D00EEB1C8 /* SyncData.cpp in Sources */,
+				02C345B5267E306900856CCC /* TaskCalledFromEventLoop.cpp in Sources */,
+				02D7762D25DC0B9E00DAA19C /* MaterialsDatabase.cpp in Sources */,
+				028796DD25F810D500216C53 /* MetaData.cpp in Sources */,
+				02BFD865263C38B600C55C52 /* Progression.cpp in Sources */,
+				02FFD91D26234D0C00739633 /* ViewEvent.cpp in Sources */,
+				02EA12CF25CE2DB50083B595 /* Error.cpp in Sources */,
+				02183023264187530029C563 /* LibPartInfo.cpp in Sources */,
+				02EA12E225CE34960083B595 /* Commander.cpp in Sources */,
+				0256766A25CC71DF00711A5A /* AddonTools.cpp in Sources */,
+				0256766B25CC71DF00711A5A /* LoadDatasmithDlls.cpp in Sources */,
+				02FB820925D460A7002881B0 /* Synchronizer.cpp in Sources */,
+				0281AF3425F0201C00EEB1C8 /* ElementID.cpp in Sources */,
+				02BD1E3025FB02AA0025836E /* GeometryUtil.cpp in Sources */,
+				02EA12EA25CE35A90083B595 /* Pasteboard.cpp in Sources */,
+				0240078726270FC9001FE872 /* ViewState.cpp in Sources */,
+				02D7762825DB60E000DAA19C /* Element2StaticMesh.cpp in Sources */,
+				02C4BFD225E5601B0057A6E3 /* SyncContext.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C87C2F260B902D00C14720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C87C30260B902D00C14720 /* SyncDatabase.cpp in Sources */,
+				02C87C31260B902D00C14720 /* Exporter.cpp in Sources */,
+				02C87C32260B902D00C14720 /* LocalizeTools.cpp in Sources */,
+				02C87C33260B902D00C14720 /* Palette.cpp in Sources */,
+				02C87C34260B902D00C14720 /* AutoChangeDatabase.cpp in Sources */,
+				02C87C35260B902D00C14720 /* TexturesCache.cpp in Sources */,
+				02C87C36260B902D00C14720 /* TAssValueName.cpp in Sources */,
+				02C87C37260B902D00C14720 /* ElementEvent.cpp in Sources */,
+				0242B1A12661CDF1000201AC /* ConnectionWindow.cpp in Sources */,
+				02BFD85C263C38AA00C55C52 /* TaskMgr.cpp in Sources */,
+				026A5DB8261C1885000DCB6F /* TimeStat.cpp in Sources */,
+				02C87C39260B902D00C14720 /* Menus.cpp in Sources */,
+				02C87C3A260B902D00C14720 /* DatasmithHashTools.cpp in Sources */,
+				02AC0C2426161CB800F5A557 /* 3DElement2String.cpp in Sources */,
+				02C87C3B260B902D00C14720 /* ShellOpenDocument.cpp in Sources */,
+				02C87C3C260B902D00C14720 /* Export.cpp in Sources */,
+				02C87C3D260B902D00C14720 /* ProjectEvent.cpp in Sources */,
+				02C87C3E260B902D00C14720 /* AddOn.cpp in Sources */,
+				02C87C3F260B902D00C14720 /* Element2String.cpp in Sources */,
+				026A5DA4261BC7E1000DCB6F /* ReportWindow.cpp in Sources */,
+				02C87C40260B902D00C14720 /* ElementTools.cpp in Sources */,
+				02C87C41260B902D00C14720 /* MacOS.mm in Sources */,
+				02C87C42260B902D00C14720 /* DebugTools.cpp in Sources */,
+				02C87C43260B902D00C14720 /* SyncData.cpp in Sources */,
+				02C345B6267E306A00856CCC /* TaskCalledFromEventLoop.cpp in Sources */,
+				02C87C44260B902D00C14720 /* MaterialsDatabase.cpp in Sources */,
+				02C87C45260B902D00C14720 /* MetaData.cpp in Sources */,
+				02BFD866263C38B600C55C52 /* Progression.cpp in Sources */,
+				02FFD91E26234D0C00739633 /* ViewEvent.cpp in Sources */,
+				02C87C47260B902D00C14720 /* Error.cpp in Sources */,
+				02183024264187530029C563 /* LibPartInfo.cpp in Sources */,
+				02C87C48260B902D00C14720 /* Commander.cpp in Sources */,
+				02C87C49260B902D00C14720 /* AddonTools.cpp in Sources */,
+				02C87C4B260B902D00C14720 /* LoadDatasmithDlls.cpp in Sources */,
+				02C87C4C260B902D00C14720 /* Synchronizer.cpp in Sources */,
+				02C87C4D260B902D00C14720 /* ElementID.cpp in Sources */,
+				02C87C4E260B902D00C14720 /* GeometryUtil.cpp in Sources */,
+				02C87C4F260B902D00C14720 /* Pasteboard.cpp in Sources */,
+				0240078826270FC9001FE872 /* ViewState.cpp in Sources */,
+				02C87C50260B902D00C14720 /* Element2StaticMesh.cpp in Sources */,
+				02C87C51260B902D00C14720 /* SyncContext.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C87CD9260BBA9B00C14720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C87CDA260BBA9B00C14720 /* SyncDatabase.cpp in Sources */,
+				02C87CDB260BBA9B00C14720 /* Exporter.cpp in Sources */,
+				02C87CDC260BBA9B00C14720 /* LocalizeTools.cpp in Sources */,
+				02C87CDD260BBA9B00C14720 /* Palette.cpp in Sources */,
+				02C87CDE260BBA9B00C14720 /* AutoChangeDatabase.cpp in Sources */,
+				02C87CDF260BBA9B00C14720 /* TexturesCache.cpp in Sources */,
+				02C87CE0260BBA9B00C14720 /* TAssValueName.cpp in Sources */,
+				02C87CE1260BBA9B00C14720 /* ElementEvent.cpp in Sources */,
+				0242B1A22661CDF1000201AC /* ConnectionWindow.cpp in Sources */,
+				02BFD85D263C38AA00C55C52 /* TaskMgr.cpp in Sources */,
+				026A5DB9261C1885000DCB6F /* TimeStat.cpp in Sources */,
+				02C87CE3260BBA9B00C14720 /* Menus.cpp in Sources */,
+				02C87CE4260BBA9B00C14720 /* DatasmithHashTools.cpp in Sources */,
+				02AC0C2526161CB800F5A557 /* 3DElement2String.cpp in Sources */,
+				02C87CE5260BBA9B00C14720 /* ShellOpenDocument.cpp in Sources */,
+				02C87CE6260BBA9B00C14720 /* Export.cpp in Sources */,
+				02C87CE7260BBA9B00C14720 /* ProjectEvent.cpp in Sources */,
+				02C87CE8260BBA9B00C14720 /* AddOn.cpp in Sources */,
+				02C87CE9260BBA9B00C14720 /* Element2String.cpp in Sources */,
+				026A5DAA261BC7E2000DCB6F /* ReportWindow.cpp in Sources */,
+				02C87CEA260BBA9B00C14720 /* ElementTools.cpp in Sources */,
+				02C87CEB260BBA9B00C14720 /* MacOS.mm in Sources */,
+				02C87CEC260BBA9B00C14720 /* DebugTools.cpp in Sources */,
+				02C87CED260BBA9B00C14720 /* SyncData.cpp in Sources */,
+				02C345B7267E306A00856CCC /* TaskCalledFromEventLoop.cpp in Sources */,
+				02C87CEE260BBA9B00C14720 /* MaterialsDatabase.cpp in Sources */,
+				02C87CEF260BBA9B00C14720 /* MetaData.cpp in Sources */,
+				02BFD867263C38B600C55C52 /* Progression.cpp in Sources */,
+				02FFD91F26234D0C00739633 /* ViewEvent.cpp in Sources */,
+				02C87CF1260BBA9B00C14720 /* Error.cpp in Sources */,
+				02183025264187530029C563 /* LibPartInfo.cpp in Sources */,
+				02C87CF2260BBA9B00C14720 /* Commander.cpp in Sources */,
+				02C87CF3260BBA9B00C14720 /* AddonTools.cpp in Sources */,
+				02C87CF5260BBA9B00C14720 /* LoadDatasmithDlls.cpp in Sources */,
+				02C87CF6260BBA9B00C14720 /* Synchronizer.cpp in Sources */,
+				02C87CF7260BBA9B00C14720 /* ElementID.cpp in Sources */,
+				02C87CF8260BBA9B00C14720 /* GeometryUtil.cpp in Sources */,
+				02C87CF9260BBA9B00C14720 /* Pasteboard.cpp in Sources */,
+				0240078926270FC9001FE872 /* ViewState.cpp in Sources */,
+				02C87CFA260BBA9B00C14720 /* Element2StaticMesh.cpp in Sources */,
+				02C87CFB260BBA9B00C14720 /* SyncContext.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCAF6F228E799260071EF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCAF6F328E799260071EF9D /* SyncDatabase.cpp in Sources */,
+				DFCAF6F428E799260071EF9D /* Exporter.cpp in Sources */,
+				DFCAF6F528E799260071EF9D /* LocalizeTools.cpp in Sources */,
+				DFCAF6F628E799260071EF9D /* Palette.cpp in Sources */,
+				DFCAF6F728E799260071EF9D /* AutoChangeDatabase.cpp in Sources */,
+				DFCAF6F828E799260071EF9D /* TexturesCache.cpp in Sources */,
+				DFCAF6F928E799260071EF9D /* TAssValueName.cpp in Sources */,
+				DFCAF6FA28E799260071EF9D /* ElementEvent.cpp in Sources */,
+				DFCAF6FB28E799260071EF9D /* ConnectionWindow.cpp in Sources */,
+				DFCAF6FC28E799260071EF9D /* TaskMgr.cpp in Sources */,
+				DFCAF6FD28E799260071EF9D /* TimeStat.cpp in Sources */,
+				DFCAF6FE28E799260071EF9D /* Menus.cpp in Sources */,
+				DFCAF6FF28E799260071EF9D /* DatasmithHashTools.cpp in Sources */,
+				DFCAF70028E799260071EF9D /* 3DElement2String.cpp in Sources */,
+				DFCAF70128E799260071EF9D /* ShellOpenDocument.cpp in Sources */,
+				DFCAF70228E799260071EF9D /* Export.cpp in Sources */,
+				DFCAF70328E799260071EF9D /* ProjectEvent.cpp in Sources */,
+				DFCAF70428E799260071EF9D /* AddOn.cpp in Sources */,
+				DFCAF70528E799260071EF9D /* Element2String.cpp in Sources */,
+				DFCAF70628E799260071EF9D /* ReportWindow.cpp in Sources */,
+				DFCAF70728E799260071EF9D /* ElementTools.cpp in Sources */,
+				DFCAF70828E799260071EF9D /* MacOS.mm in Sources */,
+				DFCAF70928E799260071EF9D /* DebugTools.cpp in Sources */,
+				DFCAF70A28E799260071EF9D /* SyncData.cpp in Sources */,
+				DFCAF70B28E799260071EF9D /* TaskCalledFromEventLoop.cpp in Sources */,
+				DFCAF70C28E799260071EF9D /* MaterialsDatabase.cpp in Sources */,
+				DFCAF70D28E799260071EF9D /* MetaData.cpp in Sources */,
+				DFCAF70E28E799260071EF9D /* Progression.cpp in Sources */,
+				DFCAF70F28E799260071EF9D /* ViewEvent.cpp in Sources */,
+				DFCAF71028E799260071EF9D /* Error.cpp in Sources */,
+				DFCAF71128E799260071EF9D /* LibPartInfo.cpp in Sources */,
+				DFCAF71228E799260071EF9D /* Commander.cpp in Sources */,
+				DFCAF71328E799260071EF9D /* AddonTools.cpp in Sources */,
+				DFCAF71428E799260071EF9D /* LoadDatasmithDlls.cpp in Sources */,
+				DFCAF71528E799260071EF9D /* Synchronizer.cpp in Sources */,
+				DFCAF71628E799260071EF9D /* ElementID.cpp in Sources */,
+				DFCAF71728E799260071EF9D /* GeometryUtil.cpp in Sources */,
+				DFCAF71828E799260071EF9D /* Pasteboard.cpp in Sources */,
+				DFCAF71928E799260071EF9D /* ViewState.cpp in Sources */,
+				DFCAF71A28E799260071EF9D /* Element2StaticMesh.cpp in Sources */,
+				DFCAF71B28E799260071EF9D /* SyncContext.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C87C6C260B950D00C14720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026E998025CC29DB002283B3 /* DatasmithARCHICAD23Exporter */;
+			targetProxy = 02C87C6B260B950D00C14720 /* PBXContainerItemProxy */;
+		};
+		02C87C6E260B950D00C14720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C87C2D260B902D00C14720 /* DatasmithARCHICAD24Exporter */;
+			targetProxy = 02C87C6D260B950D00C14720 /* PBXContainerItemProxy */;
+		};
+		02C87CA9260BA0E000C14720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C87C93260BA07700C14720 /* BuildSetup */;
+			targetProxy = 02C87CA8260BA0E000C14720 /* PBXContainerItemProxy */;
+		};
+		02C87CAB260BA0EE00C14720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C87C93260BA07700C14720 /* BuildSetup */;
+			targetProxy = 02C87CAA260BA0EE00C14720 /* PBXContainerItemProxy */;
+		};
+		02C87CD6260BBA9B00C14720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C87C93260BA07700C14720 /* BuildSetup */;
+			targetProxy = 02C87CD7260BBA9B00C14720 /* PBXContainerItemProxy */;
+		};
+		02C87D29260BD0AF00C14720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C87CD5260BBA9B00C14720 /* DatasmithARCHICAD25Exporter */;
+			targetProxy = 02C87D28260BD0AF00C14720 /* PBXContainerItemProxy */;
+		};
+		DF6072CD2991907500BB1CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFCAF6EE28E799260071EF9D /* DatasmithARCHICAD26Exporter */;
+			targetProxy = DF6072CC2991907500BB1CDD /* PBXContainerItemProxy */;
+		};
+		DFCAF6EF28E799260071EF9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C87C93260BA07700C14720 /* BuildSetup */;
+			targetProxy = DFCAF6F028E799260071EF9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02E04055264B2F46009F89AB /* DatasmithARCHICADExporter.grc */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E04054264B2F46009F89AB /* en */,
+				02E04056264B2F5E009F89AB /* fr */,
+				028130D52669400100BDA34D /* de */,
+				028130D62669400D00BDA34D /* es */,
+				028130D72669401400BDA34D /* ja */,
+				028130D82669401B00BDA34D /* ko */,
+				028130D92669402300BDA34D /* pt-PT */,
+				028130DA2669402800BDA34D /* zh-Hans */,
+			);
+			name = DatasmithARCHICADExporter.grc;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		026E99B525CC29DB002283B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A66E5325CC328000942285 /* UE_AC.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = ../Resources/RFIX.mac/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden";
+				WARNING_CFLAGS = (
+					"-Wno-multichar",
+					"-Wno-ctor-dtor-privacy",
+					"-Wno-invalid-offsetof",
+				);
+			};
+			name = Debug;
+		};
+		026E99B625CC29DB002283B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A66E5325CC328000942285 /* UE_AC.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = ../Resources/RFIX.mac/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden";
+				WARNING_CFLAGS = (
+					"-Wno-multichar",
+					"-Wno-ctor-dtor-privacy",
+					"-Wno-invalid-offsetof",
+				);
+			};
+			name = Release;
+		};
+		026E99B825CC29DB002283B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 3006;
+				AC_VERSION = 23;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		026E99B925CC29DB002283B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 3006;
+				AC_VERSION = 23;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		02C87C5C260B902D00C14720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 3009;
+				AC_VERSION = 24;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		02C87C5D260B902D00C14720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 3009;
+				AC_VERSION = 24;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		02C87C66260B94FA00C14720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02C87C67260B94FA00C14720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02C87C95260BA07700C14720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02C87C96260BA07700C14720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02C87D06260BBA9B00C14720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 2450;
+				AC_VERSION = 25;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					RS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(AC_SDK_PATH)/Support/Modules/RS\"",
+				);
+			};
+			name = Debug;
+		};
+		02C87D07260BBA9B00C14720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 2450;
+				AC_VERSION = 25;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					RS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(AC_SDK_PATH)/Support/Modules/RS\"",
+				);
+			};
+			name = Release;
+		};
+		DFCAF72528E799260071EF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEF4B36291C7271008B8B3E /* UE_AC_ARM.xcconfig */;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 3140;
+				AC_VERSION = 26;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					RS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(AC_SDK_PATH)/Support/Modules/RS\"",
+				);
+			};
+			name = Debug;
+		};
+		DFCAF72628E799260071EF9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEF4B36291C7271008B8B3E /* UE_AC_ARM.xcconfig */;
+			buildSettings = {
+				AC_SDK_BUILD_NUMBER = 3140;
+				AC_VERSION = 26;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dylibs",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					RS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epicgames.DatasmithARCHICAD$(AC_VERSION)Exporter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(AC_SDK_PATH)/Support/Modules/RS\"",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026E997A25CC29DB002283B3 /* Build configuration list for PBXProject "DatasmithARCHICADExporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026E99B525CC29DB002283B3 /* Debug */,
+				026E99B625CC29DB002283B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026E99B725CC29DB002283B3 /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD23Exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026E99B825CC29DB002283B3 /* Debug */,
+				026E99B925CC29DB002283B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C87C5B260B902D00C14720 /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD24Exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C87C5C260B902D00C14720 /* Debug */,
+				02C87C5D260B902D00C14720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C87C65260B94FA00C14720 /* Build configuration list for PBXAggregateTarget "BuildAllAddOns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C87C66260B94FA00C14720 /* Debug */,
+				02C87C67260B94FA00C14720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C87C94260BA07700C14720 /* Build configuration list for PBXAggregateTarget "BuildSetup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C87C95260BA07700C14720 /* Debug */,
+				02C87C96260BA07700C14720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C87D05260BBA9B00C14720 /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD25Exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C87D06260BBA9B00C14720 /* Debug */,
+				02C87D07260BBA9B00C14720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCAF72428E799260071EF9D /* Build configuration list for PBXNativeTarget "DatasmithARCHICAD26Exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCAF72528E799260071EF9D /* Debug */,
+				DFCAF72628E799260071EF9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026E997725CC29DB002283B3 /* Project object */;
+}

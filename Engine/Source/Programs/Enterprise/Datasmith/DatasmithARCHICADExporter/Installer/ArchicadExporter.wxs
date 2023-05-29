@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+	<!-- Include version -->
+	<?include ..\..\DatasmithInstallerCommon\ExporterVersion.wxi?>
+
+	<?define ProductVersion="$(var.MajorVersion).$(var.MinorVersion).$(var.PatchVersion).$(var.BuildVersion)"?>
+
+	<!-- NOTE: Language codes can be found here(LCID Decimal column): http://www.science.co.il/Language/Locale-codes.asp -->
+	<!-- en-US:1033, de-de:1031, ko-kr:1042, es-es:1034, fr-fr:1036, ja-jp:1041, pt-pt:2070, zh-cn:2052 -->
+	<?define Languages = "1033,1031,1042,1034,1036,1041,2070,2052"?>
+
+	<!-- Identify the specific product release. Using an asterisk rather than a GUID recreates a new product code each time the installer is rebuilt. -->
+	<?define ProductCode="*"?>
+
+	<!-- The Upgrade Code. Never changes. This is the true "Unreal Engine Launcher" aplication ID, and keeping it the same allows us to recognise existing installations. -->
+	<?define UpgradeCode="{D6E52C38-9AAE-4785-88AF-8A9F911A3DC5}"?>
+
+	<!-- Defines a relative path to the main Engine directory -->
+	<?define EngineDir="..\..\..\..\..\..\..\Engine"?>
+
+	<!-- Defines a relative path to our resources directory -->
+	<?define ResourcesDir="./Resources"?>
+
+	<!-- Defines a relative path to Prereq installer's vcredist resources directory -->
+	<?define VCRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\Resources\VCRedist"?>
+
+	<!-- Defines a relative path to directory of DirectX redist resources -->
+	<?define DirectXRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\CustomAction\Resources\DirectXRedist"?>
+
+	<!-- Defines a relative path to directory where Archicad plugins are stored -->
+	<?define BinaryDir="$(var.EngineDir)\Binaries\Win64"?>
+
+	<!-- Defines a relative path to the ThirdParty libraries -->
+	<?define ThirdPartyDir="$(var.EngineDir)\Source\ThirdParty"?>
+
+	<Product Id="$(var.ProductCode)" Name="Unreal Datasmith Exporter for Archicad" Language="1033" Version="$(var.ProductVersion)" Manufacturer="Epic Games, Inc." UpgradeCode="$(var.UpgradeCode)">
+
+		<Package 
+			Platform="x64" 
+			InstallerVersion="405" 
+			Languages="$(var.Languages)"
+			Compressed="yes" 
+			InstallScope="perMachine" />
+
+		<!-- Find other installed versions when the product (with this product code) is first installed, but not during maintenance mode or uninstallation. -->
+		<Upgrade Id="$(var.UpgradeCode)">
+			<!-- NEWPRODUCTFOUND will be set if there is a newer product already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				IncludeMinimum="no"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="NEWPRODUCTFOUND" />
+
+			<!-- UPGRADEFOUND will be set if there is an older or same product already installed -->
+			<UpgradeVersion
+				Minimum="0.0.0"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="no"
+				Language="$(var.Languages)"
+				Property="UPGRADEFOUND" />
+
+			<!-- ANOTHERBUILDINSTALLED will be set if the same product version is already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="yes"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="ANOTHERBUILDINSTALLED" />
+		</Upgrade>
+
+		<!-- Simple Dialog to inform user that installation has aborted because no supported version of Archicad has been found -->
+		<UI>
+			<UIRef Id="CustomWixUI_InstallDir"/>
+			<UIRef Id="WixUI_ErrorProgressText"/>
+
+			<!--These dialog references are required for util:CloseApplication to work properly -->
+			<DialogRef Id="FilesInUse" />
+			<DialogRef Id="MsiRMFilesInUse" />
+		</UI>
+
+		<!-- Create the icon for our shortcuts -->
+		<!-- NOTE: ARPPRODUCTICON is a special property recognized by Windows Installer, which sets up this icon for us -->
+		<Icon Id="UnrealEngine.ico" SourceFile="$(var.ResourcesDir)/UnrealEngine.ico" />
+		<Property Id="ARPPRODUCTICON" Value="UnrealEngine.ico" />
+
+		<!-- Customize artwork -->
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ResourcesDir)/default_small_banner.bmp" />
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ResourcesDir)/Dialog.bmp"/>
+
+		<Property Id="DATASMITHUIDIR" Value="C:\ProgramData\Epic\Exporter\"/>
+
+		<!-- Set WIXUI_INSTALLDIR and WIXUI_FINALINSTALLDIR to higher major version to install -->
+		<Property Id="WIXUI_INSTALLDIR" Value="DATASMITHUIDIR" />
+		<Property Id="WIXUI_FINALINSTALLDIR" Value="DATASMITHUIDIR" />
+
+		<!-- Common action to declare type of content in msi -->
+		<Media Id="1" Cabinet="DatasmithArchicadExporter.cab" EmbedCab="yes" />
+
+		<DirectoryRef Id="TARGETDIR">
+			<Component Id="EngineRegistryEntries" Guid="85F73283-B267-4354-8172-D8BCEDACFBEC">
+				<RegistryKey Root="HKLM" Key="Software\EpicGames\Unreal Engine" ForceCreateOnInstall="yes">
+					<Permission User="[WIX_ACCOUNT_USERS]" GenericAll="yes" />
+					<RegistryValue Type="string" Name="ArchicadEngineDir" Value="[ENGINEFOLDER]" />
+				</RegistryKey>
+			</Component>
+		</DirectoryRef>
+
+		<!-- Group of features to install. Each one if conditional to the existence of Archicad.exe in install folder -->
+		<!-- @note: Each sub-feature is disabled ('Level = 0') at creation. The feature is enabled, if Archicad.exe has been found in the corresponding installation folder. -->
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<!-- FULL Product -->
+			<Feature Id="Feature26FULL" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER26FULL" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL26FULL" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD26FULLCHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature25FULL" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER25FULL" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL25FULL" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD25FULLCHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature24FULL" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER24FULL" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL24FULL" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD24FULLCHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature23FULL" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER23FULL" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL23FULL" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD23FULLCHECKED = 1]]></Condition>
+			</Feature>
+			<!-- SOLO Product -->
+			<Feature Id="Feature26SOLO" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER26SOLO" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL26SOLO" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD26SOLOCHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature25SOLO" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER25SOLO" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL25SOLO" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD25SOLOCHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature24SOLO" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER24SOLO" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL24SOLO" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD24SOLOCHECKED = 1]]></Condition>
+			</Feature>
+			<Feature Id="Feature23SOLO" Title="Installer" Level="0">
+				<ComponentRef Id="EXPORTER23SOLO" />
+				<ComponentRef Id="DatasmithUE4ArchiCADDLL23SOLO" />
+				<ComponentGroupRef Id="CoreStyle" />
+				<ComponentGroupRef Id="D3DShaders" />
+				<ComponentRef Id="EMPTYENGINEBINARIESDIR" />
+				<ComponentRef Id="EngineRegistryEntries" />
+				<Condition Level="1"><![CDATA[ARCHICAD23SOLOCHECKED = 1]]></Condition>
+			</Feature>
+		</Feature>
+
+		<!-- Adding merge modules to install VC runtimes for VC10, VC11 VC12 and VC14 -->
+		<DirectoryRef Id="TempFolder">
+			<Merge Id="Microsoft_VC100_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC100_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC120_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC120_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC142_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC142_CRT_x64.msm" DiskId="1" Language="0"/>
+		</DirectoryRef>
+
+		<!-- Adding installation of VC runtimes for VC10, VC11 VC12 and VC14 to the installation process -->
+		<Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="yes" Display="expand" Level="1">
+			<MergeRef Id="Microsoft_VC100_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC100_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC120_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC142_CRT_x64.msm" />
+		</Feature>
+
+		<!-- Adding installation modules for DirectX -->
+		<DirectoryRef Id="TempFolder">
+			<Directory Id="DirectXRedistDirectory" Name="DirectXPrereq">
+				<Component Id="DirectXRedist" Guid="{D9FBAD53-79F0-40C8-A75F-980AD8A4997A}">
+					<File Id="DXSETUPEXE" Source="$(var.DirectXRedistDir)\dxsetup.exe" KeyPath="yes" Checksum="yes">
+						<util:PermissionEx User="Everyone" GenericAll="yes" ChangePermission="yes" />
+					</File>
+					<File Id="dxupdate.cab" Source="$(var.DirectXRedistDir)\dxupdate.cab"/>
+					<File Id="dxdllreg_x86.cab" Source="$(var.DirectXRedistDir)\dxdllreg_x86.cab"/>
+					<File Id="dsetup32.dll" Source="$(var.DirectXRedistDir)\dsetup32.dll"/>
+					<File Id="dsetup.dll" Source="$(var.DirectXRedistDir)\dsetup.dll"/>
+					<File Id="APR2007_xinput_x64.cab" Source="$(var.DirectXRedistDir)\APR2007_xinput_x64.cab"/>
+					<File Id="Feb2010_X3DAudio_x64.cab" Source="$(var.DirectXRedistDir)\Feb2010_X3DAudio_x64.cab"/>
+					<File Id="Jun2010_D3DCompiler_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_D3DCompiler_43_x64.cab"/>
+					<File Id="Jun2010_d3dcsx_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dcsx_43_x64.cab"/>
+					<File Id="Jun2010_d3dx10_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx10_43_x64.cab"/>
+					<File Id="Jun2010_d3dx11_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx11_43_x64.cab"/>
+					<File Id="Jun2010_d3dx9_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx9_43_x64.cab"/>
+					<File Id="Jun2010_XAudio_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_XAudio_x64.cab"/>
+				</Component>
+			</Directory>
+		</DirectoryRef>
+
+		<!-- Adding installation of DirectX to the installation process -->
+		<Feature Id="DirectXRedist" Title="Installing DirectX" AllowAdvertise="yes" Display="expand" Level="1">
+			<ComponentRef Id="DirectXRedist"/>
+		</Feature>
+
+		<!-- FULL Product -->
+		<SetProperty Id="ARCHICAD26FULLVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD26FULLADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD25FULLVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD25FULLADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD24FULLVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD24FULLADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD23FULLVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD23FULLADDONSDIR</SetProperty>
+		<!-- SOLO Product -->
+		<SetProperty Id="ARCHICAD26SOLOVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD26SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD25SOLOVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD25SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD24SOLOVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD24SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD23SOLOVALID" Sequence="first" After="AppSearch" Value="1">ARCHICAD23SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="NOTVALIDARCHICAD" After="AppSearch" Value="1">
+			NOT ARCHICAD26FULLADDONSDIR AND NOT ARCHICAD25FULLADDONSDIR AND NOT ARCHICAD24FULLADDONSDIR AND NOT ARCHICAD23FULLADDONSDIR AND
+			NOT ARCHICAD26SOLOADDONSDIR AND NOT ARCHICAD25SOLOADDONSDIR AND NOT ARCHICAD24SOLOADDONSDIR AND NOT ARCHICAD23SOLOADDONSDIR
+		</SetProperty>
+
+		<!-- FULL Product -->
+		<SetProperty Id="ARCHICAD26FULLCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD26FULLADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD25FULLCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD25FULLADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD24FULLCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD24FULLADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD23FULLCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD23FULLADDONSDIR</SetProperty>
+		<!-- SOLO Product -->
+		<SetProperty Id="ARCHICAD26SOLOCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD26SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD25SOLOCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD25SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD24SOLOCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD24SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="ARCHICAD23SOLOCHECKED" Sequence="first" After="AppSearch" Value="1">ARCHICAD23SOLOADDONSDIR</SetProperty>
+		<SetProperty Id="NOTFOUNDARCHICAD" After="AppSearch" Value="1">
+			NOT ARCHICAD26FULLADDONSDIR AND NOT ARCHICAD25FULLADDONSDIR AND NOT ARCHICAD24FULLADDONSDIR AND NOT ARCHICAD23FULLADDONSDIR AND
+			NOT ARCHICAD26SOLOADDONSDIR AND NOT ARCHICAD25SOLOADDONSDIR AND NOT ARCHICAD24SOLOADDONSDIR AND NOT ARCHICAD23SOLOADDONSDIR
+		</SetProperty>
+
+		<InstallExecuteSequence>
+
+			<!-- Stop the user from installing an older product version -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- Stop the user from installing the same product version -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+			
+			<Custom Action="SearchInstallationPaths" After="FindRelatedProducts" />
+
+			<!-- Remove the old product before installing in case this is the same MSI build with isntallation to the same location. -->
+			<RemoveExistingProducts Before="InstallInitialize" />
+
+			<Custom Action="InstallDirectX" Before="InstallFinalize">
+				<![CDATA[NOT REMOVE]]>
+			</Custom>
+
+		</InstallExecuteSequence>
+
+		<!-- Setup install UI sequence -->
+		<InstallUISequence>
+
+			<!-- Abort install if no version of the exporter is selected -->
+			<Custom Action="WixExitEarlyWithSuccess" Before="ProgressDlg">
+				NOT ARCHICAD26FULLCHECKED AND NOT ARCHICAD25FULLCHECKED AND NOT ARCHICAD24FULLCHECKED AND NOT ARCHICAD23FULLCHECKED AND
+				NOT ARCHICAD26SOLOCHECKED AND NOT ARCHICAD25SOLOCHECKED AND NOT ARCHICAD24SOLOCHECKED AND NOT ARCHICAD23SOLOCHECKED
+			</Custom>
+
+			<!-- Abort install if no supported version of Archicad is installed -->
+			<Custom Action="NoArchicadInstaller" Before="ValidateProductID">NOTFOUNDARCHICAD</Custom>
+
+			<!-- After searching for previously installed products, prevent downgrading -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- After searching for previously installed products, prevent overwriting -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+			<Custom Action="SearchInstallationPaths" After="FindRelatedProducts" />
+
+		</InstallUISequence>
+	</Product>
+
+	<Fragment>
+		<!-- Declaration of installation directory according to the version of Archicad -->
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="DATASMITHUIDIR" ComponentGuidGenerationSeed="{68A29388-2EBA-4E7F-94E2-6DF07C7D8F7E}">
+				<Directory Id="ENGINEFOLDER" Name="ArchicadEngine">
+					<Directory Id="BINARIESFOLDER" Name="Binaries" />
+					<Directory Id="CONTENTFOLDER" Name="Content">
+						<Directory Id="CoreStyleFolder" />
+					</Directory>
+					<Directory Id="SHADERSFOLDER" Name="Shaders">
+						<Directory Id="STANDALONERENDERERFOLDER" Name="StandaloneRenderer">
+							<Directory Id="D3DShadersFolder" />
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			
+			<!-- FULL Product -->
+			<Directory Id="ARCHICAD26FULLDIR">
+				<Directory Id="ARCHICAD26FULLAPPDIR" />
+			</Directory>
+			<Directory Id="ARCHICAD25FULLDIR">
+				<Directory Id="ARCHICAD25FULLAPPDIR" />
+			</Directory>
+			<Directory Id="ARCHICAD24FULLDIR">
+				<Directory Id="ARCHICAD24FULLAPPDIR" />
+			</Directory>
+			<Directory Id="ARCHICAD23FULLDIR">
+				<Directory Id="ARCHICAD23FULLAPPDIR" />
+			</Directory>
+			<Directory Id="ARCHICAD26FULLADDONSDIR">
+				<Directory Id="INSTALLFOLDER26FULL" Name="DatasmithARCHICAD26Exporter" />
+			</Directory>
+			<Directory Id="ARCHICAD25FULLADDONSDIR">
+				<Directory Id="INSTALLFOLDER25FULL" Name="DatasmithARCHICAD25Exporter" />
+			</Directory>
+			<Directory Id="ARCHICAD24FULLADDONSDIR">
+				<Directory Id="INSTALLFOLDER24FULL" Name="DatasmithARCHICAD24Exporter" />
+			</Directory>
+			<Directory Id="ARCHICAD23FULLADDONSDIR">
+				<Directory Id="INSTALLFOLDER23FULL" Name="DatasmithARCHICAD23Exporter" />
+			</Directory>
+			
+			<!-- SOLO Product -->
+			<Directory Id="ARCHICAD26SOLODIR">
+				<Directory Id="ARCHICAD26SOLOAPPDIR" />
+			</Directory>
+			<Directory Id="ARCHICAD25SOLODIR">
+				<Directory Id="ARCHICAD25SOLOAPPDIR" />
+			</Directory>
+			<Directory Id="ARCHICAD24SOLODIR">
+				<Directory Id="ARCHICAD24SOLOAPPDIR" />
+			</Directory>
+			<Directory Id="ARCHICAD23SOLODIRID">
+				<Directory Id="ARCHICAD23SOLOAPPDIRID" />
+			</Directory>
+			<Directory Id="ARCHICAD26SOLOADDONSDIR">
+				<Directory Id="INSTALLFOLDER26SOLO" Name="DatasmithARCHICAD26Exporter" />
+			</Directory>
+			<Directory Id="ARCHICAD25SOLOADDONSDIR">
+				<Directory Id="INSTALLFOLDER25SOLO" Name="DatasmithARCHICAD25Exporter" />
+			</Directory>
+			<Directory Id="ARCHICAD24SOLOADDONSDIR">
+				<Directory Id="INSTALLFOLDER24SOLO" Name="DatasmithARCHICAD24Exporter" />
+			</Directory>
+			<Directory Id="ARCHICAD23SOLOADDONSDIR">
+				<Directory Id="INSTALLFOLDER23SOLO" Name="DatasmithARCHICAD23Exporter" />
+			</Directory>
+			
+			<Directory Id="TempFolder" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<!-- Declaration of a empty binaries folder so that the engine accept our remote location for the engine dir -->
+		<Component Id="EMPTYENGINEBINARIESDIR" Directory="BINARIESFOLDER" Guid="{EABED6BB-70F8-4D11-88A9-3D9186878814}">
+			<CreateFolder/>
+		</Component>
+
+		<!-- FULL Product -->
+		<!-- Declaration of dll file for each supported version of Archicad -->
+		<Component Id="DatasmithUE4ArchiCADDLL26FULL" Directory="ARCHICAD26FULLAPPDIR" Guid="{035B31A8-DFE1-4BBE-AD73-5406607B7318}">
+			<File Id="DatasmithUE4ArchiCAD26FULL" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL26FULL" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD26FULL" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL26FULL" Name="tbb.dll" On="uninstall" />
+		</Component>
+		<Component Id="DatasmithUE4ArchiCADDLL25FULL" Directory="ARCHICAD25FULLAPPDIR" Guid="{8EB96892-368A-4FB7-88F0-1884BB7C8E00}">
+			<File Id="DatasmithUE4ArchiCAD25FULL" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL25FULL" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD25FULL" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL25FULL" Name="tbb.dll" On="uninstall" />
+		</Component>
+		<Component Id="DatasmithUE4ArchiCADDLL24FULL" Directory="ARCHICAD24FULLAPPDIR" Guid="{4752A6CB-47D7-48E2-8195-23B2E19BD361}">
+			<File Id="DatasmithUE4ArchiCAD24FULL" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL24FULL" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD24FULL" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL24FULL" Name="tbb.dll" On="uninstall" />
+		</Component>
+		<Component Id="DatasmithUE4ArchiCADDLL23FULL" Directory="ARCHICAD23FULLAPPDIR" Guid="{446E497C-E318-4F91-9B46-6D6FC7C092A0}">
+			<File Id="DatasmithUE4ArchiCAD23FULL" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL23FULL" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD23FULL" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL23FULL" Name="tbb.dll" On="uninstall" />
+		</Component>
+
+		<!-- Declaration of installation file for each supported version of Archicad -->
+		<Component Id="EXPORTER26FULL" Directory="INSTALLFOLDER26FULL" Guid="{7E1BAFBB-D550-48AD-B3ED-BF0F9EC5923C}">
+			<File Id="DatasmithARCHICAD26FULLExporter.apx" Name="DatasmithARCHICAD26Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD26\DatasmithARCHICAD26Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD26FULLExporter.apx" Name="DatasmithARCHICAD26Exporter.apx" On="uninstall" />
+		</Component>
+		<Component Id="EXPORTER25FULL" Directory="INSTALLFOLDER25FULL" Guid="{A9F6082E-9BFB-495B-BFA6-E983DC84B5FC}">
+			<File Id="DatasmithARCHICAD25FULLExporter.apx" Name="DatasmithARCHICAD25Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD25\DatasmithARCHICAD25Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD25FULLExporter.apx" Name="DatasmithARCHICAD25Exporter.apx" On="uninstall" />
+		</Component>
+		<Component Id="EXPORTER24FULL" Directory="INSTALLFOLDER24FULL" Guid="{D0056FC8-86AF-4164-8B6E-9DD97CA7077B}">
+			<File Id="DatasmithARCHICAD24FULLExporter.apx" Name="DatasmithARCHICAD24Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD24\DatasmithARCHICAD24Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD24FULLExporter.apx" Name="DatasmithARCHICAD24Exporter.apx" On="uninstall" />
+		</Component>
+		<Component Id="EXPORTER23FULL" Directory="INSTALLFOLDER23FULL" Guid="{C831F6E9-217D-4E54-AF76-37D64DA97D0A}">
+			<File Id="DatasmithARCHICAD23FULLExporter.apx" Name="DatasmithARCHICAD23Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD23\DatasmithARCHICAD23Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD23FULLExporter.apx" Name="DatasmithARCHICAD23Exporter.apx" On="uninstall" />
+		</Component>
+
+		<!-- SOLO Product -->
+		<!-- Declaration of dll file for each supported version of Archicad -->
+		<Component Id="DatasmithUE4ArchiCADDLL26SOLO" Directory="ARCHICAD26SOLOAPPDIR" Guid="{D3F49D9E-7BAE-4757-87E5-7CD2DC377309}">
+			<File Id="DatasmithUE4ArchiCAD26SOLO" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL26SOLO" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD26SOLO" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL26SOLO" Name="tbb.dll" On="uninstall" />
+		</Component>
+		<Component Id="DatasmithUE4ArchiCADDLL25SOLO" Directory="ARCHICAD25SOLOAPPDIR" Guid="{2DDFEEEC-0211-4FD8-BC9A-3E4F11FC2220}">
+			<File Id="DatasmithUE4ArchiCAD25SOLO" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL25SOLO" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD25SOLO" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL25SOLO" Name="tbb.dll" On="uninstall" />
+		</Component>
+		<Component Id="DatasmithUE4ArchiCADDLL24SOLO" Directory="ARCHICAD24SOLOAPPDIR" Guid="{105504FF-11E2-44D2-8164-6995ADA347D1}">
+			<File Id="DatasmithUE4ArchiCAD24SOLO" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL24SOLO" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD24SOLO" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL24SOLO" Name="tbb.dll" On="uninstall" />
+		</Component>
+		<Component Id="DatasmithUE4ArchiCADDLL23SOLO" Directory="ARCHICAD23SOLOAPPDIRID" Guid="{82771420-9E7A-4FB8-8B7B-2457316B7689}">
+			<File Id="DatasmithUE4ArchiCAD23SOLO" Name="DatasmithUE4ArchiCAD.dll" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\DatasmithUE4ArchiCAD.dll"	/>
+			<File Id="TbbDLL23SOLO" Source="$(var.BinaryDir)\DatasmithUE4ArchiCAD\tbb.dll" />
+			<RemoveFile Id="DatasmithUE4ArchiCAD23SOLO" Name="DatasmithUE4ArchiCAD.dll" On="uninstall" />
+			<RemoveFile Id="TbbDLL23SOLO" Name="tbb.dll" On="uninstall" />
+		</Component>
+
+		<!-- Declaration of installation file for each supported version of Archicad -->
+		<Component Id="EXPORTER26SOLO" Directory="INSTALLFOLDER26SOLO" Guid="{9ED072DE-3178-4071-86DB-976EA8A45D05}">
+			<File Id="DatasmithARCHICAD26SOLOExporter.apx" Name="DatasmithARCHICAD26Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD26\DatasmithARCHICAD26Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD26SOLOExporter.apx" Name="DatasmithARCHICAD26Exporter.apx" On="uninstall" />
+		</Component>
+		<Component Id="EXPORTER25SOLO" Directory="INSTALLFOLDER25SOLO" Guid="{624301F7-7956-47DD-9CD2-A9C84F4E2FE6}">
+			<File Id="DatasmithARCHICAD25SOLOExporter.apx" Name="DatasmithARCHICAD25Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD25\DatasmithARCHICAD25Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD25SOLOExporter.apx" Name="DatasmithARCHICAD25Exporter.apx" On="uninstall" />
+		</Component>
+		<Component Id="EXPORTER24SOLO" Directory="INSTALLFOLDER24SOLO" Guid="{663A436A-F9FF-4EF0-ABA0-D708947B42A6}">
+			<File Id="DatasmithARCHICAD24SOLOExporter.apx" Name="DatasmithARCHICAD24Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD24\DatasmithARCHICAD24Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD24SOLOExporter.apx" Name="DatasmithARCHICAD24Exporter.apx" On="uninstall" />
+		</Component>
+		<Component Id="EXPORTER23SOLO" Directory="INSTALLFOLDER23SOLO" Guid="{84B1212A-4D86-4C3F-ABC3-BF20723E0942}">
+			<File Id="DatasmithARCHICAD23SOLOExporter.apx" Name="DatasmithARCHICAD23Exporter.apx" Source="$(var.BinaryDir)\DatasmithARCHICADExporter\ArchiCAD23\DatasmithARCHICAD23Exporter.apx" KeyPath="yes"	/>
+			<RemoveFile Id="DatasmithARCHICAD23SOLOExporter.apx" Name="DatasmithARCHICAD23Exporter.apx" On="uninstall" />
+		</Component>
+	</Fragment>
+</Wix>

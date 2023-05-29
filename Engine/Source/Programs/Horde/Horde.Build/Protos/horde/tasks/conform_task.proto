@@ -1,0 +1,19 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+import "horde/messages/agent_workspace.proto";
+
+option csharp_namespace = "HordeCommon.Rpc.Tasks";
+
+message ConformTask {
+
+	// The log id for this task
+	string LogId = 2;
+
+	// Specifies the new workspaces to sync
+	repeated AgentWorkspace Workspaces = 1;
+
+	// Whether to remove any untracked files from the workspace. Ignored for workspaces sharing a common root directory.
+	bool RemoveUntrackedFiles = 3;
+}

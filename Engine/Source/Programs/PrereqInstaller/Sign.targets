@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <PropertyGroup>
+ 
+  <!-- Wix property. If true, wix will try to sign everything it can -->
+  <SignOutput Condition=" '$(SignOutput)' == '' ">true</SignOutput>
+  
+  <SignTool Condition=" '$(SignTool)' == '' ">$(UE_SDKS_ROOT)\HostWin64\Win64\Windows Kits\10\bin\10.0.19041.0\x64\SignTool.exe</SignTool>
+  <TimeStampServer Condition=" '$(TimeStampServer)' == '' ">http://sha256timestamp.ws.symantec.com/sha256/timestamp</TimeStampServer>
+  <SigningIdentity Condition=" '$(SigningIdentity)' == '' ">Epic Games Inc.</SigningIdentity>
+
+  <SignToolCall>"$(SignTool)" sign /a /fd sha256 /td sha256 /sm /n "$(SigningIdentity)" /tr $(TimeStampServer) /v /debug</SignToolCall>
+
+ </PropertyGroup>
+ 
+  <Target Name="SignCabs">
+    <Exec Command="$(SignToolCall) &quot;%(SignCabs.FullPath)&quot;" />
+  </Target>
+
+ <Target Name="SignMsi">
+  <Exec Command="$(SignToolCall) &quot;%(SignMsi.FullPath)&quot;" />
+ </Target>
+ 
+ <Target Name="SignBundleEngine">
+  <Exec Command="$(SignToolCall) &quot;@(SignBundleEngine)&quot;" />
+ </Target>
+ 
+ <Target Name="SignBundle" >
+  <Exec Command="$(SignToolCall) &quot;@(SignBundle)&quot;" />
+ </Target>
+</Project>

@@ -1,0 +1,1138 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        },
+        {
+			"Name": "Game",
+			"ModuleType": "GameRuntime",
+			"OverrideModuleType": "None",
+			"BaseDirectory": "Game\\Source\\Game",
+			"IncludeBase": "Game\\Source",
+			"OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\Game",
+			"ClassesHeaders": [],
+			"PublicHeaders": [],
+			"InternalHeaders": [],
+			"PrivateHeaders": [
+				"Game\\Source\\Game\\Private\\GameFile01.h"
+			],
+ 			"GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\Game\\Game.gen",
+			"SaveExportedHeaders": true,
+			"UHTGeneratedCodeVersion": "V2",
+			"bIsPartOfEngine": false,
+			"bIsPlugin": false
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h
+#include "SourceFile01.generated.h"
+
+UDELEGATE()
+DECLARE_DYNAMIC_DELEGATE_OneParam(FSimpleBoolDelegate, bool, bBoolean);
+
+UDELEGATE()
+DECLARE_DYNAMIC_DELEGATE_OneParam(FDupTest, bool, bBoolean);
+
+UDELEGATE()
+DECLARE_DYNAMIC_DELEGATE_OneParam(FDupTest, bool, bBoolean);
+
+UENUM(meta=(DocumentationPolicy="Strict"))
+enum class ETestEnum : uint16
+{
+	Uncommented,
+	/// This is a comment
+	Test,
+	/// This is another comment
+	Test2,
+	/// This is another comment
+	Test3,
+};
+
+UCLASS(meta=(DocumentationPolicy="Strict"))
+class UDocumentationPolicyClass : public UObject
+{
+    GENERATED_BODY()
+public:
+	UPROPERTY()
+	int TestProperty;
+
+	/// Here is the comment
+	UPROPERTY()
+	int TestProperty2;
+
+	/// Here is the comment
+	UPROPERTY()
+	int TestProperty3;
+
+	/// Float needs min max
+	UPROPERTY()
+	float TestProperty4;
+
+	UFUNCTION()
+	void TestFunction1();
+
+	/// Here is the comment
+	UFUNCTION()
+	void TestFunction2();
+
+	/// Here is the comment
+	UFUNCTION()
+	void TestFunction3();
+};
+
+UCLASS()
+class UDocumentationPolicyClass2 : public UObject
+{
+    GENERATED_BODY()
+public:
+	UFUNCTION(meta=(DocumentationPolicy="Strict"))
+	void TestFunction1();
+
+	UFUNCTION(meta=(DocumentationPolicy="Strict", ToolTip="Fake"))
+	void TestFunction2();
+
+	/// Real comment
+	/// @param Extra This is a parameter
+	/// @param A Test
+	/// @param B Test
+	/// @return Return Value
+	UFUNCTION(meta=(DocumentationPolicy="Strict"))
+	int TestFunction3(int A, int B, int C);
+};
+
+UCLASS(Const)
+class USomeConstClass : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS(Deprecated)
+class USomeBrokenDeprecatedClass : public UObject
+{
+	GENERATED_BODY();
+};
+
+UCLASS(Deprecated)
+class UDEPRECATED_SomeDeprecatedClass : public UObject
+{
+	GENERATED_BODY();
+};
+
+UCLASS()
+class UBlueprintFunctionLibrary : public UObject
+{
+	GENERATED_BODY();
+};
+
+UCLASS()
+class UBFLTest : public UBlueprintFunctionLibrary
+{
+	GENERATED_BODY();
+
+    UFUNCTION(BlueprintCallable, Category = "Composure|Input", meta = (DeterminesOutputType = "InputType", BlueprintProtected))
+    static void AddNewInputPass(FName PassName, UPARAM(meta = (AllowAbstract = "false"))TSubclassOf<UTestClass> InputType);
+};
+
+UCLASS()
+class UTestClass : public UObject
+{
+    GENERATED_BODY()
+
+public:
+
+    UPROPERTY(EditAnywhere, Category="Animation", meta=(ClampMin="bob", UIMin=0.0))
+    float MoveThresholdSq = 750.0f;
+
+    /** Returns the logical AND of two values (A AND B) */
+    UFUNCTION(BlueprintPure, meta=(DisplayName = "AND Boolean", CompactNodeTitle = "AND", Keywords = "& and", CommutativeAssociativeBinaryOperator = "true"), Category="Math|Boolean")
+    static bool BooleanAND(bool A, bool B);
+
+    /** Returns the logical AND of two values (A AND B) */
+    UFUNCTION(BlueprintPure, meta=(DisplayName = "AND Boolean", CompactNodeTitle = "AND", Keywords = "& and", CommutativeAssociativeBinaryOperator = "true"), Category="Math|Boolean")
+    static void BadBooleanAND(bool A, bool B);
+
+    /** Returns the logical AND of two values (A AND B) */
+    UFUNCTION(BlueprintPure, meta=(DisplayName = "AND Boolean", CompactNodeTitle = "AND", Keywords = "& and", CommutativeAssociativeBinaryOperator = "true"), Category="Math|Boolean")
+    static bool AnotherBadBooleanAND(bool A, int B);
+
+    UFUNCTION(BlueprintCallable, Category = "VehicleManager", Meta = (WorldContext = "WorldContextObject", ExpandBoolAsExecs = "ReturnValue"))
+    static bool GetVehicleManager(const UObject* WorldContextObject);
+
+    UFUNCTION(BlueprintCallable, Category = "VehicleManager", Meta = (WorldContext = "WorldContextObject", ExpandBoolAsExecs = "ReturnValue2"))
+    static bool GetVehicleManager2(const UObject* WorldContextObject);
+
+    UFUNCTION(BlueprintCallable, Category = "Control Rig Blueprint", Meta = (ExpandEnumAsExecs = "Branches"))
+    static void CastToControlRigBlueprint(EAxis& Branches);
+
+    UFUNCTION(BlueprintCallable, Category = "Control Rig Blueprint", Meta = (ExpandEnumAsExecs = "Branches,Branches2"))
+    static void CastToControlRigBlueprint2(EAxis Branches, EAxis Branches2);
+
+    UFUNCTION(Meta = (DevelopmentStatus = "TotallyInvalid"))
+    static void CastToControlRigBlueprint3(EAxis Branches, EAxis Branches2);
+
+    UPROPERTY(meta = (Units="m"))
+    float Value;
+
+    UPROPERTY(meta = (Units="m"))
+    FString Value;
+
+    UPROPERTY(meta = (Units="bob"))
+    float Value2;
+
+    UFUNCTION(meta = (Units="bob"))
+    static void UnitsTestOnFunction(EAxis Branches, EAxis Branches2);
+
+    UFUNCTION(meta = (DocumentationPolicy="bob"))
+    static void DocumentationPolicyOnFunction(EAxis Branches, EAxis Branches2);
+
+    UFUNCTION(BlueprintCallable, Category = "Control Rig Blueprint")
+    static void CallableTest1(EAxis Branches[12]);
+
+    UFUNCTION(BlueprintCallable, Category = "Control Rig Blueprint")
+    static void CallableTest2(int8 Test);
+
+    UFUNCTION(BlueprintNativeEvent)
+    static USomeConstClass* ConstReturnTest(USomeConstClass* Bob);
+};
+
+UCLASS(NotPlaceable)
+class UNotPlaceableClass : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS(Placeable)
+class UPlaceableNotPlaceableClass : public UNotPlaceableClass
+{
+    GENERATED_BODY()
+};
+
+UCLASS()
+class AActor : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS(EditInlineNew)
+class ASomeActor : public AActor
+{
+    GENERATED_BODY()
+};
+
+UCLASS(MinimalAPI)
+class SOME_API UAPIVersionTest : public UObject
+{
+    GENERATED_BODY();
+public:
+
+    UFUNCTION()
+	SOME_API virtual void TestAPI();
+};
+
+
+UCLASS()
+class MissingPrefix : public UObject
+{
+    GENERATED_BODY();
+};
+
+USTRUCT(Immutable)
+struct FImmutableStruct
+{
+    GENERATED_BODY();
+};
+
+USTRUCT()
+struct MissingPrefixStruct
+{
+    GENERATED_BODY();
+};
+
+USTRUCT(meta=(SparseClassDataTypes=SomeTestClass))
+struct FStructsCantBeSparse
+{
+    GENERATED_BODY();
+};
+
+UCLASS(SparseClassDataTypes=ThisClassDoesNotExist)
+class UMissingSparseClassDataType
+{
+    GENERATED_BODY();
+};
+
+USTRUCT()
+struct FSparseWithBadProperties
+{
+    GENERATED_BODY();
+
+    UPROPERTY(BlueprintAssignable, VisibleDefaultsOnly, Category="Bob")
+    int Prop1;
+
+    UPROPERTY(EditAnywhere, Category="Bob")
+    int Prop2;
+
+    UPROPERTY(BlueprintReadWrite, VisibleDefaultsOnly, Category="Bob")
+    int Prop3;
+};
+
+UCLASS(SparseClassDataTypes=SparseWithBadProperties)
+class USparseWithBadPropertiesTest
+{
+    GENERATED_BODY();
+};
+
+USTRUCT()
+struct FOtherSparseStruct
+{
+    GENERATED_BODY();
+};
+
+UCLASS(SparseClassDataTypes=OtherSparseStruct)
+class USparseWithBadSuperTest : public USparseWithBadPropertiesTest
+{
+    GENERATED_BODY();
+};
+
+UCLASS(NeedsDeferredDependencyLoading)
+class UDeferredButNoAUClass : public UObject
+{
+    GENERATED_BODY();
+};
+
+UCLASS()
+class UTestingBlueprintGetter : public UObject
+{
+    GENERATED_BODY();
+public:
+    UPROPERTY(BlueprintGetter=MissingFunc, Category="Bob")
+    int Property1;
+
+    UPROPERTY(BlueprintGetter=VoidFunc, Category="Bob")
+    int Property2;
+
+    UFUNCTION(BlueprintGetter)
+    void VoidFunc();
+
+    UPROPERTY(BlueprintGetter=WrongReturnFunc, Category="Bob")
+    int Property3;
+
+    UFUNCTION(BlueprintGetter)
+    FString WrongReturnFunc();
+
+    UPROPERTY(BlueprintGetter=EventFunc, Category="Bob")
+    int Property4;
+
+    UFUNCTION(BlueprintNativeEvent)
+    int EventFunc();
+
+    UPROPERTY(BlueprintGetter=NotPureFunc, Category="Bob")
+    int Property5;
+
+    UFUNCTION()
+    int NotPureFunc();
+};
+
+UCLASS()
+class UTestingBlueprintSetter : public UObject
+{
+    GENERATED_BODY();
+public:
+    UPROPERTY(BlueprintSetter=MissingFunc, Category="Bob")
+    int Property1;
+
+    UPROPERTY(BlueprintSetter=NonVoidFunc, Category="Bob")
+    int Property2;
+
+    UFUNCTION(BlueprintSetter)
+    int NonVoidFunc();
+
+    UPROPERTY(BlueprintSetter=TooManyArgsFunc, Category="Bob")
+    int Property3;
+
+    UFUNCTION(BlueprintSetter)
+    void TooManyArgsFunc(int A, int B);
+
+    UPROPERTY(BlueprintSetter=WrongArgFunc, Category="Bob")
+    int Property4;
+
+    UFUNCTION(BlueprintSetter)
+    void WrongArgFunc(bool Wrong);
+
+    UPROPERTY(BlueprintSetter=EventFunc, Category="Bob")
+    int Property5;
+
+    UFUNCTION(BlueprintNativeEvent)
+    void EventFunc(int Arg);
+
+    UPROPERTY(BlueprintSetter=PureFunc, Category="Bob")
+    int Property6;
+
+    UFUNCTION(BlueprintGetter)
+    void PureFunc(int Arg);
+
+    UPROPERTY(BlueprintSetter=NotCallable, Category="Bob")
+    int Property7;
+
+    UFUNCTION()
+    void NotCallable(int Arg);
+};
+
+UCLASS()
+class UTestingRepNotify : public UObject
+{
+    GENERATED_BODY();
+public:
+    UPROPERTY(ReplicatedUsing=MissingFunc)
+    int Property1;
+
+    UPROPERTY(ReplicatedUsing=HasReturnValue)
+    int Property2;
+
+    UFUNCTION()
+    int HasReturnValue();
+
+    UPROPERTY(ReplicatedUsing=HasTooManyArgs)
+    int Property3;
+
+    UFUNCTION()
+    void HasTooManyArgs(int A, int B);
+
+    UPROPERTY(ReplicatedUsing=WrongArgType)
+    int Property4;
+
+    UFUNCTION()
+    void WrongArgType(bool A);
+
+    UPROPERTY(ReplicatedUsing=WrongArgType2)
+    TArray<int> Property5;
+
+    UFUNCTION()
+    void WrongArgType2(TArray<int>& A, int B);
+
+    UPROPERTY(ReplicatedUsing=CorrectFunc)
+    TArray<int> Property6;
+
+    UFUNCTION()
+    void CorrectFunc(TArray<int>& A, const TArray<uint8>& B);
+};
+
+UCLASS()
+class UFunctionTests : public UObject
+{
+    GENERATED_BODY();
+    
+public:
+	UFUNCTION()
+	void OverrideTest();
+
+    UFUNCTION(Client, Reliable)
+    static void Test21();
+
+    UFUNCTION(Client)
+    void Test22();
+
+    UFUNCTION(Client, Reliable, Unreliable)
+    void Test23();
+
+    UFUNCTION(Reliable)
+    void Test24();
+
+    UFUNCTION(Unreliable)
+    void Test25();
+
+    UFUNCTION(SealedEvent)
+    void Test26();
+
+    UFUNCTION(SealedEvent, BlueprintNativeEvent)
+    void Test27();
+
+    UFUNCTION(BlueprintPure, BlueprintPure=true, BlueprintPure=false)
+    void Test28();
+
+	UFUNCTION()
+	int[2] Test29(int Arg[2]);
+
+	UFUNCTION()
+	void Test30(TLazyObjectPtr<UTestingRepNotify> Arg);
+
+	UFUNCTION()
+	void Test31(TObjectPtr<UTestingRepNotify> Arg);
+
+	UFUNCTION(Server, Reliable)
+	void Test32(const TMap<int, int>& Value);
+
+	UFUNCTION(Server, Reliable)
+	void Test33(const TSet<int>& Value);
+
+	UFUNCTION(ServiceResponse(MCP))
+	void Test34(FSimpleBoolDelegate Delegate);
+
+	UFUNCTION(ServiceResponse(MCP))
+	void Test35(FString& String);
+
+	UFUNCTION(ServiceResponse(MCP))
+	void Test36(TArray<int>& Array);
+
+	UFUNCTION(ServiceRequest(MCP))
+	void Test37(FSimpleBoolDelegate Delegate);
+
+	UFUNCTION(BlueprintNativeEvent)
+	void Test38(TEnumAsByte<ETestEnum> Arg);
+
+	UFUNCTION(BlueprintNativeEvent)
+	void Test39(int self);
+
+	UFUNCTION(BlueprintNativeEvent)
+	virtual void Test40();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	virtual void Test41();
+
+	UFUNCTION(Client, Reliable)
+	bool Test42();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	bool Test43() final;
+
+	UFUNCTION()
+	void Test44(UDEPRECATED_SomeDeprecatedClass* Arg);
+
+	UFUNCTION(ServiceResponse=(MCP, Id = 12))
+	void Test45();
+
+	UFUNCTION(ServiceResponse=(MCP, Id = 12))
+	void Test46();
+
+	UFUNCTION(ServiceRequest=(MCP, ResponseId = 99))
+	void Test47();
+
+	UFUNCTION(BlueprintNativeEvent)
+	void Test48(USomeConstClass* Arg); // If not a BlueprintNativeEvent, then autoconst will set property and not cause an error
+
+	UFUNCTION()
+	void DupNameTest();
+
+	UFUNCTION()
+	void DupNameTest();
+};
+
+UCLASS()
+class UOverrideFunctionTest : public UFunctionTests
+{
+    GENERATED_BODY();
+public:
+
+	UFUNCTION()
+	void OverrideTest();
+};
+
+UCLASS(Optional, Config="Test")
+class UPropertyTests
+{
+    GENERATED_BODY();
+public:
+
+#if WITH_EDITORONLY_DATA
+    UPROPERTY()
+    int Property1;
+#endif
+
+    UPROPERTY(meta=(ExposeOnSpawn), EditDefaultsOnly, Category=Bob)
+    int Property2;
+
+	UPROPERTY(Instanced)
+	int Property3;
+
+	UPROPERTY(Config)
+	TObjectPtr<UFunctionTests> Property4;
+
+	UPROPERTY(BlueprintAssignable)
+	int Property5;
+
+	UPROPERTY(BlueprintCallable)
+	int Property6;
+
+	UPROPERTY(BlueprintAuthorityOnly)
+	int Property7;
+
+	UPROPERTY()
+	TArray<int> Property8[2];
+
+	UPROPERTY()
+	bool Property9[2];
+
+	UPROPERTY()
+	TObjectPtr<UDEPRECATED_SomeDeprecatedClass> Property10;
+
+	UPROPERTY(EditAnywhere)
+	int Property11;
+
+	UPROPERTY(Category="Bob")
+	int Property12;
+
+	UPROPERTY(meta=(ExposeOnSpawn="true"))
+	int16 Property13;
+
+    UPROPERTY(Replicated)
+    TArray<int, FMemoryImageAllocator> Property14;
+
+    UPROPERTY(Replicated)
+    TArray<int, TMemoryImageAllocator<Meh>> Property15;
+};
+
+USTRUCT()
+struct FPropertyTestsStruct
+{
+    GENERATED_BODY();
+public:
+
+	UPROPERTY(DuplicateTransient)
+	int Property1;
+
+	UPROPERTY(TextExportTransient)
+	int Property2;
+
+	UPROPERTY(NonPIEDuplicateTransient)
+	int Property3;
+};
+
+UCLASS()
+class UShadowTestParent
+{
+	GENERATED_BODY();
+public:
+
+	UPROPERTY()
+	int PropName;
+
+	UFUNCTION()
+	int FuncName();
+};
+
+UCLASS()
+class UShadowTestChild : public UShadowTestParent
+{
+	GENERATED_BODY();
+public:
+
+	UPROPERTY()
+	int PropName;
+
+	UPROPERTY()
+	int FuncName;
+};
+
+UINTERFACE()
+class UWrongSuperClassInterface : public UShadowTestParent
+{
+	GENERATED_BODY();
+};
+
+class IWrongSuperClassInterface
+{
+	GENERATED_BODY();
+};
+
+UINTERFACE()
+class UTestInterface : public UInterface
+{
+	GENERATED_BODY();
+};
+
+class ITestInterface
+{
+	GENERATED_BODY();
+public:
+    UFUNCTION(BlueprintPure)
+	void TestPure();
+
+    UFUNCTION(BlueprintNativeEvent)
+	void TestNativeEvent();
+};
+
+UINTERFACE(meta=(CannotImplementInterfaceInBlueprint))
+class UTestInterface2 : public UInterface
+{
+	GENERATED_BODY();
+};
+
+class ITestInterface2
+{
+	GENERATED_BODY();
+public:
+    UFUNCTION(BlueprintNativeEvent)
+	void TestNativeEvent();
+};
+
+UINTERFACE(meta=(IsBlueprintBase="true"))
+class UTestInterface3 : public UInterface
+{
+	GENERATED_BODY();
+};
+
+class ITestInterface3
+{
+	GENERATED_BODY();
+public:
+    UFUNCTION(BlueprintCallable)
+	void TestFunc1();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	virtual void TestFunc2();
+};
+
+USTRUCT()
+struct StructWrongPrefix
+{
+	GENERATED_BODY()
+};
+
+UCLASS()
+class ClassWrongPrefix
+{
+	GENERATED_BODY()
+};
+
+UINTERFACE()
+class UOverrideCheckInterface : public UInterface
+{
+	GENERATED_BODY();
+};
+
+class IOverrideCheckInterface
+{
+	GENERATED_BODY();
+public:
+    UFUNCTION(BlueprintCallable, Category="Category")
+	virtual void DoesNotExist();
+
+    UFUNCTION(BlueprintCallable, Category="Category")
+	virtual void WrongArgCount(int Arg);
+
+	UFUNCTION(BlueprintCallable, Category="Category")
+	virtual bool WrongReturnValue();
+
+	UFUNCTION(BlueprintCallable, Category="Category")
+	virtual void WrongArgType(int Arg);
+};
+
+UCLASS()
+class UOverrideCheckInterfaceImpl : public UObject, public IOverrideCheckInterface
+{
+	GENERATED_BODY();
+public:
+
+    UFUNCTION(BlueprintCallable, Category="Category")
+	virtual void WrongArgCount(int Arg, int ExtraArg);
+
+	UFUNCTION(BlueprintCallable, Category="Category")
+	virtual int WrongReturnValue();
+
+	UFUNCTION(BlueprintCallable, Category="Category")
+	virtual void WrongArgType(bool Arg);
+};
+
+UINTERFACE()
+class UOverrideCheckInterface2 : public UInterface
+{
+	GENERATED_BODY();
+};
+
+class IOverrideCheckInterface2
+{
+	GENERATED_BODY();
+public:
+	UFUNCTION(BlueprintImplementableEvent, Category="Category")
+	void MismatchEvent(int Arg);
+};
+
+UCLASS()
+class UOverrideCheckInterface2Impl : public UObject, public IOverrideCheckInterface2
+{
+	GENERATED_BODY();
+public:
+
+	UFUNCTION(BlueprintCallable, Category="Category")
+	virtual void MismatchEvent(int Arg);
+};
+
+UCLASS(meta=(DocumentationPolicy="Bad"))
+class UBadDocPolicy
+{
+	GENERATED_BODY();
+public:
+};
+
+// This should issue a warning because the UCLASS is missing
+class USkipTest
+{
+	GENERATED_BODY();
+};
+
+UINTERFACE()
+class UPropertyTestInterface : public UInterface
+{
+	GENERATED_BODY()
+};
+
+class IPropertyTestInterface : public IInterface
+{
+	GENERATED_BODY()
+};
+
+UENUM(meta=(DocumentationPolicy=WRONG))
+namespace BOB 
+{
+    enum SubType
+    {
+    };
+};
+
+!header Game\\Source\\Game\\Private\\GameFile01.h
+#include "GameFile01.generated.h"
+
+UCLASS()
+class UPropertyTestInterfaceClass : public UObject
+{
+	GENERATED_BODY()
+
+	// This should fail.
+	UPROPERTY()
+	IPropertyTestInterface* Property1;
+
+	// None of these should fail
+	UPROPERTY()
+	TWeakObjectPtr<IPropertyTestInterface> Property2;
+
+	UPROPERTY()
+	TAutoWeakObjectPtr<IPropertyTestInterface> Property3;
+
+	UPROPERTY()
+	TSoftObjectPtr<IPropertyTestInterface> Property4;
+
+	UPROPERTY()
+	TLazyObjectPtr<IPropertyTestInterface> Property5;
+
+	UPROPERTY()
+	TObjectPtr<IPropertyTestInterface> Property6;
+
+
+	UPROPERTY()
+	TWeakObjectPtr<UPropertyTestInterface> Property12;
+
+	UPROPERTY()
+	TAutoWeakObjectPtr<UPropertyTestInterface> Property13;
+
+	UPROPERTY()
+	TSoftObjectPtr<UPropertyTestInterface> Property14;
+
+	UPROPERTY()
+	TLazyObjectPtr<UPropertyTestInterface> Property15;
+
+	UPROPERTY()
+	TObjectPtr<UPropertyTestInterface> Property16;
+
+	UPROPERTY()
+	TScriptInterface<IPropertyTestInterface> Property21;
+
+	UPROPERTY()
+	TScriptInterface<UPropertyTestInterface> Property22;
+
+	// Check for missing GetLifetimeReplicatedProps
+    UPROPERTY(Replicated)
+    int Property23;
+
+	// RPC Validation
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_TryToUpdateInteraction(uint8 InteractionState, uint8 OtherArg);
+
+	// RPC Validation
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_TryToUpdateInteraction2(uint8 InteractionState, uint8 OtherArg);
+
+	// Missing virtual
+	void UPropertyTestInterfaceClass::Server_TryToUpdateInteraction2_Implementation(uint8 , uint8 );
+	void UPropertyTestInterfaceClass::Server_TryToUpdateInteraction2_Validate(uint8 , uint8 );
+};
+
+UCLASS()
+class UGetterSetterTest : public UObject
+{
+	GENERATED_BODY()
+public:
+
+	UPROPERTY(Getter, Setter)
+	int32 IntValueGS;
+};
+
+USTRUCT(meta = (Deprecated = "5.0.0"))
+struct FRigVMDepTest
+{
+	GENERATED_BODY()
+
+	UPROPERTY()
+	float Cache;
+
+	RIGVM_METHOD()
+	void Clear();
+};
+
+// FieldNotify tests
+
+UINTERFACE(MinimalAPI, NotBlueprintable)
+class UNotifyFieldValueChanged : public UInterface
+{
+	GENERATED_BODY()
+};
+
+
+class INotifyFieldValueChanged : public IInterface
+{
+	GENERATED_BODY()
+};
+
+UINTERFACE(MinimalAPI, NotBlueprintable)
+class UBadInterface : public UInterface
+{
+	GENERATED_BODY()
+};
+
+
+class IBadInterface : public IInterface
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(FieldNotify)
+	int SomeValue;
+};
+
+UCLASS()
+class UMyNotiftClassBase : public UObject, public INotifyFieldValueChanged
+{
+	GENERATED_BODY()
+};
+
+UCLASS()
+class UMyNotifyClass : public UObject
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(FieldNotify)
+	int SomeValue;
+
+	UFUNCTION(FieldNotify, BlueprintPure, Category="Test")
+	int SomeFunction(int Value) { return 0; }
+
+	UFUNCTION(FieldNotify, BlueprintPure, Category="Test")
+	void SomeFunction2() { return 0; }
+
+	UFUNCTION(FieldNotify, BlueprintNativeEvent, Category="Test")
+	int SomeFunction3() { return 0; }
+
+	UFUNCTION(FieldNotify, Category="Test")
+	int SomeFunction4() { return 0; }
+};
+
+!console
+7_validate_phase_non_fatal_errors.uhttest(57)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Can't override delegate signature function 'FDupTest'
+7_validate_phase_non_fatal_errors.uhttest(57)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'DupTest__DelegateSignature' conflicts with 'DelegateFunction /Script/CoreUObject.DupTest__DelegateSignature'
+7_validate_phase_non_fatal_errors.uhttest(60)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Enum 'ETestEnum' does not provide a tooltip / comment (DocumentationPolicy)
+7_validate_phase_non_fatal_errors.uhttest(60)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Enum entry 'ETestEnum::ETestEnum::Uncommented' does not provide a tooltip / comment (DocumentationPolicy)
+7_validate_phase_non_fatal_errors.uhttest(60)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Enum entries 'ETestEnum::ETestEnum::Test3' and 'ETestEnum::ETestEnum::Test2' have identical tooltips / comments (DocumentationPolicy)
+7_validate_phase_non_fatal_errors.uhttest(72)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Class 'UDocumentationPolicyClass' does not provide a tooltip / comment (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(77)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Property 'UDocumentationPolicyClass::TestProperty' does not provide a tooltip / comment (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(85)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Property 'UDocumentationPolicyClass::TestProperty2' and 'UDocumentationPolicyClass::TestProperty3' are using identical tooltips (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(89)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Property 'UDocumentationPolicyClass::TestProperty4' does not provide a valid UIMin / UIMax (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(100)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Functions 'UDocumentationPolicyClass::TestFunction2' and 'UDocumentationPolicyClass::TestFunction3' are using identical tooltips / comments (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(109)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function 'UDocumentationPolicyClass2::TestFunction1' does not provide a tooltip / comment (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(109)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function 'UDocumentationPolicyClass2::TestFunction1' does not provide a comment (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(112)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function 'UDocumentationPolicyClass2::TestFunction2' does not provide a comment (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(120)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function 'UDocumentationPolicyClass2::TestFunction3' doesn't provide a tooltip for parameter 'C' (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(120)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function 'UDocumentationPolicyClass2::TestFunction3' provides a tooltip for an unknown parameter 'Extra'
+7_validate_phase_non_fatal_errors.uhttest(120)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function 'UDocumentationPolicyClass2::TestFunction3' uses identical tooltips for parameters 'B' and 'A' (DocumentationPolicy).
+7_validate_phase_non_fatal_errors.uhttest(130)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Class 'USomeBrokenDeprecatedClass' has an invalid Unreal prefix, expecting 'UDEPRECATED_SomeBrokenDeprecatedClass'
+7_validate_phase_non_fatal_errors.uhttest(153)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'BlueprintProtected' doesn't make sense on static method 'AddNewInputPass' in a blueprint function library
+7_validate_phase_non_fatal_errors.uhttest(164)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Metadata value for 'ClampMin' is non-numeric : 'bob'
+7_validate_phase_non_fatal_errors.uhttest(172)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Commutative associative binary operators must have exactly 2 parameters of the same type and a return value.
+7_validate_phase_non_fatal_errors.uhttest(172)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintPure specifier is not allowed for functions with no return value and no output parameters.
+7_validate_phase_non_fatal_errors.uhttest(176)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Commutative associative binary operators must have exactly 2 parameters of the same type and a return value.
+7_validate_phase_non_fatal_errors.uhttest(182)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Unable to find 'property' with name 'ReturnValue2'
+7_validate_phase_non_fatal_errors.uhttest(188)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function already specified an ExpandEnumAsExec input 'Branches', but 'Branches2' is also an input parameter. Only one is permitted.
+7_validate_phase_non_fatal_errors.uhttest(191)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'DevelopmentStatus' metadata was 'TotallyInvalid' but it must be EarlyAccess, or Experimental
+7_validate_phase_non_fatal_errors.uhttest(197)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'Units' meta data can only be applied to numeric and struct properties
+7_validate_phase_non_fatal_errors.uhttest(197)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Member variable declaration: 'Value' cannot be defined in 'UTestClass' as it is already defined in scope 'UTestClass' (shadowing is not allowed)
+7_validate_phase_non_fatal_errors.uhttest(200)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Unrecognized units 'bob' specified for 'FloatProperty /Script/CoreUObject.TestClass:Value2'
+7_validate_phase_non_fatal_errors.uhttest(203)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Unrecognized units 'bob' specified for 'Function /Script/CoreUObject.TestClass:UnitsTestOnFunction'
+7_validate_phase_non_fatal_errors.uhttest(206)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'DocumentationPolicy' metadata was 'bob' but it must be 'Strict'
+7_validate_phase_non_fatal_errors.uhttest(206)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Documentation policy 'bob' is not known
+7_validate_phase_non_fatal_errors.uhttest(209)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Static array cannot be exposed to blueprint. Function: CallableTest1 Parameter Branches
+7_validate_phase_non_fatal_errors.uhttest(210)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Arrays aren't allowed as function parameters
+7_validate_phase_non_fatal_errors.uhttest(212)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Type 'int8' is not supported by blueprint. Function:  CallableTest2 Parameter Test
+7_validate_phase_non_fatal_errors.uhttest(216)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Argument 'Bob' must be 'const' since 'USomeConstClass' is marked 'const'
+7_validate_phase_non_fatal_errors.uhttest(216)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Return value must be 'const' since 'USomeConstClass' is marked 'const'
+7_validate_phase_non_fatal_errors.uhttest(225)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: The 'placeable' specifier cannot override a 'nonplaceable' base class. Classes are assumed to be placeable by default. Consider whether using the 'abstract' specifier on the base class would work.
+7_validate_phase_non_fatal_errors.uhttest(237)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Invalid class attribute: Creating actor instances via the property window is not allowed
+7_validate_phase_non_fatal_errors.uhttest(243)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: MinimalAPI cannot be specified when the class is fully exported using a MODULENAME_API macro
+7_validate_phase_non_fatal_errors.uhttest(249)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: API must not be used on methods of a class that is marked with an API itself.
+7_validate_phase_non_fatal_errors.uhttest(254)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Class 'MissingPrefix' has an invalid Unreal prefix, expecting 'UMissingPrefix'
+7_validate_phase_non_fatal_errors.uhttest(260)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Immutable is being phased out in favor of SerializeNative, and is only legal on the mirror structs declared in UObject
+7_validate_phase_non_fatal_errors.uhttest(266)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Struct 'MissingPrefixStruct' has an invalid Unreal prefix, expecting 'FMissingPrefixStruct
+7_validate_phase_non_fatal_errors.uhttest(272)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Struct 'FStructsCantBeSparse' contains sparse class data but is not a class.
+7_validate_phase_non_fatal_errors.uhttest(278)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Unable to find sparse data type 'ThisClassDoesNotExist' for class 'UMissingSparseClassDataType'
+7_validate_phase_non_fatal_errors.uhttest(289)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'BlueprintAssignable' is only allowed on multicast delegate properties
+7_validate_phase_non_fatal_errors.uhttest(289)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Sparse class data types can not contain blueprint assignable delegates. Type 'SparseWithBadProperties' Delegate 'Prop1'
+7_validate_phase_non_fatal_errors.uhttest(292)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Sparse class data types must be VisibleDefaultsOnly or EditDefaultsOnly. Type 'SparseWithBadProperties' Property 'Prop2'
+7_validate_phase_non_fatal_errors.uhttest(295)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Cannot expose property to blueprints in a struct that is not a BlueprintType. Struct: FSparseWithBadProperties Property: Prop3
+7_validate_phase_non_fatal_errors.uhttest(295)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Sparse class data types must not be BlueprintReadWrite. Type 'SparseWithBadProperties' Property 'Prop3'
+7_validate_phase_non_fatal_errors.uhttest(311)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Class 'USparseWithBadSuperTest' is a child of 'USparseWithBadPropertiesTest' but its sparse class data struct 'OtherSparseStruct', does not inherit from 'SparseWithBadProperties'.
+7_validate_phase_non_fatal_errors.uhttest(317)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'NeedsDeferredDependencyLoading' is set on 'UDeferredButNoAUClass' but the flag can only be used with classes derived from UClass.
+7_validate_phase_non_fatal_errors.uhttest(328)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property getter function 'MissingFunc' not found
+7_validate_phase_non_fatal_errors.uhttest(334)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property getter function 'VoidFunc' must have return value of type 'int32'.
+7_validate_phase_non_fatal_errors.uhttest(334)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintPure specifier is not allowed for functions with no return value and no output parameters.
+7_validate_phase_non_fatal_errors.uhttest(340)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property getter function 'WrongReturnFunc' must have return value of type 'int32'.
+7_validate_phase_non_fatal_errors.uhttest(346)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property getter function 'EventFunc' cannot be a blueprint event.
+7_validate_phase_non_fatal_errors.uhttest(346)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property getter function 'EventFunc' must be pure.
+7_validate_phase_non_fatal_errors.uhttest(352)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property getter function 'NotPureFunc' must be pure.
+7_validate_phase_non_fatal_errors.uhttest(361)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'MissingFunc' not found
+7_validate_phase_non_fatal_errors.uhttest(367)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'NonVoidFunc' must not have a return value.
+7_validate_phase_non_fatal_errors.uhttest(367)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'NonVoidFunc' must have exactly one parameter of type 'int32'.
+7_validate_phase_non_fatal_errors.uhttest(373)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'TooManyArgsFunc' must have exactly one parameter of type 'int32'.
+7_validate_phase_non_fatal_errors.uhttest(379)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'WrongArgFunc' must have exactly one parameter of type 'int32'.
+7_validate_phase_non_fatal_errors.uhttest(385)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'EventFunc' cannot be a blueprint event.
+7_validate_phase_non_fatal_errors.uhttest(385)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'EventFunc' must be a blueprint callable.
+7_validate_phase_non_fatal_errors.uhttest(391)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'PureFunc' must not be pure.
+7_validate_phase_non_fatal_errors.uhttest(391)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintPure specifier is not allowed for functions with no return value and no output parameters.
+7_validate_phase_non_fatal_errors.uhttest(397)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint Property setter function 'NotCallable' must be a blueprint callable.
+7_validate_phase_non_fatal_errors.uhttest(406)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replication notification function 'MissingFunc' not found
+7_validate_phase_non_fatal_errors.uhttest(412)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replication notification function 'HasReturnValue' must not have a return value.
+7_validate_phase_non_fatal_errors.uhttest(418)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replication notification function 'HasTooManyArgs' has too many parameters.
+7_validate_phase_non_fatal_errors.uhttest(418)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replication notification function 'HasTooManyArgs' second (optional) parameter must be of type 'const TArray<uint8>&'.
+7_validate_phase_non_fatal_errors.uhttest(424)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replication notification function 'WrongArgType' first (optional) parameter must be of type 'int32'.
+7_validate_phase_non_fatal_errors.uhttest(430)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replication notification function 'WrongArgType2' second (optional) parameter must be of type 'const TArray<uint8>&'.
+7_validate_phase_non_fatal_errors.uhttest(449)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Static functions can't be replicated
+7_validate_phase_non_fatal_errors.uhttest(452)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated function: 'reliable' or 'unreliable' is required
+7_validate_phase_non_fatal_errors.uhttest(455)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'reliable' and 'unreliable' are mutually exclusive
+7_validate_phase_non_fatal_errors.uhttest(458)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'reliable' specified without 'client' or 'server'
+7_validate_phase_non_fatal_errors.uhttest(461)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'unreliable' specified without 'client' or 'server'
+7_validate_phase_non_fatal_errors.uhttest(464)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: SealedEvent may only be used on events
+7_validate_phase_non_fatal_errors.uhttest(467)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: SealedEvent cannot be used on Blueprint events
+7_validate_phase_non_fatal_errors.uhttest(470)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintPure (or BlueprintPure=true) and BlueprintPure=false should not both appear on the same function, they are mutually exclusive
+7_validate_phase_non_fatal_errors.uhttest(470)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: An explicit Category specifier is required for Blueprint accessible functions in an Engine module.
+7_validate_phase_non_fatal_errors.uhttest(470)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintPure specifier is not allowed for functions with no return value and no output parameters.
+7_validate_phase_non_fatal_errors.uhttest(473)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Arrays aren't allowed as return types
+7_validate_phase_non_fatal_errors.uhttest(474)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Arrays aren't allowed as function parameters
+7_validate_phase_non_fatal_errors.uhttest(476)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: UFunctions cannot take a lazy pointer as a parameter.
+7_validate_phase_non_fatal_errors.uhttest(479)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: UFunctions cannot take a TObjectPtr as a parameter.
+7_validate_phase_non_fatal_errors.uhttest(483)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Maps are not supported in an RPC.
+7_validate_phase_non_fatal_errors.uhttest(486)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Sets are not supported in an RPC.
+7_validate_phase_non_fatal_errors.uhttest(489)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated functions cannot contain delegate parameters (this would be insecure)
+7_validate_phase_non_fatal_errors.uhttest(492)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated functions cannot contain out parameters
+7_validate_phase_non_fatal_errors.uhttest(492)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated FString parameters must be passed by const reference
+7_validate_phase_non_fatal_errors.uhttest(495)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated parameters cannot be passed by non-const reference
+7_validate_phase_non_fatal_errors.uhttest(495)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated TArray parameters must be passed by const reference
+7_validate_phase_non_fatal_errors.uhttest(498)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Service request functions cannot contain delegate parameters, unless marked NotReplicated
+7_validate_phase_non_fatal_errors.uhttest(501)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Invalid enum param for Blueprints - currently only uint8 supported
+7_validate_phase_non_fatal_errors.uhttest(504)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Parameter name 'self' in function is invalid, 'self' is a reserved name.
+7_validate_phase_non_fatal_errors.uhttest(506)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintNativeEvent functions must be non-virtual.
+7_validate_phase_non_fatal_errors.uhttest(509)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: BlueprintImplementableEvents should not be virtual. Use BlueprintNativeEvent instead.
+7_validate_phase_non_fatal_errors.uhttest(512)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated functions can't have return values
+7_validate_phase_non_fatal_errors.uhttest(515)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint events cannot be declared 'final'
+7_validate_phase_non_fatal_errors.uhttest(519)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function is using a deprecated class: 'UDEPRECATED_SomeDeprecatedClass'.  Function should be marked deprecated as well.
+7_validate_phase_non_fatal_errors.uhttest(524)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function Test45 already uses identifier 12
+7_validate_phase_non_fatal_errors.uhttest(527)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Request function 'Test47' is missing a response function with the id of '99'
+7_validate_phase_non_fatal_errors.uhttest(531)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Argument 'Arg' must be 'const' since 'USomeConstClass' is marked 'const'
+7_validate_phase_non_fatal_errors.uhttest(536)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'DupNameTest' conflicts with 'Function /Script/CoreUObject.FunctionTests:DupNameTest'
+7_validate_phase_non_fatal_errors.uhttest(546)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Override of UFUNCTION 'OverrideTest' in parent 'UFunctionTests' cannot have a UFUNCTION() declaration above it; it will use the same parameters as the original declaration.
+7_validate_phase_non_fatal_errors.uhttest(557)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Cannot specify an editor only property inside an optional class.
+7_validate_phase_non_fatal_errors.uhttest(561)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Property cannot have both 'DisableEditOnInstance' and 'ExposeOnSpawn' flags
+7_validate_phase_non_fatal_errors.uhttest(561)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Property cannot have 'ExposeOnSpawn' without 'BlueprintVisible' flag.
+7_validate_phase_non_fatal_errors.uhttest(564)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'Instanced' is only allowed on an object property, an array of objects, a set of objects, or a map with an object value type.
+7_validate_phase_non_fatal_errors.uhttest(567)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Not allowed to use 'config' with object variables
+7_validate_phase_non_fatal_errors.uhttest(570)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'BlueprintAssignable' is only allowed on multicast delegate properties
+7_validate_phase_non_fatal_errors.uhttest(573)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'BlueprintCallable' is only allowed on multicast delegate properties
+7_validate_phase_non_fatal_errors.uhttest(576)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'BlueprintAuthorityOnly' is only allowed on multicast delegate properties
+7_validate_phase_non_fatal_errors.uhttest(579)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Static arrays of containers are not allowed
+7_validate_phase_non_fatal_errors.uhttest(582)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Bool arrays are not allowed
+7_validate_phase_non_fatal_errors.uhttest(585)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Property is using a deprecated class: 'UDEPRECATED_SomeDeprecatedClass'.  Property should be marked deprecated as well.
+7_validate_phase_non_fatal_errors.uhttest(588)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: An explicit Category specifier is required for any property exposed to the editor or Blueprints in an Engine module.
+7_validate_phase_non_fatal_errors.uhttest(591)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Property has a Category set but is not exposed to the editor or Blueprints with EditAnywhere, BlueprintReadWrite, VisibleAnywhere, BlueprintReadOnly, BlueprintAssignable, BlueprintCallable keywords.
+7_validate_phase_non_fatal_errors.uhttest(594)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Property cannot have 'ExposeOnSpawn' without 'BlueprintVisible' flag.
+7_validate_phase_non_fatal_errors.uhttest(594)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: ExposeOnSpawn - Property cannot be exposed
+7_validate_phase_non_fatal_errors.uhttest(597)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated arrays with MemoryImageAllocators are not yet supported
+7_validate_phase_non_fatal_errors.uhttest(600)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Replicated arrays with MemoryImageAllocators are not yet supported
+7_validate_phase_non_fatal_errors.uhttest(610)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'DuplicateTransient' specifier(s) are only allowed on class member variables
+7_validate_phase_non_fatal_errors.uhttest(613)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'TextExportTransient' specifier(s) are only allowed on class member variables
+7_validate_phase_non_fatal_errors.uhttest(616)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'NonPIEDuplicateTransient' specifier(s) are only allowed on class member variables
+7_validate_phase_non_fatal_errors.uhttest(639)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Member variable declaration: 'PropName' cannot be defined in 'UShadowTestChild' as it is already defined in scope 'UShadowTestParent' (shadowing is not allowed)
+7_validate_phase_non_fatal_errors.uhttest(642)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Member variable declaration: 'FuncName' cannot be defined in 'UShadowTestChild' as it is already defined in scope 'UShadowTestParent' (shadowing is not allowed)
+7_validate_phase_non_fatal_errors.uhttest(646)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Interface class 'UWrongSuperClassInterface' cannot inherit from non-interface class 'UShadowTestParent'
+7_validate_phase_non_fatal_errors.uhttest(667)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Interfaces with BlueprintCallable functions but no events should explicitly declare NotBlueprintable on the interface.
+7_validate_phase_non_fatal_errors.uhttest(667)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintPure specifier is not allowed for interface functions
+7_validate_phase_non_fatal_errors.uhttest(667)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: An explicit Category specifier is required for Blueprint accessible functions in an Engine module.
+7_validate_phase_non_fatal_errors.uhttest(667)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Interface functions that are not BlueprintImplementableEvents must be declared 'virtual'
+7_validate_phase_non_fatal_errors.uhttest(667)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Interface functions cannot be declared 'final'
+7_validate_phase_non_fatal_errors.uhttest(667)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintPure specifier is not allowed for functions with no return value and no output parameters.
+7_validate_phase_non_fatal_errors.uhttest(684)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Interfaces that are not implementable in blueprints cannot have Blueprint Event members.
+7_validate_phase_non_fatal_errors.uhttest(698)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint implementable interfaces cannot contain BlueprintCallable functions that are not BlueprintImplementableEvents. Add NotBlueprintable to the interface if you wish to keep this function.
+7_validate_phase_non_fatal_errors.uhttest(698)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Interfaces with BlueprintCallable functions but no events should explicitly declare NotBlueprintable on the interface.
+7_validate_phase_non_fatal_errors.uhttest(698)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: An explicit Category specifier is required for Blueprint accessible functions in an Engine module.
+7_validate_phase_non_fatal_errors.uhttest(698)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Interface functions that are not BlueprintImplementableEvents must be declared 'virtual'
+7_validate_phase_non_fatal_errors.uhttest(698)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Interface functions cannot be declared 'final'
+7_validate_phase_non_fatal_errors.uhttest(701)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintImplementableEvents in Interfaces must not be declared 'virtual'
+7_validate_phase_non_fatal_errors.uhttest(705)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Struct 'StructWrongPrefix' has an invalid Unreal prefix, expecting 'FStructWrongPrefix
+7_validate_phase_non_fatal_errors.uhttest(711)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Class 'ClassWrongPrefix' has an invalid Unreal prefix, expecting 'UClassWrongPrefix'
+7_validate_phase_non_fatal_errors.uhttest(727)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Interfaces with BlueprintCallable functions but no events should explicitly declare NotBlueprintable on the interface.
+7_validate_phase_non_fatal_errors.uhttest(730)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Interfaces with BlueprintCallable functions but no events should explicitly declare NotBlueprintable on the interface.
+7_validate_phase_non_fatal_errors.uhttest(733)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Interfaces with BlueprintCallable functions but no events should explicitly declare NotBlueprintable on the interface.
+7_validate_phase_non_fatal_errors.uhttest(736)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Interfaces with BlueprintCallable functions but no events should explicitly declare NotBlueprintable on the interface.
+7_validate_phase_non_fatal_errors.uhttest(740)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Missing UFunction implementation of function 'DoesNotExist' from interface 'IOverrideCheckInterface'.  This function needs a UFUNCTION() declaration.
+7_validate_phase_non_fatal_errors.uhttest(746)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Implementation of function 'WrongArgCount' conflicts with interface 'IOverrideCheckInterface' - different number of parameters (2/1)
+7_validate_phase_non_fatal_errors.uhttest(749)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Implementation of function 'WrongReturnValue' conflicts only by return type with interface 'IOverrideCheckInterface'
+7_validate_phase_non_fatal_errors.uhttest(752)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Implementation of function 'WrongArgType' conflicts type with interface 'IOverrideCheckInterface' - parameter 0 'Arg'
+7_validate_phase_non_fatal_errors.uhttest(776)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Implementation of function 'MismatchEvent' must be declared as 'event' to match declaration in interface 'IOverrideCheckInterface2'
+7_validate_phase_non_fatal_errors.uhttest(780)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'DocumentationPolicy' metadata was 'Bad' but it must be 'Strict'
+7_validate_phase_non_fatal_errors.uhttest(780)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Documentation policy 'Bad' is not known
+7_validate_phase_non_fatal_errors.uhttest(790)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: The identifier 'GENERATED_BODY' was detected in a block being skipped. Was this intentional?
+7_validate_phase_non_fatal_errors.uhttest(804)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'DocumentationPolicy' metadata was 'WRONG' but it must be 'Strict'
+7_validate_phase_non_fatal_errors.uhttest(804)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Documentation policy 'WRONG' is not known
+7_validate_phase_non_fatal_errors.uhttest(815)[Game\Source\Game\Private\GameFile01.h]: Error: Class UPropertyTestInterfaceClass has Net flagged properties and should declare member function: void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override
+7_validate_phase_non_fatal_errors.uhttest(821)[Game\Source\Game\Private\GameFile01.h]: Error: UPROPERTY pointers cannot be interfaces - did you mean TScriptInterface<IPropertyTestInterface>?
+7_validate_phase_non_fatal_errors.uhttest(867)[Game\Source\Game\Private\GameFile01.h]: Error: Function Server_TryToUpdateInteraction was marked as Native, Net, NetValidate. Declare function "virtual void UPropertyTestInterfaceClass::Server_TryToUpdateInteraction_Implementation(uint8 , uint8 )"
+7_validate_phase_non_fatal_errors.uhttest(867)[Game\Source\Game\Private\GameFile01.h]: Error: Function Server_TryToUpdateInteraction was marked as Native, Net, NetValidate. Declare function "virtual void UPropertyTestInterfaceClass::Server_TryToUpdateInteraction_Validate(uint8 , uint8 )"
+7_validate_phase_non_fatal_errors.uhttest(871)[Game\Source\Game\Private\GameFile01.h]: Error: Declared function "void UPropertyTestInterfaceClass::Server_TryToUpdateInteraction2_Implementation(uint8 , uint8 )" is not marked as virtual.
+7_validate_phase_non_fatal_errors.uhttest(871)[Game\Source\Game\Private\GameFile01.h]: Error: Declared function "void UPropertyTestInterfaceClass::Server_TryToUpdateInteraction2_Validate(uint8 , uint8 )" is not marked as virtual.
+7_validate_phase_non_fatal_errors.uhttest(885)[Game\Source\Game\Private\GameFile01.h]: Error: Property 'IntValueGS' expected a getter function '[const] int32 [&] GetIntValueGS() const', but it was not found
+7_validate_phase_non_fatal_errors.uhttest(885)[Game\Source\Game\Private\GameFile01.h]: Error: Property 'IntValueGS' expected a setter function 'void SetIntValueGS([const] int32 [&] InArg)', but it was not found
+7_validate_phase_non_fatal_errors.uhttest(889)[Game\Source\Game\Private\GameFile01.h]: Error: RigVMStruct 'FRigVMDepTest' is marked as deprecated but is missing 'GetUpgradeInfo method.
+7_validate_phase_non_fatal_errors.uhttest(889)[Game\Source\Game\Private\GameFile01.h]: Error: Please implement a method like below:
+7_validate_phase_non_fatal_errors.uhttest(889)[Game\Source\Game\Private\GameFile01.h]: Error: RIGVM_METHOD()
+7_validate_phase_non_fatal_errors.uhttest(889)[Game\Source\Game\Private\GameFile01.h]: Error: virtual FRigVMStructUpgradeInfo GetUpgradeInfo() const override;
+7_validate_phase_non_fatal_errors.uhttest(936)[Game\Source\Game\Private\GameFile01.h]: Error: UClass 'UMyNotifyClass' need to implement the interface INotifyFieldValueChanged' to support FieldNotify.
+7_validate_phase_non_fatal_errors.uhttest(944)[Game\Source\Game\Private\GameFile01.h]: Error: FieldNotify function 'SomeFunction' must not have parameters.
+7_validate_phase_non_fatal_errors.uhttest(947)[Game\Source\Game\Private\GameFile01.h]: Error: BlueprintPure specifier is not allowed for functions with no return value and no output parameters.
+7_validate_phase_non_fatal_errors.uhttest(947)[Game\Source\Game\Private\GameFile01.h]: Error: FieldNotify function 'SomeFunction2' must return a value.
+7_validate_phase_non_fatal_errors.uhttest(950)[Game\Source\Game\Private\GameFile01.h]: Error: Function SomeFunction3 was marked as Native, BlueprintEvent. Declare function "virtual int32 UMyNotifyClass::SomeFunction3_Implementation()"
+7_validate_phase_non_fatal_errors.uhttest(950)[Game\Source\Game\Private\GameFile01.h]: Error: FieldNotify function 'SomeFunction3' cannot be a blueprint event.
+7_validate_phase_non_fatal_errors.uhttest(950)[Game\Source\Game\Private\GameFile01.h]: Error: FieldNotify function 'SomeFunction3' must be pure.
+7_validate_phase_non_fatal_errors.uhttest(953)[Game\Source\Game\Private\GameFile01.h]: Error: FieldNotify function 'SomeFunction4' must be pure.

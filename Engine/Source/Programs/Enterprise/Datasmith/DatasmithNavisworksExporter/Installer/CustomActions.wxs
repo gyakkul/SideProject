@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+
+    <!-- Abort install if Navisworks is not installed -->
+    <CustomAction Id="NoNavisworksInstaller" Error="!(loc.ErrorNotInstalled)" />
+
+    <!-- Prevent downgrading -->
+    <CustomAction Id="PreventDowngrading" Error="!(loc.ErrorOlderVersionInstall)" />
+
+    <!-- Prevent overwriting -->
+    <CustomAction Id="PreventSameVersionInstall" Error="!(loc.ErrorSameVersionInstall)" />
+    
+    <CustomActionRef Id="WixExitEarlyWithSuccess" />
+    
+    <CustomAction Id="InstallDirectX" FileKey="DXSETUPEXE" ExeCommand="/silent" Execute="deferred" Impersonate="no" Return="check"/>
+    
+  </Fragment>
+</Wix>

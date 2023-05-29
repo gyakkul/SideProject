@@ -1,0 +1,644 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+
+import "horde/common/agent_status.proto";
+import "horde/common/event_severity.proto";
+import "horde/common/jobstep_outcome.proto";
+import "horde/common/jobstep_state.proto";
+import "horde/common/label_change.proto";
+import "horde/common/priority.proto";
+
+import "horde/messages/agent_capabilities.proto";
+import "horde/messages/agent_workspace.proto";
+import "horde/messages/lease.proto";
+
+package Horde;
+
+option csharp_namespace = "HordeCommon.Rpc";
+
+////// Utility Messages //////
+
+message Property {
+
+	// Name of the property
+	string Name = 1;
+
+	// Value for the property
+	string Value = 2;
+}
+
+message PropertyUpdate {
+
+	// Name of the property to update
+	string Name = 1;
+
+	// New value for the property. If null, the property will be removed.
+	google.protobuf.StringValue Value = 2;
+}
+
+////// Server State Operations //////
+
+message QueryServerStateRequest {
+
+	// Host name to identify the agent
+	string Name = 1;
+}
+
+message QueryServerStateResponse {
+
+	// Host name to identify the server
+	string Name = 1;
+
+	// Whether the server is currently shutting down
+	bool Stopping = 2;
+}
+
+////// Agent Workspace Operations //////
+
+message UpdateAgentWorkspacesRequest {
+
+	// The unique agent id
+	string AgentId = 1;
+
+	// The new list of workspaces for this agent
+	repeated AgentWorkspace Workspaces = 2;
+
+	// Whether or not to remove untracked files
+	bool RemoveUntrackedFiles = 3;
+}
+
+message UpdateAgentWorkspacesResponse {
+
+	// Whether there are still pending updates
+	bool Retry = 1;
+
+	// An updated list of workspaces for this agent
+	repeated AgentWorkspace PendingWorkspaces = 2;
+
+	// Whether or not to remove untracked files
+	bool RemoveUntrackedFiles = 3;
+}
+
+////// Agent Session Operations //////
+
+message CreateSessionRequest {
+
+	// The machine name
+	string Name = 1;
+
+	// The status of this agent
+	Horde.AgentStatusType.AgentStatus Status = 2;
+
+	// Capabilities of this agent
+	AgentCapabilities Capabilities = 3;
+
+	// Version of the software running on this agent
+	string Version = 4;
+}
+
+message CreateSessionResponse {
+
+	// The agent Id
+	string AgentId = 1;
+
+	// The new session name
+	string SessionId = 2;
+
+	// Time at which this session expires. The agent should renew the session before then.
+	google.protobuf.Timestamp ExpiryTime = 3;
+
+	// The current session token
+	string Token = 4;
+}
+
+message UpdateSessionRequest {
+
+	// The unique agent id
+	string AgentId = 1;
+
+	// Unique id of the session for this agent
+	string SessionId = 2;
+
+	// The new agent status
+	Horde.AgentStatusType.AgentStatus Status = 3;
+
+	// Updated capabilities for this agent. Optional.
+	AgentCapabilities Capabilities = 5;
+
+	// Current leases for this agent
+	repeated Lease Leases = 4;
+}
+
+message UpdateSessionResponse {
+
+	// Time at which this session expires. The agent should renew the session before then.
+	google.protobuf.Timestamp ExpiryTime = 1;
+
+	// New leases for this agent
+	repeated Lease Leases = 2;
+}
+
+////// Stream Operations //////
+
+message GetAgentTypeResponse {
+
+	// Path to use for the temp storage directory
+	string TempStorageDir = 3;
+
+	// Environment variables to set
+	map<string, string> Environment = 4;
+}
+
+message GetStreamRequest {
+
+	// Unique id of the stream to fetch properties for.
+	string StreamId = 1;
+}
+
+message GetStreamResponse {
+
+	// Name of the stream
+	string Name = 1;
+
+	// Map of names to agent types
+	map<string, GetAgentTypeResponse> AgentTypes = 2;
+
+	// List of properties for this stream
+	map<string, string> Properties = 4;
+
+	// Last time that we queried for commits.
+	google.protobuf.Timestamp LastCommitTime = 5;
+}
+
+message UpdateStreamRequest {
+
+	// Unique id of the stream
+	string StreamId = 1;
+
+	// New name for this stream
+	google.protobuf.StringValue Name = 2;
+
+	// List of property updates for this stream
+	repeated PropertyUpdate Properties = 3;
+}
+
+////// Job Operations //////
+
+message GetJobRequest {
+
+	// Unique id of the job to fetch properties for.
+	string JobId = 1;
+}
+
+message GetJobResponse {
+
+	// The stream containing this job
+	string StreamId = 1;
+
+	// The changelist number to build. If zero, builds at head.
+	int32 Change = 2;
+
+	// The code changelist number
+	int32 CodeChange = 6;
+
+	// The user's preflight changelist
+	int32 PreflightChange = 3;
+
+	// Cloned changelist to preflight
+	int32 ClonedPreflightChange = 7;
+
+	// List of arguments for this job
+	repeated string Arguments = 5;
+}
+
+message UpdateJobRequest {
+
+	// Unique id of the stream
+	string JobId = 1;
+
+	// New name for the job
+	google.protobuf.StringValue Name = 2;
+
+	// New changelist number for the job
+	int32 Change = 3;
+}
+
+////// Batch Operations //////
+
+message BeginBatchRequest {
+
+	// Unique id of the job being executed.
+	string JobId = 1;
+
+	// Unique id of the batch being executed.
+	string BatchId = 2;
+
+	// Unique id of the lease held by the agent.
+	string LeaseId = 3;
+}
+
+message BeginBatchResponse {
+
+	// Unique id of the log file for this batch
+	string LogId = 1;
+
+	// The agent type to use for executing this batch
+	string AgentType = 3;
+}
+
+message FinishBatchRequest {
+
+	// Unique id of the job being executed.
+	string JobId = 1;
+
+	// Unique id of the batch being executed.
+	string BatchId = 2;
+
+	// Unique id of the lease held by the agent.
+	string LeaseId = 3;
+}
+
+////// Step Operations //////
+
+message BeginStepRequest {
+
+	// Unique id of the job being executed.
+	string JobId = 2;
+
+	// Unique id of the batch being executed.
+	string BatchId = 3;
+
+	// Unique id of the lease held by the agent.
+	string LeaseId = 4;
+}
+
+message BeginStepResponse {
+
+	enum Result {
+		Unspecified = 0;
+		Ready = 1;
+		Waiting = 2;
+		Complete = 3;
+	}
+
+	// Current state of the batch
+	Result State = 1;
+
+	// Unique id of the step being executed
+	string StepId = 2;
+
+	// Unique id of the log file for this batch
+	string LogId = 3;
+
+	// Name of this step
+	string Name = 4;
+
+	// Credentials for this step. Maps from environment variable name to secret information.
+	map<string, string> Credentials = 5;
+
+	// Properties on this step
+	map<string, string> Properties = 6;
+
+	// Additional environment variables specific to this step
+	map<string, string> EnvVars = 8;
+
+	// Whether to log warnings from this step
+	google.protobuf.BoolValue Warnings = 7;
+
+	// List of input names, in the form "node/output"
+	repeated string Inputs = 9;
+
+	// List of output names
+	repeated string OutputNames = 10;
+
+	// List of output indices required by other nodes
+	repeated int32 PublishOutputs = 11;
+}
+
+message UpdateStepRequest {
+
+	// Unique id of the job being executed.
+	string JobId = 1;
+
+	// Unique id of the batch being executed.
+	string BatchId = 2;
+
+	// Unique id of the step being executed.
+	string StepId = 3;
+
+	// The current state of the step
+	Horde.JobStepStateType.JobStepState State = 4;
+
+	// The current outcome of the step
+	Horde.JobStepOutcomeType.JobStepOutcome Outcome = 5;
+}
+
+message GetStepRequest {
+
+	// Unique id of the job being executed.
+	string JobId = 1;
+
+	// Unique id of the batch being executed.
+	string BatchId = 2;
+
+	// Unique id of the step being executed.
+	string StepId = 3;
+}
+
+message GetStepResponse {
+	
+	// The current state of the step
+	Horde.JobStepStateType.JobStepState State = 1;
+
+	// The current outcome of the step
+	Horde.JobStepOutcomeType.JobStepOutcome Outcome = 2;
+
+	// True if the step should be aborted
+	bool AbortRequested = 3;
+}
+
+/////// NODES //////
+
+message CreateNodeRequest {
+
+	// The name of this node 
+	string Name = 1;
+
+	// Indices of nodes which must have succeeded for this node to run
+	repeated string InputDependencies = 2;
+
+	// Indices of nodes which must have completed for this node to run
+	repeated string OrderDependencies = 3;
+
+	// The priority of this node
+	Horde.PriorityType.Priority Priority = 5;
+
+	// This node can be run multiple times
+	google.protobuf.BoolValue AllowRetry = 7;
+
+	// This node can start running early, before dependencies of other nodes in the same group are complete
+	google.protobuf.BoolValue RunEarly = 8;
+
+	// Whether to ignore all warnings from this step
+	google.protobuf.BoolValue Warnings = 12;
+
+	// Credentials requested for this node
+	map<string, string> Credentials = 10;
+
+	// Properties for this node
+	map<string, string> Properties = 11;
+
+	// User annotations for this node from the BuildGraph script
+	map<string, string> Annotations = 13;
+
+	// List of inputs
+	repeated string Inputs = 14;
+
+	// List of outputs
+	repeated string Outputs = 15;
+}
+
+message CreateGroupRequest {
+
+	// The agent type for executing this group
+	string AgentType = 2;
+
+	// The nodes for this group
+	repeated CreateNodeRequest Nodes = 3;
+}
+
+message CreateAggregateRequest {
+
+	// Name of the aggregate
+	string Name = 7;
+
+	// Nodes that are required for this label to be shown
+	repeated string Nodes = 8;
+}
+
+message CreateLabelRequest {
+
+	// Name to show for this label in the dashboard
+	string DashboardName = 2;
+
+	// Category for this label in the dashboard
+	string DashboardCategory = 1;
+
+	// Name to show for this badge in UGS
+	string UgsName = 5;
+
+	// Project that this badge applies to
+	string UgsProject = 6;
+
+	// The change to display for this label
+	LabelChangeType.LabelChange Change = 7;
+
+	// Nodes that are required for this label to be shown
+	repeated string RequiredNodes = 3;
+
+	// Nodes which will be included in this label if present
+	repeated string IncludedNodes = 4;
+}
+
+message UpdateGraphRequest {
+
+	// Unique id of the job to update
+	string JobId = 1;
+
+	// The nodes to create
+	repeated CreateGroupRequest Groups = 2;
+
+	// The aggregates to create
+	repeated CreateAggregateRequest Aggregates = 3;
+
+	// The labels to create
+	repeated CreateLabelRequest Labels = 4;
+}
+
+message UpdateGraphResponse {
+
+}
+
+/// EVENTS
+
+message CreateEventsRequest {
+
+	// List of events to send
+	repeated CreateEventRequest Events = 1;
+}
+
+message CreateEventRequest {
+
+	// Severity of this event
+	EventSeverityType.EventSeverity Severity = 2;
+
+	// Unique id of the log containing this event
+	string LogId = 4;
+
+	// Index of the first line relating to this event
+	int32 LineIndex = 5;
+
+	// Number of lines in this event
+	int32 LineCount = 6;
+}
+
+/// OUTPUT
+
+message WriteOutputRequest {
+
+	// Unique id of the log to write to
+	string LogId = 1;
+
+	// Byte offset within the file
+	int64 Offset = 3;
+
+	// The current line number
+	int32 LineIndex = 4;
+
+	// Data to write
+	bytes Data = 2;
+
+	// Whether to flush the log output after this data
+	bool Flush = 5;
+}
+
+/// SOFTWARE
+
+message UploadSoftwareRequest {
+
+	// The channel to upload to
+	string Channel = 3;
+
+	// Chunk of data
+	bytes Data = 2;
+}
+
+message UploadSoftwareResponse {
+
+	// The version name of the created software
+	string Version = 1;
+}
+
+message DownloadSoftwareRequest {
+
+	// Unique id of the software to download
+	string Version = 1;
+}
+
+message DownloadSoftwareResponse {
+
+	// Chunk of data
+	bytes Data = 1;
+}
+
+/// ARTIFACTS
+
+message UploadArtifactMetadata {
+
+	// Job Id for the artifact
+	string JobId = 1;
+
+	// Unique id of the batch
+	string BatchId = 2;
+
+	// Step id for the artifact
+	string StepId = 3;
+
+	// Name for the artifact
+	string Name = 4;
+
+	// MimeType for the artifact
+	string MimeType = 5;
+
+	// Length of this file
+	int64 Length = 6;
+}
+
+message UploadArtifactRequest {
+
+	oneof ArtifactChunk {
+
+		// Job metadata
+		UploadArtifactMetadata Metadata = 1;
+
+		// Chunk of data	
+		bytes Data = 2;
+	}
+}
+
+message UploadArtifactResponse {
+
+	// Id of the artifact
+	string Id = 1;
+}
+
+/// TEST DATA
+
+message UploadTestDataRequest {
+
+	// The job id
+	string JobId = 1;
+
+	// The job step id
+	string JobStepId = 2;
+
+	// The key for the data
+	string Key = 3;
+
+	// Encoded JSON data
+	bytes Value = 4;
+}
+
+message UploadTestDataResponse {
+}
+
+/// REPORTS
+
+enum ReportScope {
+
+	// Shown at step scope
+	Step = 0;
+
+	// Shown at job scope
+	Job = 1;
+}
+
+enum ReportPlacement {
+
+	// On a panel of its own
+	Panel = 0;
+
+	// In the summary panel
+	Summary = 1;
+}
+
+message CreateReportRequest {
+
+	// The job id
+	string JobId = 1;
+
+	// The batch id
+	string BatchId = 2;
+
+	// The job step id
+	string StepId = 3;
+
+	// Scope to show the report at
+	ReportScope Scope = 4;
+
+	// Where to render the report
+	ReportPlacement Placement = 7;
+
+	// Name of the report
+	string Name = 5;
+
+	// The artifact id
+	string ArtifactId = 6;
+}
+
+message CreateReportResponse {
+}

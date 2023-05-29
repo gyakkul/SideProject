@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+	<!-- Include version -->
+	<?include ..\..\DatasmithInstallerCommon\ExporterVersion.wxi?>
+
+	<?define ProductVersion="$(var.MajorVersion).$(var.MinorVersion).$(var.PatchVersion).$(var.BuildVersion)"?>
+
+	<!-- NOTE: Language codes can be found here(LCID Decimal column): http://www.science.co.il/Language/Locale-codes.asp -->
+	<?define Languages = "1033"?>
+
+	<!-- Identify the specific product release. Using an asterisk rather than a GUID recreates a new product code each time the installer is rebuilt. -->
+	<?define ProductCode="*"?>
+
+	<!-- The Upgrade Code. Never changes. This is the true "Unreal Engine Launcher" aplication ID, and keeping it the same allows us to recognise existing installations. -->
+	<?define UpgradeCode="{09918958-6312-441C-A755-44C68F323C68}"?>
+
+	<!-- Defines a relative path to the main Engine directory -->
+	<?define EngineDir="..\..\..\..\..\..\..\Engine"?>
+	<?define ExporterSourceDir=".."?>
+
+	<!-- Defines a relative path to our resources directory -->
+	<?define ResourcesDir="./Resources"?>
+
+	<!-- Defines a relative path to Prereq installer's vcredist resources directory -->
+	<?define VCRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\Resources\VCRedist"?>
+
+	<!-- Defines a relative path to directory of DirectX redist resources -->
+	<?define DirectXRedistDir="$(var.EngineDir)\Source\Programs\PrereqInstaller\CustomAction\Resources\DirectXRedist"?>
+
+	<!-- Defines relative paths to directories where the Navisworks plugin files are stored -->
+	<?define NavisworksBinDir="$(var.EngineDir)\Binaries\Win64\Navisworks"?>
+	<?define FacadeBinDir="$(var.EngineDir)\Binaries\Win64\DatasmithFacadeCSharp"?>
+
+	<!-- Defines a relative path to the ThirdParty libraries -->
+	<?define ThirdPartyDir="$(var.EngineDir)\Source\ThirdParty"?>
+
+    <?define PluginBundleFolderName="EpicGamesDatasmithExporter.bundle"?>
+    
+
+	<Product Id="$(var.ProductCode)" Name="Unreal Datasmith Exporter for Navisworks" Language="1033" Version="$(var.ProductVersion)" Manufacturer="Epic Games, Inc." UpgradeCode="$(var.UpgradeCode)">
+
+		<Package Platform="x64" InstallerVersion="405" Compressed="yes" InstallScope="perMachine" />
+
+		<!-- Find other installed versions when the product (with this product code) is first installed, but not during maintenance mode or uninstallation. -->
+		<Upgrade Id="$(var.UpgradeCode)">
+			<!-- NEWPRODUCTFOUND will be set if there is a newer product already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				IncludeMinimum="no"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="NEWPRODUCTFOUND" />
+
+			<!-- UPGRADEFOUND will be set if there is an older or same product already installed -->
+			<UpgradeVersion
+				Minimum="0.0.0"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="no"
+				Language="$(var.Languages)"
+				Property="UPGRADEFOUND" />
+
+			<!-- ANOTHERBUILDINSTALLED will be set if the same product version is already installed -->
+			<UpgradeVersion
+				Minimum="$(var.ProductVersion)"
+				Maximum="$(var.ProductVersion)"
+				IncludeMinimum="yes"
+				IncludeMaximum="yes"
+				OnlyDetect="yes"
+				Language="$(var.Languages)"
+				Property="ANOTHERBUILDINSTALLED" />
+		</Upgrade>
+
+		<!-- Simple Dialog to inform user that installation has aborted because no supported version of Navisworks has been found -->
+		<UI>
+			<UIRef Id="CustomWixUI_InstallDir"/>
+			<UIRef Id="WixUI_ErrorProgressText"/>
+
+			<!--These dialog references are required for util:CloseApplication to work properly -->
+			<DialogRef Id="FilesInUse" />
+			<DialogRef Id="MsiRMFilesInUse" />
+		</UI>
+
+		<!-- Create the icon for our shortcuts -->
+		<!-- NOTE: ARPPRODUCTICON is a special property recognized by Windows Installer, which sets up this icon for us -->
+		<Icon Id="UnrealEngine.ico" SourceFile="$(var.ResourcesDir)/UnrealEngine.ico" />
+		<Property Id="ARPPRODUCTICON" Value="UnrealEngine.ico" />
+
+		<!-- Customize artwork -->
+		<WixVariable Id="WixUIBannerBmp" Value="$(var.ResourcesDir)/default_small_banner.bmp" />
+		<WixVariable Id="WixUIDialogBmp" Value="$(var.ResourcesDir)/Dialog.bmp"/>
+
+
+		<!-- Declaration of properties to search for installed Navisworks products -->
+		<Property Id="NAVISWORKSMANAGE2023DIR">
+			<RegistrySearch Id="NavisworksManage2023Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Manage\20.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2023DIR">
+			<RegistrySearch Id="NavisworksSimulate2023Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Simulate\20.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2022DIR">
+			<RegistrySearch Id="NavisworksManage2022Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Manage x64\19.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2022DIR">
+			<RegistrySearch Id="NavisworksSimulate2022Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Simulate x64\19.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2021DIR">
+			<RegistrySearch Id="NavisworksManage2021Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Manage x64\18.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2021DIR">
+			<RegistrySearch Id="NavisworksSimulate2021Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Simulate x64\18.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2020DIR">
+			<RegistrySearch Id="NavisworksManage2020Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Manage x64\17.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2020DIR">
+			<RegistrySearch Id="NavisworksSimulate2020Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Simulate x64\17.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2019DIR">
+			<RegistrySearch Id="NavisworksManage2019Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Manage x64\16.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2019DIR">
+			<RegistrySearch Id="NavisworksSimulate2019Search" Root="HKLM" Key="SOFTWARE\Autodesk\Navisworks Simulate x64\16.0\Location" Name="Path" Type="raw" Win64="yes" />
+		</Property>
+
+		<!-- Declaration of properties Navisworks20xxVALID used to check if the corresponding install directory of Navisworks is valid -->
+		<Property Id="NAVISWORKSMANAGE2023VALID">
+			<DirectorySearch Id="CheckNavisworksManage2023Dir" Path="[NAVISWORKSMANAGE2023DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksManage2023File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2023VALID">
+			<DirectorySearch Id="CheckNavisworksSimulate2023Dir" Path="[NAVISWORKSSIMULATE2023DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksSimulate2023File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2022VALID">
+			<DirectorySearch Id="CheckNavisworksManage2022Dir" Path="[NAVISWORKSMANAGE2022DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksManage2022File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2022VALID">
+			<DirectorySearch Id="CheckNavisworksSimulate2022Dir" Path="[NAVISWORKSSIMULATE2022DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksSimulate2022File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2021VALID">
+			<DirectorySearch Id="CheckNavisworksManage2021Dir" Path="[NAVISWORKSMANAGE2021DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksManage2021File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2021VALID">
+			<DirectorySearch Id="CheckNavisworksSimulate2021Dir" Path="[NAVISWORKSSIMULATE2021DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksSimulate2021File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2020VALID">
+			<DirectorySearch Id="CheckNavisworksManage2020Dir" Path="[NAVISWORKSMANAGE2020DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksManage2020File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2020VALID">
+			<DirectorySearch Id="CheckNavisworksSimulate2020Dir" Path="[NAVISWORKSSIMULATE2020DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksSimulate2020File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<Property Id="NAVISWORKSMANAGE2019VALID">
+			<DirectorySearch Id="CheckNavisworksManage2019Dir" Path="[NAVISWORKSMANAGE2019DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksManage2019File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+		<Property Id="NAVISWORKSSIMULATE2019VALID">
+			<DirectorySearch Id="CheckNavisworksSimulate2019Dir" Path="[NAVISWORKSSIMULATE2019DIR]" Depth="0">
+				<FileSearch Id="CheckNavisworksSimulate2019File" Name="roamer.exe" />
+			</DirectorySearch>
+		</Property>
+
+		<SetProperty Id="NAVISWORKS2023CHECKED" After="AppSearch" Value="1">NAVISWORKSMANAGE2023VALID OR NAVISWORKSSIMULATE2023VALID</SetProperty>
+		<SetProperty Id="NAVISWORKS2022CHECKED" After="AppSearch" Value="1">NAVISWORKSMANAGE2022VALID OR NAVISWORKSSIMULATE2022VALID</SetProperty>
+		<SetProperty Id="NAVISWORKS2021CHECKED" After="AppSearch" Value="1">NAVISWORKSMANAGE2021VALID OR NAVISWORKSSIMULATE2021VALID</SetProperty>
+		<SetProperty Id="NAVISWORKS2020CHECKED" After="AppSearch" Value="1">NAVISWORKSMANAGE2020VALID OR NAVISWORKSSIMULATE2020VALID</SetProperty>
+		<SetProperty Id="NAVISWORKS2019CHECKED" After="AppSearch" Value="1">NAVISWORKSMANAGE2019VALID OR NAVISWORKSSIMULATE2019VALID</SetProperty>
+		<!-- Check than any Navisworks product(our plugin supports) is installed  -->
+		<SetProperty Id="NOTFOUNDNAVISWORKS" After="AppSearch" Value="1">NOT NAVISWORKSMANAGE2020VALID AND NOT NAVISWORKSSIMULATE2020VALID AND NOT NAVISWORKSMANAGE2021VALID AND NOT NAVISWORKSSIMULATE2021VALID AND NOT NAVISWORKSMANAGE2022VALID AND NOT NAVISWORKSSIMULATE2022VALID AND NOT NAVISWORKSMANAGE2023VALID AND NOT NAVISWORKSSIMULATE2023VALID AND NOT NAVISWORKSMANAGE2019VALID AND NOT NAVISWORKSSIMULATE2019VALID</SetProperty>
+
+
+		<Property Id="WIXUI_INSTALLDIR" Value="ThePluginAppDataFolder" />
+		<Property Id="WIXUI_FINALINSTALLDIR" Value="ThePluginAppDataFolder" />
+
+		<!-- Common action to declare type of content in msi -->
+		<Media Id="1" Cabinet="DatasmithNavisworksExporter.cab" EmbedCab="yes" />
+
+		<!-- Group of features to install-->
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<Feature Id="ExporterFeature" Title="Installer" Level="1">
+				<ComponentRef Id="EXPORTERFOLDER" />
+				<ComponentRef Id="EXPORTERFOLDER_ENUS" />
+			</Feature>
+		</Feature>
+
+		<!-- Adding merge modules to install VC runtimes for VC10, VC11 VC12 and VC14 -->
+		<DirectoryRef Id="TempFolder">
+			<Merge Id="Microsoft_VC100_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC100_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC100_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC110_OpenMP_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC110_OpenMP_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC120_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC120_CRT_x64.msm" DiskId="1" Language="0"/>
+			<Merge Id="Microsoft_VC142_CRT_x64.msm" SourceFile="$(var.VCRedistDir)\Microsoft_VC142_CRT_x64.msm" DiskId="1" Language="0"/>
+		</DirectoryRef>
+
+		<!-- Adding installation of VC runtimes for VC10, VC11 VC12 and VC14 to the installation process -->
+		<Feature Id="VCRedist" Title="Visual C++ Runtime" AllowAdvertise="yes" Display="expand" Level="1">
+			<MergeRef Id="Microsoft_VC100_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC100_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC110_OpenMP_x64.msm" />
+			<MergeRef Id="Microsoft_VC120_CRT_x64.msm" />
+			<MergeRef Id="Microsoft_VC142_CRT_x64.msm" />
+		</Feature>
+
+		<!-- Adding installation modules for DirectX -->
+		<DirectoryRef Id="TempFolder">
+			<Directory Id="DirectXRedistDirectory" Name="DirectXPrereq">
+				<Component Id="DirectXRedist" Guid="{D9FBAD53-79F0-40C8-A75F-980AD8A4997A}">
+					<File Id="DXSETUPEXE" Source="$(var.DirectXRedistDir)\dxsetup.exe" KeyPath="yes" Checksum="yes">
+						<util:PermissionEx User="Everyone" GenericAll="yes" ChangePermission="yes" />
+					</File>
+					<File Id="dxupdate.cab" Source="$(var.DirectXRedistDir)\dxupdate.cab"/>
+					<File Id="dxdllreg_x86.cab" Source="$(var.DirectXRedistDir)\dxdllreg_x86.cab"/>
+					<File Id="dsetup32.dll" Source="$(var.DirectXRedistDir)\dsetup32.dll"/>
+					<File Id="dsetup.dll" Source="$(var.DirectXRedistDir)\dsetup.dll"/>
+					<File Id="APR2007_xinput_x64.cab" Source="$(var.DirectXRedistDir)\APR2007_xinput_x64.cab"/>
+					<File Id="Feb2010_X3DAudio_x64.cab" Source="$(var.DirectXRedistDir)\Feb2010_X3DAudio_x64.cab"/>
+					<File Id="Jun2010_D3DCompiler_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_D3DCompiler_43_x64.cab"/>
+					<File Id="Jun2010_d3dcsx_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dcsx_43_x64.cab"/>
+					<File Id="Jun2010_d3dx10_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx10_43_x64.cab"/>
+					<File Id="Jun2010_d3dx11_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx11_43_x64.cab"/>
+					<File Id="Jun2010_d3dx9_43_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_d3dx9_43_x64.cab"/>
+					<File Id="Jun2010_XAudio_x64.cab" Source="$(var.DirectXRedistDir)\Jun2010_XAudio_x64.cab"/>
+				</Component>
+			</Directory>
+		</DirectoryRef>
+
+		<!-- Adding installation of DirectX to the installation process -->
+		<Feature Id="DirectXRedist" Title="Installing DirectX" AllowAdvertise="yes" Display="expand" Level="1">
+			<ComponentRef Id="DirectXRedist"/>
+		</Feature>
+
+		<InstallExecuteSequence>
+
+			<!-- Stop the user from installing an older product version -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- Stop the user from installing the same product version -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+			<!-- Remove the old product before installing in case this is the same MSI build with isntallation to the same location. -->
+			<RemoveExistingProducts Before="InstallInitialize" />
+
+			<Custom Action="InstallDirectX" Before="InstallFinalize">
+				<![CDATA[NOT REMOVE]]>
+			</Custom>
+
+		</InstallExecuteSequence>
+
+		<!-- Setup install UI sequence -->
+		<InstallUISequence>
+
+			<!-- Abort install if no version of the exporter is selected -->
+			<Custom Action="WixExitEarlyWithSuccess" Before="ProgressDlg">NOT NAVISWORKS2023CHECKED AND NOT NAVISWORKS2022CHECKED AND NOT NAVISWORKS2021CHECKED AND NOT NAVISWORKS2020CHECKED AND NOT NAVISWORKS2019CHECKED</Custom>
+
+			<!-- Abort install if no supported version of Navisworks is installed -->
+			<Custom Action="NoNavisworksInstaller" Before="ValidateProductID">NOTFOUNDNAVISWORKS</Custom>
+
+			<!-- After searching for previously installed products, prevent downgrading -->
+			<Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+			<!-- After searching for previously installed products, prevent overwriting -->
+			<Custom Action="PreventSameVersionInstall" After="PreventDowngrading">ANOTHERBUILDINSTALLED</Custom>
+
+		</InstallUISequence>
+	</Product>
+
+	<Fragment>
+		<!-- Declaration of installation directory according to the version of Navisworks -->
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<!-- Install Autodesk plugin into C:\ProgramData\Autodesk\ApplicationPlugins -->
+			<Directory Id="CommonAppDataFolder">
+				<Directory Id="CommonAppDataManufacturerFolder" Name="Autodesk">
+					<Directory Id="AutodeskApplicationPluginsFolder" Name="ApplicationPlugins">
+						<Directory Id="ThePluginAppDataFolder" Name="$(var.PluginBundleFolderName)">
+							<Directory Id='ThePluginAppDataFolder_enUS' Name='en-US'/>
+						</Directory>
+					</Directory>
+				</Directory>
+			</Directory>
+			<Directory Id="TempFolder" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<!-- Declaration of installation file for each supported version of Navisworks -->
+		<Component Id="EXPORTERFOLDER" Directory="ThePluginAppDataFolder" Guid="{16C2AA53-C4DC-402E-9E33-561262CCDBB1}">
+			<File Id="DatasmithNavisworksPlugin2023DLL" Source="$(var.NavisworksBinDir)\2023\DatasmithNavisworksPlugin2023.dll" />
+			<File Id="DatasmithNavisworksUtil2023DLL" Source="$(var.NavisworksBinDir)\2023\DatasmithNavisworksUtil2023.dll" />
+			<File Id="DatasmithNavisworksPlugin2022DLL" Source="$(var.NavisworksBinDir)\2022\DatasmithNavisworksPlugin2022.dll" />
+			<File Id="DatasmithNavisworksUtil2022DLL" Source="$(var.NavisworksBinDir)\2022\DatasmithNavisworksUtil2022.dll" />
+			<File Id="DatasmithNavisworksPlugin2021DLL" Source="$(var.NavisworksBinDir)\2021\DatasmithNavisworksPlugin2021.dll" />
+			<File Id="DatasmithNavisworksUtil2021DLL" Source="$(var.NavisworksBinDir)\2021\DatasmithNavisworksUtil2021.dll" />
+			<File Id="DatasmithNavisworksPlugin2020DLL" Source="$(var.NavisworksBinDir)\2020\DatasmithNavisworksPlugin2020.dll" />
+			<File Id="DatasmithNavisworksUtil2020DLL" Source="$(var.NavisworksBinDir)\2020\DatasmithNavisworksUtil2020.dll" />
+			<File Id="DatasmithNavisworksPlugin2019DLL" Source="$(var.NavisworksBinDir)\2019\DatasmithNavisworksPlugin2019.dll" />
+			<File Id="DatasmithNavisworksUtil2019DLL" Source="$(var.NavisworksBinDir)\2019\DatasmithNavisworksUtil2019.dll" />
+			<File Id="FacadeDLL" Source="$(var.FacadeBinDir)\DatasmithFacadeCSharp.dll" />
+			<File Id="Facade_tbbDLL" Source="$(var.FacadeBinDir)\tbb.dll" />
+			<File Id="DatasmithNavisworksPackageContents" Source="$(var.ExporterSourceDir)\DatasmithNavisworksPlugin\PackageContents.xml" />
+			<File Id="DatasmithNavisworksHelp" Source="$(var.ExporterSourceDir)\DatasmithNavisworksPlugin\Help.htm" />
+			<File Id="DatasmithIcon" Source="$(var.ExporterSourceDir)\Resources\Windows\DatasmithIcon32.png" />
+		</Component>
+		<Component Id="EXPORTERFOLDER_ENUS" Directory="ThePluginAppDataFolder_enUS" Guid="{9D40AD79-B580-4C7D-A24B-D16B38FC5AF7}">
+			<File Id="DatasmithNavisworks_enUSName" Source="$(var.ExporterSourceDir)\Private\en-US\DatasmithNavisworksExporter.name" />
+			<File Id="DatasmithNavisworks_enUSXaml" Source="$(var.ExporterSourceDir)\Private\en-US\DatasmithNavisworksExporter.xaml" />
+		</Component>
+	</Fragment>
+
+</Wix>

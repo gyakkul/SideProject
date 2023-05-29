@@ -1,0 +1,109 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile.h
+#include "SourceFile.generated.h"
+
+UCLASS()
+class UPropertyTest
+{
+    GENERATED_BODY()
+public:
+    UPROPERTY()
+    enum ESearchCase Property1;
+
+    UPROPERTY()
+    TArray<TArray<int>> Property2;
+
+    UPROPERTY()
+    TSet<TArray<int>> Property5;
+
+    UPROPERTY()
+    TSet<TScriptInterface<UInterface>> Property6;
+
+    UPROPERTY()
+    TSet<FText> Property7;
+
+    UPROPERTY(Replicated)
+    TSet<int> Property8;
+
+    UPROPERTY()
+    TMap<TArray<int>, int> Property9;
+
+    UPROPERTY()
+    TMap<int, TArray<int>> Property10;
+
+    UPROPERTY()
+    TMap<TScriptInterface<UInterface>, int> Property11;
+
+    UPROPERTY()
+    TMap<FText, int> Property12;
+
+    UPROPERTY(Replicated)
+    TMap<int, int> Property13;
+
+    UPROPERTY()
+    TWeakObjectPtr<UClass> Property14;
+
+    UPROPERTY()
+    TLazyObjectPtr<UClass> Property15;
+
+    UPROPERTY()
+    TSoftObjectPtr<UClass> Property16;
+
+    UPROPERTY()
+    OnTheRoadAgain Property17;
+};
+
+UCLASS()
+class UFunctionTest
+{
+	GENERATED_BODY()
+public:
+
+	UFUNCTION(BlueprintCallable)
+	void Test1(int Arg=InvalidDefault);
+};
+!console
+5_resolve_property_phase_non_fatal_errors.uhttest(38)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Cannot declare enum at variable declaration
+5_resolve_property_phase_non_fatal_errors.uhttest(38)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: You cannot use the raw enum name as a type for member variables, instead use TEnumAsByte or a C++11 enum class with an explicit underlying type.
+5_resolve_property_phase_non_fatal_errors.uhttest(41)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'TArray<int32>' can not be used as a value in a TArray
+5_resolve_property_phase_non_fatal_errors.uhttest(44)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'TArray<int32>' can not be used as a key in a TSet
+5_resolve_property_phase_non_fatal_errors.uhttest(47)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'TScriptInterface<UInterface>' can not be used as a key in a TSet
+5_resolve_property_phase_non_fatal_errors.uhttest(50)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'FText' can not be used as a key in a TSet
+5_resolve_property_phase_non_fatal_errors.uhttest(53)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Replicated sets are not supported.
+5_resolve_property_phase_non_fatal_errors.uhttest(56)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'TArray<int32>' can not be used as a key in a TMap
+5_resolve_property_phase_non_fatal_errors.uhttest(59)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'TArray<int32>' can not be used as a value in a TMap
+5_resolve_property_phase_non_fatal_errors.uhttest(62)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'TScriptInterface<UInterface>' can not be used as a key in a TMap
+5_resolve_property_phase_non_fatal_errors.uhttest(65)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: The type 'FText' can not be used as a key in a TMap
+5_resolve_property_phase_non_fatal_errors.uhttest(68)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Replicated maps are not supported.
+5_resolve_property_phase_non_fatal_errors.uhttest(71)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Class variables cannot be weak, they are always strong.
+5_resolve_property_phase_non_fatal_errors.uhttest(74)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Class variables cannot be lazy, they are always strong.
+5_resolve_property_phase_non_fatal_errors.uhttest(77)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Class variables cannot be stored in TSoftObjectPtr, use TSoftClassPtr instead.
+5_resolve_property_phase_non_fatal_errors.uhttest(80)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: Unable to find 'class', 'delegate', 'enum', or 'struct' with name 'OnTheRoadAgain'
+5_resolve_property_phase_non_fatal_errors.uhttest(90)[Source\Runtime\CoreUObject\Public\UObject\SourceFile.h]: Error: C++ Default parameter not parsed: Arg 'InvalidDefault'

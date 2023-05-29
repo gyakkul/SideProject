@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+
+    <!-- Abort install if Solidworks is not installed -->
+    <CustomAction Id="NoSolidworksInstaller" Error="!(loc.ErrorNotInstalled)" />
+
+    <!-- Prevent downgrading -->
+    <CustomAction Id="PreventDowngrading" Error="!(loc.ErrorOlderVersionInstall)" />
+
+    <!-- Prevent overwriting -->
+    <CustomAction Id="PreventSameVersionInstall" Error="!(loc.ErrorSameVersionInstall)" />
+
+    <!-- Declaration of custom actions to evaluate the properties Solidworks201xDIR -->
+    <!-- See 'InstallExecuteSequence' section for their usage -->
+    <CustomAction Id="SETSolidworks2021DIR" Property="Solidworks2021DIR" Value="" />
+    <!-- <CustomAction Id="SETSolidworks2020DIR" Property="Solidworks2020DIR" Value="" />
+    <CustomAction Id="SETSolidworks2019DIR" Property="Solidworks2019DIR" Value="" />
+    <CustomAction Id="SETSolidworks2018DIR" Property="Solidworks2018DIR" Value="" /> -->
+
+    <CustomActionRef Id="WixExitEarlyWithSuccess" />
+    <!--
+    <CustomAction Id="InstallDirectX" FileKey="DXSETUPEXE" ExeCommand="/silent" Execute="deferred" Impersonate="no" Return="check"/>
+    -->
+
+    <Property Id="SOLIDWORKS2020INSTALLED">0</Property>
+    <Property Id="SOLIDWORKS2021INSTALLED">0</Property>
+    <Property Id="SOLIDWORKS2022INSTALLED">0</Property>
+    <Property Id="SOLIDWORKS2023INSTALLED">0</Property>
+    <!-- <Property Id="SOLIDWORKSTOOLSPATH"></Property> -->
+    <!--<Binary Id="SWExistsCA" SourceFile="$(env.REGISTRYKEYEXISTSCAPATH)" />-->
+	<Binary Id='SWExistsCA' SourceFile='$(var.RegistryKeyExistsCustomAction.TargetDir)$(var.RegistryKeyExistsCustomAction.TargetName).CA.dll' />
+	  
+    <CustomAction Id="CheckSolidworksInstalled" BinaryKey="SWExistsCA" DllEntry="CheckSolidworksInstalled" Execute="immediate" />
+
+  </Fragment>
+</Wix>

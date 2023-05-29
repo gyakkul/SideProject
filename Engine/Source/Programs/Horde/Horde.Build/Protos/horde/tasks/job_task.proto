@@ -1,0 +1,32 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+import "horde/messages/agent_workspace.proto";
+
+option csharp_namespace = "HordeCommon.Rpc.Tasks";
+
+// Task to execute a job. Passed as a payload in a new lease.
+message ExecuteJobTask {
+
+	// Unique id of the job to execute
+	string JobId = 1;
+
+	// Unique id of the batch to execute
+	string BatchId = 2;
+
+	// Unique id of the log to use for this task
+	string LogId = 5;
+
+	// Name of the job, for diagnostic purposes
+	string JobName = 6;
+
+	// The autosdk workspace to use for this job
+	AgentWorkspace AutoSdkWorkspace = 3;
+
+	// The agent workspace to use for this job
+	AgentWorkspace Workspace = 4;
+
+	// Executor to use for this job
+	string Executor = 7;
+}

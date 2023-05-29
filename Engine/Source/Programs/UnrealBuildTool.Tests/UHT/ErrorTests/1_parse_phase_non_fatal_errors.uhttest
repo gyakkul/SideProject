@@ -1,0 +1,487 @@
+!manifest test.uhtmanifest
+{
+    "IsGameTarget": true,
+    "RootLocalPath": "{$Root}",
+    "TargetName": "Test",
+    "ExternalDependenciesFile": "test.deps",
+    "Modules": [
+        {
+            "Name": "CoreUObject",
+            "ModuleType": "EngineRuntime",
+            "OverrideModuleType": "None",
+            "BaseDirectory": "Source\\Runtime\\CoreUObject",
+            "IncludeBase": "Source\\Runtime",
+            "OutputDirectory": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject",
+            "ClassesHeaders": [],
+            "PublicHeaders": [
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile02.h",
+                "Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile03.h"
+            ],
+            "InternalHeaders": [],
+            "PrivateHeaders": [],
+            "GeneratedCPPFilenameBase": "Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\CoreUObject\\CoreUObject.gen",
+            "SaveExportedHeaders": true,
+            "UHTGeneratedCodeVersion": "None"
+        }
+    ]
+}
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile01.h
+//#include "SourceFile.generated.h" // commented out to generate error
+
+UDELEGATE()
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(OWrongPrefixName, bool, bBoolean);
+
+UCLASS(DependsOn)
+class USomeClass : public UObject
+{
+    GENERATED_BODY()
+};
+
+UCLASS(meta=(Bob="Test1", Bob="Test2"))
+class USomeOtherClass : public UObject
+{
+    GENERATED_BODY();
+};
+
+UCLASS()
+class UFunctionNameTests : public UObject
+{
+    GENERATED_BODY();
+
+    UFUNCTION(Bobby)
+    void UnknownSpecifier();
+
+    UFUNCTION(Client = Client_InteractionUpdated, Reliable, WithValidation)
+    void Client_InteractionUpdated();
+
+    UFUNCTION(Client, Reliable, WithValidation = Client_InteractionUpdated2)
+    void Client_InteractionUpdated2();
+
+    UFUNCTION(ServiceRequest=(MCP, Id=9999999, ResponseId=999999, Priority=9999999))
+    void Client_InteractionUpdated3();
+
+    UFUNCTION(ServiceRequest)
+    void Client_InteractionUpdated4();
+
+    UFUNCTION(ServiceRequest=(MCP, BOB))
+    void Client_InteractionUpdated5();
+
+    UFUNCTION(Client, BlueprintNativeEvent, Reliable)
+    void Test1();
+
+    UFUNCTION(BlueprintImplementableEvent, BlueprintNativeEvent)
+    void Test2();
+
+    UFUNCTION(BlueprintGetter, BlueprintNativeEvent)
+    bool Test3(int& out);
+
+private:    
+    UFUNCTION(BlueprintNativeEvent)
+    void Test4();
+
+public:
+    UFUNCTION(Client, BlueprintImplementableEvent, Reliable)
+    void Test5();
+
+    UFUNCTION(BlueprintNativeEvent, BlueprintImplementableEvent)
+    void Test6();
+
+    UFUNCTION(BlueprintGetter, BlueprintImplementableEvent)
+    bool Test7(int& out);
+
+private:    
+    UFUNCTION(BlueprintImplementableEvent)
+    void Test8();
+
+public:
+    UFUNCTION(Client, Exec, Reliable)
+    void Test9();
+
+    UFUNCTION(BlueprintImplementableEvent, Client, Reliable)
+    void Test10();
+
+    UFUNCTION(Exec, Client, Reliable) // no error in this case
+    void Test11();
+
+    UFUNCTION(BlueprintImplementableEvent, Server, Reliable)
+    void Test12();
+
+    UFUNCTION(Exec, Server, Reliable)
+    void Test13();
+
+    UFUNCTION(BlueprintImplementableEvent, NetMulticast, Reliable)
+    void Test14();
+
+    UFUNCTION(ServiceRequest)
+    void Test15();
+
+    UFUNCTION(BlueprintImplementableEvent, ServiceRequest=MCP, Reliable)
+    void Test16();
+
+    UFUNCTION(ServiceResponse)
+    void Test17();
+
+    UFUNCTION(BlueprintImplementableEvent, ServiceResponse=MCP)
+    void Test18();
+
+    UFUNCTION(BlueprintNativeEvent, BlueprintGetter)
+    bool Test19(int& out);
+
+    UFUNCTION(BlueprintNativeEvent, BlueprintSetter)
+    bool Test20(int& out);
+};
+
+UENUM(Flags)
+enum Bob
+{
+    
+};
+
+UENUM()
+enum class Bob2 : Frank
+{
+    
+};
+
+UENUM(Meta=(BlueprintType))
+enum class Bob3 : int16
+{
+    
+};
+
+UCLASS(SparseClassDataTypes=(SomeTestClass,SomeTestClass))
+class UMultipleSparseValues
+{
+    GENERATED_BODY();
+};
+
+UCLASS(SparseClassDataTypes)
+class UNoSparseValues
+{
+    GENERATED_BODY();
+};
+
+UCLASS()
+class UPropertyTests
+{
+    GENERATED_BODY();
+public:
+
+#if WITH_EDITOR
+    UPROPERTY()
+    int Property1;
+#endif
+
+    UPROPERTY(EditAnywhere, EditInstanceOnly)
+    int Property2;
+
+    UPROPERTY(EditInstanceOnly, EditAnywhere)
+    int Property3;
+
+    UPROPERTY(EditDefaultsOnly, VisibleAnywhere)
+    int Property4;
+
+    UPROPERTY(VisibleAnywhere, EditDefaultsOnly)
+    int Property5;
+
+    UPROPERTY(VisibleInstanceOnly, VisibleDefaultsOnly)
+    int Property6;
+
+    UPROPERTY(VisibleDefaultsOnly, VisibleInstanceOnly)
+    int Property7;
+
+    UPROPERTY(BlueprintReadWrite, BlueprintReadOnly)
+    int Property8;
+
+    UPROPERTY(BlueprintReadOnly, BlueprintReadWrite)
+    int Property9;
+
+private:
+    UPROPERTY(BlueprintReadWrite)
+    int Property10;
+
+    UPROPERTY(BlueprintReadOnly)
+    int Property11;
+
+public:
+    UPROPERTY(BlueprintReadOnly, BlueprintSetter=Bob)
+    int Property12;
+
+    UPROPERTY(Localized)
+    int Property13;
+
+    UPROPERTY(NonPIETransient)
+    int Property14;
+
+    UPROPERTY(EditInline)
+    int Property15;
+
+    UPROPERTY(NotReplicated)
+    int Property16;
+
+    UPROPERTY(RepRetry)
+    int Property17;
+
+    UFUNCTION()
+    void TestFunc(UPARAM(NotReplicated) int Bob);
+
+    UFUNCTION()
+    const void TestFunc2(class int Bob);
+
+    UFUNCTION(Client)
+    void TestFunc3(int& TestFunctionArg);
+};
+
+USTRUCT()
+struct FPropertyTests
+{
+    GENERATED_BODY();
+
+#if WITH_EDITORONLY_DATA
+    UPROPERTY(BlueprintReadWrite)
+    int Property1;
+
+    UPROPERTY(BlueprintReadOnly)
+    int Property2;
+#endif
+
+    UPROPERTY(BlueprintSetter=Bob)
+    int Property3;
+
+    UPROPERTY(BlueprintGetter=Bob)
+    int Property4;
+
+    UPROPERTY(Replicated)
+    int Property5;
+
+    UPROPERTY(ReplicatedUsing=Bob)
+    int Property6;
+
+    UPROPERTY()
+    bool Property7 : 1;
+
+    UPROPERTY()
+    FLargeWorldCoordinatesReal Property8;
+
+    UPROPERTY()
+    const bool Property9;
+
+    UPROPERTY()
+    bool* Property10;
+
+    UPROPERTY(ReplicatedUsing="")
+    int Property11;
+
+	UPROPERTY()
+	int Property_DEPRECATED_12;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	int Property13_DEPRECATED;
+};
+
+UCLASS()
+class UNoGeneratedBody
+{
+};
+
+USTRUCT()
+struct FNoGeneratedBody
+{
+};
+
+UINTERFACE()
+class UNoGeneratedBodyInterface
+{
+};
+
+UCLASS()
+class USerializeTests
+{
+    GENERATED_BODY();
+
+#if !CPP
+	virtual void Serialize(FArchive&);
+#endif
+};
+
+UCLASS(DependsOn)
+class UDependsOnCheck
+{
+    GENERATED_BODY();
+};
+
+
+UINTERFACE()
+class FWrongPrefixOnInterface
+{
+    GENERATED_BODY();
+};
+
+UCLASS()
+class SOME_API UAPIVersionTest : public UObject
+{
+    GENERATED_BODY();
+public:
+
+    UFUNCTION()
+	SOME_API static void TestAPI();
+};
+
+UENUM()
+enum class ENoMetaEnum
+{
+	Value UMETA(),
+};
+
+USTRUCT()
+struct F
+{
+	GENERATED_BODY()
+};
+
+UCLASS()
+class U
+{
+	GENERATED_BODY()
+};
+
+UCLASS(meta=(FriendlyName="Test name"))
+class UTestRedirect
+{
+	GENERATED_BODY()
+};
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile02.h
+#include "SourceFile.generated.h"
+#include "CantIncludeAfterGenerated.h"
+
+#if CPP
+UPROPERTY()
+UCLASS()
+USTRUCT()
+UENUM()
+UINTERFACE()
+UDELEGATE()
+UFUNCTION()
+
+void Serialize(FArchive);
+void Serialize(FStructuredArchiveRecord);
+void Serialize(FStructuredArchive::FRecord);
+#endif
+!header Source\\Runtime\\CoreUObject\\Public\\UObject\\SourceFile03.h
+USTRUCT()
+struct FBobby : public Sam
+{
+    GENERATED_USTRUCT_BODY(VLatest)
+
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Reinstancing")
+    bool TestEvent2();
+
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Reinstancing")
+    bool TestEvent3()
+    {
+        return false;
+    }
+    
+    private:
+};
+!console
+1_parse_phase_non_fatal_errors.uhttest(32)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Expected an include at the top of the header the follows all other includes: '#include "SourceFile01.generated.h"'
+1_parse_phase_non_fatal_errors.uhttest(35)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Delegate type declarations must start with F
+1_parse_phase_non_fatal_errors.uhttest(38)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: The dependsOn specifier is deprecated. Please use #include "ClassHeaderFilename.h" instead.
+1_parse_phase_non_fatal_errors.uhttest(43)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Metadata key 'Bob' first seen with value 'Test1' then 'Test2'
+1_parse_phase_non_fatal_errors.uhttest(54)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Unknown specifier 'Bobby' found while parsing function specifiers
+1_parse_phase_non_fatal_errors.uhttest(57)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Native implementation function must be different than original function name.
+1_parse_phase_non_fatal_errors.uhttest(60)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Validation function must be different than original function name.
+1_parse_phase_non_fatal_errors.uhttest(63)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Invalid network identifier Id for function
+1_parse_phase_non_fatal_errors.uhttest(63)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Invalid network identifier ResponseId for function
+1_parse_phase_non_fatal_errors.uhttest(63)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Invalid network identifier Priority for function
+1_parse_phase_non_fatal_errors.uhttest(66)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: ServiceRequest needs to specify an endpoint name
+1_parse_phase_non_fatal_errors.uhttest(69)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function should not specify multiple endpoints - 'BOB' found but already using 'MCP'
+1_parse_phase_non_fatal_errors.uhttest(72)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintNativeEvent functions cannot be replicated!
+1_parse_phase_non_fatal_errors.uhttest(75)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: A Private function cannot be a BlueprintImplementableEvent!
+1_parse_phase_non_fatal_errors.uhttest(75)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: A function cannot be both BlueprintNativeEvent and BlueprintImplementableEvent!
+1_parse_phase_non_fatal_errors.uhttest(78)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: A function cannot be both BlueprintNativeEvent and a Blueprint Property accessor!
+1_parse_phase_non_fatal_errors.uhttest(82)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: A Private function cannot be a BlueprintNativeEvent!
+1_parse_phase_non_fatal_errors.uhttest(86)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintImplementableEvent functions cannot be replicated!
+1_parse_phase_non_fatal_errors.uhttest(89)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: A function cannot be both BlueprintNativeEvent and BlueprintImplementableEvent!
+1_parse_phase_non_fatal_errors.uhttest(92)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: A function cannot be both BlueprintImplementableEvent and a Blueprint Property accessor!
+1_parse_phase_non_fatal_errors.uhttest(96)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: A Private function cannot be a BlueprintImplementableEvent!
+1_parse_phase_non_fatal_errors.uhttest(100)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Exec functions cannot be replicated!
+1_parse_phase_non_fatal_errors.uhttest(103)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintImplementableEvent or BlueprintNativeEvent functions cannot be declared as Client or Server
+1_parse_phase_non_fatal_errors.uhttest(106)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Exec functions cannot be replicated!
+1_parse_phase_non_fatal_errors.uhttest(109)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintImplementableEvent or BlueprintNativeEvent functions cannot be declared as Client or Server
+1_parse_phase_non_fatal_errors.uhttest(112)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Exec functions cannot be replicated!
+1_parse_phase_non_fatal_errors.uhttest(115)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintImplementableEvent or BlueprintNativeEvent functions cannot be declared as Multicast
+1_parse_phase_non_fatal_errors.uhttest(118)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: ServiceRequest needs to specify an endpoint name
+1_parse_phase_non_fatal_errors.uhttest(121)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintImplementableEvent or BlueprintNativeEvent functions cannot be declared as a ServiceRequest
+1_parse_phase_non_fatal_errors.uhttest(124)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: ServiceResponse needs to specify an endpoint name
+1_parse_phase_non_fatal_errors.uhttest(127)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintImplementableEvent or BlueprintNativeEvent functions cannot be declared as a ServiceResponse
+1_parse_phase_non_fatal_errors.uhttest(130)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function cannot be a blueprint event and a blueprint getter.
+1_parse_phase_non_fatal_errors.uhttest(133)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Function cannot be a blueprint event and a blueprint setter.
+1_parse_phase_non_fatal_errors.uhttest(138)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: The 'Flags' specifier can only be used on enum classes
+1_parse_phase_non_fatal_errors.uhttest(144)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Unsupported enum class base type 'Frank'
+1_parse_phase_non_fatal_errors.uhttest(149)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: 'Bob3' does not have a 0 entry! (This is a problem when the enum is initialized by default)
+1_parse_phase_non_fatal_errors.uhttest(150)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Invalid BlueprintType enum base - currently only uint8 supported
+1_parse_phase_non_fatal_errors.uhttest(155)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: The specifier 'SparseClassDataTypes' expects a single value in class specifiers
+1_parse_phase_non_fatal_errors.uhttest(161)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: The specifier 'SparseClassDataTypes' expects a single value in class specifiers
+1_parse_phase_non_fatal_errors.uhttest(174)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: UProperties should not be wrapped by WITH_EDITOR, use WITH_EDITORONLY_DATA instead.
+1_parse_phase_non_fatal_errors.uhttest(178)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found more than one edit/visibility specifier (EditInstanceOnly), only one is allowed
+1_parse_phase_non_fatal_errors.uhttest(181)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found more than one edit/visibility specifier (EditAnywhere), only one is allowed
+1_parse_phase_non_fatal_errors.uhttest(184)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found more than one edit/visibility specifier (VisibleAnywhere), only one is allowed
+1_parse_phase_non_fatal_errors.uhttest(187)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found more than one edit/visibility specifier (EditDefaultsOnly), only one is allowed
+1_parse_phase_non_fatal_errors.uhttest(190)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found more than one edit/visibility specifier (VisibleDefaultsOnly), only one is allowed
+1_parse_phase_non_fatal_errors.uhttest(193)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Found more than one edit/visibility specifier (VisibleInstanceOnly), only one is allowed
+1_parse_phase_non_fatal_errors.uhttest(196)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Cannot specify both BlueprintReadOnly and BlueprintReadWrite or BlueprintSetter.
+1_parse_phase_non_fatal_errors.uhttest(199)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Cannot specify a property as being both BlueprintReadOnly and BlueprintReadWrite.
+1_parse_phase_non_fatal_errors.uhttest(203)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintReadWrite should not be used on private members
+1_parse_phase_non_fatal_errors.uhttest(206)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: BlueprintReadOnly should not be used on private members
+1_parse_phase_non_fatal_errors.uhttest(210)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Cannot specify a property as being both BlueprintReadOnly and having a BlueprintSetter.
+1_parse_phase_non_fatal_errors.uhttest(213)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: The Localized specifier is deprecated
+1_parse_phase_non_fatal_errors.uhttest(216)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: NonPIETransient is deprecated - NonPIEDuplicateTransient should be used instead
+1_parse_phase_non_fatal_errors.uhttest(219)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: EditInline is deprecated. Remove it, or use Instanced instead.
+1_parse_phase_non_fatal_errors.uhttest(222)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Only Struct members can be marked NotReplicated
+1_parse_phase_non_fatal_errors.uhttest(225)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: 'RepRetry' is deprecated.
+1_parse_phase_non_fatal_errors.uhttest(229)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Only parameters in service request functions can be marked NotReplicated
+1_parse_phase_non_fatal_errors.uhttest(232)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Inappropriate keyword 'class' on variable of type 'int'
+1_parse_phase_non_fatal_errors.uhttest(244)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint exposed struct members cannot be editor only
+1_parse_phase_non_fatal_errors.uhttest(247)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Blueprint exposed struct members cannot be editor only
+1_parse_phase_non_fatal_errors.uhttest(251)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Cannot specify BlueprintSetter for a struct member.
+1_parse_phase_non_fatal_errors.uhttest(254)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Cannot specify BlueprintGetter for a struct member.
+1_parse_phase_non_fatal_errors.uhttest(257)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Struct members cannot be replicated
+1_parse_phase_non_fatal_errors.uhttest(260)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Struct members cannot be replicated
+1_parse_phase_non_fatal_errors.uhttest(264)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: bool bitfields are not supported.
+1_parse_phase_non_fatal_errors.uhttest(267)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: FLargeWorldCoordinatesReal is intended for LWC support only and should not be used outside of NoExportTypes.h
+1_parse_phase_non_fatal_errors.uhttest(270)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Const properties are not supported.
+1_parse_phase_non_fatal_errors.uhttest(273)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Inappropriate '*' on variable of type 'bool', cannot have an exposed pointer to this type.
+1_parse_phase_non_fatal_errors.uhttest(275)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Struct members cannot be replicated
+1_parse_phase_non_fatal_errors.uhttest(275)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Must specify a valid function name for replication notifications
+1_parse_phase_non_fatal_errors.uhttest(279)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Deprecated variables must end with _DEPRECATED
+1_parse_phase_non_fatal_errors.uhttest(282)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Member variable declaration: Deprecated property 'Property13_DEPRECATED' should not be marked as blueprint visible without having a BlueprintGetter
+1_parse_phase_non_fatal_errors.uhttest(282)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Member variable declaration: Deprecated property 'Property13_DEPRECATED' should not be marked as blueprint writable without having a BlueprintSetter
+1_parse_phase_non_fatal_errors.uhttest(282)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Member variable declaration: Deprecated property 'Property13_DEPRECATED' should not be marked as visible or editable
+1_parse_phase_non_fatal_errors.uhttest(288)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Expected a GENERATED_BODY() at the start of the class
+1_parse_phase_non_fatal_errors.uhttest(293)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Expected a GENERATED_BODY() at the start of the struct
+1_parse_phase_non_fatal_errors.uhttest(298)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Expected a GENERATED_BODY() at the start of the interface
+1_parse_phase_non_fatal_errors.uhttest(300)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Serialize functions must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(311)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: The dependsOn specifier is deprecated. Please use #include "ClassHeaderFilename.h" instead.
+1_parse_phase_non_fatal_errors.uhttest(318)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Interface name 'FWrongPrefixOnInterface' is invalid, the first class should be identified as 'UWrongPrefixOnInterface'
+1_parse_phase_non_fatal_errors.uhttest(330)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: Unexpected API macro 'SOME_API'. Did you mean to put 'SOME_API' after the static keyword?
+1_parse_phase_non_fatal_errors.uhttest(336)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: No metadata specified while parsing UENUM metadata
+1_parse_phase_non_fatal_errors.uhttest(340)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: When compiling struct definition for 'F', attempting to strip prefix results in an empty name. Did you leave off a prefix?
+1_parse_phase_non_fatal_errors.uhttest(346)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Error: When compiling class definition for 'U', attempting to strip prefix results in an empty name. Did you leave off a prefix?
+1_parse_phase_non_fatal_errors.uhttest(351)[Source\Runtime\CoreUObject\Public\UObject\SourceFile01.h]: Warning: Remapping old metadata key 'FriendlyName' to new key 'DisplayName', please update the declaration.
+1_parse_phase_non_fatal_errors.uhttest(361)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: 'UPROPERTY' must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(362)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: 'UCLASS' must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(363)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: 'USTRUCT' must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(364)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: 'UENUM' must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(365)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: 'UINTERFACE' must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(366)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: 'UDELEGATE' must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(367)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: 'UFUNCTION' must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(369)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: Engine serialization functions must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(370)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: Engine serialization functions must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(371)[Source\Runtime\CoreUObject\Public\UObject\SourceFile02.h]: Error: Engine serialization functions must not be inside preprocessor blocks, except for WITH_EDITORONLY_DATA
+1_parse_phase_non_fatal_errors.uhttest(379)[Source\Runtime\CoreUObject\Public\UObject\SourceFile03.h]: Error: Invalid use of keyword 'UFUNCTION'.  It may only appear in Class, IInterface, and Interface scopes
+1_parse_phase_non_fatal_errors.uhttest(382)[Source\Runtime\CoreUObject\Public\UObject\SourceFile03.h]: Error: Invalid use of keyword 'UFUNCTION'.  It may only appear in Class, IInterface, and Interface scopes

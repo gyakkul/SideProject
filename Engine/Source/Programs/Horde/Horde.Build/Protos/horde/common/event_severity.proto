@@ -1,0 +1,15 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde.EventSeverityType;
+
+option csharp_namespace = "HordeCommon";
+
+enum EventSeverity {
+
+	Unspecified = 0;
+	Information = 1;
+	Warning = 2;
+	Error = 3;
+}

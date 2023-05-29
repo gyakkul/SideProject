@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<!-- Make it easy to set the ProductVersion via an automated script -->
+	<!--DO NOT EDIT--><?define MajorVersion=5?>
+	<!--DO NOT EDIT--><?define MinorVersion=2?>
+	<!--DO NOT EDIT--><?define PatchVersion=0?>
+	<!--DO NOT EDIT--><?define BuildVersion=0?>
+</Include>

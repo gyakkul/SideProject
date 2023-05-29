@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" 
+     xmlns:bal="http://schemas.microsoft.com/wix/BalExtension"
+     xmlns:util='http://schemas.microsoft.com/wix/UtilExtension'>
+
+ <?define ProductVersion="1.0.18.0" ?>
+
+  <?define Manufacturer="Epic Games, Inc."?>
+  <?define Copyright="Copyright Epic Games, Inc."?>
+  <?if $(var.Platform) = x64 ?>
+    <?define ProductName = "UE Prerequisites (x64)" ?>
+  <!--DO NOT EDIT--><?define UpgradeCode="{0CFF5A00-B93C-4AFD-868F-A35A5A2CAC82}"?>
+  <?else ?>
+    <?define ProductName = "UE Prerequisites (x86)" ?>
+    <!--DO NOT EDIT--><?define UpgradeCode="{4AAC2F12-D25F-2CAE-381D-B32ABA1CAC11}"?>
+  <?endif ?>
+  
+  <Bundle Name="$(var.ProductName)" 
+          Version="$(var.ProductVersion)" 
+          Manufacturer="$(var.Manufacturer)"
+          Copyright="$(var.Copyright)"
+          IconSourceFile="..\Resources\Setup.ico"
+          UpgradeCode="$(var.UpgradeCode)"
+          DisableModify="yes"
+          DisableRemove="yes">
+
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense">
+      <bal:WixStandardBootstrapperApplication
+        LicenseFile="..\Resources\Prereq bundle EULA.rtf"
+        ThemeFile="..\Resources\RtfSidebarTheme.xml"
+        SuppressDowngradeFailure="yes"
+      />
+
+      <Payload SourceFile="..\Resources\LogoSide.png"/>
+      <Payload SourceFile="..\Resources\Banner.bmp"/>
+    </BootstrapperApplicationRef>
+
+    <?if $(var.Platform) = x64 ?>
+      <bal:Condition Message="This installation package is not supported by this processor type.">
+        VersionNT64
+      </bal:Condition>
+    <?endif ?>
+
+    <Chain>
+      <!-- Note: We are required to check for and install .NET 2.0 on 32bit Windows XP as a wokaround for a bug in DX11 redist(DXSetup).  If we were to only install .NET 4.0 on 32bit winxp, DXSetup would fail to run properly.  -->
+      <PackageGroupRef Id="NetFx20" />
+      <PackageGroupRef Id="NetFx40Redist" />
+      <PackageGroupRef Id="WindowsInstaller45" />
+      <PackageGroupRef Id="VisualStudioRedist" />
+      <RollbackBoundary />
+      <MsiPackage Id="PrereqSetup" 
+                  Compressed="yes"
+                  SourceFile="$(var.PrereqSetup.TargetPath)" 
+                  DisplayInternalUI="no"
+                  Vital="yes"
+                  Visible="no"/>
+
+    </Chain>
+  </Bundle>
+ 
+  <Fragment>
+    <util:RegistrySearch Root="HKLM" Key="SOFTWARE\Microsoft\Net Framework Setup\NDP\v2.0.50727" Value="Version" Variable="Netfx20Version" />
+    <util:RegistrySearch Root="HKCR" Key="Installer\Assemblies\Global" Value="Microsoft.mshtml,Version=&quot;7.0.3300.0&quot;,PublicKeyToken=&quot;b03f5f7f11d50a3a&quot;,Culture=&quot;neutral&quot;,FileVersion=&quot;7.0.3300.0&quot;" Result="exists" Variable="MshtmlVersion" />
+
+    <PackageGroup Id="NetFx20">
+      <ExePackage 
+        Id="NetFx20_32"
+        Cache="no"
+        Compressed="no"
+        PerMachine="yes"
+        Permanent="yes"
+        Vital="yes"
+        DownloadUrl="http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x86.exe"
+        InstallCommand="/q /norestart /lang:ENU"
+        RepairCommand="/q /norestart /lang:ENU"
+        UninstallCommand="/q /norestart /lang:ENU"
+        InstallCondition="VersionNT=v5.1 AND NOT VersionNT64 AND (NOT Netfx20Version OR (Netfx20Version &lt; v2.0.50727.5420))"
+        DetectCondition="Netfx20Version AND (Netfx20Version &gt;= v2.0.50727.5420)"
+        Name="redist\NetFx20SP2_x86.exe">
+        <RemotePayload 
+          CertificatePublicKey="F321408E7C51F8544B98E517D76A8334052E26E8" 
+          CertificateThumbprint="D57FAC60F1A8D34877AEB350E83F46F6EFC9E5F1" 
+          Description="Microsoft .NET Framework 2.0 SP2 Setup" 
+          Hash="22D776D4D204863105A5DB99E8B8888BE23C61A7" 
+          ProductName="Microsoft .NET Framework 2.0 SP2" 
+          Size="25001480" 
+          Version="2.2.30729.1" />
+        <ExitCode Value ="3010" Behavior="forceReboot" />
+      </ExePackage>
+<!--
+      <ExePackage 
+        Id="NetFx20_64"
+        Cache="no"
+        Compressed="no"
+        PerMachine="yes"
+        Permanent="yes"
+        Vital="yes"
+        DownloadUrl="http://download.microsoft.com/download/c/6/e/c6e88215-0178-4c6c-b5f3-158ff77b1f38/NetFx20SP2_x64.exe"
+        InstallCommand="/q /norestart /lang:ENU"
+        RepairCommand="/q /norestart /lang:ENU"
+        UninstallCommand="/q /norestart /lang:ENU"
+        InstallCondition="VersionNT64 AND (NOT Netfx20Version OR (Netfx20Version &lt; v2.0.50727.5420))"
+        DetectCondition="Netfx20Version AND (Netfx20Version &gt;= v2.0.50727.5420)"
+        Name="redist\NetFx20SP2_x64.exe">
+        <RemotePayload 
+          CertificatePublicKey="F321408E7C51F8544B98E517D76A8334052E26E8" 
+          CertificateThumbprint="D57FAC60F1A8D34877AEB350E83F46F6EFC9E5F1" 
+          Description="Microsoft .NET Framework 2.0 SP2 Setup" 
+          Hash="A7CC6C6E5A4AD9CDF3DF16A7D277EB09FEC429B7" 
+          ProductName="Microsoft .NET Framework 2.0 SP2" 
+          Size="48524296" 
+          Version="2.2.30729.1" />
+        <ExitCode Value ="3010" Behavior="forceReboot" />
+      </ExePackage>
+-->
+    </PackageGroup>
+  </Fragment>
+    
+
+  <!-- Windows installer 4.5 prereq.  Info for which installers are required for each OS can be found here( http://support.microsoft.com/kb/942288 ) and 
+        OS version info here( http://msdn.microsoft.com/en-gb/library/windows/desktop/ms724832%28v=vs.85%29.aspx )-->
+  <Fragment>
+    <PackageGroup Id="WindowsInstaller45">
+      
+      <!-- Windows XP SP2 32bit -->
+      <ExePackage
+          Id="WI45_XP_v3_X86"
+          Cache="no"
+          Compressed="no"
+          PerMachine="yes"
+          Permanent="yes"
+          Vital="yes"
+          Name="redist\WindowsXP-KB942288-v3-x86.exe"
+          DownloadUrl="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/WindowsXP-KB942288-v3-x86.exe"
+          InstallCondition="VersionNT=v5.1 AND NOT VersionNT64 AND VersionMsi &lt; v4.5"
+          InstallCommand="/quiet /norestart">
+        <RemotePayload 
+          CertificatePublicKey="F321408E7C51F8544B98E517D76A8334052E26E8" 
+          CertificateThumbprint="D57FAC60F1A8D34877AEB350E83F46F6EFC9E5F1" 
+          Description="Windows Installer 4.5 Redistributable" 
+          Hash="86E1CC622DBF4979717B8F76AD73220CDB70400B" 
+          ProductName="Windows Installer 4.5" 
+          Size="3327000" 
+          Version="4.5.0.0" />
+        <ExitCode Behavior="forceReboot"/>
+      </ExePackage>
+      
+      <!-- Windows XP SP3 64bit  AND  Windows Server 2003 SP2 64bit -->
+      <ExePackage
+          Id="WI45_XP_v4_X64"
+          Cache="no"
+          Compressed="no"
+          PerMachine="yes"
+          Permanent="yes"
+          Vital="yes"
+          Name="redist\WindowsServer2003-KB942288-v4-x64.exe"
+          DownloadUrl="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/WindowsServer2003-KB942288-v4-x64.exe"
+          InstallCondition="VersionNT=v5.2 AND VersionNT64 AND VersionMsi &lt; v4.5"
+          InstallCommand="/quiet /norestart">
+        <RemotePayload 
+          CertificatePublicKey="F321408E7C51F8544B98E517D76A8334052E26E8" 
+          CertificateThumbprint="D57FAC60F1A8D34877AEB350E83F46F6EFC9E5F1" 
+          Description="Windows Installer 4.5 Redistributable" 
+          Hash="9724F8B3C12FADEEE26CD68E139F515CEE28ACEE" 
+          ProductName="Windows Installer 4.5" 
+          Size="4691480" 
+          Version="4.5.0.0" />
+        <ExitCode Behavior="forceReboot"/>
+      </ExePackage>
+
+      <!-- Windows Vista 32bit -->
+      <MsuPackage
+          Cache="no"
+          Compressed="no"
+          Permanent="yes"
+          Vital="yes"
+          KB="KB942288"
+          SourceFile="..\Resources\WindowsInstaller45\Windows6.0-KB942288-v2-x86.msu"
+          DownloadUrl="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/Windows6.0-KB942288-v2-x86.msu"
+          InstallCondition="VersionNT=v6.0 AND NOT VersionNT64 AND VersionMsi &lt; v4.5"/>
+
+      <!-- Windows Vista SP1 64bit -->
+      <MsuPackage
+          Cache="no"
+          Compressed="no"
+          Permanent="yes"
+          Vital="yes"
+          KB="KB942288"
+          SourceFile="..\Resources\WindowsInstaller45\Windows6.0-KB942288-v2-x64.msu"
+          DownloadUrl="http://download.microsoft.com/download/2/6/1/261fca42-22c0-4f91-9451-0e0f2e08356d/Windows6.0-KB942288-v2-x64.msu"
+          InstallCondition="VersionNT=v6.0 AND VersionNT64 AND VersionMsi &lt; v4.5"/>
+
+    </PackageGroup>
+  </Fragment>
+
+  <Fragment>
+    <PackageGroup Id="VisualStudioRedist">
+      <ExePackage
+        Id="VisualStudioRedist_X86"
+        Cache="yes"
+        PerMachine="yes"
+        Permanent="yes"
+        Vital="yes"
+        Compressed="yes"
+        SourceFile="..\Resources\VCRedist\VC_redist.x86.exe"
+        InstallCommand="/quiet /norestart"
+        InstallCondition="VersionNT>=v5.1"
+        Protocol="burn">
+        <ExitCode Behavior="success" Value="0"/>
+        <ExitCode Behavior="success" Value="1638"/>
+      </ExePackage>
+
+      <?if $(var.Platform) = x64 ?>
+      <ExePackage
+        Id="VisualStudioRedist_X64"
+        Cache="yes"
+        PerMachine="yes"
+        Permanent="yes"
+        Vital="yes"
+        Compressed="yes"
+        SourceFile="..\Resources\VCRedist\VC_redist.x64.exe"
+        InstallCommand="/quiet /norestart"
+        InstallCondition="VersionNT>=v5.2 AND VersionNT64"
+        Protocol="burn">
+        <ExitCode Behavior="success" Value="0"/>
+        <ExitCode Behavior="success" Value="1638"/>
+      </ExePackage>
+      <?endif ?>
+    </PackageGroup>
+
+
+    <!--VersionNT=v5.2 AND VersionNT64--> 
+
+  </Fragment>
+  
+</Wix>

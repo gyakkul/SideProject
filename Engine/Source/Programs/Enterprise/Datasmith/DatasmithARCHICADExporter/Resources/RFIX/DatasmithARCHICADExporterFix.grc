@@ -1,0 +1,60 @@
+﻿// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "ResourcesIDs.h"
+
+'MDID' kAddOnIdentifier "Add-On Identifier" {
+	kEpicGamesDevId
+	kDatasmithExporterId
+}
+
+'GICN' kPictureSplashScreen "SplashScreen" {
+"SplashScreen_DS"
+}
+
+'GICN' kIconSnapshot "DatasmithSyncIcon 16 & 32" {
+"DatasmithSyncIcon"
+}
+
+'GICN' kIconConnections "DatasmithManageConnectionsIcon 16 & 32" {
+"DatasmithManageConnectionsIcon"
+}
+
+'GICN' kIconExport3D "DatasmithExportIcon 16 & 32" {
+"DatasmithExportIcon"
+}
+
+'GICN' kIconMessages "DatasmithLogIcon 16 & 32" {
+"DatasmithLogIcon"
+}
+
+#if AUTO_SYNC
+'GICN' kIconAutoSync "AutoSyncIcon 16 & 32" {
+"AutoSyncIcon"
+}
+#endif
+
+'GICN' kIconDS "DatasmithIcon 32 & 64" {
+"DatasmithIcon"
+}
+
+'GICN' kIconFolder "FolderIcon 14 & 28" {
+"FolderIcon"
+}
+
+'GICN' kIconArrowGoto "ArrowGoToIcon 16 & 32" {
+"ArrowGoToIcon"
+}
+
+'GICN' kIconDSFile "DatasmithFileIcon 128x128" {
+"DatasmithFileIcon"
+}
+
+
+#include "en.lproj/DatasmithARCHICADExporter.grc"
+#include "fr.lproj/DatasmithARCHICADExporter.grc"
+#include "zh-Hans.lproj/DatasmithARCHICADExporter.grc"
+#include "de.lproj/DatasmithARCHICADExporter.grc"
+#include "ja.lproj/DatasmithARCHICADExporter.grc"
+#include "ko.lproj/DatasmithARCHICADExporter.grc"
+#include "pt-PT.lproj/DatasmithARCHICADExporter.grc"
+#include "es.lproj/DatasmithARCHICADExporter.grc"

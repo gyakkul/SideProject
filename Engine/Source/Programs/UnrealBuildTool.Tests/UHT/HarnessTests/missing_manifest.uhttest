@@ -1,0 +1,2 @@
+!console
+missing_manifest.uhttest(1): Error: There must be a manifest section in a test script

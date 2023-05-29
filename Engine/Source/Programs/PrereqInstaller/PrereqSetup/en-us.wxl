@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="en-us" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+
+  <!-- Displayed on the welcome page -->
+  <String Id="WelcomeDlgTitle">{\WixUI_Font_Bigger}Welcome to the prerequisites setup program!</String>
+  <String Id="WelcomeDlgDescription">Click the Next button below to get started.</String>
+
+  <!-- Displayed when the user cancels the install -->
+  <String Id="UserExitTitle">{\WixUI_Font_Bigger}Prerequisites install cancelled</String>
+  <String Id="UserExitDescription1">No changes were made to your system.  To install prerequisites later, simply run the installation program again.</String>
+  <String Id="UserExitDescription2">Click Finish to exit.</String>
+
+  <!-- Displayed above the progress bar when installing -->
+  <String Id="ProgressDlgTitleInstalling">{\WixUI_Font_Title}Installing [ProductName]</String>
+  <String Id="ProgressDlgTextInstalling">Prerequisite files are being installed.  This should only take a few minutes.</String>
+
+  <!-- Displayed after a successful setup completion, right before the user exits the setup utility. -->
+  <String Id="ExitDialogTitleInstall">{\WixUI_Font_Bigger}Prerequisites are installed and ready to use!</String>
+  <String Id="ExitDialogTitleGeneric">{\WixUI_Font_Bigger}Prerequisites setup has completed successfully.</String>
+  
+  <!-- Launch condition messages -->
+  <String Id="LaunchCondMissingWinXPSP3" Overridable="yes">"Microsoft Windows XP Service Pack 3 is required when installing on Windows XP.  Please install SP3 and run the installer again."</String>
+  <String Id="LaunchCondMissingWinVistaSP2" Overridable="yes">"Microsoft Windows Vista Service Pack 2 is required when installing on Windows Vista.  Please install SP2 and run the installer again."</String>
+
+</WixLocalization>

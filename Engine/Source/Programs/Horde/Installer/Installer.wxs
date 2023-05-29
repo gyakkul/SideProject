@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+	<Product Id='5A4207BE-CED6-491E-9C7D-D73C566B7BEF' Name='Horde' Language='1033' Version='!(bind.fileVersion.HordeServer.exe)' Manufacturer='Epic Games, Inc.' UpgradeCode='5A4207BE-CED6-491E-9C7E-D73C566B7BEF'>
+
+		<Package Description='Horde' Manufacturer='Epic Games, Inc.' InstallerVersion='200' Compressed='yes' />
+<!--
+		<Property Id="WIXUI_INSTALLDIR" Value="MyDir" />
+		<UIRef Id="WixUI_FeatureTree" />
+-->
+		<Media Id='1' Cabinet='product.cab' EmbedCab='yes' />
+
+		<!-- Directories -->
+		<Directory Id='TARGETDIR' Name='SourceDir'>
+			<Directory Id='ProgramFiles64Folder'>
+				<Directory Id='InstallDir' Name='Horde'>
+					<Directory Id='ServerInstallDir' Name='Server'/>
+				</Directory>
+			</Directory>
+			<Directory Id="ProgramMenuFolder">
+				<Directory Id="ApplicationProgramsFolder" Name="Horde"/>
+			</Directory>
+		</Directory>
+
+		<!-- Server -->
+		<DirectoryRef Id="ServerInstallDir">
+			<Component Id="HordeServerExeComponent" Guid="*">
+				<File Id="HordeServer.exe" KeyPath="yes" Source="$(var.StagingDir)\Server\HordeServer.exe" />
+			</Component>
+		</DirectoryRef>
+		<DirectoryRef Id="ApplicationProgramsFolder">
+			<Component Id="HordeServerShortcutComponent" Guid="*">
+				<Shortcut Id="HordeServerShortcut" Name="Horde Server" Description="Launches a local instance of the Horde server" Target="[#HordeServer.exe]" Arguments="/Horde:OpenBrowser=true" WorkingDirectory="ServerInstallDir"/>
+				<RemoveFolder Id="CleanUpHordeServerShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
+				<RegistryValue Root="HKCU" Key="Software\Epic Games\Horde" Name="server" Type="integer" Value="1" KeyPath="yes"/>
+			</Component>
+		</DirectoryRef>
+		<Feature Id='HordeServer' Title='Horde Server' Level='1'>
+			<ComponentGroupRef Id="HordeServerFiles"/>
+			<ComponentRef Id="HordeServerExeComponent"/>
+			<ComponentRef Id="HordeServerShortcutComponent"/>
+		</Feature>
+		
+	</Product>
+</Wix>

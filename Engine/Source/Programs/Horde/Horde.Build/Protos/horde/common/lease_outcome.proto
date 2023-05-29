@@ -1,0 +1,22 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde.LeaseOutcomeType;
+
+option csharp_namespace = "HordeCommon";
+
+enum LeaseOutcome {
+
+	// Default value.
+	Unspecified = 0;
+
+	// The lease was executed successfully
+	Success = 1;
+
+	// The lease was not executed succesfully, but cannot be run again.
+	Failed = 2;
+
+	// The lease was cancelled by request
+	Cancelled = 4;
+}

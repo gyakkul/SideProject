@@ -1,0 +1,251 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+#include "ResourcesIDs.h"
+
+'STR#' ResIdLoc(kLangJapanese, kStrLanguageName) "Language name" {
+/* [  1] */		"日本語"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListSyncPlugInDescription) "Add-on Name and Description" {
+/* [  1] */		"Datasmith for ARCHICAD"
+/* [  2] */		"Datasmithで ARCHICAD ジオメトリを同期する"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListFileTypes) "File type strings" {
+/* [  1] */		"Datasmith ファイル"
+/* [  2] */		"ue/udatasmith"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuDatasmith) "Palettes menu item" {
+/* [  1] */		"Datasmith^E3^ES^EE^EI^ED^EL^EW^ET^32600" /* kIconDS */
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuDatasmithHelp) "Palettes menu item help" {
+/* [  1] */		"Show Datasmith Palette"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemSnapshot) "Menu item snapshot" {
+ADDON_MENU_TITLE
+/* [  1] */		"Synchronize^E3^D2^32510"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemSnapshotHelp) "Menu item snapshot help" {
+ADDON_MENU_TITLE
+/* [  1] */		"Sync an active 3D View with Direct Link"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemConnections) "Menu item connections" {
+ADDON_MENU_TITLE
+/* [  2] */		"Connections...^E3^ES^EE^EI^ED^EL^EW^ET^32511"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemConnectionsHelp) "Menu item connections help" {
+ADDON_MENU_TITLE
+/* [  2] */		"Manage connections"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemExport) "Menu item export" {
+ADDON_MENU_TITLE
+/* [  3] */		"Export 3D View...^E3^D2^32512"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemExportHelp) "Menu item export help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Export an active 3D view to Unreal Datasmith"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemMessages) "Menu item messages" {
+ADDON_MENU_TITLE
+/* [  3] */		"Messages...^E3^ES^EE^EI^ED^EL^EW^ET^32513"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemMessagesHelp) "Menu item messages help" {
+ADDON_MENU_TITLE
+/* [  3] */		"Show messages"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemPalette) "Menu item palette" {
+ADDON_MENU_TITLE
+/* [  4] */		"Show Toolbar^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemPaletteHelp) "Menu item palette help" {
+ADDON_MENU_TITLE
+/* [  4] */		"Show or hide the Datasmith Toolbar"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemAbout) "Menu item about" {
+ADDON_MENU_TITLE
+/* [  6] */		"About...^E3^ES^EE^EI^ED^EL^EW^ET"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemAboutHelp) "Menu item about help" {
+ADDON_MENU_TITLE
+/* [  6] */		"Information about this Plug-In"
+}
+
+#if AUTO_SYNC
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemAutoSync) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Auto Sync^E3^D2^32514"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListMenuItemAutoSyncHelp) "Menu item Auto Sync" {
+ADDON_MENU_TITLE
+/* [  1] */		"Enable or disable Auto Sync"
+}
+#endif
+
+'STR#' ResIdLoc(kLangJapanese, kStrListProgression) "Progression strings" {
+/* [ kCommonProjectInfos              ] */      "プロジェクト情報の収集"
+/* [ kCommonCollectElements           ] */		"変更されたエレメントの収集"
+/* [ kCommonConvertElements           ] */		"エレメントを変換"
+/* [ kCommonCollectMetaDatas          ] */      "メタデータの収集"
+/* [ kCommonSetUpMaterials            ] */		"マテリアルの収集"
+/* [ kCommonSetUpLights               ] */		"ライトの作成"
+/* [ kCommonSetUpCameras              ] */		"カメラの作成"
+/* [ kSyncWaitPreviousSync            ] */		"事前の同期の完了を待ちます"
+
+/* [ kDebugSaveScene                  ] */		"シーンの保存"
+
+/* [ kSyncSnapshot                    ] */		"Direct Link スナップショット"
+/* [ kExportSaving                    ] */		"ファイルの保存File"
+
+/* [ kSyncTitle                       ] */		"Direct Link 同期"
+/* [ kExportTitle                     ] */		"Datasmith ファイルにエクスポート"
+}
+
+'STR#' ResIdLoc(kLangJapanese, kStrListENames) "Names" {
+/* [  kName_TextureExtension] */        ".tiff"
+/* [  kName_TextureMime] */             "image/tiff"
+/* [  kName_ShowPalette] */             "Show palette"
+/* [  kName_HidePalette] */             "Hide palette"
+/* [  kName_DatasmithFileTypeName] */ 	"Datasmithファイル"
+/* [  kName_ExportToDatasmithFile] */ 	"Datasmith ファイルにエクスポート"
+/* [  kName_StartAutoSync] */ 			"自動同期を開始する"
+/* [  kName_PauseAutoSync] */		 	"自動同期を一時停止する"
+/* [  kName_Undefined] */               "未定義"
+/* [  kName_CacheDirectory] */          "キャッシュ ディレクトリ : "
+/* [  kName_Source] */                  "ソース" /* SourceolumnLabel */
+/* [  kName_Destination] */             "宛先" /* DestinationColumnLabel */
+/* [  kName_FmtTooltip] */              "ユーザー：%T\nコンピュータ名：%T\nプログラム名：%T\nエンドポイント名：%T" /* EndpointTooltip */
+}
+
+'GDLG' ResIdLoc(kLangJapanese, kDlgPalette) Palette | leftCaption | close    0    0 kPaletteHSize  34  "" {
+/* [  1] */ IconButton          2    2   30   30    kIconSnapshot      noFrame     /* Synchronize with Direct Link */
+#if AUTO_SYNC
+/* [  2] */ IconPushCheck      32    2   30   30    kIconAutoSync	   noFrame     /* Toggle Auto Sync */
+#endif
+/* [  3] */ IconButton         X3    2   30   30    kIconConnections   noFrame     /* Manage Connections */
+/* [  4] */ IconButton         X4    2   30   30    kIconExport3D      noFrame     /* Export to Datasmith file */
+/* [  5] */ IconButton         X5    2   30   30    kIconMessages      noFrame     /* Show Messages */
+#if kPaletteDevTools
+/* [  6] */ IconButton         X6    2   30   30    InfoIcon           noFrame     /* Selection to clipboard */
+/* [  7] */ IconButton         X7    2   30   30    ErrorIcon          noFrame     /* Zap database */
+#endif
+}
+
+'DLGH' ResIdLocAnchor(kLangJapanese, kDlgPalette, DLG_Palette_INTERFACE_FUNCTIONS) {
+1	"Direct Link で同期"		IconButton_1
+#if AUTO_SYNC
+2	"Direct Link 自動同期の切り替え"	IconButton_2
+#endif
+H3	"接続管理"			IconButton_4
+H4	"Datasmith ファイルにエクスポート"					IconButton_5
+H5	"メッセージを表示"				IconButton_6
+H6	"Information on selected elements"   IconButton_7
+H7	"Delete synchronization's memory"   IconButton_8
+}
+
+/* Dialog about... */
+'GDLG' ResIdLoc(kLangJapanese, kDlgAboutOf) Modal	40   40  668  363 "About Datasmith Direct Link"
+{
+/* [  1] */ Button		598	336	55	20	LargePlain	"Ok"
+/* [  2] */ Icon		0	0	668	329 kPictureSplashScreen
+/* [  3] */ LeftText	20	338	400	16	SmallPlain	"" /* Versions strings */
+}
+
+'DLGH' ResIdLocAnchor(kLangJapanese, kDlgAboutOf, DLG_About_INTERFACE_FUNCTIONS) {
+1	"Close Window"		PushButton_1
+}
+
+/* Dialog report... */
+'GDLG' ResIdLoc(kLangJapanese, kDlgReport) Palette | thickFrame | grow | topCaption | close 	40   40  640  440 "Datasmith メッセージ"
+{
+/* [  1] */ Button		560	410	60	20	LargePlain	"閉じる"
+/* [  2] */ Button		20	410	60	20	LargePlain	"クリア"
+/* [  3] */ MultiLineEdit	3	3	634	394	SmallPlain readOnly	HVScroll
+/* [  4] */ Button		100	410	100	20	LargePlain	"すべてをコピーする"
+/* [  5] */ Button		220	410	100	20	LargePlain	"選択範囲をコピーする"
+}
+
+'DLGH' ResIdLocAnchor(kLangJapanese, kDlgReport, DLG_Report_INTERFACE_FUNCTIONS) {
+1	"ウィンドウを閉じる"	PushButton_1
+2	"内容をクリアする"	PushButton_2
+3	"メッセージを報告する" TextEdit_1
+4	"すべてのメッセージをクリップボードにコピーする"	PushButton_3
+5	"選択したメッセージをクリップボードにコピーする"	PushButton_4
+}
+
+/* Dialog connections... */
+'GDLG' ResIdLoc(kLangJapanese, kDlgConnections) Palette | thickFrame | grow | topCaption | close 	40   40  440  440 "Datasmith Direct Link 接続ステータス"
+{
+/* [  1] */ SingleSelList	3	3	434	394	LargePlain PartialItems kDlgConnectionsRowHeight HasHeader 21
+/* [  2] */ CenterText		3	3	434	394 SmallPlain vCenter "接続が見つかりません。\n\nDatasmith Direct Link 接続が確立されるのを待機しています。\n\nDatasmith Direct Link をサポートしているアプリケーション (Twinmotion や Unreal Engine など) を開始してください。"
+/* [  3] */ LeftText		6	410	378	20	SmallPlain vCenter	"キャッシュ ディレクトリ : "
+/* [  4] */ IconButton		390	410	20	20	kIconArrowGoto
+/* [  5] */ IconButton		415	410	20	20  kIconFolder
+}
+
+'DLGH' ResIdLocAnchor(kLangJapanese, kDlgConnections, DLG_Connections_INTERFACE_FUNCTIONS) {
+1	"Actives connections"	SingleSelList_1
+2	"Actives connections"	LeftText_2
+3	"Direct Link では、このディレクトリに一時ファイルが保存されます"	LeftText_1
+4	"Open cache folder"	PushButton_3
+5	"別のフォルダをブラウズします"	PushButton_4
+}
+
+/* Happen if I add error case and forgot to add it's message/alert */
+'GALR' ResIdLoc(kLangJapanese, kAlertUnhandledError) Error "エラー！" {
+/* largeText */		"不明な IO エラー"
+/* smallText */		"問題が解決しない場合は、このエラーを Epic Games に報告してください。"
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if ARCHICAD throw an exception when traversing it's BD */
+'GALR' ResIdLoc(kLangJapanese, kAlertACDBError) Error "エラー！" {
+/* largeText */		"3Dモデルの解析中にエラーが発生しました。"
+/* smallText */		"問題が解決しない場合は、このエラーを Epic Games に報告してください。"
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if an invariant isn't satisfied */
+'GALR' ResIdLoc(kLangJapanese, kAlertPlugInError) Error "エラー！" {
+/* largeText */		"エラーが発生しました。"
+/* smallText */		"問題が解決しない場合は、このエラーを Epic Games に報告してください。"
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if current view isn't in 3D */
+'GALR' ResIdLoc(kLangJapanese, kAlertNot3DViewError) Error "エラー！" {
+/* largeText */		"現在のビューは3Dビューではありません。"
+/* smallText */		"3D ビューを選択して再試行してください。"
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}
+
+/* Happen if user cancel an operation */
+'GALR' ResIdLoc(kLangJapanese, kAlertUserCancelledError) Error "エラー！" {
+/* largeText */		"処理が取り消されました。"
+/* smallText */		""
+/* button1   */     "OK"
+/* button2   */		""
+/* button3   */		""
+}

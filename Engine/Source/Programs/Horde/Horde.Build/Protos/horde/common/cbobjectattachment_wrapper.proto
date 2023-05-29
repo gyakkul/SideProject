@@ -1,0 +1,11 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+option csharp_namespace = "HordeCommon";
+
+message CbObjectAttachmentWrapper
+{
+	// The IoHash data (20 bytes)
+	bytes Data = 1;
+}

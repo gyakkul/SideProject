@@ -1,0 +1,31 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde.JobStepStateType;
+
+option csharp_namespace = "HordeCommon";
+
+enum JobStepState {
+
+	// Unspecified
+	Unspecified = 0;
+
+	// Waiting for dependencies of this step to complete (or paused)
+	Waiting = 1;
+
+	// Ready to run, but has not been scheduled yet
+	Ready = 2;
+
+	// Dependencies of this step failed, so it cannot be executed
+	Skipped = 3;
+
+	// There is an active instance of this step running
+	Running = 4;
+
+	// This step has been run
+	Completed = 5;
+
+	// This step started to execute, but was aborted
+	Aborted = 6;
+}

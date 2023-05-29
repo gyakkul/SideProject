@@ -1,0 +1,17 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+option csharp_namespace = "HordeCommon.Rpc.Messages";
+
+// Request sent to invoked AWS Lambda function that will run the worker service in hope of serving one lease.
+message AwsLambdaListenRequest {
+	// Max waiting time for a new lease to arrive before finishing the AWS Lambda execution
+	int32 MaxWaitTimeForLeaseMs = 1;
+}
+
+// Response sent for the above request
+message AwsLambdaListenResponse {
+	// If a lease was accepted and executed
+	bool DidAcceptLease = 1;
+}

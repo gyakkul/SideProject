@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Fragment>
+    
+    <!-- Abort install if SketchUp is not installed -->
+    <CustomAction Id="NoSketchUpInstaller" Error="!(loc.ErrorNotInstalled)" />
+    
+    <!-- Prevent downgrading -->
+    <CustomAction Id="PreventDowngrading" Error="!(loc.ErrorOlderVersionInstall)" />
+
+    <!-- Prevent overwriting -->
+    <CustomAction Id="PreventSameVersionInstall" Error="!(loc.ErrorSameVersionInstall)" />
+    
+    <!-- Declaration of custom actions to evaluate the properties SKETCHUP201xDIR -->
+    <!-- See 'InstallExecuteSequence' section for their usage -->
+	<CustomAction Id="SETSKETCHUP2023DIR" Property="SKETCHUP2023DIR" Value="" />
+	<CustomAction Id="SETSKETCHUP2022DIR" Property="SKETCHUP2022DIR" Value="" />
+	<CustomAction Id="SETSKETCHUP2021DIR" Property="SKETCHUP2021DIR" Value="" />
+	<CustomAction Id="SETSKETCHUP2020DIR" Property="SKETCHUP2020DIR" Value="" />
+	<CustomAction Id="SETSKETCHUP2019DIR" Property="SKETCHUP2019DIR" Value="" />
+
+    <CustomActionRef Id="WixExitEarlyWithSuccess" />
+
+	<!-- Adding DXDEBUG options -->
+	<Property Id="DXDEBUG" Value="/silent"/>
+    <CustomAction Id="InstallDirectX" FileKey="DXSETUPEXE" ExeCommand="[DXDEBUG]" Execute="deferred" Impersonate="no" Return="check"/>
+
+  </Fragment>
+</Wix>

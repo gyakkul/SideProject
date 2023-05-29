@@ -1,0 +1,9 @@
+﻿<Project>
+ <PropertyGroup>
+     <Navisworks_2023_API Condition="'$(UE_SDKS_ROOT)'!=''">$(UE_SDKS_ROOT)/HostWin64/Win64/NavisworksSDK/2023</Navisworks_2023_API>
+ 	 <Navisworks_2022_API Condition="'$(UE_SDKS_ROOT)'!=''">$(UE_SDKS_ROOT)/HostWin64/Win64/NavisworksSDK/2022</Navisworks_2022_API>
+ 	 <Navisworks_2021_API Condition="'$(UE_SDKS_ROOT)'!=''">$(UE_SDKS_ROOT)/HostWin64/Win64/NavisworksSDK/2021</Navisworks_2021_API>
+ 	 <Navisworks_2020_API Condition="'$(UE_SDKS_ROOT)'!=''">$(UE_SDKS_ROOT)/HostWin64/Win64/NavisworksSDK/2020</Navisworks_2020_API>
+ 	 <Navisworks_2019_API Condition="'$(UE_SDKS_ROOT)'!=''">$(UE_SDKS_ROOT)/HostWin64/Win64/NavisworksSDK/2019</Navisworks_2019_API>
+ </PropertyGroup>
+</Project>

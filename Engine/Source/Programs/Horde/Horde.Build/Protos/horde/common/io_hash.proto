@@ -1,0 +1,12 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+package Horde;
+
+option csharp_namespace = "HordeCommon.Wrapper";
+
+message IoHash
+{
+	bytes Data = 1;
+}

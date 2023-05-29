@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Export to Unreal Datasmith</Text>
+    <Description>Export an active 3D View to Unreal Datasmith</Description>
+    <Assembly>DatasmithRevit2019\DatasmithRevit2019.dll</Assembly>
+    <FullClassName>DatasmithRevitExporter.DatasmithRevitCommand</FullClassName>
+    <ClientId>07156B49-D4F7-4687-B9FB-E4C877004C78</ClientId>
+    <VendorId>com.epicgames</VendorId>
+    <VendorDescription>Epic Games, www.epicgames.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+  	<Text>Auto Sync</Text>
+  	<Description>Enable / Disable Auto Sync</Description>
+  	<Assembly>DatasmithRevit2019\DatasmithRevit2019.dll</Assembly>
+  	<FullClassName>DatasmithRevitExporter.DatasmithAutoSyncRevitCommand</FullClassName>
+  	<ClientId>9417F1AF-6320-4BEE-A9C5-6810437C0472</ClientId>
+  	<VendorId>com.epicgames</VendorId>
+  	<VendorDescription>Epic Games, www.epicgames.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+  	<Text>Sync with DirectLink</Text>
+  	<Description>Sync an active 3D View with DirectLink</Description>
+  	<Assembly>DatasmithRevit2019\DatasmithRevit2019.dll</Assembly>
+  	<FullClassName>DatasmithRevitExporter.DatasmithSyncRevitCommand</FullClassName>
+  	<ClientId>44342F25-7B40-4E5C-A3AA-D94C201D95E8</ClientId>
+  	<VendorId>com.epicgames</VendorId>
+  	<VendorDescription>Epic Games, www.epicgames.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+  	<Text>Manage Connections</Text>
+  	<Description>Show The Manage Connections Dialog</Description>
+  	<Assembly>DatasmithRevit2019\DatasmithRevit2019.dll</Assembly>
+  	<FullClassName>DatasmithRevitExporter.DatasmithManageConnectionsRevitCommand</FullClassName>
+  	<ClientId>84085A50-BF10-40E3-A357-70DE06424810</ClientId>
+  	<VendorId>com.epicgames</VendorId>
+  	<VendorDescription>Epic Games, www.epicgames.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Settings</Text>
+    <Description>Show Settings Dialog</Description>
+    <Assembly>DatasmithRevit2019\DatasmithRevit2019.dll</Assembly>
+    <FullClassName>DatasmithRevitExporter.DatasmithShowSettingsRevitCommand</FullClassName>
+    <ClientId>A3F9185A-27FE-4869-B784-50C7DEBD5F33</ClientId>
+    <VendorId>com.epicgames</VendorId>
+    <VendorDescription>Epic Games, www.epicgames.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+  	<Text>Messages</Text>
+  	<Description>Show Messages Dialog</Description>
+  	<Assembly>DatasmithRevit2019\DatasmithRevit2019.dll</Assembly>
+  	<FullClassName>DatasmithRevitExporter.DatasmithShowMessagesRevitCommand</FullClassName>
+  	<ClientId>C85EA089-FD08-4B4B-A6B1-91C2D7338953</ClientId>
+  	<VendorId>com.epicgames</VendorId>
+  	<VendorDescription>Epic Games, www.epicgames.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Application">
+    <Name>DatasmithRevitExporter</Name>
+    <Assembly>DatasmithRevit2019\DatasmithRevit2019.dll</Assembly>
+    <FullClassName>DatasmithRevitExporter.DatasmithRevitApplication</FullClassName>
+    <ClientId>FB2DF627-29A7-477A-B384-371A3B856AB0</ClientId>
+    <VendorId>com.epicgames</VendorId>
+    <VendorDescription>Epic Games, www.epicgames.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

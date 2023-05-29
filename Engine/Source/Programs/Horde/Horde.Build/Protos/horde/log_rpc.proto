@@ -1,0 +1,16 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+syntax = "proto3";
+
+import "horde/log_rpc_messages.proto";
+
+package Horde;
+
+option csharp_namespace = "Horde.Common.Rpc";
+
+service LogRpc {
+
+	rpc UpdateLog(UpdateLogRequest) returns (UpdateLogResponse);
+	rpc UpdateLogTail(stream UpdateLogTailRequest) returns (stream UpdateLogTailResponse);
+}
+
