@@ -1,0 +1,16 @@
+// Intermediate build files go here
+PROJECT_TEMP_DIR = ${TMPDIR}/${PRODUCT_NAME}/Intermediate/$PLATFORM_NAME/$CONFIGURATION
+
+// Build-related files for the active build configuration go here
+CONFIGURATION_BUILD_DIR = ${TMPDIR}/${PRODUCT_NAME}/build/$PLATFORM_NAME/$CONFIGURATION
+
+// The final product executables and other build products go here
+BUILT_PRODUCTS_DIR = ${TMPDIR}/${PRODUCT_NAME}/products/$PLATFORM_NAME/$CONFIGURATION
+
+// Force building all architectures
+ARCHS = x86_64 arm64
+
+// Make sure this is off
+ONLY_ACTIVE_ARCH = NO
+
+

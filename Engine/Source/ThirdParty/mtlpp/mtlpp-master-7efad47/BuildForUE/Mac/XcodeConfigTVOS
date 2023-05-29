@@ -1,0 +1,13 @@
+// Intermediate build files go here
+PROJECT_TEMP_DIR = ${TMPDIR}/${PRODUCT_NAME}/Intermediate/$PLATFORM_NAME/$CONFIGURATION
+
+// Build-related files for the active build configuration go here
+// The final product executables and other build products go here. mtlpp uses different names
+// for debug/release/shipping so we can drop them straight into the output folder
+CONFIGURATION_BUILD_DIR = $(SRCROOT)/../lib/TVOS
+
+// Force building all architectures
+ARCHS = arm64
+
+// Make sure this is off
+ONLY_ACTIVE_ARCH = NO

@@ -1,0 +1,25 @@
+diff --git a/Configurations/10-main.conf b/Configurations/10-main.conf
+index 8dc3e858df..0c00916fde 100644
+--- a/Configurations/10-main.conf
++++ b/Configurations/10-main.conf
+@@ -1552,16 +1552,16 @@ my %targets = (
+     },
+     "darwin64-x86_64-cc" => {
+         inherit_from     => [ "darwin-common", asm("x86_64_asm") ],
+-        CFLAGS           => add("-Wall"),
+-        cflags           => add("-arch x86_64"),
++        CFLAGS           => add("-Wall -isysroot " . env('UE_XC_SYSROOT')),
++        cflags           => add("-arch x86_64 -mmacosx-version-min=10.14"),
+         lib_cppflags     => add("-DL_ENDIAN"),
+         bn_ops           => "SIXTY_FOUR_BIT_LONG",
+         perlasm_scheme   => "macosx",
+     },
+     "darwin64-arm64-cc" => {
+         inherit_from     => [ "darwin-common", asm("aarch64_asm") ],
+-        CFLAGS           => add("-Wall"),
+-        cflags           => add("-arch arm64"),
++        CFLAGS           => add("-Wall -isysroot " . env('UE_XC_SYSROOT')),
++        cflags           => add("-arch arm64 -mmacosx-version-min=10.14"),
+         lib_cppflags     => add("-DL_ENDIAN"),
+         bn_ops           => "SIXTY_FOUR_BIT_LONG",
+         perlasm_scheme   => "ios64",
