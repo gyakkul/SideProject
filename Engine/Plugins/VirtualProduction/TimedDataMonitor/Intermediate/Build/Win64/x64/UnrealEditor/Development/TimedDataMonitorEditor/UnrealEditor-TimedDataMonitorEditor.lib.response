@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TimedDataMonitorEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\TimedDataMonitor\Intermediate\Build\Win64\x64\UnrealEditor\Development\TimedDataMonitorEditor\Module.TimedDataMonitorEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\TimedDataMonitor\Intermediate\Build\Win64\x64\UnrealEditor\Development\TimedDataMonitorEditor\UnrealEditor-TimedDataMonitorEditor.lib"

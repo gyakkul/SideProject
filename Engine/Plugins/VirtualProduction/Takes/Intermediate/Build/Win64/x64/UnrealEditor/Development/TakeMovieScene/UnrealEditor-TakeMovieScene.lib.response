@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TakeMovieScene.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\Takes\Intermediate\Build\Win64\x64\UnrealEditor\Development\TakeMovieScene\Module.TakeMovieScene.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\Takes\Intermediate\Build\Win64\x64\UnrealEditor\Development\TakeMovieScene\UnrealEditor-TakeMovieScene.lib"

@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className='ccr-icon'>
+  <path d="M32.2 10.5002C44.1 10.5002 53.8 20.3002 53.8 32.1002C53.8 43.9002 44 53.7002 32.2 53.7002C20.3 53.7002 10.6 43.9002 10.6 32.1002C10.6 20.3002 20.3 10.5002 32.2 10.5002ZM32.2 6.2002C17.8 6.2002 6.29999 17.7002 6.29999 32.1002C6.29999 46.5002 17.8 58.0002 32.2 58.0002C46.6 58.0002 58.1 46.5002 58.1 32.1002C58.1 17.7002 46.6 6.2002 32.2 6.2002Z" fill="url(#paint0_linear_61_48)" />
+  <path d="M32.2 54.8004C44.7369 54.8004 54.9 44.6373 54.9 32.1004C54.9 19.5635 44.7369 9.40039 32.2 9.40039C19.6631 9.40039 9.5 19.5635 9.5 32.1004C9.5 44.6373 19.6631 54.8004 32.2 54.8004Z" fill="url(#paint1_radial_61_48)" />
+  <path d="M32 53.7C43.9 53.7 53.6 44 53.6 32.1C53.6 20.2 43.9 10.5 32 10.5C20.1 10.5 10.4 20.2 10.4 32.1C10.4 44 20.1 53.7 32 53.7Z" fill="url(#paint2_radial_61_48)" />
+  <path d="M39.9 31.6002C43.9 31.6002 47.1 28.4002 47.1 24.4002C47.1 20.4002 43.9 17.2002 39.9 17.2002C35.9 17.2002 32.7 20.4002 32.7 24.4002C32.7 28.3002 35.9 31.6002 39.9 31.6002Z" fill="url(#paint3_radial_61_48)" />
+  <defs>
+    <linearGradient id="paint0_linear_61_48" x1="51.7924" y1="15.5287" x2="0.912686" y2="58.6554" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4569" stopColor="#E6E6E6" />
+      <stop offset="1" stopColor="#666666" />
+    </linearGradient>
+    <radialGradient id="paint1_radial_61_48" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(39.081 22.4407) scale(20.1462)">
+      <stop stopColor="#CCCCCC" />
+      <stop offset="1" stopColor="#4D4D4D" />
+    </radialGradient>
+    <radialGradient id="paint2_radial_61_48" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(36.948 22.9535) scale(30.7001)">
+      <stop stopColor="white" />
+      <stop offset="0.3121" stopColor="#B3B3B3" />
+      <stop offset="0.6357" stopColor="#6A6A6A" />
+      <stop offset="0.7861" stopColor="#4D4D4D" />
+      <stop offset="1" stopColor="#666666" />
+    </radialGradient>
+    <radialGradient id="paint3_radial_61_48" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(39.9291 24.363) scale(7.2137)">
+      <stop offset="0.4569" stopColor="white" />
+      <stop offset="1" stopColor="#F2F2F2" stopOpacity="0" />
+    </radialGradient>
+  </defs>
+</svg>

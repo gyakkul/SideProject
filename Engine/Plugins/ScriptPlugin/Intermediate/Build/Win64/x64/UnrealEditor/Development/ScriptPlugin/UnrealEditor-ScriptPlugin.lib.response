@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ScriptPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\ScriptPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ScriptPlugin\Module.ScriptPlugin.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\ScriptPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ScriptPlugin\UnrealEditor-ScriptPlugin.lib"

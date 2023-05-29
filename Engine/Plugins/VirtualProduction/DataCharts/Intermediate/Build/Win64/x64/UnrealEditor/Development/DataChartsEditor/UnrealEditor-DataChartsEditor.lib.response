@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DataChartsEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\DataCharts\Intermediate\Build\Win64\x64\UnrealEditor\Development\DataChartsEditor\Module.DataChartsEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\DataCharts\Intermediate\Build\Win64\x64\UnrealEditor\Development\DataChartsEditor\UnrealEditor-DataChartsEditor.lib"

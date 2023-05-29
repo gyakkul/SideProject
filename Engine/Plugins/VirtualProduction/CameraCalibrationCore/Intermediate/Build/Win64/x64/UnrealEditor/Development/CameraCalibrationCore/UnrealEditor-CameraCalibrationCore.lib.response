@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CameraCalibrationCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\CameraCalibrationCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\CameraCalibrationCore\Module.CameraCalibrationCore.1_of_3.cpp.obj"
+"..\Plugins\VirtualProduction\CameraCalibrationCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\CameraCalibrationCore\Module.CameraCalibrationCore.2_of_3.cpp.obj"
+"..\Plugins\VirtualProduction\CameraCalibrationCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\CameraCalibrationCore\Module.CameraCalibrationCore.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\CameraCalibrationCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\CameraCalibrationCore\UnrealEditor-CameraCalibrationCore.lib"

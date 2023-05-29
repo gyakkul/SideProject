@@ -1,0 +1,13 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"CacheTrackRecorder": "UnrealEditor-CacheTrackRecorder.dll",
+		"TakeMovieScene": "UnrealEditor-TakeMovieScene.dll",
+		"TakeRecorder": "UnrealEditor-TakeRecorder.dll",
+		"TakeRecorderSources": "UnrealEditor-TakeRecorderSources.dll",
+		"TakeSequencer": "UnrealEditor-TakeSequencer.dll",
+		"TakeTrackRecorders": "UnrealEditor-TakeTrackRecorders.dll",
+		"TakesCore": "UnrealEditor-TakesCore.dll"
+	}
+}

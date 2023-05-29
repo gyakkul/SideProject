@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RemoteControlProtocolMIDIEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\RemoteControlProtocolMIDI\Intermediate\Build\Win64\x64\UnrealEditor\Development\RemoteControlProtocolMIDIEditor\Module.RemoteControlProtocolMIDIEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\RemoteControlProtocolMIDI\Intermediate\Build\Win64\x64\UnrealEditor\Development\RemoteControlProtocolMIDIEditor\UnrealEditor-RemoteControlProtocolMIDIEditor.lib"

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TextureShare.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\TextureShare\Intermediate\Build\Win64\x64\UnrealEditor\Development\TextureShare\Module.TextureShare.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\TextureShare\Intermediate\Build\Win64\x64\UnrealEditor\Development\TextureShare\UnrealEditor-TextureShare.lib"

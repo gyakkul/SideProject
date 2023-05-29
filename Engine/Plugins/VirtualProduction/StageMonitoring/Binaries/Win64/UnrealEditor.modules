@@ -1,0 +1,10 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"StageDataProvider": "UnrealEditor-StageDataProvider.dll",
+		"StageMonitor": "UnrealEditor-StageMonitor.dll",
+		"StageMonitorCommon": "UnrealEditor-StageMonitorCommon.dll",
+		"StageMonitorEditor": "UnrealEditor-StageMonitorEditor.dll"
+	}
+}

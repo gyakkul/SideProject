@@ -1,0 +1,16 @@
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\LensFileExchangeFormat.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\AssetEditor\CameraCalibrationEditorCommon.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\AssetEditor\ImageCenterTool.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\AssetEditor\LensDistortionTool.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\AssetEditor\LensInfoStep.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\AssetEditor\NodalOffsetTool.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Calibrators\CameraImageCenterAlgoManual.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Calibrators\CameraLensDistortionAlgoCheckerboard.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Calibrators\CameraLensDistortionAlgoPoints.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Calibrators\CameraNodalOffsetAlgoAruco.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Calibrators\CameraNodalOffsetAlgoCheckerboard.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Calibrators\CameraNodalOffsetAlgoOpticalAxis.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Calibrators\CameraNodalOffsetAlgoPoints.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Exporters\LensFileExporter.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Factories\LensFileFactoryNew.h
+C:\WorkSpace\SideProject1\Engine\Plugins\VirtualProduction\CameraCalibration\Source\CameraCalibrationEditor\Private\Factories\LensFileImporterFactory.h

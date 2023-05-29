@@ -1,0 +1,17 @@
+{
+  "extends": ["react-app"],
+  "rules": {
+    "semi": ["error", "always", { "omitLastInOneLineBlock": true}],
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "no-case-declarations": "off",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "default-case": "off",
+    "no-mixed-operators": "off"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PythonAutomationTest.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Tests\PythonAutomationTest\Intermediate\Build\Win64\x64\UnrealEditor\Development\PythonAutomationTest\Module.PythonAutomationTest.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Tests\PythonAutomationTest\Intermediate\Build\Win64\x64\UnrealEditor\Development\PythonAutomationTest\UnrealEditor-PythonAutomationTest.lib"

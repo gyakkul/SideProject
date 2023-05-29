@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RHITests.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Tests\RHITests\Intermediate\Build\Win64\x64\UnrealEditor\Development\RHITests\Module.RHITests.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Tests\RHITests\Intermediate\Build\Win64\x64\UnrealEditor\Development\RHITests\UnrealEditor-RHITests.lib"

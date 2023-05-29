@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-LiveLinkCameraRecording.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\LiveLinkCamera\Intermediate\Build\Win64\x64\UnrealEditor\Development\LiveLinkCameraRecording\Module.LiveLinkCameraRecording.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\LiveLinkCamera\Intermediate\Build\Win64\x64\UnrealEditor\Development\LiveLinkCameraRecording\UnrealEditor-LiveLinkCameraRecording.lib"

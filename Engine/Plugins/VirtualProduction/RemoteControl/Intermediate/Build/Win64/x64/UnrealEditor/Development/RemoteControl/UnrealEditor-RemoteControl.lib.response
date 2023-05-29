@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RemoteControl.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\VirtualProduction\RemoteControl\Intermediate\Build\Win64\x64\UnrealEditor\Development\RemoteControl\Module.RemoteControl.1_of_4.cpp.obj"
+"..\Plugins\VirtualProduction\RemoteControl\Intermediate\Build\Win64\x64\UnrealEditor\Development\RemoteControl\Module.RemoteControl.2_of_4.cpp.obj"
+"..\Plugins\VirtualProduction\RemoteControl\Intermediate\Build\Win64\x64\UnrealEditor\Development\RemoteControl\Module.RemoteControl.3_of_4.cpp.obj"
+"..\Plugins\VirtualProduction\RemoteControl\Intermediate\Build\Win64\x64\UnrealEditor\Development\RemoteControl\Module.RemoteControl.4_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\VirtualProduction\RemoteControl\Intermediate\Build\Win64\x64\UnrealEditor\Development\RemoteControl\UnrealEditor-RemoteControl.lib"
