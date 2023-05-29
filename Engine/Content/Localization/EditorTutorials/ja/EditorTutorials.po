@@ -1,0 +1,81 @@
+﻿# EditorTutorials Japanese translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: EditorTutorials\n"
+"POT-Creation-Date: 2023-01-27 00:15\n"
+"PO-Revision-Date: 2023-01-27 00:15\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Key:	055BC00645EA0D8CFD84DBA467C80470
+#. SourceLocation:	/Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.TutorialCharacter_C:SimpleConstructionScript_0.SCS_Node_0.CategoryName
+#: /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.TutorialCharacter_C:SimpleConstructionScript_0.SCS_Node_0.CategoryName
+msgctxt ",055BC00645EA0D8CFD84DBA467C80470"
+msgid "Default"
+msgstr "デフォルト"
+
+#. Key:	7587EB27469A8524A60FEFB9DC21D815
+#. SourceLocation:	/Engine/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.TutorialAnimationBlueprint.NewVariables(1).NewVariables.Category
+#: /Engine/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.TutorialAnimationBlueprint.NewVariables(1).NewVariables.Category
+msgctxt ",7587EB27469A8524A60FEFB9DC21D815"
+msgid "Default"
+msgstr "デフォルト"
+
+#. Key:	85857F6348CBC56EA712218C39619636
+#. SourceLocation:	/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Class.Tutorial_BP_Class.NewVariables(1).NewVariables.Category
+#: /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Class.Tutorial_BP_Class.NewVariables(1).NewVariables.Category
+msgctxt ",85857F6348CBC56EA712218C39619636"
+msgid "Default"
+msgstr "デフォルト"
+
+#. Key:	9DE93E194C2CACD4690926A0A7EC3A01
+#. SourceLocation:	/Engine/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.TutorialAnimationBlueprint.NewVariables(0).NewVariables.Category
+#: /Engine/Tutorial/SubEditors/TutorialAssets/TutorialAnimationBlueprint.TutorialAnimationBlueprint.NewVariables(0).NewVariables.Category
+msgctxt ",9DE93E194C2CACD4690926A0A7EC3A01"
+msgid "Default"
+msgstr "デフォルト"
+
+#. Key:	EC3CAE144D78715A1A280E9BDD031160
+#. SourceLocation:	/Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.TutorialTPP_AnimBlueprint.NewVariables(0).NewVariables.Category
+#: /Engine/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.TutorialTPP_AnimBlueprint.NewVariables(0).NewVariables.Category
+msgctxt ",EC3CAE144D78715A1A280E9BDD031160"
+msgid "Default"
+msgstr "デフォルト"
+
+#. Key:	F974932F43F60E2D3F8B4A949DBDA905
+#. SourceLocation:	/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Class.Tutorial_BP_Class.NewVariables(0).NewVariables.Category
+#: /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Class.Tutorial_BP_Class.NewVariables(0).NewVariables.Category
+msgctxt ",F974932F43F60E2D3F8B4A949DBDA905"
+msgid "Default"
+msgstr "デフォルト"
+
+#. Key:	FCD5919B4D362C6C6362E7B400B2C82F
+#. SourceLocation:	/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Class.Tutorial_BP_Class_C:SimpleConstructionScript_1.SCS_Node_1.CategoryName
+#: /Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Class.Tutorial_BP_Class_C:SimpleConstructionScript_1.SCS_Node_1.CategoryName
+msgctxt ",FCD5919B4D362C6C6362E7B400B2C82F"
+msgid "Default"
+msgstr "デフォルト"
+
+#. Key:	3EAE70724F2E035FE70201BB25023C33_5B313DEB0B3B9D1E
+#. SourceLocation:	/Engine/Tutorial/Audio/TutorialTest.TutorialTest
+#. InfoMetaData:	"AudioFile" : "3EAE70724F2E035FE70201BB25023C33_5B313DEB0B3B9D1E.wav"
+#. InfoMetaData:	"Context" : "Zak -> Audience"
+#. InfoMetaData:	"VoiceActorDirection" : "Calmly, with confidence."
+#: /Engine/Tutorial/Audio/TutorialTest.TutorialTest
+msgctxt "Dialogue,3EAE70724F2E035FE70201BB25023C33_5B313DEB0B3B9D1E"
+msgid "In this next step, we'll do some interesting stuff."
+msgstr "In this next step, we'll do some interesting stuff."
+
+#. Key:	3EAE70724F2E035FE70201BB25023C33_ActingDirection
+#. SourceLocation:	/Engine/Tutorial/Audio/TutorialTest.TutorialTest
+#: /Engine/Tutorial/Audio/TutorialTest.TutorialTest
+msgctxt "DialogueNotes,3EAE70724F2E035FE70201BB25023C33_ActingDirection"
+msgid "Calmly, with confidence."
+msgstr "落ち着いて、自信を持って。"
+

@@ -1,0 +1,33 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" y="5" width="1" height="5" fill="white"/>
+<g opacity="0.5">
+<rect y="5" width="1" height="1" fill="white"/>
+<rect y="7" width="1" height="1" fill="white"/>
+<rect y="9" width="1" height="1" fill="white"/>
+</g>
+<g opacity="0.5">
+<rect x="14" y="7" width="1" height="1" fill="white"/>
+<rect x="14" y="9" width="1" height="1" fill="white"/>
+<rect x="14" y="5" width="1" height="1" fill="white"/>
+</g>
+<g opacity="0.5">
+<rect x="2" y="3" width="1" height="1" fill="white"/>
+<rect y="3" width="1" height="1" fill="white"/>
+<rect x="4" y="3" width="1" height="1" fill="white"/>
+<rect x="6" y="3" width="1" height="1" fill="white"/>
+<rect x="8" y="3" width="1" height="1" fill="white"/>
+<rect x="10" y="3" width="1" height="1" fill="white"/>
+<rect x="12" y="3" width="1" height="1" fill="white"/>
+<rect x="14" y="3" width="1" height="1" fill="white"/>
+</g>
+<g opacity="0.5">
+<rect x="14" y="11" width="1" height="1" fill="white"/>
+<rect x="2" y="11" width="1" height="1" fill="white"/>
+<rect y="11" width="1" height="1" fill="white"/>
+<rect x="4" y="11" width="1" height="1" fill="white"/>
+<rect x="6" y="11" width="1" height="1" fill="white"/>
+<rect x="8" y="11" width="1" height="1" fill="white"/>
+<rect x="10" y="11" width="1" height="1" fill="white"/>
+<rect x="12" y="11" width="1" height="1" fill="white"/>
+</g>
+</svg>

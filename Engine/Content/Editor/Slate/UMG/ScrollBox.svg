@@ -1,0 +1,11 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" y="8" width="5" height="1" fill="white" fill-opacity="0.5"/>
+<rect x="3" y="5" width="5" height="2" fill="white" fill-opacity="0.5"/>
+<rect x="3" y="10" width="5" height="1" fill="white" fill-opacity="0.5"/>
+<rect x="12" y="8" width="1" height="4" fill="white" fill-opacity="0.5"/>
+<rect width="1" height="2" transform="matrix(1 0 0 -1 12 6)" fill="white" fill-opacity="0.5"/>
+<rect width="3" height="3" transform="matrix(1 0 0 -1 11 7)" fill="white"/>
+<path d="M14 3H11L12.5 1L14 3Z" fill="white"/>
+<path d="M11 13L14 13L12.5 15L11 13Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2 4H9H10V3H9H2H1V4V12V13H2H9H10V12H9H2V4Z" fill="white"/>
+</svg>

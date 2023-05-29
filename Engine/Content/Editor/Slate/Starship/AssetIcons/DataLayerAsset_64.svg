@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64.0px"
+   height="64.0px"
+   viewBox="0 0 64.0 64.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="DataLayerAsset_64.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="12.443434"
+     inkscape:cx="32.989285"
+     inkscape:cy="41.266743"
+     inkscape:window-width="1440"
+     inkscape:window-height="1377"
+     inkscape:window-x="1432"
+     inkscape:window-y="742"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid25" />
+  </sodipodi:namedview>
+  <defs
+     id="defs14" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="fill:none"
+       id="g65"
+       transform="matrix(4.2666667,0,0,4.9285368,-4.2666667,-9.8570736)">
+      <path
+         d="m 1,4.77 c 0,0 6.65,3.68 7.49,4.13 L 16,4.76 8.49,2 C 8.49,2 1,4.76 1,4.77 Z"
+         fill="#ffffff"
+         id="path50" />
+      <path
+         d="m 11.3487,14.9635 4.5324,-2.7168 c 0.1585,-0.1058 0.1585,-0.3528 0,-0.4586 L 11.3487,9.036 C 11.1902,8.93015 11,9.07128 11,9.28298 v 5.46882 c 0,0.1765 0.1902,0.3176 0.3487,0.2117 z"
+         fill="#ffffff"
+         id="path52" />
+      <path
+         opacity="0.5"
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="M 10,10.2775 8.49,11.11 2.67,7.90002 c 0,0 -1.67,0.91 -1.67,0.92 C 1,8.82002 7.65,12.5 8.49,13 L 10,12.1576 Z"
+         fill="#ffffff"
+         id="path54" />
+    </g>
+  </g>
+</svg>

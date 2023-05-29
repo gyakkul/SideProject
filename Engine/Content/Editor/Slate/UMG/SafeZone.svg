@@ -1,0 +1,8 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15 1H1V15H15V1ZM14 2H2V14H14V2Z" fill="white" fill-opacity="0.5"/>
+<rect x="2.5" y="2.5" width="11" height="11" stroke="#FFF9F9"/>
+<rect x="1" y="14" width="1" height="1" fill="white"/>
+<rect x="14" y="14" width="1" height="1" fill="white"/>
+<rect x="14" y="1" width="1" height="1" fill="white"/>
+<rect x="1" y="1" width="1" height="1" fill="white"/>
+</svg>
