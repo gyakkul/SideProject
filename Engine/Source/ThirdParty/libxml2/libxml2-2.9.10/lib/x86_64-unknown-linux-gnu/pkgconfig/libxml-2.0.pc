@@ -1,0 +1,13 @@
+prefix=/home/compile/Perforce/bdeschenes/BDeschenes_UE4_Dev-Enterprise_CentOS/Engine/Source/ThirdParty/libxml2/tmp/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.10
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:   -lz     -lm  
+Cflags: -I${includedir}/libxml2 

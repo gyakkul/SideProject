@@ -1,0 +1,16 @@
+diff -rupN libvpx-1.6.1.orig/build/make/gen_msvs_vcxproj.sh libvpx-1.6.1/build/make/gen_msvs_vcxproj.sh
+--- libvpx-1.6.1.orig/build/make/gen_msvs_vcxproj.sh	2019-02-22 14:09:43.047382400 -0500
++++ libvpx-1.6.1/build/make/gen_msvs_vcxproj.sh	2019-02-22 14:03:58.514124600 -0500
+@@ -348,9 +348,9 @@ generate_vcxproj() {
+                 tag_content PlatformToolset v140
+             fi
+             tag_content CharacterSet Unicode
+-            if [ "$config" = "Release" ]; then
+-                tag_content WholeProgramOptimization true
+-            fi
++            # if [ "$config" = "Release" ]; then
++            #     tag_content WholeProgramOptimization true
++            # fi
+             close_tag PropertyGroup
+         done
+     done
