@@ -1,0 +1,57 @@
+# p4 ignore file that can be specified in a P4CONFIG file (.p4enviro on Mac) via
+# P4IGNORE=/Users/andrew.grant/UE/Engine/Extras/Perforce/p4ignore
+# or wherever you have installed Unreal to. Note that P4 does not seem to support
+# homedir references via #
+
+# directories
+bin
+obj
+DerivedDataCache
+Intermediate
+Saved
+ShaderCompileWorker/DDC
+
+# Destination of compiled UAT scripts
+Engine/Binaries/DotNET/AutomationScripts
+*.uatbuildrecord
+*.tmp
+
+# Editor artifacts that are not checked in
+UE4Editor.app
+UE4Editor.dSYM
+UE4Editor.version
+UE4Editor-*.dylib
+UE4Editor-*.dSYM
+UE4Editor.modules
+UE4Editor.version
+UE4Editor.target
+ShaderCompileWorker
+ShaderCompileWorker-*.dSYM
+ShaderCompileWorker-*.dylib
+ShaderCompileWorker.modules
+ShaderCompileWorker.version
+ShaderCompileWorker.target
+UnrealHeaderTool
+UnrealHeaderTool*.dSYM
+UnrealHeaderTool*.dylib
+UnrealHeaderTool.modules
+UnrealHeaderTool.version
+UnrealHeaderTool.target
+
+# mono files
+*.dll.mdb
+
+# files
+*.suo
+*.user
+
+# OSX
+.DS_Store
+
+# xcode / ios
+Development-iphoneos/
+xcuserdata/
+*.xcodeproj/xcshareddata
+*.xcodeproj/project.pbxproj
+*.xcodeproj/*/xcshareddata/
+*.xcworkspace/contents.xcworkspacedata

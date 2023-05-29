@@ -1,0 +1,30 @@
+diff -rupN glibc-2.17.orig/malloc/obstack.c glibc-2.17/malloc/obstack.c
+--- glibc-2.17.orig/malloc/obstack.c	2019-02-25 10:59:44.066558728 -0500
++++ glibc-2.17/malloc/obstack.c	2019-02-25 11:00:54.925402440 -0500
+@@ -116,7 +116,7 @@ int obstack_exit_failure = EXIT_FAILURE;
+ /* A looong time ago (before 1994, anyway; we're not sure) this global variable
+    was used by non-GNU-C macros to avoid multiple evaluation.  The GNU C
+    library still exports it because somebody might use it.  */
+-struct obstack *_obstack_compat;
++struct obstack *_obstack_compat __attribute__ ((nocommon));
+ compat_symbol (libc, _obstack_compat, _obstack, GLIBC_2_0);
+ #  endif
+ # endif
+diff -rupN glibc-2.17.orig/misc/regexp.c glibc-2.17/misc/regexp.c
+--- glibc-2.17.orig/misc/regexp.c	2019-02-25 10:59:44.106558727 -0500
++++ glibc-2.17/misc/regexp.c	2019-02-25 11:00:42.425089795 -0500
+@@ -21,11 +21,11 @@
+ #include <regexp.h>
+
+ /* Define the variables used for the interface.  */
+-char *loc1;
+-char *loc2;
++char *loc1 __attribute__ ((nocommon));
++char *loc2 __attribute__ ((nocommon));
+
+ /* Although we do not support the use we define this variable as well.  */
+-char *locs;
++char *locs __attribute__ ((nocommon));
+
+
+ /* Find the next match in STRING.  The compiled regular expression is

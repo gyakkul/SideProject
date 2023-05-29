@@ -1,0 +1,2144 @@
+diff --git a/Code/Core/Core.bff b/Code/Core/Core.bff
+index ea56b85d..50293de3 100644
+--- a/Code/Core/Core.bff
++++ b/Code/Core/Core.bff
+@@ -26,9 +26,28 @@
+             .UnityInputExcludedFiles    = .MemTrackerFile
+         }
+ 
++        // Objective C++
++        #if __OSX__
++            Unity( '$ProjectName$-UnityObjCPP-$Platform$-$BuildConfigName$' )
++            {
++                .UnityInputPath         = '$ProjectPath$/'
++                .UnityInputPattern      = '*.mm'
++                .UnityOutputPath        = '$OutputBase$/$ProjectPath$/'
++                .UnityOutputPattern     = '$ProjectName$_Unity*.mm'
++            }
++            ObjectList( '$ProjectName$-ObjCPP-$Platform$-$BuildConfigName$' )
++            {
++                .CompilerInputUnity     = '$ProjectName$-UnityObjCPP-$Platform$-$BuildConfigName$'
++                .CompilerOutputExtension= '.mm.o'
++                .CompilerOptions        + ' -fno-objc-arc'
++                                        + ' -x objective-c'
++                .CompilerOutputPath     = '$OutputBase$/$ProjectName$/'
++            }
++        #endif
++
+         // Library
+         //--------------------------------------------------------------------------
+-        ObjectList( '$ProjectName$-Lib-$Platform$-$BuildConfigName$' )
++        ObjectList( '$ProjectName$-CPP-$Platform$-$BuildConfigName$' )
+         {
+             // Input
+             .CompilerInputUnity         = '$ProjectName$-Unity-$Platform$-$BuildConfigName$'
+@@ -37,6 +56,13 @@
+             // Output
+             .CompilerOutputPath         = '$OutputBase$/$ProjectPath$/'
+         }
++        Alias( '$ProjectName$-Lib-$Platform$-$BuildConfigName$' )
++        {
++            .Targets = { '$ProjectName$-CPP-$Platform$-$BuildConfigName$' }
++            #if __OSX__
++                .Targets + '$ProjectName$-ObjCPP-$Platform$-$BuildConfigName$'
++            #endif
++        }
+         Alias( '$ProjectName$-$Platform$-$BuildConfigName$' ) { .Targets = '$ProjectName$-Lib-$Platform$-$BuildConfigName$' }
+         ^'Targets_$Platform$_$BuildConfigName$' + { '$ProjectName$-$Platform$-$BuildConfigName$' }
+ 
+diff --git a/Code/Core/Process/Process.cpp b/Code/Core/Process/Process.cpp
+index 1aabb4b9..8896b5da 100644
+--- a/Code/Core/Process/Process.cpp
++++ b/Code/Core/Process/Process.cpp
+@@ -5,6 +5,8 @@
+ //------------------------------------------------------------------------------
+ #include "Process.h"
+ 
++#if !defined( __APPLE__ ) || !defined( APPLE_PROCESS_USE_NSTASK )
++
+ #include "Core/Env/Assert.h"
+ #include "Core/FileIO/FileIO.h"
+ #include "Core/Math/Conversions.h"
+@@ -31,6 +33,7 @@
+     #include <string.h>
+     #include <sys/wait.h>
+     #include <unistd.h>
++    #include <wordexp.h>
+ #endif
+ 
+ // Static Data
+@@ -308,21 +311,29 @@ bool Process::Spawn( const char * executable,
+         if ( args )
+         {
+             // Tokenize
+-            AStackString<> argCopy( args );
+-            argCopy.Tokenize( splitArgs );
++            wordexp_t expResult;
++            memset(&expResult, 0, sizeof(wordexp_t));
++
++            int wordRes = wordexp( args, &expResult, 0 );
++            if (wordRes != 0)
++                return false;
+ 
+-            // Build Vector
+-            for ( auto & arg : splitArgs )
++            char** words = expResult.we_wordv;
++            unsigned int wordCount = expResult.we_wordc;
++
++            // Set capacity here to avoid reallocation while appending
++            splitArgs.SetCapacity(wordCount);
++            argVector.SetCapacity(wordCount + 1); // + 1 for the nullptr terminator
++
++            for ( unsigned int wordIndex = 0; wordIndex < wordCount; ++wordIndex )
+             {
+-                if ( arg.BeginsWith( '"' ) && arg.EndsWith( '"' ) )
+-                {
+-                    // strip quotes
+-                    arg.SetLength( arg.GetLength() - 1 ); // trim end quote
+-                    argVector.Append( arg.Get() + 1 ); // skip start quote
+-                    continue;
+-                }
+-                argVector.Append( arg.Get() ); // leave arg as-is
++                // Make a copy of the string and stick it in splitArgs, as the strings allocated
++                // by wordexp will be freed when we leave this scope.
++                splitArgs.Append( AString( words[wordIndex] ) );
++                argVector.Append( splitArgs.Top().Get() );
+             }
++
++            wordfree( &expResult );
+         }
+         argVector.Append( nullptr ); // argv must have be nullptr terminated
+ 
+@@ -582,7 +593,7 @@ bool Process::ReadAllData( AutoPtr< char > & outMem, uint32_t * outMemSize,
+ 
+     Timer t;
+ 
+-    #if defined( __LINUX__ )
++    #if defined( __LINUX__ ) || defined( __APPLE__ )
+         // Start with a short sleep interval to allow rapid termination of
+         // short-lived processes. The timeout increases during periods of
+         // no output and reset when receiving output to balance responsiveness
+@@ -611,8 +622,8 @@ bool Process::ReadAllData( AutoPtr< char > & outMem, uint32_t * outMemSize,
+         // did we get some data?
+         if ( ( prevOutSize != outSize ) || ( prevErrSize != errSize ) )
+         {
+-            #if defined( __LINUX__ )
+-                // Reset sleep interval            
++            #if defined( __LINUX__ ) || defined( __APPLE__ )
++                // Reset sleep interval
+                 sleepIntervalMS = 1;
+             #endif
+             continue; // try reading again right away incase there is more
+@@ -651,19 +662,12 @@ bool Process::ReadAllData( AutoPtr< char > & outMem, uint32_t * outMemSize,
+                 }
+ 
+                 // no data available, but process is still going, so wait
+-                #if defined( __OSX__ )
+-                    // On OSX there seems to be no way to set the pipe bufffer
+-                    // size so we must instead wake up frequently to avoid the
+-                    // writer being blocked.
+-                    Thread::Sleep( 2 );
+-                #else
+-                    // TODO:C Investigate waiting on an event when process terminates
+-                    // to reduce overall process spawn time
+-                    Thread::Sleep( sleepIntervalMS );
+-
+-                    // Increase sleep interval upto limit
+-                    sleepIntervalMS = Math::Min<uint32_t>( sleepIntervalMS * 2, 8 );
+-                #endif
++                // TODO:C Investigate waiting on an event when process terminates
++                // to reduce overall process spawn time
++                Thread::Sleep( sleepIntervalMS );
++
++                // Increase sleep interval upto limit
++                sleepIntervalMS = Math::Min<uint32_t>( sleepIntervalMS * 2, 8 );
+                 continue;
+             }
+         #endif
+@@ -916,3 +920,5 @@ void Process::Terminate()
+ }
+ 
+ //------------------------------------------------------------------------------
++
++#endif // !defined( __APPLE__ ) || !defined( APPLE_PROCESS_USE_NSTASK )
+diff --git a/Code/Core/Process/Process.h b/Code/Core/Process/Process.h
+index 66f0e8dd..6ef16b6b 100644
+--- a/Code/Core/Process/Process.h
++++ b/Code/Core/Process/Process.h
+@@ -7,6 +7,18 @@
+ #include "Core/Env/Types.h"
+ #include "Core/Containers/AutoPtr.h"
+ 
++#if defined( __APPLE__ )
++    #if defined( __OBJC__ )
++        #import <Cocoa/Cocoa.h>
++    #else
++        class NSTask;
++        class NSData;
++        class NSPipe;
++    #endif
++
++    #define APPLE_PROCESS_USE_NSTASK
++#endif
++
+ // Process
+ //------------------------------------------------------------------------------
+ class Process
+@@ -56,6 +68,8 @@ private:
+         void Read( void * handle, AutoPtr< char > & buffer, uint32_t & sizeSoFar, uint32_t & bufferSize );
+         char * Read( void * handle, uint32_t * bytesRead );
+         uint32_t Read( void * handle, char * outputBuffer, uint32_t outputBufferSize );
++    #elif defined( __APPLE__ ) && defined( APPLE_PROCESS_USE_NSTASK )
++        void Read( NSData * availableData, AutoPtr< char > & buffer, uint32_t & sizeSoFar, uint32_t & bufferSize );
+     #else
+         void Read( int handle, AutoPtr< char > & buffer, uint32_t & sizeSoFar, uint32_t & bufferSize );
+     #endif
+@@ -88,13 +102,20 @@ private:
+         void * m_StdInWrite;    // HANDLE
+     #endif
+ 
+-    #if defined( __LINUX__ ) || defined( __APPLE__ )
++    #if defined( __LINUX__ ) || ( defined( __APPLE__) && !defined( APPLE_PROCESS_USE_NSTASK ) )
+         int m_ChildPID;
+         mutable bool m_HasAlreadyWaitTerminated;
+         mutable int m_ReturnStatus;
+         int m_StdOutRead;
+         int m_StdErrRead;
+     #endif
++ 
++    #if defined( __APPLE__) && defined( APPLE_PROCESS_USE_NSTASK )
++        NSTask * m_Task;
++        NSPipe * m_StdOutRead;
++        NSPipe * m_StdErrRead;
++    #endif
++
+     bool m_HasAborted;
+     const volatile bool * m_MasterAbortFlag; // This member is set when we must cancel processes asap when the master process dies.
+     const volatile bool * m_AbortFlag;
+diff --git a/Code/Core/Process/ProcessMac.mm b/Code/Core/Process/ProcessMac.mm
+new file mode 100644
+index 00000000..077219a4
+--- /dev/null
++++ b/Code/Core/Process/ProcessMac.mm
+@@ -0,0 +1,301 @@
++// ProcessMac.mm
++//------------------------------------------------------------------------------
++
++// Includes
++//------------------------------------------------------------------------------
++#include "Process.h"
++
++#if defined ( APPLE_PROCESS_USE_NSTASK )
++
++#include "Core/Env/Assert.h"
++#include "Core/Math/Conversions.h"
++#include "Core/Math/Constants.h"
++#include "Core/Process/Atomic.h"
++#include "Core/Process/Thread.h"
++#include "Core/Profile/Profile.h"
++#include "Core/Time/Timer.h"
++
++// Static Data
++//------------------------------------------------------------------------------
++
++// CONSTRUCTOR
++//------------------------------------------------------------------------------
++Process::Process( const volatile bool * masterAbortFlag,
++                  const volatile bool * abortFlag )
++: m_Started( false )
++    , m_Task( nil )
++    , m_StdOutRead( nil )
++    , m_StdErrRead( nil )
++    , m_HasAborted( false )
++    , m_MasterAbortFlag( masterAbortFlag )
++    , m_AbortFlag( abortFlag )
++{
++}
++
++// DESTRUCTOR
++//------------------------------------------------------------------------------
++Process::~Process()
++{
++    @autoreleasepool
++    {
++        if ( m_Started )
++        {
++            WaitForExit();
++        }
++
++        if ( m_Task )
++        {
++            [m_Task release];
++            m_Task = nil;
++        }
++    }
++}
++
++// KillProcessTree
++//------------------------------------------------------------------------------
++void Process::KillProcessTree()
++{
++    // Kill all processes in the process group of the child process.
++    kill( -m_Task.processIdentifier, SIGKILL );
++}
++
++// Spawn
++//------------------------------------------------------------------------------
++bool Process::Spawn( const char * executable,
++                     const char * args,
++                     __attribute__((unused)) const char * workingDir,
++                     __attribute__((unused)) const char * environment,
++                     __attribute__((unused)) bool shareHandles )
++{
++    PROFILE_FUNCTION
++
++    ASSERT( !m_Started );
++    ASSERT( executable );
++
++    if ( m_MasterAbortFlag && AtomicLoadRelaxed( m_MasterAbortFlag ) )
++    {
++        // Once master process has aborted, we no longer permit spawning sub-processes.
++        return false;
++    }
++
++    @autoreleasepool {
++
++    m_Task = [NSTask new];
++
++    [m_Task setLaunchPath:[NSString stringWithUTF8String:executable]];
++
++    NSArray<NSString *> * temp = [[NSString stringWithUTF8String:args] componentsSeparatedByString:@" "];
++    NSMutableArray * arguments = [[NSMutableArray alloc] init];
++
++    for (NSUInteger i = 0; i < [temp count]; i++)
++    {
++        NSString * arg = ( NSString * )[temp objectAtIndex:i];
++
++        if (/*[arg hasPrefix:@"\""] && */[arg hasSuffix:@"\""])
++        {
++            arg = [arg stringByReplacingOccurrencesOfString:@"\"" withString:@""];
++        }
++        [arguments addObject:arg];
++    }
++
++    m_StdOutRead = [NSPipe pipe];
++    m_StdErrRead = [NSPipe pipe];
++    [m_Task setStandardOutput:m_StdOutRead];
++    [m_Task setStandardError:m_StdErrRead];
++
++    [m_Task setArguments:arguments];
++
++    [m_Task launch];
++
++    [arguments release];
++
++    m_Started = true;
++
++    } // @autoreleasepool
++
++    return true;
++}
++
++// IsRunning
++//----------------------------------------------------------
++bool Process::IsRunning() const
++{
++    ASSERT( m_Started );
++
++    @autoreleasepool
++    {
++        return [m_Task isRunning];
++    }
++}
++
++// WaitForExit
++//------------------------------------------------------------------------------
++int32_t Process::WaitForExit()
++{
++    ASSERT( m_Started );
++    m_Started = false;
++
++    @autoreleasepool
++    {
++        [m_Task waitUntilExit];
++ 
++        return [m_Task terminationStatus];
++    }
++}
++
++// Detach
++//------------------------------------------------------------------------------
++void Process::Detach()
++{
++    ASSERT( m_Started );
++    m_Started = false;
++
++    ASSERT( false ); // TODO:Mac Implement Process
++}
++
++// ReadAllData
++//------------------------------------------------------------------------------
++bool Process::ReadAllData( AutoPtr< char > & outMem, uint32_t * outMemSize,
++                           AutoPtr< char > & errMem, uint32_t * errMemSize,
++                           __attribute__((unused)) uint32_t timeOutMS )
++{
++    @autoreleasepool {
++
++    // we'll capture into these growing buffers
++    __block uint32_t outSize = 0;
++    __block uint32_t errSize = 0;
++    __block uint32_t outBufferSize = 0;
++    __block uint32_t errBufferSize = 0;
++    __block bool stdOutIsDone = false;
++    __block bool stdErrIsDone = false;
++
++    NSFileHandle * stdOutHandle = [m_StdOutRead fileHandleForReading];
++
++    dispatch_async( dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_LOW, 0 ), ^{
++    @autoreleasepool {
++        NSData * stdOutData = [stdOutHandle availableData];
++        while ( [stdOutData length] > 0 )
++        {
++            const bool masterAbort = ( m_MasterAbortFlag && AtomicLoadRelaxed( m_MasterAbortFlag ) );
++            const bool abort = ( m_AbortFlag && AtomicLoadRelaxed( m_AbortFlag ) );
++            if ( abort || masterAbort )
++            {
++                PROFILE_SECTION( "Abort" )
++                KillProcessTree();
++                m_HasAborted = true;
++                break;
++            }
++
++            Read( stdOutData, outMem, outSize, outBufferSize );
++
++            stdOutData = [stdOutHandle availableData];
++        }
++
++        stdOutIsDone = true;
++    }});
++
++    NSFileHandle * stdErrHandle = [m_StdErrRead fileHandleForReading];
++
++    dispatch_async( dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_LOW, 0 ), ^{
++    @autoreleasepool {
++        NSData * stdErrData = [stdErrHandle availableData];
++        while ( [stdErrData length] > 0 )
++        {
++            const bool masterAbort = ( m_MasterAbortFlag && AtomicLoadRelaxed( m_MasterAbortFlag ) );
++            const bool abort = ( m_AbortFlag && AtomicLoadRelaxed( m_AbortFlag ) );
++            if ( abort || masterAbort )
++            {
++                PROFILE_SECTION( "Abort" )
++                KillProcessTree();
++                m_HasAborted = true;
++                break;
++            }
++
++            Read( stdErrData, errMem, errSize, errBufferSize );
++
++            stdErrData = [stdErrHandle availableData];
++        }
++
++        stdErrIsDone = true;
++    }});
++
++    [m_Task waitUntilExit];
++
++    // async tasks may still be processing the child process output, so wait for them if needed
++    while ( !stdOutIsDone || !stdErrIsDone )
++    {
++        sched_yield();
++    }
++
++    // if owner asks for pointers, they now own the mem
++    if ( outMemSize ) { *outMemSize = outSize; }
++    if ( errMemSize ) { *errMemSize = errSize; }
++
++    } // @autoreleasepool
++
++    return true;
++}
++
++// Read
++//------------------------------------------------------------------------------
++void Process::Read( NSData * availableData, AutoPtr< char > & buffer, uint32_t & sizeSoFar, uint32_t & bufferSize )
++{
++    @autoreleasepool {
++
++    uint32_t bytesAvail = [availableData length];
++
++    if ( bytesAvail == 0 )
++    {
++        return;
++    }
++
++    // will it fit in the buffer we have?
++    if ( ( sizeSoFar + bytesAvail ) > bufferSize )
++    {
++        // no - allocate a bigger buffer (also handles the first time with no buffer)
++
++        // TODO:B look at a new container type (like a linked list of 1mb buffers) to avoid the wasteage here
++        // The caller has to take a copy to avoid the overhead if they want to hang onto the data
++        // grow buffer in at least 16MB chunks, to prevent future reallocations
++        uint32_t newBufferSize = Math::Max< uint32_t >( sizeSoFar + bytesAvail, bufferSize + ( 16 * MEGABYTE ) );
++        char * newBuffer = (char *)ALLOC( newBufferSize + 1 ); // +1 so we can always add a null char
++        if ( buffer.Get() )
++        {
++            // transfer and free old buffer
++            memcpy( newBuffer, buffer.Get(), sizeSoFar );
++        }
++        buffer = newBuffer; // will take care of deletion of old buffer
++        bufferSize = newBufferSize;
++        buffer.Get()[ sizeSoFar ] = '\000';
++    }
++
++    ASSERT( buffer.Get() );
++    ASSERT( sizeSoFar + bytesAvail <= bufferSize ); // sanity check
++
++    [availableData getBytes:(buffer.Get() + sizeSoFar) length:bytesAvail];
++
++    sizeSoFar += bytesAvail;
++
++    // keep data null char terminated for caller convenience
++    buffer.Get()[ sizeSoFar ] = '\000';
++
++    } // @autoreleasepool
++}
++
++// GetCurrentId
++//------------------------------------------------------------------------------
++/*static*/ uint32_t Process::GetCurrentId()
++{
++    return ::getpid();
++}
++
++// Terminate
++//------------------------------------------------------------------------------
++void Process::Terminate()
++{
++    kill( m_Task.processIdentifier, SIGKILL );
++}
++
++//------------------------------------------------------------------------------
++
++#endif // APPLE_PROCESS_USE_NSTASK
+diff --git a/Code/Tools/FBuild/FBuildCoordinator/Coordinator/Coordinator.cpp b/Code/Tools/FBuild/FBuildCoordinator/Coordinator/Coordinator.cpp
+new file mode 100644
+index 00000000..5747173f
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCoordinator/Coordinator/Coordinator.cpp
+@@ -0,0 +1,80 @@
++// Coordinator
++//------------------------------------------------------------------------------
++
++// Includes
++//------------------------------------------------------------------------------
++#include "Coordinator.h"
++
++// FBuild
++#include "Tools/FBuild/FBuildCore/FBuild.h"
++#include "Tools/FBuild/FBuildCore/FBuildVersion.h"
++#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.h"
++
++// Core
++#include "Core/Profile/Profile.h"
++#include "Core/Tracing/Tracing.h"
++
++// CONSTRUCTOR
++//------------------------------------------------------------------------------
++Coordinator::Coordinator( const AString & args )
++    : m_BaseArgs( args )
++    , m_ConnectionPool( nullptr )
++{
++    m_ConnectionPool = FNEW( WorkerConnectionPool );
++}
++
++// DESTRUCTOR
++//------------------------------------------------------------------------------
++Coordinator::~Coordinator()
++{
++    FDELETE m_ConnectionPool;
++}
++
++// Start
++//------------------------------------------------------------------------------
++int32_t Coordinator::Start()
++{
++    // spawn work thread
++    m_WorkThread = Thread::CreateThread( &WorkThreadWrapper,
++                                        "CoordinatorThread",
++                                        ( 256 * KILOBYTE ),
++                                        this );
++    ASSERT( m_WorkThread != INVALID_THREAD_HANDLE );
++
++    // Join work thread and get exit code
++    return Thread::WaitForThread( m_WorkThread );
++}
++
++// WorkThreadWrapper
++//------------------------------------------------------------------------------
++/*static*/ uint32_t Coordinator::WorkThreadWrapper( void * userData )
++{
++    Coordinator * coordinator = reinterpret_cast<Coordinator *>( userData );
++    return coordinator->WorkThread();
++}
++
++// Start
++//------------------------------------------------------------------------------
++uint32_t Coordinator::WorkThread()
++{
++    OUTPUT( "FBuildCoordinator - " FBUILD_VERSION_STRING "\n" );
++
++    // start listening
++    OUTPUT( "Listening on port %u\n", Protocol::COORDINATOR_PORT );
++    if ( m_ConnectionPool->Listen( Protocol::COORDINATOR_PORT ) == false )
++    {
++        OUTPUT( "Failed to listen on port %u.  Check port is not in use.\n", Protocol::COORDINATOR_PORT );
++        return (uint32_t)-3;
++    }
++
++    for(;;)
++    {
++        PROFILE_SYNCHRONIZE
++
++        Thread::Sleep( 500 );
++    }
++
++    return 0;
++}
++
++//------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCoordinator/Coordinator/Coordinator.h b/Code/Tools/FBuild/FBuildCoordinator/Coordinator/Coordinator.h
+new file mode 100644
+index 00000000..57f8a8b0
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCoordinator/Coordinator/Coordinator.h
+@@ -0,0 +1,36 @@
++// Coordinator
++//------------------------------------------------------------------------------
++#pragma once
++
++// Includes
++//------------------------------------------------------------------------------
++
++// Core
++#include "Core/Process/Thread.h"
++#include "Core/Strings/AString.h"
++
++// Forward Declarations
++//------------------------------------------------------------------------------
++class WorkerConnectionPool;
++
++// Coordinator
++//------------------------------------------------------------------------------
++class Coordinator
++{
++public:
++ 
++    explicit Coordinator( const AString & args );
++    ~Coordinator();
++
++    int32_t Start();
++
++private:
++    static uint32_t WorkThreadWrapper( void * userData );
++    uint32_t WorkThread();
++
++    AString                 m_BaseArgs;
++    WorkerConnectionPool    * m_ConnectionPool;
++    Thread::ThreadHandle    m_WorkThread;
++};
++
++//------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinator.bff b/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinator.bff
+new file mode 100644
+index 00000000..27718ee6
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinator.bff
+@@ -0,0 +1,111 @@
++// FBuildCoordinator
++//------------------------------------------------------------------------------
++{
++    .ProjectName        = 'FBuildCoordinator'
++    .ProjectPath        = 'Tools\FBuild\FBuildCoordinator'
++
++    // Executable
++    //--------------------------------------------------------------------------
++    .ProjectConfigs = {}
++    ForEach( .BuildConfig in .BuildConfigs )
++    {
++        Using( .BuildConfig )
++        .OutputBase + '/$Platform$-$BuildConfigName$'
++
++        // Unity
++        //--------------------------------------------------------------------------
++        Unity( '$ProjectName$-Unity-$Platform$-$BuildConfigName$' )
++        {
++            .UnityInputPath             = '$ProjectPath$/'
++            .UnityOutputPath            = '$OutputBase$/$ProjectPath$/'
++            .UnityOutputPattern         = '$ProjectName$_Unity*.cpp'
++        }
++
++        // Library
++        //--------------------------------------------------------------------------
++        ObjectList( '$ProjectName$-Lib-$Platform$-$BuildConfigName$' )
++        {
++            // Input (Unity)
++            .CompilerInputUnity         = '$ProjectName$-Unity-$Platform$-$BuildConfigName$'
++
++            // Output
++            .CompilerOutputPath         = '$OutputBase$/$ProjectPath$/'
++        }
++
++        // Executable
++        //--------------------------------------------------------------------------
++        Executable( '$ProjectName$-Exe-$Platform$-$BuildConfigName$' )
++        {
++            .Libraries                  = {
++                                            'FBuildCoordinator-Lib-$Platform$-$BuildConfigName$',
++                                            'FBuildCore-Lib-$Platform$-$BuildConfigName$',
++                                            'Core-Lib-$Platform$-$BuildConfigName$',
++                                            'LZ4-Lib-$Platform$-$BuildConfigName$'
++                                          }
++            #if __LINUX__
++                .LinkerOutput               = '$OutputBase$/$ProjectPath$/fbuildcoordinator$ExeExtension$' // NOTE: lower case
++            #else
++                .LinkerOutput               = '$OutputBase$/$ProjectPath$/FBuildCoordinator$ExeExtension$'
++            #endif
++            #if __WINDOWS__
++                .LinkerOptions              + ' /SUBSYSTEM:CONSOLE'
++                                            + ' Advapi32.lib'
++                                            + ' kernel32.lib'
++                                            + ' Ws2_32.lib'
++                                            + ' User32.lib'
++                                            + .CRTLibs_Static
++            #endif
++            #if __LINUX__
++                .LinkerOptions              + ' -pthread -ldl -lrt'
++
++                .LinkerStampExe             = '/bin/bash'
++                .ExtractDebugInfo           = 'objcopy --only-keep-debug $LinkerOutput$ $LinkerOutput$.debug'
++                .StripDebugInfo             = 'objcopy --strip-debug $LinkerOutput$'
++                .AddDebugLink               = 'objcopy --add-gnu-debuglink $LinkerOutput$.debug $LinkerOutput$'
++                .LinkerStampExeArgs         = '-c "$ExtractDebugInfo$ && $StripDebugInfo$ && $AddDebugLink$"'
++            #endif
++        }
++        Alias( '$ProjectName$-$Platform$-$BuildConfigName$' ) { .Targets = '$ProjectName$-Exe-$Platform$-$BuildConfigName$' }
++        ^'Targets_$Platform$_$BuildConfigName$' + { '$ProjectName$-$Platform$-$BuildConfigName$' }
++
++        #if __WINDOWS__
++            .ProjectConfig              = [ Using( .'Project_$Platform$_$BuildConfigName$' ) .Target = '$ProjectName$-$Platform$-$BuildConfigName$' ]
++            ^ProjectConfigs             + .ProjectConfig
++        #endif
++        #if __OSX__
++            .ProjectConfig              = [ .Config = '$BuildConfigName$'   .Target = '$ProjectName$-x64OSX-$BuildConfigName$' ]
++            ^ProjectConfigs             + .ProjectConfig
++        #endif
++    }
++
++    // Aliases
++    //--------------------------------------------------------------------------
++    #include "../../../gen_default_aliases.bff"
++
++    // Visual Studio Project Generation
++    //--------------------------------------------------------------------------
++    #if __WINDOWS__
++        VCXProject( '$ProjectName$-proj' )
++        {
++            .ProjectOutput              = '../tmp/VisualStudio/Projects/$ProjectName$.vcxproj'
++            .ProjectInputPaths          = '$ProjectPath$\'
++            .ProjectBasePath            = '$ProjectPath$\'
++
++            .LocalDebuggerCommand       = '^$(SolutionDir)..\^$(Configuration)\Tools\FBuild\FBuildCoordinator\FBuildCoordinator.exe'
++            .LocalDebuggerWorkingDirectory = '^$(SolutionDir)..\..\Code'
++        }
++    #endif
++
++    // XCode Project Generation
++    //--------------------------------------------------------------------------
++    #if __OSX__
++        XCodeProject( '$ProjectName$-xcodeproj' )
++        {
++            .ProjectOutput              = '../tmp/XCode/Projects/3_Apps/$ProjectName$.xcodeproj/project.pbxproj'
++            .ProjectInputPaths          = '$ProjectPath$/'
++            .ProjectBasePath            = '$ProjectPath$/'
++
++            .XCodeBuildWorkingDir       = '../../../../Code/'
++        }
++    #endif
++}
+diff --git a/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinatorOptions.cpp b/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinatorOptions.cpp
+new file mode 100644
+index 00000000..9ebd5c4e
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinatorOptions.cpp
+@@ -0,0 +1,40 @@
++// FBuildCoordinatorOptions
++//------------------------------------------------------------------------------
++
++// Includes
++//------------------------------------------------------------------------------
++#include "FBuildCoordinatorOptions.h"
++#include "Tools/FBuild/FBuildCore/FBuildVersion.h"
++
++// Core
++#include "Core/Containers/Array.h"
++#include "Core/Env/Env.h"
++#include "Core/Strings/AStackString.h"
++#include "Core/Tracing/Tracing.h"
++
++// FBuildCoordinatorOptions (CONSTRUCTOR)
++//------------------------------------------------------------------------------
++FBuildCoordinatorOptions::FBuildCoordinatorOptions()
++{
++}
++
++// ProcessCommandLine
++//------------------------------------------------------------------------------
++bool FBuildCoordinatorOptions::ProcessCommandLine( const AString & commandLine )
++{
++    // Tokenize
++    Array< AString > tokens;
++    commandLine.Tokenize( tokens );
++
++    return true;
++}
++
++// ShowUsageError
++//------------------------------------------------------------------------------
++void FBuildCoordinatorOptions::ShowUsageError()
++{
++    OUTPUT( "FBuildCoordinator - " FBUILD_VERSION_STRING " - "
++            "Copyright 2012-2019 Franta Fulin - http://www.fastbuild.org\n" );
++}
++
++//------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinatorOptions.h b/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinatorOptions.h
+new file mode 100644
+index 00000000..3621d4e9
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCoordinator/FBuildCoordinatorOptions.h
+@@ -0,0 +1,27 @@
++// FBuildCoordinatorOptions
++//------------------------------------------------------------------------------
++#pragma once
++
++// Includes
++//------------------------------------------------------------------------------
++// Core
++#include "Core/Env/Types.h"
++
++// Forward Declaration
++//------------------------------------------------------------------------------
++class AString;
++
++// FBuildCoordinatorOptions
++//------------------------------------------------------------------------------
++class FBuildCoordinatorOptions
++{
++public:
++    FBuildCoordinatorOptions();
++
++    bool ProcessCommandLine( const AString & commandLine );
++
++private:
++    void ShowUsageError();
++};
++
++//------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCoordinator/Main.cpp b/Code/Tools/FBuild/FBuildCoordinator/Main.cpp
+new file mode 100644
+index 00000000..0bc66fdb
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCoordinator/Main.cpp
+@@ -0,0 +1,83 @@
++// Main
++//------------------------------------------------------------------------------
++
++// Includes
++//------------------------------------------------------------------------------
++#include "FBuildCoordinatorOptions.h"
++#include "Coordinator/Coordinator.h"
++#include "Tools/FBuild/FBuildCore/FBuild.h"
++#include "Tools/FBuild/FBuildCore/FLog.h"
++#include "Tools/FBuild/FBuildCore/Helpers/CtrlCHandler.h"
++
++#include "Core/Profile/Profile.h"
++#include "Core/Process/SystemMutex.h"
++#include "Core/Tracing/Tracing.h"
++
++#include <stdio.h>
++
++// Global Data
++//------------------------------------------------------------------------------
++// only allow 1 worker per system
++SystemMutex g_OneProcessMutex( "Global\\FBuildCoordinator" );
++
++// Return Codes
++//------------------------------------------------------------------------------
++enum ReturnCodes
++{
++    FBUILD_OK                               = 0,
++    FBUILD_BAD_ARGS                         = -1,
++    FBUILD_ALREADY_RUNNING                  = -2
++};
++
++// Headers
++//------------------------------------------------------------------------------
++int Main( const AString & args );
++
++// main
++//------------------------------------------------------------------------------
++int main(int argc, char * argv[])
++{
++    AStackString<> args;
++    for ( int i=1; i<argc; ++i ) // NOTE: Skip argv[0] exe name
++    {
++        if ( i > 0 )
++        {
++            args += ' ';
++        }
++        args += argv[ i ];
++    }
++
++    // This wrapper is purely for profiling scope
++    int result = Main( args );
++    PROFILE_SYNCHRONIZE // make sure no tags are active and do one final sync
++    return result;
++}
++
++// Main
++//------------------------------------------------------------------------------
++int Main( const AString & args )
++{
++    // handle cmd line args
++    FBuildCoordinatorOptions options;
++    if ( options.ProcessCommandLine( args ) == false )
++    {
++        return FBUILD_BAD_ARGS;
++    }
++
++    // only allow 1 worker per system
++    Timer t;
++    while ( g_OneProcessMutex.TryLock() == false )
++    {
++        // retry for upto 2 seconds, to allow some time for old worker to close
++        if ( t.GetElapsed() > 5.0f )
++        {
++            OUTPUT( "An FBuildCoordinator is already running!\n" );
++            return FBUILD_ALREADY_RUNNING;
++        }
++        Thread::Sleep(100);
++    }
++
++    Coordinator coordinator( args );
++
++    return coordinator.Start();
++}
+diff --git a/Code/Tools/FBuild/FBuildCore/Graph/CompilerNode.h b/Code/Tools/FBuild/FBuildCore/Graph/CompilerNode.h
+index 63791f13..e4a51f5f 100644
+--- a/Code/Tools/FBuild/FBuildCore/Graph/CompilerNode.h
++++ b/Code/Tools/FBuild/FBuildCore/Graph/CompilerNode.h
+@@ -53,6 +53,7 @@ public:
+     CompilerFamily GetCompilerFamily() const { return static_cast<CompilerFamily>( m_CompilerFamilyEnum ); }
+ 
+     const AString & GetExecutable() const { return m_StaticDependencies[ 0 ].GetNode()->GetName(); }
++    const AString & GetExtraFile( size_t index ) const { return m_StaticDependencies[ index + 1 ].GetNode()->GetName(); }
+     const char * GetEnvironmentString() const;
+ 
+ private:
+diff --git a/Code/Tools/FBuild/FBuildCore/Graph/ObjectNode.cpp b/Code/Tools/FBuild/FBuildCore/Graph/ObjectNode.cpp
+index 3169382a..325377a9 100644
+--- a/Code/Tools/FBuild/FBuildCore/Graph/ObjectNode.cpp
++++ b/Code/Tools/FBuild/FBuildCore/Graph/ObjectNode.cpp
+@@ -237,7 +237,7 @@ ObjectNode::~ObjectNode()
+     bool useCache = ShouldUseCache();
+     bool useDist = GetFlag( FLAG_CAN_BE_DISTRIBUTED ) && m_AllowDistribution && FBuild::Get().GetOptions().m_AllowDistributed;
+     bool useSimpleDist = GetCompiler()->SimpleDistributionMode();
+-    bool usePreProcessor = !useSimpleDist && ( useCache || useDist || GetFlag( FLAG_GCC ) || GetFlag( FLAG_SNC ) || GetFlag( FLAG_CLANG ) || GetFlag( CODEWARRIOR_WII ) || GetFlag( GREENHILLS_WIIU ) || GetFlag( ObjectNode::FLAG_VBCC ) || GetFlag( FLAG_ORBIS_WAVE_PSSLC ) );
++    bool usePreProcessor = !useSimpleDist && ( useCache || useDist || GetFlag( FLAG_GCC ) || GetFlag( FLAG_SNC ) || ( GetFlag( FLAG_CLANG ) && useDist ) || GetFlag( CODEWARRIOR_WII ) || GetFlag( GREENHILLS_WIIU ) || GetFlag( ObjectNode::FLAG_VBCC ) || GetFlag( FLAG_ORBIS_WAVE_PSSLC ) );
+     if ( GetDedicatedPreprocessor() )
+     {
+         usePreProcessor = true;
+@@ -502,7 +502,12 @@ Node::BuildResult ObjectNode::DoBuildWithPreProcessor2( Job * job, bool useDeopt
+     bool usePreProcessedOutput = true;
+     if ( job->IsLocal() )
+     {
+-        if ( GetFlag( FLAG_CLANG | FLAG_GCC | FLAG_SNC ) )
++        if ( GetFlag( FLAG_CLANG ) )
++        {
++            usePreProcessedOutput = false;
++        }
++
++        if ( GetFlag( FLAG_GCC | FLAG_SNC ) )
+         {
+             // Using the PCH with Clang/SNC/GCC doesn't prevent storing to the cache
+             // so we can use the PCH accelerated compilation
+@@ -1701,6 +1706,15 @@ bool ObjectNode::BuildArgs( const Job * job, Args & fullArgs, Pass pass, bool us
+                 {
+                     continue; // skip this token in both cases
+                 }
++                // Remove dependency file generation so it's only performed on local system
++                if ( StripToken( "-MD", token ) )
++                {
++                    continue; // skip this token in both cases
++                }
++                if ( StripTokenWithArg( "-MF", token, i ) )
++                {
++                    continue; // skip this token in both cases
++                }
+             }
+             if ( isGCC || isClang )
+             {
+@@ -1881,6 +1895,41 @@ bool ObjectNode::BuildArgs( const Job * job, Args & fullArgs, Pass pass, bool us
+             }
+         }
+ 
++        // %5 -> FirstExtraFile
++        found = token.Find( "%5" );
++        if ( found )
++        {
++            AStackString<> extraFile;
++            if ( job->IsLocal() == false )
++            {
++                job->GetToolManifest()->GetRemoteFilePath( 1, extraFile );
++            }
++
++            fullArgs += AStackString<>( token.Get(), found );
++            fullArgs += job->IsLocal() ? GetCompiler()->GetExtraFile( 0 ) : extraFile;
++            fullArgs += AStackString<>( found + 2, token.GetEnd() );
++            fullArgs.AddDelimiter();
++            continue;
++        }
++
++        // %CLFilterDependenciesOutput -> file name Unreal Engine's cl-filter -dependencies param
++        // MSVC's /showIncludes option doesn't output anything when compiling a preprocessed file,
++        // so in that case we change the file name so that it doesn't override the file generated
++        // during preprocessing pass.
++        found = token.Find( "%CLFilterDependenciesOutput" );
++        if ( found )
++        {
++            AString nameWithoutExtension( m_Name );
++            PathUtils::StripFileExtension( nameWithoutExtension );
++
++            fullArgs += AStackString<>( token.Get(), found );
++            fullArgs += nameWithoutExtension;
++            fullArgs += pass == PASS_COMPILE_PREPROCESSED ? ".empty" : ".txt";
++            fullArgs += AStackString<>( found + 27, token.GetEnd() );
++            fullArgs.AddDelimiter();
++            continue;
++        }
++
+         // cl.exe treats \" as an escaped quote
+         // It's a common user error to terminate things (like include paths) with a quote
+         // this way, messing up the rest of the args and causing bizarre failures.
+diff --git a/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.cpp b/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.cpp
+index 69d5cfaf..cca5f37a 100644
+--- a/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.cpp
++++ b/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.cpp
+@@ -35,7 +35,9 @@
+             "Manifest",
+             "RequestFile",
+             "File",
+-            "ServerStatus"
++            "RequestWorkerList",
++            "WorkerList",
++            "SetWorkerStatus"
+         };
+         static_assert( ( sizeof( msgNames ) / sizeof(const char *) ) == Protocol::NUM_MESSAGES, "msgNames item count doesn't match NUM_MESSAGES" );
+ 
+@@ -189,4 +191,30 @@ Protocol::MsgFile::MsgFile( uint64_t toolId, uint32_t fileId )
+ {
+ }
+ 
++// MsgRequestWorkerList
++//------------------------------------------------------------------------------
++Protocol::MsgRequestWorkerList::MsgRequestWorkerList()
++    : Protocol::IMessage( Protocol::MSG_REQUEST_WORKER_LIST, sizeof( MsgRequestWorkerList ), false )
++    , m_ProtocolVersion( PROTOCOL_VERSION )
++    , m_Platform(Env::GetPlatform())
++{
++}
++
++// MsgWorkerList
++//------------------------------------------------------------------------------
++Protocol::MsgWorkerList::MsgWorkerList()
++    : Protocol::IMessage( Protocol::MSG_WORKER_LIST, sizeof( MsgWorkerList ), true )
++{
++}
++
++// MsgSetWorkerStatus
++//------------------------------------------------------------------------------
++Protocol::MsgSetWorkerStatus::MsgSetWorkerStatus( bool isAvailable )
++    : Protocol::IMessage( Protocol::MSG_SET_WORKER_STATUS, sizeof( MsgSetWorkerStatus ), false )
++    , m_IsAvailable( isAvailable )
++    , m_ProtocolVersion( PROTOCOL_VERSION )
++    , m_Platform(Env::GetPlatform())
++{
++}
++
+ //------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.h b/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.h
+index f97cc717..03531a04 100644
+--- a/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.h
++++ b/Code/Tools/FBuild/FBuildCore/Protocol/Protocol.h
+@@ -33,6 +33,8 @@ namespace Protocol
+ 
+     enum { PROTOCOL_TEST_PORT = PROTOCOL_PORT + 1 }; // Different port for use by tests
+ 
++    enum { COORDINATOR_PORT = PROTOCOL_PORT + 128 }; // Different port for use by tests
++
+     // Identifiers for all unique messages
+     //------------------------------------------------------------------------------
+     enum MessageType
+@@ -52,6 +54,10 @@ namespace Protocol
+         MSG_REQUEST_FILE        = 9, // Server -> Client : Ask client for a file
+         MSG_FILE                = 10,// Server <- Client : Send a requested file
+ 
++        MSG_REQUEST_WORKER_LIST = 11,// Client -> Coordinator : Ask coordinator for the list of workers
++        MSG_WORKER_LIST         = 12,// Client <- Coordinator : Respond with the list of workers
++        MSG_SET_WORKER_STATUS   = 13,// Server -> Coordinator : Sets worker status (available or unavailable)
++
+         NUM_MESSAGES            // leave last
+     };
+ };
+@@ -227,6 +233,47 @@ namespace Protocol
+         MsgServerStatus();
+     };
+     static_assert( sizeof( MsgServerStatus ) == sizeof( IMessage ), "MsgServerStatus message has incorrect size" );
++
++    // MsgRequestWorkersList
++    //------------------------------------------------------------------------------
++    class MsgRequestWorkerList : public IMessage
++    {
++    public:
++        MsgRequestWorkerList();
++
++        inline uint32_t GetProtocolVersion() const { return m_ProtocolVersion; }
++        inline uint8_t  GetPlatform() const { return m_Platform; }
++    private:
++        uint32_t        m_ProtocolVersion;
++        uint8_t         m_Platform;
++    };
++    static_assert( sizeof( MsgRequestWorkerList ) == sizeof( IMessage ) + 8, "MsgRequestWorkerList message has incorrect size" );
++
++    // MsgWorkerList
++    //------------------------------------------------------------------------------
++    class MsgWorkerList : public IMessage
++    {
++    public:
++        MsgWorkerList();
++    };
++    static_assert( sizeof( MsgWorkerList ) == sizeof( IMessage ), "MsgWorkerList message has incorrect size" );
++
++    // MsgSetWorkerStatus
++    //------------------------------------------------------------------------------
++    class MsgSetWorkerStatus : public IMessage
++    {
++    public:
++        explicit MsgSetWorkerStatus( bool isAvailable );
++
++        inline bool     IsAvailable() const { return m_IsAvailable; }
++        inline uint32_t GetProtocolVersion() const { return m_ProtocolVersion; }
++        inline uint8_t  GetPlatform() const { return m_Platform; }
++    private:
++        bool            m_IsAvailable;
++        uint32_t        m_ProtocolVersion;
++        uint8_t         m_Platform;
++    };
++    static_assert( sizeof( MsgSetWorkerStatus ) == sizeof( IMessage ) + 12, "MsgSetWorkerStatus message has incorrect size" );
+ };
+ 
+ //------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.cpp b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.cpp
+index 7c1fe738..5b610a32 100644
+--- a/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.cpp
++++ b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.cpp
+@@ -8,6 +8,7 @@
+ // FBuild
+ #include "Tools/FBuild/FBuildCore/Protocol/Protocol.h"
+ #include "Tools/FBuild/FBuildCore/FLog.h"
++#include "Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.h"
+ 
+ // Core
+ #include "Core/Env/Env.h"
+@@ -18,12 +19,57 @@
+ #include "Core/Profile/Profile.h"
+ #include "Core/Strings/AStackString.h"
+ #include "Core/Process/Thread.h"
++#include "Core/Tracing/Tracing.h"
++
++#if defined( __APPLE__ )
++
++#include <sys/socket.h>
++#include <ifaddrs.h>
++#include <string.h>
++#include <netinet/in.h>
++#include <arpa/inet.h>
++
++static bool ConvertHostNameToLocalIP4( AString& hostName )
++{
++    bool result = false;
++
++    struct ifaddrs * allIfAddrs;
++    if ( getifaddrs( &allIfAddrs ) == 0 )
++    {
++        struct ifaddrs * addr = allIfAddrs;
++        char ipString[48] = { 0 };
++        while ( addr )
++        {
++            if ( addr->ifa_addr )
++            {
++                if ( addr->ifa_addr->sa_family == AF_INET && strcmp( addr->ifa_name, "en0" ) == 0 )
++                {
++                    struct sockaddr_in * sockaddr = ( struct sockaddr_in * ) addr->ifa_addr;
++                    inet_ntop( AF_INET, &sockaddr->sin_addr, ipString, sizeof( ipString ) );
++                    hostName = ipString;
++                    result = true;
++                    break;
++                }
++            }
++            addr = addr->ifa_next;
++        }
++
++        freeifaddrs( allIfAddrs );
++    }
++
++    return result;
++}
++
++#endif // __APPLE__
+ 
+ // CONSTRUCTOR
+ //------------------------------------------------------------------------------
+ WorkerBrokerage::WorkerBrokerage()
+     : m_Availability( false )
+     , m_Initialized( false )
++    , m_ConnectionPool( nullptr )
++    , m_Connection( nullptr )
++    , m_WorkerListUpdateReady( false )
+ {
+ }
+ 
+@@ -38,27 +84,50 @@ void WorkerBrokerage::Init()
+         return;
+     }
+ 
+-    // brokerage path includes version to reduce unnecssary comms attempts
+-    uint32_t protocolVersion = Protocol::PROTOCOL_VERSION;
++    Network::GetHostName(m_HostName);
++
++#if defined( __APPLE__ )
++    ConvertHostNameToLocalIP4(m_HostName);
++#endif
+ 
+-    // root folder
+-    AStackString<> root;
+-    if ( Env::GetEnvVariable( "FASTBUILD_BROKERAGE_PATH", root ) )
++    if ( m_CoordinatorAddress.IsEmpty() == true )
+     {
+-        // <path>/<group>/<version>/
+-        #if defined( __WINDOWS__ )
+-            m_BrokerageRoot.Format( "%s\\main\\%u.windows\\", root.Get(), protocolVersion );
+-        #elif defined( __OSX__ )
+-            m_BrokerageRoot.Format( "%s/main/%u.osx/", root.Get(), protocolVersion );
+-        #else
+-            m_BrokerageRoot.Format( "%s/main/%u.linux/", root.Get(), protocolVersion );
+-        #endif
++        AStackString<> coordinator;
++        if ( Env::GetEnvVariable( "FASTBUILD_COORDINATOR", coordinator ) )
++        {
++            m_CoordinatorAddress = coordinator;
++        }
+     }
+ 
+-    Network::GetHostName(m_HostName);
++    if ( m_CoordinatorAddress.IsEmpty() == true )
++    {
++        OUTPUT( "Using brokerage folder\n" );
++
++        // brokerage path includes version to reduce unnecssary comms attempts
++        uint32_t protocolVersion = Protocol::PROTOCOL_VERSION;
++
++        // root folder
++        AStackString<> root;
++        if ( Env::GetEnvVariable( "FASTBUILD_BROKERAGE_PATH", root ) )
++        {
++            // <path>/<group>/<version>/
++            #if defined( __WINDOWS__ )
++                m_BrokerageRoot.Format( "%s\\main\\%u.windows\\", root.Get(), protocolVersion );
++            #elif defined( __OSX__ )
++                m_BrokerageRoot.Format( "%s/main/%u.osx/", root.Get(), protocolVersion );
++            #else
++                m_BrokerageRoot.Format( "%s/main/%u.linux/", root.Get(), protocolVersion );
++            #endif
++        }
++
++        AStackString<> filePath;
++        m_BrokerageFilePath.Format( "%s%s", m_BrokerageRoot.Get(), m_HostName.Get() );
++    }
++    else
++    {
++        OUTPUT( "Using coordinator\n" );
++    }
+ 
+-    AStackString<> filePath;
+-    m_BrokerageFilePath.Format( "%s%s", m_BrokerageRoot.Get(), m_HostName.Get() );
+     m_TimerLastUpdate.Start();
+ 
+     m_Initialized = true;
+@@ -83,42 +152,100 @@ void WorkerBrokerage::FindWorkers( Array< AString > & workerList )
+ 
+     Init();
+ 
+-    if ( m_BrokerageRoot.IsEmpty() )
++    if ( m_BrokerageRoot.IsEmpty() && m_CoordinatorAddress.IsEmpty() )
+     {
+-        FLOG_WARN( "No brokerage root; did you set FASTBUILD_BROKERAGE_PATH?" );
++        FLOG_WARN( "No brokerage root and no coordinator available; did you set FASTBUILD_BROKERAGE_PATH or launched with -coordinator param?" );
+         return;
+     }
+ 
+-    Array< AString > results( 256, true );
+-    if ( !FileIO::GetFiles( m_BrokerageRoot,
+-                            AStackString<>( "*" ),
+-                            false,
+-                            &results ) )
++    if ( ConnectToCoordinator() )
+     {
+-        FLOG_WARN( "No workers found in '%s'", m_BrokerageRoot.Get() );
+-        return; // no files found
+-    }
++        m_WorkerListUpdateReady = false;
+ 
+-    // presize
+-    if ( ( workerList.GetSize() + results.GetSize() ) > workerList.GetCapacity() )
+-    {
+-        workerList.SetCapacity( workerList.GetSize() + results.GetSize() );
+-    }
++        OUTPUT( "Requesting worker list\n");
++
++        Protocol::MsgRequestWorkerList msg;
++        msg.Send( m_Connection );
+ 
+-    // convert worker strings
+-    const AString * const end = results.End();
+-    for ( AString * it = results.Begin(); it != end; ++it )
++        while ( m_WorkerListUpdateReady == false )
++        {
++            Thread::Sleep( 1 );
++        }
++
++        DisconnectFromCoordinator();
++
++        OUTPUT( "Worker list received: %u workers\n", (uint32_t)m_WorkerListUpdate.GetSize() );
++        if ( m_WorkerListUpdate.GetSize() == 0 )
++        {
++            FLOG_WARN( "No workers received from coordinator" );
++            return; // no files found
++        }
++
++        // presize
++        if ( ( workerList.GetSize() + m_WorkerListUpdate.GetSize() ) > workerList.GetCapacity() )
++        {
++            workerList.SetCapacity( workerList.GetSize() + m_WorkerListUpdate.GetSize() );
++        }
++
++        // convert worker strings
++        const uint32_t * const end = m_WorkerListUpdate.End();
++        for ( uint32_t * it = m_WorkerListUpdate.Begin(); it != end; ++it )
++        {
++            AStackString<> workerName;
++            TCPConnectionPool::GetAddressAsString( *it, workerName );
++            if ( workerName.CompareI( m_HostName ) != 0 && workerName.CompareI( "127.0.0.1" ) )
++            {
++                workerList.Append( workerName );
++            }
++            else
++            {
++                OUTPUT( "Skipping woker %s\n", workerName.Get() );
++            }
++        }
++
++        m_WorkerListUpdate.Clear();
++    }
++    else if ( !m_BrokerageRoot.IsEmpty() )
+     {
+-        const AString & fileName = *it;
+-        const char * lastSlash = fileName.FindLast( NATIVE_SLASH );
+-        AStackString<> workerName( lastSlash + 1 );
+-        if ( workerName.CompareI( m_HostName ) != 0 )
++        Array< AString > results( 256, true );
++        if ( !FileIO::GetFiles( m_BrokerageRoot,
++                                AStackString<>( "*" ),
++                                false,
++                                &results ) )
++        {
++            FLOG_WARN( "No workers found in '%s'", m_BrokerageRoot.Get() );
++            return; // no files found
++        }
++
++        // presize
++        if ( ( workerList.GetSize() + results.GetSize() ) > workerList.GetCapacity() )
++        {
++            workerList.SetCapacity( workerList.GetSize() + results.GetSize() );
++        }
++
++        // convert worker strings
++        const AString * const end = results.End();
++        for ( AString * it = results.Begin(); it != end; ++it )
+         {
+-            workerList.Append( workerName );
++            const AString & fileName = *it;
++            const char * lastSlash = fileName.FindLast( NATIVE_SLASH );
++            AStackString<> workerName( lastSlash + 1 );
++            if ( workerName.CompareI( m_HostName ) != 0 )
++            {
++                workerList.Append( workerName );
++            }
+         }
+     }
+ }
+ 
++// UpdateWorkerList
++//------------------------------------------------------------------------------
++void WorkerBrokerage::UpdateWorkerList( Array< uint32_t > &workerListUpdate )
++{
++    m_WorkerListUpdate.Swap( workerListUpdate );
++    m_WorkerListUpdateReady = true;
++}
++
+ // SetAvailability
+ //------------------------------------------------------------------------------
+ void WorkerBrokerage::SetAvailability(bool available)
+@@ -126,7 +253,7 @@ void WorkerBrokerage::SetAvailability(bool available)
+     Init();
+ 
+     // ignore if brokerage not configured
+-    if ( m_BrokerageRoot.IsEmpty() )
++    if ( m_BrokerageRoot.IsEmpty() && m_CoordinatorAddress.IsEmpty() )
+     {
+         return;
+     }
+@@ -137,26 +264,44 @@ void WorkerBrokerage::SetAvailability(bool available)
+         float elapsedTime = m_TimerLastUpdate.GetElapsedMS();
+         if ( elapsedTime >= 10000.0f )
+         {
+-            //
+-            // Ensure that the file will be recreated if cleanup is done on the brokerage path.
+-            //
+-            if ( !FileIO::FileExists( m_BrokerageFilePath.Get() ) )
++            if ( ConnectToCoordinator() )
+             {
+-                FileIO::EnsurePathExists( m_BrokerageRoot );
++                Protocol::MsgSetWorkerStatus msg( available );
++                msg.Send( m_Connection );
++                DisconnectFromCoordinator();
++            }
++            else
++            {
++                //
++                // Ensure that the file will be recreated if cleanup is done on the brokerage path.
++                //
++                if ( !FileIO::FileExists( m_BrokerageFilePath.Get() ) )
++                {
++                    FileIO::EnsurePathExists( m_BrokerageRoot );
+ 
+-                // create file to signify availability
+-                FileStream fs;
+-                fs.Open( m_BrokerageFilePath.Get(), FileStream::WRITE_ONLY );
++                    // create file to signify availability
++                    FileStream fs;
++                    fs.Open( m_BrokerageFilePath.Get(), FileStream::WRITE_ONLY );
+ 
+-                // Restart the timer
+-                m_TimerLastUpdate.Start();
++                    // Restart the timer
++                    m_TimerLastUpdate.Start();
++                }
+             }
+         }
+     }
+     else if ( m_Availability != available )
+     {
+-        // remove file to remove availability
+-        FileIO::FileDelete( m_BrokerageFilePath.Get() );
++        if ( ConnectToCoordinator() )
++        {
++            Protocol::MsgSetWorkerStatus msg( available );
++            msg.Send( m_Connection );
++            DisconnectFromCoordinator();
++        }
++        else
++        {
++            // remove file to remove availability
++            FileIO::FileDelete( m_BrokerageFilePath.Get() );
++        }
+ 
+         // Restart the timer
+         m_TimerLastUpdate.Start();
+@@ -164,4 +309,42 @@ void WorkerBrokerage::SetAvailability(bool available)
+     m_Availability = available;
+ }
+ 
++// ConnectToCoordinator
++//------------------------------------------------------------------------------
++bool WorkerBrokerage::ConnectToCoordinator()
++{
++    if ( m_CoordinatorAddress.IsEmpty() == false )
++    {
++        m_ConnectionPool = FNEW( WorkerConnectionPool );
++        m_Connection = m_ConnectionPool->Connect( m_CoordinatorAddress, Protocol::COORDINATOR_PORT, 2000, this ); // 2000ms connection timeout
++        if ( m_Connection == nullptr )
++        {
++            OUTPUT( "Failed to connect to the coordinator at %s\n", m_CoordinatorAddress.Get() );
++            FDELETE m_ConnectionPool;
++            m_ConnectionPool = nullptr;
++            // m_CoordinatorAddress.Clear();
++            return false;
++        }
++
++        OUTPUT( "Connected to the coordinator\n" );
++        return true;
++    }
++
++    return false;
++}
++
++// DisconnectFromCoordinator
++//------------------------------------------------------------------------------
++void WorkerBrokerage::DisconnectFromCoordinator()
++{
++    if ( m_ConnectionPool )
++    {
++        FDELETE m_ConnectionPool;
++        m_ConnectionPool = nullptr;
++        m_Connection = nullptr;
++
++        OUTPUT( "Disconnected from the coordinator\n" );
++    }
++}
++
+ //------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.h b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.h
+index bbd024fa..ceecfc28 100644
+--- a/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.h
++++ b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerBrokerage.h
+@@ -9,6 +9,8 @@
+ 
+ // Forward Declarations
+ //------------------------------------------------------------------------------
++class WorkerConnectionPool;
++class ConnectionInfo;
+ 
+ // WorkerBrokerage
+ //------------------------------------------------------------------------------
+@@ -22,18 +24,27 @@ public:
+ 
+     // client interface
+     void FindWorkers( Array< AString > & workerList );
++    void UpdateWorkerList( Array< uint32_t > &workerListUpdate );
+ 
+     // server interface
+     void SetAvailability( bool available );
+ private:
+     void Init();
+ 
++    bool ConnectToCoordinator();
++    void DisconnectFromCoordinator();
++
+     AString             m_BrokerageRoot;
+     bool                m_Availability;
+     bool                m_Initialized;
+     AString             m_HostName;
+     AString             m_BrokerageFilePath;
++    AString             m_CoordinatorAddress;
++    WorkerConnectionPool * m_ConnectionPool;
++    const ConnectionInfo * m_Connection;
+     Timer               m_TimerLastUpdate;      // Throttle network access
++    Array< uint32_t >   m_WorkerListUpdate;
++    bool                m_WorkerListUpdateReady;
+ };
+ 
+ //------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.cpp b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.cpp
+new file mode 100644
+index 00000000..3763ef8a
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.cpp
+@@ -0,0 +1,191 @@
++// WorkerConnectionPool
++//------------------------------------------------------------------------------
++
++// Includes
++//------------------------------------------------------------------------------
++#include "WorkerConnectionPool.h"
++#include "WorkerBrokerage.h"
++
++// FBuild
++#include "Tools/FBuild/FBuildCore/Protocol/Protocol.h"
++
++// Core
++#include "Core/Strings/AStackString.h"
++#include "Core/Tracing/Tracing.h"
++#include "Core/FileIO/ConstMemoryStream.h"
++#include "Core/FileIO/MemoryStream.h"
++
++// CONSTRUCTOR
++//------------------------------------------------------------------------------
++WorkerConnectionPool::WorkerConnectionPool()
++    : TCPConnectionPool()
++    , m_CurrentMessage( nullptr )
++{
++}
++
++// DESTRUCTOR
++//------------------------------------------------------------------------------
++WorkerConnectionPool::~WorkerConnectionPool()
++{
++    ShutdownAllConnections();
++}
++
++// OnReceive
++//------------------------------------------------------------------------------
++void WorkerConnectionPool::OnReceive( const ConnectionInfo * connection, void * data, uint32_t size, bool & keepMemory )
++{
++    keepMemory = true; // we'll take care of freeing the memory
++
++    // are we expecting a msg, or the payload for a msg?
++    void * payload = nullptr;
++    size_t payloadSize = 0;
++    if ( m_CurrentMessage == nullptr )
++    {
++        // message
++        m_CurrentMessage = static_cast< const Protocol::IMessage * >( data );
++        if ( m_CurrentMessage->HasPayload() )
++        {
++            return;
++        }
++    }
++    else
++    {
++        // payload
++        ASSERT( m_CurrentMessage->HasPayload() );
++        payload = data;
++        payloadSize = size;
++    }
++
++    const Protocol::IMessage * imsg = m_CurrentMessage;
++    Protocol::MessageType messageType = imsg->GetType();
++
++    PROTOCOL_DEBUG( "Coordinator : %u (%s)\n", messageType, GetProtocolMessageDebugName( messageType ) );
++
++    switch ( messageType )
++    {
++        case Protocol::MSG_REQUEST_WORKER_LIST:
++        {
++            const Protocol::MsgRequestWorkerList * msg = static_cast< const Protocol::MsgRequestWorkerList * >( imsg );
++            Process( connection, msg );
++            break;
++        }
++        case Protocol::MSG_WORKER_LIST:
++        {
++            const Protocol::MsgWorkerList * msg = static_cast< const Protocol::MsgWorkerList * >( imsg );
++            Process( connection, msg, payload, payloadSize );
++            break;
++        }
++        case Protocol::MSG_SET_WORKER_STATUS:
++        {
++            const Protocol::MsgSetWorkerStatus * msg = static_cast< const Protocol::MsgSetWorkerStatus * >( imsg );
++            Process( connection, msg );
++            break;
++        }
++        default:
++        {
++            // unknown message type
++            ASSERT( false ); // this indicates a protocol bug
++            // AStackString<> remoteAddr;
++            // TCPConnectionPool::GetAddressAsString( connection->GetRemoteAddress(), remoteAddr );
++            // DIST_INFO( "Protocol Error: %s\n", remoteAddr.Get() );
++            Disconnect( connection );
++            break;
++        }
++    }
++
++    // free everything
++    FREE( (void *)( m_CurrentMessage ) );
++    FREE( payload );
++    m_CurrentMessage = nullptr;
++}
++
++// OnConnected
++//------------------------------------------------------------------------------
++void WorkerConnectionPool::OnConnected( const ConnectionInfo * connection )
++{
++    AStackString<> remoteAddr;
++    TCPConnectionPool::GetAddressAsString( connection->GetRemoteAddress(), remoteAddr );
++    OUTPUT( "OnConnected %s\n", remoteAddr.Get() );
++}
++
++// OnDisconnected
++//------------------------------------------------------------------------------
++void WorkerConnectionPool::OnDisconnected( const ConnectionInfo * )
++{
++}
++
++// Process ( MsgRequestWorkerList )
++//------------------------------------------------------------------------------
++void WorkerConnectionPool::Process( const ConnectionInfo * connection, const Protocol::MsgRequestWorkerList * msg )
++{
++    OUTPUT( "Process ( MsgRequestWorkerList )\n");
++
++    MutexHolder mh( m_Mutex );
++    
++    MemoryStream ms;
++    const size_t numWorkers( m_Workers.GetSize() );
++    ms.Write( (uint32_t)numWorkers );
++    for ( size_t i = 0; i < numWorkers; ++i )
++    {
++        if ( m_Workers[ i ].m_ProtocolVersion == msg->GetProtocolVersion() && m_Workers[ i ].m_Platform == msg->GetPlatform() )
++        {
++            ms.Write( m_Workers[ i ].m_Address );
++        }
++    }
++
++    Protocol::MsgWorkerList resultMsg;
++    resultMsg.Send( connection, ms );
++}
++
++// Process ( MsgWorkerList )
++//------------------------------------------------------------------------------
++void WorkerConnectionPool::Process( const ConnectionInfo * connection, const Protocol::MsgWorkerList * /*msg*/, const void * payload, size_t payloadSize )
++{
++    OUTPUT( "Process ( MsgWorkerList )\n");
++
++    ConstMemoryStream ms( payload, payloadSize );
++
++    uint32_t numWorkers( 0 );
++    ms.Read( numWorkers );
++
++    OUTPUT( "%u workers in payload\n", numWorkers );
++
++    Array< uint32_t > workers;
++    workers.SetCapacity( numWorkers );
++
++    for ( size_t i=0; i<(size_t)numWorkers; ++i )
++    {
++        uint32_t workerAddress( 0 );
++		ms.Read( workerAddress );
++        workers.Append( workerAddress );
++    }
++
++    WorkerBrokerage * brokerage = ( WorkerBrokerage *)connection->GetUserData();
++    ASSERT( brokerage );
++    brokerage->UpdateWorkerList( workers );
++}
++
++// Process ( MsgSetWorkerStatus )
++//------------------------------------------------------------------------------
++void WorkerConnectionPool::Process( const ConnectionInfo * connection, const Protocol::MsgSetWorkerStatus * msg )
++{
++    MutexHolder mh( m_Mutex );
++
++    const uint32_t workerAddress = connection->GetRemoteAddress();
++    if ( msg->IsAvailable() )
++    {
++        if ( m_Workers.Find( workerAddress ) == nullptr )
++        {
++            AStackString<> remoteAddr;
++            TCPConnectionPool::GetAddressAsString( workerAddress, remoteAddr );
++            OUTPUT( "New worker available: %s\n", remoteAddr.Get() );
++            m_Workers.Append( WorkerInfo( workerAddress, msg->GetProtocolVersion(), msg->GetPlatform() ) );
++        }
++    }
++    else
++    {
++        m_Workers.FindAndErase( workerAddress );
++    }
++}
++
++//------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.h b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.h
+new file mode 100644
+index 00000000..26ce54f8
+--- /dev/null
++++ b/Code/Tools/FBuild/FBuildCore/WorkerPool/WorkerConnectionPool.h
+@@ -0,0 +1,61 @@
++// WorkerConnectionPool
++//------------------------------------------------------------------------------
++#pragma once
++
++// Includes
++//------------------------------------------------------------------------------
++
++// Core
++#include "Core/Network/TCPConnectionPool.h"
++
++// Forward Declarations
++//------------------------------------------------------------------------------
++namespace Protocol
++{
++    class IMessage;
++    class MsgRequestWorkerList;
++    class MsgWorkerList;
++    class MsgSetWorkerStatus;
++}
++
++// WorkerInfo
++//------------------------------------------------------------------------------
++struct WorkerInfo
++{
++    WorkerInfo( uint32_t address, uint32_t protocolVersion, uint8_t platform )
++        : m_Address( address )
++        , m_ProtocolVersion( protocolVersion )
++        , m_Platform( platform )
++    {}
++
++    bool operator == ( uint32_t address ) const { return address == m_Address; }
++
++    uint32_t    m_Address;
++    uint32_t    m_ProtocolVersion;
++    uint8_t     m_Platform;
++};
++
++// WorkerConnectionPool
++//------------------------------------------------------------------------------
++class WorkerConnectionPool : public TCPConnectionPool
++{
++public:
++    WorkerConnectionPool();
++    virtual ~WorkerConnectionPool();
++
++private:
++    // network events - NOTE: these happen in another thread! (but never at the same time)
++    virtual void OnReceive( const ConnectionInfo *, void * /*data*/, uint32_t /*size*/, bool & /*keepMemory*/ ) override;
++    virtual void OnConnected( const ConnectionInfo * ) override;
++    virtual void OnDisconnected( const ConnectionInfo * ) override;
++
++    void Process( const ConnectionInfo * connection, const Protocol::MsgRequestWorkerList * msg );
++    void Process( const ConnectionInfo * connection, const Protocol::MsgWorkerList * msg, const void * payload, size_t payloadSize );
++    void Process( const ConnectionInfo * connection, const Protocol::MsgSetWorkerStatus * msg );
++
++    Mutex                       m_Mutex;
++    Array< WorkerInfo >         m_Workers;
++    const Protocol::IMessage    * m_CurrentMessage;
++};
++
++//------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildWorker/Main.cpp b/Code/Tools/FBuild/FBuildWorker/Main.cpp
+index cf982046..a251c180 100644
+--- a/Code/Tools/FBuild/FBuildWorker/Main.cpp
++++ b/Code/Tools/FBuild/FBuildWorker/Main.cpp
+@@ -20,6 +20,11 @@
+     #include "Core/Env/WindowsHeader.h"
+ #endif
+ 
++#if defined( __APPLE__ )
++    #include <sys/resource.h>
++    #include <limits.h>
++#endif
++
+ // Global Data
+ //------------------------------------------------------------------------------
+ // only allow 1 worker per system
+@@ -126,6 +131,12 @@ int MainCommon( const AString & args )
+         // TODO:LINUX SetPriorityClass equivalent
+     #endif
+ 
++    // increase the limit of simultaneously open files on macOS to maximum allowed
++    #if defined( __APPLE__)
++        struct rlimit limit = { OPEN_MAX, RLIM_INFINITY };
++        setrlimit( RLIMIT_NOFILE, &limit );
++    #endif
++
+     // start the worker and wait for it to be closed
+     int ret;
+     {
+diff --git a/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.cpp b/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.cpp
+index 9f966ca2..624bcda9 100644
+--- a/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.cpp
++++ b/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.cpp
+@@ -24,6 +24,9 @@
+ #endif
+ #if defined( __OSX__ )
+     #include <mach/mach_host.h>
++    #include <sys/sysctl.h>
++    #include <stdlib.h>
++    #include <stdio.h>
+ #endif
+ 
+ // Defines
+@@ -190,7 +193,7 @@ bool IdleDetection::IsIdleInternal( float & idleCurrent )
+         VERIFY( host_statistics( mach_host_self(), HOST_CPU_LOAD_INFO, (host_info_t)&cpuInfo, &count ) == KERN_SUCCESS );
+         outIdleTime = cpuInfo.cpu_ticks[ CPU_STATE_IDLE ];
+         outKernTime = cpuInfo.cpu_ticks[ CPU_STATE_SYSTEM ];
+-        outUserTime = cpuInfo.cpu_ticks[ CPU_STATE_USER ];
++        outUserTime = cpuInfo.cpu_ticks[ CPU_STATE_USER ] + cpuInfo.cpu_ticks[ CPU_STATE_NICE ];
+     #elif defined( __LINUX__ )
+         // Read first line of /proc/stat
+         AStackString< 1024 > procStat;
+@@ -253,10 +256,76 @@ bool IdleDetection::IsIdleInternal( float & idleCurrent )
+             outUserTime = 0;
+         }
+     #elif defined( __OSX__ )
+-        // TODO:OSX Implement GetProcecessTime
+-        (void)pi;
+-        outKernTime = 0;
+-        outUserTime = 0;
++        Process p;
++        bool spawnOK = p.Spawn( "/bin/ps",
++                               AStackString<>().Format( "-o time,utime -p %u", pi.m_PID ).Get(),
++                               nullptr,
++                               nullptr );
++        if ( spawnOK )
++        {
++            // capture all of the stdout and stderr
++            AutoPtr< char > memOut;
++            AutoPtr< char > memErr;
++            uint32_t memOutSize = 0;
++            uint32_t memErrSize = 0;
++            p.ReadAllData( memOut, &memOutSize, memErr, &memErrSize );
++
++            // Get result
++            int result = p.WaitForExit();
++            if ( p.HasAborted() || result != 0 )
++            {
++                // Process may have exited, so handle that gracefully
++                outKernTime = 0;
++                outUserTime = 0;
++                return;
++            }
++
++            // Find total time and user time strings in the output
++            char * outString = memOut.Get();
++            while ( *outString && ( *outString < '0' || *outString > '9' ) )
++            {
++                ++outString;
++            }
++
++            char * totalTimeString = outString;
++
++            // Find the end of the total time string and replace '-' with ':' for easier parsing in ConvertTimeString
++            while ( *outString && *outString != ' ' )
++            {
++                if ( *outString == '-' )
++                {
++                    *outString = ':';
++                }
++                ++outString;
++            }
++            *outString++ = 0;
++
++            while ( *outString && ( *outString < '0' || *outString > '9' ) )
++            {
++                ++outString;
++            }
++
++            char * userTimeString = outString;
++
++            // Find the end of the user time string and replace '-' with ':' for easier parsing in ConvertTimeString
++            while ( *outString && *outString != ' ' && *outString != '\n' )
++            {
++                if ( *outString == '-' )
++                {
++                    *outString = ':';
++                }
++                ++outString;
++            }
++            *outString = 0;
++
++            outUserTime = ConvertTimeString( AString( userTimeString ) );
++            outKernTime = ConvertTimeString( AString( totalTimeString ) ) - outUserTime;
++        }
++        else
++        {
++            // Something is terribly wrong
++            ASSERT( false && "Failed to get process information using '/bin/ps -o time,utime -p <PID>'" );
++        }
+     #elif defined( __LINUX__ )
+         // Read first line of /proc/<pid>/stat for the process
+         AStackString< 1024 > processInfo;
+@@ -341,7 +410,46 @@ void IdleDetection::UpdateProcessList()
+         }
+         CloseHandle( hSnapShot );
+     #elif defined( __OSX__ )
+-        // TODO:OSX Implement FindNewProcesses
++        int32_t mib[4] = { CTL_KERN, KERN_PROC, KERN_PROC_ALL, 0 };
++        size_t bufferSize = 0;
++        if ( sysctl( mib, 4, NULL, &bufferSize, NULL, 0 ) != -1 && bufferSize > 0 )
++        {
++            struct kinfo_proc * allProcesses = ( struct kinfo_proc * )ALLOC( bufferSize );
++            if ( allProcesses )
++            {
++                if ( sysctl( mib, 4, allProcesses, &bufferSize, NULL, 0 ) != -1 )
++                {
++                    const uint32_t procCount = ( uint32_t)( bufferSize / sizeof( struct kinfo_proc ) );
++                    for ( uint32_t index = 0; index < procCount; ++index )
++                    {
++                        const uint32_t parentPID = allProcesses[index].kp_eproc.e_ppid;
++
++                        // is process a child of one we care about?
++                        if ( m_ProcessesInOurHierarchy.Find( parentPID ) )
++                        {
++                            const uint32_t pid = allProcesses[index].kp_proc.p_pid;
++                            ProcessInfo * info = m_ProcessesInOurHierarchy.Find( pid );
++                            if ( info )
++                            {
++                                // an existing process that is still alive
++                                info->m_AliveValue = sAliveValue; // still active
++                            }
++                            else
++                            {
++                                // track new process
++                                ProcessInfo newProcess;
++                                newProcess.m_PID = pid;
++                                newProcess.m_AliveValue = sAliveValue;
++                                newProcess.m_LastTime = 0;
++                                m_ProcessesInOurHierarchy.Append( newProcess );
++                            }
++                        }
++                    }
++                }
++
++                FREE(allProcesses);
++            }
++        }
+     #elif defined( __LINUX__ )
+         // Each process has a directory in /proc/
+         // The name of the dir is the pid
+@@ -492,4 +600,30 @@ void IdleDetection::UpdateProcessList()
+     }
+ #endif
+ 
++// ConvertTimeString
++//------------------------------------------------------------------------------
++
++#if defined( __OSX__ )
++    /*static*/ uint64_t IdleDetection::ConvertTimeString( const AString & timeString )
++    {
++        Array< AString > tokens( 4, true );
++        timeString.Tokenize( tokens, ':' );
++
++        if ( tokens.GetSize() > 0 )
++        {
++            float values[4] = { 0 }; // 0: days, 1: hours, 2: minutes, 3: seconds
++            values[3] = atof( tokens[tokens.GetSize() - 1].Get() );
++
++            for ( int i = tokens.GetSize() - 2, j = 2; i >= 0; --i, --j )
++            {
++                values[j] = atof( tokens[i].Get() );
++            }
++
++            return ( uint64_t )( ( values[0] * 24.0f * 60.0f * 60.0f + values[1] * 60.0f * 60.0f + values[2] * 60.0f + values[3] ) * 100.0f );
++        }
++
++        return 0;
++    }
++#endif
++
+ //------------------------------------------------------------------------------
+diff --git a/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.h b/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.h
+index fa014499..aec4c337 100644
+--- a/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.h
++++ b/Code/Tools/FBuild/FBuildWorker/Worker/IdleDetection.h
+@@ -54,6 +54,8 @@ private:
+     #if defined( __LINUX__ )
+         static bool GetProcessInfoString( const char * fileName,
+                                           AStackString< 1024 > & outProcessInfoString );
++    #elif defined( __OSX__ )
++        static uint64_t ConvertTimeString( const AString & timeString );
+     #endif
+ 
+     Timer   m_Timer;
+diff --git a/Code/fbuild.bff b/Code/fbuild.bff
+index 342cd7d2..a918d639 100644
+--- a/Code/fbuild.bff
++++ b/Code/fbuild.bff
+@@ -345,6 +345,7 @@ Settings
+ // FBuild
+ #include "Tools\FBuild\FBuildCore\FBuildCore.bff"
+ #include "Tools\FBuild\FBuildApp\FBuildApp.bff"
++#include "Tools\FBuild\FBuildCoordinator\FBuildCoordinator.bff"
+ #include "Tools\FBuild\FBuildWorker\FBuildWorker.bff"
+ #include "Tools\FBuild\FBuildTest\FBuildTest.bff"
+ #if !CI_BUILD
+@@ -364,8 +365,9 @@ ForEach( .BuildConfig in .BuildConfigs )
+ //------------------------------------------------------------------------------
+ Alias( 'Exes' )
+ {
+-    .Targets    = { 'FBuildWorker-Debug',   'FBuildWorker-Profile', 'FBuildWorker-Release'
+-                    'FBuildApp-Debug',      'FBuildApp-Profile',    'FBuildApp-Release' }
++    .Targets    = { 'FBuildWorker-Debug',      'FBuildWorker-Profile',      'FBuildWorker-Release'
++                    'FBuildApp-Debug',         'FBuildApp-Profile',         'FBuildApp-Release'
++                    'FBuildCoordinator-Debug', 'FBuildCoordinator-Profile', 'FBuildCoordinator-Release' }
+ }
+ 
+ // Aliases : All-$Platform$
+@@ -532,7 +534,7 @@ Alias( 'All+Tests' )
+ 
+         // Work around for Visual Studio F5 behaviour up-to-date check
+         .Deps               = [
+-                                .Projects = { 'CoreTest-proj', 'FBuildTest-proj', 'FBuildApp-proj', 'FBuildWorker-proj' }
++                                .Projects = { 'CoreTest-proj', 'FBuildTest-proj', 'FBuildApp-proj', 'FBuildWorker-proj', 'FBuildCoordinator-proj' }
+                                 .Dependencies = { 'All-proj' }
+                               ]
+         .SolutionDependencies = { .Deps }
+@@ -555,7 +557,7 @@ Alias( 'All+Tests' )
+         .Folder_3_Apps =
+         [
+             .Path           = '3. Apps'
+-            .Projects       = { 'FBuildApp-proj', 'FBuildWorker-proj' }
++            .Projects       = { 'FBuildApp-proj', 'FBuildWorker-proj', 'FBuildCoordinator-proj' }
+         ]
+         .SolutionFolders    = { .Folder_0_External, .Folder_1_Test, .Folder_2_Libs, .Folder_3_Apps }
+     }
+@@ -575,6 +577,7 @@ Alias( 'All+Tests' )
+         .ProjectFiles               = { 'Core-xcodeproj'
+                                         'CoreTest-xcodeproj'
+                                         'FBuildApp-xcodeproj'
++                                        'FBuildCoordinator-xcodeproj'
+                                         'FBuildCore-xcodeproj'
+                                         'FBuildTest-xcodeproj'
+                                         'FBuildWorker-xcodeproj'
+diff --git a/External/SDK/Clang/OSX/Clang8.bff b/External/SDK/Clang/OSX/Clang8.bff
+index 61135c7a..fff25f2f 100644
+--- a/External/SDK/Clang/OSX/Clang8.bff
++++ b/External/SDK/Clang/OSX/Clang8.bff
+@@ -24,6 +24,7 @@ Compiler( 'Compiler-Clang8' )
+                                     + ' -m64'           // x86_64
+                                     + ' -D__OSX__'      // Platform define
+                                     + ' -D__APPLE__'    // Platform define
++                                    + ' -mmacosx-version-min=10.14'
+ 
+                                     // Include paths
+                                     + ' -I./'
+@@ -47,7 +48,7 @@ Compiler( 'Compiler-Clang8' )
+ 
+     // Linker
+     .Linker                         = '$Clang8_BasePath$/clang++'
+-    .LinkerOptions                  = '"%1" -o "%2" -g'
++    .LinkerOptions                  = '"%1" -framework Cocoa -o "%2" -g'
+ 
+     // File Extensions
+     .LibExtension                   = '.a'
+diff --git a/External/SDK/Clang/OSX/Clang_CI.bff b/External/SDK/Clang/OSX/Clang_CI.bff
+index f445f041..caf671aa 100644
+--- a/External/SDK/Clang/OSX/Clang_CI.bff
++++ b/External/SDK/Clang/OSX/Clang_CI.bff
+@@ -23,6 +23,7 @@ Compiler( 'Compiler-Clang' )
+                                     + ' -m64'           // x86_64
+                                     + ' -D__OSX__'      // Platform define
+                                     + ' -D__APPLE__'    // Platform define
++                                    + ' -mmacosx-version-min=10.14'
+ 
+                                     // Include paths
+                                     + ' -I./'
+@@ -46,7 +47,7 @@ Compiler( 'Compiler-Clang' )
+ 
+     // Linker
+     .Linker                         = 'CLANGXX_BINARY'
+-    .LinkerOptions                  = '"%1" -o "%2" -g'
++    .LinkerOptions                  = '"%1" -framework Cocoa -o "%2" -g'
+ 
+     // File Extensions
+     .LibExtension                   = '.a'

@@ -1,0 +1,38 @@
+From 0c03b1e925f898af1913c06f33e11a825efcc883 Mon Sep 17 00:00:00 2001
+From: Marcin Undak <marcin.undak@xa.epicgames.com>
+Date: Mon, 10 Dec 2018 10:06:25 -0500
+Subject: [PATCH] Fix for bdf-malloc on mingw32
+
+---
+ bfd/libbfd.c | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+
+diff --git a/bfd/libbfd.c b/bfd/libbfd.c
+index 7c45d52aaf..2a25bce46f 100644
+--- a/bfd/libbfd.c
++++ b/bfd/libbfd.c
+@@ -260,13 +260,14 @@ bfd_malloc (bfd_size_type size)
+   void *ptr;
+   size_t sz = (size_t) size;
+ 
+-  if (size != sz
+-      /* This is to pacify memory checkers like valgrind.  */
+-      || ((signed long) sz) < 0)
+-    {
+-      bfd_set_error (bfd_error_no_memory);
+-      return NULL;
+-    }
++  // this piece of code fails on mingw32 architecture, where long is 4 bytes
++  // if (size != sz
++  //     /* This is to pacify memory checkers like valgrind.  */
++  //     || ((signed long) sz) < 0)
++  //   {
++  //     bfd_set_error (bfd_error_no_memory);
++  //     return NULL;
++  //   }
+ 
+   ptr = malloc (sz);
+   if (ptr == NULL && sz != 0)
+-- 
+2.17.1
+

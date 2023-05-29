@@ -1,0 +1,54 @@
+FROM helix
+LABEL maintainer="Jake.Romigh@epicgames.com"
+
+####################
+# SETUP FS FOR P4D #
+####################
+
+# Create directory for p4 database
+RUN mkdir /p4root
+ENV P4ROOT /p4root
+
+# Create directory for journals
+RUN mkdir -p /p4root/journal
+RUN touch /p4root/journal/journal
+ENV P4JOURNAL journal/journal
+
+# Create logs
+RUN mkdir -p /p4root/logs
+ENV P4LOGS /p4root/logs/log
+RUN touch $P4LOGS
+
+# Create container folders for local files
+RUN mkdir -p /p4testworkspaces/root_RoboMergeData_Main/
+RUN mkdir /p4docker
+
+
+############################
+# P4 SERVER INITIALIZATION #
+############################
+
+# Set up Perforce ports
+ENV P4PORT 1666
+EXPOSE ${P4PORT}
+
+# Set up Perforce environment variables
+ENV P4USER root
+ENV P4PASSWD password123
+
+
+####################
+# COPY LOCAL FILES #
+####################
+
+# Adding p4docker files
+COPY p4docker /p4docker
+
+
+###########
+# STARTUP #
+###########
+
+WORKDIR /p4docker
+#CMD [ "p4d" ]
+CMD [ "./setup_and_run_p4d.sh" ]

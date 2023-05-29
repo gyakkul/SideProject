@@ -1,0 +1,121 @@
+﻿Log file open, 05/29/23 16:07:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VSPerf170.dll' (GetLastError=126)
+LogWindows: File 'VSPerf170.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogPluginManager: Adding extension module BinkMediaPlayer from BinkMedia_HoloLens to BinkMedia
+
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-2758A60D430BF142FC6102B10537203C
+         Session CrashGUID >====================================================
+LogInit: ExecutableName: LiveCodingConsole.exe
+LogInit: Build: ++UE5+Release-5.2-CL-24387036
+LogInit: Engine Version: 5.2.0-24387036+++UE5+Release-5.2
+LogInit: Compatible Engine Version: 5.2.0-24387036+++UE5+Release-5.2
+LogInit: Net CL: 24387036
+LogInit: OS: Windows 10 (22H2) [10.0.19045.2965] (), CPU: AMD Ryzen 9 3950X 16-Core Processor            , GPU: NVIDIA GeForce RTX 4070 Ti
+LogInit: Compiled (64-bit): Feb 23 2023 13:02:41
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.34.31937.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.2
+LogInit: Command Line: -Group=UE_ThirdPerson_0x1a1cb38e -Hidden -ProjectName="ThirdPerson"
+LogInit: Base Directory: C:/WorkSpace/SideProject1/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 35
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 83
+LogDevObjectVersion:   FortniteNC (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 10
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 6
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 104
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 41
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+LogConfig: CVar [[r.DumpShaderDebugInfo:2]] deferred - dummy variable created
+LogConfig: CVar [[p.chaos.AllowCreatePhysxBodies:1]] deferred - dummy variable created
+[2023.05.29-07.07.13:199][  0]LogConfig: CVar [[fx.SkipVectorVMBackendOptimizations:1]] deferred - dummy variable created
+[2023.05.29-07.07.13:199][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.05.29-07.07.13:199][  0]LogInit: Computer: DESKTOP-T1UPMPJ
+[2023.05.29-07.07.13:199][  0]LogInit: User: rkdtl
+[2023.05.29-07.07.13:199][  0]LogInit: CPU Page size=4096, Cores=16
+[2023.05.29-07.07.13:199][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.05.29-07.07.13:199][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2023.05.29-07.07.13:199][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.05.29-07.07.13:199][  0]LogMemory: Process Physical Memory: 59.54 MB used, 59.54 MB peak
+[2023.05.29-07.07.13:199][  0]LogMemory: Process Virtual Memory: 138.30 MB used, 138.30 MB peak
+[2023.05.29-07.07.13:199][  0]LogMemory: Physical Memory: 15139.32 MB used,  17578.14 MB free, 32717.46 MB total
+[2023.05.29-07.07.13:199][  0]LogMemory: Virtual Memory: 21825.18 MB used,  12940.29 MB free, 34765.46 MB total
+[2023.05.29-07.07.13:208][  0]LogUObjectArray: 434 objects as part of root set at end of initial load.
+[2023.05.29-07.07.13:208][  0]LogUObjectAllocator: 91488 out of 0 bytes used by permanent object pool.
+[2023.05.29-07.07.13:208][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.05.29-07.07.13:208][  0]LogInit: Using OS detected language (ko-KR).
+[2023.05.29-07.07.13:208][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.05.29-07.07.13:209][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so 'ko' will be used for the language.
+[2023.05.29-07.07.13:243][  0]LogInit: Using OS detected language (ko-KR).
+[2023.05.29-07.07.13:243][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.05.29-07.07.13:243][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2023.05.29-07.07.13:243][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2023.05.29-07.07.13:296][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000181 seconds
+[2023.05.29-07.07.13:296][  0]LogInit: Setting process to per monitor DPI aware
+[2023.05.29-07.07.13:339][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.05.29-07.07.13:339][  0]LogWindowsTextInputMethodSystem:   - 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2023.05.29-07.07.13:339][  0]LogWindowsTextInputMethodSystem:   - 영어(미국) - (Keyboard).
+[2023.05.29-07.07.13:339][  0]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2023.05.29-07.07.13:711][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2023.05.29-07.07.13:711][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.05.29-07.07.14:066][  0]LogSlate: Using FreeType 2.10.0
+[2023.05.29-07.07.14:067][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.29-07.07.14:073][  0]LogStandaloneRenderer: D3D11 adapters settings:
+[2023.05.29-07.07.14:073][  0]LogStandaloneRenderer: D3D11 adapters:
+[2023.05.29-07.07.14:073][  0]LogStandaloneRenderer: Testing D3D11 adapter: 0. Description: 'NVIDIA GeForce RTX 4070 Ti'. VendorId: 10de. DeviceId: 2782.
+[2023.05.29-07.07.14:323][  0]LogStandaloneRenderer:   0. 'NVIDIA GeForce RTX 4070 Ti'. Feature level: 11_1
+[2023.05.29-07.07.14:323][  0]LogStandaloneRenderer: Testing D3D11 adapter: 1. Description: 'Microsoft Basic Render Driver'. VendorId: 1414. DeviceId: 008c.
+[2023.05.29-07.07.14:327][  0]LogStandaloneRenderer:   1. 'Microsoft Basic Render Driver'. Feature level: 11_1
+[2023.05.29-07.07.14:328][  0]LogStandaloneRenderer:   Skip adapter.
+[2023.05.29-07.07.14:328][  0]LogStandaloneRenderer: Selected D3D11 Description: 'NVIDIA GeForce RTX 4070 Ti'. VendorId: 10de. DeviceId: 2782.
+[2023.05.29-07.07.14:557][  0]LogUProjectInfo: Found projects:
+[2023.05.29-07.07.14:557][  0]LogUProjectInfo:     ThirdPerson: "C:/WorkSpace/SideProject1/ThirdPerson/ThirdPerson.uproject"
+[2023.05.29-07.07.14:557][  0]LogUProjectInfo:     SlateUGS: "C:/WorkSpace/SideProject1/Engine/Programs/SlateUGS/SlateUGS.uproject"
+[2023.05.29-07.07.14:557][  0]LogUProjectInfo:     UnrealLightmass: "C:/WorkSpace/SideProject1/Engine/Programs/UnrealLightmass/UnrealLightmass.uproject"
+[2023.05.29-07.07.14:557][  0]LogUProjectInfo:     Unsync: "C:/WorkSpace/SideProject1/Engine/Programs/Unsync/Unsync.uproject"
+[2023.05.29-07.07.14:906][  0]LogLiveCodingServer: Display: Registered process C:\WorkSpace\SideProject1\Engine\Binaries\Win64\UnrealEditor.exe (PID: 29556)
+[2023.05.29-07.07.22:307][  0]LogLiveCodingServer: Display: Loading module C:\WorkSpace\SideProject1\ThirdPerson\Binaries\Win64\UnrealEditor-ThirdPerson.dll (0.196 MB)
+[2023.05.29-07.07.22:539][  0]LogLiveCodingServer: Display: Loaded 1 module(s) (0.000s, 7 translation units)
+[2023.05.29-07.07.22:539][  0]LogLiveCodingServer: Display: Live coding ready - Save changes and press Ctrl+Alt+F11 to re-compile code

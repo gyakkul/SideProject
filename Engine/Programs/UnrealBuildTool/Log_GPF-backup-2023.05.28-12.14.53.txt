@@ -1,0 +1,1547 @@
+Log started at 05/29/2023 01:02:38 (2023-05-28T16:02:38Z)
+Adding event matcher: CompileEventMatcher
+Adding event matcher: LinkEventMatcher
+Adding event matcher: MicrosoftEventMatcher
+Adding event matcher: XoreaxEventMatcher
+No config file at C:\WorkSpace\SideProject\Engine\Restricted\NotForLicensees\Programs\UnrealBuildTool\BuildConfiguration.xml
+Creating default config file at C:\WorkSpace\SideProject\Engine\Saved\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\rkdtl\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\WorkSpace\SideProject\Engine\Saved\UnrealBuildTool\BuildConfiguration.xml
+  C:\Users\rkdtl\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+        Registering build platform: Android - buildable: False
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+        Registering build platform: IOS - buildable: False
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+        Registering build platform: Linux - buildable: False
+        Registering build platform: LinuxArm64 - buildable: False
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+        Registering build platform: Mac - buildable: False
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+        Registering build platform: TVOS - buildable: False
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.17134.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.17134.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.19041.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.HoloLensPlatformFactory
+HoloLens Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.19041.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+        Registering build platform: HoloLens - buildable: True
+Log file: C:\WorkSpace\SideProject\Engine\Programs\UnrealBuildTool\Log_GPF.txt
+Deleting old log file: C:\WorkSpace\SideProject\Engine\Programs\UnrealBuildTool\Log_GPF-backup-2023.05.26-03.57.40.txt
+
+Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
+Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for Linux
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for LinuxArm64
+Registering project generator UnrealBuildTool.MacProjectGenerator for Mac
+Registering project generator UnrealBuildTool.TVOSProjectGenerator for TVOS
+Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
+Registering project generator UnrealBuildTool.HoloLensProjectGenerator for HoloLens
+
+---   SDK INFO START   ---
+
+Some Platforms were skipped due to invalid SDK setup: Mac, IOS, Android, Linux, LinuxArm64, TVOS.
+See the log file for detailed information
+
+---   SDK INFO END   ---
+
+
+Generating VisualStudio project files:
+Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.11.33529.622)
+Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133 (Family=14.29.30133, FamilyRank=1, Version=14.29.30148, Is64Bit=True, Preview=False, Architecture=x64, Error=False, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Redist\MSVC\14.29.30133)
+Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133 (Family=14.29.30133, FamilyRank=1, Version=14.29.30148, Is64Bit=True, Preview=False, Architecture=arm64, Error=False, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Redist\MSVC\14.29.30133)
+Visual Studio 2019 does not support .NET 6.0 C# projects, these projects will not be added to the generated solution.
+Please generate the Visual Studio 2022 solution if .NET 6.0 C# project support is required.
+Detected supported platforms: Win64, HoloLens, Mac, IOS, Android, Linux, LinuxArm64, TVOS
+Compiling C:\WorkSpace\SideProject\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: Assembly does not exist
+Compiling C:\WorkSpace\SideProject\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: Assembly does not exist
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\BaseTextureBuildWorker.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\BenchmarkTool.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\BlankProgram.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\BuildPatchTool.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\ChaosUserDataPTTests.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\ChaosVisualDebugger.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\CrashReportClient.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\CrashReportClientEditor.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DerivedDataTool.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithUE4ArchiCAD.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithArchiCAD.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithCADWorker.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithFacadeCSharp.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2016.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2017.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2018.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2019.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2020.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2021.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2022.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithMax2023.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithNavisworks2019.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithNavisworks2020.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithNavisworks2021.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithNavisworks2022.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithNavisworks2023.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRevit2018.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRevit2019.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRevit2020.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRevit2021.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRevit2022.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRevit2023.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRhino6.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithRhino7.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithSDK.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithSketchUpRuby2019.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithSketchUpRuby2020.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithSketchUpRuby2021.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithSketchUpRuby2022.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithSketchUpRuby2023.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DatasmithSolidworks2021.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\EpicWebHelper.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\HeadlessChaosPerf.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\HeadlessChaos.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\InterchangeWorker.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\LiveCodingConsole.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\LowLevelTests.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\ReplicationSystemTest.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\ShaderCompileWorker.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\DotNetPerforceLib.vcxproj
+Creating project rules assembly for C:\WorkSpace\SideProject\Engine\Programs\SlateUGS\SlateUGS.uproject...
+ Found 0 Plugins:
+ Found 0 Modules:
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\SlateUGS.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\SlateViewer.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\SwitchboardListenerHelper.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\SwitchboardListener.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\SymsLibDump.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\TestPAL.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealFrontend.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealHeaderTool.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealInsights.vcxproj
+Creating project rules assembly for C:\WorkSpace\SideProject\Engine\Programs\UnrealLightmass\UnrealLightmass.uproject...
+ Found 0 Plugins:
+ Found 0 Modules:
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealLightmass.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealMultiUserServer.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealMultiUserSlateServer.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealObjectPtrTool.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealPackageTool.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealPak.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealRecoverySvc.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealVersionSelector.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UnrealVirtualizationTool.vcxproj
+Creating project rules assembly for C:\WorkSpace\SideProject\Engine\Programs\Unsync\Unsync.uproject...
+ Found 0 Plugins:
+ Found 0 Modules:
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\Unsync.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\TextureShareSDK.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\BootstrapPackagedGame.vcxproj
+Generating target Program for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\ZenDashboard.vcxproj
+Generating target Client for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Editor for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Game for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Server for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\UE5.vcxproj
+Creating project rules assembly for C:\WorkSpace\SideProject\ThirdPerson\ThirdPerson.uproject...
+ Found 0 Plugins:
+ Found 1 Modules:
+  C:\WorkSpace\SideProject\ThirdPerson\Source\ThirdPerson\ThirdPerson.Build.cs
+Compiling C:\WorkSpace\SideProject\ThirdPerson\Intermediate\Build\BuildRules\ThirdPersonModuleRules.dll: Assembly does not exist
+Generating target Game for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\ThirdPerson.vcxproj
+Generating target Editor for C:\WorkSpace\SideProject\Engine\Intermediate\ProjectFiles\ThirdPerson.vcxproj
+Adding shader source code...
+Adding build system files...
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AITestSuite\AITestSuite.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Android\AndroidDeviceDetection\AndroidDeviceDetection.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Android\AndroidPlatformEditor\AndroidPlatformEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Android\AndroidTargetPlatform\AndroidTargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AnimationDataController\AnimationDataController.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AnimationWidgets\AnimationWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Apple\MetalShaderFormat\MetalShaderFormat.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AssetTools\AssetTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AudioFormatADPCM\AudioFormatADPCM.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AudioFormatBink\AudioFormatBink.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AudioFormatOgg\AudioFormatOgg.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AudioFormatOpus\AudioFormatOpus.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AudioSettingsEditor\AudioSettingsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AutomationController\AutomationController.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AutomationDriver\AutomationDriver.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\AutomationWindow\AutomationWindow.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\BSPUtils\BSPUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\BlankModule\BlankModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\CollectionManager\CollectionManager.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\CollisionAnalyzer\CollisionAnalyzer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\CookOnTheFlyNetServer\CookOnTheFlyNetServer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\CookedEditor\CookedEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\CrashDebugHelper\CrashDebugHelper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Datasmith\DatasmithExporterUI\DatasmithExporterUI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Datasmith\DatasmithExporter\DatasmithExporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DerivedDataCache\DerivedDataCache.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DesktopPlatform\DesktopPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DesktopWidgets\DesktopWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DeveloperToolSettings\DeveloperToolSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DeviceManager\DeviceManager.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DirectoryWatcher\DirectoryWatcher.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DistributedBuildInterface\DistributedBuildInterface.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\DrawPrimitiveDebugger\DrawPrimitiveDebugger.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\EditorAnalyticsSession\EditorAnalyticsSession.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ExternalImagePicker\ExternalImagePicker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\FileUtilities\FileUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\FunctionalTesting\FunctionalTesting.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\GeometryProcessingInterfaces\GeometryProcessingInterfaces.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\GraphColor\GraphColor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\HierarchicalLODUtilities\HierarchicalLODUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\HotReload\HotReload.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\IOS\IOSPlatformEditor\IOSPlatformEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\IOS\IOSTargetPlatform\IOSTargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\IOS\TVOSTargetPlatform\TVOSTargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\IoStoreUtilities\IoStoreUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\LauncherServices\LauncherServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Linux\LinuxArm64TargetPlatform\LinuxArm64TargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Linux\LinuxPlatformEditor\LinuxPlatformEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Linux\LinuxTargetPlatform\LinuxTargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\LocalizationService\LocalizationService.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Localization\Localization.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\LogVisualizer\LogVisualizer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\LowLevelTestsRunner\LowLevelTestsRunner.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Mac\MacPlatformEditor\MacPlatformEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Mac\MacTargetPlatform\MacTargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MaterialBaking\MaterialBaking.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MaterialUtilities\MaterialUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Merge\Merge.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshBoneReduction\MeshBoneReduction.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshBuilderCommon\MeshBuilderCommon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshBuilder\MeshBuilder.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshDescriptionOperations\MeshDescriptionOperations.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshMergeUtilities\MeshMergeUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshReductionInterface\MeshReductionInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshSimplifier\QuadricMeshReduction.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshUtilitiesEngine\MeshUtilitiesEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MeshUtilities\MeshUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\MessageLog\MessageLog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\NaniteBuilder\NaniteBuilder.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\NaniteUtilities\NaniteUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\OutputLog\OutputLog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\PakFileUtilities\PakFileUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\PhysicsUtilities\PhysicsUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ProfileVisualizer\ProfileVisualizer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ProfilerClient\ProfilerClient.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ProfilerMessages\ProfilerMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ProfilerService\ProfilerService.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Profiler\Profiler.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ProjectLauncher\ProjectLauncher.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\RealtimeProfiler\RealtimeProfiler.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\RigVMDeveloper\RigVMDeveloper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ScreenShotComparisonTools\ScreenShotComparisonTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ScreenShotComparison\ScreenShotComparison.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ScriptDisassembler\ScriptDisassembler.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SessionFrontend\SessionFrontend.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SettingsEditor\SettingsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Settings\Settings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ShaderCompilerCommon\ShaderCompilerCommon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ShaderFormatOpenGL\ShaderFormatOpenGL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ShaderFormatVectorVM\ShaderFormatVectorVM.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ShaderPreprocessor\ShaderPreprocessor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SharedSettingsWidgets\SharedSettingsWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SkeletalMeshUtilitiesCommon\SkeletalMeshUtilitiesCommon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SlackIntegrations\SlackIntegrations.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SlateFileDialogs\SlateFileDialogs.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SlateFontDialog\SlateFontDialog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SlateReflector\SlateReflector.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SourceCodeAccess\SourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\SourceControl\SourceControl.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\StandaloneRenderer\StandaloneRenderer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TargetDeviceServices\TargetDeviceServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TargetPlatform\TargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureBuildUtilities\TextureBuildUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureBuild\TextureBuild.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureCompressor\TextureCompressor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureFormatASTC\TextureFormatASTC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureFormatDXT\TextureFormatDXT.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureFormatETC2\TextureFormatETC2.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureFormatIntelISPCTexComp\TextureFormatIntelISPCTexComp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureFormatUncompressed\TextureFormatUncompressed.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TextureFormat\TextureFormat.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ToolMenus\ToolMenus.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\ToolWidgets\ToolWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TraceAnalysis\TraceAnalysis.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TraceInsights\TraceInsights.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TraceServices\TraceServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TreeMap\TreeMap.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\TurnkeyIO\TurnkeyIO.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\UncontrolledChangelists\UncontrolledChangelists.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\UndoHistory\UndoHistory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\UnsavedAssetsTracker\Source\UnsavedAssetsTracker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Virtualization\Virtualization.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\VisualGraphUtils\VisualGraphUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\VulkanShaderFormat\VulkanShaderFormat.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Windows\LiveCodingServer\LiveCodingServer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Windows\LiveCoding\LiveCoding.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Windows\ShaderFormatD3D\ShaderFormatD3D.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Windows\WindowsPlatformEditor\WindowsPlatformEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Windows\WindowsTargetPlatform\WindowsTargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Developer\Zen\Zen.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AIGraph\AIGraph.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ActorPickerMode\ActorPickerMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AddContentDialog\AddContentDialog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AdvancedPreviewScene\AdvancedPreviewScene.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AnimGraph\AnimGraph.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AnimationBlueprintEditor\AnimationBlueprintEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AnimationBlueprintLibrary\AnimationBlueprintLibrary.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AnimationEditMode\AnimationEditMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AnimationEditor\AnimationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AnimationModifiers\AnimationModifiers.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AnimationSettings\AnimationSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AssetDefinition\AssetDefinition.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AssetTagsEditor\AssetTagsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\AudioEditor\AudioEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\BehaviorTreeEditor\BehaviorTreeEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\BlueprintEditorLibrary\BlueprintEditorLibrary.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\BlueprintGraph\BlueprintGraph.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Blutility\Blutility.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\CSVtoSVG\CSVtoSVG.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Cascade\Cascade.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ClassViewer\ClassViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ClothPainter\ClothPainter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ClothingSystemEditorInterface\ClothingSystemEditorInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ClothingSystemEditor\ClothingSystemEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\CommonMenuExtensions\CommonMenuExtensions.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ComponentVisualizers\ComponentVisualizers.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ConfigEditor\ConfigEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ContentBrowserData\ContentBrowserData.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ContentBrowser\ContentBrowser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\CurveAssetEditor\CurveAssetEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\CurveEditor\CurveEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\CurveTableEditor\CurveTableEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\DataLayerEditor\DataLayerEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\DataTableEditor\DataTableEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\DerivedDataEditor\DerivedDataEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\DetailCustomizations\DetailCustomizations.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\DeviceProfileEditor\DeviceProfileEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\DeviceProfileServices\DeviceProfileServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\DistCurveEditor\DistCurveEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Documentation\Documentation.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\EditorConfig\EditorConfig.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\EditorFramework\EditorFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\EditorSettingsViewer\EditorSettingsViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\EditorStyle\EditorStyle.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\EditorSubsystem\EditorSubsystem.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\EditorWidgets\EditorWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\EnvironmentLightingViewer\EnvironmentLightingViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Experimental\EditorInteractiveToolsFramework\EditorInteractiveToolsFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Experimental\HordeExecutor\HordeExecutor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Experimental\RemoteExecution\RemoteExecution.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\FoliageEdit\FoliageEdit.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\FontEditor\FontEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\GameProjectGeneration\GameProjectGeneration.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\GameplayDebugger\GameplayDebuggerEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\GameplayTasksEditor\GameplayTasksEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\GraphEditor\GraphEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\HardwareTargeting\HardwareTargeting.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\HierarchicalLODOutliner\HierarchicalLODOutliner.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\InputBindingEditor\InputBindingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\InternationalizationSettings\InternationalizationSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\KismetCompiler\KismetCompiler.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\KismetWidgets\KismetWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Kismet\Kismet.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\LandscapeEditorUtilities\LandscapeEditorUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\LandscapeEditor\LandscapeEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Layers\Layers.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\LevelEditor\LevelEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\LevelInstanceEditor\LevelInstanceEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\LocalizationCommandletExecution\LocalizationCommandletExecution.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\LocalizationDashboard\LocalizationDashboard.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\MainFrame\MainFrame.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\MaterialEditor\MaterialEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\MergeActors\MergeActors.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\MeshPaint\MeshPaint.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\MovieSceneCaptureDialog\MovieSceneCaptureDialog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\MovieSceneTools\MovieSceneTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\NaniteTools\NaniteTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\NewLevelDialog\NewLevelDialog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\OverlayEditor\OverlayEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PIEPreviewDeviceProfileSelector\PIEPreviewDeviceProfileSelector.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PIEPreviewDeviceSpecification\PIEPreviewDeviceSpecification.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PListEditor\PListEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PackagesDialog\PackagesDialog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Persona\Persona.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PhysicsAssetEditor\PhysicsAssetEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PinnedCommandList\PinnedCommandList.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PixelInspector\PixelInspectorModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PlacementMode\PlacementMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PluginWarden\PluginWarden.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ProjectSettingsViewer\ProjectSettingsViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ProjectTargetPlatformEditor\ProjectTargetPlatformEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\PropertyEditor\PropertyEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\RenderResourceViewer\RenderResourceViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\RewindDebuggerInterface\RewindDebuggerInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SceneDepthPickerMode\SceneDepthPickerMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SceneOutliner\SceneOutliner.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SequenceRecorderSections\SequenceRecorderSections.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SequenceRecorder\SequenceRecorder.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SequencerCore\SequencerCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SequencerWidgets\SequencerWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\Sequencer\Sequencer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SerializedRecorderInterface\SerializedRecorderInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SkeletalMeshEditor\SkeletalMeshEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SkeletonEditor\SkeletonEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SourceControlWindowExtender\SourceControlWindowExtender.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SourceControlWindows\SourceControlWindows.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SparseVolumeTexture\SparseVolumeTexture.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\StaticMeshEditor\StaticMeshEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\StatsViewer\StatsViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\StatusBar\StatusBar.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\StringTableEditor\StringTableEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\StructViewer\StructViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SubobjectDataInterface\SubobjectDataInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SubobjectEditor\SubobjectEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\SwarmInterface\SwarmInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\TextureEditor\TextureEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ToolMenusEditor\ToolMenusEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\TranslationEditor\TranslationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\TurnkeySupport\TurnkeySupport.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\UATHelper\UATHelper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\UMGEditor\UMGEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\UndoHistoryEditor\UndoHistoryEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\UnrealEdMessages\UnrealEdMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\UnrealEd\UnrealEd.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\VREditor\VREditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ViewportInteraction\ViewportInteraction.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\ViewportSnapping\ViewportSnapping.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\VirtualTexturingEditor\VirtualTexturingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\VirtualizationEditor\VirtualizationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\WorkspaceMenuStructure\WorkspaceMenuStructure.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\WorldBrowser\WorldBrowser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Editor\WorldPartitionEditor\WorldPartitionEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\BaseTextureBuildWorker\BaseTextureBuildWorker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\BenchmarkTool\BenchmarkTool.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\ChaosUserDataPTTests\ChaosUserDataPTTests.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\ChaosVisualDebugger\ChaosVisualDebugger.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\DerivedDataBuildWorker\DerivedDataBuildWorker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\DerivedDataTool\DerivedDataTool.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\DatasmithValidator\DatasmithValidator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\DatsmithUE4ArchiCAD\DatasmithUE4ArchiCAD.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithCADWorker\DatasmithCADWorker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2016.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2017.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2018.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2019.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2020.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2021.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2022.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithMaxExporter\DatasmithMax2023.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2019.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2020.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2021.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2022.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2023.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRevitExporter\DatasmithRevit2018.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRevitExporter\DatasmithRevit2019.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRevitExporter\DatasmithRevit2020.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRevitExporter\DatasmithRevit2021.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRevitExporter\DatasmithRevit2022.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRevitExporter\DatasmithRevit2023.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino6.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino7.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\DatasmithSDK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2019.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2020.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2021.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2022.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRuby2023.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSolidworksExporter\DatasmithSolidworks2021.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\HeadlessChaosPerf\HeadlessChaosPerf.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\HeadlessChaos\HeadlessChaos.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\IOS\UnrealLaunchDaemon\UnrealLaunchDaemon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\InterchangeWorker\InterchangeWorker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\LowLevelTests\LowLevelTests.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Mac\UnrealAtoS\UnrealAtoS.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Mac\UnrealEditorServices\UnrealEditorServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\ReplicationSystemTest\ReplicationSystemTest.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Shared\EpicGames.Perforce.Native\DotNetPerforceLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\SlateUGS\SlateUGS.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\SlateViewer\SlateViewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\SwitchboardListenerHelper\SwitchboardListenerHelper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\SymsLibDump\SymsLibDump.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\TestPAL\TestPAL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\TextureBuildWorker\TextureBuildWorker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UGSCore\UGSCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealInsights\UnrealInsights.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealMultiUserServer\UnrealMultiUserServer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealMultiUserSlateServer\UnrealMultiUserSlateServer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealObjectPtrTool\UnrealObjectPtrTool.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealPackageTool\UnrealPackageTool.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\UnrealVirtualizationTool\UnrealVirtualizationTool.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Unsync\Unsync.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\VirtualProduction\TextureShare\TextureShareSDK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Programs\ZenDashboard\ZenDashboard.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AIModule\AIModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AVEncoder\AVEncoder.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AVIWriter\AVIWriter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AdvancedWidgets\AdvancedWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Advertising\Advertising\Advertising.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Advertising\Android\AndroidAdvertising\AndroidAdvertising.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Advertising\IOS\IOSAdvertising\IOSAdvertising.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Analytics\AnalyticsET\AnalyticsET.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Analytics\AnalyticsSwrve\AnalyticsSwrve.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Analytics\AnalyticsVisualEditing\AnalyticsVisualEditing.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Analytics\Analytics\Analytics.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Android\AndroidLocalNotification\AndroidLocalNotification.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Android\AndroidRuntimeSettings\AndroidRuntimeSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Android\AudioMixerAndroid\AudioMixerAndroid.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AnimGraphRuntime\AnimGraphRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AnimationCore\AnimationCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AppFramework\AppFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Apple\AudioMixerAudioUnit\AudioMixerAudioUnit.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Apple\AudioMixerCoreAudio\AudioMixerCoreAudio.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Apple\MetalRHI\MetalRHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ApplicationCore\ApplicationCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AssetRegistry\AssetRegistry.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioAnalyzer\AudioAnalyzer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioCaptureCore\AudioCaptureCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioCaptureImplementations\Android\AudioCaptureAndroid\AudioCaptureAndroid.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioCaptureImplementations\AudioCaptureRtAudio\AudioCaptureRtAudio.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioCaptureImplementations\IOS\AudioCaptureAudioUnit\AudioCaptureAudioUnit.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioCodecEngine\AudioCodecEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioExtensions\AudioExtensions.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioLink\AudioLinkCore\AudioLinkCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioLink\AudioLinkEngine\AudioLinkEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioLink\AudioMixerPlatformAudioLink\AudioMixerPlatformAudioLink.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioMixerCore\AudioMixerCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioMixer\AudioMixer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AudioPlatformConfiguration\AudioPlatformConfiguration.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AugmentedReality\AugmentedReality.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AutomationMessages\AutomationMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AutomationTest\AutomationTest.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\AutomationWorker\AutomationWorker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\BinkAudioDecoder\Module\BinkAudioDecoder.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\BlueprintRuntime\BlueprintRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\BuildSettings\BuildSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\CEF3Utils\CEF3Utils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\CUDA\Source\CUDA.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Cbor\Cbor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\CinematicCamera\CinematicCamera.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ClientPilot\ClientPilot.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ClothingSystemRuntimeCommon\ClothingSystemRuntimeCommon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ClothingSystemRuntimeInterface\ClothingSystemRuntimeInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ClothingSystemRuntimeNv\ClothingSystemRuntimeNv.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ColorManagement\ColorManagement.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\CookOnTheFly\CookOnTheFly.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\CoreOnline\CoreOnline.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\CoreUObject\CoreUObject.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Core\Core.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\CrashReportCore\CrashReportCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\D3D12RHI\D3D12RHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Datasmith\CADKernel\CADKernel.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Datasmith\DatasmithCore\DatasmithCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Datasmith\DirectLink\DirectLink.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\DeveloperSettings\DeveloperSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\EngineMessages\EngineMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\EngineSettings\EngineSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Engine\Engine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\Animation\Constraints\Constraints.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\ChaosCore\ChaosCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\ChaosSolverEngine\ChaosSolverEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\ChaosVehicles\ChaosVehiclesCore\ChaosVehiclesCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\ChaosVehicles\ChaosVehiclesEngine\ChaosVehiclesEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\Chaos\Chaos.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\Dataflow\Core\DataflowCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\Dataflow\Engine\DataflowEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\FieldSystemEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\GeometryCollectionEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\Iris\Core\IrisCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\Iris\Stub\IrisStub.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Experimental\Voronoi\Voronoi.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ExternalRPCRegistry\ExternalRpcRegistry.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\EyeTracker\EyeTracker.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Foliage\Foliage.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\FriendsAndChat\FriendsAndChat.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\GameMenuBuilder\GameMenuBuilder.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\GameplayDebugger\GameplayDebugger.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\GameplayMediaEncoder\GameplayMediaEncoder.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\GameplayTags\GameplayTags.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\GameplayTasks\GameplayTasks.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\GeometryCore\GeometryCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\GeometryFramework\GeometryFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\HardwareSurvey\HardwareSurvey.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\HeadMountedDisplay\HeadMountedDisplay.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\IESFile\IESFile.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\IOS\IOSAudio\IOSAudio.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\IOS\IOSLocalNotification\IOSLocalNotification.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\IOS\IOSPlatformFeatures\IOSPlatformFeatures.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\IOS\IOSRuntimeSettings\IOSRuntimeSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\IOS\LaunchDaemonMessages\LaunchDaemonMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\IPC\IPC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ImageCore\ImageCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ImageWrapper\ImageWrapper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\ImageWriteQueue\ImageWriteQueue.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\InputCore\InputCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\InputDevice\InputDevice.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\InstallBundleManager\InstallBundleManager.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\InteractiveToolsFramework\InteractiveToolsFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Interchange\Core\InterchangeCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Interchange\Engine\InterchangeEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\JsonUtilities\JsonUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Json\Json.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Landscape\Landscape.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Launch\Launch.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\LevelSequence\LevelSequence.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Linux\AudioMixerSDL\AudioMixerSDL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\LiveLinkAnimationCore\LiveLinkAnimationCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\LiveLinkInterface\LiveLinkInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\LiveLinkMessageBusFramework\LiveLinkMessageBusFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MRMesh\MRMesh.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MaterialShaderQualitySettings\MaterialShaderQualitySettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MediaAssets\MediaAssets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MediaUtils\MediaUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Media\Media.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MeshConversionEngineTypes\MeshConversionEngineTypes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MeshConversion\MeshConversion.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MeshDescription\MeshDescription.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MeshUtilitiesCommon\MeshUtilitiesCommon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MessagingCommon\MessagingCommon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MessagingRpc\MessagingRpc.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Messaging\Messaging.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MoviePlayerProxy\MoviePlayerProxy.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MoviePlayer\MoviePlayer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MovieSceneCapture\MovieSceneCapture.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MovieSceneTracks\MovieSceneTracks.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\MovieScene\MovieScene.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NavigationSystem\NavigationSystem.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Navmesh\Navmesh.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Net\Common\NetCommon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Net\Core\NetCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkFileSystem\NetworkFileSystem.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkFile\NetworkFile.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkReplayStreaming\HttpNetworkReplayStreaming\HttpNetworkReplayStreaming.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkReplayStreaming\InMemoryNetworkReplayStreaming\InMemoryNetworkReplayStreaming.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkReplayStreaming\LocalFileNetworkReplayStreaming\LocalFileNetworkReplayStreaming.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\NetworkReplayStreaming.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkReplayStreaming\NullNetworkReplayStreaming\NullNetworkReplayStreaming.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NetworkReplayStreaming\SaveGameNetworkReplayStreaming\SaveGameNetworkReplayStreaming.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Networking\Networking.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NonRealtimeAudioRenderer\NonRealtimeAudioRenderer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NullDrv\NullDrv.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\NullInstallBundleManager\NullInstallBundleManager.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\BackgroundHTTPFileHash\BackgroundHTTPFileHash.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\BackgroundHTTP\BackgroundHTTP.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\BuildPatchServices\BuildPatchServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\HTTPServer\HttpServer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\HTTP\HTTP.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\ICMP\Icmp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\ImageDownload\ImageDownload.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\SSL\SSL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\Stomp\Stomp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\Voice\Voice.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\WebSockets\WebSockets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Online\XMPP\XMPP.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\OodleDataCompression\OodleDataCompression.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\OpenGLDrv\OpenGLDrv.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Overlay\Overlay.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\AsymmetricEncryption\RSAEncryptionHandlerComponent\RSAEncryptionHandlerComponent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\EncryptionHandlerComponent\EncryptionHandlerComponent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\RSAKeyAESEncryption\RSAKeyAESEncryption.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\AESBlockEncryptor\AESBlockEncryptor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlockEncryptionHandlerComponent\BlockEncryptionHandlerComponent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlowFishBlockEncryptor\BlowFishBlockEncryptor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\TwoFishBlockEncryptor\TwoFishBlockEncryptor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\XORBlockEncryptor\XORBlockEncryptor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\StreamEncryptionHandlerComponent\StreamEncryptionHandlerComponent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\XORStreamEncryptor\XORStreamEncryptor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\PacketHandler\PacketHandler.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\ReliabilityHandlerComponent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PakFile\PakFile.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PerfCounters\PerfCounters.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PhysicsCore\PhysicsCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PlatformThirdPartyHelpers\PosixShim\PosixShim.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Portal\LauncherCheck\LauncherCheck.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Portal\LauncherPlatform\LauncherPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Portal\Messages\PortalMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Portal\Proxies\PortalProxies.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Portal\Rpc\PortalRpc.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Portal\Services\PortalServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PreLoadScreen\PreLoadScreen.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Projects\Projects.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\PropertyPath\PropertyPath.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\RHICore\RHICore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\RHI\RHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\RSA\RSA.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\RawMesh\RawMesh.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\RenderCore\RenderCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Renderer\Renderer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\RigVM\RigVM.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\RuntimeAssetCache\RuntimeAssetCache.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SandboxFile\SandboxFile.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Serialization\Serialization.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SessionMessages\SessionMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SessionServices\SessionServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SignalProcessing\SignalProcessing.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SkeletalMeshDescription\SkeletalMeshDescription.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SlateCore\SlateCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SlateNullRenderer\SlateNullRenderer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SlateRHIRenderer\SlateRHIRenderer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Slate\Slate.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Sockets\Sockets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SoundFieldRendering\SoundFieldRendering.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\StaticMeshDescription\StaticMeshDescription.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\StorageServerClient\StorageServerClient.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\StreamingFile\StreamingFile.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\StreamingPauseRendering\StreamingPauseRendering.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SymsLib\SymsLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\SynthBenchmark\SynthBenchmark.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\TextureUtilitiesCommon\TextureUtilitiesCommon.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\TimeManagement\TimeManagement.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\TraceLog\TraceLog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\TypedElementFramework\TypedElementFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\TypedElementRuntime\TypedElementRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\UELibrary\UELibrary.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\UMG\UMG.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Unix\UnixCommonStartup\UnixCommonStartup.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\UnrealGame\UnrealGame.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\VectorVM\VectorVM.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\VirtualFileCache\VirtualFileCache.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\VirtualProduction\StageDataCore\StageDataCore.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\VulkanRHI\VulkanRHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\WebBrowserTexture\WebBrowserTexture.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\WebBrowser\WebBrowser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\WidgetCarousel\WidgetCarousel.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Windows\AudioMixerXAudio2\AudioMixerXAudio2.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Windows\D3D11RHI\D3D11RHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\Windows\WindowsPlatformFeatures\WindowsPlatformFeatures.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\Runtime\XmlParser\XmlParser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\ADO\ADO.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\AMD\AMD_AGS\AMD_AGS.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\AMD\Amf\Amf.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\ANGLE\ANGLE.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Alembic\AlembicLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Android\cxa_demangle\cxademangle.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Android\detex\detex.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Android\libunwind\libunwind.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Apple\Swift\Swift.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\AtomicQueue\AtomicQueue.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\BLAKE3\BLAKE3.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Blosc\Blosc.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Boost\Boost.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\CEF3\CEF3.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\CLI11\CLI11.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Catch2\Catch2.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\CryptoPP\CryptoPP.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\DirectML\DirectML.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\DirectShow\DirectShow.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Distorm\Distorm.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\EOSSDK\EOSSDK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Eigen\Eigen.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Expat\Expat.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\FBX\FBX.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Facebook\Facebook.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\FakeIt\FakeIt.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\FontConfig\FontConfig.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\ForsythTriOO\ForsythTriOptimizer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\FreeImage\FreeImage.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\FreeType2\FreeType2.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\GoogleARCore\GoogleARCoreSDK.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\GoogleGameSDK\GoogleGameSDK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\GoogleOboe\GoogleOboe.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\GooglePlay\gpg-cpp-sdk.v3.0.1\GpgCppSDK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\GoogleTest\GoogleTest.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\HLMediaLibrary\HLMediaLibrary.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\HWCPipe\HWCPipe.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\HarfBuzz\HarfBuzz.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\ICU\ICU.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\IOS\Bolts\Bolts.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\IOS\SoundSwitch\SoundSwitch.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Imath\Imath.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\Embree\Embree3.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\ExtensionsFramework\IntelExtensionsFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\ISPCTexComp\IntelISPCTexComp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\ISPC\IntelISPC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\MetricsDiscovery\IntelMetricsDiscovery.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\OIDN\IntelOIDN.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\TBB\IntelTBB.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Intel\VTune\IntelVTune.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Kiss_FFT\Kiss_FFT.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\LibTiff\LibTiff.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\LibreSSL\LibreSSL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\MCPP\MCPP.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\MaterialX\MaterialX.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\MikkTSpace\MikkTSpace.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\CUDA\CUDAHeader.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\GPUDirect\GPUDirect.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\GeForceNOW\GeForceNOW.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\NVML\NVML.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\NVaftermath\NVaftermath.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\Rivermax\RivermaxLib.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\nvDecode\nvDecode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\nvEncode\nvEncode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\NVIDIA\nvapi\NVAPI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Oculus\LibOVRAudio\LibOVRAudio.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Oculus\LibOVRPlatform\LibOVRPlatform.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Oculus\OVRPlugin\OVRPlugin.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Oculus\OculusOpenXRLoader\OculusOpenXRLoader.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Ogg\UEOgg.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\OpenAL\OpenAL.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\OpenGL\OpenGL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\OpenSSL\OpenSSL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\OpenSubdiv\OpenSubdiv.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\OpenVDB\OpenVDB.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\OpenVR\OpenVR.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\OpenXR\OpenXR.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\PLCrashReporter\PLCrashReporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Perforce\Perforce.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Protobuf\Protobuf.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Python3\Python3.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\RawPDB\RawPDB.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Re2\Re2.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\RenderDoc\RenderDoc.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\SDL2\SDL2.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\SPIRV-Reflect\SPIRVReflect.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\ShaderConductor\ShaderConductor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\SoundTouchZ\SoundTouchZ.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\SpeedTree\SpeedTree.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Steamworks\Steamworks.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Tencent\WeGame\WeGame.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\VHACD\VHACD.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Vorbis\Vorbis.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Vorbis\VorbisFile.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Vulkan\Vulkan.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\WebRTC\WebRTC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\WinHttp\WinHttp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DX11\DX11.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DX11\DX11Audio.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DX11\DX11Input.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DX12\DX12.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DX9\DX9.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DirectSound\DirectSound.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DirectStorage\DirectStorage.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\DirectX\DirectX.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\PIX\WinPixEventRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\VisualStudioDTE\VisualStudioDTE.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\WinInet\WinInet.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\XAudio2_9\XAudio2_9.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\XInput\XInput.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\Windows\glTF-Toolkit\gltfToolkit.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\asio\Asio.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\coremod\coremod.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\etc2comp\etc2comp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\fmt\fmt.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\heapprofd\heapprofd.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\hlslcc\HLSLCC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\http_parser\http_parser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\jemalloc\jemalloc.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libJPG\UElibJPG.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libOpus\libOpus.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libPNG\UElibPNG.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libPhonon\LibPhonon.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libSampleRate\UElibSampleRate.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libWebSockets\libWebSockets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libav\libav.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libcurl\libcurl.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libjpeg-turbo\LibJpegTurbo.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libstrophe\libstrophe.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libvpx\libvpx.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libxml2\libxml2.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\libzip\libzip.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\llvm\llvm.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\metis\metis.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\mtlpp\mtlpp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\nanoflann\nanoflann.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\nanosvg\nanosvg.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\nghttp2\nghttp2.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\nvTextureTools\nvTextureTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\nvTriStrip\nvTriStrip.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\nvtesslib\nvTessLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\openexr\UEOpenExr.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\portmidi\portmidi.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\rpclib\rpclib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\vcpkg\Vcpkg.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\zlib\zlib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Source\ThirdParty\zstd\zstd.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Developer\AudioFormatOgg\AudioFormatOgg_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Developer\AudioFormatOpus\AudioFormatOpus_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Developer\HoloLensPlatformEditor\HoloLensPlatformEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Developer\HoloLensTargetPlatform\HoloLensTargetPlatform.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\ApplicationCore\ApplicationCore_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Core\Core_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\D3D12RHI\D3D12RHI_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\InputCore\InputCore_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Launch\Launch_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Online\BackgroundHTTP\BackgroundHTTP_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Online\HTTP\HTTP_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Online\ICMP\ICMP_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Online\WebSockets\WebSockets_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\OodleDataCompression\OodleDataCompression_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\RHI\RHI_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Slate\Slate_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Sockets\Sockets_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\TraceLog\TraceLog_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\Runtime\Windows\D3D11RHI\D3D11RHI_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\BLAKE3\BLAKE3_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\FreeType2\FreeType2_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\HLMediaLibrary\HLMediaLibrary_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\ICU\ICU_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Intel\TBB\IntelTBB_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Ogg\UEOgg_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\OpenSSL\OpenSSL_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\OpenXR\OpenXR_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Vorbis\VorbisFile_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Vorbis\Vorbis_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Windows\DX11\DX11Audio_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Windows\DX11\DX11_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Windows\DX12\DX12_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Windows\DX9\DX9_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\Windows\XInput\XInput_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\libOpus\libOpus_HoloLens.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\libPNG\UElibPNG_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\libcurl\libcurl_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Platforms\Hololens\Source\ThirdParty\zlib\zlib_HoloLens.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\2D\Paper2D\Source\Paper2DEditor\Paper2DEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\2D\Paper2D\Source\Paper2D\Paper2D.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\2D\Paper2D\Source\PaperSpriteSheetImporter\PaperSpriteSheetImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\2D\Paper2D\Source\PaperTiledImporter\PaperTiledImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\2D\Paper2D\Source\SmartSnapping\SmartSnapping.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\2D\Paper2D\Source\SpriterImporter\SpriterImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\AISupport\Source\AISupportModule\AISupportModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\EnvironmentQueryEditor\Source\EnvironmentQueryEditor\EnvironmentQueryEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\HTNPlanner\Source\HTNPlanner\HTNPlanner.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\HTNPlanner\Source\HTNTestSuite\HTNTestSuite.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassAI\Source\MassAIBehavior\MassAIBehavior.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassAI\Source\MassAIDebug\MassAIDebug.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassAI\Source\MassAIReplication\MassAIReplication.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassAI\Source\MassAITestSuite\MassAITestSuite.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassAI\Source\MassNavigationEditor\MassNavigationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassAI\Source\MassNavigation\MassNavigation.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassAI\Source\MassZoneGraphNavigation\MassZoneGraphNavigation.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MassCrowd\Source\MassCrowd\MassCrowd.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MLAdapter\Source\MLAdapterTestSuite\MLAdapterTestSuite.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AI\MLAdapter\Source\MLAdapter\MLAdapter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimationData\Source\AnimationData\AnimationData.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimationLocomotionLibrary\Source\Editor\AnimationLocomotionLibraryEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimationLocomotionLibrary\Source\Runtime\AnimationLocomotionLibraryRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimationModifierLibrary\Source\AnimationModifierLibrary\AnimationModifierLibrary.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimationWarping\Source\Editor\AnimationWarpingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimationWarping\Source\Runtime\AnimationWarpingRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimToTexture\Source\AnimToTextureEditor\AnimToTextureEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\AnimToTexture\Source\AnimToTexture\AnimToTexture.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\BlendSpaceMotionAnalysis\Source\BlendSpaceMotionAnalysis\BlendSpaceMotionAnalysis.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\ControlRigSpline\Source\ControlRigSpline\ControlRigSpline.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\ControlRig\Source\ControlRigDeveloper\ControlRigDeveloper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\ControlRig\Source\ControlRigEditor\ControlRigEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\ControlRig\Source\ControlRig\ControlRig.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\DeformerGraph\Source\OptimusCore\OptimusCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\DeformerGraph\Source\OptimusDeveloper\OptimusDeveloper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\DeformerGraph\Source\OptimusEditor\OptimusEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\DeformerGraph\Source\OptimusSettings\OptimusSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsightsEditor\GameplayInsightsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsights\GameplayInsights.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\GameplayInsights\Source\RewindDebuggerVLog\RewindDebuggerVLog.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\GameplayInsights\Source\RewindDebugger\RewindDebugger.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\IKRig\Source\IKRigDeveloper\IKRigDeveloper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\IKRig\Source\IKRigEditor\IKRigEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\IKRig\Source\IKRig\IKRig.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLinkCurveDebugUI\Source\LiveLinkCurveDebugUI\LiveLinkCurveDebugUI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLink\Source\LiveLinkComponents\LiveLinkComponents.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLink\Source\LiveLinkEditor\LiveLinkEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLink\Source\LiveLinkGraphNode\LiveLinkGraphNode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLink\Source\LiveLinkMovieScene\LiveLinkMovieScene.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLink\Source\LiveLinkMultiUser\LiveLinkMultiUser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLink\Source\LiveLinkSequencer\LiveLinkSequencer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\LiveLink\Source\LiveLink\LiveLink.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\MLDeformerFramework\Source\MLDeformerFrameworkEditor\MLDeformerFrameworkEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\MLDeformerFramework\Source\MLDeformerFramework\MLDeformerFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\NearestNeighborModel\Source\NearestNeighborModelEditor\NearestNeighborModelEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\NearestNeighborModel\Source\NearestNeighborModel\NearestNeighborModel.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\NeuralMorphModel\Source\NeuralMorphModelEditor\NeuralMorphModelEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\NeuralMorphModel\Source\NeuralMorphModel\NeuralMorphModel.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\VertexDeltaModel\Source\VertexDeltaModelEditor\VertexDeltaModelEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MLDeformer\VertexDeltaModel\Source\VertexDeltaModel\VertexDeltaModel.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\MotionWarping\Source\MotionWarping\MotionWarping.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\RigLogic\Source\RigLogicDeveloper\RigLogicDeveloper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\RigLogic\Source\RigLogicEditor\RigLogicEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\RigLogic\Source\RigLogicLibTest\RigLogicLibTest.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\RigLogic\Source\RigLogicLib\RigLogicLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Animation\RigLogic\Source\RigLogicModule\RigLogicModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AudioGameplayVolume\Source\AudioGameplayVolumeEditor\AudioGameplayVolumeEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AudioGameplayVolume\Source\AudioGameplayVolume\AudioGameplayVolume.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\AudioGameplay\Source\AudioGameplay\AudioGameplay.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\BlueprintFileUtils\Source\BlueprintFileUtils\BlueprintFileUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Bridge\Source\Bridge\Bridge.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Bridge\Source\MegascansPlugin\MegascansPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Cameras\CameraShakePreviewer\Source\CameraShakePreviewer\CameraShakePreviewer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Cameras\GameplayCameras\Source\GameplayCameras\GameplayCameras.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\Composure\Source\ComposureEditor\ComposureEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\Composure\Source\ComposureLayersEditor\ComposureLayersEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\Composure\Source\Composure\Composure.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\LensDistortion\Source\LensDistortion\LensDistortion.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\OpenColorIO\Source\OpenColorIOEditor\OpenColorIOEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\OpenColorIO\Source\OpenColorIO\OpenColorIO.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\OpenColorIO\Source\ThirdParty\OpenColorIO\OpenColorIOLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\OpenCVLensDistortion\Source\OpenCVLensCalibration\OpenCVLensCalibration.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compositing\OpenCVLensDistortion\Source\OpenCVLensDistortion\OpenCVLensDistortion.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Compression\OodleNetwork\Source\OodleNetworkHandlerComponent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\AnimationSharing\Source\AnimationSharingEd\AnimationSharingEd.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\AnimationSharing\Source\AnimationSharing\AnimationSharing.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\BlankPlugin\Source\BlankPlugin\BlankPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\CLionSourceCodeAccess\Source\CLionSourceCodeAccess\CLionSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Source\CodeLiteSourceCodeAccess\CodeLiteSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertApp\DisasterRecoveryClient\Source\DisasterRecoveryClient\DisasterRecoveryClient.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertApp\MultiUserClient\Source\MultiUserClientLibrary\MultiUserClientLibrary.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertApp\MultiUserClient\Source\MultiUserClient\MultiUserClient.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertApp\MultiUserServer\Source\MultiUserServer\MultiUserServer.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertMain\Source\ConcertClient\ConcertClient.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertMain\Source\ConcertServer\ConcertServer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertMain\Source\ConcertTransport\ConcertTransport.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertMain\Source\Concert\Concert.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncClient\Source\ConcertSyncClient\ConcertSyncClient.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Source\ConcertSyncCore\ConcertSyncCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncServer\Source\ConcertSyncServer\ConcertSyncServer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncTest\Source\ConcertSyncTest\ConcertSyncTest.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertUI\ConcertClientSharedSlate\Source\ConcertClientSharedSlate\ConcertClientSharedSlate.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\Concert\ConcertUI\ConcertSharedSlate\Source\ConcertSharedSlate\ConcertSharedSlate.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\DumpGPUServices\Source\DumpGPUServices\DumpGPUServices.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\GitSourceControl\Source\GitSourceControl\GitSourceControl.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Source\KDevelopSourceCodeAccess\KDevelopSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\NullSourceCodeAccess\Source\NullSourceCodeAccess\NullSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\OneSkyLocalizationService\Source\OneSkyLocalizationService\OneSkyLocalizationService.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\PerforceSourceControl\Source\PerforceSourceControl\PerforceSourceControl.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\PixWinPlugin\Source\PixWinPlugin\PixWinPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\PlasticSourceControl\Source\PlasticSourceControl\PlasticSourceControl.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\PluginUtils\Source\PluginUtils\PluginUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\PropertyAccessNode\Source\PropertyAccessNode\PropertyAccessNode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\RenderDocPlugin\Source\RenderDocPlugin\RenderDocPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\RiderSourceCodeAccess\Source\RiderSourceCodeAccess\RiderSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\SubversionSourceControl\Source\SubversionSourceControl\SubversionSourceControl.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\TextureFormatOodle\Source\TextureFormatOodle.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\TraceDataFiltering\Source\TraceDataFiltering\TraceDataFiltering.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\TraceSourceFiltering\Source\SourceFilteringCore\SourceFilteringCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\TraceSourceFiltering\Source\SourceFilteringEditor\SourceFilteringEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\TraceSourceFiltering\Source\SourceFilteringTrace\SourceFilteringTrace.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\UObjectPlugin\Source\UObjectPlugin\UObjectPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Source\VisualStudioCodeSourceCodeAccess\VisualStudioCodeSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Source\ThirdParty\VisualStudioSetup\VisualStudioSetup.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Source\VisualStudioSourceCodeAccess\VisualStudioSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\XcodeGPUDebuggerPlugin\Source\XcodeGPUDebuggerPlugin\XcodeGPUDebuggerPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Developer\XCodeSourceCodeAccess\Source\XCodeSourceCodeAccess\XCodeSourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\AssetManagerEditor\Source\AssetManagerEditor\AssetManagerEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\AssetReferenceRestrictions\Source\AssetReferenceRestrictions\AssetReferenceRestrictions.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\AssetRegistryExport\Source\AssetRegistryExport.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\AssetSearch\Source\AssetSearch.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\BlueprintHeaderView\Source\BlueprintHeaderView\BlueprintHeaderView.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\BlueprintMaterialTextureNodes\Source\BlueprintMaterialTextureNodes\BlueprintMaterialTextureNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ChangelistReview\Source\ChangelistReview.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ConsoleVariablesEditor\Source\ConsoleVariablesEditorRuntime\ConsoleVariablesEditorRuntime.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ConsoleVariablesEditor\Source\ConsoleVariablesEditor\ConsoleVariablesEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ContentBrowser\ContentBrowserAliasDataSoure\Source\ContentBrowserAliasDataSource\ContentBrowserAliasDataSource.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ContentBrowser\ContentBrowserAssetDataSource\Source\ContentBrowserAssetDataSource\ContentBrowserAssetDataSource.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ContentBrowser\ContentBrowserClassDataSource\Source\ContentBrowserClassDataSource\ContentBrowserClassDataSource.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ContentBrowser\ContentBrowserFileDataSource\Source\ContentBrowserFileDataSource\ContentBrowserFileDataSource.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\CryptoKeys\Source\CryptoKeysOpenSSL\CryptoKeysOpenSSL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\CryptoKeys\Source\CryptoKeys\CryptoKeys.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\CurveEditorTools\Source\CurveEditorTools\CurveEditorTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\DataValidation\Source\DataValidation\DataValidation.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\DisplayClusterLaunch\Source\DisplayClusterLaunchEditor\DisplayClusterLaunchEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\EditorDebugTools\Source\EditorDebugTools\EditorDebugTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\EditorScriptingUtilities\Source\EditorScriptingUtilities\EditorScriptingUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\EngineAssetDefinitions\Source\EngineAssetDefinitions.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\FacialAnimation\Source\FacialAnimationEditor\FacialAnimationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\FacialAnimation\Source\FacialAnimation\FacialAnimation.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\GameplayTagsEditor\Source\GameplayTagsEditor\GameplayTagsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\GeometryMode\Source\BspMode\BspMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\GeometryMode\Source\GeometryMode\GeometryMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\GeometryMode\Source\TextureAlignMode\TextureAlignMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\GLTFImporter\Source\GLTFCore\GLTFCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\GLTFImporter\Source\GLTFImporter\GLTFImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\GuidedTutorials\Source\IntroTutorials\IntroTutorials.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\LiveUpdateForSlate\Source\LiveUpdateForSlate\LiveUpdateForSlate.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\MacGraphicsSwitching\Source\MacGraphicsSwitching\MacGraphicsSwitching.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\MaterialAnalyzer\Source\MaterialAnalyzer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\MobileLauncherProfileWizard\Source\MobileLauncherProfileWizard\MobileLauncherProfileWizard.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ModelingToolsEditorMode\Source\ModelingToolsEditorMode\ModelingToolsEditorMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ObjectMixer\LightMixer\Source\LightMixer\LightMixer.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\ObjectMixer\ObjectMixer\Source\ObjectMixer\ObjectMixerEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\PluginBrowser\Source\PluginBrowser\PluginBrowser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\SequencerAnimTools\Source\SequencerAnimTools\SequencerAnimTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\SpeedTreeImporter\Source\SpeedTreeImporter\SpeedTreeImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\StylusInput\Source\StylusInput\StylusInput.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\WaveformEditor\Source\WaveformEditorWidgets\WaveformEditorWidgets.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\WaveformEditor\Source\WaveformEditor\WaveformEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\WaveformEditor\Source\WaveformTransformationsWidgets\WaveformTransformationsWidgets.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\WaveformEditor\Source\WaveformTransformations\WaveformTransformations.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Editor\WorldPartitionHLODUtilities\Source\WorldPartitionHLODUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\EnhancedInput\Source\EnhancedInput\EnhancedInput.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\EnhancedInput\Source\InputBlueprintNodes\InputBlueprintNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\EnhancedInput\Source\InputEditor\InputEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\AxFImporter\Source\AxFImporter\AxFImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DataprepEditor\Source\DataprepCore\DataprepCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DataprepEditor\Source\DataprepEditorScriptingUtilities\DataprepEditorScriptingUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DataprepEditor\Source\DataprepEditor\DataprepEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DataprepEditor\Source\DataprepLibraries\DataprepLibraries.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithC4DImporter\Source\DatasmithC4DTranslator\DatasmithC4DTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADInterfaces\CADInterfaces.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADKernelSurface\CADKernelSurface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADLibrary\CADLibrary.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\CADTools\CADTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithCADTranslator\DatasmithCADTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithDispatcher\DatasmithDispatcher.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithOpenNurbsTranslator\DatasmithOpenNurbsTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithPLMXMLTranslator\DatasmithPLMXMLTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithWireTranslator\DatasmithWireTranslator2020.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithWireTranslator\DatasmithWireTranslator2021_3.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithWireTranslator\DatasmithWireTranslator2022.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithWireTranslator\DatasmithWireTranslator2022_1.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithWireTranslator\DatasmithWireTranslator2022_2.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithWireTranslator\DatasmithWireTranslator2023_0.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\DatasmithWireTranslator\DatasmithWireTranslator2023_1.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\ParametricSurfaceExtension\ParametricSurfaceExtension.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithCADImporter\Source\ParametricSurface\ParametricSurface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithContent\Source\DatasmithContentEditor\DatasmithContentEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithContent\Source\DatasmithContent\DatasmithContent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithFBXImporter\Source\DatasmithDeltaGenTranslator\DatasmithDeltaGenTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithFBXImporter\Source\DatasmithFBXTranslator\DatasmithFBXTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithFBXImporter\Source\DatasmithVREDTranslator\DatasmithVREDTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithGLTFImporter\Source\DatasmithGLTFTranslator\DatasmithGLTFTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithIFCImporter\Source\DatasmithIFCTranslator\DatasmithIFCTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\DatasmithExternalSource\DatasmithExternalSource.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\DatasmithImporter\DatasmithImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\DatasmithNativeTranslator\DatasmithNativeTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\DatasmithTranslator\DatasmithTranslator.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\DirectLinkExtensionEditor\DirectLinkExtensionEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\DirectLinkExtension\DirectLinkExtension.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\DirectLinkTest\DirectLinkTest.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\DatasmithImporter\Source\ExternalSource\ExternalSource.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\GLTFExporter\Source\GLTFExporter\GLTFExporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\LidarPointCloud\Source\LidarPointCloudEditor\LidarPointCloudEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\LidarPointCloud\Source\LidarPointCloudRuntime\LidarPointCloudRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\MDLImporter\Source\MDLImporter\MDLImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\VariantManagerContent\Source\VariantManagerContentEditor\VariantManagerContentEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\VariantManagerContent\Source\VariantManagerContent\VariantManagerContent.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Enterprise\VariantManager\Source\VariantManager\VariantManager.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AbilitySystemGameFeatureActions\Source\AbilitySystemGameFeatureActions\AbilitySystemGameFeatureActions.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ActorPalette\Source\ActorPalette\ActorPalette.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\ContextualAnimation\Source\ContextualAnimationEditor\ContextualAnimationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\ContextualAnimation\Source\ContextualAnimation\ContextualAnimation.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\CurveExpression\Source\Editor\CurveExpressionEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\CurveExpression\Source\Runtime\CurveExpression.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\MotionTrajectory\Source\MotionTrajectory\MotionTrajectory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\PoseCorrectives\Source\PoseCorrectivesEditor\PoseCorrectivesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\PoseCorrectives\Source\PoseCorrectives\PoseCorrectives.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\PoseSearch\Source\Editor\PoseSearchEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\PoseSearch\Source\Runtime\PoseSearch.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Animation\SkeletalMeshModelingTools\Source\SkeletalMeshModelingTools\SkeletalMeshModelingTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AnimNext\Source\AnimNextInterfaceGraphEditor\AnimNextInterfaceGraphEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AnimNext\Source\AnimNextInterfaceGraphUncookedOnly\AnimNextInterfaceGraphUncookedOnly.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AnimNext\Source\AnimNextInterfaceGraph\AnimNextInterfaceGraph.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AnimNext\Source\AnimNextInterface\AnimNextInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AppleVision\Source\AppleVisionBlueprintSupport\AppleVisionBlueprintSupport.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AppleVision\Source\AppleVision\AppleVision.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AR\PointCloud\Source\PointCloud\PointCloud.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AssetPlacementEdMode\Source\AssetPlacementEdMode\AssetPlacementEdMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AutomationUtils\Source\AutomationUtilsEditor\AutomationUtilsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AutomationUtils\Source\AutomationUtils\AutomationUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\AMFCodecs\Source\AMFCodecsRHI\AMFCodecsRHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\AMFCodecs\Source\AMFCodecs\AMFCodecs.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\AVCodecsCore\Source\AVCodecsCoreRHI\AVCodecsCoreRHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\AVCodecsCore\Source\AVCodecsCore\AVCodecsCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\NVCodecs\Source\NVCodecsRHI\NVCodecsRHI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\NVCodecs\Source\NVCodecs\NVCodecs.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\NVCodecs\Source\NVDEC\NVDEC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\NVCodecs\Source\NVENC\NVENC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\AVCodecs\WMFCodecs\Source\WMFCodecs\WMFCodecs.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\BackChannel\Source\BackChannel\BackChannel.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\BlueprintSnapNodes\Source\BlueprintSnapNodes\BlueprintSnapNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\BlueprintStats\Source\BlueprintStats\BlueprintStats.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosCaching\Source\ChaosCachingEditor\ChaosCachingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosCaching\Source\ChaosCaching\ChaosCaching.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosClothAssetEditor\Source\ChaosClothAssetEditorTools\ChaosClothAssetEditorTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosClothAssetEditor\Source\ChaosClothAssetEditor\ChaosClothAssetEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosClothAssetEditor\Source\ChaosClothAssetTools\ChaosClothAssetTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosClothAsset\Source\ChaosClothAssetEngine\ChaosClothAssetEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosClothAsset\Source\ChaosClothAsset\ChaosClothAsset.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosClothEditor\Source\Chaos\ChaosClothEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosCloth\Source\Chaos\ChaosCloth.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosEditor\Source\FractureEditor\FractureEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosFlesh\Source\ChaosFleshEditor\ChaosFleshEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosFlesh\Source\ChaosFleshEngine\ChaosFleshEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosFlesh\Source\ChaosFleshNodes\ChaosFleshNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosFlesh\Source\ChaosFlesh\ChaosFlesh.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosNiagara\Source\ChaosNiagara\ChaosNiagara.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosSolverPlugin\Source\ChaosSolverEditor\ChaosSolverEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosUserDataPT\Source\ChaosUserDataPT\ChaosUserDataPT.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosVehiclesPlugin\Source\ChaosVehiclesEditor\ChaosVehiclesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ChaosVehiclesPlugin\Source\ChaosVehicles\ChaosVehicles.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CharacterAI\Source\CharacterAI\CharacterAI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CharacterFXEditor\BaseCharacterFXEditor\Source\BaseCharacterFXEditor\BaseCharacterFXEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CharacterFXEditor\ExampleCharacterFXEditor\Source\ExampleCharacterFXEditor\ExampleCharacterFXEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Chooser\Source\ChooserEditor\ChooserEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Chooser\Source\Chooser\Chooser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Chooser\Source\ProxyTableEditor\ProxyTableEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Chooser\Source\ProxyTable\ProxyTable.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CineCameraRigs\Source\CineCameraRigsEditor\CineCameraRigsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CineCameraRigs\Source\CineCameraRigs\CineCameraRigs.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CinematicPrestreaming\Source\CinematicPrestreamingEditor\CinematicPrestreamingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CinematicPrestreaming\Source\CinematicPrestreaming\CinematicPrestreaming.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CodeEditor\Source\CodeEditor\CodeEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CodeView\Source\CodeView\CodeView.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ColorCorrectRegions\Source\ColorCorrectRegionsEditor\ColorCorrectRegionsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ColorCorrectRegions\Source\ColorCorrectRegions\ColorCorrectRegions.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CommonConversation\Source\CommonConversationEditor\CommonConversationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CommonConversation\Source\CommonConversationGraph\CommonConversationGraph.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CommonConversation\Source\CommonConversationRuntime\CommonConversationRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CommonUI\Source\CommonInput\CommonInput.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CommonUI\Source\CommonUIEditor\CommonUIEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\CommonUI\Source\CommonUI\CommonUI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ControlFlows\Source\ControlFlows\ControlFlows.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Dataflow\Source\DataflowEditor\DataflowEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Dataflow\Source\DataflowEnginePlugin\DataflowEnginePlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Dataflow\Source\DataflowNodes\DataflowNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\DefaultInstallBundleManager\Source\DefaultInstallBundleManager.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Enterprise\DataprepGeometryOperations\Source\DataprepGeometryOperations.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Enterprise\DatasmithInterchange\Source\DatasmithInterchangeScripting\DatasmithInterchangeScripting.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Enterprise\DatasmithInterchange\Source\DatasmithInterchange\DatasmithInterchange.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Enterprise\DatasmithRuntime\Source\DatasmithRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\FieldSystemPlugin\Source\FieldSyStemEditor\FieldSystemEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Fracture\Source\FractureEngine\FractureEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\FullBodyIK\Source\FullBodyIK\FullBodyIK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\FullBodyIK\Source\PBIK\PBIK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GameFeatures\Source\GameFeaturesEditor\GameFeaturesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GameFeatures\Source\GameFeatures\GameFeatures.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GameplayBehaviors\Source\GameplayBehaviorsEditorModule\GameplayBehaviorsEditorModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GameplayBehaviors\Source\GameplayBehaviorsModule\GameplayBehaviorsModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GameplayBehaviors\Source\GameplayBehaviorsTestSuite\GameplayBehaviorsTestSuite.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GameplayTargetingSystem\Source\GameplayTargetingSystem\TargetingSystem.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Gauntlet\Source\Gauntlet\Gauntlet.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryCacheAbcFile\Source\GeometryCacheAbcFile\GeometryCacheAbcFile.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryCollectionPlugin\Source\GeometryCollectionEditor\GeometryCollectionEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryCollectionPlugin\Source\GeometryCollectionNodes\GeometryCollectionNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryCollectionPlugin\Source\GeometryCollectionSequencer\GeometryCollectionSequencer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryCollectionPlugin\Source\GeometryCollectionTracks\GeometryCollectionTracks.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryFlow\Source\GeometryFlowCore\GeometryFlowCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryFlow\Source\GeometryFlowMeshProcessingEditor\GeometryFlowMeshProcessingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryFlow\Source\GeometryFlowMeshProcessing\GeometryFlowMeshProcessing.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryScripting\Source\GeometryScriptingCore\GeometryScriptingCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GeometryScripting\Source\GeometryScriptingEditor\GeometryScriptingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GizmoEdMode\Source\GizmoEdMode\GizmoEdMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GizmoEdMode\Source\LightGizmos\LightGizmos.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GizmoFramework\Source\NewGizmoEnable\NewGizmoEnable.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GPULightmass\Source\GPULightmassEditor\GPULightmassEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\GPULightmass\Source\GPULightmass\GPULightmass.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\HairModelingToolset\Source\HairModelingToolset\HairModelingToolset.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ImagePlate\Source\ImagePlateEditor\ImagePlateEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ImagePlate\Source\ImagePlate\ImagePlate.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Iris\Source\Iris\Iris.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\JWT\Source\JWT\JWT.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Landmass\Source\Editor\LandmassEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Landmass\Source\Runtime\Landmass.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\LandscapePatch\Source\LandscapePatchEditorOnly\LandscapePatchEditorOnly.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\LandscapePatch\Source\LandscapePatch\LandscapePatch.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\LiveLinkControlRig\Source\LiveLinkControlRig\LiveLinkControlRig.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\LiveLinkFaceImporter\Source\LiveLinkFaceImporter\LiveLinkFaceImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MeshLODToolset\Source\MeshLODToolset\MeshLODToolset.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MeshModelingToolsetExp\Source\GeometryProcessingAdapters\GeometryProcessingAdapters.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MeshModelingToolsetExp\Source\MeshModelingToolsEditorOnlyExp\MeshModelingToolsEditorOnlyExp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MeshModelingToolsetExp\Source\MeshModelingToolsExp\MeshModelingToolsExp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MeshModelingToolsetExp\Source\ModelingEditorUI\ModelingEditorUI.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ModularGameplay\Source\ModularGameplay\ModularGameplay.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MotorSimOutputMotoSynth\Source\MotorSimOutputMotoSynth\MotorSimOutputMotoSynth.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MotoSynth\Source\MotoSynthEditor\MotoSynthEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\MotoSynth\Source\MotoSynth\MotoSynth.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Mutable\Source\CustomizableObjectEditor\CustomizableObjectEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Mutable\Source\CustomizableObjectPopulationEditor\CustomizableObjectPopulationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Mutable\Source\CustomizableObjectPopulation\CustomizableObjectPopulation.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Mutable\Source\CustomizableObject\CustomizableObject.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Mutable\Source\MutableRuntime\MutableRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Mutable\Source\MutableTools\MutableTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NaniteDisplacedMesh\Source\NaniteDisplacedMeshEditor\NaniteDisplacedMeshEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NaniteDisplacedMesh\Source\NaniteDisplacedMesh\NaniteDisplacedMesh.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNECore\NNECore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNEEditorTools\NNEEditorTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNEHlslShaders\NNEHlslShaders.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNEProfiling\NNEProfiling.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNEQA\NNEQA.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNERuntimeORTCpu\NNERuntimeORTCpu.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNERuntimeORT\NNERuntimeORT.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNERuntimeRDG\NNERuntimeRDG.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\NNEUtils\NNEUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\ORTHelper\ORTHelper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\OnnxruntimeEditor\NNEOnnxruntimeEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\Flatbuffers\NNEFlatBuffers.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\MLAS_2022_4_1\NNEONNXRuntimeMLAS_2022_4_1.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\Onnx\NNEOnnx.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\OnnxruntimeMlas\NNEOnnxruntimeMlas.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\abseil-cpp\NNEAbseilCpp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\nsync\NNENsync.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Onnxruntime\NNEOnnxruntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\NeuralNetworkInferenceEditor\NeuralNetworkInferenceEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\NeuralNetworkInference\NeuralNetworkInference.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\Private\ModelProtoFileReader\ModelProtoFileReader.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\Private\ModelProto\ModelProto.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\Private\NeuralNetworkInferenceProfiling\NeuralNetworkInferenceProfiling.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\Private\NeuralNetworkInferenceQA\NeuralNetworkInferenceQA.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\Private\NeuralNetworkInferenceShaders\NeuralNetworkInferenceShaders.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\Private\ThirdPartyHelperAndDLLLoader\ThirdPartyHelperAndDLLLoader.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\Deps\Flatbuffers\FlatBuffers.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\Deps\MLAS_2022_4_1\ONNXRuntimeMLAS_2022_4_1.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\Deps\Proto_1_11_0\ONNXRuntimeProto_1_11_0.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\Deps\abseil-cpp\AbseilCpp.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\Deps\nsync\Nsync.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\DirectML_1_8_0\DirectML_1_8_0.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\ONNX_1_11_0\ONNX_1_11_0.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\NNI\Source\ThirdParty\ORT_4_1\ONNXRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\OpenImageDenoise\Source\OpenImageDenoise\OpenImageDenoise.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\OptiXDenoise\Source\OptiXDenoise\OptixDenoise.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\OptiXDenoise\Source\ThirdParty\OptiXDenoiseBase\OptiXDenoiseBase.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PanoramicCapture\Source\PanoramicCapture\PanoramicCapture.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PCGGeometryScriptInterop\Source\PCGGeometryScriptInterop\PCGGeometryScriptInterop.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PCG\Source\PCGEditor\PCGEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PCG\Source\PCG\PCG.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PhysicsControl\Source\PhysicsControlVisualizer\PhysicsControlVisualizer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PhysicsControl\Source\PhysicsControl\PhysicsControl.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PixelStreamingPlayer\Source\PixelStreamingPlayerEditor\PixelStreamingPlayerEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PixelStreamingPlayer\Source\PixelStreamingPlayer\PixelStreamingPlayer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PlanarCutPlugin\Source\PlanarCut\PlanarCut.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PlatformCrypto\Source\PlatformCryptoOpenSSL\PlatformCryptoOpenSSL.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PlatformCrypto\Source\PlatformCryptoTypes\PlatformCryptoTypes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PlatformCrypto\Source\PlatformCrypto\PlatformCrypto.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ProxyLODPlugin\Source\ProxyLOD\ProxyLODMeshReduction.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ProxyLODPlugin\Source\ThirdParty\DirectXMesh.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ProxyLODPlugin\Source\ThirdParty\UVAtlas.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PythonScriptPlugin\Source\PythonScriptPluginPreload\PythonScriptPluginPreload.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\PythonScriptPlugin\Source\PythonScriptPlugin\PythonScriptPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\RawInput\Source\RawInput\RawInput.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\RemoteSession\Source\RemoteSessionEditor\RemoteSessionEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\RemoteSession\Source\RemoteSession\RemoteSession.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\RenderGrid\Source\RenderGridDeveloper\RenderGridDeveloper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\RenderGrid\Source\RenderGridEditor\RenderGridEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\RenderGrid\Source\RenderGrid\RenderGrid.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\SampleToolsEditorMode\Source\SampleToolsEditorMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ScreenReader\Source\ScreenReader\ScreenReader.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ScriptableToolsEditorMode\Source\ScriptableToolsEditorMode\ScriptableToolsEditorMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ScriptableToolsFramework\Source\EditorScriptableToolsFramework\EditorScriptableToolsFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ScriptableToolsFramework\Source\ScriptableToolsFramework\ScriptableToolsFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Shotgrid\Source\Shotgrid\Shotgrid.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\SimpleHMD\Source\SimpleHMD\SimpleHMD.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\SkeletalReduction\Source\SkeletalMeshReduction.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\SlateScreenReader\Source\SlateScreenReader\SlateScreenReader.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\StaticMeshEditorModeling\Source\StaticMeshEditorModeling\StaticMeshEditorModeling.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\StructUtils\Source\StructUtilsEditor\StructUtilsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\StructUtils\Source\StructUtilsNodes\StructUtilsNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\StructUtils\Source\StructUtilsTestSuite\StructUtilsTestSuite.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\StructUtils\Source\StructUtils\StructUtils.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\TetMeshing\Source\TetMeshing\TetMeshing.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Text3D\Source\Text3DEditor\Text3DEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Text3D\Source\Text3D\Text3D.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\TextToSpeech\Source\TextToSpeech\TextToSpeech.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\TextToSpeech\Source\ThirdParty\Flite\Flite.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\TextureMediaPlayer\Source\TextureMediaPlayerFactory\TextureMediaPlayerFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\TextureMediaPlayer\Source\TextureMediaPlayer\TextureMediaPlayer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\ToolPresets\Source\PresetAsset\PresetAsset.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\TypedElementsDataStorage\Source\TypedElementsDataStorageUI\TypedElementsDataStorageUI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\TypedElementsDataStorage\Source\TypedElementsDataStorage\TypedElementsDataStorage.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\UIFramework\Source\UIFramework.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\UserToolBoxBasicCommand\Source\UserToolBoxBasicCommand\UserToolBoxBasicCommand.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\UserToolBoxCore\Source\UserToolBoxCore\UserToolBoxCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\UVEditor\Source\UVEditorToolsEditorOnly\UVEditorToolsEditorOnly.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\UVEditor\Source\UVEditorTools\UVEditorTools.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\UVEditor\Source\UVEditor\UVEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\PixelStreamingVCam\PixelStreamingVCam.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VCamBlueprintNodes\VCamBlueprintNodes.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VCamCoreEditor\VCamCoreEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VCamCore\VCamCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VCamExtensionsEditor\VCamExtensionsEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VCamExtensions\VCamExtensions.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VCamInput\VCamInput.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCameraEditor\VirtualCameraEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\VirtualCamera.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualHeightfieldMesh\Source\VirtualHeightfieldMeshEditor\VirtualHeightfieldMeshEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualHeightfieldMesh\Source\VirtualHeightfieldMesh\VirtualHeightfieldMesh.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProductionUtilities\Source\VPBookmarkEditor\VPBookmarkEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProductionUtilities\Source\VPBookmark\VPBookmark.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProductionUtilities\Source\VPMaterialsEditor\VPMaterialsEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProductionUtilities\Source\VPUtilitiesEditor\VPUtilitiesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProductionUtilities\Source\VPUtilities\VPUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProduction\LedWallCalibration\Source\LedWallCalibrationEditor\LedWallCalibrationEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProduction\LedWallCalibration\Source\LedWallCalibration\LedWallCalibration.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProduction\VPRoles\Source\VPRolesEditor\VPRolesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProduction\VPRoles\Source\VPRoles\VPRoles.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualProduction\VPSettings\Source\VPSettings.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualScouting\Source\VirtualScoutingEditor\VirtualScoutingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\VirtualScouting\Source\VirtualScoutingOpenXR\VirtualScoutingOpenXR.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Water\Source\Editor\WaterEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Water\Source\Runtime\Water.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\WaveFunctionCollapse\Source\WaveFunctionCollapse\WaveFunctionCollapse.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\WebSocketNetworking\Source\WebSocketNetworking\WebSocketNetworking.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Web\WebAPI\Source\WebAPIBlueprintGraph\WebAPIBlueprintGraph.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Web\WebAPI\Source\WebAPIEditor\WebAPIEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Web\WebAPI\Source\WebAPILiquidJS\WebAPILiquidJS.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Web\WebAPI\Source\WebAPIOpenAPI\WebAPIOpenAPI.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\Web\WebAPI\Source\WebAPI\WebAPI.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\WidgetEditorToolPalette\Source\WidgetEditorToolPalette\WidgetEditorToolPalette.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\XRCreativeFramework\Source\XRCreativeEditor\XRCreativeEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Experimental\XRCreativeFramework\Source\XRCreative\XRCreative.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FastBuildController\Source\FastbuildController.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\CascadeToNiagaraConverter\Source\CascadeToNiagaraConverter\CascadeToNiagaraConverter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\ExampleCustomDataInterface\Source\ExampleCustomDataInterface\ExampleCustomDataInterface.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\NiagaraFluids\Source\NiagaraFluids\NiagaraFluids.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\NiagaraSimCaching\Source\NiagaraSimCachingEditor\NiagaraSimCachingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\NiagaraSimCaching\Source\NiagaraSimCaching\NiagaraSimCaching.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\Niagara\Source\NiagaraAnimNotifies\NiagaraAnimNotifies.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\Niagara\Source\NiagaraCore\NiagaraCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\Niagara\Source\NiagaraEditorWidgets\NiagaraEditorWidgets.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\Niagara\Source\NiagaraEditor\NiagaraEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\Niagara\Source\NiagaraShader\NiagaraShader.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\Niagara\Source\NiagaraVertexFactories\NiagaraVertexFactories.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\FX\Niagara\Source\Niagara\Niagara.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\AlembicHairImporter\Source\AlembicHairTranslator\AlembicHairTranslatorModule.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\AlembicImporter\Source\AlembicImporter\AlembicImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\AlembicImporter\Source\AlembicLibrary\AlembicLibrary.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\GeometryCacheUSD\GeometryCacheUSD.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDClassesEditor\USDClassesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDClasses\USDClasses.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDExporter\USDExporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDSchemas\USDSchemas.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDStageEditorViewModels\USDStageEditorViewModels.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDStageEditor\USDStageEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDStageImporter\USDStageImporter.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDStage\USDStage.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDTests\USDTests.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\USDUtilities\USDUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDImporter\Source\UnrealUSDWrapper\UnrealUSDWrapper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Importers\USDMultiUser\Source\USDMultiUser\USDMultiUser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Editor\Source\InterchangeEditor\InterchangeEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Editor\Source\Pipelines\InterchangeEditorPipelines.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Editor\Source\ResultsBrowser\InterchangeResultsBrowser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Editor\Source\Utilities\InterchangeEditorUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Dispatcher\InterchangeDispatcher.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Export\InterchangeExport.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\FactoryNodes\InterchangeFactoryNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Import\InterchangeImport.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Messages\InterchangeMessages.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Nodes\InterchangeNodes.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Parsers\CommonParser\InterchangeCommonParser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Parsers\Fbx\InterchangeFbxParser.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Interchange\Runtime\Source\Pipelines\InterchangePipelines.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\JsonBlueprintUtilities\Source\JsonBlueprintGraph\JsonBlueprintGraph.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\JsonBlueprintUtilities\Source\JsonBlueprintUtilities\JsonBlueprintUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\LightWeightInstancesEditor\Source\LightWeightInstancesEditor\LightWeightInstancesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AjaMedia\Source\AjaMediaEditor\AjaMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AjaMedia\Source\AjaMediaFactory\AjaMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AjaMedia\Source\AjaMediaOutput\AjaMediaOutput.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AjaMedia\Source\AjaMedia\AjaMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AjaMedia\Source\Aja\AjaCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AndroidCamera\Source\AndroidCameraEditor\AndroidCameraEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AndroidCamera\Source\AndroidCameraFactory\AndroidCameraFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AndroidCamera\Source\AndroidCamera\AndroidCamera.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AndroidMedia\Source\AndroidMediaEditor\AndroidMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AndroidMedia\Source\AndroidMediaFactory\AndroidMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AndroidMedia\Source\AndroidMedia\AndroidMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AppleProResMedia\Source\AppleProResMedia\AppleProResMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AppleProResMedia\Source\ThirdParty\ProResLib\ProResLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AppleProResMedia\Source\ThirdParty\ProResToolbox\ProResToolbox.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AudioCaptureTimecodeProvider\Source\AudioCaptureTimecodeProvider\AudioCaptureTimecodeProvider.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvfMedia\Source\AvfMediaCapture\AvfMediaCapture.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvfMedia\Source\AvfMediaEditor\AvfMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvfMedia\Source\AvfMediaFactory\AvfMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvfMedia\Source\AvfMedia\AvfMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvidDNxMedia\Source\Source\AvidDNxMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvidDNxMedia\Source\Thirdparty\DNxHR\DNxHR.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvidDNxMedia\Source\Thirdparty\DNxMXF\DNxMXF.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\AvidDNxMedia\Source\Thirdparty\DNxUncompressed\DNxUncompressed.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BinkMedia\Source\BinkMediaPlayerEditor\BinkMediaPlayerEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BinkMedia\Source\BinkMediaPlayerSDK\BinkMediaPlayerSDK.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BinkMedia\Source\BinkMediaPlayer\BinkMediaPlayer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BlackmagicMedia\Source\BlackmagicCore\BlackmagicCore.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BlackmagicMedia\Source\BlackmagicMediaEditor\BlackmagicMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BlackmagicMedia\Source\BlackmagicMediaFactory\BlackmagicMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BlackmagicMedia\Source\BlackmagicMediaOutput\BlackmagicMediaOutput.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BlackmagicMedia\Source\BlackmagicMedia\BlackmagicMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\BlackmagicMedia\Source\ThirdParty\BlackmagicLib\BlackmagicSDK.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraCDM\Source\ElectraCDM\ElectraCDM.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraPlayer\Source\ElectraPlayerFactory\ElectraPlayerFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraPlayer\Source\ElectraPlayerPluginHandler\ElectraPlayerPluginHandler.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraPlayer\Source\ElectraPlayerPlugin\ElectraPlayerPlugin.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraPlayer\Source\ElectraPlayerRuntime\ElectraPlayerRuntime.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraSubtitles\Source\ElectraSubtitles\ElectraSubtitles.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraUtil\Source\ElectraBase\ElectraBase.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraUtil\Source\ElectraHTTPStream\ElectraHTTPStream.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ElectraUtil\Source\ElectraSamples\ElectraSamples.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HAPMedia\Source\HAPMedia\HAPMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HAPMedia\Source\ThirdParty\HAPLib\HAPLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HAPMedia\Source\ThirdParty\SnappyLib\SnappyLib.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HardwareEncoders\Source\EncoderAMF\EncoderAMF.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HardwareEncoders\Source\EncoderNVENC\EncoderNVENC.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HLMedia\Source\HLMediaEditor\HLMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HLMedia\Source\HLMediaFactory\HLMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\HLMedia\Source\HLMedia\HLMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ImgMedia\Source\ExrReaderGpu\ExrReaderGpu.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ImgMedia\Source\ImgMediaEditor\ImgMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ImgMedia\Source\ImgMediaEngine\ImgMediaEngine.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ImgMedia\Source\ImgMediaFactory\ImgMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ImgMedia\Source\ImgMedia\ImgMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\ImgMedia\Source\OpenExrWrapper\OpenExrWrapper.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\LinearTimecode\Source\LinearTimecode\LinearTimecode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaCompositing\Source\MediaCompositingEditor\MediaCompositingEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaCompositing\Source\MediaCompositing\MediaCompositing.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaFrameworkUtilities\Source\MediaFrameworkUtilitiesEditor\MediaFrameworkUtilitiesEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaFrameworkUtilities\Source\MediaFrameworkUtilities\MediaFrameworkUtilities.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaIOFramework\Source\GPUTextureTransfer\GPUTextureTransfer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaIOFramework\Source\MediaIOCore\MediaIOCore.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaIOFramework\Source\MediaIOEditor\MediaIOEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaMovieStreamer\Source\MediaMovieStreamer\MediaMovieStreamer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaPlate\Source\MediaPlateEditor\MediaPlateEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaPlate\Source\MediaPlate\MediaPlate.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MediaPlayerEditor\Source\MediaPlayerEditor\MediaPlayerEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MfMedia\Source\MfMediaEditor\MfMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MfMedia\Source\MfMediaFactory\MfMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\MfMedia\Source\MfMedia\MfMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelCapture\Source\PixelCaptureShaders\PixelCaptureShaders.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelCapture\Source\PixelCapture\PixelCapture.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelStreaming\Source\PixelStreamingBlueprintEditor\PixelStreamingBlueprintEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelStreaming\Source\PixelStreamingBlueprint\PixelStreamingBlueprint.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelStreaming\Source\PixelStreamingEditor\PixelStreamingEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelStreaming\Source\PixelStreamingHMD\PixelStreamingHMD.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelStreaming\Source\PixelStreamingInput\PixelStreamingInput.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelStreaming\Source\PixelStreamingServers\PixelStreamingServers.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\PixelStreaming\Source\PixelStreaming\PixelStreaming.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\TimecodeSynchronizer\Source\TimecodeSynchronizerEditor\TimecodeSynchronizerEditor.build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\TimecodeSynchronizer\Source\TimecodeSynchronizer\TimecodeSynchronizer.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\WebMMedia\Source\ThirdParty\webm\libwebm.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\WebMMedia\Source\WebMMediaEditor\WebMMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\WebMMedia\Source\WebMMediaFactory\WebMMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\WebMMedia\Source\WebMMedia\WebMMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\WmfMedia\Source\WmfMediaEditor\WmfMediaEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\WmfMedia\Source\WmfMediaFactory\WmfMediaFactory.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Media\WmfMedia\Source\WmfMedia\WmfMedia.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MemoryUsageQueries\Source\MemoryUsageQueries\MemoryUsageQueries.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MeshPainting\Source\MeshPaintEditorMode\MeshPaintEditorMode.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MeshPainting\Source\MeshPaintingToolset\MeshPaintingToolset.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Messaging\MessagingDebugger\Source\MessagingDebugger\MessagingDebugger.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Messaging\TcpMessaging\Source\TcpMessaging\TcpMessaging.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\UdpMessaging.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MovieScene\ActorSequence\Source\ActorSequenceEditor\ActorSequenceEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MovieScene\ActorSequence\Source\ActorSequence\ActorSequence.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MovieScene\CustomizableSequencerTracks\Source\CustomizableSequencerTracksEditor\CustomizableSequencerTracksEditor.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MovieScene\CustomizableSequencerTracks\Source\CustomizableSequencerTracks\CustomizableSequencerTracks.Build.cs
+AddProjectsForAllModules C:\WorkSpace\SideProject\Engine\Plugins\MovieScene\LevelSequenceEditor\Source\LevelSequenceEditor\LevelSequenceEditor.Build.cs

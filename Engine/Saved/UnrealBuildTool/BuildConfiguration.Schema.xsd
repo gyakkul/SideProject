@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema elementFormDefault="qualified" targetNamespace="https://www.unrealengine.com/BuildConfiguration" xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="Configuration">
+		<complexType>
+			<all>
+				<element minOccurs="0" maxOccurs="1" name="BuildConfiguration">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIgnoreOutdatedImportLibraries" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bPrintDebugInfo" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowHybridExecutor" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowHordeCompute" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowXGE" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowFASTBuild" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowSNDBS" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseUBTMakefiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="MaxParallelActions" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="bAllCores" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bCompactOutput" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bDebugBuildsActuallyUseDebugCRT" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bLegalToDistributeBinary" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseVerse" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseInlining" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseDebugLiveCodingConsole" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseXGEController" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseUnityBuild" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bForceUnityBuild" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bMergeModuleAndGeneratedUnityFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseAdaptiveUnityBuild" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAdaptiveUnityDisablesOptimizations" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAdaptiveUnityDisablesPCH" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAdaptiveUnityDisablesProjectPCHForProjectPrivate" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAdaptiveUnityCreatesDedicatedPCH" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAdaptiveUnityEnablesEditAndContinue" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAdaptiveUnityCompilesHeaderFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="MinGameModuleSourceFilesForUnityBuild" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="DefaultWarningLevel">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Default" />
+										<enumeration value="Off" />
+										<enumeration value="Warning" />
+										<enumeration value="Error" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="DeprecationWarningLevel">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Default" />
+										<enumeration value="Off" />
+										<enumeration value="Warning" />
+										<enumeration value="Error" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="bWarningsAsErrors" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="UnsafeTypeCastWarningLevel">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Default" />
+										<enumeration value="Off" />
+										<enumeration value="Warning" />
+										<enumeration value="Error" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="bUndefinedIdentifierErrors" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bRetainFramePointers" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseFastMonoCalls" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="NumIncludedBytesPerUnityCPP" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="bDisableModuleNumIncludedBytesPerUnityCPPOverride" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bStressTestUnity" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bDetailedUnityFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bDisableDebugInfo" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bDisableDebugInfoForGeneratedCode" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bOmitPCDebugInfoInDevelopment" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePDBFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePCHFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bDeterministic" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bForceDeterministic" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bForceIncludePCHHeadersForGenCppFilesWhenPCHIsDisabled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bPreprocessDepends" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="StaticAnalyzer">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="None" />
+										<enumeration value="Default" />
+										<enumeration value="VisualCpp" />
+										<enumeration value="PVSStudio" />
+										<enumeration value="Clang" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="StaticAnalyzerOutputType">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Text" />
+										<enumeration value="Html" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="StaticAnalyzerMode">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Deep" />
+										<enumeration value="Shallow" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="MinFilesUsingPrecompiledHeader" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="bForcePrecompiledHeaderForGameModules" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseIncrementalLinking" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowLTCG" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bPreferThinLTO" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="ThinLTOCacheDirectory" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="ThinLTOCachePruningArguments" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPGOProfile" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bPGOOptimize" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bSupportEditAndContinue" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bOmitFramePointers" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseMallocProfiler" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bShaderCompilerWorkerTrace" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseSharedPCHs" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseShippingPhysXLibraries" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseCheckedPhysXLibraries" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bCheckLicenseViolations" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bBreakBuildOnLicenseViolation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseFastPDBLinking" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bCreateMapFile" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowRuntimeSymbolFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PackagePath" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="CrashDiagnosticDirectory" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bCheckSystemHeadersForModification" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bFlushBuildDirOnRemoteMac" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bPrintToolChainTimingInfo" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bParseTimingInfoForTracing" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bPublicSymbolsByDefault" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="CppStandard">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Cpp14" />
+										<enumeration value="Cpp17" />
+										<enumeration value="Default" />
+										<enumeration value="Cpp20" />
+										<enumeration value="Latest" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="CStandard">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Default" />
+										<enumeration value="C89" />
+										<enumeration value="C99" />
+										<enumeration value="C11" />
+										<enumeration value="C17" />
+										<enumeration value="Latest" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="bStopSNDBSCompilationAfterErrors" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bXGENoWatchdogThread" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bShowXGEMonitor" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bStopXGECompilationAfterErrors" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="BaseLogFileName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bStripSymbols" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bSkipClangValidation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bEnableAddressSanitizer" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bEnableThreadSanitizer" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bEnableUndefinedBehaviorSanitizer" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bEnableMemorySanitizer" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bTuneDebugInfoForLLDB" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseDSYMFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bWriteSolutionOptionFile" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bVsConfigFile" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAddFastPDBToProjects" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePerFileIntellisense" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bEditorDependsOnShaderCompileWorker" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="UEBuildConfiguration">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bForceHeaderGeneration" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bDoNotBuildUHT" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bFailIfGeneratedCodeChanges" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowHotReloadFromIDE" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bForceDebugUnrealHeaderTool" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseBuiltInUnrealHeaderTool" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bWarnOnCppUnrealHeaderTool" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="WindowsPlatform">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="MaxRootPathLength" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="MaxNestedPathLength" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="Compiler">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Default" />
+										<enumeration value="Clang" />
+										<enumeration value="Intel" />
+										<enumeration value="VisualStudio2019" />
+										<enumeration value="VisualStudio2022" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="CompilerVersion" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bAllowClangLinker" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="WindowsSdkVersion" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="StaticAnalyzer">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="None" />
+										<enumeration value="Default" />
+										<enumeration value="VisualCpp" />
+										<enumeration value="PVSStudio" />
+										<enumeration value="Clang" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="StaticAnalyzerOutputType">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Text" />
+										<enumeration value="Html" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="bStrictConformanceMode" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUpdatedCPPMacro" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bStrictInlineConformance" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bStrictPreprocessorConformance" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bStrictEnumTypesConformance" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PCHMemoryAllocationFactor" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="AdditionalLinkerOptions" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bUseFastGenProfile" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bClangTimeTrace" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bCompilerTrace" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bShowIncludes" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="TargetRules">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bDisableInliningGenCpps" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="ModuleConfiguration">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="DisableUnityBuild">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="EnableOptimizeCode">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="DisableOptimizeCode">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="TestTargetRules">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bDisableInliningGenCpps" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="FASTBuild">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="FBuildExecutablePath" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bEnableDistribution" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="FBuildBrokeragePath" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="FBuildCoordinator" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bEnableCaching" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="CacheMode">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="ReadWrite" />
+										<enumeration value="ReadOnly" />
+										<enumeration value="WriteOnly" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="FBuildCachePath" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bForceRemote" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bStopOnError" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="MsvcCRTRedistVersion" type="string" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="HordeExecutor">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="NumRemoteParallelProcesses" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="RemoteProcessOnly" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="RetryFailedRemote" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="ParallelExecutor">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="MaxProcessorCount" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="ProcessorCountMultiplier" type="double" />
+							<element minOccurs="0" maxOccurs="1" name="MemoryPerActionBytes" type="double" />
+							<element minOccurs="0" maxOccurs="1" name="ProcessPriority">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Normal" />
+										<enumeration value="Idle" />
+										<enumeration value="High" />
+										<enumeration value="RealTime" />
+										<enumeration value="BelowNormal" />
+										<enumeration value="AboveNormal" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="bStopCompilationAfterErrors" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bShowCompilationTimes" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bShowPerActionCompilationTimes" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bLogActionCommandLines" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bPrintActionTargetNames" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="SNDBS">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bAllowOverVpn" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="VpnSubnets">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="XGE">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bAllowOverVpn" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="VpnSubnets">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="bAllowRemoteLinking" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUseVCCompilerMode" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="MinActions" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="bUnavailableIfInUse" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="BuildMode">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIgnoreJunk" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="ProjectFileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="DisablePlatformProjectGenerators">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="Format" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bGenerateIntelliSenseData" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bAllDocumentationLanguages" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeBuildSystemFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeLocalizationFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bKeepSourceSubDirectories" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="Platforms">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="Configurations">
+								<complexType>
+									<sequence>
+										<element minOccurs="0" maxOccurs="unbounded" name="Item" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTestAndShippingConfigs" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDebugConfigs" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDevelopmentConfigs" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="IOSToolChain">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="IOSSDKVersion" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="BuildIOSVersion" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bUseDangerouslyFastMode" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="WindowsTargetRules">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="ObjSrcMapFile" type="string" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="CLionGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="CMakefileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="CodeLiteGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="EddieProjectFileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="KDevelopGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="MakefileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="QMakefileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="RiderProjectFileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="VSCodeProjectFileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="IncludeAllFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="AddDebugAttachConfig" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="AddDebugCoreConfig" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="NoCompileCommands" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="VCMacProjectFileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="VCProjectFileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="Version">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Default" />
+										<enumeration value="VisualStudio2019" />
+										<enumeration value="VisualStudio2022" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="MaxSharedIncludePaths" type="int" />
+							<element minOccurs="0" maxOccurs="1" name="ExcludedIncludePaths" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="ExcludedFilePaths" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bBuildUBTInDebug" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bBuildLiveCodingConsole" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="XcodeProjectFileGenerator">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDocumentation" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bUsePrecompiled" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEngineSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeShaderSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeConfigFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTemplateFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeEnginePrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="IncludeCppSource" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeDotNetPrograms" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="bIncludeTempTargets" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="PrimaryProjectName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="bPrimaryProjectNameFromFolder" type="boolean" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="SourceFileWorkingSet">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="Provider">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="None" />
+										<enumeration value="Default" />
+										<enumeration value="Perforce" />
+										<enumeration value="Git" />
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" maxOccurs="1" name="RepositoryPath" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="GitPath" type="string" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="RemoteMac">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="ServerName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="UserName" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="SshPrivateKey" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="RsyncAuthentication" type="string" />
+							<element minOccurs="0" maxOccurs="1" name="SshAuthentication" type="string" />
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="HoloLensPlatform">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="Compiler">
+								<simpleType>
+									<restriction base="string">
+										<enumeration value="Default" />
+										<enumeration value="Clang" />
+										<enumeration value="Intel" />
+										<enumeration value="VisualStudio2019" />
+										<enumeration value="VisualStudio2022" />
+									</restriction>
+								</simpleType>
+							</element>
+						</all>
+					</complexType>
+				</element>
+				<element minOccurs="0" maxOccurs="1" name="Log">
+					<complexType>
+						<all>
+							<element minOccurs="0" maxOccurs="1" name="bBackupLogFiles" type="boolean" />
+							<element minOccurs="0" maxOccurs="1" name="LogFileBackupCount" type="int" />
+						</all>
+					</complexType>
+				</element>
+			</all>
+		</complexType>
+	</element>
+</schema>

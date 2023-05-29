@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    https://docs.microsoft.com/en-us/visualstudio/debugger/just-my-code?view=vs-2019#BKMK_CPP_Customize_call_stack_behavior
+    Copy this file into %USERPROFILE%\My Documents\<Visual Studio version>\Visualizers or %VsInstallDirectory%\Common7\Packages\Debugger\Visualizer
+ -->
+<StepFilter xmlns="http://schemas.microsoft.com/vstudio/debugger/natstepfilter/2010">
+<!--
+    <Function>
+        <Name>Regular expression for the function name, must match from beginning to end of function name</Name>
+        <Module>Regular expression for the module name</Module>
+        <Action>NoStepInto|StepInto</Action>
+    </Function>
+-->
+    <!-- Function that takes TArrayView by value -->
+    <Function>
+        <Name>ArrayViewPrivate::TIsCompatibleRangeType.*</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that constructs an FString from TCHAR* -->
+    <Function>
+        <Name>FGenericPlatformString::ConvertedLength.*</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that constructs an FString from TCHAR* -->
+    <Function>
+        <Name>FGenericPlatformString::Memcpy</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Forward() around argument passed to a function -->
+    <Function>
+        <Name>Forward&lt;.*&gt;</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that constructs an FString from TCHAR* -->
+    <Function>
+        <Name>FString::FString.*</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that takes TArrayView by value -->
+    <Function>
+        <Name>GetNum&lt;TArray&lt;.*&gt;.*&gt;</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- MoveTemp() around argument passed to a function -->
+    <Function>
+        <Name>MoveTemp&lt;.*&gt;</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that constructs an FString from TCHAR* -->
+    <Function>
+        <Name>TArray&lt;.*&gt;::ResizeTo</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that constructs TFunction from a lambda -->
+    <Function>
+        <Name>TFunction&lt;.*&gt;::TFunction.*</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that takes TUniqueFunction from a lambda -->
+    <Function>
+        <Name>TUniqueFunction&lt;.*&gt;::TUniqueFunction.*</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that takes TFunctionRef from a lambda -->
+    <Function>
+        <Name>TFunctionRef&lt;.*&gt;::TFunctionRef.*</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that takes TArrayView by value -->
+    <Function>
+        <Name>TNumericLimits&lt;.*&gt;::Max</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that takes TStringView by value -->
+    <Function>
+        <Name>TStringView&lt;.*&gt;::TStringView.*</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that constructs an FString from TCHAR* -->
+    <Function>
+        <Name>TSizedHeapAllocator&lt;.*&gt;::ForAnyElementType::ForAnyElementType</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+    <!-- Function that constructs an FString from TCHAR* -->
+    <Function>
+        <Name>TSizedHeapAllocator&lt;.*&gt;::ForAnyElementType::GetInitialCapacity</Name>
+        <Action>NoStepInto</Action>
+    </Function>
+</StepFilter>

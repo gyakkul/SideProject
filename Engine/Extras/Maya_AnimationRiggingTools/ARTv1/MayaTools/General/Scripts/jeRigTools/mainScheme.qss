@@ -1,0 +1,619 @@
+QWidget
+{
+    background-color: transparent;
+    color: rgb(202, 207, 210);
+}
+
+
+QWidget#darkGrey
+{
+    background-color: rgb(45,45,45);
+    color: rgb(202, 207, 210);
+}
+
+QWidget#darkImg
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/light_epic_background.png);
+    color: rgb(202, 207, 210);
+}
+
+QTreeView
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/light_epic_background.png);
+    color: rgb(202, 207, 210);
+}
+
+QTreeWidget
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/light_epic_background.png);
+    color: rgb(202, 207, 210);
+}
+
+
+QTableWidget QTableCornerButton::section
+{
+    background: black;
+    border: 2px outset black;
+}
+
+ QTableWidget
+{
+    border:2px groove black;
+    border-radius:3px;
+    selection-color:black;
+}
+
+
+QTableWidget::item
+{
+    padding:5px;
+    outline:0px;
+    background-color: rgb(90,90,90);
+    color: white;
+}
+
+
+QMenuBar
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 rgb(60,60,60), stop:1 rgb(30,30,30));
+    border: solid 2px black;
+    border-width: 2px;
+}
+
+QMenuBar::item
+{
+    spacing: 3px; /* spacing between menu bar items */
+    padding: 1px 4px;
+    border-radius: 4px;
+    font: bold 10px;
+}
+
+
+QMenuBar::item:pressed
+{
+    background: rgb(30,30,30);
+}
+
+QMenu
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(60,60,60), stop:1 rgb(30,30,30));
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+QTabBar::tab
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(60, 60, 60, 255), stop:1 rgba(30, 30, 30, 255));
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+QTabBar::tab:selected
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(120,120,120, 255), stop:1 rgba(60,60,60, 255));
+}
+
+QTabBar::tab:hover
+{
+    background: rgb(180,180,180);
+    color: black;
+}
+
+QTabBar::tab:!selected
+{
+    margin-top: 1px;
+}
+
+
+QToolTip
+{
+    background-color: black;
+    color: white;
+    border: black solid 1px;
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/light_epic_background.png);
+}
+
+
+QProgressBar
+{
+    border: 2px solid rgb(9,62,98);
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background.png);
+    font: bold 14px;
+}
+
+QProgressBar::chunk
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(25,175,255), stop:1 rgb(9,62,98));
+    width: 10px;
+    margin: 0.5px;
+}
+
+QFrame
+{
+	background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/addModule_background.png);
+}
+
+QFrame#dark
+{
+	background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background_dark.png);
+}
+
+QFrame#mid
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/mid_epic_background.png);
+}
+
+
+QFrame#light
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background.png);
+    border: 2px solid rgb(25,175,255);
+}
+
+QFrame#epic
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/light_epic_background.png);
+}
+
+
+
+QScrollArea
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background_dark.png);
+    border: 2px solid rgb(25,175,255);
+}
+
+
+QSplitter
+{
+	background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background_dark.png);
+}
+
+QStackedWidget
+{
+	background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background_dark.png);
+}
+
+QStackedWidget#dark
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background_dark.png);
+}
+
+/* PROPERTIES */
+
+*[grayBackground="true"] {background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(60,60,60), stop:1 rgb(33,34,26));}
+*[blueBackground="true"] {background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(25,175,255), stop:1 rgb(12,63,91)); color: rgb(255,255,255);}
+*[boldFont="true"] {font: bold 12px;}
+
+
+QGroupBox
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/addModule_background.png);
+}
+
+QGroupBox#light
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background.png);
+}
+
+QSlider
+{
+	background-color: transparent;
+	color: black;
+}
+
+QSlider::groove:horizontal
+{
+    height: 6px;
+    background: black;
+}
+
+QSlider::groove:vertical
+{
+    height: 6px;
+    background: black;
+}
+
+
+QSlider::handle:horizontal
+{
+    background: rgb(25,175,255);
+    border: 1px solid black;
+    width: 18px;
+    margin: -4px 0;
+    border-radius: 3px;
+}
+
+QSlider::handle:vertical
+{
+    background: rgb(25,175,255);
+    border: 1px solid black;
+    width: 18px;
+    margin: -4px 0;
+    border-radius: 3px;
+}
+
+
+
+/*                  */
+/* GRAY QPUSHBUTTON */
+/*                  */
+
+QPushButton
+{
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(80,80,80), stop:1 rgb(30,30,30));
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/grey_field_background.png);
+    color: white;
+    border: 2px solid rgb(9,10,12);
+    shadow: rgb(9,10,12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: 12px;
+    border-radius: 5px;
+}
+
+
+QPushButton:hover
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/grey_field_background_hover.png);
+}
+
+
+QPushButton:pressed
+{
+    margin-top: 2px;
+}
+
+
+QPushButton:checked
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/blue_field_background_hover.png);
+    color: white;
+}
+
+
+/*                  */
+/* GREEN QPUSHBUTTON */
+/*                  */
+
+QPushButton#greenButton
+{
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(80,80,80), stop:1 rgb(30,30,30));
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/green_field_background.png);
+    color: white;
+    border: 2px solid rgb(9,10,12);
+    shadow: rgb(9,10,12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: 12px;
+    border-radius: 5px;
+}
+
+
+QPushButton:hover#greenButton
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/green_field_background_hover.png);
+}
+
+
+QPushButton:pressed#greenButton
+{
+    margin-top: 2px;
+}
+
+
+QPushButton:checked#greenButton
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/grey_field_background_hover.png);
+    color: white;
+}
+
+
+
+/*                  */
+/* BLUE QPUSHBUTTON */
+/*                  */
+
+QPushButton#blueButton
+{
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(25,175,255), stop:1 rgb(12,63,91));
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/blue_field_background.png);
+    color: rgb(255,255,255);
+    border-radius: 5px;
+    border: 2px solid rgb(9,10,12);
+    shadow: rgb(9,10,12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: bold 12px;
+}
+
+
+QPushButton:hover#blueButton
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/blue_field_background_hover.png);
+}
+
+
+QPushButton:pressed#blueButton
+{
+    margin-top: 2px;
+}
+
+
+
+
+QPushButton:checked#blueButton
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/blue_field_background_hover.png);
+}
+
+
+
+/*                  		*/
+/* BLUE QPUSHBUTTON SPECIAL */
+/*                  		*/
+
+QPushButton#blueButtonSpecial
+{
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(25,175,255), stop:1 rgb(12,63,91));
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/blue_field_background.png);
+    color: rgb(255,255,255);
+    border-radius: 5px;
+    border: 2px solid rgb(9,10,12);
+    shadow: rgb(9,10,12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: 65 20pt;
+}
+
+
+QPushButton:hover#blueButtonSpecial
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/blue_field_background_hover.png);
+}
+
+
+QPushButton:pressed#blueButtonSpecial
+{
+    margin-top: 2px;
+}
+
+
+
+
+QPushButton:checked#blueButtonSpecial
+{
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/blue_field_background_hover.png);
+}
+
+
+QTextEdit
+{
+	color: white;
+	background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background_dark.png);
+
+}
+
+QTextEdit#light
+{
+    color: white;
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/field_background.png);
+
+}
+
+/*                  */
+/* QCHECKBOX        */
+/*                  */
+
+QCheckBox
+{
+    spacing: 5px;
+    margin-top: 2px;
+    color: rgb(25,175,255);
+    font: bold 12px;
+}
+
+QCheckBox::hover
+{
+    color: rgb(255,255,255);
+}
+
+QCheckBox::indicator:unchecked
+{
+    background-color: rgb(120,120,120);
+}
+
+QCheckBox::indicator:checked
+{
+    image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/checked.png);
+}
+
+
+
+
+
+
+/*                  */
+/* QLISTWIDGET      */
+/*                  */
+
+QListView
+{
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(60,60,60), stop:1 rgb(30,30,30));
+    background-image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/light_epic_background.png);
+    border-radius: 5px;
+    border: 2px solid rgb(9,10,12);
+    shadow: rgb(9,10,12);
+    font: bold 12px;
+}
+
+QListView::item:selected
+{
+    border: 1px solid rgb(30,30,30);
+}
+
+
+QListView::item:selected:active
+{
+    background: rgb(25,175,255);
+    color: rgb(30,30,30);
+}
+
+QListView::item:hover
+{
+    background: rgb(80,80,80);
+    border: 1px solid rgb(30,30,30);
+}
+
+
+
+
+
+
+
+
+/*                  */
+/* QSPINBOX         */
+/*                  */
+
+QSpinBox
+{
+    padding-right: 15px;
+    border: 2px solid rgb(9,10,12);
+    border-radius: 5px;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(80,80,80), stop:1 rgb(60,60,60));
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+
+
+QDoubleSpinBox
+{
+    padding-right: 15px;
+    border: 2px solid rgb(9,10,12);
+    border-radius: 5px;
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(80,80,80), stop:1 rgb(60,60,60));
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+
+
+
+/*                  */
+/* QLINEEDIT        */
+/*                  */
+
+
+QLineEdit
+{
+    border: 2px solid rgb(0,0,0);
+    border-radius: 5px;
+    background-color: rgb(80,80,80);
+    font: bold 12px;
+    selection-background-color: black;
+}
+
+QLineEdit::focus
+{
+    border: 1px solid rgb(25,175,255);
+
+}
+
+
+
+
+
+
+
+/*                  */
+/* QCOMBOBOX        */
+/*                  */
+
+QComboBox
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(80,80,80);
+
+}
+
+
+QComboBox:on
+{
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+
+QComboBox:editable
+{
+    background: rgb(60,60,60);
+}
+
+
+QComboBox QAbstractItemView
+{
+    border: 2px solid black;
+    selection-background-color: rgb(25,175,255);
+    border-width: 2px;
+}
+
+
+QComboBox::down-arrow
+{
+    image: url(C:/Users/jeremy.ernst/Documents/maya/scripts/jeRigTools/icons/downArrow.png);
+}
+
+
+
+
+
+
+
+/*                  */
+/* QRADIOBUTTON     */
+/*                  */
+
+
+QRadioButton
+{
+    spacing: 5px;
+    margin-top: 2px;
+    color: rgb(255,255,255);
+    padding: 2px;
+    border-radius: 10px;
+}
+
+QRadioButton::hover
+{
+    color: rgb(25,175,255);
+}
+
+QRadioButton::indicator
+{
+    background-color: rgb(80,80,80);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+QRadioButton::indicator:checked
+{
+    background-color: rgb(25,175,255);
+
+}
+
+QRadioButton::indicator:unchecked:hover
+{
+    background-color: rgb(120,120,120);
+
+}
+
+

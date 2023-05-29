@@ -1,0 +1,11 @@
+diff -rupN gcc-4.8.5.orig/libgcc/crtstuff.c gcc-4.8.5/libgcc/crtstuff.c
+--- gcc-4.8.5.orig/libgcc/crtstuff.c	2019-09-26 11:25:55.690418090 -0600
++++ gcc-4.8.5/libgcc/crtstuff.c	2019-09-26 11:26:14.658723389 -0600
+@@ -56,6 +56,7 @@ see the files COPYING3 and COPYING.RUNTI
+ #undef rlim_t
+ #undef ssize_t
+ #undef vfork
++#undef caddr_t
+ #include "tconfig.h"
+ #include "tsystem.h"
+ #include "coretypes.h"

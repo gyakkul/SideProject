@@ -1,0 +1,343 @@
+;------------------------------------------------------------------------------
+; Unreal Engine 4 - Android
+; 
+; These visualizers need to be installed in,
+; C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\NVIDIA\Nsight Tegra\3.4\Debuggers\Visualizers
+;------------------------------------------------------------------------------
+
+FName {
+	preview
+	(
+		#if($e.ComparisonIndex >= 2097152 || $e.ComparisonIndex < 0)
+		(
+			"Invalid"
+		)
+		#else
+		(
+			#if((((FNameEntry*)(((FNameEntry***)GFNameTableForDebuggerVisualizers_MT)[$e.ComparisonIndex / 16384][$e.ComparisonIndex % 16384]))->Index & 1) == 1)
+			(
+				#string(
+					expr: ((FNameEntry*)(((FNameEntry***)GFNameTableForDebuggerVisualizers_MT)[$e.ComparisonIndex / 16384][$e.ComparisonIndex % 16384]))->WideName,
+					char: 4
+				)
+			)
+			#else
+			(
+				#string(
+					expr: ((FNameEntry*)(((FNameEntry***)GFNameTableForDebuggerVisualizers_MT)[$e.ComparisonIndex / 16384][$e.ComparisonIndex % 16384]))->AnsiName,
+					char: 1
+				)
+			)
+		)
+	)
+}
+
+FString | FStringOutputDevice {
+	preview
+	(
+		#if ($e.Data.ArrayNum != 0)
+		(
+			#if ($e.Data.ArrayNum > 0)
+			(
+				#if ($e.Data.ArrayMax >= $e.Data.ArrayNum)
+				(
+					#string(
+						expr: $e.Data.AllocatorInstance.Data,
+						char: 4,
+						size: $e.Data.ArrayNum
+					)
+				)
+				#else
+				(
+					"Invalid"
+				)
+			)
+			#else
+			(
+				"Invalid"
+			)
+		)
+		#else
+		(
+			"Empty"
+		)
+	)
+
+	stringview
+	(
+		#string(
+            expr: $e.Data.AllocatorInstance.Data,
+            char: 4,
+            size: $e.Data.ArrayNum
+        )
+	)
+}
+
+FText {
+	preview
+	(
+		*$e.TextData.Object
+	)
+}
+
+TLocalizedTextData<*> {
+	preview
+	(
+		*$e.LocalizedString.Object
+	)
+}
+
+TGeneratedTextData<*> {
+	preview
+	(
+		#if($e.LocalizedString.Object)
+		(
+			*$e.LocalizedString.Object
+		)
+		#else
+		(
+			$e.DisplayString
+		)
+	)
+}
+  
+
+TArray<*,TInlineAllocator<*,*> > | TArray<*,TFixedAllocator<*> > {
+	preview
+	(
+		#if($e.ArrayNum >= 0)
+		(
+			#if($e.ArrayNum == 0)
+			(
+				"Empty"
+			)
+			#else
+			(
+				#if($e.ArrayNum <= $e.ArrayMax)
+				(
+					#("Num=", $e.ArrayNum)
+				)
+				#else
+				(
+					"Invalid"
+				)
+			)
+		)
+		#else
+		(
+			"Invalid"
+		)
+	)
+}
+
+TArray<*,*> {
+	preview
+	(
+		#if($e.ArrayNum >= 0)
+		(
+			#if($e.ArrayNum == 0)
+			(
+				"Empty"
+			)
+			#else
+			(
+				#if($e.ArrayNum <= $e.ArrayMax)
+				(
+					#("Num=", $e.ArrayNum)
+				)
+				#else
+				(
+					"Invalid"
+				)
+			)
+		)
+		#else
+		(
+			"Invalid"
+		)
+	)
+	
+	children
+	(
+		#if($e.ArrayNum >= 0)
+		(
+			#array(
+				expr: (($T0*)$e.AllocatorInstance.Data)[$i],
+				size: $e.ArrayNum
+			)
+		)
+		#else
+		(
+			;#(
+			;	[raw members]: [$c,!]
+			;)
+			#array(expr: 0, size: 0)
+		)
+	)
+}
+
+TBitArray<*> {
+	preview
+	(
+		#($e.NumBits, " / ", $e.MaxBits)
+	)
+	children
+	(
+		#if(($e.NumBits >= 0) && ($e.NumBits <= $e.MaxBits))
+		(
+			#if($e.SecondaryData.Data != 0)
+			(
+				#array
+				(
+					expr: (((unsigned long*)$e.SecondaryData.Data)[$i / 32] >> ($i % 32)),
+					size: $e.NumBits
+				); : (bool)($e & 1)
+			)
+			#else
+			(
+				#array
+				(
+					expr: (((unsigned long*)$e.InlineData)[$i / 32] >> ($i % 32)),
+					size: $e.NumBits
+				); : (bool)($e & 1)
+			)
+		)
+		#else
+		(
+			"Invalid"
+		)
+	)
+}
+
+TSetElement<*> {
+	preview
+	(
+		#($e.Value)
+	)
+}
+
+TPair<*,*> {
+	preview
+	(
+		#("(", $e.Key, ", ", $e.Value, ")")
+	)
+}
+
+TSharedPtr<*,*> {
+	preview
+	(
+		#if($e.Object == 0)
+		(
+			"Null"
+		)
+		#else
+		(
+			#(
+				"Ptr=",
+				(void*)$e.Object,
+				" SharedRefs=",
+				$e.SharedReferenceCount.ReferenceController->SharedReferenceCount,
+				" WeakRefs=",
+				$e.SharedReferenceCount.ReferenceController->WeakReferenceCount,
+				" Object=",
+				*$e.Object
+			)
+		)
+	)
+	
+	children
+	(
+		#if($e.Object != 0)
+		(
+			#(
+				#(
+					#([SharedReferenceCount] : $e.SharedReferenceCount.ReferenceController->SharedReferenceCount),
+					#([WeakReferenceCount] : $e.SharedReferenceCount.ReferenceController->WeakReferenceCount),
+					#([Ptr] : (void*)$e.Object)
+				),
+				*$e.Object
+			)
+		)
+	)
+}
+
+TSharedRef<*,*> {
+	preview
+	(
+		#if($e.Object == 0)
+		(
+			"Invalid"
+		)
+		#else
+		(
+			#(
+				"Ptr=",
+				(void*)$e.Object,
+				" SharedRefs=",
+				$e.SharedReferenceCount.ReferenceController->SharedReferenceCount,
+				" WeakRefs=",
+				$e.SharedReferenceCount.ReferenceController->WeakReferenceCount,
+				" Object=",
+				*$e.Object
+			)
+		)
+	)
+	
+	children
+	(
+		#if($e.Object != 0)
+		(
+			#(
+				#([SharedReferenceCount] : $e.SharedReferenceCount.ReferenceController->SharedReferenceCount),
+				#([WeakReferenceCount] : $e.SharedReferenceCount.ReferenceController->WeakReferenceCount),
+				#([Ptr] : (void*)$e.Object)
+			)
+		)
+	)
+}
+
+FMargin {
+	preview
+	(
+		#("Left=", $e.Left, " Top=", $e.Top, " Right=", $e.Right, " Bottom=", $e.Bottom)
+	)
+}
+
+FLinearColor {
+	preview
+	(
+		#(
+			"R=",
+			$e.R,
+			" G=",
+			$e.G,
+			" B=",
+			$e.B,
+			" A=",
+			$e.A
+		)
+	)
+}
+
+FColor {
+	preview
+	(
+		#(
+			"R=",
+			$e.R,
+			" G=",
+			$e.G,
+			" B=",
+			$e.B,
+			" A=",
+			$e.A
+		)
+	)
+}
+
+UObject {
+	preview
+	(
+		#("Name=", $e.Name)
+	)
+}

@@ -1,0 +1,11 @@
+diff -rupN gcc-linaro-4.8-2015.06.orig/libgcc/crtstuff.c gcc-linaro-4.8-2015.06/libgcc/crtstuff.c
+--- gcc-linaro-4.8-2015.06.orig/libgcc/crtstuff.c	2019-09-26 11:25:55.690418090 -0600
++++ gcc-linaro-4.8-2015.06/libgcc/crtstuff.c	2019-09-26 11:26:14.658723389 -0600
+@@ -56,6 +56,7 @@ see the files COPYING3 and COPYING.RUNTI
+ #undef rlim_t
+ #undef ssize_t
+ #undef vfork
++#undef caddr_t
+ #include "tconfig.h"
+ #include "tsystem.h"
+ #include "coretypes.h"

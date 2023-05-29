@@ -1,0 +1,33 @@
+global proc shelf_UE4velocityGridExporter () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+
+    shelfButton
+        -enableCommandRepeat 1
+        -enable 1
+        -width 35
+        -height 35
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "Export a 3D fluid container as a vector field for use in UE4" 
+        -enableBackground 0
+        -align "center" 
+        -label "StaticGridExport" 
+        -labelOffset 0
+        -font "plainLabelFont" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.2 
+        -image "fga.png" 
+        -image1 "fga.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "// Copyright Epic Games, Inc. All Rights Reserved.\n// Export velocity grid data from a Maya fluid container \n// Description: Writes out velocity grid data in a custom formatted ascii file\n\nglobal proc gridExport(){\n\n    //Check to see if the UI window already exists. If it does, it is deleted\n\tif(`window -exists gridExport`){\n\t\t\n\t\tdeleteUI -window gridExport;\n\t}\n\t//Create new UI Window\n\twindow -t \"gridExport\" -rtf 1 -widthHeight 300 300 gridExport;\n\tcolumnLayout rootLayout;\n\tframeLayout -labelVisible false -marginWidth 5 -marginHeight 5 ;\n\tcolumnLayout verticalSubframe;\n\t\t\t\n\tsetParent ..;\n\ttext -label \"UE4 Vector Field Exporter\";\n\tradioButtonGrp -numberOfRadioButtons 2 -label \"Export Mode\"\n\t    -labelArray2 \"Single Frame\" \"Sequence\"\n\t    -select 1\n\t    -onCommand1 \"intFieldGrp -edit -enable 0 endFrame;\"\n\t    -onCommand2 \"intFieldGrp -edit -enable 1 endFrame;\"\n\tmyRadBtnGrp;\n\tcheckBoxGrp - l \"Cached Fluid?\" -v1 0 isCached;\n\tintFieldGrp -l \"Start Frame\" startFrame;\n\tintFieldGrp -l \"End Frame\"  -enable 0 -v1 3 endFrame;\n\t//intFieldGrp -l \"Increment\" -enable 0 -v1 1 increment;\n\ttextFieldGrp -l \"Path\"  -text \"C:\\\\\" folderPath;\n\ttextFieldGrp -l \"Filename prefix\" -text \"vel\" filename;\t\n\tcolumnLayout  -columnAttach \"both\" 0 -adjustableColumn true exportButton;\n\t    button -l \"export\" -c \"iterateExport\";\n\t\n\tshowWindow gridExport;\n}\n\nglobal proc iterateExport(){\n    \n    int $startFrame = `intFieldGrp -q -v1 startFrame`;\n\tint $endFrame = `intFieldGrp -q -v1 endFrame`;\n\t//int $increment = `intFieldGrp -q -v1 increment`;\n\tstring $dataName[] =  {\"velocity\"};\n    int $n = $startFrame;\n    \n    string $sel[] = `ls -sl`;\n    \n    if (size($sel)>1 || size($sel)<1){\n\t\t\n\t\tprint(\"ERROR: Please select a single fluid container \\n\");\n\t\t\n\t} else {\n\n\t    string $fluidShape[] = `listRelatives -s $sel[0]`;\n\t    string $objectCheck = `objectType $fluidShape[0]`;\n\t   \n\t    if ($objectCheck == \"fluidShape\") {\t       \n            \n            int $doit = `checkBoxGrp -q -v1 isCached`;\n            print $doit;\n             \n             if ($doit == 0 ) {\n                          \n                 int $sceneCurTime = `currentTime -q`;\n                 int $sceneMinTime = `playbackOptions -q -minTime`;\n                 if ($sceneCurTime > $startFrame) {\n                     \n                     currentTime $sceneMinTime;\n                     runupToStart($sceneMinTime, $startFrame);             \n                 \n                 } else {\n                 \n                     if ($sceneCurTime < $startFrame) {\n                         runupToStart($sceneCurTime, $startFrame);\n                     }\n                 }\n            }\n            \n            if (`radioButtonGrp -q -select myRadBtnGrp` == 1) {\n        \t    \n        \t    currentTime $n;\n\t\t        string $folder = `textFieldGrp -q -text folderPath`;\n\t\t        string $filename = `textFieldGrp -q -text filename`;\n\t\t        string $filePath = $folder +\"\\\\\"+ $filename + \".\" + $n + \".fga\";\n\t\t        print (\"Wrote: \" + $filePath + \"\\n\");\t\t        \n     \t\t    dataExport($dataName[0],$filePath, $fluidShape[0]);\n\t\t   \n            } else {\n\n\t\t          for($n = $startFrame; $n < ($endFrame+1); $n++){\n\t\t\t     \n\t\t\t         currentTime $n;\n\t\t\t         string $folder = `textFieldGrp -q -text folderPath`;\n\t\t\t         string $filename = `textFieldGrp -q -text filename`;\n\t\t\t         string $filePath = $folder +\"\\\\\"+ $filename + \".\" + $n + \".fga\";\n\t\t\t         print (\"Wrote: \" + $filePath + \"\\n\");\n\t\t\t         dataExport($dataName[0],$filePath,$fluidShape[0]);\t\n\t\t\t     \n\t\t\t       }\n\t\t     }\n      \n         } else {\n             \n             print(\"ERROR: Please select a fluid container \\n\");\n        \n         }\n    }\n}\n\nglobal proc dataExport(string $dataName, string $filePath, string $myfluidShape){\n\t\t\n\tint $voxCount = 0;\n\t\t\n\t//Grab the Grid resolution\n\tfloat $res[] = `eval(\"getAttr \" + $myfluidShape + \".res\")`;\n\t\n\t//switch back to parent transform\n\tstring $fluidShapeParent[] = `listRelatives -p $myfluidShape`;\n\n\t//Grab the voxel container bounding box\n\tfloat $bb[] = `xform -q -ws -bb $fluidShapeParent[0]`;\n\n    //create and open the output file in write mode\n\tint $fileId=`fopen $filePath \"w\"`;\n\t\n\t//Write voxel res\n\tfprint $fileId (\"\"+$res[0]+\",\");\n\tfprint $fileId (\"\"+$res[1]+\",\");\n\tfprint $fileId (\"\"+$res[2]+\",\");\n\t//Write bounding Box info\n\tfprint $fileId (\"\"+$bb[0]+\",\");\n\tfprint $fileId (\"\"+$bb[1]+\",\");\n\tfprint $fileId (\"\"+$bb[2]+\",\");\n\tfprint $fileId (\"\"+$bb[3]+\",\");\n\tfprint $fileId (\"\"+$bb[4]+\",\");\n\tfprint $fileId (\"\"+$bb[5]+\",\");\n\n    int $x = 0;\n\tint $y = 0;\n\tint $z = 0;\n    vector $myV = 0;\n\t\n\tfor($z = 0; $z < $res[2]; $z++){\n\t   \n\t    for($y = 0; $y < $res[1]; $y++){\n\t        \n\t        for($x = 0; $x < $res[0]; $x++){\n\n\t\t        float $v[] = `getFluidAttr -at $dataName -xi $x -yi $y -zi $z`;\t\t\n\t\t\n\t\t\t    $myV = << $v[0], $v[1], $v[2] >>;\n \n              \tfprint $fileId ($v[0]+\",\"+$v[1]+\",\"+$v[2]+\",\");\n    \n\t        }\n\t    }\n\t}\n\t\n\tfclose $fileId;\n}\n\nglobal proc runupToStart(int $baseframe, int $exportFirstFrame) {\n    int $i;\n    for ($i = $baseframe; $i < $exportFirstFrame; $i++) {\n\t    //print($i+\"...\\n\");\n\t    currentTime $i;\n    }\n}\n\ngridExport();\n\n\n\n\n\n\n" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+    ;
+
+} 
