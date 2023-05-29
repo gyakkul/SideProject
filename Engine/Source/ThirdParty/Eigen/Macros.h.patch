@@ -1,0 +1,13 @@
+929,931c929,932
+< #if EIGEN_GNUC_AT_LEAST(4,2) && !defined(SYCL_DEVICE_ONLY)
+< #define EIGEN_ALWAYS_INLINE __attribute__((always_inline)) inline
+< #else
+---
+> //#if EIGEN_GNUC_AT_LEAST(4,2) && !defined(SYCL_DEVICE_ONLY)
+> //#define EIGEN_ALWAYS_INLINE __attribute__((always_inline)) inline
+> //#else
+> // LOCAL CHANGE: do not use __attribute__((always_inline)) as this gives a warning on the PS4 Debug build
+933c934
+< #endif
+---
+> //#endif
