@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2D77311EF878FB00F1682A /* btAlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D772A1EF878FB00F1682A /* btAlignedAllocator.cpp */; };
+		4C2D77321EF878FB00F1682A /* btConvexHullComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D772B1EF878FB00F1682A /* btConvexHullComputer.cpp */; };
+		4C2D77331EF878FB00F1682A /* VHACD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D772C1EF878FB00F1682A /* VHACD.cpp */; };
+		4C2D77341EF878FB00F1682A /* vhacdICHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D772D1EF878FB00F1682A /* vhacdICHull.cpp */; };
+		4C2D77351EF878FB00F1682A /* vhacdManifoldMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D772E1EF878FB00F1682A /* vhacdManifoldMesh.cpp */; };
+		4C2D77361EF878FB00F1682A /* vhacdMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D772F1EF878FB00F1682A /* vhacdMesh.cpp */; };
+		4C2D77371EF878FB00F1682A /* vhacdVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D77301EF878FB00F1682A /* vhacdVolume.cpp */; };
+		B2910E461F6045A5008C0155 /* FloatMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2910E431F6045A5008C0155 /* FloatMath.cpp */; };
+		B2910E471F6045A5008C0155 /* VHACD-ASYNC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2910E441F6045A5008C0155 /* VHACD-ASYNC.cpp */; };
+		B2910E481F6045A5008C0155 /* vhacdRaycastMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2910E451F6045A5008C0155 /* vhacdRaycastMesh.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C2D77221EF878E800F1682A /* libVHACD_LIBd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVHACD_LIBd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2D772A1EF878FB00F1682A /* btAlignedAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = btAlignedAllocator.cpp; sourceTree = "<group>"; };
+		4C2D772B1EF878FB00F1682A /* btConvexHullComputer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = btConvexHullComputer.cpp; sourceTree = "<group>"; };
+		4C2D772C1EF878FB00F1682A /* VHACD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VHACD.cpp; sourceTree = "<group>"; };
+		4C2D772D1EF878FB00F1682A /* vhacdICHull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vhacdICHull.cpp; sourceTree = "<group>"; };
+		4C2D772E1EF878FB00F1682A /* vhacdManifoldMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vhacdManifoldMesh.cpp; sourceTree = "<group>"; };
+		4C2D772F1EF878FB00F1682A /* vhacdMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vhacdMesh.cpp; sourceTree = "<group>"; };
+		4C2D77301EF878FB00F1682A /* vhacdVolume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vhacdVolume.cpp; sourceTree = "<group>"; };
+		B2910E431F6045A5008C0155 /* FloatMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FloatMath.cpp; sourceTree = "<group>"; };
+		B2910E441F6045A5008C0155 /* VHACD-ASYNC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "VHACD-ASYNC.cpp"; sourceTree = "<group>"; };
+		B2910E451F6045A5008C0155 /* vhacdRaycastMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vhacdRaycastMesh.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2D771F1EF878E800F1682A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2D77191EF878E800F1682A = {
+			isa = PBXGroup;
+			children = (
+				4C2D77291EF878EF00F1682A /* src */,
+				4C2D77231EF878E800F1682A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2D77231EF878E800F1682A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2D77221EF878E800F1682A /* libVHACD_LIBd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2D77291EF878EF00F1682A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B2910E431F6045A5008C0155 /* FloatMath.cpp */,
+				B2910E441F6045A5008C0155 /* VHACD-ASYNC.cpp */,
+				B2910E451F6045A5008C0155 /* vhacdRaycastMesh.cpp */,
+				4C2D772A1EF878FB00F1682A /* btAlignedAllocator.cpp */,
+				4C2D772B1EF878FB00F1682A /* btConvexHullComputer.cpp */,
+				4C2D772C1EF878FB00F1682A /* VHACD.cpp */,
+				4C2D772D1EF878FB00F1682A /* vhacdICHull.cpp */,
+				4C2D772E1EF878FB00F1682A /* vhacdManifoldMesh.cpp */,
+				4C2D772F1EF878FB00F1682A /* vhacdMesh.cpp */,
+				4C2D77301EF878FB00F1682A /* vhacdVolume.cpp */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C2D77201EF878E800F1682A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C2D77211EF878E800F1682A /* VHACD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2D77261EF878E800F1682A /* Build configuration list for PBXNativeTarget "VHACD" */;
+			buildPhases = (
+				4C2D771E1EF878E800F1682A /* Sources */,
+				4C2D771F1EF878E800F1682A /* Frameworks */,
+				4C2D77201EF878E800F1682A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VHACD;
+			productName = VHACD;
+			productReference = 4C2D77221EF878E800F1682A /* libVHACD_LIBd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2D771A1EF878E800F1682A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					4C2D77211EF878E800F1682A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C2D771D1EF878E800F1682A /* Build configuration list for PBXProject "VHACD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C2D77191EF878E800F1682A;
+			productRefGroup = 4C2D77231EF878E800F1682A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2D77211EF878E800F1682A /* VHACD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2D771E1EF878E800F1682A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2D77331EF878FB00F1682A /* VHACD.cpp in Sources */,
+				4C2D77371EF878FB00F1682A /* vhacdVolume.cpp in Sources */,
+				4C2D77361EF878FB00F1682A /* vhacdMesh.cpp in Sources */,
+				B2910E471F6045A5008C0155 /* VHACD-ASYNC.cpp in Sources */,
+				4C2D77321EF878FB00F1682A /* btConvexHullComputer.cpp in Sources */,
+				B2910E481F6045A5008C0155 /* vhacdRaycastMesh.cpp in Sources */,
+				4C2D77311EF878FB00F1682A /* btAlignedAllocator.cpp in Sources */,
+				4C2D77341EF878FB00F1682A /* vhacdICHull.cpp in Sources */,
+				B2910E461F6045A5008C0155 /* FloatMath.cpp in Sources */,
+				4C2D77351EF878FB00F1682A /* vhacdManifoldMesh.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C2D77241EF878E800F1682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C2D77251EF878E800F1682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C2D77271EF878E800F1682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = ../../inc;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)_LIBd";
+			};
+			name = Debug;
+		};
+		4C2D77281EF878E800F1682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = ../../inc;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)_LIB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2D771D1EF878E800F1682A /* Build configuration list for PBXProject "VHACD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2D77241EF878E800F1682A /* Debug */,
+				4C2D77251EF878E800F1682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2D77261EF878E800F1682A /* Build configuration list for PBXNativeTarget "VHACD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2D77271EF878E800F1682A /* Debug */,
+				4C2D77281EF878E800F1682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2D771A1EF878E800F1682A /* Project object */;
+}

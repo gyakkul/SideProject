@@ -1,0 +1,13 @@
+#libtls pkg-config source file
+
+prefix=/mnt/d/UE5/Engine/Source/ThirdParty/vcpkg/LinuxArm64/aarch64-unknown-linux-gnueabi/libressl_aarch64-unknown-linux-gnueabi
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibreSSL-libtls
+Description: Secure communications using the TLS socket protocol.
+Version: 3.4.2
+Libs: -L${libdir} -ltls
+Libs.private:   -lpthread -lrt
+Cflags: -I${includedir}

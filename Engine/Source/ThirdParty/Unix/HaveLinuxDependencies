@@ -1,0 +1,1 @@
+This file must have no extension so that GitDeps considers it a binary dependency - it will only be pulled by the Setup script if Linux is enabled. Plese do not remove this file.

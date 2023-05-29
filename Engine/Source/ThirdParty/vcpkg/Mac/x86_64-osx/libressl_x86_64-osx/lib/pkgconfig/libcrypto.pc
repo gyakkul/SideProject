@@ -1,0 +1,13 @@
+#libcrypto pkg-config source file
+
+prefix=/Volumes/Fvicente_UE5_Main/francisco.vicente_UE5_Main_9805/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/libressl_x86_64-osx
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibreSSL-libcrypto
+Description: LibreSSL cryptography library
+Version: 3.4.2
+Libs: -L${libdir} -lcrypto
+Libs.private:  
+Cflags: -I${includedir}

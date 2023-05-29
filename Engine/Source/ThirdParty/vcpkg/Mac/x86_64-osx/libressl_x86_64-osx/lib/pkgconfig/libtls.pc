@@ -1,0 +1,13 @@
+#libtls pkg-config source file
+
+prefix=/Volumes/Fvicente_UE5_Main/francisco.vicente_UE5_Main_9805/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/libressl_x86_64-osx
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibreSSL-libtls
+Description: Secure communications using the TLS socket protocol.
+Version: 3.4.2
+Libs: -L${libdir} -ltls
+Libs.private:  
+Cflags: -I${includedir}

@@ -1,0 +1,187 @@
+
+@dx.icb = internal addrspace(5) constant [16 x i32] [i32 1065353216, i32 0, i32 0, i32 0, i32 0, i32 1065353216, i32 0, i32 0, i32 0, i32 0, i32 1065353216, i32 0, i32 0, i32 0, i32 0, i32 1065353216]
+
+define void @main() {
+entry:
+  %0 = call i32 @dx.op.loadInput.i32(i32 4, i32 4, i32 0, i8 1, i32 undef)
+  %1 = call i32 @dx.op.loadInput.i32(i32 4, i32 4, i32 0, i8 0, i32 undef)
+  %2 = call float @dx.op.loadInput.f32(i32 4, i32 0, i32 0, i8 0, i32 undef)
+  %3 = call float @dx.op.loadInput.f32(i32 4, i32 0, i32 0, i8 1, i32 undef)
+  %4 = call float @dx.op.loadInput.f32(i32 4, i32 0, i32 0, i8 2, i32 undef)
+  %5 = call float @dx.op.loadInput.f32(i32 4, i32 0, i32 0, i8 3, i32 undef)
+  %6 = mul i32 %1, 4
+  %7 = add i32 %6, 0
+  %8 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %7
+  %9 = load i32, i32 addrspace(5)* %8, align 4
+  %10 = call float @dx.op.bitcastI32toF32(i32 126, i32 %9)
+  %11 = mul i32 %1, 4
+  %12 = add i32 %11, 1
+  %13 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %12
+  %14 = load i32, i32 addrspace(5)* %13, align 4
+  %15 = call float @dx.op.bitcastI32toF32(i32 126, i32 %14)
+  %16 = mul i32 %1, 4
+  %17 = add i32 %16, 2
+  %18 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %17
+  %19 = load i32, i32 addrspace(5)* %18, align 4
+  %20 = call float @dx.op.bitcastI32toF32(i32 126, i32 %19)
+  %21 = mul i32 %1, 4
+  %22 = add i32 %21, 3
+  %23 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %22
+  %24 = load i32, i32 addrspace(5)* %23, align 4
+  %25 = call float @dx.op.bitcastI32toF32(i32 126, i32 %24)
+  %26 = call float @dx.op.dot4.f32(i32 56, float %2, float %3, float %4, float %5, float %10, float %15, float %20, float %25)
+  %27 = call float @dx.op.loadInput.f32(i32 4, i32 1, i32 0, i8 0, i32 undef)
+  %28 = call float @dx.op.loadInput.f32(i32 4, i32 1, i32 0, i8 1, i32 undef)
+  %29 = call float @dx.op.loadInput.f32(i32 4, i32 1, i32 0, i8 2, i32 undef)
+  %30 = call float @dx.op.loadInput.f32(i32 4, i32 1, i32 0, i8 3, i32 undef)
+  %31 = mul i32 %1, 4
+  %32 = add i32 %31, 0
+  %33 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %32
+  %34 = load i32, i32 addrspace(5)* %33, align 4
+  %35 = call float @dx.op.bitcastI32toF32(i32 126, i32 %34)
+  %36 = mul i32 %1, 4
+  %37 = add i32 %36, 1
+  %38 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %37
+  %39 = load i32, i32 addrspace(5)* %38, align 4
+  %40 = call float @dx.op.bitcastI32toF32(i32 126, i32 %39)
+  %41 = mul i32 %1, 4
+  %42 = add i32 %41, 2
+  %43 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %42
+  %44 = load i32, i32 addrspace(5)* %43, align 4
+  %45 = call float @dx.op.bitcastI32toF32(i32 126, i32 %44)
+  %46 = mul i32 %1, 4
+  %47 = add i32 %46, 3
+  %48 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %47
+  %49 = load i32, i32 addrspace(5)* %48, align 4
+  %50 = call float @dx.op.bitcastI32toF32(i32 126, i32 %49)
+  %51 = call float @dx.op.dot4.f32(i32 56, float %27, float %28, float %29, float %30, float %35, float %40, float %45, float %50)
+  %52 = call float @dx.op.loadInput.f32(i32 4, i32 2, i32 0, i8 0, i32 undef)
+  %53 = call float @dx.op.loadInput.f32(i32 4, i32 2, i32 0, i8 1, i32 undef)
+  %54 = call float @dx.op.loadInput.f32(i32 4, i32 2, i32 0, i8 2, i32 undef)
+  %55 = call float @dx.op.loadInput.f32(i32 4, i32 2, i32 0, i8 3, i32 undef)
+  %56 = mul i32 %1, 4
+  %57 = add i32 %56, 0
+  %58 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %57
+  %59 = load i32, i32 addrspace(5)* %58, align 4
+  %60 = call float @dx.op.bitcastI32toF32(i32 126, i32 %59)
+  %61 = mul i32 %1, 4
+  %62 = add i32 %61, 1
+  %63 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %62
+  %64 = load i32, i32 addrspace(5)* %63, align 4
+  %65 = call float @dx.op.bitcastI32toF32(i32 126, i32 %64)
+  %66 = mul i32 %1, 4
+  %67 = add i32 %66, 2
+  %68 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %67
+  %69 = load i32, i32 addrspace(5)* %68, align 4
+  %70 = call float @dx.op.bitcastI32toF32(i32 126, i32 %69)
+  %71 = mul i32 %1, 4
+  %72 = add i32 %71, 3
+  %73 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %72
+  %74 = load i32, i32 addrspace(5)* %73, align 4
+  %75 = call float @dx.op.bitcastI32toF32(i32 126, i32 %74)
+  %76 = call float @dx.op.dot4.f32(i32 56, float %52, float %53, float %54, float %55, float %60, float %65, float %70, float %75)
+  %77 = call float @dx.op.loadInput.f32(i32 4, i32 3, i32 0, i8 0, i32 undef)
+  %78 = call float @dx.op.loadInput.f32(i32 4, i32 3, i32 0, i8 1, i32 undef)
+  %79 = call float @dx.op.loadInput.f32(i32 4, i32 3, i32 0, i8 2, i32 undef)
+  %80 = call float @dx.op.loadInput.f32(i32 4, i32 3, i32 0, i8 3, i32 undef)
+  %81 = mul i32 %1, 4
+  %82 = add i32 %81, 0
+  %83 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %82
+  %84 = load i32, i32 addrspace(5)* %83, align 4
+  %85 = call float @dx.op.bitcastI32toF32(i32 126, i32 %84)
+  %86 = mul i32 %1, 4
+  %87 = add i32 %86, 1
+  %88 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %87
+  %89 = load i32, i32 addrspace(5)* %88, align 4
+  %90 = call float @dx.op.bitcastI32toF32(i32 126, i32 %89)
+  %91 = mul i32 %1, 4
+  %92 = add i32 %91, 2
+  %93 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %92
+  %94 = load i32, i32 addrspace(5)* %93, align 4
+  %95 = call float @dx.op.bitcastI32toF32(i32 126, i32 %94)
+  %96 = mul i32 %1, 4
+  %97 = add i32 %96, 3
+  %98 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %97
+  %99 = load i32, i32 addrspace(5)* %98, align 4
+  %100 = call float @dx.op.bitcastI32toF32(i32 126, i32 %99)
+  %101 = call float @dx.op.dot4.f32(i32 56, float %77, float %78, float %79, float %80, float %85, float %90, float %95, float %100)
+  %102 = mul i32 %0, 4
+  %103 = add i32 %102, 0
+  %104 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %103
+  %105 = load i32, i32 addrspace(5)* %104, align 4
+  %106 = call float @dx.op.bitcastI32toF32(i32 126, i32 %105)
+  %107 = mul i32 %0, 4
+  %108 = add i32 %107, 1
+  %109 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %108
+  %110 = load i32, i32 addrspace(5)* %109, align 4
+  %111 = call float @dx.op.bitcastI32toF32(i32 126, i32 %110)
+  %112 = mul i32 %0, 4
+  %113 = add i32 %112, 2
+  %114 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %113
+  %115 = load i32, i32 addrspace(5)* %114, align 4
+  %116 = call float @dx.op.bitcastI32toF32(i32 126, i32 %115)
+  %117 = mul i32 %0, 4
+  %118 = add i32 %117, 3
+  %119 = getelementptr [16 x i32], [16 x i32] addrspace(5)* @dx.icb, i32 0, i32 %118
+  %120 = load i32, i32 addrspace(5)* %119, align 4
+  %121 = call float @dx.op.bitcastI32toF32(i32 126, i32 %120)
+  %122 = call float @dx.op.dot4.f32(i32 56, float %26, float %51, float %76, float %101, float %106, float %111, float %116, float %121)
+  call void @dx.op.storeOutput.f32(i32 5, i32 0, i32 0, i8 0, float %122)
+  ret void
+}
+
+; Function Attrs: nounwind readnone
+declare i32 @dx.op.loadInput.i32(i32, i32, i32, i8, i32) #0
+
+; Function Attrs: nounwind
+declare void @dx.op.tempRegStore.i32(i32, i32, i32) #1
+
+; Function Attrs: nounwind readnone
+declare float @dx.op.dot4.f32(i32, float, float, float, float, float, float, float, float) #0
+
+; Function Attrs: nounwind readnone
+declare float @dx.op.loadInput.f32(i32, i32, i32, i8, i32) #0
+
+; Function Attrs: nounwind readonly
+declare i32 @dx.op.tempRegLoad.i32(i32, i32) #2
+
+; Function Attrs: nounwind readnone
+declare float @dx.op.bitcastI32toF32(i32, i32) #0
+
+; Function Attrs: nounwind
+declare void @dx.op.tempRegStore.f32(i32, i32, float) #1
+
+; Function Attrs: nounwind readonly
+declare float @dx.op.tempRegLoad.f32(i32, i32) #2
+
+; Function Attrs: nounwind
+declare void @dx.op.storeOutput.f32(i32, i32, i32, i8, float) #1
+
+attributes #0 = { nounwind readnone }
+attributes #1 = { nounwind }
+attributes #2 = { nounwind readonly }
+
+!dx.version = !{!0}
+!dx.valver = !{!0}
+!dx.shaderModel = !{!1}
+!dx.entryPoints = !{!2}
+!llvm.ident = !{!17}
+
+!0 = !{i32 1, i32 0}
+!1 = !{!"ps", i32 6, i32 0}
+!2 = !{void ()* @main, !"main", !3, null, !16}
+!3 = !{!4, !14, null}
+!4 = !{!5, !7, !9, !11, !13}
+!5 = !{i32 0, !"A", i8 9, i8 0, !6, i8 2, i32 1, i8 4, i32 0, i8 0, null}
+!6 = !{i32 0}
+!7 = !{i32 1, !"A", i8 9, i8 0, !8, i8 2, i32 1, i8 4, i32 1, i8 0, null}
+!8 = !{i32 1}
+!9 = !{i32 2, !"A", i8 9, i8 0, !10, i8 2, i32 1, i8 4, i32 2, i8 0, null}
+!10 = !{i32 2}
+!11 = !{i32 3, !"A", i8 9, i8 0, !12, i8 2, i32 1, i8 4, i32 3, i8 0, null}
+!12 = !{i32 3}
+!13 = !{i32 4, !"B", i8 4, i8 0, !6, i8 1, i32 1, i8 4, i32 4, i8 0, null}
+!14 = !{!15}
+!15 = !{i32 0, !"SV_Target", i8 9, i8 16, !6, i8 0, i32 1, i8 1, i32 0, i8 0, null}
+!16 = !{i32 0, i64 256}
+!17 = !{!"dxbc2dxil 1.2"}

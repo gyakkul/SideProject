@@ -1,0 +1,8 @@
+Package: libressl
+Version: 3.4.2
+Depends: vcpkg-cmake:x64-linux, vcpkg-cmake-config:x64-linux
+Architecture: x86_64-unknown-linux-gnu
+Multi-Arch: same
+Abi: 09e56a9219eaf3a85e3eb642a31fa9bb3a460203fb471d9358a936b66b80fef1
+Description: LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes.
+Type: Port

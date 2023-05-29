@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300A8D22221B5DE700142E68 /* spirv.h in Headers */ = {isa = PBXBuildFile; fileRef = 300A8D21221B5DE700142E68 /* spirv.h */; };
+		300A8D25221B5DEE00142E68 /* spirv_reflect.c in Sources */ = {isa = PBXBuildFile; fileRef = 300A8D23221B5DEE00142E68 /* spirv_reflect.c */; };
+		300A8D26221B5DEE00142E68 /* spirv_reflect.h in Headers */ = {isa = PBXBuildFile; fileRef = 300A8D24221B5DEE00142E68 /* spirv_reflect.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300A8D17221B5D2900142E68 /* libSPIRV-Reflectd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSPIRV-Reflectd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300A8D21221B5DE700142E68 /* spirv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spirv.h; sourceTree = "<group>"; };
+		300A8D23221B5DEE00142E68 /* spirv_reflect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spirv_reflect.c; path = "../../SPIRV-Reflect/spirv_reflect.c"; sourceTree = "<group>"; };
+		300A8D24221B5DEE00142E68 /* spirv_reflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spirv_reflect.h; path = "../../SPIRV-Reflect/spirv_reflect.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300A8D15221B5D2900142E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300A8D0E221B5D2900142E68 = {
+			isa = PBXGroup;
+			children = (
+				300A8D23221B5DEE00142E68 /* spirv_reflect.c */,
+				300A8D24221B5DEE00142E68 /* spirv_reflect.h */,
+				300A8D1E221B5DE700142E68 /* include */,
+				300A8D18221B5D2900142E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		300A8D18221B5D2900142E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300A8D17221B5D2900142E68 /* libSPIRV-Reflectd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300A8D1E221B5DE700142E68 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				300A8D1F221B5DE700142E68 /* spirv */,
+			);
+			name = include;
+			path = "../../SPIRV-Reflect/include";
+			sourceTree = "<group>";
+		};
+		300A8D1F221B5DE700142E68 /* spirv */ = {
+			isa = PBXGroup;
+			children = (
+				300A8D20221B5DE700142E68 /* unified1 */,
+			);
+			path = spirv;
+			sourceTree = "<group>";
+		};
+		300A8D20221B5DE700142E68 /* unified1 */ = {
+			isa = PBXGroup;
+			children = (
+				300A8D21221B5DE700142E68 /* spirv.h */,
+			);
+			path = unified1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		300A8D13221B5D2900142E68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300A8D22221B5DE700142E68 /* spirv.h in Headers */,
+				300A8D26221B5DEE00142E68 /* spirv_reflect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		300A8D16221B5D2900142E68 /* SPIRV-Reflect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300A8D1B221B5D2900142E68 /* Build configuration list for PBXNativeTarget "SPIRV-Reflect" */;
+			buildPhases = (
+				300A8D13221B5D2900142E68 /* Headers */,
+				300A8D14221B5D2900142E68 /* Sources */,
+				300A8D15221B5D2900142E68 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPIRV-Reflect";
+			productName = "SPIRV-Reflect";
+			productReference = 300A8D17221B5D2900142E68 /* libSPIRV-Reflectd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300A8D0F221B5D2900142E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					300A8D16221B5D2900142E68 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 300A8D12221B5D2900142E68 /* Build configuration list for PBXProject "SPIRV-Reflect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300A8D0E221B5D2900142E68;
+			productRefGroup = 300A8D18221B5D2900142E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300A8D16221B5D2900142E68 /* SPIRV-Reflect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300A8D14221B5D2900142E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300A8D25221B5DEE00142E68 /* spirv_reflect.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		300A8D19221B5D2900142E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../../lib/Mac";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		300A8D1A221B5D2900142E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/../../lib/Mac";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		300A8D1C221B5D2900142E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "gdwarf-2";
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)d";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		300A8D1D221B5D2900142E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "gdwarf-2-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300A8D12221B5D2900142E68 /* Build configuration list for PBXProject "SPIRV-Reflect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300A8D19221B5D2900142E68 /* Debug */,
+				300A8D1A221B5D2900142E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300A8D1B221B5D2900142E68 /* Build configuration list for PBXNativeTarget "SPIRV-Reflect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300A8D1C221B5D2900142E68 /* Debug */,
+				300A8D1D221B5D2900142E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300A8D0F221B5D2900142E68 /* Project object */;
+}

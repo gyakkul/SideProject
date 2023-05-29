@@ -1,0 +1,8 @@
+Package: libressl
+Version: 3.4.2
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-windows-static-md-v142
+Multi-Arch: same
+Abi: d8cb84493b6a405f6b7d1e480e5c8bc5b704258af1f190d8e63c0f154d8a15fe
+Description: LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes.
+Type: Port

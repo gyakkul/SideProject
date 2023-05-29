@@ -1,0 +1,8 @@
+Package: libressl
+Version: 3.4.2
+Depends: vcpkg-cmake:x64-osx, vcpkg-cmake-config:x64-osx
+Architecture: x86_64-osx
+Multi-Arch: same
+Abi: f33aabd795f90679465701eab2b59de6bd6419d15700bde78b2299e101e3716a
+Description: LibreSSL is a version of the TLS/crypto stack forked from OpenSSL in 2014, with goals of modernizing the codebase, improving security, and applying best practice development processes.
+Type: Port

@@ -1,0 +1,11 @@
+#openssl pkg-config source file
+
+prefix=/mnt/d/UE5/Engine/Source/ThirdParty/vcpkg/Linux/x86_64-unknown-linux-gnu/libressl_x86_64-unknown-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibreSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.4.2
+Requires: libssl libcrypto
