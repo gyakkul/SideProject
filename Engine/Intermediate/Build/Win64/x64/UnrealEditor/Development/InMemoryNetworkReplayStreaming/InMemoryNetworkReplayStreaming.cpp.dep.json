@@ -1,16 +1,16 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\networkreplaystreaming\\inmemorynetworkreplaystreaming\\private\\inmemorynetworkreplaystreaming.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\runtime\\networkreplaystreaming\\inmemorynetworkreplaystreaming\\private\\inmemorynetworkreplaystreaming.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inmemorynetworkreplaystreaming\\definitions.inmemorynetworkreplaystreaming.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\networkreplaystreaming\\inmemorynetworkreplaystreaming\\public\\inmemorynetworkreplaystreaming.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inmemorynetworkreplaystreaming\\definitions.inmemorynetworkreplaystreaming.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\networkreplaystreaming\\inmemorynetworkreplaystreaming\\public\\inmemorynetworkreplaystreaming.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\networkreplaystreaming\\networkreplaystreaming\\public\\networkreplaystreaming.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\net\\core\\public\\net\\core\\connection\\netresultmanager.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

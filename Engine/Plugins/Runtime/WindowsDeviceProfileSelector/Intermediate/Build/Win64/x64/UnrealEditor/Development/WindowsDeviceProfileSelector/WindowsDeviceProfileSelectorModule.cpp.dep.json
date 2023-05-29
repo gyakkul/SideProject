@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\windowsdeviceprofileselector\\source\\windowsdeviceprofileselector\\private\\windowsdeviceprofileselectormodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\windowsdeviceprofileselector\\source\\windowsdeviceprofileselector\\private\\windowsdeviceprofileselectormodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\windowsdeviceprofileselector\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\windowsdeviceprofileselector\\definitions.windowsdeviceprofileselector.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\windowsdeviceprofileselector\\source\\windowsdeviceprofileselector\\private\\windowsdeviceprofileselectormodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\ideviceprofileselectormodule.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\windowsdeviceprofileselector\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\windowsdeviceprofileselector\\definitions.windowsdeviceprofileselector.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\windowsdeviceprofileselector\\source\\windowsdeviceprofileselector\\private\\windowsdeviceprofileselectormodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\public\\ideviceprofileselectormodule.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3238034C-DA47-3E73-9B04-D8D7417B4C5B}</ProjectGuid>
+    <ProjectGuid>{96B51384-BC97-3F0E-82E9-78B681718FA2}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealObjectPtrTool</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

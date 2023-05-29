@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\viewportsnapping\\private\\viewportsnappingmodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\editor\\viewportsnapping\\private\\viewportsnappingmodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\viewportsnapping\\definitions.viewportsnapping.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\viewportsnapping\\public\\viewportsnappingmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\viewportsnapping\\public\\isnappingpolicy.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\viewportsnapping\\definitions.viewportsnapping.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\editor\\viewportsnapping\\public\\viewportsnappingmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\editor\\viewportsnapping\\public\\isnappingpolicy.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

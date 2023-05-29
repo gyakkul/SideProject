@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C532D5BE-851E-300E-AD38-ED531AB62277}</ProjectGuid>
+    <ProjectGuid>{BEFBFBAD-80FD-353A-845D-029A4C277EE8}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealPak</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

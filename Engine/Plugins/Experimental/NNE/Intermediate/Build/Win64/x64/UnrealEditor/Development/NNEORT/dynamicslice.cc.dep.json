@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\contrib_ops\\cpu\\dynamicslice.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\contrib_ops\\cpu\\dynamicslice.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nneort\\pch.nneonnxruntime.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nne\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\nneort\\pch.nneonnxruntime.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\providers\\cpu\\tensor\\slice.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\providers\\cpu\\tensor\\slice_compute_metadata.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\providers\\cpu\\tensor\\slice.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nne\\source\\thirdparty\\onnxruntime\\onnxruntime\\private\\core\\providers\\cpu\\tensor\\slice_compute_metadata.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

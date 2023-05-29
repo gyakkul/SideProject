@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{21A8AB4B-CEB3-3E79-81EE-AA2A1E4592EE}</ProjectGuid>
+    <ProjectGuid>{A960DDA1-D999-3D84-A763-B3B345005494}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>DatasmithSolidworks2021</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

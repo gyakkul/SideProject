@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\wav_reader.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\wav_reader.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\wav_reader.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\hal\\platformcrt.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\wav_reader.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\core\\public\\hal\\platformcrt.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\stdarg.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\math.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt_math_defines.h"

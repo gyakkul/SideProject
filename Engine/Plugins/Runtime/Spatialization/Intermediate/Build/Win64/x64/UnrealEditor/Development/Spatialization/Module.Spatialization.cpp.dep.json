@@ -1,22 +1,22 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spatialization\\module.spatialization.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spatialization\\module.spatialization.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spatialization\\definitions.spatialization.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\unrealeditor\\inc\\spatialization\\uht\\itdspatializationsourcesettings.gen.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\public\\itdspatializationsourcesettings.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\unrealeditor\\inc\\spatialization\\uht\\itdspatializationsourcesettings.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\unrealeditor\\inc\\spatialization\\uht\\spatialization.init.gen.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\private\\itdspatializationsourcesettings.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\private\\itdspatializer.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\public\\itdspatializer.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\delay.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\wavetableosc.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\private\\spatializationmodule.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\public\\spatializationmodule.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spatialization\\definitions.spatialization.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\unrealeditor\\inc\\spatialization\\uht\\itdspatializationsourcesettings.gen.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\public\\itdspatializationsourcesettings.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\unrealeditor\\inc\\spatialization\\uht\\itdspatializationsourcesettings.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\intermediate\\build\\win64\\unrealeditor\\inc\\spatialization\\uht\\spatialization.init.gen.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\private\\itdspatializationsourcesettings.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\private\\itdspatializer.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\public\\itdspatializer.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\delay.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\signalprocessing\\public\\dsp\\wavetableosc.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\private\\spatializationmodule.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\spatialization\\source\\spatialization\\public\\spatializationmodule.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

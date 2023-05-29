@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\customregistry.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\customregistry.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\internal\\core\\framework\\customregistry.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\internal\\core\\framework\\kernel_registry.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\internal\\core\\graph\\schema_registry.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\internal\\core\\framework\\customregistry.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\internal\\core\\framework\\kernel_registry.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\internal\\core\\graph\\schema_registry.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

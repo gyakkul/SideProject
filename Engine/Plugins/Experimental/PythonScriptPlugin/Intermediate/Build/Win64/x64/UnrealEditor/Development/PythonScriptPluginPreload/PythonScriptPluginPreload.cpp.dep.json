@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\pythonscriptplugin\\source\\pythonscriptpluginpreload\\private\\pythonscriptpluginpreload.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\pythonscriptplugin\\source\\pythonscriptpluginpreload\\private\\pythonscriptpluginpreload.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\pythonscriptplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pythonscriptpluginpreload\\definitions.pythonscriptpluginpreload.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\python3\\win64\\include\\patchlevel.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\pythonscriptplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pythonscriptpluginpreload\\definitions.pythonscriptpluginpreload.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\python3\\win64\\include\\patchlevel.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

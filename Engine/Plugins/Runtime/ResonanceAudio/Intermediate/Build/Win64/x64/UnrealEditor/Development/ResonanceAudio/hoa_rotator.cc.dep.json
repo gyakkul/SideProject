@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\hoa_rotator.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\hoa_rotator.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\hoa_rotator.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\utils.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\hoa_rotator.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\utils.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

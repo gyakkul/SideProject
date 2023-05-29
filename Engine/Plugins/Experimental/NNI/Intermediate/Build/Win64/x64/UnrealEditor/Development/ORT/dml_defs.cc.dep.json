@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\graph\\dml_ops\\dml_defs.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\graph\\dml_ops\\dml_defs.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\graph\\dml_ops\\dml_defs.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\graph\\op.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\windows\\core\\providers\\dml\\operatorauthorhelper\\attributes.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\graph\\dml_ops\\dml_defs.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\graph\\op.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\windows\\core\\providers\\dml\\operatorauthorhelper\\attributes.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

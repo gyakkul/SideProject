@@ -1,11 +1,11 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\iris\\source\\iris\\private\\iris\\irismodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\iris\\source\\iris\\private\\iris\\irismodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\iris\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\iris\\definitions.iris.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\iris\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\iris\\definitions.iris.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

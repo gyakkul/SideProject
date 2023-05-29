@@ -1,19 +1,19 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\androidcameraeditor\\module.androidcameraeditor.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\androidcameraeditor\\module.androidcameraeditor.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\androidcameraeditor\\definitions.androidcameraeditor.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\unrealeditor\\inc\\androidcameraeditor\\uht\\androidcameraeditor.init.gen.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\unrealeditor\\inc\\androidcameraeditor\\uht\\androidcameraruntimesettings.gen.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\public\\androidcameraruntimesettings.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\unrealeditor\\inc\\androidcameraeditor\\uht\\androidcameraruntimesettings.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\private\\androidcameramodule.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\public\\androidcameraeditor.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\private\\androidcameraruntimesettings.cpp"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\androidcameraeditor\\definitions.androidcameraeditor.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\unrealeditor\\inc\\androidcameraeditor\\uht\\androidcameraeditor.init.gen.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\unrealeditor\\inc\\androidcameraeditor\\uht\\androidcameraruntimesettings.gen.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\public\\androidcameraruntimesettings.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\intermediate\\build\\win64\\unrealeditor\\inc\\androidcameraeditor\\uht\\androidcameraruntimesettings.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\private\\androidcameramodule.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\public\\androidcameraeditor.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\androidcamera\\source\\androidcameraeditor\\private\\androidcameraruntimesettings.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -1,14 +1,14 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sandboxfile\\private\\iplatformfilesandboxwrapper.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\runtime\\sandboxfile\\private\\iplatformfilesandboxwrapper.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\shadercompileworker\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\shadercompileworker\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\shadercompileworker\\development\\sandboxfile\\definitions.sandboxfile.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\sandboxfile\\public\\iplatformfilesandboxwrapper.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\hal\\platformfilemanager.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\hal\\iplatformfilemodule.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\shadercompileworker\\development\\sandboxfile\\definitions.sandboxfile.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\sandboxfile\\public\\iplatformfilesandboxwrapper.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\core\\public\\hal\\platformfilemanager.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\core\\public\\hal\\iplatformfilemodule.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

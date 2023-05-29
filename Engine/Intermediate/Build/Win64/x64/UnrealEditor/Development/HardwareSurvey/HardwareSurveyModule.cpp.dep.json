@@ -1,18 +1,18 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\hardwaresurvey\\private\\hardwaresurveymodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\runtime\\hardwaresurvey\\private\\hardwaresurveymodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hardwaresurvey\\definitions.hardwaresurvey.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\applicationcore\\public\\genericplatform\\genericplatformsurvey.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\applicationcore\\public\\hal\\platformsurvey.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\applicationcore\\public\\windows\\windowsplatformsurvey.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\hardwaresurvey\\public\\ihardwaresurveymodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hardwaresurvey\\definitions.hardwaresurvey.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\applicationcore\\public\\genericplatform\\genericplatformsurvey.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\applicationcore\\public\\hal\\platformsurvey.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\applicationcore\\public\\windows\\windowsplatformsurvey.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\hardwaresurvey\\public\\ihardwaresurveymodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

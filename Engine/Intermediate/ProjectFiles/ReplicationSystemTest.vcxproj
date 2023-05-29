@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4E6197E4-5681-3E17-A88C-806160107C65}</ProjectGuid>
+    <ProjectGuid>{096AC286-0BEE-39A8-B64E-48EEEE4774AF}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ReplicationSystemTest</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

@@ -12,3 +12,17 @@ C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Autom
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Apple\obj\Development\refint\Apple.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\EpicGames.Perforce.Native.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\EpicGames.Perforce.Native.so
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\EpicGames.Perforce.Native.dylib
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\Apple.Automation.deps.json
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\Apple.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\ref\Apple.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Apple\Apple.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.csproj.AssemblyReference.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.csproj.CoreCompileInputs.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.csproj.CopyComplete
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Apple\obj\Development\refint\Apple.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Apple\obj\Development\Apple.Automation.pdb

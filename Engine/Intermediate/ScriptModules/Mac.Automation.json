@@ -1,24 +1,24 @@
 {
   "Version": 5,
   "ProjectPath": "..\\..\\Source\\Programs\\AutomationTool\\Mac\\Mac.Automation.csproj",
-  "TargetBuildTime": "2023-05-27T17:39:36.3793776+09:00",
+  "TargetBuildTime": "2023-05-29T16:03:04.4906526+09:00",
   "TargetPath": "..\\..\\..\\..\\Binaries\\DotNET\\AutomationTool\\AutomationScripts\\Platforms\\Mac\\Mac.Automation.dll",
   "ProjectReferencesAndTimes": [
     {
       "ProjectPath": "..\\..\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
-      "TargetBuildTime": "2023-05-26T12:57:27.0413356+09:00"
+      "TargetBuildTime": "2023-05-29T14:48:53.5352639+09:00"
     },
     {
       "ProjectPath": "..\\..\\UnrealBuildTool\\UnrealBuildTool.csproj",
-      "TargetBuildTime": "2023-05-26T12:57:35.1802409+09:00"
+      "TargetBuildTime": "2023-05-29T14:49:01.5858825+09:00"
     },
     {
       "ProjectPath": "..\\AutomationUtils\\AutomationUtils.Automation.csproj",
-      "TargetBuildTime": "2023-05-27T17:39:27.5723319+09:00"
+      "TargetBuildTime": "2023-05-29T16:00:29.5806005+09:00"
     },
     {
       "ProjectPath": "..\\Apple\\Apple.Automation.csproj",
-      "TargetBuildTime": "2023-05-27T17:39:34.0029592+09:00"
+      "TargetBuildTime": "2023-05-29T16:00:31.7754818+09:00"
     }
   ],
   "Dependencies": [

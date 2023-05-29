@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E94C3485-E156-36AC-9777-3275BE191EE4}</ProjectGuid>
+    <ProjectGuid>{DC335965-5AF2-30FC-8B4C-E768EAF9081D}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealMultiUserServer</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

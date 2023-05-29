@@ -1,18 +1,18 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\analytics\\filelogging\\source\\filelogging\\private\\filelogging.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\analytics\\filelogging\\source\\filelogging\\private\\filelogging.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\analytics\\filelogging\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\filelogging\\definitions.filelogging.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\analytics\\filelogging\\source\\filelogging\\public\\filelogging.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovidermodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsproviderconfigurationdelegate.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\analytics\\filelogging\\source\\filelogging\\private\\fileloggingprovider.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\analytics\\filelogging\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\filelogging\\definitions.filelogging.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\analytics\\filelogging\\source\\filelogging\\public\\filelogging.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovidermodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsproviderconfigurationdelegate.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\analytics\\filelogging\\source\\filelogging\\private\\fileloggingprovider.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

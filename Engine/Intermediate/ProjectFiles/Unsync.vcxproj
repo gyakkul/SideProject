@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{769C2C66-77E8-3A06-BC90-E26C2DD6407C}</ProjectGuid>
+    <ProjectGuid>{A2807913-3AF5-35A4-B1D1-4B2F3D1854B1}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Unsync</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

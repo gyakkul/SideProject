@@ -1,18 +1,18 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualcameracore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtualcamera\\module.virtualcamera.4_of_4.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\virtualcameracore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtualcamera\\module.virtualcamera.4_of_4.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualcameracore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtualcamera\\definitions.virtualcamera.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualcameracore\\source\\virtualcamera\\private\\virtualcamerausersettings.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualcameracore\\source\\virtualcamera\\public\\virtualcamerausersettings.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerinput.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\gesturerecognizer.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\keystate.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerinput.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\virtualcameracore\\intermediate\\build\\win64\\unrealeditor\\inc\\virtualcamera\\uht\\virtualcamerausersettings.generated.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\virtualcameracore\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtualcamera\\definitions.virtualcamera.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\virtualcameracore\\source\\virtualcamera\\private\\virtualcamerausersettings.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\virtualcameracore\\source\\virtualcamera\\public\\virtualcamerausersettings.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerinput.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\public\\gesturerecognizer.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\public\\keystate.h",
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerinput.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\virtualcameracore\\intermediate\\build\\win64\\unrealeditor\\inc\\virtualcamera\\uht\\virtualcamerausersettings.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

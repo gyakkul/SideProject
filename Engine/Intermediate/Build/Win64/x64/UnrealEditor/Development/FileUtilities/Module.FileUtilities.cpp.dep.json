@@ -1,20 +1,20 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fileutilities\\module.fileutilities.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fileutilities\\module.fileutilities.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fileutilities\\definitions.fileutilities.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\fileutilities\\private\\fileutilities.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\fileutilities\\private\\ziparchivereader.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\fileutilities\\public\\fileutilities\\ziparchivereader.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\libzip\\1.9.2\\include\\libzip\\zip.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\libzip\\1.9.2\\include\\libzip\\zipconf.h",
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fileutilities\\definitions.fileutilities.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\fileutilities\\private\\fileutilities.cpp",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\fileutilities\\private\\ziparchivereader.cpp",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\fileutilities\\public\\fileutilities\\ziparchivereader.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\libzip\\1.9.2\\include\\libzip\\zip.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\libzip\\1.9.2\\include\\libzip\\zipconf.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\inttypes.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\fileutilities\\private\\ziparchiveprivate.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\fileutilities\\private\\ziparchivewriter.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\fileutilities\\public\\fileutilities\\ziparchivewriter.h"
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\fileutilities\\private\\ziparchiveprivate.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\fileutilities\\private\\ziparchivewriter.cpp",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\fileutilities\\public\\fileutilities\\ziparchivewriter.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

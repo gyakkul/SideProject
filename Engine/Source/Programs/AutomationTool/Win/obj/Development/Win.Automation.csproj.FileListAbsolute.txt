@@ -12,3 +12,17 @@ C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Autom
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Win\obj\Development\refint\Win.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\EpicGames.Perforce.Native.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\EpicGames.Perforce.Native.so
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\EpicGames.Perforce.Native.dylib
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\Win.Automation.deps.json
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\Win.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\ref\Win.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Platforms\Windows\Win.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.csproj.AssemblyReference.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.csproj.CoreCompileInputs.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.csproj.CopyComplete
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Win\obj\Development\refint\Win.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Win\obj\Development\Win.Automation.pdb

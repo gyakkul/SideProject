@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\private\\riglogic\\joints\\bpcm\\builders\\avxhalffloat.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\private\\riglogic\\joints\\bpcm\\builders\\avxhalffloat.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\riglogiclibtest\\definitions.riglogiclibtest.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\private\\riglogic\\joints\\bpcm\\builders\\avxhalffloat.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\animation\\riglogic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\riglogiclibtest\\definitions.riglogiclibtest.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\animation\\riglogic\\source\\riglogiclib\\private\\riglogic\\joints\\bpcm\\builders\\avxhalffloat.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

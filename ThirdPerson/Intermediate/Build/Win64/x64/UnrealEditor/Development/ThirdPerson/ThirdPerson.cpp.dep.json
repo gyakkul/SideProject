@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\thirdperson\\source\\thirdperson\\thirdperson.cpp",
+        "Source": "c:\\workspace\\sideproject1\\thirdperson\\source\\thirdperson\\thirdperson.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\thirdperson\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thirdperson\\definitions.thirdperson.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\thirdperson\\source\\thirdperson\\thirdperson.h"
+            "c:\\workspace\\sideproject1\\thirdperson\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thirdperson\\definitions.thirdperson.h",
+            "c:\\workspace\\sideproject1\\thirdperson\\source\\thirdperson\\thirdperson.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

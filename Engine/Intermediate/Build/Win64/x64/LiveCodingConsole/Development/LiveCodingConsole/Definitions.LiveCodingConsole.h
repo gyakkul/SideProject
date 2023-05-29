@@ -45,7 +45,7 @@
 #define WITH_PUSH_MODEL 0
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
-#define UE_LIVE_CODING_ENGINE_DIR "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine"
+#define UE_LIVE_CODING_ENGINE_DIR "C:\\WorkSpace\\SideProject1\\Engine"
 #define WITH_CPP_MODULES 0
 #define WITH_CPP_COROUTINES 0
 #define WITH_PROCESS_PRIORITY_CONTROL 0

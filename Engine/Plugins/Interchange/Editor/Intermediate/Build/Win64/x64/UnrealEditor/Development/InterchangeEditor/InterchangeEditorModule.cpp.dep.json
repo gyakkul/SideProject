@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\interchange\\editor\\source\\interchangeeditor\\private\\interchangeeditormodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\interchange\\editor\\source\\interchangeeditor\\private\\interchangeeditormodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\interchange\\editor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\interchangeeditor\\definitions.interchangeeditor.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\interchange\\editor\\source\\interchangeeditor\\public\\interchangeeditormodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\interchange\\editor\\source\\interchangeeditor\\public\\interchangeeditorlog.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\interchange\\editor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\interchangeeditor\\definitions.interchangeeditor.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\interchange\\editor\\source\\interchangeeditor\\public\\interchangeeditormodule.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\interchange\\editor\\source\\interchangeeditor\\public\\interchangeeditorlog.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

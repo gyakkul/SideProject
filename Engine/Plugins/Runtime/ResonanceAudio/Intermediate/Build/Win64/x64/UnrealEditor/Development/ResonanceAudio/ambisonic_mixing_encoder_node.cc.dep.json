@@ -1,21 +1,21 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\ambisonic_mixing_encoder_node.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\ambisonic_mixing_encoder_node.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\ambisonic_mixing_encoder_node.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\ambisonic_lookup_table.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\base\\spherical_angle.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\gain_mixer.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\gain_processor.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\system_settings.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\api\\resonance_audio_api.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\source_parameters_manager.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\base\\source_parameters.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\base\\object_transform.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\utils.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\ambisonic_mixing_encoder_node.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\ambisonic_lookup_table.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\base\\spherical_angle.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\gain_mixer.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\gain_processor.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\system_settings.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\api\\resonance_audio_api.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\graph\\source_parameters_manager.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\base\\source_parameters.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\base\\object_transform.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\ambisonics\\utils.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

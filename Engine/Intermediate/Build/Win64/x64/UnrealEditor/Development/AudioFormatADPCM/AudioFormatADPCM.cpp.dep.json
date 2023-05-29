@@ -1,16 +1,16 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\audioformatadpcm\\private\\audioformatadpcm.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\developer\\audioformatadpcm\\private\\audioformatadpcm.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audioformatadpcm\\definitions.audioformatadpcm.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\audioformatadpcm\\private\\audioformatadpcm.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformatmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\audiodecompress.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\adpcmaudioinfo.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audioformatadpcm\\definitions.audioformatadpcm.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\audioformatadpcm\\private\\audioformatadpcm.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformatmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\public\\audiodecompress.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\public\\adpcmaudioinfo.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

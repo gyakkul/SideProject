@@ -1,7 +1,7 @@
 {
   "Version": 5,
   "ProjectPath": "..\\..\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
-  "TargetBuildTime": "2023-05-26T12:57:27.0413356+09:00",
+  "TargetBuildTime": "2023-05-29T14:48:53.5352639+09:00",
   "TargetPath": "bin\\Development\\net6.0\\EpicGames.Core.dll",
   "ProjectReferencesAndTimes": [],
   "Dependencies": [
@@ -60,7 +60,7 @@
     "..\\..\\..\\..\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\Microsoft\\Microsoft.NET.Build.Extensions\\Microsoft.NET.Build.Extensions.targets",
     "..\\..\\..\\..\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\Current\\Microsoft.Common.targets\\ImportAfter\\Microsoft.TestPlatform.ImportAfter.targets",
     "..\\..\\..\\..\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\Microsoft.TestPlatform.targets",
-    "..\\..\\..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\build\\Microsoft.Extensions.Logging.Abstractions.targets",
+    "..\\..\\..\\..\\..\\..\\..\\Users\\rkdtl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\build\\Microsoft.Extensions.Logging.Abstractions.targets",
     "..\\..\\..\\..\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\Microsoft.Managed.After.targets",
     "..\\..\\..\\..\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.targets",
     "..\\..\\..\\..\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.Common.targets",

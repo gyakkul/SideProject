@@ -1,20 +1,20 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\ajamedia\\source\\ajamediafactory\\private\\ajamediafactorymodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\media\\ajamedia\\source\\ajamediafactory\\private\\ajamediafactorymodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\ajamedia\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ajamediafactory\\definitions.ajamediafactory.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\media\\public\\imediaplayerfactory.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\media\\public\\imediamodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\settings\\public\\isettingssection.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\ajamedia\\source\\ajamedia\\public\\ajamediasettings.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\ajamedia\\intermediate\\build\\win64\\unrealeditor\\inc\\ajamedia\\uht\\ajamediasettings.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\media\\ajamedia\\source\\ajamedia\\public\\iajamediamodule.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\ajamedia\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ajamediafactory\\definitions.ajamediafactory.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\media\\public\\imediaplayerfactory.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\media\\public\\imediamodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\settings\\public\\isettingssection.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\ajamedia\\source\\ajamedia\\public\\ajamediasettings.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\ajamedia\\intermediate\\build\\win64\\unrealeditor\\inc\\ajamedia\\uht\\ajamediasettings.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\coreuobject\\public\\uobject\\scriptmacros.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\coreuobject\\public\\uobject\\stack.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\media\\ajamedia\\source\\ajamedia\\public\\iajamediamodule.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

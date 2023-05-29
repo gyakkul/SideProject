@@ -1,15 +1,15 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\near_field_processor.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\near_field_processor.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\near_field_processor.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\biquad_filter.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\delay_filter.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\filter_coefficient_generators.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\gain.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\near_field_processor.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\biquad_filter.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\delay_filter.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\filter_coefficient_generators.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\dsp\\gain.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

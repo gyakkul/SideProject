@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CC5A2DF1-CF9C-379D-AA9E-35F2443B1CFE}</ProjectGuid>
+    <ProjectGuid>{52E6CF16-FF4B-39BC-8684-020D86A29AAD}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>DerivedDataTool</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

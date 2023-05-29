@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B79CF45E-7006-33A2-97A3-2155A8F30D0B}</ProjectGuid>
+    <ProjectGuid>{046E39C3-4929-3B96-8CD6-DD37B587C6B8}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>BenchmarkTool</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

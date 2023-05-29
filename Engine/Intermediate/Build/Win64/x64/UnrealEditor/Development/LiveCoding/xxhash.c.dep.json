@@ -1,10 +1,10 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxhash.c",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxhash.c",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxhash.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxhash.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stddef.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\vcruntime.h",
@@ -22,8 +22,8 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\errno.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\vcruntime_string.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\corecrt_wstring.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxh3.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxhash.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxh3.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\windows\\livecoding\\private\\external\\xxhash.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\intrin.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\intrin0.inl.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\setjmp.h",

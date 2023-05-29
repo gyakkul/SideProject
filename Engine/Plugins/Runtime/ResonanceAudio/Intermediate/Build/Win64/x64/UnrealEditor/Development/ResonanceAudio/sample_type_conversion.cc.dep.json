@@ -1,11 +1,11 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\sample_type_conversion.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\sample_type_conversion.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\resonanceaudio\\pch.resonanceaudio.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\sample_type_conversion.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\resonanceaudio\\source\\resonanceaudio\\private\\resonanceaudiolibrary\\resonance_audio\\utils\\sample_type_conversion.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

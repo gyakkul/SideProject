@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{836A3572-ABE5-32BC-BC13-CDC854DD8585}</ProjectGuid>
+    <ProjectGuid>{DD02EE0E-5F46-3786-A4FC-CA92235BE5EB}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealVirtualizationTool</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

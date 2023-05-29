@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F3FE6DDD-8F17-3459-B5F9-757E881BD1A8}</ProjectGuid>
+    <ProjectGuid>{FC179103-9D16-3D3D-91ED-0D1961D4EC91}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>DatasmithArchiCAD</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

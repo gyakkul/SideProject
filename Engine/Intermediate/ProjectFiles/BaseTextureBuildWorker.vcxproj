@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5B949D44-63C5-341A-AFB3-65232CFA8C44}</ProjectGuid>
+    <ProjectGuid>{181A4DA3-DEC5-3338-B6DF-DD70B09BDD34}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>BaseTextureBuildWorker</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

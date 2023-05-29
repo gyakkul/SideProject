@@ -1,12 +1,12 @@
 {
   "Version": 5,
   "ProjectPath": "..\\..\\Source\\Programs\\Shared\\EpicGames.Serialization\\EpicGames.Serialization.csproj",
-  "TargetBuildTime": "2023-05-26T12:57:29.0521806+09:00",
+  "TargetBuildTime": "2023-05-29T14:48:56.50778+09:00",
   "TargetPath": "bin\\Development\\net6.0\\EpicGames.Serialization.dll",
   "ProjectReferencesAndTimes": [
     {
       "ProjectPath": "..\\EpicGames.IoHash\\EpicGames.IoHash.csproj",
-      "TargetBuildTime": "2023-05-26T12:57:28.2805476+09:00"
+      "TargetBuildTime": "2023-05-29T14:48:55.6856373+09:00"
     }
   ],
   "Dependencies": [

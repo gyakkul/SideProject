@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CD92958C-E3BF-3CAC-9D10-26818ABEFEFA}</ProjectGuid>
+    <ProjectGuid>{CDE86BCE-D485-3DF6-90B8-74DABD780631}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>TextureShareSDK</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

@@ -1,19 +1,19 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\inputdebugging\\source\\inputdebuggingeditor\\private\\inputdebuggingeditormodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\inputdebugging\\source\\inputdebuggingeditor\\private\\inputdebuggingeditormodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slate\\sharedpch.slate.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slate\\sharedpch.slate.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\inputdebugging\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inputdebuggingeditor\\definitions.inputdebuggingeditor.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\runtime\\inputdebugging\\source\\inputdebuggingeditor\\public\\inputdebuggingeditormodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slate\\public\\framework\\notifications\\notificationmanager.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\coreasynctasknotificationimpl.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\asynctasknotification.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slate\\public\\widgets\\notifications\\snotificationlist.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\mainframe\\public\\interfaces\\imainframemodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestylemacros.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyleregistry.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\inputdebugging\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inputdebuggingeditor\\definitions.inputdebuggingeditor.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\runtime\\inputdebugging\\source\\inputdebuggingeditor\\public\\inputdebuggingeditormodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\slate\\public\\framework\\notifications\\notificationmanager.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\core\\public\\misc\\coreasynctasknotificationimpl.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\core\\public\\misc\\asynctasknotification.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\slate\\public\\widgets\\notifications\\snotificationlist.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\editor\\mainframe\\public\\interfaces\\imainframemodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestylemacros.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\slatecore\\public\\styling\\slatestyleregistry.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

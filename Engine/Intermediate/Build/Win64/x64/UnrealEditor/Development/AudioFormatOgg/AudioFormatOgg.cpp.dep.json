@@ -1,21 +1,21 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\audioformatogg\\private\\audioformatogg.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\developer\\audioformatogg\\private\\audioformatogg.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audioformatogg\\definitions.audioformatogg.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\audioformatogg\\private\\audioformatogg.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformatmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\vorbisaudioinfo.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\public\\audiodecompress.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\vorbis\\libvorbis-1.3.2\\include\\vorbis\\vorbisenc.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\vorbis\\libvorbis-1.3.2\\include\\vorbis\\codec.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\ogg\\libogg-1.2.2\\include\\ogg\\ogg.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\ogg\\libogg-1.2.2\\include\\ogg\\os_types.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\thirdparty\\vorbis\\libvorbis-1.3.2\\include\\vorbis\\vorbisfile.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audioformatogg\\definitions.audioformatogg.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\audioformatogg\\private\\audioformatogg.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformatmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\public\\vorbisaudioinfo.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\public\\audiodecompress.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\vorbis\\libvorbis-1.3.2\\include\\vorbis\\vorbisenc.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\vorbis\\libvorbis-1.3.2\\include\\vorbis\\codec.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\ogg\\libogg-1.2.2\\include\\ogg\\ogg.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\ogg\\libogg-1.2.2\\include\\ogg\\os_types.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\thirdparty\\vorbis\\libvorbis-1.3.2\\include\\vorbis\\vorbisfile.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

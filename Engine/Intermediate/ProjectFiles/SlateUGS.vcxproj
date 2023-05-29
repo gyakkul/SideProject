@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5ECD4D6F-7E77-3DE1-A865-45C21DCFB461}</ProjectGuid>
+    <ProjectGuid>{C14BE1BC-D63A-3698-BBFF-10B75F644AEB}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>SlateUGS</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

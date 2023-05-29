@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {}
+    "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+    "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
         "projectName": "EpicGames.Core",
-        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
+        "projectPath": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj",
         "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\obj\\",
+        "outputPath": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,18 +84,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\WorkSpace\\SideProject1\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {
+    "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
         "projectName": "EpicGames.Jupiter",
-        "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
+        "projectPath": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\EpicGames.Jupiter.csproj",
         "packagesPath": "C:\\Users\\rkdtl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\obj\\",
+        "outputPath": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Jupiter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,8 +116,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
-                "projectPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
+              "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj": {
+                "projectPath": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Programs\\Shared\\EpicGames.Core\\EpicGames.Core.csproj"
               }
             }
           }
@@ -152,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\rkdtl\\Desktop\\Programing\\SPWorkSpace\\SPDev\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\WorkSpace\\SideProject1\\Engine\\Binaries\\ThirdParty\\DotNet\\6.0.302\\windows\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

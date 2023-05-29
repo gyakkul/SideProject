@@ -1,13 +1,13 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\movieplayerproxy\\private\\movieplayerproxy.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\runtime\\movieplayerproxy\\private\\movieplayerproxy.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\movieplayerproxy\\definitions.movieplayerproxy.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\movieplayerproxy\\public\\movieplayerproxy.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\movieplayerproxy\\public\\movieplayerproxyserver.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\movieplayerproxy\\definitions.movieplayerproxy.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\movieplayerproxy\\public\\movieplayerproxy.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\movieplayerproxy\\public\\movieplayerproxyserver.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{81A21006-DF5C-31DD-ACF0-54242FB09F8E}</ProjectGuid>
+    <ProjectGuid>{52A6A2FF-0B90-3DD6-9A29-6F6DB5C6ACA1}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ChaosUserDataPTTests</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

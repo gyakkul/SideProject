@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B6F59090-AAB6-3FB1-8059-09538BAF3FBE}</ProjectGuid>
+    <ProjectGuid>{8C7D9CDE-6B75-39EE-9EE9-49901D310D52}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ChaosVisualDebugger</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

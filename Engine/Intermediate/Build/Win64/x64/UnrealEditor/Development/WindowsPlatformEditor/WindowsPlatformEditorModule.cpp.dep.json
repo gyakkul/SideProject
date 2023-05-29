@@ -1,14 +1,14 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\windows\\windowsplatformeditor\\private\\windowsplatformeditormodule.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\developer\\windows\\windowsplatformeditor\\private\\windowsplatformeditormodule.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\windowsplatformeditor\\definitions.windowsplatformeditor.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\windows\\windowstargetplatform\\classes\\windowstargetsettings.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\windowstargetplatform\\uht\\windowstargetsettings.generated.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\windowsplatformeditor\\definitions.windowsplatformeditor.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\windows\\windowstargetplatform\\classes\\windowstargetsettings.h",
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\windowstargetplatform\\uht\\windowstargetsettings.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

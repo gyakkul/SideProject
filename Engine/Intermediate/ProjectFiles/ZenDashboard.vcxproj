@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E71C9E67-E5F1-3313-96B7-8687F057E210}</ProjectGuid>
+    <ProjectGuid>{8939300D-964A-31FD-88A8-20F3B82D91AF}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ZenDashboard</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

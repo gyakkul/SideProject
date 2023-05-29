@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8C28063B-CCA2-3745-ACC2-8A97D7C4D96B}</ProjectGuid>
+    <ProjectGuid>{D3F52B92-02D5-3327-BC9A-19052EA6704A}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>DatasmithNavisworks2019</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

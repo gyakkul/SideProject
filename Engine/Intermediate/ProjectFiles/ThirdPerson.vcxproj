@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A7128173-40EF-3FCC-96A5-9D686F53B530}</ProjectGuid>
+    <ProjectGuid>{AD116A24-8135-36D3-B5F1-C7B56EDB7874}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ThirdPerson</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -300,8 +300,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -370,8 +370,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -440,8 +440,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -492,8 +492,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -544,8 +544,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\WorkSpace\SideProject1\ThirdPerson\Binaries\HoloLens\ThirdPerson.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />

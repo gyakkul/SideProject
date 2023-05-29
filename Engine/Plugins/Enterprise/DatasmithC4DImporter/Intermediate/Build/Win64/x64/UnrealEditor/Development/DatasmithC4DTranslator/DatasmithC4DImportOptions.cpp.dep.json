@@ -1,20 +1,20 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\private\\datasmithc4dimportoptions.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\private\\datasmithc4dimportoptions.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\datasmithc4dtranslator\\definitions.datasmithc4dtranslator.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\private\\datasmithc4dimportoptions.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcontent\\source\\datasmithcontent\\public\\datasmithimportoptions.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcontent\\intermediate\\build\\win64\\unrealeditor\\inc\\datasmithcontent\\uht\\datasmithimportoptions.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcontent\\source\\datasmithcontent\\public\\datasmithassetimportdata.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\engine\\classes\\editorframework\\assetimportdata.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetimportdata.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithcontent\\intermediate\\build\\win64\\unrealeditor\\inc\\datasmithcontent\\uht\\datasmithassetimportdata.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\intermediate\\build\\win64\\unrealeditor\\inc\\datasmithc4dtranslator\\uht\\datasmithc4dimportoptions.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\public\\datasmithc4dtranslatormodule.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithc4dimporter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\datasmithc4dtranslator\\definitions.datasmithc4dtranslator.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\private\\datasmithc4dimportoptions.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithcontent\\source\\datasmithcontent\\public\\datasmithimportoptions.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithcontent\\intermediate\\build\\win64\\unrealeditor\\inc\\datasmithcontent\\uht\\datasmithimportoptions.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithcontent\\source\\datasmithcontent\\public\\datasmithassetimportdata.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\engine\\classes\\editorframework\\assetimportdata.h",
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\assetimportdata.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithcontent\\intermediate\\build\\win64\\unrealeditor\\inc\\datasmithcontent\\uht\\datasmithassetimportdata.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithc4dimporter\\intermediate\\build\\win64\\unrealeditor\\inc\\datasmithc4dtranslator\\uht\\datasmithc4dimportoptions.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\enterprise\\datasmithc4dimporter\\source\\datasmithc4dtranslator\\public\\datasmithc4dtranslatormodule.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

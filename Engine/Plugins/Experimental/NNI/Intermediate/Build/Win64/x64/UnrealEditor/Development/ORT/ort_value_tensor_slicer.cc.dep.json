@@ -1,11 +1,11 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\ort_value_tensor_slicer.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\ort_value_tensor_slicer.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\ort_value_tensor_slicer.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\ort_value_tensor_slicer.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\cassert",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\assert.h"
         ],

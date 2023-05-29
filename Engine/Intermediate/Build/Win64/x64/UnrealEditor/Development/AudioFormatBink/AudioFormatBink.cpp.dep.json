@@ -1,15 +1,15 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\audioformatbink\\private\\audioformatbink.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\source\\developer\\audioformatbink\\private\\audioformatbink.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audioformatbink\\definitions.audioformatbink.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformatmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\binkaudiodecoder\\sdk\\binkaudio\\include\\binka_ue_file_header.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\binkaudiodecoder\\sdk\\binkaudio\\include\\binka_ue_encode.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\audioformatbink\\definitions.audioformatbink.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformat.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\targetplatform\\public\\interfaces\\iaudioformatmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\binkaudiodecoder\\sdk\\binkaudio\\include\\binka_ue_file_header.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\binkaudiodecoder\\sdk\\binkaudio\\include\\binka_ue_encode.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

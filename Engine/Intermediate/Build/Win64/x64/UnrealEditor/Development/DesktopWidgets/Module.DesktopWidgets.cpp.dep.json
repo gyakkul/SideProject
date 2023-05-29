@@ -1,19 +1,19 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\desktopwidgets\\module.desktopwidgets.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\desktopwidgets\\module.desktopwidgets.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slate\\sharedpch.slate.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\slate\\sharedpch.slate.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\desktopwidgets\\definitions.desktopwidgets.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\desktopwidgets\\private\\desktopwidgetsmodule.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\desktopwidgets\\private\\widgets\\input\\sdirectorypicker.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\desktopwidgets\\public\\widgets\\input\\sdirectorypicker.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\desktopplatform\\public\\desktopplatformmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\desktopplatform\\public\\idesktopplatform.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\runtime\\core\\public\\misc\\compilationresult.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\desktopwidgets\\private\\widgets\\input\\sfilepathpicker.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\desktopwidgets\\public\\widgets\\input\\sfilepathpicker.h"
+            "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\desktopwidgets\\definitions.desktopwidgets.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\desktopwidgets\\private\\desktopwidgetsmodule.cpp",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\desktopwidgets\\private\\widgets\\input\\sdirectorypicker.cpp",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\desktopwidgets\\public\\widgets\\input\\sdirectorypicker.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\desktopplatform\\public\\desktopplatformmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\desktopplatform\\public\\idesktopplatform.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\runtime\\core\\public\\misc\\compilationresult.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\desktopwidgets\\private\\widgets\\input\\sfilepathpicker.cpp",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\desktopwidgets\\public\\widgets\\input\\sfilepathpicker.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

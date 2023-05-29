@@ -12,3 +12,17 @@ C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Autom
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\refint\AutomationScripts.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\EpicGames.Perforce.Native.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\EpicGames.Perforce.Native.so
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\EpicGames.Perforce.Native.dylib
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\AutomationScripts.Automation.deps.json
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\AutomationScripts.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\ref\AutomationScripts.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Scripts\AutomationScripts.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.csproj.AssemblyReference.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.csproj.CoreCompileInputs.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.csproj.CopyComplete
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\refint\AutomationScripts.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Scripts\obj\Development\AutomationScripts.Automation.pdb

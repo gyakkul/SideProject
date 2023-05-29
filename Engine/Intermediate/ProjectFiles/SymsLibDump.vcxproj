@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7A966948-16A5-3222-BCFD-D18876228130}</ProjectGuid>
+    <ProjectGuid>{2F16ADAD-B755-334F-924A-B8DA930A0511}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>SymsLibDump</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

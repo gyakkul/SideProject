@@ -1,20 +1,20 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\liveupdateforslate\\module.liveupdateforslate.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\liveupdateforslate\\module.liveupdateforslate.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\liveupdateforslate\\definitions.liveupdateforslate.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\unrealeditor\\inc\\liveupdateforslate\\uht\\liveupdateforslate.init.gen.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\unrealeditor\\inc\\liveupdateforslate\\uht\\liveupdateslatesettings.gen.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\source\\liveupdateforslate\\public\\liveupdateslatesettings.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\unrealeditor\\inc\\liveupdateforslate\\uht\\liveupdateslatesettings.generated.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\source\\liveupdateforslate\\private\\liveupdateforslate.cpp",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\editor\\liveupdateforslate\\source\\liveupdateforslate\\public\\liveupdateforslate.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\editor\\mainframe\\public\\interfaces\\imainframemodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\source\\developer\\windows\\livecoding\\public\\ilivecodingmodule.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\liveupdateforslate\\definitions.liveupdateforslate.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\unrealeditor\\inc\\liveupdateforslate\\uht\\liveupdateforslate.init.gen.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\unrealeditor\\inc\\liveupdateforslate\\uht\\liveupdateslatesettings.gen.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\source\\liveupdateforslate\\public\\liveupdateslatesettings.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\intermediate\\build\\win64\\unrealeditor\\inc\\liveupdateforslate\\uht\\liveupdateslatesettings.generated.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\source\\liveupdateforslate\\private\\liveupdateforslate.cpp",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\editor\\liveupdateforslate\\source\\liveupdateforslate\\public\\liveupdateforslate.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\editor\\mainframe\\public\\interfaces\\imainframemodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\settings\\public\\isettingsmodule.h",
+            "c:\\workspace\\sideproject1\\engine\\source\\developer\\windows\\livecoding\\public\\ilivecodingmodule.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

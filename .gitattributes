@@ -1,12 +1,110 @@
 #
 # This file contains rules that control how Git handles binary and text files, including line endings
 #
- 
-
 # Make sure Windows batch files preserve CR/LF line endings, otherwise they may not be able to execute.  Windows
 # batch files require a CR/LF for labels to work properly, otherwise they may fail when labels straddle 512-byte
 # block boundaries.  This is important when files are downloaded through a zip archive that was authored on a
 # Linux machine (the default behavior on GitHub)
-
 *.bat eol=crlf
 *.sh eol=lf
+UnrealEditor-ControlRigEditor.pdb filter=lfs diff=lfs merge=lfs -text
+libA3DLIBS.so filter=lfs diff=lfs merge=lfs -text
+torch_cpu.dll filter=lfs diff=lfs merge=lfs -text
+EpicOnlineServicesInstaller.exe filter=lfs diff=lfs merge=lfs -text
+PCH.CoreUObject.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Core.RTTI.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-CustomizableObjectEditor.pdb filter=lfs diff=lfs merge=lfs -text
+torch_cuda_cu.dll filter=lfs diff=lfs merge=lfs -text
+proj.lib filter=lfs diff=lfs merge=lfs -text
+libharfbuzz.a filter=lfs diff=lfs merge=lfs -text
+ispc filter=lfs diff=lfs merge=lfs -text
+Vcam_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+libdxcompiler.so filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Engine.RTTI.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-ControlRig.pdb filter=lfs diff=lfs merge=lfs -text
+cufft64_10.dll filter=lfs diff=lfs merge=lfs -text
+libAlembic_d.a filter=lfs diff=lfs merge=lfs -text
+PCH.Core.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Persona.pdb filter=lfs diff=lfs merge=lfs -text
+PCH.NNEOnnxruntime.h.pch filter=lfs diff=lfs merge=lfs -text
+libtorch_cuda_cpp.so filter=lfs diff=lfs merge=lfs -text
+libdxcompiler.dylib filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Engine.pdb filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Core.ShadowErrors.TypeCastWarnings.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Engine.ShadowErrors.TypeCastErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+libtorch_cpu.dylib filter=lfs diff=lfs merge=lfs -text
+cudnn_ops_infer64_8.dll filter=lfs diff=lfs merge=lfs -text
+libcef_dll_wrapper.a filter=lfs diff=lfs merge=lfs -text
+libfbxsdk-mt.lib filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Kismet.pdb filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Sequencer.pdb filter=lfs diff=lfs merge=lfs -text
+LiveComp_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+libfbxsdk.a filter=lfs diff=lfs merge=lfs -text
+libfbxsdk-md.lib filter=lfs diff=lfs merge=lfs -text
+libicui18nd.a filter=lfs diff=lfs merge=lfs -text
+libprotobuf.a filter=lfs diff=lfs merge=lfs -text
+Chromium[[:space:]]Embedded[[:space:]]Framework filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-UnrealEd.pdb filter=lfs diff=lfs merge=lfs -text
+cusolverMg64_11.dll filter=lfs diff=lfs merge=lfs -text
+mkldnn.lib filter=lfs diff=lfs merge=lfs -text
+libicu.a filter=lfs diff=lfs merge=lfs -text
+libMaterialXGenGlsl_d.a filter=lfs diff=lfs merge=lfs -text
+Interior_Lightmass_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+cublasLt64_11.dll filter=lfs diff=lfs merge=lfs -text
+cudnn_adv_infer64_8.dll filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Slate.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Engine.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Engine.ShadowErrors.TypeCastWarnings.h.pch filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-ONNXRuntime.pdb filter=lfs diff=lfs merge=lfs -text
+cusolver64_11.dll filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Core.pdb filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Core.Exceptions.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+libtorch_cpu.so filter=lfs diff=lfs merge=lfs -text
+libtorch_cuda_cu.so filter=lfs diff=lfs merge=lfs -text
+cublas64_11.dll filter=lfs diff=lfs merge=lfs -text
+libproj.a filter=lfs diff=lfs merge=lfs -text
+SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-NNEOnnxruntime.pdb filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Core.ShadowErrors.TypeCastErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.CoreUObject.ShadowErrors.TypeCastWarnings.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.UnrealEd.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+Electron[[:space:]]Framework filter=lfs diff=lfs merge=lfs -text
+PCH.ONNXRuntime.h.pch filter=lfs diff=lfs merge=lfs -text
+libprotoc.a filter=lfs diff=lfs merge=lfs -text
+CppAPI-HTML.tgz filter=lfs diff=lfs merge=lfs -text
+EpicGamesLauncherInstaller.msi filter=lfs diff=lfs merge=lfs -text
+Main_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Chaos.pdb filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-MovieSceneTracks.pdb filter=lfs diff=lfs merge=lfs -text
+libMaterialXGenShader_d.a filter=lfs diff=lfs merge=lfs -text
+libembree.so.2 filter=lfs diff=lfs merge=lfs -text
+libembree3.so.3 filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Renderer.pdb filter=lfs diff=lfs merge=lfs -text
+SharedPCH.CoreUObject.ShadowErrors.TypeCastErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+UnrealSync.dsym filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-MovieSceneTools.pdb filter=lfs diff=lfs merge=lfs -text
+cusparse64_11.dll filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-NiagaraEditor.pdb filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-MetasoundStandardNodes.pdb filter=lfs diff=lfs merge=lfs -text
+SharedPCH.UnrealEd.ShadowErrors.TypeCastErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+cudnn_cnn_infer64_8.dll filter=lfs diff=lfs merge=lfs -text
+SharedPCH.CoreUObject.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+onnxruntime_providers_cuda.dll filter=lfs diff=lfs merge=lfs -text
+PCH.ResonanceAudio.h.pch filter=lfs diff=lfs merge=lfs -text
+VR-Scouting_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+libcef.so filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-DetailCustomizations.pdb filter=lfs diff=lfs merge=lfs -text
+dnnl.lib filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-Niagara.pdb filter=lfs diff=lfs merge=lfs -text
+libmtlppd.a filter=lfs diff=lfs merge=lfs -text
+UnrealVersionSelector-Linux-Shipping.debug filter=lfs diff=lfs merge=lfs -text
+UnrealEditor-TraceInsights.pdb filter=lfs diff=lfs merge=lfs -text
+PCH.Engine.h.pch filter=lfs diff=lfs merge=lfs -text
+PCH.UnrealEd.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.UnrealEd.RTTI.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
+SharedPCH.UnrealEd.ShadowErrors.TypeCastWarnings.h.pch filter=lfs diff=lfs merge=lfs -text
+Module.MetasoundFrontend.cpp.obj filter=lfs diff=lfs merge=lfs -text
+libicud.a filter=lfs diff=lfs merge=lfs -text
+libcef.dll filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Core.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text

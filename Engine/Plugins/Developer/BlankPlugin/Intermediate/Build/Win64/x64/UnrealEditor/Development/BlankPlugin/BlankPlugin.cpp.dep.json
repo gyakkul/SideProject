@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\blankplugin\\source\\blankplugin\\private\\blankplugin.cpp",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\developer\\blankplugin\\source\\blankplugin\\private\\blankplugin.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\core\\sharedpch.core.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\blankplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blankplugin\\definitions.blankplugin.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\developer\\blankplugin\\source\\blankplugin\\public\\iblankplugin.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\developer\\blankplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blankplugin\\definitions.blankplugin.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\developer\\blankplugin\\source\\blankplugin\\public\\iblankplugin.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

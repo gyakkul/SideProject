@@ -12,3 +12,17 @@ C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Autom
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Localization\obj\Development\refint\Localization.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\EpicGames.Perforce.Native.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\EpicGames.Perforce.Native.so
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\EpicGames.Perforce.Native.dylib
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\Localization.Automation.deps.json
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\Localization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\ref\Localization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\Localization\Localization.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.csproj.AssemblyReference.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.csproj.CoreCompileInputs.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.csproj.CopyComplete
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Localization\obj\Development\refint\Localization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\Localization\obj\Development\Localization.Automation.pdb

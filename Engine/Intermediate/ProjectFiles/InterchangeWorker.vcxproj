@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E4A11924-9AF2-3C8B-970C-667023F81965}</ProjectGuid>
+    <ProjectGuid>{C42FA23A-2694-3CC3-98A7-CE65FFD52D98}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>InterchangeWorker</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

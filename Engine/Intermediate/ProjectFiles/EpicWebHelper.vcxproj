@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3EBC04BB-FF1C-32A3-A013-31B38A2EB718}</ProjectGuid>
+    <ProjectGuid>{D1F4154C-0CF8-3484-858B-78D2631E1779}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>EpicWebHelper</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

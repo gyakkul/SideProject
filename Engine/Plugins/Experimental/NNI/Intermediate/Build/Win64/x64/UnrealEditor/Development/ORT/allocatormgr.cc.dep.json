@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\allocatormgr.cc",
+        "Source": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\allocatormgr.cc",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
+        "PCH": "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ort\\pch.onnxruntime.h.pch",
         "Includes": [
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\bfc_arena.h",
-            "c:\\users\\rkdtl\\desktop\\programing\\spworkspace\\spdev\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\arena_extend_strategy.h"
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\bfc_arena.h",
+            "c:\\workspace\\sideproject1\\engine\\plugins\\experimental\\nni\\source\\thirdparty\\ort_4_1\\private\\core\\framework\\arena_extend_strategy.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

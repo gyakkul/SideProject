@@ -12,3 +12,17 @@ C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\Autom
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\refint\CrowdinLocalization.Automation.dll
 C:\Users\rkdtl\Desktop\Programing\SPWorkSpace\SPDev\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\EpicGames.Perforce.Native.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\EpicGames.Perforce.Native.so
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\EpicGames.Perforce.Native.dylib
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\CrowdinLocalization.Automation.deps.json
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\CrowdinLocalization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\ref\CrowdinLocalization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\AutomationTool\AutomationScripts\CrowdinLocalization\CrowdinLocalization.Automation.pdb
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.csproj.AssemblyReference.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.csproj.CoreCompileInputs.cache
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.csproj.CopyComplete
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\refint\CrowdinLocalization.Automation.dll
+C:\WorkSpace\SideProject1\Engine\Source\Programs\AutomationTool\CrowdinLocalization\obj\Development\CrowdinLocalization.Automation.pdb

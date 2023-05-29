@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7668C2A1-C4D2-3FA2-B472-B8ABC2EB574E}</ProjectGuid>
+    <ProjectGuid>{40088209-5907-352F-85B4-BFD94E5EAEB2}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>DotNetPerforceLib</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
