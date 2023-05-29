@@ -1,0 +1,61 @@
+diff --git a/patch/patches/keyboard_code_conversion_mac.patch b/patch/patches/keyboard_code_conversion_mac.patch
+new file mode 100644
+index 000000000..3d192e42f
+--- /dev/null
++++ b/patch/patches/keyboard_code_conversion_mac.patch
+@@ -0,0 +1,18 @@
++diff --git ui/events/keycodes/keyboard_code_conversion_mac.mm ui/events/keycodes/keyboard_code_conversion_mac.mm
++index e6384ac43145..23a6e663cfa3 100644
++--- ui/events/keycodes/keyboard_code_conversion_mac.mm
+++++ ui/events/keycodes/keyboard_code_conversion_mac.mm
++@@ -876,9 +876,11 @@ UniChar TranslatedUnicodeCharFromKeyCode(TISInputSourceRef input_source,
++                                          UInt32* dead_key_state) {
++   DCHECK(dead_key_state);
++
++-  CFDataRef layout_data = static_cast<CFDataRef>(TISGetInputSourceProperty(
+++       __block CFDataRef layout_data;
+++  dispatch_sync(dispatch_get_main_queue(), ^{
+++       layout_data = static_cast<CFDataRef>(TISGetInputSourceProperty(
++       input_source, kTISPropertyUnicodeKeyLayoutData));
++-
+++       });
++   const UCKeyboardLayout* keyboard_layout =
++       reinterpret_cast<const UCKeyboardLayout*>(CFDataGetBytePtr(layout_data));
++   DCHECK(keyboard_layout);
+diff --git a/patch/patches/screen_observer_mac.patch b/patch/patches/screen_observer_mac.patch
+new file mode 100644
+index 000000000..229eb4cb4
+--- /dev/null
++++ b/patch/patches/screen_observer_mac.patch
+@@ -0,0 +1,13 @@
++diff --git ui/display/mac/screen_mac.mm ui/display/mac/screen_mac.mm
++index 00415aac8b80f..c103c943c2104 100644
++--- ui/display/mac/screen_mac.mm
+++++ ui/display/mac/screen_mac.mm
++@@ -400,7 +400,7 @@ void OnNSScreensMayHaveChanged() {
++       return;
++     auto old_displays = std::move(displays_);
++     displays_ = std::move(new_displays);
++-    change_notifier_.NotifyDisplaysChanged(old_displays, displays_);
+++    //change_notifier_.NotifyDisplaysChanged(old_displays, displays_);
++   }
++
++   // The displays currently attached to the device. Updated by
+diff --git a/patch/patch.cfg b/patch/patch.cfg
+index 8c823dd16..0b154e6f1 100644
+--- a/patch/patch.cfg
++++ b/patch/patch.cfg
+@@ -548,5 +548,13 @@ patches = [
+     # Fix underflow in EventRouterForwarder::HandleEvent.
+     # https://bugs.chromium.org/p/chromium/issues/detail?id=1167149#c7
+     'name': 'chrome_extensions_event_router_3066',
++  },
++  {
++    # Fix TISGetInputSourceProperty happening on the wrong thread.
++    'name': 'keyboard_code_conversion_mac',
++  },
++  {
++    # Fix OnNSScreensMayHaveChanged happening on the wrong thread.
++    'name': 'screen_observer_mac',
+   }
+ ]

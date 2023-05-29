@@ -1,0 +1,47 @@
+diff --git a/libcef_dll/wrapper/cef_library_loader_mac.mm b/libcef_dll/wrapper/cef_library_loader_mac.mm
+index 046f46b0..24b64252 100644
+--- a/libcef_dll/wrapper/cef_library_loader_mac.mm
++++ b/libcef_dll/wrapper/cef_library_loader_mac.mm
+@@ -58,9 +58,17 @@
+     fprintf(stderr, "App does not have the expected bundle structure.\n");
+     return false;
+   }
++
++  return LoadPath(helper, framework_path.c_str());
++}
++
++bool CefScopedLibraryLoader::LoadPath(bool helper, const char *framework_path) {
++  if (loaded_) {
++    return false;
++  }
+ 
+   // Load the CEF framework library.
+-  if (!cef_load_library(framework_path.c_str())) {
++  if (!cef_load_library(framework_path)) {
+     fprintf(stderr, "Failed to load the CEF framework.\n");
+     return false;
+   }
+diff --git a/include/wrapper/cef_library_loader.h b/include/wrapper/cef_library_loader.h
+index 8477f45fb..51de2fb41 100644
+--- a/include/wrapper/cef_library_loader.h
++++ b/include/wrapper/cef_library_loader.h
+@@ -107,6 +107,7 @@ class CefScopedLibraryLoader {
+   // load succeeds.
+   ///
+   bool LoadInMain() { return Load(false); }
++  bool LoadInMain(const char *FrameworkPath) { return LoadPath(false, FrameworkPath); }
+
+   ///
+   // Load the CEF framework in the helper process from the expected app
+@@ -114,9 +115,11 @@ class CefScopedLibraryLoader {
+   // load succeeds.
+   ///
+   bool LoadInHelper() { return Load(true); }
++  bool LoadInHelper(const char *FrameworkPath) { return LoadPath(true, FrameworkPath); }
+
+  private:
+   bool Load(bool helper);
++  bool LoadPath(bool helper, const char *FrameworkPath);
+
+   bool loaded_;
+   DISALLOW_COPY_AND_ASSIGN(CefScopedLibraryLoader);

@@ -1,0 +1,31 @@
+FROM ubuntu:20.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# setup tzdata so it doesn't prompt later
+RUN truncate -s0 /tmp/preseed.cfg; \
+    echo "tzdata tzdata/Areas select Pacific" >> /tmp/preseed.cfg; \
+    echo "tzdata tzdata/Zones/Pacific select Auckland" >> /tmp/preseed.cfg; \
+    debconf-set-selections /tmp/preseed.cfg && \
+    rm -f /etc/timezone /etc/localtime && \
+    apt-get update && \
+    apt-get install -y tzdata
+
+# install bootstrap min requirements
+RUN apt-get update && apt-get install -y curl locales lsb-release sudo wget python cmake
+
+
+# accept MS license for TTF fonts
+RUN echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
+
+RUN curl 'https://chromium.googlesource.com/chromium/src/+/master/build/install-build-deps.sh?format=TEXT' | base64 -d > install-build-deps-orig.sh
+# snapcraft doesn't work in WSL and the CEF build doesn't need it, so remove its dependency by changing the package name the script checks for
+RUN cat install-build-deps-orig.sh | sed 's/snapcraft/snapcraft_noop/' > install-build-deps.sh
+RUN bash install-build-deps.sh --no-prompt --no-chromeos-fonts
+# install some other link time requirements needed in Ubuntu 20.04
+RUN apt install -y libgtkglext1-dev mesa-common-dev xcb-proto libx11-xcb-dev libxcb-dri3-dev
+
+# Ubuntu 20.04 doesn't ship the python2 bindings to xcbgen so manually install the deb for it
+RUN wget http://mirrors.kernel.org/ubuntu/pool/universe/x/xcb-proto/python-xcbgen_1.13-1_all.deb
+RUN apt install ./python-xcbgen_1.13-1_all.deb
+CMD /bin/bash

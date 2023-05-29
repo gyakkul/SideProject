@@ -1,0 +1,1293 @@
+diff --git a/blosc/blosc.c b/blosc/blosc.c
+index a04e161..83c20d1 100644
+--- a/blosc/blosc.c
++++ b/blosc/blosc.c
+@@ -414,7 +414,7 @@ static int lz4_wrap_compress(const char* input, size_t input_length,
+                              char* output, size_t maxout, int accel)
+ {
+   int cbytes;
+-  cbytes = LZ4_compress_fast(input, output, (int)input_length, (int)maxout,
++  cbytes = LZ4_PREFIXED_TOKEN(LZ4_compress_fast)(input, output, (int)input_length, (int)maxout,
+                              accel);
+   return cbytes;
+ }
+@@ -427,7 +427,7 @@ static int lz4hc_wrap_compress(const char* input, size_t input_length,
+     return -1;   /* input larger than 2 GB is not supported */
+   /* clevel for lz4hc goes up to 12, at least in LZ4 1.7.5
+    * but levels larger than 9 do not buy much compression. */
+-  cbytes = LZ4_compress_HC(input, output, (int)input_length, (int)maxout,
++  cbytes = LZ4_PREFIXED_TOKEN(LZ4_compress_HC)(input, output, (int)input_length, (int)maxout,
+                            clevel);
+   return cbytes;
+ }
+@@ -435,7 +435,7 @@ static int lz4hc_wrap_compress(const char* input, size_t input_length,
+ static int lz4_wrap_decompress(const void* input, int compressed_length,
+                                void* output, int maxout)
+ {
+-  return LZ4_decompress_safe(input, output, compressed_length, maxout);
++  return LZ4_PREFIXED_TOKEN(LZ4_decompress_safe)(input, output, compressed_length, maxout);
+ }
+ 
+ #endif /* HAVE_LZ4 */
+diff --git a/internal-complibs/lz4-1.9.3/lz4.c b/internal-complibs/lz4-1.9.3/lz4.c
+index 9f5e9bf..f3f5674 100644
+--- a/internal-complibs/lz4-1.9.3/lz4.c
++++ b/internal-complibs/lz4-1.9.3/lz4.c
+@@ -669,10 +669,10 @@ typedef enum { noDictIssue = 0, dictSmall } dictIssue_directive;
+ /*-************************************
+ *  Local Utils
+ **************************************/
+-int LZ4_versionNumber (void) { return LZ4_VERSION_NUMBER; }
+-const char* LZ4_versionString(void) { return LZ4_VERSION_STRING; }
+-int LZ4_compressBound(int isize)  { return LZ4_COMPRESSBOUND(isize); }
+-int LZ4_sizeofState(void) { return LZ4_STREAMSIZE; }
++int LZ4_PREFIXED_TOKEN(LZ4_versionNumber) (void) { return LZ4_VERSION_NUMBER; }
++const char* LZ4_PREFIXED_TOKEN(LZ4_versionString)(void) { return LZ4_VERSION_STRING; }
++int LZ4_PREFIXED_TOKEN(LZ4_compressBound)(int isize)  { return LZ4_COMPRESSBOUND(isize); }
++int LZ4_PREFIXED_TOKEN(LZ4_sizeofState)(void) { return LZ4_STREAMSIZE; }
+ 
+ 
+ /*-************************************
+@@ -682,9 +682,9 @@ int LZ4_sizeofState(void) { return LZ4_STREAMSIZE; }
+ extern "C" {
+ #endif
+ 
+-int LZ4_compress_forceExtDict (LZ4_stream_t* LZ4_dict, const char* source, char* dest, int srcSize);
++int LZ4_PREFIXED_TOKEN(LZ4_compress_forceExtDict) (LZ4_stream_t* LZ4_dict, const char* source, char* dest, int srcSize);
+ 
+-int LZ4_decompress_safe_forceExtDict(const char* source, char* dest,
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_forceExtDict)(const char* source, char* dest,
+                                      int compressedSize, int maxOutputSize,
+                                      const void* dictStart, size_t dictSize);
+ 
+@@ -1281,13 +1281,13 @@ LZ4_FORCE_INLINE int LZ4_compress_generic(
+ }
+ 
+ 
+-int LZ4_compress_fast_extState(void* state, const char* source, char* dest, int inputSize, int maxOutputSize, int acceleration)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState)(void* state, const char* source, char* dest, int inputSize, int maxOutputSize, int acceleration)
+ {
+-    LZ4_stream_t_internal* const ctx = & LZ4_initStream(state, sizeof(LZ4_stream_t)) -> internal_donotuse;
++    LZ4_stream_t_internal* const ctx = & LZ4_PREFIXED_TOKEN(LZ4_initStream)(state, sizeof(LZ4_stream_t)) -> internal_donotuse;
+     assert(ctx != NULL);
+     if (acceleration < 1) acceleration = LZ4_ACCELERATION_DEFAULT;
+     if (acceleration > LZ4_ACCELERATION_MAX) acceleration = LZ4_ACCELERATION_MAX;
+-    if (maxOutputSize >= LZ4_compressBound(inputSize)) {
++    if (maxOutputSize >= LZ4_PREFIXED_TOKEN(LZ4_compressBound)(inputSize)) {
+         if (inputSize < LZ4_64Klimit) {
+             return LZ4_compress_generic(ctx, source, dest, inputSize, NULL, 0, notLimited, byU16, noDict, noDictIssue, acceleration);
+         } else {
+@@ -1313,13 +1313,13 @@ int LZ4_compress_fast_extState(void* state, const char* source, char* dest, int
+  * (see comment in lz4.h on LZ4_resetStream_fast() for a definition of
+  * "correctly initialized").
+  */
+-int LZ4_compress_fast_extState_fastReset(void* state, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState_fastReset)(void* state, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration)
+ {
+     LZ4_stream_t_internal* ctx = &((LZ4_stream_t*)state)->internal_donotuse;
+     if (acceleration < 1) acceleration = LZ4_ACCELERATION_DEFAULT;
+     if (acceleration > LZ4_ACCELERATION_MAX) acceleration = LZ4_ACCELERATION_MAX;
+ 
+-    if (dstCapacity >= LZ4_compressBound(srcSize)) {
++    if (dstCapacity >= LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize)) {
+         if (srcSize < LZ4_64Klimit) {
+             const tableType_t tableType = byU16;
+             LZ4_prepareTable(ctx, srcSize, tableType);
+@@ -1351,7 +1351,7 @@ int LZ4_compress_fast_extState_fastReset(void* state, const char* src, char* dst
+ }
+ 
+ 
+-int LZ4_compress_fast(const char* source, char* dest, int inputSize, int maxOutputSize, int acceleration)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_fast)(const char* source, char* dest, int inputSize, int maxOutputSize, int acceleration)
+ {
+     int result;
+ #if (LZ4_HEAPMODE)
+@@ -1361,7 +1361,7 @@ int LZ4_compress_fast(const char* source, char* dest, int inputSize, int maxOutp
+     LZ4_stream_t ctx;
+     LZ4_stream_t* const ctxPtr = &ctx;
+ #endif
+-    result = LZ4_compress_fast_extState(ctxPtr, source, dest, inputSize, maxOutputSize, acceleration);
++    result = LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState)(ctxPtr, source, dest, inputSize, maxOutputSize, acceleration);
+ 
+ #if (LZ4_HEAPMODE)
+     FREEMEM(ctxPtr);
+@@ -1370,9 +1370,9 @@ int LZ4_compress_fast(const char* source, char* dest, int inputSize, int maxOutp
+ }
+ 
+ 
+-int LZ4_compress_default(const char* src, char* dst, int srcSize, int maxOutputSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_default)(const char* src, char* dst, int srcSize, int maxOutputSize)
+ {
+-    return LZ4_compress_fast(src, dst, srcSize, maxOutputSize, 1);
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_fast)(src, dst, srcSize, maxOutputSize, 1);
+ }
+ 
+ 
+@@ -1381,11 +1381,11 @@ int LZ4_compress_default(const char* src, char* dst, int srcSize, int maxOutputS
+  * _continue() call without resetting it. */
+ static int LZ4_compress_destSize_extState (LZ4_stream_t* state, const char* src, char* dst, int* srcSizePtr, int targetDstSize)
+ {
+-    void* const s = LZ4_initStream(state, sizeof (*state));
++    void* const s = LZ4_PREFIXED_TOKEN(LZ4_initStream)(state, sizeof (*state));
+     assert(s != NULL); (void)s;
+ 
+-    if (targetDstSize >= LZ4_compressBound(*srcSizePtr)) {  /* compression success is guaranteed */
+-        return LZ4_compress_fast_extState(state, src, dst, *srcSizePtr, targetDstSize, 1);
++    if (targetDstSize >= LZ4_PREFIXED_TOKEN(LZ4_compressBound)(*srcSizePtr)) {  /* compression success is guaranteed */
++        return LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState)(state, src, dst, *srcSizePtr, targetDstSize, 1);
+     } else {
+         if (*srcSizePtr < LZ4_64Klimit) {
+             return LZ4_compress_generic(&state->internal_donotuse, src, dst, *srcSizePtr, srcSizePtr, targetDstSize, fillOutput, byU16, noDict, noDictIssue, 1);
+@@ -1396,7 +1396,7 @@ static int LZ4_compress_destSize_extState (LZ4_stream_t* state, const char* src,
+ }
+ 
+ 
+-int LZ4_compress_destSize(const char* src, char* dst, int* srcSizePtr, int targetDstSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_destSize)(const char* src, char* dst, int* srcSizePtr, int targetDstSize)
+ {
+ #if (LZ4_HEAPMODE)
+     LZ4_stream_t* ctx = (LZ4_stream_t*)ALLOC(sizeof(LZ4_stream_t));   /* malloc-calloc always properly aligned */
+@@ -1420,13 +1420,13 @@ int LZ4_compress_destSize(const char* src, char* dst, int* srcSizePtr, int targe
+ *  Streaming functions
+ ********************************/
+ 
+-LZ4_stream_t* LZ4_createStream(void)
++LZ4_stream_t* LZ4_PREFIXED_TOKEN(LZ4_createStream)(void)
+ {
+     LZ4_stream_t* const lz4s = (LZ4_stream_t*)ALLOC(sizeof(LZ4_stream_t));
+     LZ4_STATIC_ASSERT(LZ4_STREAMSIZE >= sizeof(LZ4_stream_t_internal));    /* A compilation error here means LZ4_STREAMSIZE is not large enough */
+     DEBUGLOG(4, "LZ4_createStream %p", lz4s);
+     if (lz4s == NULL) return NULL;
+-    LZ4_initStream(lz4s, sizeof(*lz4s));
++    LZ4_PREFIXED_TOKEN(LZ4_initStream)(lz4s, sizeof(*lz4s));
+     return lz4s;
+ }
+ 
+@@ -1440,7 +1440,7 @@ static size_t LZ4_stream_t_alignment(void)
+ #endif
+ }
+ 
+-LZ4_stream_t* LZ4_initStream (void* buffer, size_t size)
++LZ4_stream_t* LZ4_PREFIXED_TOKEN(LZ4_initStream) (void* buffer, size_t size)
+ {
+     DEBUGLOG(5, "LZ4_initStream");
+     if (buffer == NULL) { return NULL; }
+@@ -1452,17 +1452,17 @@ LZ4_stream_t* LZ4_initStream (void* buffer, size_t size)
+ 
+ /* resetStream is now deprecated,
+  * prefer initStream() which is more general */
+-void LZ4_resetStream (LZ4_stream_t* LZ4_stream)
++void LZ4_PREFIXED_TOKEN(LZ4_resetStream) (LZ4_stream_t* LZ4_stream)
+ {
+     DEBUGLOG(5, "LZ4_resetStream (ctx:%p)", LZ4_stream);
+     MEM_INIT(LZ4_stream, 0, sizeof(LZ4_stream_t_internal));
+ }
+ 
+-void LZ4_resetStream_fast(LZ4_stream_t* ctx) {
++void LZ4_PREFIXED_TOKEN(LZ4_resetStream_fast)(LZ4_stream_t* ctx) {
+     LZ4_prepareTable(&(ctx->internal_donotuse), 0, byU32);
+ }
+ 
+-int LZ4_freeStream (LZ4_stream_t* LZ4_stream)
++int LZ4_PREFIXED_TOKEN(LZ4_freeStream) (LZ4_stream_t* LZ4_stream)
+ {
+     if (!LZ4_stream) return 0;   /* support free on NULL */
+     DEBUGLOG(5, "LZ4_freeStream %p", LZ4_stream);
+@@ -1472,7 +1472,7 @@ int LZ4_freeStream (LZ4_stream_t* LZ4_stream)
+ 
+ 
+ #define HASH_UNIT sizeof(reg_t)
+-int LZ4_loadDict (LZ4_stream_t* LZ4_dict, const char* dictionary, int dictSize)
++int LZ4_PREFIXED_TOKEN(LZ4_loadDict) (LZ4_stream_t* LZ4_dict, const char* dictionary, int dictSize)
+ {
+     LZ4_stream_t_internal* dict = &LZ4_dict->internal_donotuse;
+     const tableType_t tableType = byU32;
+@@ -1486,7 +1486,7 @@ int LZ4_loadDict (LZ4_stream_t* LZ4_dict, const char* dictionary, int dictSize)
+      * and not just continue it with prepareTable()
+      * to avoid any risk of generating overflowing matchIndex
+      * when compressing using this dictionary */
+-    LZ4_resetStream(LZ4_dict);
++    LZ4_PREFIXED_TOKEN(LZ4_resetStream)(LZ4_dict);
+ 
+     /* We always increment the offset by 64 KB, since, if the dict is longer,
+      * we truncate it to the last 64k, and if it's shorter, we still want to
+@@ -1514,7 +1514,7 @@ int LZ4_loadDict (LZ4_stream_t* LZ4_dict, const char* dictionary, int dictSize)
+     return (int)dict->dictSize;
+ }
+ 
+-void LZ4_attach_dictionary(LZ4_stream_t* workingStream, const LZ4_stream_t* dictionaryStream) {
++void LZ4_PREFIXED_TOKEN(LZ4_attach_dictionary)(LZ4_stream_t* workingStream, const LZ4_stream_t* dictionaryStream) {
+     const LZ4_stream_t_internal* dictCtx = dictionaryStream == NULL ? NULL :
+         &(dictionaryStream->internal_donotuse);
+ 
+@@ -1562,7 +1562,7 @@ static void LZ4_renormDictT(LZ4_stream_t_internal* LZ4_dict, int nextSize)
+ }
+ 
+ 
+-int LZ4_compress_fast_continue (LZ4_stream_t* LZ4_stream,
++int LZ4_PREFIXED_TOKEN(LZ4_compress_fast_continue) (LZ4_stream_t* LZ4_stream,
+                                 const char* source, char* dest,
+                                 int inputSize, int maxOutputSize,
+                                 int acceleration)
+@@ -1638,7 +1638,7 @@ int LZ4_compress_fast_continue (LZ4_stream_t* LZ4_stream,
+ 
+ 
+ /* Hidden debug function, to force-test external dictionary mode */
+-int LZ4_compress_forceExtDict (LZ4_stream_t* LZ4_dict, const char* source, char* dest, int srcSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_forceExtDict) (LZ4_stream_t* LZ4_dict, const char* source, char* dest, int srcSize)
+ {
+     LZ4_stream_t_internal* streamPtr = &LZ4_dict->internal_donotuse;
+     int result;
+@@ -1665,7 +1665,7 @@ int LZ4_compress_forceExtDict (LZ4_stream_t* LZ4_dict, const char* source, char*
+  *         dictionary is immediately usable, you can therefore call LZ4_compress_fast_continue().
+  *  Return : saved dictionary size in bytes (necessarily <= dictSize), or 0 if error.
+  */
+-int LZ4_saveDict (LZ4_stream_t* LZ4_dict, char* safeBuffer, int dictSize)
++int LZ4_PREFIXED_TOKEN(LZ4_saveDict) (LZ4_stream_t* LZ4_dict, char* safeBuffer, int dictSize)
+ {
+     LZ4_stream_t_internal* const dict = &LZ4_dict->internal_donotuse;
+     const BYTE* const previousDictEnd = dict->dictionary + dict->dictSize;
+@@ -2168,7 +2168,7 @@ LZ4_decompress_generic(
+ /*===== Instantiate the API decoding functions. =====*/
+ 
+ LZ4_FORCE_O2
+-int LZ4_decompress_safe(const char* source, char* dest, int compressedSize, int maxDecompressedSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe)(const char* source, char* dest, int compressedSize, int maxDecompressedSize)
+ {
+     return LZ4_decompress_generic(source, dest, compressedSize, maxDecompressedSize,
+                                   endOnInputSize, decode_full_block, noDict,
+@@ -2176,7 +2176,7 @@ int LZ4_decompress_safe(const char* source, char* dest, int compressedSize, int
+ }
+ 
+ LZ4_FORCE_O2
+-int LZ4_decompress_safe_partial(const char* src, char* dst, int compressedSize, int targetOutputSize, int dstCapacity)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_partial)(const char* src, char* dst, int compressedSize, int targetOutputSize, int dstCapacity)
+ {
+     dstCapacity = MIN(targetOutputSize, dstCapacity);
+     return LZ4_decompress_generic(src, dst, compressedSize, dstCapacity,
+@@ -2185,7 +2185,7 @@ int LZ4_decompress_safe_partial(const char* src, char* dst, int compressedSize,
+ }
+ 
+ LZ4_FORCE_O2
+-int LZ4_decompress_fast(const char* source, char* dest, int originalSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast)(const char* source, char* dest, int originalSize)
+ {
+     return LZ4_decompress_generic(source, dest, 0, originalSize,
+                                   endOnOutputSize, decode_full_block, withPrefix64k,
+@@ -2195,7 +2195,7 @@ int LZ4_decompress_fast(const char* source, char* dest, int originalSize)
+ /*===== Instantiate a few more decoding cases, used more than once. =====*/
+ 
+ LZ4_FORCE_O2 /* Exported, an obsolete API function. */
+-int LZ4_decompress_safe_withPrefix64k(const char* source, char* dest, int compressedSize, int maxOutputSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_withPrefix64k)(const char* source, char* dest, int compressedSize, int maxOutputSize)
+ {
+     return LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize,
+                                   endOnInputSize, decode_full_block, withPrefix64k,
+@@ -2203,11 +2203,11 @@ int LZ4_decompress_safe_withPrefix64k(const char* source, char* dest, int compre
+ }
+ 
+ /* Another obsolete API function, paired with the previous one. */
+-int LZ4_decompress_fast_withPrefix64k(const char* source, char* dest, int originalSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast_withPrefix64k)(const char* source, char* dest, int originalSize)
+ {
+     /* LZ4_decompress_fast doesn't validate match offsets,
+      * and thus serves well with any prefixed dictionary. */
+-    return LZ4_decompress_fast(source, dest, originalSize);
++    return LZ4_PREFIXED_TOKEN(LZ4_decompress_fast)(source, dest, originalSize);
+ }
+ 
+ LZ4_FORCE_O2
+@@ -2220,7 +2220,7 @@ static int LZ4_decompress_safe_withSmallPrefix(const char* source, char* dest, i
+ }
+ 
+ LZ4_FORCE_O2
+-int LZ4_decompress_safe_forceExtDict(const char* source, char* dest,
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_forceExtDict)(const char* source, char* dest,
+                                      int compressedSize, int maxOutputSize,
+                                      const void* dictStart, size_t dictSize)
+ {
+@@ -2262,14 +2262,14 @@ int LZ4_decompress_fast_doubleDict(const char* source, char* dest, int originalS
+ 
+ /*===== streaming decompression functions =====*/
+ 
+-LZ4_streamDecode_t* LZ4_createStreamDecode(void)
++LZ4_streamDecode_t* LZ4_PREFIXED_TOKEN(LZ4_createStreamDecode)(void)
+ {
+     LZ4_streamDecode_t* lz4s = (LZ4_streamDecode_t*) ALLOC_AND_ZERO(sizeof(LZ4_streamDecode_t));
+     LZ4_STATIC_ASSERT(LZ4_STREAMDECODESIZE >= sizeof(LZ4_streamDecode_t_internal));    /* A compilation error here means LZ4_STREAMDECODESIZE is not large enough */
+     return lz4s;
+ }
+ 
+-int LZ4_freeStreamDecode (LZ4_streamDecode_t* LZ4_stream)
++int LZ4_PREFIXED_TOKEN(LZ4_freeStreamDecode) (LZ4_streamDecode_t* LZ4_stream)
+ {
+     if (LZ4_stream == NULL) { return 0; }  /* support free on NULL */
+     FREEMEM(LZ4_stream);
+@@ -2282,7 +2282,7 @@ int LZ4_freeStreamDecode (LZ4_streamDecode_t* LZ4_stream)
+  *  Loading a size of 0 is allowed (same effect as no dictionary).
+  * @return : 1 if OK, 0 if error
+  */
+-int LZ4_setStreamDecode (LZ4_streamDecode_t* LZ4_streamDecode, const char* dictionary, int dictSize)
++int LZ4_PREFIXED_TOKEN(LZ4_setStreamDecode) (LZ4_streamDecode_t* LZ4_streamDecode, const char* dictionary, int dictSize)
+ {
+     LZ4_streamDecode_t_internal* lz4sd = &LZ4_streamDecode->internal_donotuse;
+     lz4sd->prefixSize = (size_t) dictSize;
+@@ -2303,7 +2303,7 @@ int LZ4_setStreamDecode (LZ4_streamDecode_t* LZ4_streamDecode, const char* dicti
+  * @return : minimum ring buffer size,
+  *           or 0 if there is an error (invalid maxBlockSize).
+  */
+-int LZ4_decoderRingBufferSize(int maxBlockSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decoderRingBufferSize)(int maxBlockSize)
+ {
+     if (maxBlockSize < 0) return 0;
+     if (maxBlockSize > LZ4_MAX_INPUT_SIZE) return 0;
+@@ -2319,7 +2319,7 @@ int LZ4_decoderRingBufferSize(int maxBlockSize)
+     and indicate where it stands using LZ4_setStreamDecode()
+ */
+ LZ4_FORCE_O2
+-int LZ4_decompress_safe_continue (LZ4_streamDecode_t* LZ4_streamDecode, const char* source, char* dest, int compressedSize, int maxOutputSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_continue) (LZ4_streamDecode_t* LZ4_streamDecode, const char* source, char* dest, int compressedSize, int maxOutputSize)
+ {
+     LZ4_streamDecode_t_internal* lz4sd = &LZ4_streamDecode->internal_donotuse;
+     int result;
+@@ -2327,14 +2327,14 @@ int LZ4_decompress_safe_continue (LZ4_streamDecode_t* LZ4_streamDecode, const ch
+     if (lz4sd->prefixSize == 0) {
+         /* The first call, no dictionary yet. */
+         assert(lz4sd->extDictSize == 0);
+-        result = LZ4_decompress_safe(source, dest, compressedSize, maxOutputSize);
++        result = LZ4_PREFIXED_TOKEN(LZ4_decompress_safe)(source, dest, compressedSize, maxOutputSize);
+         if (result <= 0) return result;
+         lz4sd->prefixSize = (size_t)result;
+         lz4sd->prefixEnd = (BYTE*)dest + result;
+     } else if (lz4sd->prefixEnd == (BYTE*)dest) {
+         /* They're rolling the current segment. */
+         if (lz4sd->prefixSize >= 64 KB - 1)
+-            result = LZ4_decompress_safe_withPrefix64k(source, dest, compressedSize, maxOutputSize);
++            result = LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_withPrefix64k)(source, dest, compressedSize, maxOutputSize);
+         else if (lz4sd->extDictSize == 0)
+             result = LZ4_decompress_safe_withSmallPrefix(source, dest, compressedSize, maxOutputSize,
+                                                          lz4sd->prefixSize);
+@@ -2348,7 +2348,7 @@ int LZ4_decompress_safe_continue (LZ4_streamDecode_t* LZ4_streamDecode, const ch
+         /* The buffer wraps around, or they're switching to another buffer. */
+         lz4sd->extDictSize = lz4sd->prefixSize;
+         lz4sd->externalDict = lz4sd->prefixEnd - lz4sd->extDictSize;
+-        result = LZ4_decompress_safe_forceExtDict(source, dest, compressedSize, maxOutputSize,
++        result = LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_forceExtDict)(source, dest, compressedSize, maxOutputSize,
+                                                   lz4sd->externalDict, lz4sd->extDictSize);
+         if (result <= 0) return result;
+         lz4sd->prefixSize = (size_t)result;
+@@ -2359,7 +2359,7 @@ int LZ4_decompress_safe_continue (LZ4_streamDecode_t* LZ4_streamDecode, const ch
+ }
+ 
+ LZ4_FORCE_O2
+-int LZ4_decompress_fast_continue (LZ4_streamDecode_t* LZ4_streamDecode, const char* source, char* dest, int originalSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast_continue) (LZ4_streamDecode_t* LZ4_streamDecode, const char* source, char* dest, int originalSize)
+ {
+     LZ4_streamDecode_t_internal* lz4sd = &LZ4_streamDecode->internal_donotuse;
+     int result;
+@@ -2367,13 +2367,13 @@ int LZ4_decompress_fast_continue (LZ4_streamDecode_t* LZ4_streamDecode, const ch
+ 
+     if (lz4sd->prefixSize == 0) {
+         assert(lz4sd->extDictSize == 0);
+-        result = LZ4_decompress_fast(source, dest, originalSize);
++        result = LZ4_PREFIXED_TOKEN(LZ4_decompress_fast)(source, dest, originalSize);
+         if (result <= 0) return result;
+         lz4sd->prefixSize = (size_t)originalSize;
+         lz4sd->prefixEnd = (BYTE*)dest + originalSize;
+     } else if (lz4sd->prefixEnd == (BYTE*)dest) {
+         if (lz4sd->prefixSize >= 64 KB - 1 || lz4sd->extDictSize == 0)
+-            result = LZ4_decompress_fast(source, dest, originalSize);
++            result = LZ4_PREFIXED_TOKEN(LZ4_decompress_fast)(source, dest, originalSize);
+         else
+             result = LZ4_decompress_fast_doubleDict(source, dest, originalSize,
+                                                     lz4sd->prefixSize, lz4sd->externalDict, lz4sd->extDictSize);
+@@ -2401,25 +2401,25 @@ Advanced decoding functions :
+     the dictionary must be explicitly provided within parameters
+ */
+ 
+-int LZ4_decompress_safe_usingDict(const char* source, char* dest, int compressedSize, int maxOutputSize, const char* dictStart, int dictSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_usingDict)(const char* source, char* dest, int compressedSize, int maxOutputSize, const char* dictStart, int dictSize)
+ {
+     if (dictSize==0)
+-        return LZ4_decompress_safe(source, dest, compressedSize, maxOutputSize);
++        return LZ4_PREFIXED_TOKEN(LZ4_decompress_safe)(source, dest, compressedSize, maxOutputSize);
+     if (dictStart+dictSize == dest) {
+         if (dictSize >= 64 KB - 1) {
+-            return LZ4_decompress_safe_withPrefix64k(source, dest, compressedSize, maxOutputSize);
++            return LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_withPrefix64k)(source, dest, compressedSize, maxOutputSize);
+         }
+         assert(dictSize >= 0);
+         return LZ4_decompress_safe_withSmallPrefix(source, dest, compressedSize, maxOutputSize, (size_t)dictSize);
+     }
+     assert(dictSize >= 0);
+-    return LZ4_decompress_safe_forceExtDict(source, dest, compressedSize, maxOutputSize, dictStart, (size_t)dictSize);
++    return LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_forceExtDict)(source, dest, compressedSize, maxOutputSize, dictStart, (size_t)dictSize);
+ }
+ 
+-int LZ4_decompress_fast_usingDict(const char* source, char* dest, int originalSize, const char* dictStart, int dictSize)
++int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast_usingDict)(const char* source, char* dest, int originalSize, const char* dictStart, int dictSize)
+ {
+     if (dictSize==0 || dictStart+dictSize == dest)
+-        return LZ4_decompress_fast(source, dest, originalSize);
++        return LZ4_PREFIXED_TOKEN(LZ4_decompress_fast)(source, dest, originalSize);
+     assert(dictSize >= 0);
+     return LZ4_decompress_fast_extDict(source, dest, originalSize, dictStart, (size_t)dictSize);
+ }
+@@ -2429,29 +2429,29 @@ int LZ4_decompress_fast_usingDict(const char* source, char* dest, int originalSi
+ *  Obsolete Functions
+ ***************************************************/
+ /* obsolete compression functions */
+-int LZ4_compress_limitedOutput(const char* source, char* dest, int inputSize, int maxOutputSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_limitedOutput)(const char* source, char* dest, int inputSize, int maxOutputSize)
+ {
+-    return LZ4_compress_default(source, dest, inputSize, maxOutputSize);
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_default)(source, dest, inputSize, maxOutputSize);
+ }
+-int LZ4_compress(const char* src, char* dest, int srcSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress)(const char* src, char* dest, int srcSize)
+ {
+-    return LZ4_compress_default(src, dest, srcSize, LZ4_compressBound(srcSize));
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_default)(src, dest, srcSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize));
+ }
+-int LZ4_compress_limitedOutput_withState (void* state, const char* src, char* dst, int srcSize, int dstSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_limitedOutput_withState) (void* state, const char* src, char* dst, int srcSize, int dstSize)
+ {
+-    return LZ4_compress_fast_extState(state, src, dst, srcSize, dstSize, 1);
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState)(state, src, dst, srcSize, dstSize, 1);
+ }
+-int LZ4_compress_withState (void* state, const char* src, char* dst, int srcSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_withState) (void* state, const char* src, char* dst, int srcSize)
+ {
+-    return LZ4_compress_fast_extState(state, src, dst, srcSize, LZ4_compressBound(srcSize), 1);
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState)(state, src, dst, srcSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize), 1);
+ }
+-int LZ4_compress_limitedOutput_continue (LZ4_stream_t* LZ4_stream, const char* src, char* dst, int srcSize, int dstCapacity)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_limitedOutput_continue) (LZ4_stream_t* LZ4_stream, const char* src, char* dst, int srcSize, int dstCapacity)
+ {
+-    return LZ4_compress_fast_continue(LZ4_stream, src, dst, srcSize, dstCapacity, 1);
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_fast_continue)(LZ4_stream, src, dst, srcSize, dstCapacity, 1);
+ }
+-int LZ4_compress_continue (LZ4_stream_t* LZ4_stream, const char* source, char* dest, int inputSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_continue) (LZ4_stream_t* LZ4_stream, const char* source, char* dest, int inputSize)
+ {
+-    return LZ4_compress_fast_continue(LZ4_stream, source, dest, inputSize, LZ4_compressBound(inputSize), 1);
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_fast_continue)(LZ4_stream, source, dest, inputSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(inputSize), 1);
+ }
+ 
+ /*
+@@ -2460,33 +2460,33 @@ They are only provided here for compatibility with older user programs.
+ - LZ4_uncompress is totally equivalent to LZ4_decompress_fast
+ - LZ4_uncompress_unknownOutputSize is totally equivalent to LZ4_decompress_safe
+ */
+-int LZ4_uncompress (const char* source, char* dest, int outputSize)
++int LZ4_PREFIXED_TOKEN(LZ4_uncompress) (const char* source, char* dest, int outputSize)
+ {
+-    return LZ4_decompress_fast(source, dest, outputSize);
++    return LZ4_PREFIXED_TOKEN(LZ4_decompress_fast)(source, dest, outputSize);
+ }
+-int LZ4_uncompress_unknownOutputSize (const char* source, char* dest, int isize, int maxOutputSize)
++int LZ4_PREFIXED_TOKEN(LZ4_uncompress_unknownOutputSize) (const char* source, char* dest, int isize, int maxOutputSize)
+ {
+-    return LZ4_decompress_safe(source, dest, isize, maxOutputSize);
++    return LZ4_PREFIXED_TOKEN(LZ4_decompress_safe)(source, dest, isize, maxOutputSize);
+ }
+ 
+ /* Obsolete Streaming functions */
+ 
+-int LZ4_sizeofStreamState(void) { return LZ4_STREAMSIZE; }
++int LZ4_PREFIXED_TOKEN(LZ4_sizeofStreamState)(void) { return LZ4_STREAMSIZE; }
+ 
+-int LZ4_resetStreamState(void* state, char* inputBuffer)
++int LZ4_PREFIXED_TOKEN(LZ4_resetStreamState)(void* state, char* inputBuffer)
+ {
+     (void)inputBuffer;
+-    LZ4_resetStream((LZ4_stream_t*)state);
++    LZ4_PREFIXED_TOKEN(LZ4_resetStream)((LZ4_stream_t*)state);
+     return 0;
+ }
+ 
+-void* LZ4_create (char* inputBuffer)
++void* LZ4_PREFIXED_TOKEN(LZ4_create) (char* inputBuffer)
+ {
+     (void)inputBuffer;
+-    return LZ4_createStream();
++    return LZ4_PREFIXED_TOKEN(LZ4_createStream)();
+ }
+ 
+-char* LZ4_slideInputBuffer (void* state)
++char* LZ4_PREFIXED_TOKEN(LZ4_slideInputBuffer) (void* state)
+ {
+     /* avoid const char * -> char * conversion warning */
+     return (char *)(uptrval)((LZ4_stream_t*)state)->internal_donotuse.dictionary;
+diff --git a/internal-complibs/lz4-1.9.3/lz4.h b/internal-complibs/lz4-1.9.3/lz4.h
+index 7ab1e48..3efd30a 100644
+--- a/internal-complibs/lz4-1.9.3/lz4.h
++++ b/internal-complibs/lz4-1.9.3/lz4.h
+@@ -36,6 +36,20 @@
+ extern "C" {
+ #endif
+ 
++#ifndef LZ4_PREFIX
++#define LZ4_PREFIX
++#endif
++
++#ifndef __INTERNAL__ADD_PREFIX_TO_TOKEN
++#define __INTERNAL__ADD_PREFIX_TO_TOKEN(prefix, token) prefix ## token
++#endif
++#ifndef __INTERNAL__ADD_PREFIX_TO_TOKEN_INDIRECT
++#define __INTERNAL__ADD_PREFIX_TO_TOKEN_INDIRECT(prefix, token) __INTERNAL__ADD_PREFIX_TO_TOKEN(prefix, token)
++#endif
++#ifndef LZ4_PREFIXED_TOKEN
++#define LZ4_PREFIXED_TOKEN(token) __INTERNAL__ADD_PREFIX_TO_TOKEN_INDIRECT(LZ4_PREFIX, token)
++#endif
++
+ #ifndef LZ4_H_2983827168210
+ #define LZ4_H_2983827168210
+ 
+@@ -109,8 +123,8 @@ extern "C" {
+ #define LZ4_EXPAND_AND_QUOTE(str) LZ4_QUOTE(str)
+ #define LZ4_VERSION_STRING LZ4_EXPAND_AND_QUOTE(LZ4_LIB_VERSION)
+ 
+-LZ4LIB_API int LZ4_versionNumber (void);  /**< library version number; useful to check dll version */
+-LZ4LIB_API const char* LZ4_versionString (void);   /**< library version string; useful to check dll version */
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_versionNumber) (void);  /**< library version number; useful to check dll version */
++LZ4LIB_API const char* LZ4_PREFIXED_TOKEN(LZ4_versionString) (void);   /**< library version string; useful to check dll version */
+ 
+ 
+ /*-************************************
+@@ -145,7 +159,7 @@ LZ4LIB_API const char* LZ4_versionString (void);   /**< library version string;
+  *                or 0 if compression fails
+  * Note : This function is protected against buffer overflow scenarios (never writes outside 'dst' buffer, nor read outside 'source' buffer).
+  */
+-LZ4LIB_API int LZ4_compress_default(const char* src, char* dst, int srcSize, int dstCapacity);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_default)(const char* src, char* dst, int srcSize, int dstCapacity);
+ 
+ /*! LZ4_decompress_safe() :
+  *  compressedSize : is the exact complete size of the compressed block.
+@@ -161,7 +175,7 @@ LZ4LIB_API int LZ4_compress_default(const char* src, char* dst, int srcSize, int
+  *          The implementation is free to send / store / derive this information in whichever way is most beneficial.
+  *          If there is a need for a different format which bundles together both compressed data and its metadata, consider looking at lz4frame.h instead.
+  */
+-LZ4LIB_API int LZ4_decompress_safe (const char* src, char* dst, int compressedSize, int dstCapacity);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe) (const char* src, char* dst, int compressedSize, int dstCapacity);
+ 
+ 
+ /*-************************************
+@@ -179,7 +193,7 @@ LZ4LIB_API int LZ4_decompress_safe (const char* src, char* dst, int compressedSi
+         return : maximum output size in a "worst case" scenario
+               or 0, if input size is incorrect (too large or negative)
+ */
+-LZ4LIB_API int LZ4_compressBound(int inputSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressBound)(int inputSize);
+ 
+ /*! LZ4_compress_fast() :
+     Same as LZ4_compress_default(), but allows selection of "acceleration" factor.
+@@ -189,7 +203,7 @@ LZ4LIB_API int LZ4_compressBound(int inputSize);
+     Values <= 0 will be replaced by LZ4_ACCELERATION_DEFAULT (currently == 1, see lz4.c).
+     Values > LZ4_ACCELERATION_MAX will be replaced by LZ4_ACCELERATION_MAX (currently == 65537, see lz4.c).
+ */
+-LZ4LIB_API int LZ4_compress_fast (const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_fast) (const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
+ 
+ 
+ /*! LZ4_compress_fast_extState() :
+@@ -198,8 +212,8 @@ LZ4LIB_API int LZ4_compress_fast (const char* src, char* dst, int srcSize, int d
+  *  and allocate it on 8-bytes boundaries (using `malloc()` typically).
+  *  Then, provide this buffer as `void* state` to compression function.
+  */
+-LZ4LIB_API int LZ4_sizeofState(void);
+-LZ4LIB_API int LZ4_compress_fast_extState (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_sizeofState)(void);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState) (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
+ 
+ 
+ /*! LZ4_compress_destSize() :
+@@ -225,7 +239,7 @@ LZ4LIB_API int LZ4_compress_fast_extState (void* state, const char* src, char* d
+  *        a dstCapacity which is > decompressedSize, by at least 1 byte.
+  *        See https://github.com/lz4/lz4/issues/859 for details
+  */
+-LZ4LIB_API int LZ4_compress_destSize (const char* src, char* dst, int* srcSizePtr, int targetDstSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_destSize) (const char* src, char* dst, int* srcSizePtr, int targetDstSize);
+ 
+ 
+ /*! LZ4_decompress_safe_partial() :
+@@ -262,7 +276,7 @@ LZ4LIB_API int LZ4_compress_destSize (const char* src, char* dst, int* srcSizePt
+  *           then targetOutputSize **MUST** be <= block's decompressed size.
+  *           Otherwise, *silent corruption will occur*.
+  */
+-LZ4LIB_API int LZ4_decompress_safe_partial (const char* src, char* dst, int srcSize, int targetOutputSize, int dstCapacity);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_partial) (const char* src, char* dst, int srcSize, int targetOutputSize, int dstCapacity);
+ 
+ 
+ /*-*********************************************
+@@ -270,8 +284,8 @@ LZ4LIB_API int LZ4_decompress_safe_partial (const char* src, char* dst, int srcS
+ ***********************************************/
+ typedef union LZ4_stream_u LZ4_stream_t;  /* incomplete type (defined later) */
+ 
+-LZ4LIB_API LZ4_stream_t* LZ4_createStream(void);
+-LZ4LIB_API int           LZ4_freeStream (LZ4_stream_t* streamPtr);
++LZ4LIB_API LZ4_stream_t* LZ4_PREFIXED_TOKEN(LZ4_createStream)(void);
++LZ4LIB_API int           LZ4_PREFIXED_TOKEN(LZ4_freeStream) (LZ4_stream_t* streamPtr);
+ 
+ /*! LZ4_resetStream_fast() : v1.9.0+
+  *  Use this to prepare an LZ4_stream_t for a new chain of dependent blocks
+@@ -295,7 +309,7 @@ LZ4LIB_API int           LZ4_freeStream (LZ4_stream_t* streamPtr);
+  *        The *extState* functions perform their own resets.
+  *        Invoking LZ4_resetStream_fast() before is redundant, and even counterproductive.
+  */
+-LZ4LIB_API void LZ4_resetStream_fast (LZ4_stream_t* streamPtr);
++LZ4LIB_API void LZ4_PREFIXED_TOKEN(LZ4_resetStream_fast) (LZ4_stream_t* streamPtr);
+ 
+ /*! LZ4_loadDict() :
+  *  Use this function to reference a static dictionary into LZ4_stream_t.
+@@ -308,7 +322,7 @@ LZ4LIB_API void LZ4_resetStream_fast (LZ4_stream_t* streamPtr);
+  *  Loading a size of 0 is allowed, and is the same as reset.
+  * @return : loaded dictionary size, in bytes (necessarily <= 64 KB)
+  */
+-LZ4LIB_API int LZ4_loadDict (LZ4_stream_t* streamPtr, const char* dictionary, int dictSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_loadDict) (LZ4_stream_t* streamPtr, const char* dictionary, int dictSize);
+ 
+ /*! LZ4_compress_fast_continue() :
+  *  Compress 'src' content using data from previously compressed blocks, for better compression ratio.
+@@ -333,7 +347,7 @@ LZ4LIB_API int LZ4_loadDict (LZ4_stream_t* streamPtr, const char* dictionary, in
+  *
+  *  Note 5 : After an error, the stream status is undefined (invalid), it can only be reset or freed.
+  */
+-LZ4LIB_API int LZ4_compress_fast_continue (LZ4_stream_t* streamPtr, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_fast_continue) (LZ4_stream_t* streamPtr, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
+ 
+ /*! LZ4_saveDict() :
+  *  If last 64KB data cannot be guaranteed to remain available at its current memory location,
+@@ -342,7 +356,7 @@ LZ4LIB_API int LZ4_compress_fast_continue (LZ4_stream_t* streamPtr, const char*
+  *  but is much faster, because LZ4_saveDict() doesn't need to rebuild tables.
+  * @return : saved dictionary size in bytes (necessarily <= maxDictSize), or 0 if error.
+  */
+-LZ4LIB_API int LZ4_saveDict (LZ4_stream_t* streamPtr, char* safeBuffer, int maxDictSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_saveDict) (LZ4_stream_t* streamPtr, char* safeBuffer, int maxDictSize);
+ 
+ 
+ /*-**********************************************
+@@ -355,8 +369,8 @@ typedef union LZ4_streamDecode_u LZ4_streamDecode_t;   /* tracking context */
+  *  creation / destruction of streaming decompression tracking context.
+  *  A tracking context can be re-used multiple times.
+  */
+-LZ4LIB_API LZ4_streamDecode_t* LZ4_createStreamDecode(void);
+-LZ4LIB_API int                 LZ4_freeStreamDecode (LZ4_streamDecode_t* LZ4_stream);
++LZ4LIB_API LZ4_streamDecode_t* LZ4_PREFIXED_TOKEN(LZ4_createStreamDecode)(void);
++LZ4LIB_API int                 LZ4_PREFIXED_TOKEN(LZ4_freeStreamDecode) (LZ4_streamDecode_t* LZ4_stream);
+ 
+ /*! LZ4_setStreamDecode() :
+  *  An LZ4_streamDecode_t context can be allocated once and re-used multiple times.
+@@ -365,7 +379,7 @@ LZ4LIB_API int                 LZ4_freeStreamDecode (LZ4_streamDecode_t* LZ4_str
+  *  Dictionary is presumed stable : it must remain accessible and unmodified during next decompression.
+  * @return : 1 if OK, 0 if error
+  */
+-LZ4LIB_API int LZ4_setStreamDecode (LZ4_streamDecode_t* LZ4_streamDecode, const char* dictionary, int dictSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_setStreamDecode) (LZ4_streamDecode_t* LZ4_streamDecode, const char* dictionary, int dictSize);
+ 
+ /*! LZ4_decoderRingBufferSize() : v1.8.2+
+  *  Note : in a ring buffer scenario (optional),
+@@ -378,7 +392,7 @@ LZ4LIB_API int LZ4_setStreamDecode (LZ4_streamDecode_t* LZ4_streamDecode, const
+  * @return : minimum ring buffer size,
+  *           or 0 if there is an error (invalid maxBlockSize).
+  */
+-LZ4LIB_API int LZ4_decoderRingBufferSize(int maxBlockSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decoderRingBufferSize)(int maxBlockSize);
+ #define LZ4_DECODER_RING_BUFFER_SIZE(maxBlockSize) (65536 + 14 + (maxBlockSize))  /* for static allocation; maxBlockSize presumed valid */
+ 
+ /*! LZ4_decompress_*_continue() :
+@@ -406,7 +420,7 @@ LZ4LIB_API int LZ4_decoderRingBufferSize(int maxBlockSize);
+  *  save the last 64KB of decoded data into a safe buffer where it can't be modified during decompression,
+  *  then indicate where this data is saved using LZ4_setStreamDecode(), before decompressing next block.
+ */
+-LZ4LIB_API int LZ4_decompress_safe_continue (LZ4_streamDecode_t* LZ4_streamDecode, const char* src, char* dst, int srcSize, int dstCapacity);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_continue) (LZ4_streamDecode_t* LZ4_streamDecode, const char* src, char* dst, int srcSize, int dstCapacity);
+ 
+ 
+ /*! LZ4_decompress_*_usingDict() :
+@@ -417,7 +431,7 @@ LZ4LIB_API int LZ4_decompress_safe_continue (LZ4_streamDecode_t* LZ4_streamDecod
+  *  Performance tip : Decompression speed can be substantially increased
+  *                    when dst == dictStart + dictSize.
+  */
+-LZ4LIB_API int LZ4_decompress_safe_usingDict (const char* src, char* dst, int srcSize, int dstCapcity, const char* dictStart, int dictSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_usingDict) (const char* src, char* dst, int srcSize, int dstCapcity, const char* dictStart, int dictSize);
+ 
+ #endif /* LZ4_H_2983827168210 */
+ 
+@@ -468,7 +482,7 @@ LZ4LIB_API int LZ4_decompress_safe_usingDict (const char* src, char* dst, int sr
+  *  this function initializes the provided state with a call to something like LZ4_resetStream_fast()
+  *  while LZ4_compress_fast_extState() starts with a call to LZ4_resetStream().
+  */
+-LZ4LIB_STATIC_API int LZ4_compress_fast_extState_fastReset (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
++LZ4LIB_STATIC_API int LZ4_PREFIXED_TOKEN(LZ4_compress_fast_extState_fastReset) (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int acceleration);
+ 
+ /*! LZ4_attach_dictionary() :
+  *  This is an experimental API that allows
+@@ -496,7 +510,7 @@ LZ4LIB_STATIC_API int LZ4_compress_fast_extState_fastReset (void* state, const c
+  *  stream (and source buffer) must remain in-place / accessible / unchanged
+  *  through the completion of the first compression call on the stream.
+  */
+-LZ4LIB_STATIC_API void LZ4_attach_dictionary(LZ4_stream_t* workingStream, const LZ4_stream_t* dictionaryStream);
++LZ4LIB_STATIC_API void LZ4_PREFIXED_TOKEN(LZ4_attach_dictionary)(LZ4_stream_t* workingStream, const LZ4_stream_t* dictionaryStream);
+ 
+ 
+ /*! In-place compression and decompression
+@@ -642,7 +656,7 @@ union LZ4_stream_u {
+  *  Note2: An LZ4_stream_t structure guarantees correct alignment and size.
+  *  Note3: Before v1.9.0, use LZ4_resetStream() instead
+  */
+-LZ4LIB_API LZ4_stream_t* LZ4_initStream (void* buffer, size_t size);
++LZ4LIB_API LZ4_stream_t* LZ4_PREFIXED_TOKEN(LZ4_initStream) (void* buffer, size_t size);
+ 
+ 
+ /*! LZ4_streamDecode_t :
+@@ -694,16 +708,16 @@ union LZ4_streamDecode_u {
+ #endif /* LZ4_DISABLE_DEPRECATE_WARNINGS */
+ 
+ /*! Obsolete compression functions (since v1.7.3) */
+-LZ4_DEPRECATED("use LZ4_compress_default() instead")       LZ4LIB_API int LZ4_compress               (const char* src, char* dest, int srcSize);
+-LZ4_DEPRECATED("use LZ4_compress_default() instead")       LZ4LIB_API int LZ4_compress_limitedOutput (const char* src, char* dest, int srcSize, int maxOutputSize);
+-LZ4_DEPRECATED("use LZ4_compress_fast_extState() instead") LZ4LIB_API int LZ4_compress_withState               (void* state, const char* source, char* dest, int inputSize);
+-LZ4_DEPRECATED("use LZ4_compress_fast_extState() instead") LZ4LIB_API int LZ4_compress_limitedOutput_withState (void* state, const char* source, char* dest, int inputSize, int maxOutputSize);
+-LZ4_DEPRECATED("use LZ4_compress_fast_continue() instead") LZ4LIB_API int LZ4_compress_continue                (LZ4_stream_t* LZ4_streamPtr, const char* source, char* dest, int inputSize);
+-LZ4_DEPRECATED("use LZ4_compress_fast_continue() instead") LZ4LIB_API int LZ4_compress_limitedOutput_continue  (LZ4_stream_t* LZ4_streamPtr, const char* source, char* dest, int inputSize, int maxOutputSize);
++LZ4_DEPRECATED("use LZ4_compress_default() instead")       LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress)               (const char* src, char* dest, int srcSize);
++LZ4_DEPRECATED("use LZ4_compress_default() instead")       LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_limitedOutput) (const char* src, char* dest, int srcSize, int maxOutputSize);
++LZ4_DEPRECATED("use LZ4_compress_fast_extState() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_withState)               (void* state, const char* source, char* dest, int inputSize);
++LZ4_DEPRECATED("use LZ4_compress_fast_extState() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_limitedOutput_withState) (void* state, const char* source, char* dest, int inputSize, int maxOutputSize);
++LZ4_DEPRECATED("use LZ4_compress_fast_continue() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_continue)                (LZ4_stream_t* LZ4_streamPtr, const char* source, char* dest, int inputSize);
++LZ4_DEPRECATED("use LZ4_compress_fast_continue() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_limitedOutput_continue)  (LZ4_stream_t* LZ4_streamPtr, const char* source, char* dest, int inputSize, int maxOutputSize);
+ 
+ /*! Obsolete decompression functions (since v1.8.0) */
+-LZ4_DEPRECATED("use LZ4_decompress_fast() instead") LZ4LIB_API int LZ4_uncompress (const char* source, char* dest, int outputSize);
+-LZ4_DEPRECATED("use LZ4_decompress_safe() instead") LZ4LIB_API int LZ4_uncompress_unknownOutputSize (const char* source, char* dest, int isize, int maxOutputSize);
++LZ4_DEPRECATED("use LZ4_decompress_fast() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_uncompress) (const char* source, char* dest, int outputSize);
++LZ4_DEPRECATED("use LZ4_decompress_safe() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_uncompress_unknownOutputSize) (const char* source, char* dest, int isize, int maxOutputSize);
+ 
+ /* Obsolete streaming functions (since v1.7.0)
+  * degraded functionality; do not use!
+@@ -715,14 +729,14 @@ LZ4_DEPRECATED("use LZ4_decompress_safe() instead") LZ4LIB_API int LZ4_uncompres
+  * achieved will therefore be no better than compressing each chunk
+  * independently.
+  */
+-LZ4_DEPRECATED("Use LZ4_createStream() instead") LZ4LIB_API void* LZ4_create (char* inputBuffer);
+-LZ4_DEPRECATED("Use LZ4_createStream() instead") LZ4LIB_API int   LZ4_sizeofStreamState(void);
+-LZ4_DEPRECATED("Use LZ4_resetStream() instead")  LZ4LIB_API int   LZ4_resetStreamState(void* state, char* inputBuffer);
+-LZ4_DEPRECATED("Use LZ4_saveDict() instead")     LZ4LIB_API char* LZ4_slideInputBuffer (void* state);
++LZ4_DEPRECATED("Use LZ4_createStream() instead") LZ4LIB_API void* LZ4_PREFIXED_TOKEN(LZ4_create) (char* inputBuffer);
++LZ4_DEPRECATED("Use LZ4_createStream() instead") LZ4LIB_API int   LZ4_PREFIXED_TOKEN(LZ4_sizeofStreamState)(void);
++LZ4_DEPRECATED("Use LZ4_resetStream() instead")  LZ4LIB_API int   LZ4_PREFIXED_TOKEN(LZ4_resetStreamState)(void* state, char* inputBuffer);
++LZ4_DEPRECATED("Use LZ4_saveDict() instead")     LZ4LIB_API char* LZ4_PREFIXED_TOKEN(LZ4_slideInputBuffer) (void* state);
+ 
+ /*! Obsolete streaming decoding functions (since v1.7.0) */
+-LZ4_DEPRECATED("use LZ4_decompress_safe_usingDict() instead") LZ4LIB_API int LZ4_decompress_safe_withPrefix64k (const char* src, char* dst, int compressedSize, int maxDstSize);
+-LZ4_DEPRECATED("use LZ4_decompress_fast_usingDict() instead") LZ4LIB_API int LZ4_decompress_fast_withPrefix64k (const char* src, char* dst, int originalSize);
++LZ4_DEPRECATED("use LZ4_decompress_safe_usingDict() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_safe_withPrefix64k) (const char* src, char* dst, int compressedSize, int maxDstSize);
++LZ4_DEPRECATED("use LZ4_decompress_fast_usingDict() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast_withPrefix64k) (const char* src, char* dst, int originalSize);
+ 
+ /*! Obsolete LZ4_decompress_fast variants (since v1.9.0) :
+  *  These functions used to be faster than LZ4_decompress_safe(),
+@@ -751,11 +765,11 @@ LZ4_DEPRECATED("use LZ4_decompress_fast_usingDict() instead") LZ4LIB_API int LZ4
+  *         As a consequence, use these functions in trusted environments with trusted data **only**.
+  */
+ LZ4_DEPRECATED("This function is deprecated and unsafe. Consider using LZ4_decompress_safe() instead")
+-LZ4LIB_API int LZ4_decompress_fast (const char* src, char* dst, int originalSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast) (const char* src, char* dst, int originalSize);
+ LZ4_DEPRECATED("This function is deprecated and unsafe. Consider using LZ4_decompress_safe_continue() instead")
+-LZ4LIB_API int LZ4_decompress_fast_continue (LZ4_streamDecode_t* LZ4_streamDecode, const char* src, char* dst, int originalSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast_continue) (LZ4_streamDecode_t* LZ4_streamDecode, const char* src, char* dst, int originalSize);
+ LZ4_DEPRECATED("This function is deprecated and unsafe. Consider using LZ4_decompress_safe_usingDict() instead")
+-LZ4LIB_API int LZ4_decompress_fast_usingDict (const char* src, char* dst, int originalSize, const char* dictStart, int dictSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_decompress_fast_usingDict) (const char* src, char* dst, int originalSize, const char* dictStart, int dictSize);
+ 
+ /*! LZ4_resetStream() :
+  *  An LZ4_stream_t structure must be initialized at least once.
+@@ -763,7 +777,7 @@ LZ4LIB_API int LZ4_decompress_fast_usingDict (const char* src, char* dst, int or
+  *  Consider switching to LZ4_initStream(),
+  *  invoking LZ4_resetStream() will trigger deprecation warnings in the future.
+  */
+-LZ4LIB_API void LZ4_resetStream (LZ4_stream_t* streamPtr);
++LZ4LIB_API void LZ4_PREFIXED_TOKEN(LZ4_resetStream) (LZ4_stream_t* streamPtr);
+ 
+ 
+ #endif /* LZ4_H_98237428734687 */
+diff --git a/internal-complibs/lz4-1.9.3/lz4hc.c b/internal-complibs/lz4-1.9.3/lz4hc.c
+index 77c9f43..c23dbea 100644
+--- a/internal-complibs/lz4-1.9.3/lz4hc.c
++++ b/internal-complibs/lz4-1.9.3/lz4hc.c
+@@ -918,7 +918,7 @@ LZ4HC_compress_generic (
+ }
+ 
+ 
+-int LZ4_sizeofStateHC(void) { return (int)sizeof(LZ4_streamHC_t); }
++int LZ4_PREFIXED_TOKEN(LZ4_sizeofStateHC)(void) { return (int)sizeof(LZ4_streamHC_t); }
+ 
+ static size_t LZ4_streamHC_t_alignment(void)
+ {
+@@ -932,26 +932,26 @@ static size_t LZ4_streamHC_t_alignment(void)
+ 
+ /* state is presumed correctly initialized,
+  * in which case its size and alignment have already been validate */
+-int LZ4_compress_HC_extStateHC_fastReset (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC_fastReset) (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel)
+ {
+     LZ4HC_CCtx_internal* const ctx = &((LZ4_streamHC_t*)state)->internal_donotuse;
+     if (!LZ4_isAligned(state, LZ4_streamHC_t_alignment())) return 0;
+-    LZ4_resetStreamHC_fast((LZ4_streamHC_t*)state, compressionLevel);
++    LZ4_PREFIXED_TOKEN(LZ4_resetStreamHC_fast)((LZ4_streamHC_t*)state, compressionLevel);
+     LZ4HC_init_internal (ctx, (const BYTE*)src);
+-    if (dstCapacity < LZ4_compressBound(srcSize))
++    if (dstCapacity < LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize))
+         return LZ4HC_compress_generic (ctx, src, dst, &srcSize, dstCapacity, compressionLevel, limitedOutput);
+     else
+         return LZ4HC_compress_generic (ctx, src, dst, &srcSize, dstCapacity, compressionLevel, notLimited);
+ }
+ 
+-int LZ4_compress_HC_extStateHC (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC) (void* state, const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel)
+ {
+-    LZ4_streamHC_t* const ctx = LZ4_initStreamHC(state, sizeof(*ctx));
++    LZ4_streamHC_t* const ctx = LZ4_PREFIXED_TOKEN(LZ4_initStreamHC)(state, sizeof(*ctx));
+     if (ctx==NULL) return 0;   /* init failure */
+-    return LZ4_compress_HC_extStateHC_fastReset(state, src, dst, srcSize, dstCapacity, compressionLevel);
++    return LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC_fastReset)(state, src, dst, srcSize, dstCapacity, compressionLevel);
+ }
+ 
+-int LZ4_compress_HC(const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_HC)(const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel)
+ {
+ #if defined(LZ4HC_HEAPMODE) && LZ4HC_HEAPMODE==1
+     LZ4_streamHC_t* const statePtr = (LZ4_streamHC_t*)ALLOC(sizeof(LZ4_streamHC_t));
+@@ -959,7 +959,7 @@ int LZ4_compress_HC(const char* src, char* dst, int srcSize, int dstCapacity, in
+     LZ4_streamHC_t state;
+     LZ4_streamHC_t* const statePtr = &state;
+ #endif
+-    int const cSize = LZ4_compress_HC_extStateHC(statePtr, src, dst, srcSize, dstCapacity, compressionLevel);
++    int const cSize = LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC)(statePtr, src, dst, srcSize, dstCapacity, compressionLevel);
+ #if defined(LZ4HC_HEAPMODE) && LZ4HC_HEAPMODE==1
+     FREEMEM(statePtr);
+ #endif
+@@ -967,12 +967,12 @@ int LZ4_compress_HC(const char* src, char* dst, int srcSize, int dstCapacity, in
+ }
+ 
+ /* state is presumed sized correctly (>= sizeof(LZ4_streamHC_t)) */
+-int LZ4_compress_HC_destSize(void* state, const char* source, char* dest, int* sourceSizePtr, int targetDestSize, int cLevel)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_destSize)(void* state, const char* source, char* dest, int* sourceSizePtr, int targetDestSize, int cLevel)
+ {
+-    LZ4_streamHC_t* const ctx = LZ4_initStreamHC(state, sizeof(*ctx));
++    LZ4_streamHC_t* const ctx = LZ4_PREFIXED_TOKEN(LZ4_initStreamHC)(state, sizeof(*ctx));
+     if (ctx==NULL) return 0;   /* init failure */
+     LZ4HC_init_internal(&ctx->internal_donotuse, (const BYTE*) source);
+-    LZ4_setCompressionLevel(ctx, cLevel);
++    LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(ctx, cLevel);
+     return LZ4HC_compress_generic(&ctx->internal_donotuse, source, dest, sourceSizePtr, targetDestSize, cLevel, fillOutput);
+ }
+ 
+@@ -982,16 +982,16 @@ int LZ4_compress_HC_destSize(void* state, const char* source, char* dest, int* s
+ *  Streaming Functions
+ **************************************/
+ /* allocation */
+-LZ4_streamHC_t* LZ4_createStreamHC(void)
++LZ4_streamHC_t* LZ4_PREFIXED_TOKEN(LZ4_createStreamHC)(void)
+ {
+     LZ4_streamHC_t* const state =
+         (LZ4_streamHC_t*)ALLOC_AND_ZERO(sizeof(LZ4_streamHC_t));
+     if (state == NULL) return NULL;
+-    LZ4_setCompressionLevel(state, LZ4HC_CLEVEL_DEFAULT);
++    LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(state, LZ4HC_CLEVEL_DEFAULT);
+     return state;
+ }
+ 
+-int LZ4_freeStreamHC (LZ4_streamHC_t* LZ4_streamHCPtr)
++int LZ4_PREFIXED_TOKEN(LZ4_freeStreamHC) (LZ4_streamHC_t* LZ4_streamHCPtr)
+ {
+     DEBUGLOG(4, "LZ4_freeStreamHC(%p)", LZ4_streamHCPtr);
+     if (!LZ4_streamHCPtr) return 0;  /* support free on NULL */
+@@ -1000,7 +1000,7 @@ int LZ4_freeStreamHC (LZ4_streamHC_t* LZ4_streamHCPtr)
+ }
+ 
+ 
+-LZ4_streamHC_t* LZ4_initStreamHC (void* buffer, size_t size)
++LZ4_streamHC_t* LZ4_PREFIXED_TOKEN(LZ4_initStreamHC) (void* buffer, size_t size)
+ {
+     LZ4_streamHC_t* const LZ4_streamHCPtr = (LZ4_streamHC_t*)buffer;
+     /* if compilation fails here, LZ4_STREAMHCSIZE must be increased */
+@@ -1013,32 +1013,32 @@ LZ4_streamHC_t* LZ4_initStreamHC (void* buffer, size_t size)
+     /* init */
+     { LZ4HC_CCtx_internal* const hcstate = &(LZ4_streamHCPtr->internal_donotuse);
+       MEM_INIT(hcstate, 0, sizeof(*hcstate)); }
+-    LZ4_setCompressionLevel(LZ4_streamHCPtr, LZ4HC_CLEVEL_DEFAULT);
++    LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(LZ4_streamHCPtr, LZ4HC_CLEVEL_DEFAULT);
+     return LZ4_streamHCPtr;
+ }
+ 
+ /* just a stub */
+-void LZ4_resetStreamHC (LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel)
++void LZ4_PREFIXED_TOKEN(LZ4_resetStreamHC) (LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel)
+ {
+-    LZ4_initStreamHC(LZ4_streamHCPtr, sizeof(*LZ4_streamHCPtr));
+-    LZ4_setCompressionLevel(LZ4_streamHCPtr, compressionLevel);
++    LZ4_PREFIXED_TOKEN(LZ4_initStreamHC)(LZ4_streamHCPtr, sizeof(*LZ4_streamHCPtr));
++    LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(LZ4_streamHCPtr, compressionLevel);
+ }
+ 
+-void LZ4_resetStreamHC_fast (LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel)
++void LZ4_PREFIXED_TOKEN(LZ4_resetStreamHC_fast) (LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel)
+ {
+     DEBUGLOG(4, "LZ4_resetStreamHC_fast(%p, %d)", LZ4_streamHCPtr, compressionLevel);
+     if (LZ4_streamHCPtr->internal_donotuse.dirty) {
+-        LZ4_initStreamHC(LZ4_streamHCPtr, sizeof(*LZ4_streamHCPtr));
++        LZ4_PREFIXED_TOKEN(LZ4_initStreamHC)(LZ4_streamHCPtr, sizeof(*LZ4_streamHCPtr));
+     } else {
+         /* preserve end - base : can trigger clearTable's threshold */
+         LZ4_streamHCPtr->internal_donotuse.end -= (uptrval)LZ4_streamHCPtr->internal_donotuse.base;
+         LZ4_streamHCPtr->internal_donotuse.base = NULL;
+         LZ4_streamHCPtr->internal_donotuse.dictCtx = NULL;
+     }
+-    LZ4_setCompressionLevel(LZ4_streamHCPtr, compressionLevel);
++    LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(LZ4_streamHCPtr, compressionLevel);
+ }
+ 
+-void LZ4_setCompressionLevel(LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel)
++void LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel)
+ {
+     DEBUGLOG(5, "LZ4_setCompressionLevel(%p, %d)", LZ4_streamHCPtr, compressionLevel);
+     if (compressionLevel < 1) compressionLevel = LZ4HC_CLEVEL_DEFAULT;
+@@ -1046,14 +1046,14 @@ void LZ4_setCompressionLevel(LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLev
+     LZ4_streamHCPtr->internal_donotuse.compressionLevel = (short)compressionLevel;
+ }
+ 
+-void LZ4_favorDecompressionSpeed(LZ4_streamHC_t* LZ4_streamHCPtr, int favor)
++void LZ4_PREFIXED_TOKEN(LZ4_favorDecompressionSpeed)(LZ4_streamHC_t* LZ4_streamHCPtr, int favor)
+ {
+     LZ4_streamHCPtr->internal_donotuse.favorDecSpeed = (favor!=0);
+ }
+ 
+ /* LZ4_loadDictHC() :
+  * LZ4_streamHCPtr is presumed properly initialized */
+-int LZ4_loadDictHC (LZ4_streamHC_t* LZ4_streamHCPtr,
++int LZ4_PREFIXED_TOKEN(LZ4_loadDictHC) (LZ4_streamHC_t* LZ4_streamHCPtr,
+               const char* dictionary, int dictSize)
+ {
+     LZ4HC_CCtx_internal* const ctxPtr = &LZ4_streamHCPtr->internal_donotuse;
+@@ -1065,8 +1065,8 @@ int LZ4_loadDictHC (LZ4_streamHC_t* LZ4_streamHCPtr,
+     }
+     /* need a full initialization, there are bad side-effects when using resetFast() */
+     {   int const cLevel = ctxPtr->compressionLevel;
+-        LZ4_initStreamHC(LZ4_streamHCPtr, sizeof(*LZ4_streamHCPtr));
+-        LZ4_setCompressionLevel(LZ4_streamHCPtr, cLevel);
++        LZ4_PREFIXED_TOKEN(LZ4_initStreamHC)(LZ4_streamHCPtr, sizeof(*LZ4_streamHCPtr));
++        LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(LZ4_streamHCPtr, cLevel);
+     }
+     LZ4HC_init_internal (ctxPtr, (const BYTE*)dictionary);
+     ctxPtr->end = (const BYTE*)dictionary + dictSize;
+@@ -1074,7 +1074,7 @@ int LZ4_loadDictHC (LZ4_streamHC_t* LZ4_streamHCPtr,
+     return dictSize;
+ }
+ 
+-void LZ4_attach_HC_dictionary(LZ4_streamHC_t *working_stream, const LZ4_streamHC_t *dictionary_stream) {
++void LZ4_PREFIXED_TOKEN(LZ4_attach_HC_dictionary)(LZ4_streamHC_t *working_stream, const LZ4_streamHC_t *dictionary_stream) {
+     working_stream->internal_donotuse.dictCtx = dictionary_stream != NULL ? &(dictionary_stream->internal_donotuse) : NULL;
+ }
+ 
+@@ -1115,7 +1115,7 @@ LZ4_compressHC_continue_generic (LZ4_streamHC_t* LZ4_streamHCPtr,
+     if ((size_t)(ctxPtr->end - ctxPtr->base) > 2 GB) {
+         size_t dictSize = (size_t)(ctxPtr->end - ctxPtr->base) - ctxPtr->dictLimit;
+         if (dictSize > 64 KB) dictSize = 64 KB;
+-        LZ4_loadDictHC(LZ4_streamHCPtr, (const char*)(ctxPtr->end) - dictSize, (int)dictSize);
++        LZ4_PREFIXED_TOKEN(LZ4_loadDictHC)(LZ4_streamHCPtr, (const char*)(ctxPtr->end) - dictSize, (int)dictSize);
+     }
+ 
+     /* Check if blocks follow each other */
+@@ -1135,15 +1135,15 @@ LZ4_compressHC_continue_generic (LZ4_streamHC_t* LZ4_streamHCPtr,
+     return LZ4HC_compress_generic (ctxPtr, src, dst, srcSizePtr, dstCapacity, ctxPtr->compressionLevel, limit);
+ }
+ 
+-int LZ4_compress_HC_continue (LZ4_streamHC_t* LZ4_streamHCPtr, const char* src, char* dst, int srcSize, int dstCapacity)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_continue) (LZ4_streamHC_t* LZ4_streamHCPtr, const char* src, char* dst, int srcSize, int dstCapacity)
+ {
+-    if (dstCapacity < LZ4_compressBound(srcSize))
++    if (dstCapacity < LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize))
+         return LZ4_compressHC_continue_generic (LZ4_streamHCPtr, src, dst, &srcSize, dstCapacity, limitedOutput);
+     else
+         return LZ4_compressHC_continue_generic (LZ4_streamHCPtr, src, dst, &srcSize, dstCapacity, notLimited);
+ }
+ 
+-int LZ4_compress_HC_continue_destSize (LZ4_streamHC_t* LZ4_streamHCPtr, const char* src, char* dst, int* srcSizePtr, int targetDestSize)
++int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_continue_destSize) (LZ4_streamHC_t* LZ4_streamHCPtr, const char* src, char* dst, int* srcSizePtr, int targetDestSize)
+ {
+     return LZ4_compressHC_continue_generic(LZ4_streamHCPtr, src, dst, srcSizePtr, targetDestSize, fillOutput);
+ }
+@@ -1155,7 +1155,7 @@ int LZ4_compress_HC_continue_destSize (LZ4_streamHC_t* LZ4_streamHCPtr, const ch
+  * into a user-provided buffer
+  * which is then used to continue compression
+  */
+-int LZ4_saveDictHC (LZ4_streamHC_t* LZ4_streamHCPtr, char* safeBuffer, int dictSize)
++int LZ4_PREFIXED_TOKEN(LZ4_saveDictHC) (LZ4_streamHC_t* LZ4_streamHCPtr, char* safeBuffer, int dictSize)
+ {
+     LZ4HC_CCtx_internal* const streamPtr = &LZ4_streamHCPtr->internal_donotuse;
+     int const prefixSize = (int)(streamPtr->end - (streamPtr->base + streamPtr->dictLimit));
+@@ -1186,61 +1186,61 @@ int LZ4_saveDictHC (LZ4_streamHC_t* LZ4_streamHCPtr, char* safeBuffer, int dictS
+ /* These functions currently generate deprecation warnings */
+ 
+ /* Wrappers for deprecated compression functions */
+-int LZ4_compressHC(const char* src, char* dst, int srcSize) { return LZ4_compress_HC (src, dst, srcSize, LZ4_compressBound(srcSize), 0); }
+-int LZ4_compressHC_limitedOutput(const char* src, char* dst, int srcSize, int maxDstSize) { return LZ4_compress_HC(src, dst, srcSize, maxDstSize, 0); }
+-int LZ4_compressHC2(const char* src, char* dst, int srcSize, int cLevel) { return LZ4_compress_HC (src, dst, srcSize, LZ4_compressBound(srcSize), cLevel); }
+-int LZ4_compressHC2_limitedOutput(const char* src, char* dst, int srcSize, int maxDstSize, int cLevel) { return LZ4_compress_HC(src, dst, srcSize, maxDstSize, cLevel); }
+-int LZ4_compressHC_withStateHC (void* state, const char* src, char* dst, int srcSize) { return LZ4_compress_HC_extStateHC (state, src, dst, srcSize, LZ4_compressBound(srcSize), 0); }
+-int LZ4_compressHC_limitedOutput_withStateHC (void* state, const char* src, char* dst, int srcSize, int maxDstSize) { return LZ4_compress_HC_extStateHC (state, src, dst, srcSize, maxDstSize, 0); }
+-int LZ4_compressHC2_withStateHC (void* state, const char* src, char* dst, int srcSize, int cLevel) { return LZ4_compress_HC_extStateHC(state, src, dst, srcSize, LZ4_compressBound(srcSize), cLevel); }
+-int LZ4_compressHC2_limitedOutput_withStateHC (void* state, const char* src, char* dst, int srcSize, int maxDstSize, int cLevel) { return LZ4_compress_HC_extStateHC(state, src, dst, srcSize, maxDstSize, cLevel); }
+-int LZ4_compressHC_continue (LZ4_streamHC_t* ctx, const char* src, char* dst, int srcSize) { return LZ4_compress_HC_continue (ctx, src, dst, srcSize, LZ4_compressBound(srcSize)); }
+-int LZ4_compressHC_limitedOutput_continue (LZ4_streamHC_t* ctx, const char* src, char* dst, int srcSize, int maxDstSize) { return LZ4_compress_HC_continue (ctx, src, dst, srcSize, maxDstSize); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC)(const char* src, char* dst, int srcSize) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC) (src, dst, srcSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize), 0); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC_limitedOutput)(const char* src, char* dst, int srcSize, int maxDstSize) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC)(src, dst, srcSize, maxDstSize, 0); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC2)(const char* src, char* dst, int srcSize, int cLevel) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC) (src, dst, srcSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize), cLevel); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_limitedOutput)(const char* src, char* dst, int srcSize, int maxDstSize, int cLevel) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC)(src, dst, srcSize, maxDstSize, cLevel); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC_withStateHC) (void* state, const char* src, char* dst, int srcSize) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC) (state, src, dst, srcSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize), 0); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC_limitedOutput_withStateHC) (void* state, const char* src, char* dst, int srcSize, int maxDstSize) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC) (state, src, dst, srcSize, maxDstSize, 0); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_withStateHC) (void* state, const char* src, char* dst, int srcSize, int cLevel) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC)(state, src, dst, srcSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize), cLevel); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_limitedOutput_withStateHC) (void* state, const char* src, char* dst, int srcSize, int maxDstSize, int cLevel) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC)(state, src, dst, srcSize, maxDstSize, cLevel); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC_continue) (LZ4_streamHC_t* ctx, const char* src, char* dst, int srcSize) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC_continue) (ctx, src, dst, srcSize, LZ4_PREFIXED_TOKEN(LZ4_compressBound)(srcSize)); }
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC_limitedOutput_continue) (LZ4_streamHC_t* ctx, const char* src, char* dst, int srcSize, int maxDstSize) { return LZ4_PREFIXED_TOKEN(LZ4_compress_HC_continue) (ctx, src, dst, srcSize, maxDstSize); }
+ 
+ 
+ /* Deprecated streaming functions */
+-int LZ4_sizeofStreamStateHC(void) { return LZ4_STREAMHCSIZE; }
++int LZ4_PREFIXED_TOKEN(LZ4_sizeofStreamStateHC)(void) { return LZ4_STREAMHCSIZE; }
+ 
+ /* state is presumed correctly sized, aka >= sizeof(LZ4_streamHC_t)
+  * @return : 0 on success, !=0 if error */
+-int LZ4_resetStreamStateHC(void* state, char* inputBuffer)
++int LZ4_PREFIXED_TOKEN(LZ4_resetStreamStateHC)(void* state, char* inputBuffer)
+ {
+-    LZ4_streamHC_t* const hc4 = LZ4_initStreamHC(state, sizeof(*hc4));
++    LZ4_streamHC_t* const hc4 = LZ4_PREFIXED_TOKEN(LZ4_initStreamHC)(state, sizeof(*hc4));
+     if (hc4 == NULL) return 1;   /* init failed */
+     LZ4HC_init_internal (&hc4->internal_donotuse, (const BYTE*)inputBuffer);
+     return 0;
+ }
+ 
+-void* LZ4_createHC (const char* inputBuffer)
++void* LZ4_PREFIXED_TOKEN(LZ4_createHC) (const char* inputBuffer)
+ {
+-    LZ4_streamHC_t* const hc4 = LZ4_createStreamHC();
++    LZ4_streamHC_t* const hc4 = LZ4_PREFIXED_TOKEN(LZ4_createStreamHC)();
+     if (hc4 == NULL) return NULL;   /* not enough memory */
+     LZ4HC_init_internal (&hc4->internal_donotuse, (const BYTE*)inputBuffer);
+     return hc4;
+ }
+ 
+-int LZ4_freeHC (void* LZ4HC_Data)
++int LZ4_PREFIXED_TOKEN(LZ4_freeHC) (void* LZ4HC_Data)
+ {
+     if (!LZ4HC_Data) return 0;  /* support free on NULL */
+     FREEMEM(LZ4HC_Data);
+     return 0;
+ }
+ 
+-int LZ4_compressHC2_continue (void* LZ4HC_Data, const char* src, char* dst, int srcSize, int cLevel)
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_continue) (void* LZ4HC_Data, const char* src, char* dst, int srcSize, int cLevel)
+ {
+     return LZ4HC_compress_generic (&((LZ4_streamHC_t*)LZ4HC_Data)->internal_donotuse, src, dst, &srcSize, 0, cLevel, notLimited);
+ }
+ 
+-int LZ4_compressHC2_limitedOutput_continue (void* LZ4HC_Data, const char* src, char* dst, int srcSize, int dstCapacity, int cLevel)
++int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_limitedOutput_continue) (void* LZ4HC_Data, const char* src, char* dst, int srcSize, int dstCapacity, int cLevel)
+ {
+     return LZ4HC_compress_generic (&((LZ4_streamHC_t*)LZ4HC_Data)->internal_donotuse, src, dst, &srcSize, dstCapacity, cLevel, limitedOutput);
+ }
+ 
+-char* LZ4_slideInputBufferHC(void* LZ4HC_Data)
++char* LZ4_PREFIXED_TOKEN(LZ4_slideInputBufferHC)(void* LZ4HC_Data)
+ {
+     LZ4_streamHC_t *ctx = (LZ4_streamHC_t*)LZ4HC_Data;
+     const BYTE *bufferStart = ctx->internal_donotuse.base + ctx->internal_donotuse.lowLimit;
+-    LZ4_resetStreamHC_fast(ctx, ctx->internal_donotuse.compressionLevel);
++    LZ4_PREFIXED_TOKEN(LZ4_resetStreamHC_fast)(ctx, ctx->internal_donotuse.compressionLevel);
+     /* avoid const char * -> char * conversion warning :( */
+     return (char *)(uptrval)bufferStart;
+ }
+diff --git a/internal-complibs/lz4-1.9.3/lz4hc.h b/internal-complibs/lz4-1.9.3/lz4hc.h
+index 3d441fb..474a2d3 100644
+--- a/internal-complibs/lz4-1.9.3/lz4hc.h
++++ b/internal-complibs/lz4-1.9.3/lz4hc.h
+@@ -63,7 +63,7 @@ extern "C" {
+  * @return : the number of bytes written into 'dst'
+  *           or 0 if compression fails.
+  */
+-LZ4LIB_API int LZ4_compress_HC (const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_HC) (const char* src, char* dst, int srcSize, int dstCapacity, int compressionLevel);
+ 
+ 
+ /* Note :
+@@ -76,8 +76,8 @@ LZ4LIB_API int LZ4_compress_HC (const char* src, char* dst, int srcSize, int dst
+  * `state` size is provided by LZ4_sizeofStateHC().
+  *  Memory segment must be aligned on 8-bytes boundaries (which a normal malloc() should do properly).
+  */
+-LZ4LIB_API int LZ4_sizeofStateHC(void);
+-LZ4LIB_API int LZ4_compress_HC_extStateHC(void* stateHC, const char* src, char* dst, int srcSize, int maxDstSize, int compressionLevel);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_sizeofStateHC)(void);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC)(void* stateHC, const char* src, char* dst, int srcSize, int maxDstSize, int compressionLevel);
+ 
+ 
+ /*! LZ4_compress_HC_destSize() : v1.9.0+
+@@ -88,7 +88,7 @@ LZ4LIB_API int LZ4_compress_HC_extStateHC(void* stateHC, const char* src, char*
+  *           or 0 if compression fails.
+  * `srcSizePtr` : on success, *srcSizePtr is updated to indicate how much bytes were read from `src`
+  */
+-LZ4LIB_API int LZ4_compress_HC_destSize(void* stateHC,
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_destSize)(void* stateHC,
+                                   const char* src, char* dst,
+                                         int* srcSizePtr, int targetDstSize,
+                                         int compressionLevel);
+@@ -106,8 +106,8 @@ LZ4LIB_API int LZ4_compress_HC_destSize(void* stateHC,
+  *  A same state can be used multiple times consecutively,
+  *  starting with LZ4_resetStreamHC_fast() to start a new stream of blocks.
+  */
+-LZ4LIB_API LZ4_streamHC_t* LZ4_createStreamHC(void);
+-LZ4LIB_API int             LZ4_freeStreamHC (LZ4_streamHC_t* streamHCPtr);
++LZ4LIB_API LZ4_streamHC_t* LZ4_PREFIXED_TOKEN(LZ4_createStreamHC)(void);
++LZ4LIB_API int             LZ4_PREFIXED_TOKEN(LZ4_freeStreamHC) (LZ4_streamHC_t* streamHCPtr);
+ 
+ /*
+   These functions compress data in successive blocks of any size,
+@@ -152,10 +152,10 @@ LZ4LIB_API int             LZ4_freeStreamHC (LZ4_streamHC_t* streamHCPtr);
+   just by resetting it, using LZ4_resetStreamHC_fast().
+ */
+ 
+-LZ4LIB_API void LZ4_resetStreamHC_fast(LZ4_streamHC_t* streamHCPtr, int compressionLevel);   /* v1.9.0+ */
+-LZ4LIB_API int  LZ4_loadDictHC (LZ4_streamHC_t* streamHCPtr, const char* dictionary, int dictSize);
++LZ4LIB_API void LZ4_PREFIXED_TOKEN(LZ4_resetStreamHC_fast)(LZ4_streamHC_t* streamHCPtr, int compressionLevel);   /* v1.9.0+ */
++LZ4LIB_API int  LZ4_PREFIXED_TOKEN(LZ4_loadDictHC) (LZ4_streamHC_t* streamHCPtr, const char* dictionary, int dictSize);
+ 
+-LZ4LIB_API int LZ4_compress_HC_continue (LZ4_streamHC_t* streamHCPtr,
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_continue) (LZ4_streamHC_t* streamHCPtr,
+                                    const char* src, char* dst,
+                                          int srcSize, int maxDstSize);
+ 
+@@ -169,11 +169,11 @@ LZ4LIB_API int LZ4_compress_HC_continue (LZ4_streamHC_t* streamHCPtr,
+  * `srcSizePtr` : on success, *srcSizePtr will be updated to indicate how much bytes were read from `src`.
+  *           Note that this function may not consume the entire input.
+  */
+-LZ4LIB_API int LZ4_compress_HC_continue_destSize(LZ4_streamHC_t* LZ4_streamHCPtr,
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_continue_destSize)(LZ4_streamHC_t* LZ4_streamHCPtr,
+                                            const char* src, char* dst,
+                                                  int* srcSizePtr, int targetDstSize);
+ 
+-LZ4LIB_API int LZ4_saveDictHC (LZ4_streamHC_t* streamHCPtr, char* safeBuffer, int maxDictSize);
++LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_saveDictHC) (LZ4_streamHC_t* streamHCPtr, char* safeBuffer, int maxDictSize);
+ 
+ 
+ 
+@@ -244,7 +244,7 @@ union LZ4_streamHC_u {
+  * Required before first use of a statically allocated LZ4_streamHC_t.
+  * Before v1.9.0 : use LZ4_resetStreamHC() instead
+  */
+-LZ4LIB_API LZ4_streamHC_t* LZ4_initStreamHC (void* buffer, size_t size);
++LZ4LIB_API LZ4_streamHC_t* LZ4_PREFIXED_TOKEN(LZ4_initStreamHC) (void* buffer, size_t size);
+ 
+ 
+ /*-************************************
+@@ -253,16 +253,16 @@ LZ4LIB_API LZ4_streamHC_t* LZ4_initStreamHC (void* buffer, size_t size);
+ /* see lz4.h LZ4_DISABLE_DEPRECATE_WARNINGS to turn off deprecation warnings */
+ 
+ /* deprecated compression functions */
+-LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_compressHC               (const char* source, char* dest, int inputSize);
+-LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_compressHC_limitedOutput (const char* source, char* dest, int inputSize, int maxOutputSize);
+-LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_compressHC2              (const char* source, char* dest, int inputSize, int compressionLevel);
+-LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_compressHC2_limitedOutput(const char* source, char* dest, int inputSize, int maxOutputSize, int compressionLevel);
+-LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_compressHC_withStateHC               (void* state, const char* source, char* dest, int inputSize);
+-LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_compressHC_limitedOutput_withStateHC (void* state, const char* source, char* dest, int inputSize, int maxOutputSize);
+-LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_compressHC2_withStateHC              (void* state, const char* source, char* dest, int inputSize, int compressionLevel);
+-LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_compressHC2_limitedOutput_withStateHC(void* state, const char* source, char* dest, int inputSize, int maxOutputSize, int compressionLevel);
+-LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_compressHC_continue               (LZ4_streamHC_t* LZ4_streamHCPtr, const char* source, char* dest, int inputSize);
+-LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_compressHC_limitedOutput_continue (LZ4_streamHC_t* LZ4_streamHCPtr, const char* source, char* dest, int inputSize, int maxOutputSize);
++LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC)               (const char* source, char* dest, int inputSize);
++LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC_limitedOutput) (const char* source, char* dest, int inputSize, int maxOutputSize);
++LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC2)              (const char* source, char* dest, int inputSize, int compressionLevel);
++LZ4_DEPRECATED("use LZ4_compress_HC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_limitedOutput)(const char* source, char* dest, int inputSize, int maxOutputSize, int compressionLevel);
++LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC_withStateHC)               (void* state, const char* source, char* dest, int inputSize);
++LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC_limitedOutput_withStateHC) (void* state, const char* source, char* dest, int inputSize, int maxOutputSize);
++LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_withStateHC)              (void* state, const char* source, char* dest, int inputSize, int compressionLevel);
++LZ4_DEPRECATED("use LZ4_compress_HC_extStateHC() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_limitedOutput_withStateHC)(void* state, const char* source, char* dest, int inputSize, int maxOutputSize, int compressionLevel);
++LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC_continue)               (LZ4_streamHC_t* LZ4_streamHCPtr, const char* source, char* dest, int inputSize);
++LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC_limitedOutput_continue) (LZ4_streamHC_t* LZ4_streamHCPtr, const char* source, char* dest, int inputSize, int maxOutputSize);
+ 
+ /* Obsolete streaming functions; degraded functionality; do not use!
+  *
+@@ -272,13 +272,13 @@ LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_comp
+  * LZ4_slideInputBufferHC() will truncate the history of the stream, rather
+  * than preserve a window-sized chunk of history.
+  */
+-LZ4_DEPRECATED("use LZ4_createStreamHC() instead") LZ4LIB_API void* LZ4_createHC (const char* inputBuffer);
+-LZ4_DEPRECATED("use LZ4_saveDictHC() instead") LZ4LIB_API     char* LZ4_slideInputBufferHC (void* LZ4HC_Data);
+-LZ4_DEPRECATED("use LZ4_freeStreamHC() instead") LZ4LIB_API   int   LZ4_freeHC (void* LZ4HC_Data);
+-LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_compressHC2_continue               (void* LZ4HC_Data, const char* source, char* dest, int inputSize, int compressionLevel);
+-LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_compressHC2_limitedOutput_continue (void* LZ4HC_Data, const char* source, char* dest, int inputSize, int maxOutputSize, int compressionLevel);
+-LZ4_DEPRECATED("use LZ4_createStreamHC() instead") LZ4LIB_API int   LZ4_sizeofStreamStateHC(void);
+-LZ4_DEPRECATED("use LZ4_initStreamHC() instead") LZ4LIB_API  int   LZ4_resetStreamStateHC(void* state, char* inputBuffer);
++LZ4_DEPRECATED("use LZ4_createStreamHC() instead") LZ4LIB_API void* LZ4_PREFIXED_TOKEN(LZ4_createHC) (const char* inputBuffer);
++LZ4_DEPRECATED("use LZ4_saveDictHC() instead") LZ4LIB_API     char* LZ4_PREFIXED_TOKEN(LZ4_slideInputBufferHC) (void* LZ4HC_Data);
++LZ4_DEPRECATED("use LZ4_freeStreamHC() instead") LZ4LIB_API   int   LZ4_PREFIXED_TOKEN(LZ4_freeHC) (void* LZ4HC_Data);
++LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_continue)               (void* LZ4HC_Data, const char* source, char* dest, int inputSize, int compressionLevel);
++LZ4_DEPRECATED("use LZ4_compress_HC_continue() instead") LZ4LIB_API int LZ4_PREFIXED_TOKEN(LZ4_compressHC2_limitedOutput_continue) (void* LZ4HC_Data, const char* source, char* dest, int inputSize, int maxOutputSize, int compressionLevel);
++LZ4_DEPRECATED("use LZ4_createStreamHC() instead") LZ4LIB_API int   LZ4_PREFIXED_TOKEN(LZ4_sizeofStreamStateHC)(void);
++LZ4_DEPRECATED("use LZ4_initStreamHC() instead") LZ4LIB_API  int   LZ4_PREFIXED_TOKEN(LZ4_resetStreamStateHC)(void* state, char* inputBuffer);
+ 
+ 
+ /* LZ4_resetStreamHC() is now replaced by LZ4_initStreamHC().
+@@ -289,7 +289,7 @@ LZ4_DEPRECATED("use LZ4_initStreamHC() instead") LZ4LIB_API  int   LZ4_resetStre
+  * It is recommended to switch to LZ4_initStreamHC().
+  * LZ4_resetStreamHC() will generate deprecation warnings in a future version.
+  */
+-LZ4LIB_API void LZ4_resetStreamHC (LZ4_streamHC_t* streamHCPtr, int compressionLevel);
++LZ4LIB_API void LZ4_PREFIXED_TOKEN(LZ4_resetStreamHC) (LZ4_streamHC_t* streamHCPtr, int compressionLevel);
+ 
+ 
+ #if defined (__cplusplus)
+@@ -323,14 +323,14 @@ extern "C" {
+  *  between successive invocations of LZ4_compress_HC_continue*()
+  *  for dynamic adaptation.
+  */
+-LZ4LIB_STATIC_API void LZ4_setCompressionLevel(
++LZ4LIB_STATIC_API void LZ4_PREFIXED_TOKEN(LZ4_setCompressionLevel)(
+     LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel);
+ 
+ /*! LZ4_favorDecompressionSpeed() : v1.8.2+ (experimental)
+  *  Opt. Parser will favor decompression speed over compression ratio.
+  *  Only applicable to levels >= LZ4HC_CLEVEL_OPT_MIN.
+  */
+-LZ4LIB_STATIC_API void LZ4_favorDecompressionSpeed(
++LZ4LIB_STATIC_API void LZ4_PREFIXED_TOKEN(LZ4_favorDecompressionSpeed)(
+     LZ4_streamHC_t* LZ4_streamHCPtr, int favor);
+ 
+ /*! LZ4_resetStreamHC_fast() : v1.9.0+
+@@ -356,7 +356,7 @@ LZ4LIB_STATIC_API void LZ4_favorDecompressionSpeed(
+  *  may be passed to this function. However, it will be fully reset, which will
+  *  clear any existing history and settings from the context.
+  */
+-LZ4LIB_STATIC_API void LZ4_resetStreamHC_fast(
++LZ4LIB_STATIC_API void LZ4_PREFIXED_TOKEN(LZ4_resetStreamHC_fast)(
+     LZ4_streamHC_t* LZ4_streamHCPtr, int compressionLevel);
+ 
+ /*! LZ4_compress_HC_extStateHC_fastReset() :
+@@ -370,7 +370,7 @@ LZ4LIB_STATIC_API void LZ4_resetStreamHC_fast(
+  *  LZ4_resetStreamHC_fast() while LZ4_compress_HC_extStateHC() starts with a
+  *  call to LZ4_resetStreamHC().
+  */
+-LZ4LIB_STATIC_API int LZ4_compress_HC_extStateHC_fastReset (
++LZ4LIB_STATIC_API int LZ4_PREFIXED_TOKEN(LZ4_compress_HC_extStateHC_fastReset) (
+     void* state,
+     const char* src, char* dst,
+     int srcSize, int dstCapacity,
+@@ -401,7 +401,7 @@ LZ4LIB_STATIC_API int LZ4_compress_HC_extStateHC_fastReset (
+  *  stream (and source buffer) must remain in-place / accessible / unchanged
+  *  through the lifetime of the stream session.
+  */
+-LZ4LIB_STATIC_API void LZ4_attach_HC_dictionary(
++LZ4LIB_STATIC_API void LZ4_PREFIXED_TOKEN(LZ4_attach_HC_dictionary)(
+           LZ4_streamHC_t *working_stream,
+     const LZ4_streamHC_t *dictionary_stream);
+ 

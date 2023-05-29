@@ -1,0 +1,41 @@
+# escape=`
+
+# Use the latest Windows Server Core image with .NET Framework 4.8.
+# FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+#FROM mcr.microsoft.com/windows/servercore:ltsc2019
+FROM mcr.microsoft.com/windows/servercore:20H2
+# FROM mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-20H2
+
+# Restore the default Windows shell for correct batch processing.
+SHELL ["cmd", "/S", "/C"]
+
+# Download the Build Tools bootstrapper.
+ADD https://aka.ms/vs/16/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
+
+# Install Build Tools with the Microsoft.VisualStudio.Workload.VCTools and specific CEF required tools
+# see this page for mapping of component name to contents: https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-build-tools?view=vs-2019
+RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
+    --includeRecommended `
+    --add Microsoft.VisualStudio.Component.Windows10SDK.18362 `
+    --add Microsoft.VisualStudio.Workload.VCTools `
+    --add Microsoft.VisualStudio.Component.VC.ATLMFC `
+    --add Microsoft.VisualStudio.Component.VC.140 `
+    --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
+    --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
+|| IF "%ERRORLEVEL%"=="3010" EXIT 0
+
+# Install dbghelp.dll via the windows SDK debuggers option
+ADD https://go.microsoft.com/fwlink/p/?linkid=2120843 C:\TEMP\winsdksetup.exe
+# Installer for 4147 build ADD https://go.microsoft.com/fwlink/?linkid=864422 C:\TEMP\winsdksetup.exe
+RUN C:\TEMP\winsdksetup.exe /features OptionId.WindowsDesktopDebuggers  /quiet /Log c:\temp\winsdksetup.log /norestart
+
+# Install windows 8.1 sdk for the libcef wrappers build
+ADD https://go.microsoft.com/fwlink/p/?LinkId=323507 C:\TEMP\sdksetup.exe
+RUN C:\TEMP\sdksetup.exe /q /Log c:\temp\sdksetup.log /norestart /features OptionId.WindowsDesktopSoftwareDevelopmentKit
+
+RUN powershell -command Invoke-WebRequest -UserAgent 'DockerCI' -outfile c:\temp\7zsetup.exe http://www.7-zip.org/a/7z1514-x64.exe
+RUN powershell -command Start-Process c:\TEMP\7zsetup.exe -ArgumentList '/S /D=c:/7zip' -Wait
+
+ADD https://storage.googleapis.com/chrome-infra/depot_tools.zip C:/TEMP/depot_tools.zip
+ADD https://bitbucket.org/chromiumembedded/cef/raw/master/tools/automate/automate-git.py c:/TEMP/automate-git.py
+RUN powershell -Command $env:Path = 'c:\code\depot_tools\;' + $env:Path;setx /M PATH $env:Path

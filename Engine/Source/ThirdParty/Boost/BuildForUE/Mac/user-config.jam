@@ -1,0 +1,5 @@
+using python : 3.9                                                  # Version
+    : ../../../../../Binaries/ThirdParty/Python3/Mac/bin/python3    # cmd-or-prefix
+    : ../../../../../Source/ThirdParty/Python3/Mac/include          # includes
+    : ../../../../../Binaries/ThirdParty/Python3/Mac/lib            # libraries
+    ;

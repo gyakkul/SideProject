@@ -1,0 +1,15 @@
+diff --git a/libcef/browser/request_context_handler_map.cc b/libcef/browser/request_context_handler_map.cc
+index 91098989b..a55dfb596 100644
+--- a/libcef/browser/request_context_handler_map.cc
++++ b/libcef/browser/request_context_handler_map.cc
+@@ -63,6 +63,10 @@ CefRefPtr<CefRequestContextHandler> CefRequestContextHandlerMap::GetHandler(
+       if (kv.first.first == render_process_id)
+         return kv.second;
+     }
++    // didn't find matching process, just pick the first one
++    if (render_id_handler_map_.size() > 0) {
++      return render_id_handler_map_.begin()->second;
++    }
+   }
+ 
+   return nullptr;

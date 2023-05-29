@@ -1,0 +1,5 @@
+using python : 3.9                                                          # Version
+    : ..\\..\\..\\..\\..\\Binaries\\ThirdParty\\Python3\\Win64\\python.exe  # cmd-or-prefix
+    : ..\\..\\..\\..\\..\\Source\\ThirdParty\\Python3\\Win64\\include       # includes
+    : ..\\..\\..\\..\\..\\Source\\ThirdParty\\Python3\\Win64\\libs          # libraries
+    ;

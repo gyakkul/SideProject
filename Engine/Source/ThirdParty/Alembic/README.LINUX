@@ -1,0 +1,2 @@
+There is an issue with FBX exposing Alembic/IlmBase symbols. So be very careful not to expose any of those symbols
+here. From the scripts we have set hidden symbol visibility.

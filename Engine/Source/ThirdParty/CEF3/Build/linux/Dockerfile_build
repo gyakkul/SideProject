@@ -1,0 +1,14 @@
+# CEF3 is built by using the Dockerfile_base command
+FROM cef3
+ARG CEF_BRANCH
+ENV CEF_BRANCH=${CEF_BRANCH:-4577}
+ARG GN_DEFINES
+ENV GN_DEFINES=${GN_DEFINES:-"is_component_build=false enable_precompiled_headers=false is_official_build=true"}
+
+RUN mkdir -p /code/automate
+RUN mkdir -p /code/patches
+COPY patches/*.diff /code/patches
+COPY cef_build.sh /code
+COPY Toolchain-clang.cmake /code
+
+CMD cd /code &&  echo "Now run \"cef_build.sh\" to build CEF" && /bin/bash 

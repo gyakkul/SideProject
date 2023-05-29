@@ -1,0 +1,12 @@
+UE_TOOLCHAIN = ../../../../../Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7 ;
+ARCH_NAME = aarch64-unknown-linux-gnueabi ;
+
+using python : 3.9                                                      # Version
+    : ../../../../../Binaries/ThirdParty/Python3/Linux/bin/python3      # cmd-or-prefix
+    : ../../../../../Source/ThirdParty/Python3/Linux/include/python3.9  # includes
+    : ../../../../../Binaries/ThirdParty/Python3/Linux/lib              # libraries
+    ;
+using clang :
+    : $(UE_TOOLCHAIN)/$(ARCH_NAME)/bin/clang++ --sysroot $(UE_TOOLCHAIN)/$(ARCH_NAME)
+    :
+    ;
