@@ -1,0 +1,15 @@
+--- curl-7_65_3/lib/asyn-thread.c	2019-07-19 05:32:23.000000000 -0400
++++ curl-7_65_3/lib/asyn-thread.c	2020-02-11 11:20:14.411502000 -0500
+@@ -508,9 +508,10 @@
+   /* If we're still resolving, we must wait for the threads to fully clean up,
+      unfortunately.  Otherwise, we can simply cancel to clean up any resolver
+      data. */
+-  if(td && td->thread_hnd != curl_thread_t_null)
++  /* Leak instead of blocking in the case where name resolution is still ongoing */
++  /*if(td && td->thread_hnd != curl_thread_t_null)
+     (void)thread_wait_resolv(conn, NULL, FALSE);
+-  else
++  else*/
+     Curl_resolver_cancel(conn);
+ }
+ 

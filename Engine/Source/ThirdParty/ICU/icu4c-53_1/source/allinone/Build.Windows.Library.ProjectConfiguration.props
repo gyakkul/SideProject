@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 and later: Unicode, Inc. and others. License & terms of use: http://www.unicode.org/copyright.html -->
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- This file is used to set configurations that are common to *all* ICU library code (common, i18n, and io). -->
+  
+  <!-- Options that are common to *all* configurations for *all* projects. -->
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <!-- Note: These preprocessor defines are for *all* configurations for *all* projects.  -->
+      <!-- Note: See ticket #5750 for the macro '_CRT_SECURE_NO_DEPRECATE'. -->
+      <PreprocessorDefinitions>
+        _HAS_EXCEPTIONS=0;
+        U_ATTRIBUTE_DEPRECATED=;
+        %(PreprocessorDefinitions)
+      </PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>  
+  <!-- Options that are common to all 'Release' configurations for *all* projects. -->
+  <ItemDefinitionGroup Condition="'$(ConfigurationType)'=='StaticLibrary'">
+    <Midl>
+      <PreprocessorDefinitions>U_STATIC_IMPLEMENTATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>U_STATIC_IMPLEMENTATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>U_STATIC_IMPLEMENTATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <!-- Options that are common to all 32-bit configurations for *all* projects. -->
+  <ItemDefinitionGroup Condition="'$(Platform)'=='Win32'">
+    <Link>
+      <OutputFile>$(SolutionDir)\..\..\bin\$(TargetName)53.dll</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)\..\..\lib\$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(SolutionDir)\..\..\lib\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)\..\..\lib\s$(TargetName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <!-- Options that are common to all 64-bit configurations for *all* projects. -->
+  <ItemDefinitionGroup Condition="'$(Platform)'=='x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)\..\..\bin64\$(TargetName)53.dll</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)\..\..\lib64\$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(SolutionDir)\..\..\lib64\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)\..\..\lib64\s$(TargetName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  
+  <ItemDefinitionGroup Condition="'$(Platform)'=='ARM'">
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)\..\..\binuwp\$(TargetName)53.dll</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)\..\..\libuwp\$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(SolutionDir)\..\..\libuwp\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)\..\..\libuwp\s$(TargetName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Platform)'=='ARM64'">
+    <Midl>
+      <TargetEnvironment>ARM64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)\..\..\bin64uwp\$(TargetName)53.dll</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)\..\..\lib64uwp\$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>$(SolutionDir)\..\..\lib64uwp\$(TargetName).lib</ImportLibrary>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)\..\..\lib64uwp\s$(TargetName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  
+</Project>

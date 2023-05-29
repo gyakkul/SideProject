@@ -1,0 +1,10 @@
+FROM centosaarch64:7_buildtools
+MAINTAINER Nick Shin for Epic Games <nshin@phosphorgames.com>
+
+RUN mkdir /home/work
+ADD BUILD.EPIC.sh /home/work/
+WORKDIR /home/work
+RUN ./BUILD.EPIC.sh
+
+# Default command
+CMD ["/bin/bash"]

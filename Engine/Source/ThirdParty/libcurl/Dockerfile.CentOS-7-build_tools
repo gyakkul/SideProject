@@ -1,0 +1,11 @@
+FROM centos:7
+MAINTAINER Nick Shin for Epic Games <nshin@phosphorgames.com>
+
+# important build tools
+RUN yum -y install autoconf automake make libtool gcc gcc-c++ cmake git tar bzip2 file openssl patch
+
+# just in case
+# RUN yum -y install kernel-devel kernel-headers
+
+# Default command
+CMD ["/bin/bash"]

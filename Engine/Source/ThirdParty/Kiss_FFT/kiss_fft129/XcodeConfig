@@ -1,0 +1,19 @@
+// Intermediate build files go here
+PROJECT_TEMP_DIR = ${TMPDIR}/${PRODUCT_NAME}/Intermediate/$PLATFORM_NAME/$CONFIGURATION
+
+// Build-related files for the active build configuration go here
+// The final product executables and other build products go here. speex_resampler uses different names
+// for debug/release so we can drop them straight into the output folder
+CONFIGURATION_BUILD_DIR = $(SRCROOT)/Lib/Mac/$CONFIGURATION
+
+// Identify the earliest OS X version the product is to run on.
+MACOSX_DEPLOYMENT_TARGET = 10.14
+
+// Identify the format used to store the binary’s debug information
+DEBUG_INFORMATION_FORMAT = dwarf-2
+
+// Force building all architectures
+ARCHS = x86_64 arm64
+
+// Make sure this is off
+ONLY_ACTIVE_ARCH = NO

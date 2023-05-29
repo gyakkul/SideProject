@@ -1,0 +1,15 @@
+--- 7.83.1/lib/asyn-thread.c	Tue May 24 05:37:24 2022 UTC
++++ 7.83.1/lib/asyn-thread.c	Tue May 24 05:34:40 2022 UTC
+@@ -534,9 +534,10 @@
+   /* If we're still resolving, we must wait for the threads to fully clean up,
+      unfortunately.  Otherwise, we can simply cancel to clean up any resolver
+      data. */
+-  if(td && td->thread_hnd != curl_thread_t_null)
++  /* Leak instead of blocking in the case where name resolution is still ongoing */
++  /*if(td && td->thread_hnd != curl_thread_t_null)
+     (void)thread_wait_resolv(data, NULL, FALSE);
+-  else
++  else*/
+     Curl_resolver_cancel(data);
+ }
+ 
