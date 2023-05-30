@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DatasmithWireTranslator2022_2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithWireTranslator2022_2\AliasModelToCADKernelConverter.cpp.obj"
+"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithWireTranslator2022_2\AliasModelToTechSoftConverter.cpp.obj"
+"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithWireTranslator2022_2\DatasmithWireTranslator.cpp.obj"
+"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithWireTranslator2022_2\DatasmithWireTranslatorModule.cpp.obj"
+"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithWireTranslator2022_2\OpenModelUtils.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithWireTranslator2022_2\UnrealEditor-DatasmithWireTranslator2022_2.lib"

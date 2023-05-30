@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AssetReferenceRestrictions.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Editor\AssetReferenceRestrictions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AssetReferenceRestrictions\Module.AssetReferenceRestrictions.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Editor\AssetReferenceRestrictions\Intermediate\Build\Win64\x64\UnrealEditor\Development\AssetReferenceRestrictions\UnrealEditor-AssetReferenceRestrictions.lib"

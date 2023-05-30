@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DatasmithContentEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Enterprise\DatasmithContent\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithContentEditor\Module.DatasmithContentEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Enterprise\DatasmithContent\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithContentEditor\UnrealEditor-DatasmithContentEditor.lib"

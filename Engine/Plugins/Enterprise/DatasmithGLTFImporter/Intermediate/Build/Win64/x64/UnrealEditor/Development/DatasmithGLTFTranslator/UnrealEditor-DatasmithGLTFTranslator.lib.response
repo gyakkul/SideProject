@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DatasmithGLTFTranslator.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Enterprise\DatasmithGLTFImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithGLTFTranslator\Module.DatasmithGLTFTranslator.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Enterprise\DatasmithGLTFImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithGLTFTranslator\UnrealEditor-DatasmithGLTFTranslator.lib"

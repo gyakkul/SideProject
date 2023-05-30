@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CADLibrary.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h.obj"
+"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\CADLibrary\Module.CADLibrary.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Enterprise\DatasmithCADImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\CADLibrary\UnrealEditor-CADLibrary.lib"

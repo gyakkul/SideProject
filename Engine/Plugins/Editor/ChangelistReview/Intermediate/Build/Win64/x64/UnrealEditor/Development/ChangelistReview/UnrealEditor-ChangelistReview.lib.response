@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ChangelistReview.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Editor\ChangelistReview\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChangelistReview\Module.ChangelistReview.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Editor\ChangelistReview\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChangelistReview\UnrealEditor-ChangelistReview.lib"

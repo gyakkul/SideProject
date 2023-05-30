@@ -1,0 +1,23 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"CADInterfaces": "UnrealEditor-CADInterfaces.dll",
+		"CADKernelSurface": "UnrealEditor-CADKernelSurface.dll",
+		"CADLibrary": "UnrealEditor-CADLibrary.dll",
+		"CADTools": "UnrealEditor-CADTools.dll",
+		"DatasmithCADTranslator": "UnrealEditor-DatasmithCADTranslator.dll",
+		"DatasmithDispatcher": "UnrealEditor-DatasmithDispatcher.dll",
+		"DatasmithOpenNurbsTranslator": "UnrealEditor-DatasmithOpenNurbsTranslator.dll",
+		"DatasmithPLMXMLTranslator": "UnrealEditor-DatasmithPLMXMLTranslator.dll",
+		"DatasmithWireTranslator2020": "UnrealEditor-DatasmithWireTranslator2020.dll",
+		"DatasmithWireTranslator2021_3": "UnrealEditor-DatasmithWireTranslator2021_3.dll",
+		"DatasmithWireTranslator2022": "UnrealEditor-DatasmithWireTranslator2022.dll",
+		"DatasmithWireTranslator2022_1": "UnrealEditor-DatasmithWireTranslator2022_1.dll",
+		"DatasmithWireTranslator2022_2": "UnrealEditor-DatasmithWireTranslator2022_2.dll",
+		"DatasmithWireTranslator2023_0": "UnrealEditor-DatasmithWireTranslator2023_0.dll",
+		"DatasmithWireTranslator2023_1": "UnrealEditor-DatasmithWireTranslator2023_1.dll",
+		"ParametricSurface": "UnrealEditor-ParametricSurface.dll",
+		"ParametricSurfaceExtension": "UnrealEditor-ParametricSurfaceExtension.dll"
+	}
+}

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DatasmithIFCTranslator.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Enterprise\DatasmithIFCImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithIFCTranslator\Module.DatasmithIFCTranslator.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Enterprise\DatasmithIFCImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\DatasmithIFCTranslator\UnrealEditor-DatasmithIFCTranslator.lib"

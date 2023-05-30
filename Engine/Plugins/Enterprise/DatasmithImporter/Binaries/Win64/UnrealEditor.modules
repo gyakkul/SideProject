@@ -1,0 +1,14 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"DatasmithExternalSource": "UnrealEditor-DatasmithExternalSource.dll",
+		"DatasmithImporter": "UnrealEditor-DatasmithImporter.dll",
+		"DatasmithNativeTranslator": "UnrealEditor-DatasmithNativeTranslator.dll",
+		"DatasmithTranslator": "UnrealEditor-DatasmithTranslator.dll",
+		"DirectLinkExtension": "UnrealEditor-DirectLinkExtension.dll",
+		"DirectLinkExtensionEditor": "UnrealEditor-DirectLinkExtensionEditor.dll",
+		"DirectLinkTest": "UnrealEditor-DirectLinkTest.dll",
+		"ExternalSource": "UnrealEditor-ExternalSource.dll"
+	}
+}

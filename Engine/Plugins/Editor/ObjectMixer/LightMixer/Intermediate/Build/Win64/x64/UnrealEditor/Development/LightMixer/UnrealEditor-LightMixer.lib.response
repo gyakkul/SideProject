@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-LightMixer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Editor\ObjectMixer\LightMixer\Intermediate\Build\Win64\x64\UnrealEditor\Development\LightMixer\Module.LightMixer.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Editor\ObjectMixer\LightMixer\Intermediate\Build\Win64\x64\UnrealEditor\Development\LightMixer\UnrealEditor-LightMixer.lib"

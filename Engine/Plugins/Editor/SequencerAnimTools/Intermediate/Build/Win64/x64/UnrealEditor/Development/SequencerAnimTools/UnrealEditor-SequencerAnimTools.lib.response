@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SequencerAnimTools.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Editor\SequencerAnimTools\Intermediate\Build\Win64\x64\UnrealEditor\Development\SequencerAnimTools\Module.SequencerAnimTools.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Editor\SequencerAnimTools\Intermediate\Build\Win64\x64\UnrealEditor\Development\SequencerAnimTools\UnrealEditor-SequencerAnimTools.lib"
