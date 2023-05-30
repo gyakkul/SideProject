@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PixelStreamingVCam.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\PixelStreamingVCam\Module.PixelStreamingVCam.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\PixelStreamingVCam\UnrealEditor-PixelStreamingVCam.lib"

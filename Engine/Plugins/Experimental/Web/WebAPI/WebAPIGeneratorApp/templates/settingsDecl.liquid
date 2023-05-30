@@ -1,0 +1,14 @@
+/** {{ settingsDecl.description }} */
+UCLASS(
+{{- settingsDecl.specifiers | kvp: "", ", " -}}
+{{- settingsDecl.metadata | kvp: "meta=(", ")" -}})
+class {{ settingsDecl.module | upcase }}_API {{ settingsDecl.name | str }} : public U{{ settingsDecl.base | str }}
+{
+	GENERATED_BODY()
+
+public:
+    {{ settingsDecl.name | str }}();
+
+	virtual FName GetContainerName() const override { return FName("Project"); }
+	virtual FName GetCategoryName() const override { return FName("Plugins"); }
+};

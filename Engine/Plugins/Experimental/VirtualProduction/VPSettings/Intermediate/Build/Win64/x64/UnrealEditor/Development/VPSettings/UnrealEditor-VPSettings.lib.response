@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VPSettings.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Experimental\VirtualProduction\VPSettings\Intermediate\Build\Win64\x64\UnrealEditor\Development\VPSettings\Module.VPSettings.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\VirtualProduction\VPSettings\Intermediate\Build\Win64\x64\UnrealEditor\Development\VPSettings\UnrealEditor-VPSettings.lib"

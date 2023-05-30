@@ -1,0 +1,16 @@
+{% layout "structDefn", structDefn: requestDefn %}
+
+{%- block defns %}
+{%- assign bodyProperties = requestDefn.properties | where: "storage", "Body" -%}
+{%- if bodyProperties.length > 0 %}
+{% render "subTemplates/structToJsonDefn", structDefn: requestDefn %}
+{% endif -%}
+{%- assign pathProperties = requestDefn.properties | where: "storage", "Path" -%}
+{%- if pathProperties.length > 0 %}
+{% render "subTemplates/structToPathDefn", structDefn: requestDefn %}
+{% endif -%}
+{%- assign queryProperties = requestDefn.properties | where: "storage", "Query" -%}
+{%- if queryProperties.length > 0 %}
+{% render "subTemplates/structToQueryDefn", structDefn: requestDefn %}
+{% endif -%}
+{% endblock %}

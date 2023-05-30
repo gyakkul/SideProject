@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VirtualCamera.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualCamera\Module.VirtualCamera.1_of_4.cpp.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualCamera\Module.VirtualCamera.2_of_4.cpp.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualCamera\Module.VirtualCamera.3_of_4.cpp.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualCamera\Module.VirtualCamera.4_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualCamera\UnrealEditor-VirtualCamera.lib"

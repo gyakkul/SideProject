@@ -1,0 +1,18 @@
+/** {{ classDecl.description }} */
+UCLASS(
+{{- classDecl.specifiers | kvp: "", ", " -}}
+{{- classDecl.metadata | kvp: "meta=(", ")" -}})
+class {{ classDecl.module | upcase }}_API {{ classDecl.name | str }} : public UObject
+{
+    GENERATED_BODY()
+
+public:
+{% render "subTemplates/functionDecl" for classDecl.functions as functionDecl %}
+{% render "subTemplates/propertyDecl" for classDecl.properties as propertyDecl %}
+
+{%- block public -%}{%- endblock %}
+
+private:
+{% block private -%}{%- endblock %}
+};
+

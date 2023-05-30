@@ -1,0 +1,17 @@
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\IVirtualCameraController.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\IVirtualCameraOptions.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\IVirtualCameraPresetContainer.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VCamBlueprintFunctionLibrary.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraActor.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraCineCameraComponent.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraConcertCameraComponent.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraMovement.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraMovementComponent.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraPawnBase.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraPlayerControllerBase.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraSubsystem.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraUserSettings.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\VirtualCameraSaveGame.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\LevelSequence\LevelSequencePlaybackController.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Public\LevelSequence\VirtualCameraClipsMetaData.h
+C:\WorkSpace\SideProject1\Engine\Plugins\Experimental\VirtualCameraCore\Source\VirtualCamera\Private\ConcertVirtualCamera.h

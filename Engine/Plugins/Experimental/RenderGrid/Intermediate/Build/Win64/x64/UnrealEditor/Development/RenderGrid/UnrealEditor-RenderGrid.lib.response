@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RenderGrid.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\RenderGrid\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderGrid\Module.RenderGrid.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\RenderGrid\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderGrid\UnrealEditor-RenderGrid.lib"

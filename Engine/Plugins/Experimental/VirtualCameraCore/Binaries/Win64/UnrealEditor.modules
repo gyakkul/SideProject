@@ -1,0 +1,15 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"PixelStreamingVCam": "UnrealEditor-PixelStreamingVCam.dll",
+		"VCamBlueprintNodes": "UnrealEditor-VCamBlueprintNodes.dll",
+		"VCamCore": "UnrealEditor-VCamCore.dll",
+		"VCamCoreEditor": "UnrealEditor-VCamCoreEditor.dll",
+		"VCamExtensions": "UnrealEditor-VCamExtensions.dll",
+		"VCamExtensionsEditor": "UnrealEditor-VCamExtensionsEditor.dll",
+		"VCamInput": "UnrealEditor-VCamInput.dll",
+		"VirtualCamera": "UnrealEditor-VirtualCamera.dll",
+		"VirtualCameraEditor": "UnrealEditor-VirtualCameraEditor.dll"
+	}
+}

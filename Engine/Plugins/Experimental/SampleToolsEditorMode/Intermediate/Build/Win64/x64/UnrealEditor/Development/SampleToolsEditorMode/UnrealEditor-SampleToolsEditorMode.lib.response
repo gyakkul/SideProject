@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SampleToolsEditorMode.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\SampleToolsEditorMode\Intermediate\Build\Win64\x64\UnrealEditor\Development\SampleToolsEditorMode\Module.SampleToolsEditorMode.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\SampleToolsEditorMode\Intermediate\Build\Win64\x64\UnrealEditor\Development\SampleToolsEditorMode\UnrealEditor-SampleToolsEditorMode.lib"

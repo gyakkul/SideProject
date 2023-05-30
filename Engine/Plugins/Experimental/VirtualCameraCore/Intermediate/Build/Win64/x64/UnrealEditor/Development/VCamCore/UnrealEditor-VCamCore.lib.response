@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VCamCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VCamCore\Module.VCamCore.1_of_3.cpp.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VCamCore\Module.VCamCore.2_of_3.cpp.obj"
+"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VCamCore\Module.VCamCore.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\VirtualCameraCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\VCamCore\UnrealEditor-VCamCore.lib"

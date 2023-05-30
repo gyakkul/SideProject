@@ -1,0 +1,21 @@
+    {%- assign propertySignature = propertyDecl.type | str -%}
+    {%- if propertyDecl.type.prefix == 'U' -%}
+    {%- assign propertySignature = propertySignature | prepend: "TObjectPtr<" | append: ">" -%}
+    {%- endif %}
+    {%- capture propertyDefaultValue -%}
+    {{ propertyDecl | defaultvalue }}
+    {%- endcapture -%}
+    /** {{ propertyDecl.description }} */
+    UPROPERTY(
+    {{- propertyDecl.specifiers | kvp: "", ", " -}}
+    {{- propertyDecl.metadata | kvp: "meta=(", ")" -}})
+    {% if propertyDecl.isArray -%}
+    TArray<{{ propertySignature }}> {{ propertyDecl.name | str }}
+    {%- else -%}
+    {{ propertySignature }} {{ propertyDecl.name | str }}
+    {%- endif -%}
+    {%- if propertyDefaultValue -%}
+    {{- propertyDefaultValue | prepend: " = " -}}
+    {%- endif -%}
+    ;
+

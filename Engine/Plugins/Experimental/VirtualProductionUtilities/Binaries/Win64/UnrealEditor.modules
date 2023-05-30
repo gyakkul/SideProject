@@ -1,0 +1,11 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"VPBookmark": "UnrealEditor-VPBookmark.dll",
+		"VPBookmarkEditor": "UnrealEditor-VPBookmarkEditor.dll",
+		"VPMaterialsEditor": "UnrealEditor-VPMaterialsEditor.dll",
+		"VPUtilities": "UnrealEditor-VPUtilities.dll",
+		"VPUtilitiesEditor": "UnrealEditor-VPUtilitiesEditor.dll"
+	}
+}

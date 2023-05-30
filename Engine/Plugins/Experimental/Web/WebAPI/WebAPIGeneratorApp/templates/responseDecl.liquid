@@ -1,0 +1,14 @@
+{% layout "structDecl", structDecl: responseDecl %}
+
+{%- block public %}
+{%- if responseDecl.properties.length > 0 %}
+{% render "subTemplates/structFromJsonDecl", structDecl: responseDecl %}
+{%- endif -%}
+    static uint32 GetResponseCode();
+    virtual const FText& GetMessage() const override;
+{%- endblock -%}
+
+{%- block private %}
+    static const uint32 ResponseCode;
+    static const FText Message;
+{%- endblock -%}

@@ -1,0 +1,9 @@
+{% layout "classDecl", classDecl: modelDecl %}
+
+{%- block public %}
+{% render "subTemplates/structToJsonDecl", structDecl: modelDecl %}
+{% render "subTemplates/structFromJsonDecl", structDecl: modelDecl %}
+{% endblock %}
+
+{%- block private %}
+{% endblock %}

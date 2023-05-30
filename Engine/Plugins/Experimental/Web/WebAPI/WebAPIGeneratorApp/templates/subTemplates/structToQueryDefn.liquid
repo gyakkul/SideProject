@@ -1,0 +1,13 @@
+FString {{ structDefn.name | str }}::ToQuery() const
+{
+    TArray<FString> Result;
+    {%- assign candidateProperties = structDefn.properties | where: "storage", "Query" -%}
+    {%- render "subTemplates/propertyToQuery" for candidateProperties as property %}
+
+    if(Result.IsEmpty())
+    {
+        return TEXT("");
+    }
+
+    return FString::Join(Result, TEXT("&"));
+}

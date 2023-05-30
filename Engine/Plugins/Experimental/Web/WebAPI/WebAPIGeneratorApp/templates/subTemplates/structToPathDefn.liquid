@@ -1,0 +1,9 @@
+FString {{ structDefn.name | str }}::ToPath(const FString& InTemplatedPath) const
+{
+    FStringFormatNamedArguments Args;
+
+    {%- assign candidateProperties = structDefn.properties | where: "storage", "Path" -%}
+    {%- render "subTemplates/propertyToPath" for candidateProperties as property %}
+
+    return FString::Format(*InTemplatedPath, Args);
+}

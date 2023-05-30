@@ -1,0 +1,14 @@
+
+{{ settingsDefn.name | str }}::{{ settingsDefn.name | str }}()
+{
+    Host = TEXT("{{ settingsDefn.host }}");
+    BaseUrl = TEXT("{{ settingsDefn.baseUrl }}");
+    UserAgent = TEXT("{{ settingsDefn.userAgent }}");
+    DateTimeFormat = TEXT("{{ settingsDefn.dateTimeFormat }}");
+    URISchemes = { {% for scheme in settingsDefn.schemes -%}TEXT("{{ scheme }}")
+    {%- unless forloop.last -%}
+    , 
+    {%- else -%}
+    {%- endunless -%}
+    {%- endfor %} };
+}

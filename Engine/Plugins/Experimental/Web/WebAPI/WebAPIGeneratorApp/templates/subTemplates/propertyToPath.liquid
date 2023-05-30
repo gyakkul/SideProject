@@ -1,0 +1,7 @@
+
+{%- assign propertyPath = property.name | str %}
+{%- if property.type.jsonPropertyToSerialize.length > 0 %}
+{%- assign propertyPath = property.name | str | append: '.' | append: property.type.jsonPropertyToSerialize %}
+{%- endif -%}
+
+    Args.Add(TEXT("{{ property.name | jsonname }}"), {{ propertyPath }});

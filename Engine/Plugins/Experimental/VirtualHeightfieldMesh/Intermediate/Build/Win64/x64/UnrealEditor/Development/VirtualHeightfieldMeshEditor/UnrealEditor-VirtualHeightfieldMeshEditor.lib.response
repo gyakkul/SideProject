@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VirtualHeightfieldMeshEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\VirtualHeightfieldMesh\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualHeightfieldMeshEditor\Module.VirtualHeightfieldMeshEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\VirtualHeightfieldMesh\Intermediate\Build\Win64\x64\UnrealEditor\Development\VirtualHeightfieldMeshEditor\UnrealEditor-VirtualHeightfieldMeshEditor.lib"

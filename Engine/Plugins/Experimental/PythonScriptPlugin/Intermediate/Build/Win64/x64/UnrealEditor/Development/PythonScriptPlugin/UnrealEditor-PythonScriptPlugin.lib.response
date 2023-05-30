@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PythonScriptPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\PythonScriptPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\PythonScriptPlugin\Module.PythonScriptPlugin.1_of_3.cpp.obj"
+"..\Plugins\Experimental\PythonScriptPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\PythonScriptPlugin\Module.PythonScriptPlugin.2_of_3.cpp.obj"
+"..\Plugins\Experimental\PythonScriptPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\PythonScriptPlugin\Module.PythonScriptPlugin.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\PythonScriptPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\PythonScriptPlugin\UnrealEditor-PythonScriptPlugin.lib"

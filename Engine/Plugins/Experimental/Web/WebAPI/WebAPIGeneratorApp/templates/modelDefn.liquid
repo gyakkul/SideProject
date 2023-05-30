@@ -1,0 +1,6 @@
+{% layout "structDefn", structDefn: modelDefn %}
+
+{%- block defns %}
+{% render "subTemplates/structToJsonDefn", structDefn: modelDefn %}
+{% render "subTemplates/structFromJsonDefn", structDefn: modelDefn %}
+{% endblock %}
