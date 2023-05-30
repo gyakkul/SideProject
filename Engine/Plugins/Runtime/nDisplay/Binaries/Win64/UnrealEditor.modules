@@ -1,0 +1,26 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"DisplayCluster": "UnrealEditor-DisplayCluster.dll",
+		"DisplayClusterColorGrading": "UnrealEditor-DisplayClusterColorGrading.dll",
+		"DisplayClusterConfiguration": "UnrealEditor-DisplayClusterConfiguration.dll",
+		"DisplayClusterConfigurator": "UnrealEditor-DisplayClusterConfigurator.dll",
+		"DisplayClusterEditor": "UnrealEditor-DisplayClusterEditor.dll",
+		"DisplayClusterLightCardEditor": "UnrealEditor-DisplayClusterLightCardEditor.dll",
+		"DisplayClusterLightCardEditorShaders": "UnrealEditor-DisplayClusterLightCardEditorShaders.dll",
+		"DisplayClusterMedia": "UnrealEditor-DisplayClusterMedia.dll",
+		"DisplayClusterMediaEditor": "UnrealEditor-DisplayClusterMediaEditor.dll",
+		"DisplayClusterMessageInterception": "UnrealEditor-DisplayClusterMessageInterception.dll",
+		"DisplayClusterMoviePipeline": "UnrealEditor-DisplayClusterMoviePipeline.dll",
+		"DisplayClusterMoviePipelineEditor": "UnrealEditor-DisplayClusterMoviePipelineEditor.dll",
+		"DisplayClusterMultiUser": "UnrealEditor-DisplayClusterMultiUser.dll",
+		"DisplayClusterOperator": "UnrealEditor-DisplayClusterOperator.dll",
+		"DisplayClusterProjection": "UnrealEditor-DisplayClusterProjection.dll",
+		"DisplayClusterRemoteControlInterceptor": "UnrealEditor-DisplayClusterRemoteControlInterceptor.dll",
+		"DisplayClusterScenePreview": "UnrealEditor-DisplayClusterScenePreview.dll",
+		"DisplayClusterShaders": "UnrealEditor-DisplayClusterShaders.dll",
+		"DisplayClusterStageMonitoring": "UnrealEditor-DisplayClusterStageMonitoring.dll",
+		"DisplayClusterTests": "UnrealEditor-DisplayClusterTests.dll"
+	}
+}

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DisplayClusterConfigurator.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayClusterConfigurator\Module.DisplayClusterConfigurator.1_of_3.cpp.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayClusterConfigurator\Module.DisplayClusterConfigurator.2_of_3.cpp.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayClusterConfigurator\Module.DisplayClusterConfigurator.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayClusterConfigurator\UnrealEditor-DisplayClusterConfigurator.lib"

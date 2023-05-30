@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DisplayCluster.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayCluster\Module.DisplayCluster.1_of_5.cpp.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayCluster\Module.DisplayCluster.2_of_5.cpp.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayCluster\Module.DisplayCluster.3_of_5.cpp.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayCluster\Module.DisplayCluster.4_of_5.cpp.obj"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayCluster\Module.DisplayCluster.5_of_5.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\DisplayCluster\UnrealEditor-DisplayCluster.lib"

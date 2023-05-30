@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AESHandlerComponent.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h.obj"
+"..\Plugins\Runtime\PacketHandlers\AESHandlerComponent\Intermediate\Build\Win64\x64\UnrealEditor\Development\AESHandlerComponent\AESHandlerComponent.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\PacketHandlers\AESHandlerComponent\Intermediate\Build\Win64\x64\UnrealEditor\Development\AESHandlerComponent\UnrealEditor-AESHandlerComponent.lib"
