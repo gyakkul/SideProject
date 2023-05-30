@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-InterchangeEditorUtilities.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Interchange\Editor\Intermediate\Build\Win64\x64\UnrealEditor\Development\InterchangeEditorUtilities\Module.InterchangeEditorUtilities.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Interchange\Editor\Intermediate\Build\Win64\x64\UnrealEditor\Development\InterchangeEditorUtilities\UnrealEditor-InterchangeEditorUtilities.lib"

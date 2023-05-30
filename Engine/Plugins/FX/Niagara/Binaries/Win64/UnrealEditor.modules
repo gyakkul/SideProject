@@ -1,0 +1,13 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"Niagara": "UnrealEditor-Niagara.dll",
+		"NiagaraAnimNotifies": "UnrealEditor-NiagaraAnimNotifies.dll",
+		"NiagaraCore": "UnrealEditor-NiagaraCore.dll",
+		"NiagaraEditor": "UnrealEditor-NiagaraEditor.dll",
+		"NiagaraEditorWidgets": "UnrealEditor-NiagaraEditorWidgets.dll",
+		"NiagaraShader": "UnrealEditor-NiagaraShader.dll",
+		"NiagaraVertexFactories": "UnrealEditor-NiagaraVertexFactories.dll"
+	}
+}

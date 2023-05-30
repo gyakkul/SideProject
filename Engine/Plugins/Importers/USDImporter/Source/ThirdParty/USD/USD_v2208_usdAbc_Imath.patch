@@ -1,0 +1,25 @@
+diff --git a/cmake/defaults/Packages.cmake b/cmake/defaults/Packages.cmake
+index abeccb76a..2aa3ecb49 100644
+--- a/cmake/defaults/Packages.cmake
++++ b/cmake/defaults/Packages.cmake
+@@ -285,7 +285,7 @@ endif()
+ 
+ if (PXR_BUILD_ALEMBIC_PLUGIN)
+     find_package(Alembic REQUIRED)
+-    find_package(OpenEXR REQUIRED)
++    find_package(Imath REQUIRED)
+     if (PXR_ENABLE_HDF5_SUPPORT)
+         find_package(HDF5 REQUIRED
+             COMPONENTS
+diff --git a/pxr/usd/plugin/usdAbc/CMakeLists.txt b/pxr/usd/plugin/usdAbc/CMakeLists.txt
+index fb169cf2e..766b85eef 100644
+--- a/pxr/usd/plugin/usdAbc/CMakeLists.txt
++++ b/pxr/usd/plugin/usdAbc/CMakeLists.txt
+@@ -27,6 +27,7 @@ pxr_plugin(usdAbc
+         ${OPENEXR_Imath_LIBRARY} 
+         ${OPENEXR_Iex_LIBRARY} 
+         ${OPENEXR_IexMath_LIBRARY}
++        Imath::Imath
+         ${optionalLibs}
+ 
+     INCLUDE_DIRS

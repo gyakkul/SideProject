@@ -1,0 +1,32 @@
+diff --git a/pxr/base/tf/safeTypeCompare.h b/pxr/base/tf/safeTypeCompare.h
+index 64b16e3d5..3bdfc2684 100644
+--- a/pxr/base/tf/safeTypeCompare.h
++++ b/pxr/base/tf/safeTypeCompare.h
+@@ -30,6 +30,7 @@
+ 
+ #include "pxr/pxr.h"
+ 
++#include <cstring>
+ #include <typeinfo>
+ 
+ PXR_NAMESPACE_OPEN_SCOPE
+@@ -38,7 +39,18 @@ PXR_NAMESPACE_OPEN_SCOPE
+ ///
+ /// Returns \c true if \p t1 and \p t2 denote the same type.
+ inline bool TfSafeTypeCompare(const std::type_info& t1, const std::type_info& t2) {
+-    return t1 == t2;
++    // XXX(Epic Games):
++    // clang's type comparison doesn’t work the same way as gcc's type
++    // comparison, and using the equal operator with clang on typeids from two
++    // different shared libraries will return that the types are not the same.
++    // This leads to USD errors stating that "typex" isn’t "typex". To address
++    // this, we replace the direct type_info comparison with a comparison by
++    // type name instead, which is how operator== is implemented with gcc.
++    // See for reference:
++    //     https://github.com/PixarAnimationStudios/USD/issues/665
++    //     https://github.com/PixarAnimationStudios/USD/issues/1475
++    // return t1 == t2;
++    return std::strcmp(t1.name(), t2.name()) == 0;
+ }
+ 
+ /// Safely perform a dynamic cast.

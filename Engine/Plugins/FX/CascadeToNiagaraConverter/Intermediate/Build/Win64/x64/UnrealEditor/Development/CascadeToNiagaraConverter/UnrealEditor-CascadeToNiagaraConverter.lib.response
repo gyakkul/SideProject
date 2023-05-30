@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CascadeToNiagaraConverter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\FX\CascadeToNiagaraConverter\Intermediate\Build\Win64\x64\UnrealEditor\Development\CascadeToNiagaraConverter\Module.CascadeToNiagaraConverter.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\FX\CascadeToNiagaraConverter\Intermediate\Build\Win64\x64\UnrealEditor\Development\CascadeToNiagaraConverter\UnrealEditor-CascadeToNiagaraConverter.lib"

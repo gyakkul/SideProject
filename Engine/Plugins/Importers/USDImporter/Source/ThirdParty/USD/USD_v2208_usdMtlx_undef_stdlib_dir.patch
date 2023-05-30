@@ -1,0 +1,21 @@
+diff --git a/pxr/usd/usdMtlx/CMakeLists.txt b/pxr/usd/usdMtlx/CMakeLists.txt
+index 1c5ac7af8..5c49b2f18 100644
+--- a/pxr/usd/usdMtlx/CMakeLists.txt
++++ b/pxr/usd/usdMtlx/CMakeLists.txt
+@@ -1,9 +1,13 @@
+ set(PXR_PREFIX pxr/usd)
+ set(PXR_PACKAGE usdMtlx)
+ 
+-if (MATERIALX_STDLIB_DIR)
+-    add_definitions(-DPXR_MATERIALX_STDLIB_DIR="${MATERIALX_STDLIB_DIR}")
+-endif()
++# XXX(Epic Games):
++# Do not define PXR_MATERIALX_STDLIB_DIR at build time to avoid injecting a
++# hard-coded path into the built plugin. We'll use PXR_MTLX_STDLIB_SEARCH_PATHS
++# to locate the MaterialX standard data libraries instead.
++# if (MATERIALX_STDLIB_DIR)
++#     add_definitions(-DPXR_MATERIALX_STDLIB_DIR="${MATERIALX_STDLIB_DIR}")
++# endif()
+ 
+ pxr_library(usdMtlx
+     LIBRARIES

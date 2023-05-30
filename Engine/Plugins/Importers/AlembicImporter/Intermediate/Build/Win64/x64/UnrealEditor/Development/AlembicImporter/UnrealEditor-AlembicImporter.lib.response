@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AlembicImporter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Importers\AlembicImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\AlembicImporter\Module.AlembicImporter.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Importers\AlembicImporter\Intermediate\Build\Win64\x64\UnrealEditor\Development\AlembicImporter\UnrealEditor-AlembicImporter.lib"

@@ -1,0 +1,409 @@
+#usda 1.0
+(
+)
+
+def Xform "UsdPropTest" ()
+{
+    string unrealActorClass = "/Script/USDImporter.UsdTestActor"
+    
+    int Int8Property = -50 (
+        customData = { string unrealPropertyPath = "Int8Property" }
+    )
+	
+	int Int16Property = 731 (
+        customData = { string unrealPropertyPath = "Int16Property" }
+    )
+	
+	int Int32Property = 4234234 (
+        customData = { string unrealPropertyPath = "Int32Property" }
+    )
+	
+	int64 Int64Property = -10 (
+        customData = { string unrealPropertyPath = "Int64Property" }
+    )
+	
+    uchar ByteProperty = 254 (
+        customData = { string unrealPropertyPath = "ByteProperty" }
+    )
+	
+	uint UnsignedInt16Property = 65534 (
+        customData = { string unrealPropertyPath = "UnsignedInt16Property" }
+    )
+	
+	uint UnsignedInt32Property = 4294967294 (
+        customData = { string unrealPropertyPath = "UnsignedInt32Property" }
+    )
+	
+	uint64 UnsignedInt64Property = 1000 (
+        customData = { string unrealPropertyPath = "UnsignedInt64Property" }
+    )
+	
+	float FloatProperty = 2322.323486 (
+        customData = { string unrealPropertyPath = "FloatProperty" }
+    )
+	
+	double DoubleProperty = 8.8465165464 (
+        customData = { string unrealPropertyPath = "DoubleProperty" }
+    )
+	
+	token NameProperty = "This is a name. Declaring as a string works too" (
+        customData = { string unrealPropertyPath = "NameProperty" }
+    )
+	
+	string StringProperty = "This is a string. Declaring as a token works too" (
+        customData = { string unrealPropertyPath = "StringProperty" }
+    )
+	
+	string TextProperty = "This is a text property. Declaring as string or token works" (
+        customData = { string unrealPropertyPath = "TextProperty" }
+    )
+	
+	bool BoolProperty = true (
+        customData = { string unrealPropertyPath = "BoolProperty" }
+    )
+	
+	# currently vector types must be float not double
+	float2 Vector2Property = (50,50) (
+        customData = { string unrealPropertyPath = "Vector2Property" }
+    )
+	
+	# currently vector types must be float not double
+	float3 Vector3Property = (100.19,200.09,300.4564) (
+        customData = { string unrealPropertyPath = "Vector3Property" }
+    )
+	
+	# currently vector types must be float not double
+	float4 Vector4Property = (1225.0, 89.45444, 45.58, 5.06) (
+        customData = { string unrealPropertyPath = "Vector4Property" }
+    )
+	
+	# currently color types must be float not double (3 or 4)
+	color4f LinearColorProperty = (.4,.2,1.0,.8) (
+        customData = { string unrealPropertyPath = "LinearColorProperty" }
+    )
+
+	# currently color types must be float not double
+	color3f ColorProperty = (1.0,.5,0) (
+        customData = { string unrealPropertyPath = "ColorProperty" }
+    )
+	
+	# should be fully qualified path to the object.  Can be a string or token
+	string ObjectProperty = "/Engine/EngineMaterials/DefaultMaterial" (
+        customData = { string unrealPropertyPath = "ObjectProperty" }
+    )
+	
+	# string or token works for enums
+	token EnumProperty = "EnumVal4" (
+        customData = { string unrealPropertyPath = "EnumProperty" }
+    )
+	
+	# float3s can also represent "FRotator" types in Unreal.  Type is an euler angle. See FRotator::MakeFromEuler.   
+	# Note: Does not do any coordinate system conversions
+	float3 RotatorProperty = (90,180,60) (
+		customData = { string unrealPropertyPath = "RotatorProperty" }
+    )
+	
+	int[] Int8ArrayProperty = [-50,123](
+        customData = { string unrealPropertyPath = "Int8ArrayProperty" }
+    )
+	
+	int[] Int16ArrayProperty = [731, 3400] (
+        customData = { string unrealPropertyPath = "Int16ArrayProperty" }
+    )
+	
+	int[] Int32ArrayProperty = [4234234, 102204020] (
+        customData = { string unrealPropertyPath = "Int32ArrayProperty" }
+    )
+	
+	int64[] Int64ArrayProperty = [-10,2131123123] (
+        customData = { string unrealPropertyPath = "Int64ArrayProperty" }
+    )
+	
+    uchar[] ByteArrayProperty = [254, 90] (
+        customData = { string unrealPropertyPath = "ByteArrayProperty" }
+    )
+	
+	uint[] UnsignedInt16ArrayProperty = [65534, 12000] (
+        customData = { string unrealPropertyPath = "UnsignedInt16ArrayProperty" }
+    )
+	
+	uint[] UnsignedInt32ArrayProperty = [4294967294, 12001] (
+        customData = { string unrealPropertyPath = "UnsignedInt32ArrayProperty" }
+    )
+	
+	# USD doesnt seem to like 64 bit literals even though it claims support
+	uint64[] UnsignedInt64ArrayProperty = [1000, 500000000] (
+        customData = { string unrealPropertyPath = "UnsignedInt64ArrayProperty" }
+    )
+	
+	float[] FloatArrayProperty = [2322.323486, 1.01] (
+        customData = { string unrealPropertyPath = "FloatArrayProperty" }
+    )
+	
+	double[] DoubleArrayProperty = [8.8465165464, 1000012012.000102] (
+        customData = { string unrealPropertyPath = "DoubleArrayProperty" }
+    )
+	
+	token[] NameArrayProperty = ["This is a name. Declaring as a string works too", "This is another name in an array"] (
+        customData = { string unrealPropertyPath = "NameArrayProperty" }
+    )
+	
+	string[] StringArrayProperty = ["This is a string. Declaring as a token works too", "this is another string in an array"] (
+        customData = { string unrealPropertyPath = "StringArrayProperty" }
+    )
+	
+	string[] TextArrayProperty = ["This is a text property. Declaring as string or token works", "this is another text"] (
+        customData = { string unrealPropertyPath = "TextArrayProperty" }
+    )
+	
+	bool[] BoolArrayProperty = [true, false, true, false, false, true, true, true] (
+        customData = { string unrealPropertyPath = "BoolArrayProperty" }
+    )
+	
+	# currently vector types must be float not double
+	float2[] Vector2ArrayProperty = [(50,50),(50.1,50.2),(50.3,50.4),(50.5,50.6),(50.7,50.8),(50.9,51.0)] (
+        customData = { string unrealPropertyPath = "Vector2ArrayProperty" }
+    )
+	
+	# currently vector types must be float not double
+	float3[] Vector3ArrayProperty = [(100,100,100),(100.1,200.2,300.3)] (
+        customData = { string unrealPropertyPath = "Vector3ArrayProperty" }
+    )
+	
+	# currently vector types must be float not double
+	float4[] Vector4ArrayProperty = [(1225.0, 89.45444, 45.58, 5.06),(798.787, 4564.457896, 6546.2134, 465.564),(4564.0, 4564.444, 313.7897, 789.7897)] (
+        customData = { string unrealPropertyPath = "Vector4ArrayProperty" }
+    )
+	
+	# currently color types must be float not double. 3 or 4 channels are allowed
+	color4f[] LinearColorArrayProperty = [(.4,.2,1.0,.8),(1.0,.2,0.0,1.0),(.8,1.0,0.0,.1),(0,.5,.5,.5)] (
+        customData = { string unrealPropertyPath = "LinearColorArrayProperty" }
+    )
+
+	# currently color types must be float not double. 3 or 4 channels are allowed
+	color3f[] ColorArrayProperty = [(1.0,0,0),(0,1.0, 0),(0,0,1)] (
+        customData = { string unrealPropertyPath = "ColorArrayProperty" }
+    )
+	
+	# should be fully qualified path to the object.  Can be a string or token
+	string[] ObjectArrayProperty = ["/Engine/EngineMaterials/DefaultMaterial", "/Engine/EngineResources/DefaultTexture"] (
+        customData = { string unrealPropertyPath = "ObjectArrayProperty" }
+    )
+	
+	# string or token works for enums
+	token[] EnumArrayProperty = ["EnumVal4", "EnumVal3", "EnumVal2", "EnumVal1"] (
+        customData = { string unrealPropertyPath = "EnumArrayProperty" }
+    )
+	
+	# float3s can also represent "FRotator" types in Unreal.  Type is an euler angle. See FRotator::MakeFromEuler.   
+	# Note: Does not do any coordinate system conversions
+	float3[] RotatorArrayProperty = [(90,180,60),(100,50,120),(0,0,0)] (
+		customData = { string unrealPropertyPath = "RotatorArrayProperty" }
+    )
+	
+	# demonstrates how set values on nested properties.  In this case it will set every propery path found in this prim will be prepended with "TestComponent."
+	# you can also just make your own nested property path using "." to deliminate properties
+	def "TestComponent"( 
+		references = @./UsdPropTestComponent.usda@
+		customData = {
+			string unrealPropertyPath = "TestComponent"  
+		}
+	)
+	{
+		
+	}
+	
+	# demonstrates how set values on nested properties.  In this case it will set every propery path found in this prim will be prepended with "TestStructProperty."
+	def "TestStruct"( 
+		customData = {
+			string unrealPropertyPath = "TestStructProperty"  
+		}
+	)
+	{
+		int IntProperty = 73182 (
+			customData = { string unrealPropertyPath = "IntProperty" }
+		)
+		
+		token EnumProperty = "EnumVal3" (
+			customData = { string unrealPropertyPath = "EnumProperty" }
+		)
+		
+		color3f[] ColorProperty = [(1.0, 0.0, 0.0),(0,0,1)](
+			customData = { string unrealPropertyPath = "ColorProperty" }
+		)
+		
+		# directly sets the float property inside the inner struct by prefixing the struct property name
+		float FloatProperty = 579.123 (
+			customData = { string unrealPropertyPath = "InnerStruct.FloatProperty" }
+		)
+			
+		# sets the string property inside the inner struct by prim composition
+		def "TestStruct"( 
+			customData = {
+				string unrealPropertyPath = "InnerStruct"  
+			}
+		)
+		{
+			string StringProperty = "this is a string inside a deeply nested struct" (
+				customData = { string unrealPropertyPath = "StringProperty" }
+			)
+		}
+	}
+	
+	# demonstrates how set values on elements in arrays.  You can set individual elements of arrays this way.  
+	# The array will be resized to fit the index of the requested element if needed
+	def "TestStructPropertyArray"( 
+		customData = {
+			string unrealPropertyPath = "TestStructPropertyArray[0]"  
+		}
+	)
+	{
+		int IntProperty = 73182 (
+			customData = { string unrealPropertyPath = "IntProperty" }
+		)
+		
+		token EnumProperty = "EnumVal3" (
+			customData = { string unrealPropertyPath = "EnumProperty" }
+		)
+		
+		color3f[] ColorProperty = [(1.0, 0.0, 0.0),(0,0,1)](
+			customData = { string unrealPropertyPath = "ColorProperty" }
+		)
+		
+		# directly sets the float property inside the inner struct by prefixing the struct property name
+		float FloatProperty = 579.123 (
+			customData = { string unrealPropertyPath = "InnerStruct.FloatProperty" }
+		)
+			
+		# sets the string property inside the inner struct by prim composition
+		def "TestStruct"( 
+			customData = {
+				string unrealPropertyPath = "InnerStruct"  
+			}
+		)
+		{
+			string StringProperty = "this is a string inside a deeply nested struct" (
+				customData = { string unrealPropertyPath = "StringProperty" }
+			)
+		}
+	}
+	
+	# represents another way to set elements of an array
+	def "TestStructPropertyArray2"( 
+		customData = {
+			string unrealPropertyPath = "TestStructPropertyArray2"  
+		}
+	)
+	{
+		# Each child prim should have unrealPropertyPath defined to the index of the array.  
+		# They dont have to be in order but must contain opening and closing brackets
+		def "TestStructPropertyArrayElement0"( 
+			customData = {
+				string unrealPropertyPath = "[0]"  
+			}
+		)
+		{
+			int IntProperty = 1 (
+				customData = { string unrealPropertyPath = "IntProperty" }
+			)
+			
+			
+			color3f[] ColorProperty = [(1.0, 0.0, 0.0),(0,0,1)](
+				customData = { string unrealPropertyPath = "ColorProperty" }
+			)
+		
+				
+			# sets the string property inside the inner struct by prim composition
+			def "TestStruct"( 
+				customData = {
+					string unrealPropertyPath = "InnerStruct"  
+				}
+			)
+			{
+				string StringProperty = "this is a string inside a deeply nested struct" (
+					customData = { string unrealPropertyPath = "StringProperty" }
+				)
+			}
+		}
+		
+		# Note how the array properties dont always have to set the same elements
+		def "TestStructPropertyArrayElement5"( 
+			customData = {
+				string unrealPropertyPath = "[5]"  
+			}
+		)
+		{
+			int IntProperty = 2 (
+				customData = { string unrealPropertyPath = "IntProperty" }
+			)
+			
+			
+			color3f[] ColorProperty = [(0.0, 1.0, 0.0),(1,1,1)](
+				customData = { string unrealPropertyPath = "ColorProperty" }
+			)
+			
+			string EnumProperty = "EnumVal3" (
+				customData = { string unrealPropertyPath = "EnumProperty" }
+			)
+			
+			# demonstrates how to set a map property
+			def "MapPropertyTest"( 
+				customData = {
+					string unrealPropertyPath = "MapTest"  
+				}
+			)
+			{
+				string Key = "Key1" (
+					customData = { string unrealPropertyPath = "_KEY" }
+				)
+				
+				float FloatProperty = 7.31 (
+					customData = { string unrealPropertyPath = "FloatProperty" }
+				)
+				
+				string StringProperty = "Inside Key1" (
+					customData = { string unrealPropertyPath = "StringProperty" }
+				)
+			}
+
+			def "MapPropertyTest1"( 
+				customData = {
+					string unrealPropertyPath = "MapTest"  
+				}
+			)
+			{
+				string Key = "Key2" (
+					customData = { string unrealPropertyPath = "_KEY" }
+				)
+				
+				float FloatProperty = 8.30 (
+					customData = { string unrealPropertyPath = "FloatProperty" }
+				)
+				
+				string StringProperty = "Inside Key2" (
+					customData = { string unrealPropertyPath = "StringProperty" }
+				)
+			}
+			
+			def "MapPropertyTest2"( 
+				customData = {
+					string unrealPropertyPath = "MapTest"  
+				}
+			)
+			{
+				string Key = "Key3" (
+					customData = { string unrealPropertyPath = "_KEY" }
+				)
+				
+				float FloatProperty = 10.12 (
+					customData = { string unrealPropertyPath = "FloatProperty" }
+				)
+				
+				string StringProperty = "Inside Key3" (
+					customData = { string unrealPropertyPath = "StringProperty" }
+				)
+			}
+			
+		}
+	}
+}

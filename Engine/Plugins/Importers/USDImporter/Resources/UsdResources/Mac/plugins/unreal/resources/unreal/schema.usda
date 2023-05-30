@@ -1,0 +1,96 @@
+#usda 1.0
+(
+    """ This file describes the Unreal Engine's custom USD schemas.
+    """
+    subLayers = [
+        @usd/schema.usda@
+    ]
+)
+
+over "GLOBAL" (
+    customData = {
+        string libraryName       = "unreal"
+        string libraryPrefix     = "unreal"
+        bool skipCodeGeneration  = true
+    }
+) {
+}
+
+class "LiveLinkAPI" (
+    inherits = </APISchemaBase>
+    customData = {
+        token apiSchemaType = "singleApply"
+    }
+)
+{
+    string unreal:liveLink:animBlueprintPath = "/USDImporter/Blueprint/DefaultLiveLinkAnimBP.DefaultLiveLinkAnimBP" (
+        doc = "Content path to the AnimationBlueprint asset to use for skeletal mesh components"
+    )
+
+    bool unreal:liveLink:enabled = true (
+        doc = "Whether to enable the Live Link connection or not"
+    )
+
+    string unreal:liveLink:subjectName = "" (
+        doc = "Live Link subject name to use"
+    )
+}
+
+class "ControlRigAPI" (
+    inherits = </APISchemaBase>
+    customData = {
+        token apiSchemaType = "singleApply"
+    }
+)
+{
+    string unreal:controlRig:controlRigPath = "" (
+        doc = "Content path to the ControlRig asset to use for skeletal mesh components"
+    )
+
+    bool unreal:controlRig:reduceKeys = false (
+        doc = "Removes unnecessary generated Control Rig keys based on unreal:controlRig:reductionTolerance"
+    )
+
+    float unreal:controlRig:reductionTolerance = 0.001 (
+        doc = "How far apart generated Control Rig keys have to be to not be pruned, if unreal:controlRig:reduceKeys is true"
+    )
+
+    bool unreal:controlRig:useFKControlRig = false (
+        doc = "If true, will use a generated FKControlRig asset for rigging. If false, will use the Control Rig Blueprint given at unreal:controlRigPath instead"
+    )
+}
+
+class "GroomAPI" (
+    inherits = </APISchemaBase>
+    customData = {
+        token apiSchemaType = "singleApply"
+
+        token[] apiSchemaCanOnlyApplyTo = ["Curves", "Xform"]
+    }
+)
+{
+}
+
+class "GroomBindingAPI" (
+    inherits = </APISchemaBase>
+    customData = {
+        token apiSchemaType = "singleApply"
+
+        token[] apiSchemaCanOnlyApplyTo = ["Mesh", "SkelRoot"]
+    }
+)
+{
+    rel unreal:groomBinding:groom (
+        customData = {
+            string apiName = "groom"
+        }       
+        doc = """The groom to bind to this prim."""
+    )
+
+    rel unreal:groomBinding:referenceMesh (
+        customData = {
+            string apiName = "referenceMesh"
+        }       
+        doc = """Reference mesh on which the groom was edited."""
+    )
+}

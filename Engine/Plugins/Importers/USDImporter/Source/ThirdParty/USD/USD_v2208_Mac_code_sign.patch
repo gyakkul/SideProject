@@ -1,0 +1,30 @@
+diff --git a/cmake/defaults/ProjectDefaults.cmake b/cmake/defaults/ProjectDefaults.cmake
+index 8ff64321a..d286ee1ce 100644
+--- a/cmake/defaults/ProjectDefaults.cmake
++++ b/cmake/defaults/ProjectDefaults.cmake
+@@ -29,6 +29,25 @@ if(APPLE)
+     set(CMAKE_DYLIB_INSTALL_NAME_DIR "${CMAKE_INSTALL_PREFIX}/lib" CACHE STRING "install_name path for dylib.")
+     list(FIND CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES "${CMAKE_INSTALL_PREFIX}/lib" isSystemDir)
+     message(WARNING "Building USD on Mac OSX is currently experimental.")
++
++    # XXX(Epic Games):
++    # Bringing forward a workaround applied by a post-22.11 release commit:
++    # https://github.com/PixarAnimationStudios/USD/commit/3f1bb4973b60cc469c0f5d5805a869edb1f9a7a3
++    #
++    # Workaround for code signing issues that show up as warnings at the end
++    # of the build like:
++    # 
++    #   install_name_tool: warning: changes being made to the file will invalidate the code signature in: ...
++    #
++    # On Apple silicon this issue would prevent binaries from being used since
++    # the OS requires them to have a valid signature. This option is available
++    # on macOS 11+, which corresponds to kernel version 20+.
++    #
++    # See https://gitlab.kitware.com/cmake/cmake/-/issues/21854
++    if (CMAKE_HOST_SYSTEM_VERSION VERSION_GREATER_EQUAL 20)
++        set(CMAKE_XCODE_ATTRIBUTE_OTHER_CODE_SIGN_FLAGS "-o linker-signed")
++    endif()
++
+ elseif(WIN32)
+     # Windows specific set up
+     message(WARNING "Building USD on Windows is currently experimental.")
