@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-BaseCharacterFXEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\CharacterFXEditor\BaseCharacterFXEditor\Intermediate\Build\Win64\x64\UnrealEditor\Development\BCFXEd\Module.BCFXEd.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\CharacterFXEditor\BaseCharacterFXEditor\Intermediate\Build\Win64\x64\UnrealEditor\Development\BCFXEd\UnrealEditor-BaseCharacterFXEditor.lib"

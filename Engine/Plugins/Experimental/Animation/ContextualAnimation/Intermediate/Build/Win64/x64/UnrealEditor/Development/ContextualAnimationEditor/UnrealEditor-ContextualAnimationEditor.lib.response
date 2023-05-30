@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ContextualAnimationEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\Animation\ContextualAnimation\Intermediate\Build\Win64\x64\UnrealEditor\Development\ContextualAnimationEditor\Module.ContextualAnimationEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\Animation\ContextualAnimation\Intermediate\Build\Win64\x64\UnrealEditor\Development\ContextualAnimationEditor\UnrealEditor-ContextualAnimationEditor.lib"

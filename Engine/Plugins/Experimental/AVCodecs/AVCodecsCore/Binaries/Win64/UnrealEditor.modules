@@ -1,0 +1,8 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"AVCodecsCore": "UnrealEditor-AVCodecsCore.dll",
+		"AVCodecsCoreRHI": "UnrealEditor-AVCodecsCoreRHI.dll"
+	}
+}

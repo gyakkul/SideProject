@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GeometryScriptingCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\GeometryScripting\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeometryScriptingCore\Module.GeometryScriptingCore.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\GeometryScripting\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeometryScriptingCore\UnrealEditor-GeometryScriptingCore.lib"

@@ -1,0 +1,10 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"Chooser": "UnrealEditor-Chooser.dll",
+		"ChooserEditor": "UnrealEditor-ChooserEditor.dll",
+		"ProxyTable": "UnrealEditor-ProxyTable.dll",
+		"ProxyTableEditor": "UnrealEditor-ProxyTableEditor.dll"
+	}
+}

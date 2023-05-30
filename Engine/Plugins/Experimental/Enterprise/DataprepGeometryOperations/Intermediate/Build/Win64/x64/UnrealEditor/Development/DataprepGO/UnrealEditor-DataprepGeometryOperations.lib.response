@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DataprepGeometryOperations.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.RTTI.ShadowErrors.h.obj"
+"..\Plugins\Experimental\Enterprise\DataprepGeometryOperations\Intermediate\Build\Win64\x64\UnrealEditor\Development\DataprepGO\Module.DataprepGO.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\Enterprise\DataprepGeometryOperations\Intermediate\Build\Win64\x64\UnrealEditor\Development\DataprepGO\UnrealEditor-DataprepGeometryOperations.lib"

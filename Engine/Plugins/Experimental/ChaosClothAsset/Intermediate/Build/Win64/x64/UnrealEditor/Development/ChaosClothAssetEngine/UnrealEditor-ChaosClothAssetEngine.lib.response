@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ChaosClothAssetEngine.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Experimental\ChaosClothAsset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChaosClothAssetEngine\Module.ChaosClothAssetEngine.cpp.obj"
+"..\Plugins\Experimental\ChaosClothAsset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChaosClothAssetEngine\ClothSimulationProxy.ispc_avx512skx.obj"
+"..\Plugins\Experimental\ChaosClothAsset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChaosClothAssetEngine\ClothSimulationProxy.ispc_avx2.obj"
+"..\Plugins\Experimental\ChaosClothAsset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChaosClothAssetEngine\ClothSimulationProxy.ispc_avx.obj"
+"..\Plugins\Experimental\ChaosClothAsset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChaosClothAssetEngine\ClothSimulationProxy.ispc_sse4.obj"
+"..\Plugins\Experimental\ChaosClothAsset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChaosClothAssetEngine\ClothSimulationProxy.ispc.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\ChaosClothAsset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ChaosClothAssetEngine\UnrealEditor-ChaosClothAssetEngine.lib"

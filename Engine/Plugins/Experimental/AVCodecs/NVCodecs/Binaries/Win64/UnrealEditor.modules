@@ -1,0 +1,10 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"NVCodecs": "UnrealEditor-NVCodecs.dll",
+		"NVCodecsRHI": "UnrealEditor-NVCodecsRHI.dll",
+		"NVDEC": "UnrealEditor-NVDEC.dll",
+		"NVENC": "UnrealEditor-NVENC.dll"
+	}
+}

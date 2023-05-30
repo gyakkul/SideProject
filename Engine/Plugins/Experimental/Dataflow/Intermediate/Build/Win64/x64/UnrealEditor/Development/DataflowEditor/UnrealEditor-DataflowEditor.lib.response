@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DataflowEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\Dataflow\Intermediate\Build\Win64\x64\UnrealEditor\Development\DataflowEditor\Module.DataflowEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\Dataflow\Intermediate\Build\Win64\x64\UnrealEditor\Development\DataflowEditor\UnrealEditor-DataflowEditor.lib"

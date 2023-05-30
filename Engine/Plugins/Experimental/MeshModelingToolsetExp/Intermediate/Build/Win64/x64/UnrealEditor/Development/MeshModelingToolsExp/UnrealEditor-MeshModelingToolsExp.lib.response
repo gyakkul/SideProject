@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MeshModelingToolsExp.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\MeshModelingToolsExp\Module.MeshModelingToolsExp.1_of_5.cpp.obj"
+"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\MeshModelingToolsExp\Module.MeshModelingToolsExp.2_of_5.cpp.obj"
+"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\MeshModelingToolsExp\Module.MeshModelingToolsExp.3_of_5.cpp.obj"
+"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\MeshModelingToolsExp\Module.MeshModelingToolsExp.4_of_5.cpp.obj"
+"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\MeshModelingToolsExp\Module.MeshModelingToolsExp.5_of_5.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\MeshModelingToolsExp\UnrealEditor-MeshModelingToolsExp.lib"

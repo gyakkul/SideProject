@@ -1,0 +1,92 @@
+..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\Module.GeometryFlowMeshProcessingEditor.cpp
+/I .
+/I ..\Plugins\Experimental\GeometryFlow\Source\GeometryFlowMeshProcessingEditor\Private
+/I ..\Plugins\Runtime\MeshModelingToolset\Intermediate\Build\Win64\UnrealEditor\Inc\ModelingOperatorsEditorOnly\UHT
+/I ..\Plugins\Runtime\MeshModelingToolset\Source\ModelingOperatorsEditorOnly\Public
+/I ..\Plugins\Runtime\MeshModelingToolset\Source
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I Runtime
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework\UHT
+/I Runtime\InteractiveToolsFramework\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
+/I Runtime\CoreUObject\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore\UHT
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MeshDescription\UHT
+/I Runtime\MeshDescription\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\StaticMeshDescription\UHT
+/I Runtime\StaticMeshDescription\Public
+/I ..\Plugins\Runtime\MeshModelingToolset\Intermediate\Build\Win64\UnrealEditor\Inc\ModelingOperators\UHT
+/I ..\Plugins\Runtime\MeshModelingToolset\Source\ModelingOperators\Public
+/I Runtime\Engine\Public
+/I Runtime\GeometryCore\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationCore\UHT
+/I Runtime\AnimationCore\Public
+/I ..\Plugins\Runtime\GeometryProcessing\Source\DynamicMesh\Public
+/I ..\Plugins\Runtime\GeometryProcessing\Source
+/I ..\Plugins\Runtime\GeometryProcessing\Source\GeometryAlgorithms\Public
+/I Runtime\MeshConversion\Public
+/I Runtime\SkeletalMeshDescription\Public
+/I Runtime\MeshUtilitiesCommon\Public
+/I ..\Plugins\Experimental\GeometryFlow\Source\GeometryFlowMeshProcessingEditor\Public
+/I ..\Plugins\Experimental\GeometryFlow\Source
+/I ..\Plugins\Experimental\GeometryFlow\Source\GeometryFlowCore\Public
+/I ..\Plugins\Experimental\GeometryFlow\Source\GeometryFlowMeshProcessing\Public
+/I ThirdParty\mimalloc\include
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h"
+/FI"..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\Definitions.GeometryFlowMeshProcessingEditor.h"
+/Yu"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h"
+/Fp"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h.pch"
+/Fo"..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\Module.GeometryFlowMeshProcessingEditor.cpp.obj"
+/sourceDependencies ..\Plugins\Experimental\GeometryFlow\Intermediate\Build\Win64\x64\UnrealEditor\Development\GeometryFlowMeshProcessingEditor\Module.GeometryFlowMeshProcessingEditor.cpp.dep.json
+/Zc:inline
+/nologo
+/Oi
+/FC
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/Zc:hiddenFriend
+/Zc:__cplusplus
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/fastfail
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/DPLATFORM_EXCEPTIONS_DISABLED=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/wd4244
+/wd4838
+/TP
+/GR-
+/W4
+/std:c++17

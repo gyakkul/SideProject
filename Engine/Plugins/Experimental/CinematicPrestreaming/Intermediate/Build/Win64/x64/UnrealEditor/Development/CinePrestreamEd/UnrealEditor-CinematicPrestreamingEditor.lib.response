@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CinematicPrestreamingEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\CinematicPrestreaming\Intermediate\Build\Win64\x64\UnrealEditor\Development\CinePrestreamEd\Module.CinePrestreamEd.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\CinematicPrestreaming\Intermediate\Build\Win64\x64\UnrealEditor\Development\CinePrestreamEd\UnrealEditor-CinematicPrestreamingEditor.lib"

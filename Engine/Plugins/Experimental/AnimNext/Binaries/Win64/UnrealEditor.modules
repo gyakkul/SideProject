@@ -1,0 +1,10 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"AnimNextInterface": "UnrealEditor-AnimNextInterface.dll",
+		"AnimNextInterfaceGraph": "UnrealEditor-AnimNextInterfaceGraph.dll",
+		"AnimNextInterfaceGraphEditor": "UnrealEditor-AnimNextInterfaceGraphEditor.dll",
+		"AnimNextInterfaceGraphUncookedOnly": "UnrealEditor-AnimNextInterfaceGraphUncookedOnly.dll"
+	}
+}

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GameFeaturesEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\GameFeatures\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameFeaturesEditor\Module.GameFeaturesEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\GameFeatures\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameFeaturesEditor\UnrealEditor-GameFeaturesEditor.lib"

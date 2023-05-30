@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ModelingEditorUI.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModelingEditorUI\Module.ModelingEditorUI.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\MeshModelingToolsetExp\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModelingEditorUI\UnrealEditor-ModelingEditorUI.lib"
