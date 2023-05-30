@@ -1,0 +1,10 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"GameplayInsights": "UnrealEditor-GameplayInsights.dll",
+		"GameplayInsightsEditor": "UnrealEditor-GameplayInsightsEditor.dll",
+		"RewindDebugger": "UnrealEditor-RewindDebugger.dll",
+		"RewindDebuggerVLog": "UnrealEditor-RewindDebuggerVLog.dll"
+	}
+}

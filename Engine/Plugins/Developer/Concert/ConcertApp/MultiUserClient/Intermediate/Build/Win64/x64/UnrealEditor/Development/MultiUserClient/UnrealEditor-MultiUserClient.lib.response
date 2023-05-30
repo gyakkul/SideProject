@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MultiUserClient.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Developer\Concert\ConcertApp\MultiUserClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiUserClient\Module.MultiUserClient.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Developer\Concert\ConcertApp\MultiUserClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\MultiUserClient\UnrealEditor-MultiUserClient.lib"

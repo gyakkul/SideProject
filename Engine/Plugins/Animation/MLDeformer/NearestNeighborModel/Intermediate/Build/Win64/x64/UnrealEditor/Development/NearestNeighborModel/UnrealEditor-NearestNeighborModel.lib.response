@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NearestNeighborModel.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Animation\MLDeformer\NearestNeighborModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NearestNeighborModel\Module.NearestNeighborModel.cpp.obj"
+"..\Plugins\Animation\MLDeformer\NearestNeighborModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NearestNeighborModel\NearestNeighborOptimizedNetwork.ispc_avx512skx.obj"
+"..\Plugins\Animation\MLDeformer\NearestNeighborModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NearestNeighborModel\NearestNeighborOptimizedNetwork.ispc_avx2.obj"
+"..\Plugins\Animation\MLDeformer\NearestNeighborModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NearestNeighborModel\NearestNeighborOptimizedNetwork.ispc_avx.obj"
+"..\Plugins\Animation\MLDeformer\NearestNeighborModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NearestNeighborModel\NearestNeighborOptimizedNetwork.ispc_sse4.obj"
+"..\Plugins\Animation\MLDeformer\NearestNeighborModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NearestNeighborModel\NearestNeighborOptimizedNetwork.ispc.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Animation\MLDeformer\NearestNeighborModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NearestNeighborModel\UnrealEditor-NearestNeighborModel.lib"

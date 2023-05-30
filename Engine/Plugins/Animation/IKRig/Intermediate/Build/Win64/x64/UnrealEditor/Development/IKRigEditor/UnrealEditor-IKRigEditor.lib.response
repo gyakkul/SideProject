@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-IKRigEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Animation\IKRig\Intermediate\Build\Win64\x64\UnrealEditor\Development\IKRigEditor\Module.IKRigEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Animation\IKRig\Intermediate\Build\Win64\x64\UnrealEditor\Development\IKRigEditor\UnrealEditor-IKRigEditor.lib"

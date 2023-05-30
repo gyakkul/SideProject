@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 16 12"
+   xml:space="preserve"
+   sodipodi:docname="Resource_Pin_Connected.svg"
+   width="16"
+   height="12"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"><metadata
+   id="metadata11"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs9" /><sodipodi:namedview
+   inkscape:document-rotation="0"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="2653"
+   inkscape:window-height="1608"
+   id="namedview7"
+   showgrid="true"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:pagecheckerboard="true"
+   inkscape:zoom="62.853278"
+   inkscape:cx="9.2391365"
+   inkscape:cy="8.8665934"
+   inkscape:window-x="32"
+   inkscape:window-y="149"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1"><inkscape:grid
+     type="xygrid"
+     id="grid13" /></sodipodi:namedview>
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#333333;}
+</style>
+<g
+   id="XMLID_1_"
+   transform="matrix(0.18489985,0,0,0.18489985,-2.8844376,-2.8844376)"
+   style="fill:#ffffff;stroke:none">
+	<path
+   sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc"
+   id="XMLID_5_"
+   class="st0"
+   d="m 80.5,51.6 v -7.4 l -9,-3 -2.1,-5.1 4.1,-8.5 -5.2,-5.2 -8.4,4.2 -5.1,-2.1 -3.2,-8.9 h -7.4 l -2.9,9 -5.2,2.1 -8.5,-4.1 -5.2,5.2 4.2,8.4 -2.1,5.1 -8.9,3.2 v 7.4 l 9,3 2.1,5.1 -4.1,8.5 5.2,5.2 8.4,-4.2 5.1,2.1 3.2,8.9 h 7.4 l 2.9,-9 5.2,-2.1 8.5,4.1 5.2,-5.2 -4.3,-8.4 2.2,-5.1 z"
+   style="fill:#ffffff;stroke:none" />
+</g>
+<path
+   style="fill:#ffffff;stroke:none;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   d="m 12.5,3 3,3 -3,3 z"
+   id="path10" /></svg>

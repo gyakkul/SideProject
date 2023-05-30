@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SubversionSourceControl.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h.obj"
+"..\Plugins\Developer\SubversionSourceControl\Intermediate\Build\Win64\x64\UnrealEditor\Development\SubversionSourceControl\Module.SubversionSourceControl.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Developer\SubversionSourceControl\Intermediate\Build\Win64\x64\UnrealEditor\Development\SubversionSourceControl\UnrealEditor-SubversionSourceControl.lib"

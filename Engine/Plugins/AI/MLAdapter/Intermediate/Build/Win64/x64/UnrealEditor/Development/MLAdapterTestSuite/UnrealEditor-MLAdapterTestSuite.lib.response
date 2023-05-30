@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MLAdapterTestSuite.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\AI\MLAdapter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MLAdapterTestSuite\Module.MLAdapterTestSuite.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\AI\MLAdapter\Intermediate\Build\Win64\x64\UnrealEditor\Development\MLAdapterTestSuite\UnrealEditor-MLAdapterTestSuite.lib"

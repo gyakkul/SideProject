@@ -1,0 +1,11 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"RigLogicDeveloper": "UnrealEditor-RigLogicDeveloper.dll",
+		"RigLogicEditor": "UnrealEditor-RigLogicEditor.dll",
+		"RigLogicLib": "UnrealEditor-RigLogicLib.dll",
+		"RigLogicLibTest": "UnrealEditor-RigLogicLibTest.dll",
+		"RigLogicModule": "UnrealEditor-RigLogicModule.dll"
+	}
+}

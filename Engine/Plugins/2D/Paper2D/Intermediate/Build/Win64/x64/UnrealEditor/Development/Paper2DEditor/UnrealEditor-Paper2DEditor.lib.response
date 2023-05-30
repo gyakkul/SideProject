@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Paper2DEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\2D\Paper2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\Paper2DEditor\Module.Paper2DEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\2D\Paper2D\Intermediate\Build\Win64\x64\UnrealEditor\Development\Paper2DEditor\UnrealEditor-Paper2DEditor.lib"

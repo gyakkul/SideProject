@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ComposureEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Compositing\Composure\Intermediate\Build\Win64\x64\UnrealEditor\Development\ComposureEditor\Module.ComposureEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Compositing\Composure\Intermediate\Build\Win64\x64\UnrealEditor\Development\ComposureEditor\UnrealEditor-ComposureEditor.lib"

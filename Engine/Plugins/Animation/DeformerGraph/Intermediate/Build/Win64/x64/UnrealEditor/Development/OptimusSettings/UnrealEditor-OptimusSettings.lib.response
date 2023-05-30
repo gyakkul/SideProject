@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OptimusSettings.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Animation\DeformerGraph\Intermediate\Build\Win64\x64\UnrealEditor\Development\OptimusSettings\Module.OptimusSettings.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Animation\DeformerGraph\Intermediate\Build\Win64\x64\UnrealEditor\Development\OptimusSettings\UnrealEditor-OptimusSettings.lib"

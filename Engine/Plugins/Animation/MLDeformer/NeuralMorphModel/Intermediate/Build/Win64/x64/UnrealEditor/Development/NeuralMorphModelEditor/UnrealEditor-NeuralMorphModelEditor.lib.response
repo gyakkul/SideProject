@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NeuralMorphModelEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Animation\MLDeformer\NeuralMorphModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NeuralMorphModelEditor\Module.NeuralMorphModelEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Animation\MLDeformer\NeuralMorphModel\Intermediate\Build\Win64\x64\UnrealEditor\Development\NeuralMorphModelEditor\UnrealEditor-NeuralMorphModelEditor.lib"

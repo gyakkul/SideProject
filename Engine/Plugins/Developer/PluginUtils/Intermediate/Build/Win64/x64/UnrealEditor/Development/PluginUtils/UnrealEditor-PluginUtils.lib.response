@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PluginUtils.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Developer\PluginUtils\Intermediate\Build\Win64\x64\UnrealEditor\Development\PluginUtils\Module.PluginUtils.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Developer\PluginUtils\Intermediate\Build\Win64\x64\UnrealEditor\Development\PluginUtils\UnrealEditor-PluginUtils.lib"

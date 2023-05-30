@@ -1,0 +1,173 @@
+diff --git a/share/cmake/modules/Findminizip-ng.cmake b/share/cmake/modules/Findminizip-ng.cmake
+index 528d1d0d..2c5d5e3b 100644
+--- a/share/cmake/modules/Findminizip-ng.cmake
++++ b/share/cmake/modules/Findminizip-ng.cmake
+@@ -121,8 +121,8 @@ if(NOT minizip-ng_FOUND AND NOT OCIO_INSTALL_EXT_PACKAGES STREQUAL NONE)
+         "${_EXT_DIST_ROOT}/${CMAKE_INSTALL_LIBDIR}/${_minizip-ng_LIB_PREFIX}minizip-ng${_minizip-ng_LIB_SUFFIX}${CMAKE_STATIC_LIBRARY_SUFFIX}")
+ 
+     if(_minizip-ng_TARGET_CREATE)
+-        set(MINIZIP-NG_CMAKE_ARGS
+-            ${MINIZIP-NG_CMAKE_ARGS}
++        set(minizip-ng_CMAKE_ARGS
++            ${minizip-ng_CMAKE_ARGS}
+             -DCMAKE_CXX_VISIBILITY_PRESET=${CMAKE_CXX_VISIBILITY_PRESET}
+             -DCMAKE_VISIBILITY_INLINES_HIDDEN=${CMAKE_VISIBILITY_INLINES_HIDDEN}
+             -DCMAKE_POSITION_INDEPENDENT_CODE=ON
+@@ -189,7 +189,7 @@ if(NOT minizip-ng_FOUND AND NOT OCIO_INSTALL_EXT_PACKAGES STREQUAL NONE)
+         GIT_SHALLOW TRUE
+         PREFIX "${_EXT_BUILD_ROOT}/libminizip-ng"
+         BUILD_BYPRODUCTS ${minizip-ng_LIBRARY}
+-        CMAKE_ARGS ${MINIZIP-NG_CMAKE_ARGS}
++        CMAKE_ARGS ${minizip-ng_CMAKE_ARGS}
+         EXCLUDE_FROM_ALL TRUE
+         BUILD_COMMAND ""
+         INSTALL_COMMAND
+diff --git a/src/OpenColorIO/ops/lut1d/Lut1DOpGPU.cpp b/src/OpenColorIO/ops/lut1d/Lut1DOpGPU.cpp
+index 21fc40a3..8f127732 100644
+--- a/src/OpenColorIO/ops/lut1d/Lut1DOpGPU.cpp
++++ b/src/OpenColorIO/ops/lut1d/Lut1DOpGPU.cpp
+@@ -200,10 +200,6 @@ void GetLut1DGPUShaderProgram(GpuShaderCreatorRcPtr & shaderCreator,
+                               &values[0]);
+ 
+     // Add the LUT code to the OCIO shader program.
+-
+-    if (height > 1 || lutData->isInputHalfDomain()
+-        || shaderCreator->getLanguage() == GPU_LANGUAGE_GLSL_ES_1_0
+-        || shaderCreator->getLanguage() == GPU_LANGUAGE_GLSL_ES_3_0)
+     {
+         // In case the 1D LUT length exceeds the 1D texture maximum length,
+         // or the language doesn't support 1D textures,
+@@ -261,29 +257,28 @@ void GetLut1DGPUShaderProgram(GpuShaderCreatorRcPtr & shaderCreator,
+                 // At this point 'dep' contains the raw half
+                 // Note: Raw halfs for NaN floats cannot be computed using
+                 //       floating-point operations.
+-                ss.newLine() << ss.float2Decl("retVal") << ";";
+-                ss.newLine() << "retVal.y = floor(dep / " << float(width - 1) << ");";       // floor( dep / (width-1) ))
+-                ss.newLine() << "retVal.x = dep - retVal.y * " << float(width - 1) << ";";   // dep - retVal.y * (width-1)
+-
+-                ss.newLine() << "retVal.x = (retVal.x + 0.5) / " << float(width) << ";";   // (retVal.x + 0.5) / width;
+-                ss.newLine() << "retVal.y = (retVal.y + 0.5) / " << float(height) << ";";  // (retVal.x + 0.5) / height;
+             }
+             else
+             {
+                 // Need clamp() to protect against f outside [0,1] causing a bogus x value.
+                 // clamp( f, 0., 1.) * (dim - 1)
+                 ss.newLine() << "float dep = clamp(f, 0.0, 1.0) * " << float(length - 1) << ";";
++            }
++
++            ss.newLine() << ss.float2Decl("retVal") << ";";
+ 
+-                ss.newLine() << ss.float2Decl("retVal") << ";";
+-                // float(int( dep / (width-1) ))
+-                ss.newLine() << "retVal.y = float(int(dep / " << float(width - 1) << "));";
+-                // dep - retVal.y * (width-1)
+-                ss.newLine() << "retVal.x = dep - retVal.y * " << float(width - 1) << ";";
++            if (height > 1)
++            {
++                ss.newLine() << "retVal.y = floor(dep / " << float(width - 1) << ");";     // floor( dep / (width-1) ))
++                ss.newLine() << "retVal.x = dep - retVal.y * " << float(width - 1) << ";"; // dep - retVal.y * (width-1)
+ 
+-                // (retVal.x + 0.5) / width;
+-                ss.newLine() << "retVal.x = (retVal.x + 0.5) / " << float(width) << ";";
+-                // (retVal.x + 0.5) / height;
+-                ss.newLine() << "retVal.y = (retVal.y + 0.5) / " << float(height) << ";";
++                ss.newLine() << "retVal.x = (retVal.x + 0.5) / " << float(width) << ";";   // (retVal.x + 0.5) / width;
++                ss.newLine() << "retVal.y = (retVal.y + 0.5) / " << float(height) << ";";  // (retVal.x + 0.5) / height;
++            }
++            else
++            {
++                ss.newLine() << "retVal.x = (dep + 0.5) / " << float(width) << ";"; // (dep + 0.5) / width;
++                ss.newLine() << "retVal.y = 0.5;";
+             }
+ 
+             ss.newLine() << "return retVal;";
+@@ -293,12 +288,7 @@ void GetLut1DGPUShaderProgram(GpuShaderCreatorRcPtr & shaderCreator,
+             shaderCreator->addToHelperShaderCode(ss.string().c_str());
+         }
+     }
+-    else
+-    {
+-        GpuShaderText ss(shaderCreator->getLanguage());
+-        ss.declareTex1D(name);
+-        shaderCreator->addToDeclareShaderCode(ss.string().c_str());
+-    }
++
+ 
+     GpuShaderText ss(shaderCreator->getLanguage());
+     ss.indent();
+@@ -324,9 +314,6 @@ void GetLut1DGPUShaderProgram(GpuShaderCreatorRcPtr & shaderCreator,
+         ss.newLine() << "";
+     }
+ 
+-    if (height > 1 || lutData->isInputHalfDomain()
+-        || shaderCreator->getLanguage() == GPU_LANGUAGE_GLSL_ES_1_0
+-        || shaderCreator->getLanguage() == GPU_LANGUAGE_GLSL_ES_3_0)
+     {
+         const std::string str = name + "_computePos(" + shaderCreator->getPixelName();
+ 
+@@ -339,25 +326,6 @@ void GetLut1DGPUShaderProgram(GpuShaderCreatorRcPtr & shaderCreator,
+         ss.newLine() << shaderCreator->getPixelName() << ".b = " 
+                      << ss.sampleTex2D(name, str + ".b)") << (singleChannel ? ".r;" : ".b;");
+     }
+-    else
+-    {
+-        const float dim = (float)lutData->getArray().getLength();
+-
+-        ss.newLine() << ss.float3Decl(name + "_coords")
+-                        << " = (" << shaderCreator->getPixelName() << ".rgb * "
+-                        << ss.float3Const(dim - 1)
+-                        << " + " << ss.float3Const(0.5f) << " ) / "
+-                        << ss.float3Const(dim) << ";";
+-
+-        ss.newLine() << shaderCreator->getPixelName() << ".r = "
+-                        << ss.sampleTex1D(name, name + "_coords.r") << ".r;";
+-
+-        ss.newLine() << shaderCreator->getPixelName() << ".g = "
+-                        << ss.sampleTex1D(name, name + "_coords.g") << (singleChannel ? ".r;" : ".g;");
+-
+-        ss.newLine() << shaderCreator->getPixelName() << ".b = "
+-                        << ss.sampleTex1D(name, name + "_coords.b") << (singleChannel ? ".r;" : ".b;");
+-    }
+ 
+     if (lutData->getHueAdjust() == HUE_DW3)
+     {
+diff --git a/src/libutils/oglapphelpers/glsl.cpp b/src/libutils/oglapphelpers/glsl.cpp
+index fb1b8b9d..3f726d2c 100644
+--- a/src/libutils/oglapphelpers/glsl.cpp
++++ b/src/libutils/oglapphelpers/glsl.cpp
+@@ -119,22 +119,11 @@ void AllocateTexture2D(unsigned index, unsigned & texId,
+ 
+     glActiveTexture(GL_TEXTURE0 + index);
+ 
+-    if (height > 1)
+-    {
+-        glBindTexture(GL_TEXTURE_2D, texId);
++    glBindTexture(GL_TEXTURE_2D, texId);
+ 
+-        SetTextureParameters(GL_TEXTURE_2D, interpolation);
++    SetTextureParameters(GL_TEXTURE_2D, interpolation);
+ 
+-        glTexImage2D(GL_TEXTURE_2D, 0, internalformat, width, height, 0, format, GL_FLOAT, values);
+-    }
+-    else
+-    {
+-        glBindTexture(GL_TEXTURE_1D, texId);
+-
+-        SetTextureParameters(GL_TEXTURE_1D, interpolation);
+-
+-        glTexImage1D(GL_TEXTURE_1D, 0, internalformat, width, 0, format, GL_FLOAT, values);
+-    }
++    glTexImage2D(GL_TEXTURE_2D, 0, internalformat, width, height, 0, format, GL_FLOAT, values);
+ }
+ 
+ GLuint CompileShaderText(GLenum shaderType, const char * text)
+@@ -376,8 +365,7 @@ void OpenGLBuilder::allocateAllTextures(unsigned startIndex)
+ 
+         // 3. Keep the texture id & name for the later enabling.
+ 
+-        unsigned type = (height > 1) ? GL_TEXTURE_2D : GL_TEXTURE_1D;
+-        m_textureIds.push_back(TextureId(texId, textureName, samplerName, type));
++        m_textureIds.push_back(TextureId(texId, textureName, samplerName, GL_TEXTURE_2D));
+         currIndex++;
+     }
+ }

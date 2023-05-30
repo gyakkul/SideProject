@@ -1,0 +1,13 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"LiveLink": "UnrealEditor-LiveLink.dll",
+		"LiveLinkComponents": "UnrealEditor-LiveLinkComponents.dll",
+		"LiveLinkEditor": "UnrealEditor-LiveLinkEditor.dll",
+		"LiveLinkGraphNode": "UnrealEditor-LiveLinkGraphNode.dll",
+		"LiveLinkMovieScene": "UnrealEditor-LiveLinkMovieScene.dll",
+		"LiveLinkMultiUser": "UnrealEditor-LiveLinkMultiUser.dll",
+		"LiveLinkSequencer": "UnrealEditor-LiveLinkSequencer.dll"
+	}
+}

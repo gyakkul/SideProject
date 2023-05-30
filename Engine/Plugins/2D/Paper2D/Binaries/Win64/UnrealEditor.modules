@@ -1,0 +1,11 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"Paper2D": "UnrealEditor-Paper2D.dll",
+		"Paper2DEditor": "UnrealEditor-Paper2DEditor.dll",
+		"PaperSpriteSheetImporter": "UnrealEditor-PaperSpriteSheetImporter.dll",
+		"PaperTiledImporter": "UnrealEditor-PaperTiledImporter.dll",
+		"SmartSnapping": "UnrealEditor-SmartSnapping.dll"
+	}
+}

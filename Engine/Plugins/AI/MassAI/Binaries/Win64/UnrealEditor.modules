@@ -1,0 +1,13 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"MassAIBehavior": "UnrealEditor-MassAIBehavior.dll",
+		"MassAIDebug": "UnrealEditor-MassAIDebug.dll",
+		"MassAIReplication": "UnrealEditor-MassAIReplication.dll",
+		"MassAITestSuite": "UnrealEditor-MassAITestSuite.dll",
+		"MassNavigation": "UnrealEditor-MassNavigation.dll",
+		"MassNavigationEditor": "UnrealEditor-MassNavigationEditor.dll",
+		"MassZoneGraphNavigation": "UnrealEditor-MassZoneGraphNavigation.dll"
+	}
+}
