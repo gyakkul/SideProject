@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ModelProtoFileReader.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h.obj"
+"..\Plugins\Experimental\NNI\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModelProtoFileReader\Module.ModelProtoFileReader.cpp.obj"
+"..\Plugins\Experimental\NNI\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModelProtoFileReader\onnx.proto3.pb.cc.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\NNI\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModelProtoFileReader\UnrealEditor-ModelProtoFileReader.lib"

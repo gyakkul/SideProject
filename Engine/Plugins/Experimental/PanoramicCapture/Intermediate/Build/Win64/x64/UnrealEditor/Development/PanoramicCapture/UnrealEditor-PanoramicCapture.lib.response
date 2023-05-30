@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PanoramicCapture.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Experimental\PanoramicCapture\Intermediate\Build\Win64\x64\UnrealEditor\Development\PanoramicCapture\Module.PanoramicCapture.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\PanoramicCapture\Intermediate\Build\Win64\x64\UnrealEditor\Development\PanoramicCapture\UnrealEditor-PanoramicCapture.lib"

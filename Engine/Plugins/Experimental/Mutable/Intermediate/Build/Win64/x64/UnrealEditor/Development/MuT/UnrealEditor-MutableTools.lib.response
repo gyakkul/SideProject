@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MutableTools.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.RTTI.ShadowErrors.h.obj"
+"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuT\Module.MuT.1_of_4.cpp.obj"
+"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuT\Module.MuT.2_of_4.cpp.obj"
+"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuT\Module.MuT.3_of_4.cpp.obj"
+"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuT\Module.MuT.4_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuT\UnrealEditor-MutableTools.lib"

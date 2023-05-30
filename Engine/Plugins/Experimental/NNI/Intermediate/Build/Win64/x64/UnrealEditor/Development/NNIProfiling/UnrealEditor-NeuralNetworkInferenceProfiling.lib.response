@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NeuralNetworkInferenceProfiling.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Experimental\NNI\Intermediate\Build\Win64\x64\UnrealEditor\Development\NNIProfiling\Module.NNIProfiling.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\NNI\Intermediate\Build\Win64\x64\UnrealEditor\Development\NNIProfiling\UnrealEditor-NeuralNetworkInferenceProfiling.lib"

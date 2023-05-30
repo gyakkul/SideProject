@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MutableRuntime.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h.obj"
+"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuR\Module.MuR.1_of_3.cpp.obj"
+"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuR\Module.MuR.2_of_3.cpp.obj"
+"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuR\Module.MuR.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\Mutable\Intermediate\Build\Win64\x64\UnrealEditor\Development\MuR\UnrealEditor-MutableRuntime.lib"

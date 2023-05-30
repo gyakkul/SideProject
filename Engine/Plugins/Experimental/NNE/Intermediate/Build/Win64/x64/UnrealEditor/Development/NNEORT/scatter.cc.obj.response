@@ -1,0 +1,82 @@
+..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Onnxruntime\Private\core\providers\cpu\tensor\scatter.cc
+/I .
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\dlpack\include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\date\include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\gsl
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\json\single_include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\mp11\include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\SafeInt
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\wil\include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Onnxruntime\Private
+/I ThirdParty
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\ORTHelper\Internal
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I Runtime
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Onnxruntime\Internal\core\session
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Onnxruntime\Internal
+/I ThirdParty\Protobuf\3.18.0\include
+/I ThirdParty\zlib\1.2.12\include
+/I ThirdParty\Re2\2022-06-01\include
+/I ThirdParty\Eigen
+/I ThirdParty\Eigen\Eigen
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\Flatbuffers\include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\Onnx\include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\OnnxruntimeMlas\include
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\OnnxruntimeMlas\include\core\mlas\inc
+/I ..\Plugins\Experimental\NNE\Source\ThirdParty\onnxruntime\Dependencies\abseil-cpp\include
+/I ThirdParty\mimalloc\include
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"..\Plugins\Experimental\NNE\Intermediate\Build\Win64\x64\UnrealEditor\Development\NNEORT\PCH.NNEOnnxruntime.h"
+/Yu"..\Plugins\Experimental\NNE\Intermediate\Build\Win64\x64\UnrealEditor\Development\NNEORT\PCH.NNEOnnxruntime.h"
+/Fp"..\Plugins\Experimental\NNE\Intermediate\Build\Win64\x64\UnrealEditor\Development\NNEORT\PCH.NNEOnnxruntime.h.pch"
+/Fo"..\Plugins\Experimental\NNE\Intermediate\Build\Win64\x64\UnrealEditor\Development\NNEORT\scatter.cc.obj"
+/sourceDependencies ..\Plugins\Experimental\NNE\Intermediate\Build\Win64\x64\UnrealEditor\Development\NNEORT\scatter.cc.dep.json
+/Zc:inline
+/nologo
+/Oi
+/FC
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/Zc:hiddenFriend
+/Zc:__cplusplus
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/fastfail
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/DPLATFORM_EXCEPTIONS_DISABLED=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/wd4244
+/wd4838
+/TP
+/GR
+/W4
+/std:c++17

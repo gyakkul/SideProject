@@ -1,0 +1,17 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"NNECore": "UnrealEditor-NNECore.dll",
+		"NNEEditorTools": "UnrealEditor-NNEEditorTools.dll",
+		"NNEHlslShaders": "UnrealEditor-NNEHlslShaders.dll",
+		"NNEOnnxruntime": "UnrealEditor-NNEOnnxruntime.dll",
+		"NNEProfiling": "UnrealEditor-NNEProfiling.dll",
+		"NNEQA": "UnrealEditor-NNEQA.dll",
+		"NNERuntimeORT": "UnrealEditor-NNERuntimeORT.dll",
+		"NNERuntimeORTCpu": "UnrealEditor-NNERuntimeORTCpu.dll",
+		"NNERuntimeRDG": "UnrealEditor-NNERuntimeRDG.dll",
+		"NNEUtils": "UnrealEditor-NNEUtils.dll",
+		"ORTHelper": "UnrealEditor-ORTHelper.dll"
+	}
+}

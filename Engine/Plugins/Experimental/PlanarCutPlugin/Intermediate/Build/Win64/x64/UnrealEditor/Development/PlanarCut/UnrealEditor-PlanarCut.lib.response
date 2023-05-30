@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PlanarCut.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
+"..\Plugins\Experimental\PlanarCutPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\PlanarCut\Module.PlanarCut.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Experimental\PlanarCutPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\PlanarCut\UnrealEditor-PlanarCut.lib"

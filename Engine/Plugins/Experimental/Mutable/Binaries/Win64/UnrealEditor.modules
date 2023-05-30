@@ -1,0 +1,12 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"CustomizableObject": "UnrealEditor-CustomizableObject.dll",
+		"CustomizableObjectEditor": "UnrealEditor-CustomizableObjectEditor.dll",
+		"CustomizableObjectPopulation": "UnrealEditor-CustomizableObjectPopulation.dll",
+		"CustomizableObjectPopulationEditor": "UnrealEditor-CustomizableObjectPopulationEditor.dll",
+		"MutableRuntime": "UnrealEditor-MutableRuntime.dll",
+		"MutableTools": "UnrealEditor-MutableTools.dll"
+	}
+}

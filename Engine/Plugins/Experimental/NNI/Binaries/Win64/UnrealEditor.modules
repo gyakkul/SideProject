@@ -1,0 +1,15 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"ModelProto": "UnrealEditor-ModelProto.dll",
+		"ModelProtoFileReader": "UnrealEditor-ModelProtoFileReader.dll",
+		"NeuralNetworkInference": "UnrealEditor-NeuralNetworkInference.dll",
+		"NeuralNetworkInferenceEditor": "UnrealEditor-NeuralNetworkInferenceEditor.dll",
+		"NeuralNetworkInferenceProfiling": "UnrealEditor-NeuralNetworkInferenceProfiling.dll",
+		"NeuralNetworkInferenceQA": "UnrealEditor-NeuralNetworkInferenceQA.dll",
+		"NeuralNetworkInferenceShaders": "UnrealEditor-NeuralNetworkInferenceShaders.dll",
+		"ONNXRuntime": "UnrealEditor-ONNXRuntime.dll",
+		"ThirdPartyHelperAndDLLLoader": "UnrealEditor-ThirdPartyHelperAndDLLLoader.dll"
+	}
+}
