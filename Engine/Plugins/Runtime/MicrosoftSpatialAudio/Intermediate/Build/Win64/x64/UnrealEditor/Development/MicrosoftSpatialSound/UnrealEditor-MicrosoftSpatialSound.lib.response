@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MicrosoftSpatialSound.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\Runtime\MicrosoftSpatialAudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\MicrosoftSpatialSound\MicrosoftSpatialSoundPlugin.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\MicrosoftSpatialAudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\MicrosoftSpatialSound\UnrealEditor-MicrosoftSpatialSound.lib"

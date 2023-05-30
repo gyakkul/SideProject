@@ -1,0 +1,120 @@
+﻿# HTTPChunkInstaller English translation.
+# Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: HTTPChunkInstaller\n"
+"POT-Creation-Date: 2017-01-19 16:54\n"
+"PO-Revision-Date: 2017-01-19 16:54\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	ConnectionFailure
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:472
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:472
+msgctxt "HTTPChunkInstaller,ConnectionFailure"
+msgid "Connection to the server failed."
+msgstr "서버 접속에 실패했습니다."
+
+#. Key:	Diskspace
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:758
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:758
+msgctxt "HTTPChunkInstaller,Diskspace"
+msgid "No space on device."
+msgstr "기기 용량이 부족합니다."
+
+#. Key:	EnumerateFilesError_Generic
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:131
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:131
+msgctxt "HTTPChunkInstaller,EnumerateFilesError_Generic"
+msgid "Enumerate Files request failed."
+msgstr "파일 열거 요청이 실패했습니다."
+
+#. Key:	EnumerateFilesError_UpdateRequired
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:159
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:159
+msgctxt "HTTPChunkInstaller,EnumerateFilesError_UpdateRequired"
+msgid "This game requires an update in order to continue playing."
+msgstr "게임을 계속 진행하려면 업데이트가 필요합니다."
+
+#. Key:	HttpResponse
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:465
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:465
+msgctxt "HTTPChunkInstaller,HttpResponse"
+msgid "HTTP {0} response"
+msgstr "HTTP {0} 응답"
+
+#. Key:	HttpResponseFrom
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:647
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:647
+msgctxt "HTTPChunkInstaller,HttpResponseFrom"
+msgid "HTTP {0} response from {1}"
+msgstr "{1} 에서 {0} HTTP 반응"
+
+#. Key:	HttpResponseTo
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:653
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:653
+msgctxt "HTTPChunkInstaller,HttpResponseTo"
+msgid "Connection to {0} failed"
+msgstr "{0} 연결에 실패했습니다."
+
+#. Key:	InstallFailure
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:761
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:761
+msgctxt "HTTPChunkInstaller,InstallFailure"
+msgid "Failed to install file, retrying..."
+msgstr "파일 설치를 실패했습니다. 재시도중..."
+
+#. Key:	MissingFile
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:461
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:461
+msgctxt "HTTPChunkInstaller,MissingFile"
+msgid "File not found."
+msgstr "파일을 찾을 수 없습니다."
+
+#. Key:	ParseManifestError_BadFileEntry
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:580
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:580
+msgctxt "HTTPChunkInstaller,ParseManifestError_BadFileEntry"
+msgid "Bad manifest (invalid file entry)."
+msgstr "파일 목록 나쁨. (유효하지 않은 파일 항목)"
+
+#. Key:	ParseManifestError_Json
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:517
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:517
+msgctxt "HTTPChunkInstaller,ParseManifestError_Json"
+msgid "Unable to parse manifest JSON."
+msgstr "manifest JSON 파일 분석에 실패했습니다."
+
+#. Key:	ReadFile_FileNotFound
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:214
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:214
+msgctxt "HTTPChunkInstaller,ReadFile_FileNotFound"
+msgid "File not found: {0}"
+msgstr "파일을 찾을 수 없습니다: {0}"
+
+#. Key:	ReadFile_RequestFailed
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:250
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:250
+msgctxt "HTTPChunkInstaller,ReadFile_RequestFailed"
+msgid "Read request failed for file ({0})"
+msgstr "{0} 파일에 대한 읽기 요청 실패"
+
+#. Key:	ReadFiles
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:755
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:755
+msgctxt "HTTPChunkInstaller,ReadFiles"
+msgid "Failure to download files, retrying..."
+msgstr "파일 다운로드 실패, 재시도 중..."
+
+#. Key:	UnknownFailure
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:764
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:764
+msgctxt "HTTPChunkInstaller,UnknownFailure"
+msgid "Unknown Failure, retrying..."
+msgstr "알 수 없는 실패, 재시도 중..."
+

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MetasoundEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Runtime\Metasound\Intermediate\Build\Win64\x64\UnrealEditor\Development\MetasoundEditor\Module.MetasoundEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\Metasound\Intermediate\Build\Win64\x64\UnrealEditor\Development\MetasoundEditor\UnrealEditor-MetasoundEditor.lib"

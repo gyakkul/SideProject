@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MassReplication.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\MassReplication\Module.MassReplication.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\MassGameplay\Intermediate\Build\Win64\x64\UnrealEditor\Development\MassReplication\UnrealEditor-MassReplication.lib"

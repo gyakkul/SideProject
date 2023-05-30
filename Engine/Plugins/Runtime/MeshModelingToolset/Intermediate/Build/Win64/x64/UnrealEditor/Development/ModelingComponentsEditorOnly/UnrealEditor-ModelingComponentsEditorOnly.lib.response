@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ModelingComponentsEditorOnly.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Runtime\MeshModelingToolset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModelingComponentsEditorOnly\Module.ModelingComponentsEditorOnly.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\MeshModelingToolset\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModelingComponentsEditorOnly\UnrealEditor-ModelingComponentsEditorOnly.lib"

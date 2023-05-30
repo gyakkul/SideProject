@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SQLiteCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h.obj"
+"..\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SQLiteCore\Module.SQLiteCore.cpp.obj"
+"..\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SQLiteCore\SQLiteEmbedded.c.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\Database\SQLiteCore\Intermediate\Build\Win64\x64\UnrealEditor\Development\SQLiteCore\UnrealEditor-SQLiteCore.lib"

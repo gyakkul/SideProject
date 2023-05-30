@@ -1,0 +1,10 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"MassEntity": "UnrealEditor-MassEntity.dll",
+		"MassEntityDebugger": "UnrealEditor-MassEntityDebugger.dll",
+		"MassEntityEditor": "UnrealEditor-MassEntityEditor.dll",
+		"MassEntityTestSuite": "UnrealEditor-MassEntityTestSuite.dll"
+	}
+}

@@ -1,0 +1,13 @@
+# These proguard rules are required to generate a proguarded PlayCore AAR.
+#
+# DO NOT DISTRIBUTE PUBLICLY.
+#
+
+-keepattributes Signature, InnerClasses, Exceptions, *Annotation*
+
+# To avoid issues on Windows filesystem.
+-dontusemixedcaseclassnames
+
+# Use same minification prefix as in granular builds
+-classminificationprefix zz
+-memberminificationprefix zz

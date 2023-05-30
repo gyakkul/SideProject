@@ -1,0 +1,12 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"MeshModelingTools": "UnrealEditor-MeshModelingTools.dll",
+		"MeshModelingToolsEditorOnly": "UnrealEditor-MeshModelingToolsEditorOnly.dll",
+		"ModelingComponents": "UnrealEditor-ModelingComponents.dll",
+		"ModelingComponentsEditorOnly": "UnrealEditor-ModelingComponentsEditorOnly.dll",
+		"ModelingOperators": "UnrealEditor-ModelingOperators.dll",
+		"ModelingOperatorsEditorOnly": "UnrealEditor-ModelingOperatorsEditorOnly.dll"
+	}
+}

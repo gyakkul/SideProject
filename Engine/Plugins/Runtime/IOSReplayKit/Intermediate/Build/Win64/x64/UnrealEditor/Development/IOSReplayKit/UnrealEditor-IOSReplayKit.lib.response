@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-IOSReplayKit.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Runtime\IOSReplayKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOSReplayKit\Module.IOSReplayKit.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\IOSReplayKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\IOSReplayKit\UnrealEditor-IOSReplayKit.lib"

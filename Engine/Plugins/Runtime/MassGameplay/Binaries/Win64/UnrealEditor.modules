@@ -1,0 +1,20 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"MassActors": "UnrealEditor-MassActors.dll",
+		"MassCommon": "UnrealEditor-MassCommon.dll",
+		"MassGameplayDebug": "UnrealEditor-MassGameplayDebug.dll",
+		"MassGameplayEditor": "UnrealEditor-MassGameplayEditor.dll",
+		"MassGameplayExternalTraits": "UnrealEditor-MassGameplayExternalTraits.dll",
+		"MassLOD": "UnrealEditor-MassLOD.dll",
+		"MassMovement": "UnrealEditor-MassMovement.dll",
+		"MassMovementEditor": "UnrealEditor-MassMovementEditor.dll",
+		"MassReplication": "UnrealEditor-MassReplication.dll",
+		"MassRepresentation": "UnrealEditor-MassRepresentation.dll",
+		"MassSignals": "UnrealEditor-MassSignals.dll",
+		"MassSimulation": "UnrealEditor-MassSimulation.dll",
+		"MassSmartObjects": "UnrealEditor-MassSmartObjects.dll",
+		"MassSpawner": "UnrealEditor-MassSpawner.dll"
+	}
+}

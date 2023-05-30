@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DynamicMesh.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.TypeCastErrors.h.obj"
+"..\Plugins\Runtime\GeometryProcessing\Intermediate\Build\Win64\x64\UnrealEditor\Development\DynamicMesh\Module.DynamicMesh.1_of_3.cpp.obj"
+"..\Plugins\Runtime\GeometryProcessing\Intermediate\Build\Win64\x64\UnrealEditor\Development\DynamicMesh\Module.DynamicMesh.2_of_3.cpp.obj"
+"..\Plugins\Runtime\GeometryProcessing\Intermediate\Build\Win64\x64\UnrealEditor\Development\DynamicMesh\Module.DynamicMesh.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Runtime\GeometryProcessing\Intermediate\Build\Win64\x64\UnrealEditor\Development\DynamicMesh\UnrealEditor-DynamicMesh.lib"

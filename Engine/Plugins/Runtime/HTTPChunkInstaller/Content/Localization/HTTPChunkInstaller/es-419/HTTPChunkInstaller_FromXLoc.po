@@ -1,0 +1,120 @@
+﻿# HTTPChunkInstaller English translation.
+# Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: HTTPChunkInstaller\n"
+"POT-Creation-Date: 2017-01-19 16:54\n"
+"PO-Revision-Date: 2017-01-19 16:54\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	ConnectionFailure
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:472
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:472
+msgctxt "HTTPChunkInstaller,ConnectionFailure"
+msgid "Connection to the server failed."
+msgstr "Error al conectar con el servidor."
+
+#. Key:	Diskspace
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:758
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:758
+msgctxt "HTTPChunkInstaller,Diskspace"
+msgid "No space on device."
+msgstr "No queda espacio en el dispositivo."
+
+#. Key:	EnumerateFilesError_Generic
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:131
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:131
+msgctxt "HTTPChunkInstaller,EnumerateFilesError_Generic"
+msgid "Enumerate Files request failed."
+msgstr "Error en la solicitud de enumeración de archivos."
+
+#. Key:	EnumerateFilesError_UpdateRequired
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:159
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:159
+msgctxt "HTTPChunkInstaller,EnumerateFilesError_UpdateRequired"
+msgid "This game requires an update in order to continue playing."
+msgstr "Este juego requiere una actualización para poder seguir jugando."
+
+#. Key:	HttpResponse
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:465
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:465
+msgctxt "HTTPChunkInstaller,HttpResponse"
+msgid "HTTP {0} response"
+msgstr "Respuesta {0} de HTTP."
+
+#. Key:	HttpResponseFrom
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:647
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:647
+msgctxt "HTTPChunkInstaller,HttpResponseFrom"
+msgid "HTTP {0} response from {1}"
+msgstr "Respuesta {0} de HTTP de {1}."
+
+#. Key:	HttpResponseTo
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:653
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:653
+msgctxt "HTTPChunkInstaller,HttpResponseTo"
+msgid "Connection to {0} failed"
+msgstr "Error al conectar con {0}."
+
+#. Key:	InstallFailure
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:761
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:761
+msgctxt "HTTPChunkInstaller,InstallFailure"
+msgid "Failed to install file, retrying..."
+msgstr "Error al instalar el archivo. Reintentando..."
+
+#. Key:	MissingFile
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:461
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:461
+msgctxt "HTTPChunkInstaller,MissingFile"
+msgid "File not found."
+msgstr "Archivo no encontrado."
+
+#. Key:	ParseManifestError_BadFileEntry
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:580
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:580
+msgctxt "HTTPChunkInstaller,ParseManifestError_BadFileEntry"
+msgid "Bad manifest (invalid file entry)."
+msgstr "Manifiesto erróneo (entrada de archivo no válida)."
+
+#. Key:	ParseManifestError_Json
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:517
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:517
+msgctxt "HTTPChunkInstaller,ParseManifestError_Json"
+msgid "Unable to parse manifest JSON."
+msgstr "No se pudo analizar el manifiesto de JSON."
+
+#. Key:	ReadFile_FileNotFound
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:214
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:214
+msgctxt "HTTPChunkInstaller,ReadFile_FileNotFound"
+msgid "File not found: {0}"
+msgstr "Archivo no encontrado: {0}."
+
+#. Key:	ReadFile_RequestFailed
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:250
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPOnlineTitleFile.cpp:250
+msgctxt "HTTPChunkInstaller,ReadFile_RequestFailed"
+msgid "Read request failed for file ({0})"
+msgstr "Error en la solicitud de lectura del archivo ({0})."
+
+#. Key:	ReadFiles
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:755
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:755
+msgctxt "HTTPChunkInstaller,ReadFiles"
+msgid "Failure to download files, retrying..."
+msgstr "No se pudieron descargar los archivos. Reintentando..."
+
+#. Key:	UnknownFailure
+#. SourceLocation:	Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:764
+#: Plugins/Online/HTTPChunkInstaller/Source/Private/HTTPChunkInstaller.cpp:764
+msgctxt "HTTPChunkInstaller,UnknownFailure"
+msgid "Unknown Failure, retrying..."
+msgstr "Error desconocido. Reintentado..."
+
