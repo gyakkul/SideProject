@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UdpMessaging.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\UdpMessaging\Module.UdpMessaging.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\UdpMessaging\UnrealEditor-UdpMessaging.lib"

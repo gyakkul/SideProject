@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MfMediaFactory.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
+"..\Plugins\Media\MfMedia\Intermediate\Build\Win64\x64\UnrealEditor\Development\MfMediaFactory\MfMediaFactoryModule.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Media\MfMedia\Intermediate\Build\Win64\x64\UnrealEditor\Development\MfMediaFactory\UnrealEditor-MfMediaFactory.lib"

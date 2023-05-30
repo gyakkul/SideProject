@@ -1,0 +1,12 @@
+{
+	"BuildId": "2cce2799-9752-46c8-9143-77671ee30569",
+	"Modules": 
+	{
+		"ExrReaderGpu": "UnrealEditor-ExrReaderGpu.dll",
+		"ImgMedia": "UnrealEditor-ImgMedia.dll",
+		"ImgMediaEditor": "UnrealEditor-ImgMediaEditor.dll",
+		"ImgMediaEngine": "UnrealEditor-ImgMediaEngine.dll",
+		"ImgMediaFactory": "UnrealEditor-ImgMediaFactory.dll",
+		"OpenExrWrapper": "UnrealEditor-OpenExrWrapper.dll"
+	}
+}

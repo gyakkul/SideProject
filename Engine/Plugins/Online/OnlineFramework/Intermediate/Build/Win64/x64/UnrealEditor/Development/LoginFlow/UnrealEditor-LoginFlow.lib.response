@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-LoginFlow.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h.obj"
+"..\Plugins\Online\OnlineFramework\Intermediate\Build\Win64\x64\UnrealEditor\Development\LoginFlow\Module.LoginFlow.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Online\OnlineFramework\Intermediate\Build\Win64\x64\UnrealEditor\Development\LoginFlow\UnrealEditor-LoginFlow.lib"

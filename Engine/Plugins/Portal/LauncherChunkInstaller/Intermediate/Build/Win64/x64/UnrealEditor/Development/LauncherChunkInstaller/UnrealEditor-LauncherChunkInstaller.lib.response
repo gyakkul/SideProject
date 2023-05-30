@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-LauncherChunkInstaller.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.h.obj"
+"..\Plugins\Portal\LauncherChunkInstaller\Intermediate\Build\Win64\x64\UnrealEditor\Development\LauncherChunkInstaller\LauncherChunkInstaller.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Portal\LauncherChunkInstaller\Intermediate\Build\Win64\x64\UnrealEditor\Development\LauncherChunkInstaller\UnrealEditor-LauncherChunkInstaller.lib"

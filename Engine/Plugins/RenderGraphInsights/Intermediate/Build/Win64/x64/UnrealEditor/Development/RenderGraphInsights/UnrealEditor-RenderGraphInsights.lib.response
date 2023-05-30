@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RenderGraphInsights.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h.obj"
+"..\Plugins\RenderGraphInsights\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderGraphInsights\Module.RenderGraphInsights.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\RenderGraphInsights\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderGraphInsights\UnrealEditor-RenderGraphInsights.lib"

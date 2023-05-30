@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ExrReaderGpu.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.RTTI.ShadowErrors.h.obj"
+"..\Plugins\Media\ImgMedia\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExrReaderGpu\Module.ExrReaderGpu.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Media\ImgMedia\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExrReaderGpu\UnrealEditor-ExrReaderGpu.lib"

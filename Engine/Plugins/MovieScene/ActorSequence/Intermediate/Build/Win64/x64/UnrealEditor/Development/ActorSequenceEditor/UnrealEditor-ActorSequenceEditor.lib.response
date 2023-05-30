@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ActorSequenceEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\MovieScene\ActorSequence\Intermediate\Build\Win64\x64\UnrealEditor\Development\ActorSequenceEditor\Module.ActorSequenceEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\MovieScene\ActorSequence\Intermediate\Build\Win64\x64\UnrealEditor\Development\ActorSequenceEditor\UnrealEditor-ActorSequenceEditor.lib"

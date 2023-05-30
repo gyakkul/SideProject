@@ -1,0 +1,79 @@
+..\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\TcpMessaging\Module.TcpMessaging.cpp
+/I .
+/I ..\Plugins\Messaging\TcpMessaging\Source\TcpMessaging\Private
+/I ..\Plugins\Messaging\TcpMessaging\Source\TcpMessaging\Private\Settings
+/I ..\Plugins\Messaging\TcpMessaging\Source\TcpMessaging\Private\Transport
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
+/I Runtime\CoreUObject\Public
+/I Runtime
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I Runtime\Json\Public
+/I Runtime\Networking\Public
+/I Runtime\Sockets\Public
+/I Runtime\Net\Common\Public
+/I Runtime\Net
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Serialization\UHT
+/I Runtime\Serialization\Public
+/I Runtime\Cbor\Public
+/I Runtime\Messaging\Public
+/I Runtime\MessagingCommon\Public
+/I Developer\Settings\Public
+/I Developer
+/I ..\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\UnrealEditor\Inc\TcpMessaging\UHT
+/I ..\Plugins\Messaging\TcpMessaging\Source\TcpMessaging\Public
+/I ..\Plugins\Messaging\TcpMessaging\Source
+/I ThirdParty\mimalloc\include
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"
+/FI"..\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\TcpMessaging\Definitions.TcpMessaging.h"
+/Yu"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"
+/Fp"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.pch"
+/Fo"..\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\TcpMessaging\Module.TcpMessaging.cpp.obj"
+/sourceDependencies ..\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\x64\UnrealEditor\Development\TcpMessaging\Module.TcpMessaging.cpp.dep.json
+/Zc:inline
+/nologo
+/Oi
+/FC
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/Zc:hiddenFriend
+/Zc:__cplusplus
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/fastfail
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/DPLATFORM_EXCEPTIONS_DISABLED=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/wd4244
+/wd4838
+/TP
+/GR-
+/W4
+/std:c++17

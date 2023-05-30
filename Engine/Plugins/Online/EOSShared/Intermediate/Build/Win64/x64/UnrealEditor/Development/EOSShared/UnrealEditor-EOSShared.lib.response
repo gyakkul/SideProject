@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EOSShared.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
+"..\Plugins\Online\EOSShared\Intermediate\Build\Win64\x64\UnrealEditor\Development\EOSShared\Module.EOSShared.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Online\EOSShared\Intermediate\Build\Win64\x64\UnrealEditor\Development\EOSShared\UnrealEditor-EOSShared.lib"

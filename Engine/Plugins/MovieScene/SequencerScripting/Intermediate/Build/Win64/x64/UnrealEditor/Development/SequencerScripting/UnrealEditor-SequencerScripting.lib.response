@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SequencerScripting.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Plugins\MovieScene\SequencerScripting\Intermediate\Build\Win64\x64\UnrealEditor\Development\SequencerScripting\Module.SequencerScripting.1_of_3.cpp.obj"
+"..\Plugins\MovieScene\SequencerScripting\Intermediate\Build\Win64\x64\UnrealEditor\Development\SequencerScripting\Module.SequencerScripting.2_of_3.cpp.obj"
+"..\Plugins\MovieScene\SequencerScripting\Intermediate\Build\Win64\x64\UnrealEditor\Development\SequencerScripting\Module.SequencerScripting.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\MovieScene\SequencerScripting\Intermediate\Build\Win64\x64\UnrealEditor\Development\SequencerScripting\UnrealEditor-SequencerScripting.lib"

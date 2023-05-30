@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ImgMediaEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Plugins\Media\ImgMedia\Intermediate\Build\Win64\x64\UnrealEditor\Development\ImgMediaEditor\Module.ImgMediaEditor.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Plugins\Media\ImgMedia\Intermediate\Build\Win64\x64\UnrealEditor\Development\ImgMediaEditor\UnrealEditor-ImgMediaEditor.lib"
