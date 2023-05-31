@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-D3D11RHI.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\D3D11RHI\Module.D3D11RHI.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\D3D11RHI\UnrealEditor-D3D11RHI.lib"

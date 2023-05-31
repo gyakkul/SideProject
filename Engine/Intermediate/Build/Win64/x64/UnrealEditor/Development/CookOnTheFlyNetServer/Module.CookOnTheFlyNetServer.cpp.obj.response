@@ -1,0 +1,77 @@
+..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CookOnTheFlyNetServer\Module.CookOnTheFlyNetServer.cpp
+/I .
+/I Developer\CookOnTheFlyNetServer\Private
+/I Developer\TargetPlatform\Public
+/I Developer
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperSettings\UHT
+/I Runtime\DeveloperSettings\Public
+/I Runtime
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration\UHT
+/I Runtime\AudioPlatformConfiguration\Public
+/I Developer\DesktopPlatform\Public
+/I Runtime\Analytics\Analytics\Public
+/I Runtime\Analytics
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I Runtime\Core\Internal
+/I Developer\TextureFormat\Public
+/I Developer\CookOnTheFlyNetServer\Internal
+/I Runtime\Sockets\Public
+/I Runtime\Net\Common\Public
+/I Runtime\Net
+/I Runtime\Networking\Public
+/I Runtime\CookOnTheFly\Internal
+/I ThirdParty\mimalloc\include
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.TypeCastWarnings.h"
+/FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CookOnTheFlyNetServer\Definitions.CookOnTheFlyNetServer.h"
+/Yu"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.TypeCastWarnings.h"
+/Fp"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.TypeCastWarnings.h.pch"
+/Fo"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CookOnTheFlyNetServer\Module.CookOnTheFlyNetServer.cpp.obj"
+/sourceDependencies ..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CookOnTheFlyNetServer\Module.CookOnTheFlyNetServer.cpp.dep.json
+/Zc:inline
+/nologo
+/Oi
+/FC
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/Zc:hiddenFriend
+/Zc:__cplusplus
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/fastfail
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/DPLATFORM_EXCEPTIONS_DISABLED=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/w44244
+/w44838
+/TP
+/GR-
+/W4
+/std:c++17

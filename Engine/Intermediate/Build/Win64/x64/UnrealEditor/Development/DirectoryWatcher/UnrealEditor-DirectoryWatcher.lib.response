@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DirectoryWatcher.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\SharedPCH.Core.ShadowErrors.TypeCastErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\DirectoryWatcher\Module.DirectoryWatcher.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\DirectoryWatcher\UnrealEditor-DirectoryWatcher.lib"

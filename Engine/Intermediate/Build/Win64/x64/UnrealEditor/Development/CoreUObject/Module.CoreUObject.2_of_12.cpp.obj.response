@@ -1,0 +1,70 @@
+..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\Module.CoreUObject.2_of_12.cpp
+/I .
+/I Runtime\CoreUObject\Private
+/I Runtime\Projects\Public
+/I Runtime
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I Runtime\Core\Internal
+/I Runtime\Json\Public
+/I Developer\DerivedDataCache\Public
+/I Developer
+/I Developer\DerivedDataCache\Internal
+/I Developer\TargetPlatform\Public
+/I Developer\TextureFormat\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
+/I Runtime\CoreUObject\Public
+/I Runtime\CoreUObject\Internal
+/I ThirdParty\mimalloc\include
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\PCH.CoreUObject.h"
+/Yu"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\PCH.CoreUObject.h"
+/Fp"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\PCH.CoreUObject.h.pch"
+/Fo"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\Module.CoreUObject.2_of_12.cpp.obj"
+/sourceDependencies ..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\Module.CoreUObject.2_of_12.cpp.dep.json
+/Zc:inline
+/nologo
+/Oi
+/FC
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/Zc:hiddenFriend
+/Zc:__cplusplus
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/fastfail
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/EHsc
+/DPLATFORM_EXCEPTIONS_DISABLED=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/wd4244
+/wd4838
+/TP
+/GR-
+/W4
+/std:c++17

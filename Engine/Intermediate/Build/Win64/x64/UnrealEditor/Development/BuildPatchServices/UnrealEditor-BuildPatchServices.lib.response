@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-BuildPatchServices.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\BuildPatchServices\Module.BuildPatchServices.1_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\BuildPatchServices\Module.BuildPatchServices.2_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\BuildPatchServices\Module.BuildPatchServices.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\BuildPatchServices\UnrealEditor-BuildPatchServices.lib"
