@@ -1,0 +1,46 @@
+{
+	"TargetName": "DotNetPerforceLib",
+	"Platform": "Linux",
+	"Configuration": "Debug",
+	"TargetType": "Program",
+	"IsTestTarget": false,
+	"Architecture": "x86_64-unknown-linux-gnu",
+	"Version": 
+	{
+		"MajorVersion": 5,
+		"MinorVersion": 1,
+		"PatchVersion": 0,
+		"Changelist": 0,
+		"CompatibleChangelist": 0,
+		"IsLicenseeVersion": 0,
+		"IsPromotedBuild": 0,
+		"BranchName": "UE5",
+		"BuildId": "1596e01d-db12-4fa2-a8e8-27f4ea3b1e30"
+	},
+	"BuildProducts": [
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libDotNetPerforceLib-Linux-Debug.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libDotNetPerforceLib-Linux-Debug.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libDotNetPerforceLib-Linux-Debug.sym",
+			"Type": "SymbolFile"
+		}
+	],
+	"RuntimeDependencies": [
+	],
+	"AdditionalProperties": [
+		{
+			"Name": "CompileAsDll",
+			"Value": "true"
+		},
+		{
+			"Name": "SDK",
+			"Value": "Not Applicable"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+prefix=/Users/kmaramara/desktop/svn/src-trunk/../svn64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsvn_delta
+Description: Subversion Delta Library
+Version: 1.9.5
+Requires:  apr-util-1 apr-1
+Requires.private:  libsvn_subr
+Libs: -L${libdir}  -lsvn_delta -L/Users/kmaramara/desktop/svn/src-trunk/../zlib/lib -lz
+Cflags: -I${includedir}
