@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MovieScene.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MovieScene\Module.MovieScene.1_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MovieScene\Module.MovieScene.2_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MovieScene\Module.MovieScene.3_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MovieScene\Module.MovieScene.4_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MovieScene\UnrealEditor-MovieScene.lib"

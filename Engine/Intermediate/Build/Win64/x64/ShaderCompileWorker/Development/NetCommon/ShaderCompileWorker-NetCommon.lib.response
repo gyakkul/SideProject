@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:CONSOLE
+/DEF
+/NAME:"ShaderCompileWorker-NetCommon.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Core\SharedPCH.Core.ShadowErrors.TypeCastErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\NetCommon\NetCommonModule.cpp.obj"
+"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\NetCommon\ShaderCompileWorker-NetCommon.lib"

@@ -1,0 +1,11 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:CONSOLE
+/DEF
+/NAME:"ShaderCompileWorker.exe"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\ShaderCompileWorker\Module.ShaderCompileWorker.cpp.obj"
+"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\ShaderCompileWorker.lib"

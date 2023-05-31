@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Persona.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Persona\Module.Persona.1_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Persona\Module.Persona.2_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Persona\Module.Persona.3_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Persona\Module.Persona.4_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Persona\Module.Persona.5_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Persona\Module.Persona.6_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Persona\UnrealEditor-Persona.lib"

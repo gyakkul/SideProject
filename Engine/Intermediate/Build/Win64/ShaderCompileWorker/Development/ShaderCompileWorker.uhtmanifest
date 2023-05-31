@@ -1,0 +1,363 @@
+{
+  "IsGameTarget": false,
+  "RootLocalPath": "C:\\WorkSpace\\SideProject1",
+  "TargetName": "ShaderCompileWorker",
+  "ExternalDependenciesFile": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Development\\ShaderCompileWorker.deps",
+  "Modules": [
+    {
+      "Name": "CoreUObject",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\CoreUObject",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\CoreUObject\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\CoreUObject\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\CoreNetTypes.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\NoExportTypes.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\CoreUObject\\UHT\\CoreUObject.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "InputCore",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\InputCore",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\InputCore\\Classes",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\InputCore\\UHT",
+      "ClassesHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\InputCore\\Classes\\InputCoreTypes.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\InputCore\\UHT\\InputCore.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SlateCore",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SlateCore\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Debugging\\SlateDebugging.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Fonts\\FontBulkData.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Fonts\\CompositeFont.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Fonts\\FontFaceInterface.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Fonts\\FontCache.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Fonts\\FontProviderInterface.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Fonts\\SlateFontInfo.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Input\\Events.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Input\\NavigationReply.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Layout\\FlowDirection.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Layout\\Geometry.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Layout\\Clipping.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Layout\\Margin.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Rendering\\RenderingCommon.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Sound\\SlateSound.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SegmentedControlStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SlateColor.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SlateBrush.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SlateTypes.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SlateWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SlateWidgetStyleAsset.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SlateWidgetStyleContainerBase.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\SlateWidgetStyleContainerInterface.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\StyleColors.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Styling\\ToolBarStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Types\\SlateEnums.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SlateCore\\Public\\Types\\SlateVector2.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [
+        "WITH_FREETYPE=1"
+      ],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SlateCore\\UHT\\SlateCore.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "Slate",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\Slate\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\SlateSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Commands\\InputChord.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Commands\\UICommandInfo.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\MultiBox\\MultiBoxDefs.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\MultiBox\\ToolMenuBase.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\ButtonWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\CheckBoxWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\ComboBoxWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\ComboButtonWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\EditableTextBoxWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\EditableTextWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\ProgressWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\ScrollBarWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\ScrollBoxWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\TextBlockWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Styling\\SpinBoxWidgetStyle.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Text\\TextLayout.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Framework\\Views\\ITypedTableView.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Widgets\\Input\\IVirtualKeyboardEntry.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Widgets\\Layout\\Anchors.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Widgets\\Layout\\SScaleBox.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Widgets\\Layout\\SScrollBox.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Widgets\\Notifications\\SProgressBar.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Widgets\\Text\\ISlateEditableTextWidget.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\Slate\\Public\\Widgets\\Views\\STableViewBase.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\Slate\\UHT\\Slate.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "DeveloperSettings",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\DeveloperSettings",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\DeveloperSettings\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\DeveloperSettings\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\DeveloperSettings\\Public\\Engine\\DeveloperSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\DeveloperSettings\\Public\\Engine\\DeveloperSettingsBackedByCVars.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\DeveloperSettings\\Public\\Engine\\PlatformSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\DeveloperSettings\\Public\\Engine\\PlatformSettingsManager.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\DeveloperSettings\\UHT\\DeveloperSettings.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AudioPlatformConfiguration",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AudioPlatformConfiguration",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AudioPlatformConfiguration\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\AudioPlatformConfiguration\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AudioPlatformConfiguration\\Public\\AudioCompressionSettings.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\AudioPlatformConfiguration\\UHT\\AudioPlatformConfiguration.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "EngineSettings",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\EngineSettings\\UHT",
+      "ClassesHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes\\ConsoleSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes\\GameSessionSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes\\HudSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes\\GameMapsSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes\\GeneralEngineSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes\\GameNetworkManagerSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\EngineSettings\\Classes\\GeneralProjectSettings.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\EngineSettings\\UHT\\EngineSettings.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SessionMessages",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SessionMessages",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SessionMessages\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SessionMessages\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\SessionMessages\\Public\\SessionServiceMessages.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SessionMessages\\UHT\\SessionMessages.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AssetRegistry",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AssetRegistry",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AssetRegistry\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\AssetRegistry\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AssetRegistry\\Public\\AssetRegistry\\AssetRegistryHelpers.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AssetRegistry\\Public\\AssetRegistry\\IAssetRegistry.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\AssetRegistry\\Private\\AssetRegistry.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\AssetRegistry\\UHT\\AssetRegistry.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "VectorVM",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\VectorVM",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\VectorVM\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\VectorVM\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Runtime\\VectorVM\\Public\\VectorVMCommon.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [
+        "VECTORVM_SUPPORTS_EXPERIMENTAL=1",
+        "VECTORVM_SUPPORTS_LEGACY=1"
+      ],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\VectorVM\\UHT\\VectorVM.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "DeveloperToolSettings",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\DeveloperToolSettings",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\DeveloperToolSettings\\Classes",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\DeveloperToolSettings\\UHT",
+      "ClassesHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\DeveloperToolSettings\\Classes\\CookerSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\DeveloperToolSettings\\Classes\\Settings\\PlatformsMenuSettings.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\DeveloperToolSettings\\Classes\\Settings\\ProjectPackagingSettings.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\DeveloperToolSettings\\UHT\\DeveloperToolSettings.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "ToolMenus",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\ToolMenus\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenu.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenuContext.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenuDelegates.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenuMisc.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenuOwner.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenus.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenuEntry.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenuSection.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Public\\ToolMenuEntryScript.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\ToolMenus\\Private\\ToolMenusBlueprintLibrary.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\ToolMenus\\UHT\\ToolMenus.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SourceCodeAccess",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\SourceCodeAccess",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\SourceCodeAccess\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SourceCodeAccess\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\SourceCodeAccess\\Private\\SourceCodeAccessSettings.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SourceCodeAccess\\UHT\\SourceCodeAccess.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SourceControl",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\SourceControl",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\SourceControl\\Public",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SourceControl\\UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\SourceControl\\Public\\SourceControlHelpers.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Developer\\SourceControl\\Public\\SourceControlPreferences.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [
+        "SOURCE_CONTROL_WITH_SLATE=1"
+      ],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\SourceControl\\UHT\\SourceControl.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "UnrealEdMessages",
+      "ModuleType": "EngineEditor",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Editor\\UnrealEdMessages",
+      "IncludeBase": "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Editor\\UnrealEdMessages\\Classes",
+      "OutputDirectory": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\UnrealEdMessages\\UHT",
+      "ClassesHeaders": [
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Editor\\UnrealEdMessages\\Classes\\AssetEditorMessages.h",
+        "C:\\WorkSpace\\SideProject1\\Engine\\Source\\Editor\\UnrealEdMessages\\Classes\\FileServerMessages.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "C:\\WorkSpace\\SideProject1\\Engine\\Intermediate\\Build\\Win64\\ShaderCompileWorker\\Inc\\UnrealEdMessages\\UHT\\UnrealEdMessages.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    }
+  ],
+  "UhtPlugins": []
+}

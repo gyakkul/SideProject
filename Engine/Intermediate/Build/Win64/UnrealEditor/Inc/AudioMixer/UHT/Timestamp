@@ -1,0 +1,10 @@
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Classes\Generators\AudioGenerator.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Classes\SubmixEffects\AudioMixerSubmixEffectDynamicsProcessor.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Classes\SubmixEffects\AudioMixerSubmixEffectEQ.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Classes\SubmixEffects\AudioMixerSubmixEffectReverb.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Public\AudioBusSubsystem.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Public\AudioMixerBlueprintLibrary.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Public\AudioDeviceNotificationSubsystem.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Public\Components\SynthComponent.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Public\Quartz\AudioMixerClockHandle.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioMixer\Public\Quartz\QuartzSubsystem.h

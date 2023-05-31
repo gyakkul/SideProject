@@ -1,0 +1,82 @@
+..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Core\Module.Core.1_of_16.cpp
+/I .
+/I Runtime\SynthBenchmark\Public
+/I Runtime\Engine\Public
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Team Tools\Performance Tools\x64\PerfSDK"
+/I Runtime\Core\Private
+/I Runtime\BuildSettings\Public
+/I Runtime
+/I ThirdParty
+/I ThirdParty\Intel
+/I ThirdParty\Windows
+/I Developer\TargetPlatform\Public
+/I Developer
+/I Developer\TextureFormat\Public
+/I Developer\DerivedDataCache\Public
+/I Developer\DerivedDataCache\Internal
+/I Runtime\InputDevice\Public
+/I Runtime\Analytics\Analytics\Public
+/I Runtime\Analytics
+/I Runtime\RHI\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I Runtime\Core\Internal
+/I ThirdParty\BLAKE3\1.3.1\c
+/I Runtime\OodleDataCompression\Sdks\2.9.8\include
+/I ThirdParty\Intel\TBB\IntelTBB-2019u8\include
+/I ThirdParty\zlib\1.2.12\include
+/I ThirdParty\Intel\VTune\VTune-2019\include
+/I ThirdParty\Windows\PIX\include
+/I ThirdParty\mimalloc\include
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Core\PCH.Core.h"
+/Yu"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Core\PCH.Core.h"
+/Fp"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Core\PCH.Core.h.pch"
+/Fo"..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Core\Module.Core.1_of_16.cpp.obj"
+/sourceDependencies ..\Intermediate\Build\Win64\x64\ShaderCompileWorker\Development\Core\Module.Core.1_of_16.cpp.dep.json
+/Zc:inline
+/nologo
+/Oi
+/FC
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/Zc:hiddenFriend
+/Zc:__cplusplus
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_WINDLL
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/fastfail
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/D_HAS_EXCEPTIONS=0
+/DPLATFORM_EXCEPTIONS_DISABLED=1
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/we4456
+/we4458
+/we4459
+/wd4463
+/we4668
+/we4244
+/we4838
+/TP
+/GR-
+/W4
+/std:c++17

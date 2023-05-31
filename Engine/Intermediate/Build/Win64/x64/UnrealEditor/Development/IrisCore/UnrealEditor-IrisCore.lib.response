@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-IrisCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\IrisCore\Module.IrisCore.1_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\IrisCore\Module.IrisCore.2_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\IrisCore\Module.IrisCore.3_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\IrisCore\Module.IrisCore.4_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\IrisCore\Module.IrisCore.5_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\IrisCore\Module.IrisCore.6_of_6.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\IrisCore\UnrealEditor-IrisCore.lib"

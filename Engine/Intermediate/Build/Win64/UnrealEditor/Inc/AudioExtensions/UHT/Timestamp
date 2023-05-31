@@ -1,0 +1,10 @@
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\AudioParameter.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\AudioParameterControllerInterface.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\IAudioCodec.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\IAudioEndpoint.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\IAudioExtensionPlugin.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\IAudioModulation.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\ISoundfieldEndpoint.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\ISoundfieldFormat.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Public\IWaveformTransformation.h
+C:\WorkSpace\SideProject1\Engine\Source\Runtime\AudioExtensions\Private\PcmCodec.h

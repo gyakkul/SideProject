@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SlateCore.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\SlateCore\Module.SlateCore.1_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\SlateCore\Module.SlateCore.2_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\SlateCore\Module.SlateCore.3_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\SlateCore\Module.SlateCore.4_of_4.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\SlateCore\UnrealEditor-SlateCore.lib"

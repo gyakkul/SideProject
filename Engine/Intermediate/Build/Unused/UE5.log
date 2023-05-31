@@ -1,0 +1,26 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="UnrealEditor Win64 Development" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
+  Log file: C:\WorkSpace\SideProject1\Engine\Programs\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\WorkSpace\SideProject1).
+  Waiting for 'git status' command to complete
+  Invalidating makefile for UnrealEditor (working set of source files changed)
+  Invalidating makefile for ShaderCompileWorker (working set of source files changed)
+  Building UnrealEditor and ShaderCompileWorker...
+  Using Visual Studio 2019 14.29.30148 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Notice: Visual Studio 2019 will no longer be supported for the installed engine in UE 5.3. Compiling code for Microsoft platforms will require Visual Studio 2022 in UE 5.4 and beyond.
+  [Adaptive Build] Excluded from ClothPainter unity file: ClothingAssetExporter.cpp, ClothingAssetListCommands.cpp, ClothingPaintEditMode.cpp, ClothMeshAdapter.cpp, ClothPainter.cpp, ClothPainterCommands.cpp, ClothPaintingModule.cpp, ClothPaintSettingsCustomization.cpp, ClothPaintToolCommands.cpp, ClothPaintTools.cpp, SClothAssetSelector.cpp, SClothPaintTab.cpp, SClothPaintWidget.cpp, SCopyVertexColorSettingsPanel.cpp
+  [Adaptive Build] Excluded from WebAPIEditor unity file: WebAPIDefinition.cpp, WebAPIEditorCommands.cpp, WebAPIEditorLog.cpp, WebAPIEditorModule.cpp, WebAPIEditorSettings.cpp, WebAPIEditorStyle.cpp, WebAPIEditorSubsystem.cpp, WebAPIEditorUtilities.cpp, WebAPIEditorWidgetUtilities.cpp, WebAPIMessageLog.cpp, WebAPIPluginWizardDefinition.cpp, WebAPIProvider.cpp, WebAPIProviderSettings.cpp, WebAPIDefinitionAssetEditorToolkit.cpp, WebAPIDefinitionAssetTypeActions.cpp, WebAPICodeGenerator.cpp, WebAPICodeGeneratorSettings.cpp, WebAPICodeGenBase.cpp, WebAPICodeGenClass.cpp, WebAPICodeGenEnum.cpp, WebAPICodeGenFile.cpp, WebAPICodeGenOperation.cpp, WebAPICodeGenProperty.cpp, WebAPICodeGenSettings.cpp, WebAPICodeGenStruct.cpp, WebAPIDefinitionDetailsCustomization.cpp, WebAPIDefinitionTargetModuleCustomization.cpp, WebAPICodeViewModel.cpp, WebAPIEnumViewModel.cpp, WebAPIModelViewModel.cpp, WebAPIOperationParameterViewModel.cpp, WebAPIOperationRequestViewModel.cpp, WebAPIOperationResponseViewModel.cpp, WebAPIOperationViewModel.cpp, WebAPIParameterViewModel.cpp, WebAPIServiceViewModel.cpp, WebAPIViewModel.cpp, SWebAPICodeView.cpp, SWebAPIMessageLog.cpp, SWebAPIModulePicker.cpp, SWebAPISchemaEnumRow.cpp, SWebAPISchemaEnumValueRow.cpp, SWebAPISchemaModelRow.cpp, SWebAPISchemaOperationParameterRow.cpp, SWebAPISchemaOperationRequestRow.cpp, SWebAPISchemaOperationResponseRow.cpp, SWebAPISchemaOperationRow.cpp, SWebAPISchemaParameterRow.cpp, SWebAPISchemaPropertyRow.cpp, SWebAPISchemaServiceRow.cpp, SWebAPISchemaTreeTableRow.cpp, SWebAPITreeView.cpp, WebAPICompositeModel.cpp, WebAPIEnum.cpp, WebAPIModel.cpp, WebAPIOperation.cpp, WebAPIParameter.cpp, WebAPISchema.cpp, WebAPIService.cpp, WebAPIType.cpp, WebAPITypeRegistry.cpp, WebAPIDefinitionFactory.cpp, WebAPIEditorUtilities.spec.cpp, WebAPIJsonUtilities.spec.cpp
+  [Adaptive Build] Excluded from WebAPIOpenAPI unity file: WebAPIOpenAPILog.cpp, WebAPIOpenAPIModule.cpp, WebAPIOpenAPIFactoryBase.cpp, WebAPIOpenAPI3.spec.cpp, WebAPISwagger.spec.cpp, WebAPISwaggerConverter.cpp, WebAPISwaggerFactory.cpp, WebAPISwaggerProvider.cpp, WebAPISwaggerSchema.cpp, WebAPIOpenAPIConverter.cpp, WebAPIOpenAPIFactory.cpp, WebAPIOpenAPIProvider.cpp, WebAPIOpenAPISchema.cpp
+  Determining max actions to execute in parallel (16 physical cores, 32 logical cores)
+    Executing up to 16 processes, one per physical core
+    Requested 1.5 GB free memory per action, 22.68 GB available: limiting max parallel actions to 15
+  Building 5 actions with 5 processes...
+  [1/5] Compile [x64] Module.ClothPainter.cpp
+  [2/5] Link [x64] UnrealEditor-ClothPainter.lib
+     ..\Intermediate\Build\Win64\x64\UnrealEditor\Development\ClothPainter\UnrealEditor-ClothPainter.lib 라이브러리 및 ..\Intermediate\Build\Win64\x64\UnrealEditor\Development\ClothPainter\UnrealEditor-ClothPainter.exp 개체를 생성하고 있습니다.
+  [3/5] Link [x64] UnrealEditor-ClothPainter.dll
+     ..\Intermediate\Build\Win64\x64\UnrealEditor\Development\ClothPainter\UnrealEditor-ClothPainter.suppressed.lib 라이브러리 및 ..\Intermediate\Build\Win64\x64\UnrealEditor\Development\ClothPainter\UnrealEditor-ClothPainter.suppressed.exp 개체를 생성하고 있습니다.
+  [4/5] WriteMetadata UnrealEditor.version
+  [5/5] WriteMetadata UnrealEditor.target
+  Total time in Parallel executor: 11.93 seconds
+  Total execution time: 97.51 seconds

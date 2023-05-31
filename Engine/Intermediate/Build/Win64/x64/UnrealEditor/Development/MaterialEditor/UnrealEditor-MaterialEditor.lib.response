@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MaterialEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MaterialEditor\Module.MaterialEditor.1_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MaterialEditor\Module.MaterialEditor.2_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MaterialEditor\Module.MaterialEditor.3_of_3.cpp.obj"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Default.rc2.res"
+/OUT:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\MaterialEditor\UnrealEditor-MaterialEditor.lib"

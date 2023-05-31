@@ -1,0 +1,14 @@
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\ISequencer.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\ISequencerSection.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\SequencerExportTask.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\SequencerKeyStructGenerator.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\SequencerSettings.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\SequencerTrackFilterExtension.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\SequencerUtilities.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Public\Tools\MotionTrailOptions.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Private\MovieSceneCopyableBinding.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Private\MovieSceneCopyableTrack.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Private\SequencerKeyActor.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Private\SequencerMeshTrail.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Private\SequencerTimeChangeUndoRedoProxy.h
+C:\WorkSpace\SideProject1\Engine\Source\Editor\Sequencer\Private\SequencerToolMenuContext.h
