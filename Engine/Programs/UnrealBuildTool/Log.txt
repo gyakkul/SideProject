@@ -1,4 +1,4 @@
-Log started at 05/29/2023 16:02:22 (2023-05-29T07:02:22Z)
+Log started at 06/01/2023 21:02:11 (2023-06-01T12:02:11Z)
 Adding event matcher: CompileEventMatcher
 Adding event matcher: LinkEventMatcher
 Adding event matcher: MicrosoftEventMatcher
@@ -34,17 +34,17 @@ HoloLens Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.9999
         Registering build platform: HoloLens - buildable: True
 Command line: C:\WorkSpace\SideProject1\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll "-Target=ThirdPersonEditor Win64 Development -Project=\"C:\WorkSpace\SideProject1\ThirdPerson\ThirdPerson.uproject\"" "-Target=ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild
 Log file: C:\WorkSpace\SideProject1\Engine\Programs\UnrealBuildTool\Log.txt
-Deleting old log file: C:\WorkSpace\SideProject1\Engine\Programs\UnrealBuildTool\Log-backup-2023.05.28-12.14.50.txt
+Deleting old log file: C:\WorkSpace\SideProject1\Engine\Programs\UnrealBuildTool\Log-backup-2023.05.28-12.14.51.txt
 
 Using 'git status' to determine working set for adaptive non-unity build (C:\WorkSpace\SideProject1).
 Waiting for 'git status' command to complete
 Generated code is up to date.
 Generated code is up to date.
 Targets are up to date
-Total execution time: 15.45 seconds
+Total execution time: 7.82 seconds
 WriteFileIfChanged() wrote 0 changed files of 0 requested writes.
 Timeline:
 
 [ 0.000]
-[ 0.000](+15.455) <unknown>
-[15.455]
+[ 0.000](+7.827) <unknown>
+[ 7.827]

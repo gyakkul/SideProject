@@ -1,4 +1,4 @@
-Log started at 2023-05-29 오후 4:06:59 (2023-05-29T07:06:59Z)
+Log started at 2023-06-01 오후 9:02:48 (2023-06-01T12:02:48Z)
 Starting AutomationTool...
 Parsing command line: -ScriptsForProject=C:/WorkSpace/SideProject1/ThirdPerson/ThirdPerson.uproject Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename=C:/WorkSpace/SideProject1/ThirdPerson/Intermediate/TurnkeyReport_1.log -log=C:/WorkSpace/SideProject1/ThirdPerson/Intermediate/TurnkeyLog_1.log -project=C:/WorkSpace/SideProject1/ThirdPerson/ThirdPerson.uproject -Device=Win64@DESKTOP-T1UPMPJ -nocompile -nocompileuat
 Found project file: C:\WorkSpace\SideProject1\ThirdPerson\ThirdPerson.uproject
@@ -43,7 +43,7 @@ Loaded script module build record C:\WorkSpace\SideProject1\Engine\Intermediate\
 Loaded script module build record C:\WorkSpace\SideProject1\Engine\Intermediate\ScriptModules\UnrealBuildTool.json
 Loaded script module build record C:\WorkSpace\SideProject1\Engine\Intermediate\ScriptModules\Win.Automation.json
 Loaded script module build record C:\WorkSpace\SideProject1\Engine\Intermediate\ScriptModules\XLocLocalization.Automation.json
-Total script module initialization time: 0.82 s.
+Total script module initialization time: 0.75 s.
 Adding event matcher: ContentEventMatcher
 Adding event matcher: CrashEventMatcher
 Adding event matcher: ExceptionEventMatcher
