@@ -56,7 +56,7 @@ void AThirdPersonCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Log, TEXT("Test"));
+	//UE_LOG(LogTemp, Log, TEXT("Test"));
 
 	//Add Input Mapping Context
 	if (APlayerController* PlayerController = Cast<APlayerController>(Controller))
